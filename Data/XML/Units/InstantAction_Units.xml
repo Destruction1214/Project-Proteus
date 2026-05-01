@@ -11963,7 +11963,7 @@
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
 
 		<CategoryMask>Wall</CategoryMask>
-		<Lua_Script>Add_InstantActionUnit_Imperial_Proteus</Lua_Script>
+		<Lua_Script>Add_InstantActionUnit_Imperial_Proteus2</Lua_Script>
 	</UpgradeObject>
 
 	<UpgradeObject Name="IA_Shadow_Acclamator_I_Carrier">
@@ -12040,7 +12040,7 @@
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
 
 		<CategoryMask>Wall</CategoryMask>
-		<Lua_Script>Add_InstantActionUnit_Imperial_Proteus</Lua_Script>
+		<Lua_Script>Add_InstantActionUnit_Imperial_Proteus2</Lua_Script>
 	</UpgradeObject>
 
 	<UpgradeObject Name="IA_Venator_8X">
@@ -12082,7 +12082,7 @@
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
 
 		<CategoryMask>Wall</CategoryMask>
-		<Lua_Script>Add_InstantActionUnit_Imperial_Proteus</Lua_Script>
+		<Lua_Script>Add_InstantActionUnit_Imperial_Proteus2</Lua_Script>
 	</UpgradeObject>
 
 	<UpgradeObject Name="IA_Victory_I_Fleet_Star_Destroyer">
@@ -12121,7 +12121,7 @@
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
 
 		<CategoryMask>Wall</CategoryMask>
-		<Lua_Script>Add_InstantActionUnit_Imperial_Proteus</Lua_Script>
+		<Lua_Script>Add_InstantActionUnit_Imperial_Proteus2</Lua_Script>
 	</UpgradeObject>
 
 	<UpgradeObject Name="IA_Victory_II_Carrier">
@@ -12160,7 +12160,7 @@
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
 
 		<CategoryMask>Wall</CategoryMask>
-		<Lua_Script>Add_InstantActionUnit_Imperial_Proteus</Lua_Script>
+		<Lua_Script>Add_InstantActionUnit_Imperial_Proteus2</Lua_Script>
 	</UpgradeObject>
 
 	<UpgradeObject Name="IA_Acclamator_Destroyer">
