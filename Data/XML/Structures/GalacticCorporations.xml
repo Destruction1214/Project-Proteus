@@ -260,7 +260,7 @@
 			<Reduce_Production_Price_Ability Name="Balmorran_Arms_Reduce_Production_Price">
 				<Applicable_Unit_Categories/>
 				<Applicable_Unit_Types>
-				CSA_B1_Droid_Company, AT_ST_Company, AT_ST_A_Company,
+				CSA_B1_Droid_Company, AT_ST_Company, AT_ST_A_Company, AT_KT_Company,
 				SD_6_Droid_Company, SD_9_Droid_Company, SD_10_Droid_Company, X1_Viper_Company <!-- influence units -->, SD_6_Droid_Company_Sellasas
 				</Applicable_Unit_Types>
 				<Price_Reduction_Percentage>0.30</Price_Reduction_Percentage>
@@ -270,7 +270,7 @@
 			<Reduce_Production_Time_Ability Name="Balmorran_Arms_Production_Time_Bonus">
 				<Applicable_Unit_Categories/>
 				<Applicable_Unit_Types>
-				CSA_B1_Droid_Company, AT_ST_Company, AT_ST_A_Company,
+				CSA_B1_Droid_Company, AT_ST_Company, AT_ST_A_Company, AT_KT_Company
 				SD_6_Droid_Company, SD_9_Droid_Company, SD_10_Droid_Company, X1_Viper_Company <!-- influence units -->, SD_6_Droid_Company_Sellasas
 				</Applicable_Unit_Types>
 				<Time_Reduction_Percentage>0.30</Time_Reduction_Percentage>
