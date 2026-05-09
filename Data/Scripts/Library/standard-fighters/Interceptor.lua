@@ -171,7 +171,7 @@ return {
 			elseif proteus == "GAROS" then
 				fighter = "ARMORED_TIE_INTERCEPTOR_SQUADRON"
 			elseif proteus == "NABOO" then
-				fighter = "ALPHA_NIMBUS_VWING_SQUADRON"
+				fighter = "NIMBUS_V_WING_SQUADRON"
 			elseif proteus == "KAMINO" then
 				fighter = "TIE_INTERCEPTOR_SQUADRON"
 			elseif proteus == "CIUTRIC_HEGEMONY" then
