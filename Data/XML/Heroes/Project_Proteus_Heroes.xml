@@ -411,6 +411,7 @@
 		<Variant_Of_Existing_Type>Mandator_III_Dreadnought</Variant_Of_Existing_Type>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Text_ID>TEXT_HERO_HARRSK</Text_ID>
+		<Lua_Script>GenericGameObject</Lua_Script>
 		<Encyclopedia_Text> 
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_09_SPACE
