@@ -3520,7 +3520,7 @@
 		<Is_Escort>yes</Is_Escort>
 		<Ship_Class>tank</Ship_Class>
 		<Company_Transport_Unit>Imperial_Landing_Craft_Light_Vehicles</Company_Transport_Unit>
-		<Company_Units>SP9, SP9, SP9, SP9, SP9, SP9</Company_Units>
+		<Company_Units>SP9, SP9, SP9, SP9</Company_Units>
 		<Max_Squad_Size> 1 </Max_Squad_Size>
 		<Icon_Name>I_BUTTON_SP9_2.tga</Icon_Name>
 		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
@@ -4799,7 +4799,7 @@
 		<Maintenance_Cost>0.0</Maintenance_Cost>
 
 	
-	<Build_Limit_Current_Per_Player>2</Build_Limit_Current_Per_Player>
+	<!-- <Build_Limit_Current_Per_Player>2</Build_Limit_Current_Per_Player> -->
 	<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 
 	</GroundCompany>
