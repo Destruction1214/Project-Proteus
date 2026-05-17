@@ -2753,7 +2753,8 @@
 		<Company_Units>AT_AT_WALKER_IC</Company_Units>
 	</GroundCompany>
 	
-	<!--008 Heavy Landspeeder, stats by Bucman and Coyote, model by Kubli and Kalani-->
+	<!--008 Heavy Landspeeder, stats by Bucman and Coyote, model by Kubli and Kalani, turret articulation by Stagkiller121-->
+
 	<GroundVehicle Name="008_Speeder">
 
 		<Text_ID>TEXT_UNIT_008_SPEEDER</Text_ID>
@@ -3032,7 +3033,7 @@
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Pirate_Skiff</SFXEvent_Fleet_Move>
 
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Company_Units>008_SPEEDER, 008_SPEEDER, 008_SPEEDER, 008_SPEEDER</Company_Units>
+		<Company_Units>008_SPEEDER, 008_SPEEDER</Company_Units>
 		<Maintenance_Cost>0.0</Maintenance_Cost>
 
 	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->

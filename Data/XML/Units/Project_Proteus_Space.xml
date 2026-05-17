@@ -572,6 +572,7 @@
 
 		<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron_Half, 1</Starting_Spawned_Units_Tech_0>
 
+		<Space_Model_Name>Zeta_Carrack.ALO</Space_Model_Name>
 		<Lua_Script>GenericGameObject</Lua_Script>
 		<Build_Cost_Credits>1040</Build_Cost_Credits>
 

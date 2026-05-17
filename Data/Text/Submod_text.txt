@@ -425,7 +425,7 @@ TEXT_TIE_LIGHT_BOMBER_SQUADRON,TIE Light Bomber Squadron
 TEXT_TIE_LIGHT_BOMBER_SQUADRON_HALF,TIE Light Bomber Squadron 1/2
 TEXT_TIE_LIGHT_BOMBER2_SQUADRON,TIE Light Bomber Squadron x2
 TEXT_TOOLTIP_008_SPEEDER,A model of heavy combat repulsorlift released during the height of the Galactic Civil War. The 008 was popular with remote Imperial garrisons in the Rim as well as mercenary units who acquire the vehicles through questionable means. While it proved a potent combatant, its service history and reputation was marred by a design flaw that caused the craft to become unstable if both weapons were fired simultaneously.
-TEXT_TOOLTIP_008_SPEEDER_COMPANY,Company: 4x 008 Heavy Landspeeder
+TEXT_TOOLTIP_008_SPEEDER_COMPANY,Company: 2x 008 Heavy Landspeeder
 TEXT_TOOLTIP_008_SPEEDER_HEALTH,Health: 250 (Medium Vehicle)
 TEXT_TOOLTIP_008_SPEEDER_MOVE,Speed: 2.50 | Turn: 3.0
 TEXT_TOOLTIP_008_WEAP1,1x AV Blaster Cannon: 4 / 2.0s / 400m
