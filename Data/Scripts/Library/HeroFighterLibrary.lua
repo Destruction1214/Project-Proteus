@@ -511,6 +511,9 @@ function Get_Hero_Entries(upgrade_object)
 				{"KAEROBANI", Locations = {"KAEROBANI_INTERDICTOR"}},
 				{"FAARL", Locations = {"FAARL_DP20"}},
 				{"TYRUS", Locations = {"TYRUS_STACKED_DECK"}},
+				{"KRIEG", Locations = {"KRIEG_IMMOBILIZER"}},
+				{"MERES_ULCANE", Locations = {"ULCANE_DISSENSION"}},
+				{"SCHMONG", Locations = {"KIARA_SCHMONG"}},
 			}
 		},
 		["SSURUSSK_LOCATION_SET"] = {
@@ -541,6 +544,9 @@ function Get_Hero_Entries(upgrade_object)
 				{"KAEROBANI", Locations = {"KAEROBANI_INTERDICTOR"}},
 				{"FAARL", Locations = {"FAARL_DP20"}},
 				{"TYRUS", Locations = {"TYRUS_STACKED_DECK"}},
+				{"KRIEG", Locations = {"KRIEG_IMMOBILIZER"}},
+				{"MERES_ULCANE", Locations = {"ULCANE_DISSENSION"}},
+				{"SCHMONG", Locations = {"KIARA_SCHMONG"}},
 			}
 		},
 		["STORMTROOPER_X_LOCATION_SET"] = {
@@ -571,6 +577,9 @@ function Get_Hero_Entries(upgrade_object)
 				{"KAEROBANI", Locations = {"KAEROBANI_INTERDICTOR"}},
 				{"FAARL", Locations = {"FAARL_DP20"}},
 				{"TYRUS", Locations = {"TYRUS_STACKED_DECK"}},
+				{"KRIEG", Locations = {"KRIEG_IMMOBILIZER"}},
+				{"MERES_ULCANE", Locations = {"ULCANE_DISSENSION"}},
+				{"SCHMONG", Locations = {"KIARA_SCHMONG"}},
 			}
 		},
 		-- EotH

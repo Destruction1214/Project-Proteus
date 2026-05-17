@@ -106,9 +106,9 @@ return {
 				fighter = "TIE_PHANTOM_SQUADRON"
 			elseif proteus == "TAPANI" then
 				fighter = "TIE_INTERCEPTOR_SQUADRON"
-				-- if Get_Fighter_Research("A9Fighters") then
-				-- 	fighter = "A9_SQUADRON"
-				-- end
+				if Get_Fighter_Research("TapaniA9") then
+				fighter = "A9_SQUADRON"
+				end
 			elseif proteus == "RESTORED_EMPIRE" then
 				fighter = "NIMBUS_V_WING_SQUADRON"
 			elseif proteus == "ZAARIN_REMNANTS" then
