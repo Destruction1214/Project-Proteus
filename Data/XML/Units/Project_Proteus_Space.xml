@@ -4670,7 +4670,6 @@
 		</Encyclopedia_Text>
 		<Icon_Name>I_BUTTON_LUCREHULK_AUXILIARY.tga</Icon_Name>
 		<Space_Model_Name>lucrehulk_qship.ALO</Space_Model_Name>
-		<No_Colorization_Color>239, 139, 9, 255</No_Colorization_Color>
 
 		<Death_Clone>Damage_Normal, Massa_Lucrehulk_Auxiliary_Death_Clone</Death_Clone>
 		

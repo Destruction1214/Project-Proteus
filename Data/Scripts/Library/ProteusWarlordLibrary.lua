@@ -443,7 +443,7 @@ return {
 		},
 		["PROPHETS"] = {
 			FriendlyName = "Prophets of the Dark Side",
-			Planets = {"KORRIBAN"},
+			Planets = {"KORRIBAN", "DROMUND_KAAS"},
 			LeaderTable = {["KADANN_TEAM"] = {"KADANN"}},
 			LeaderEndingNames = {"the Supreme Prophet"},
 			HeroList = {"Kadann_Team","Jedgar_Team",},
@@ -952,7 +952,7 @@ return {
 		},
 		["CATO_NEIMOIDIA"] = {
 			FriendlyName = "Imperial Neimoidia",
-			Planets = {"CATO_NEIMOIDIA"},
+			Planets = {"CATO_NEIMOIDIA", "KORU_NEIMOIDIA", "DEKO_NEIMOIDIA"},
 			LeaderTable= {["ERRON_IRBIAN_TEAM"] = {"ERRON_IRBIAN"}},
 			LeaderEndingNames = {"Emperor Irbian"},
 			HeroList = {"Erron_Irbian_Team", "TH313_Team"},
