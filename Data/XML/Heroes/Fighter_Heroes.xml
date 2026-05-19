@@ -9575,7 +9575,7 @@
 
 		<Text_ID>TEXT_HERO_SSURUSSK</Text_ID>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
-		<Affiliation>Zsinj_Empire, Hutt_Cartels</Affiliation>
+		<Affiliation>Zsinj_Empire, Hutt_Cartels, Imperial_Proteus</Affiliation>
 		<Icon_Name>i_button_ssurussk_set.tga</Icon_Name>
 
 		<Tech_Level>0</Tech_Level>
@@ -9609,6 +9609,9 @@
 		TEXT_HERO_MIKTISS
 		TEXT_HERO_KAEROBANI
 		TEXT_HERO_TYRUS
+		TEXT_HERO_KRIEG
+		TEXT_HERO_MERES_ULCANE
+		TEXT_HERO_SCHMONG
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_STORYEVENT</Encyclopedia_Unit_Class>
 
@@ -9782,7 +9785,7 @@
 
 		<Text_ID>TEXT_HERO_STORMTROOPER_X</Text_ID>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
-		<Affiliation>Zsinj_Empire, Hutt_Cartels</Affiliation>
+		<Affiliation>Zsinj_Empire, Hutt_Cartels, Imperial_Proteus</Affiliation>
 		<Icon_Name>i_button_stormtrooper_x_set.tga</Icon_Name>
 
 		<Tech_Level>0</Tech_Level>
@@ -9816,6 +9819,9 @@
 		TEXT_HERO_MIKTISS
 		TEXT_HERO_KAEROBANI
 		TEXT_HERO_TYRUS
+		TEXT_HERO_KRIEG
+		TEXT_HERO_MERES_ULCANE
+		TEXT_HERO_SCHMONG
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_STORYEVENT</Encyclopedia_Unit_Class>
 
@@ -10017,7 +10023,7 @@
 
 		<Text_ID>TEXT_HERO_SCARLET</Text_ID>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
-		<Affiliation>Zsinj_Empire, Hutt_Cartels</Affiliation>
+		<Affiliation>Zsinj_Empire, Hutt_Cartels, Imperial_Proteus</Affiliation>
 		<Icon_Name>i_button_kath_scarlet_set.tga</Icon_Name>
 
 		<Tech_Level>0</Tech_Level>
@@ -10050,6 +10056,9 @@
 		TEXT_HERO_MIKTISS
 		TEXT_HERO_KAEROBANI
 		TEXT_HERO_TYRUS
+		TEXT_HERO_KRIEG
+		TEXT_HERO_MERES_ULCANE
+		TEXT_HERO_SCHMONG
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_STORYEVENT</Encyclopedia_Unit_Class>
 

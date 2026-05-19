@@ -63,7 +63,7 @@ return {
 		"Mandator_II_Dreadnought",
 		"Dragon_Trooper_Company", "Light_Mercenary_Company", "Imperial_Army_Guard_Company", "New_Republic_Overracer_Speeder_Bike_Company", "Imperial_AT_RT_Company", "Imperial_ISP_Company", "Arrow_23_Company", "AA70_Company", "Imperial_APC_Company", "SPMAT_Company", "Talon_Flamestrike_Cloud_Car_Company", "Imperial_Modified_LAAT_Company", "AT_OT_Walker_Company", "Imperial_A4_Juggernaut_Company", "CEC_HQ", "TaggeCo_HQ",
         --Tapani Sector added units
-		"DHC_Gunboat", "Proficient", "Mansk_Frigate", "Tapani_Assault_Frigate", "Hornet_Assault_Carrier",
+		"DHC_Gunboat", "Proficient", "Mansk_Frigate", "Tapani_Assault_Frigate", "Hornet_Assault_Carrier", "Tapani_A9_Research",
 		"Imperial_Bantha_II_Skiff_Company", "Repulsor_Scout_Company", "Nemesis_Gunship_Company", "Firebird_Stormtrooper_Company_Proteus",
         --Protectorate of Prakith added units 
         "Red_Police_Company", "Darksider_Company", "AT_DP_Company", "Talon_Flamestrike_Cloud_Car_Company", "T4A_Company",
@@ -118,7 +118,7 @@ return {
 		--Imperial Garos added units
 		"Imperial_AT_ACT_Walker_Company", "GAT_Company", "Imperial_I_Star_Destroyer_Stealth", "JX30_Company", "Hutt_AA_Skiff_Company",
 		--Kashyyyk
-		"Trandoshan_Hunter_Company", "Camo_AT_TE_Walker_Company", "IPV_Gunboat_Proteus", "Proteus_A6_Company", "Proteus_Kaloth", "Pirate_Base", "CC7700", "Space_Arc_Cruiser", "Super_Transport_XI_Modified_Pirate",
+		"Trandoshan_Hunter_Company", "Camo_AT_TE_Walker_Company", "Ipv1_Gunboat_Proteus", "Proteus_A6_Company", "Proteus_Kaloth", "Pirate_Base", "CC7700", "Space_Arc_Cruiser", "Super_Transport_XI_Modified_Pirate",
 		--Imperial Neimoidia added units
 		"Munifex", "SP9_Group", "CSA_Destroyer_Droid_Company", "Neimoidian_Guard_Company", "Lucrehulk_Battleship", "Lucrehulk_Auxiliary_Proteus", "Lucrehulk_CSA", "Lucrehulk_Core_Destroyer", "Neimoidia_Lucrehulk_Research_Proteus",
 		--Tamarin Sector added units
@@ -132,4 +132,6 @@ return {
 		"Hutt_Personnel_Skiff_IV_Company", "Canderous_Assault_Tank_Company_Proteus",
 		--Thorn added units
 		"Luxury_Barge_Company",
+		--Wessex added units
+		"Relgim_ATWalker_Research_Proteus", "Imperial_AT_AT_Walker_Turbolaser_Refit_Company",
 }

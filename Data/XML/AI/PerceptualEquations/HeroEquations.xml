@@ -196,7 +196,7 @@
 	</Shysa_In_Orbit>
 	<!-- Project Proteus -->
 	<Gurnst_In_Orbit>
-		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "GURNST"}
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Gurnst"}
 	</Gurnst_In_Orbit>
 	<Merili_In_Orbit>
 		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Merili"}

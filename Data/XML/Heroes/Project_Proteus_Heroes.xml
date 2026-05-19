@@ -159,7 +159,7 @@
 	</UniqueUnit>
 
 	<UniqueUnit Name="Mahkkar">
-		<Variant_Of_Existing_Type>Bayonet_Cruiser</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Interceptor_I_Frigate</Variant_Of_Existing_Type>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Text_ID>TEXT_HERO_MAHKKAR</Text_ID>
 		<Encyclopedia_Text>

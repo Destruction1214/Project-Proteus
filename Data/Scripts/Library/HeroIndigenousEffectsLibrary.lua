@@ -119,7 +119,7 @@ return {
 			RecruitingMessage = "General Weir's terror campaign on the populace has broken the spirit of the local partisans.",
 		},
 		GURNST = {
-			HeroName = "GURNST",
+			HeroName = "Gurnst",
 			GroundPerception = "Gurnst_In_Orbit",
 			RecruitingFaction = "DISABLE",
 			RecruitingMessage = "Gurnst's Task Force Bravo mercenary company has successfully quenched local resistance in the area, preventing any would-be partisans from organizing.",
