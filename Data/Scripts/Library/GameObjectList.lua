@@ -886,6 +886,7 @@ return {
 ["ACCLAMATOR_I_SUPPORT"] = true,
 ["BAYONET_CRUISER"] = true,
 ["CARRACK_CRUISER_LASER"] = true,
+["CORONA_TENDER"] = true,
 ["DASTA_TRADESTATION"] = true,
 ["DESANNE_DOMINION"] = true,
 ["DESANNE_DOMINION_DUMMY"] = true,
