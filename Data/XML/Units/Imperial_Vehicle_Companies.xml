@@ -4846,7 +4846,7 @@
 		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
 		TEXT_TOOLTIP_BONUS_ENHANCED_SENSORS
 		</Encyclopedia_Text>
-		<Icon_Name>I_BUTTON_HUTT_BANTHA2_SKIFF.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_EMPIRE_BANTHA2_SKIFF.tga</Icon_Name>
 
 		<Damage>40</Damage>
 
