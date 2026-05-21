@@ -11668,20 +11668,20 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UNIT_VINDICATOR_CARRIER</Text_ID>
 		<Encyclopedia_Text>
-		  TEXT_TOOLTIP_VINDICATOR_CARRIER
-		  TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		  TEXT_TOOLTIP_VINDICATOR_CARRIER_HULL
-		  TEXT_TOOLTIP_VINDICATOR_CARRIER_SHIELD
-		  TEXT_TOOLTIP_VINDICATOR_CARRIER_MOVE
-		  TEXT_TOOLTIP_VINDICATOR_CARRIER_SQUADRON
-		  TEXT_TOOLTIP_VINDICATOR_WEAP1
-		  TEXT_TOOLTIP_VINDICATOR_WEAP2
-		  TEXT_TOOLTIP_VINDICATOR_WEAP3 
-		  TEXT_TOOLTIP_VINDICATOR_WEAP4 
-		  TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
-		  TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
-		  TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
-		  TEXT_TOOLTIP_CAPABILITY_BOARDABLE
+			TEXT_TOOLTIP_VINDICATOR_CARRIER
+			TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+			TEXT_TOOLTIP_VINDICATOR_CARRIER_HULL
+			TEXT_TOOLTIP_VINDICATOR_CARRIER_SHIELD
+			TEXT_TOOLTIP_VINDICATOR_CARRIER_MOVE
+			TEXT_TOOLTIP_VINDICATOR_CARRIER_SQUADRON
+			TEXT_TOOLTIP_VINDICATOR_CARRIER_WEAP1
+			TEXT_TOOLTIP_VINDICATOR_CARRIER_WEAP2
+			TEXT_TOOLTIP_VINDICATOR_CARRIER_WEAP3 
+			TEXT_TOOLTIP_VINDICATOR_CARRIER_WEAP4 
+			TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+			TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+			TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
+			TEXT_TOOLTIP_CAPABILITY_BOARDABLE
 		  </Encyclopedia_Text>
 		
 		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
@@ -11963,7 +11963,7 @@
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
 
 		<CategoryMask>Wall</CategoryMask>
-		<Lua_Script>Add_InstantActionUnit_Imperial_Proteus</Lua_Script>
+		<Lua_Script>Add_InstantActionUnit_Imperial_Proteus2</Lua_Script>
 	</UpgradeObject>
 
 	<UpgradeObject Name="IA_Shadow_Acclamator_I_Carrier">
@@ -12040,7 +12040,7 @@
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
 
 		<CategoryMask>Wall</CategoryMask>
-		<Lua_Script>Add_InstantActionUnit_Imperial_Proteus</Lua_Script>
+		<Lua_Script>Add_InstantActionUnit_Imperial_Proteus2</Lua_Script>
 	</UpgradeObject>
 
 	<UpgradeObject Name="IA_Venator_8X">
@@ -12082,7 +12082,7 @@
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
 
 		<CategoryMask>Wall</CategoryMask>
-		<Lua_Script>Add_InstantActionUnit_Imperial_Proteus</Lua_Script>
+		<Lua_Script>Add_InstantActionUnit_Imperial_Proteus2</Lua_Script>
 	</UpgradeObject>
 
 	<UpgradeObject Name="IA_Victory_I_Fleet_Star_Destroyer">
@@ -12121,7 +12121,7 @@
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
 
 		<CategoryMask>Wall</CategoryMask>
-		<Lua_Script>Add_InstantActionUnit_Imperial_Proteus</Lua_Script>
+		<Lua_Script>Add_InstantActionUnit_Imperial_Proteus2</Lua_Script>
 	</UpgradeObject>
 
 	<UpgradeObject Name="IA_Victory_II_Carrier">
@@ -12160,7 +12160,7 @@
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
 
 		<CategoryMask>Wall</CategoryMask>
-		<Lua_Script>Add_InstantActionUnit_Imperial_Proteus</Lua_Script>
+		<Lua_Script>Add_InstantActionUnit_Imperial_Proteus2</Lua_Script>
 	</UpgradeObject>
 
 	<UpgradeObject Name="IA_Acclamator_Destroyer">

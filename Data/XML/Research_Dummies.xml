@@ -1141,7 +1141,7 @@
 		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
 
 		<Text_ID>TEXT_UNIT_CORONA_RESEARCH</Text_ID>
-		<Encyclopedia_Text> TEXT_TOOLTIP_CORONA_RESEARCH</Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_CORONA_RESEARCH_KUAT</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_TECHUPGRADE </Encyclopedia_Unit_Class>
 
 		<Icon_Name>i_button_corona_research.tga</Icon_Name>
