@@ -876,7 +876,7 @@ return {
 				"2M_Repulsor_Tank_Company", "Imperial_Light_Mobile_Artillery_Company", "Talon_Cloud_Car_Company", "Deathhawk_Company", "Imperial_Flashblind_Company",
 				"B5_Juggernaut_Company", "Heavy_Recovery_Vehicle_Company", "Lancet_Air_Artillery_Company",
 				-- Structure
-				"CEC_HQ", "Taim_Bak_HQ", "Sorosuub_HQ", 
+				"CEC_HQ", "Taim_Bak_HQ", "Sorosuub_HQ","TaggeCo_HQ",
 				-- Research
 				"Z_Research_MB", "Z_Research_Corona", "Z_Research_Gorath", "Z_Research_AF2", "Z_Research_MTC", "Z_Research_Scimitar",
 			},
