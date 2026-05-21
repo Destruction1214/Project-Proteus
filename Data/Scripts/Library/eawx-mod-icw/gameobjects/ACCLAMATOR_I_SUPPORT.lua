@@ -1,5 +1,5 @@
 return {
-	Ship_Crew_Requirement = 115,
+	Ship_Crew_Requirement = 155,
 	Fighters = {},
 	Scripts = {"multilayer"}
 }
