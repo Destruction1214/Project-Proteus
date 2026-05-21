@@ -3663,7 +3663,7 @@
 
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 		
-		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Supercapital </Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
     </HardPoint>
 
 	<HardPoint Name="HP_AS_Missile_Interceptor_01">

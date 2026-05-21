@@ -1,7 +1,7 @@
 return {
 	Ship_Crew_Requirement = 600,
 	Fighters = {
-		["ELITE_INTERCEPTOR"] = {
+		["ELITE_INTERCEPTOR_DOUBLE"] = {
 			DEFAULT = {Initial = 1, Reserve = 2},
 		},
 		["FIGHTER"] = {

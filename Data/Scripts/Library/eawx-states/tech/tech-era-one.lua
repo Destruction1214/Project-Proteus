@@ -84,6 +84,7 @@ return {
 				-- Historical-only units
 				"Navy_Commando_Company",
 				"Dark_Trooper_Phase_II_Company",
+				"Imperial_Jumptrooper_Company",
 				"AT_MP_Company",
 				"AT_ST_Company",
 				"Imperial_Missile_Artillery_Company",
@@ -91,6 +92,7 @@ return {
 				"Imperial_AT_TE_Walker_Company",
 				"Raider_I_Corvette",
 				"Raider_II_Corvette",
+				"Alliance_Assault_Frigate_II",
 				"Gladiator_II",
 				"Acclamator_I_Carrier",
 				"Acclamator_Battleship",

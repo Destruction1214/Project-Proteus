@@ -119,7 +119,7 @@ return {
 			elseif proteus == "WESSEX" then
 				fighter = "TIE_LIGHT_BOMBER_SQUADRON"
 			--elseif proteus == "HAMMERS" then
-				fighter = ""
+                --fighter = ""
 			elseif proteus == "QUINTAD" then
 				fighter = "TIE_LIGHT_BOMBER_SQUADRON"
 			elseif proteus == "IMPERIAL_LIANNA" then

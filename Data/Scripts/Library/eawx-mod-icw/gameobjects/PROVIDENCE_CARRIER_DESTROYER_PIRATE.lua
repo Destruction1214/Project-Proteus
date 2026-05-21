@@ -11,6 +11,6 @@ return {
 			DEFAULT = {Initial = 1, Reserve = 3}
 		}
 	},
-	Native = "CORPORATE_SECTOR",
+	Native = "IMPERIAL_PROTEUS",
 	Scripts = {"multilayer", "fighter-spawn"}
 }

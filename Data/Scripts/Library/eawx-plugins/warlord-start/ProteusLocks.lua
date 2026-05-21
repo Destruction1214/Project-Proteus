@@ -12,7 +12,7 @@ return {
 		"PX4_Company", "Imperial_A5_Juggernaut_Company", "Imperial_AT_AT_Walker_Company",
 
 		--Base mod specific faction unlock units
-		"ISB_Infiltrator_Company", "Imperial_A5RX_Company", "Dragon_Heavy_Cruiser", "Persuader_Company", "Citadel_Guardsman_Company", "Eidolon", "Lorrir_Location_Set", "Raptor_Trooper_Company", "Incinerator_Stormtrooper_Company", "Imperial_TX130S_Company", "Silverline_Location_Set", "Torpedo_Sphere", "Firebird_Stormtrooper_Company", "Shadow_Stormtrooper_Company", "Imperial_Navy_Trooper_Company", "PDF_Force_Cultist_Company", "CSA_Tagge_Battlecruiser", "TaggeCo_HQ", "Imperial_DP20", "CEC_HQ", "Customs_Corvette", "TIE_Crawler_Company", "Charger_C70", "Tarkin_Estates", "Marauder_Cruiser", "Repulsor_Tank_Mark_II_Company", "Imperial_AT_AP_Walker_Company", "Tam_Blackstar_Dark_Blade_Location_Set", "Pursuit_Light_Cruiser", "CR92A", "Deathfire_Gamma_Location_Set", "Bulwark_I", "TransGalMeg_HQ", "Raider_I_Corvette", "AT_MP_Company", "IPV1_Zeta", "Venator_Star_Destroyer",
+		"ISB_Infiltrator_Company", "Imperial_A5RX_Company", "Dragon_Heavy_Cruiser", "Persuader_Company", "Citadel_Guardsman_Company", "Eidolon", "Lorrir_Location_Set", "Raptor_Trooper_Company", "Incinerator_Stormtrooper_Company", "Imperial_TX130S_Company", "Silverline_Location_Set", "Torpedo_Sphere", "Shadow_Stormtrooper_Company", "Imperial_Navy_Trooper_Company", "PDF_Force_Cultist_Company", "CSA_Tagge_Battlecruiser", "TaggeCo_HQ", "Imperial_DP20", "CEC_HQ", "Customs_Corvette", "TIE_Crawler_Company", "Charger_C70", "Tarkin_Estates", "Marauder_Cruiser", "Repulsor_Tank_Mark_II_Company", "Imperial_AT_AP_Walker_Company", "Tam_Blackstar_Dark_Blade_Location_Set", "Pursuit_Light_Cruiser", "CR92A", "Deathfire_Gamma_Location_Set", "Bulwark_I", "TransGalMeg_HQ", "Raider_I_Corvette", "AT_MP_Company", "IPV1_Zeta", "Venator_Star_Destroyer",
 
 		--Custom unit entries per faction
 
@@ -55,7 +55,7 @@ return {
         "Army_Special_Missions_Company","Elite_Mercenary_Company","T2A_Company","1H_Tank_Company","Imperial_Light_Mobile_Artillery_Company","Heavy_Recovery_Vehicle_Company", "Yutrane_Trackata_HQ",
 		--Zaarin Remnants Added Units
 		"Beta_ETR_3_Group", "CR90", "Tartan_Patrol_Cruiser", "CR92A", "Imperial_Nebulon_B", "Ton_Falk_Escort_Carrier", "Strike_Cruiser", "Immobilizer_418", "Pursuit_Light_Cruiser", "Imperial_II_Frigate", "Procursator_Star_Destroyer", "Venator_Star_Destroyer", "Imperial_I_Star_Destroyer_Carrier", "Imperial_II_Star_Destroyer", "Secutor_Star_Destroyer", "Praetor_Carrier_Battlecruiser", "Mandator_III_Dreadnought", 
-		"Imperial_Navy_Trooper_Company", "Navy_Commando_Company", "64_Y_Swift_Repulsorlift_Sled_Company", "Imperial_ULAV_Company", "TIE_Mauler_Company", "PX7_Company", "2M_Repulsor_Tank_Company", "Imperial_Light_Mobile_Artillery_Company", "Talon_Cloud_Car_Company", "Deathhawk_Company", "Imperial_Flashblind_Company", "B5_Juggernaut_Company", "Heavy_Recovery_Vehicle_Company", "Lancet_Air_Artillery_Company", "DEATHFIRE_GAMMA_LOCATION_SET", "CEC_HQ", "Taim_Bak_HQ", "Sorosuub_HQ", "Z_Research_MB", "Z_Research_Gorath", "Z_Research_Corona", "Z_Research_AF2", "Z_Research_MTC",
+		"Imperial_Navy_Trooper_Company", "Navy_Commando_Company", "64_Y_Swift_Repulsorlift_Sled_Company", "Imperial_ULAV_Company", "TIE_Mauler_Company", "PX7_Company", "2M_Repulsor_Tank_Company", "Imperial_Light_Mobile_Artillery_Company", "Talon_Cloud_Car_Company", "Deathhawk_Company", "Imperial_Flashblind_Company", "B5_Juggernaut_Company", "Heavy_Recovery_Vehicle_Company", "Lancet_Air_Artillery_Company", "CEC_HQ", "Taim_Bak_HQ", "Sorosuub_HQ", "Z_Research_MB", "Z_Research_Gorath", "Z_Research_Corona", "Z_Research_AF2", "Z_Research_MTC",
         --Kuati Sector Forces added units
         "VT49_Decimator_Group",
         --Delurin's Empire added units
@@ -63,7 +63,7 @@ return {
 		"Mandator_II_Dreadnought",
 		"Dragon_Trooper_Company", "Light_Mercenary_Company", "Imperial_Army_Guard_Company", "New_Republic_Overracer_Speeder_Bike_Company", "Imperial_AT_RT_Company", "Imperial_ISP_Company", "Arrow_23_Company", "AA70_Company", "Imperial_APC_Company", "SPMAT_Company", "Talon_Flamestrike_Cloud_Car_Company", "Imperial_Modified_LAAT_Company", "AT_OT_Walker_Company", "Imperial_A4_Juggernaut_Company", "CEC_HQ", "TaggeCo_HQ",
         --Tapani Sector added units
-		"DHC_Gunboat", "Proficient", "Mansk_Frigate", "Tapani_Assault_Frigate", "Hornet_Assault_Carrier",
+		"DHC_Gunboat", "Proficient", "Mansk_Frigate", "Tapani_Assault_Frigate", "Hornet_Assault_Carrier", "Tapani_A9_Research",
 		"Imperial_Bantha_II_Skiff_Company", "Repulsor_Scout_Company", "Nemesis_Gunship_Company", "Firebird_Stormtrooper_Company_Proteus",
         --Protectorate of Prakith added units 
         "Red_Police_Company", "Darksider_Company", "AT_DP_Company", "Talon_Flamestrike_Cloud_Car_Company", "T4A_Company",
@@ -118,7 +118,7 @@ return {
 		--Imperial Garos added units
 		"Imperial_AT_ACT_Walker_Company", "GAT_Company", "Imperial_I_Star_Destroyer_Stealth", "JX30_Company", "Hutt_AA_Skiff_Company",
 		--Kashyyyk
-		"Trandoshan_Hunter_Company", "Camo_AT_TE_Walker_Company", "IPV_Gunboat_Proteus", "Proteus_A6_Company", "Proteus_Kaloth", "Pirate_Base", "CC7700", "Space_Arc_Cruiser", "Super_Transport_XI_Modified_Pirate",
+		"Trandoshan_Hunter_Company", "Camo_AT_TE_Walker_Company", "Ipv1_Gunboat_Proteus", "Proteus_A6_Company", "Proteus_Kaloth", "Pirate_Base", "CC7700", "Space_Arc_Cruiser", "Super_Transport_XI_Modified_Pirate",
 		--Imperial Neimoidia added units
 		"Munifex", "SP9_Group", "CSA_Destroyer_Droid_Company", "Neimoidian_Guard_Company", "Lucrehulk_Battleship", "Lucrehulk_Auxiliary_Proteus", "Lucrehulk_CSA", "Lucrehulk_Core_Destroyer", "Neimoidia_Lucrehulk_Research_Proteus",
 		--Tamarin Sector added units
@@ -132,4 +132,6 @@ return {
 		"Hutt_Personnel_Skiff_IV_Company", "Canderous_Assault_Tank_Company_Proteus",
 		--Thorn added units
 		"Luxury_Barge_Company",
+		--Wessex added units
+		"Relgim_ATWalker_Research_Proteus", "Imperial_AT_AT_Walker_Turbolaser_Refit_Company",
 }

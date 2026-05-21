@@ -4126,7 +4126,7 @@
 		<Build_Cost_Credits>1200</Build_Cost_Credits>
 		<Build_Time_Seconds>60</Build_Time_Seconds>
 		<Slice_Cost_Credits/>
-		<Required_Special_Structures>E_Ground_Advanced_Vehicle_Factory | KDY_HQ | KDY_HQ_Cheap | KDY_Branch | KDY_Branch_Cheap</Required_Special_Structures>
+		<Required_Special_Structures>E_Ground_Advanced_Vehicle_Factory | I_Ground_Advanced_Vehicle_Factory | KDY_HQ | KDY_HQ_Cheap | KDY_Branch | KDY_Branch_Cheap</Required_Special_Structures>
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
 		<Build_Initially_Locked>no</Build_Initially_Locked>
@@ -4138,7 +4138,7 @@
 		<Tech_Level>0</Tech_Level>
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Imperial_Proteus</Affiliation>
 
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 
@@ -4846,7 +4846,7 @@
 		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
 		TEXT_TOOLTIP_BONUS_ENHANCED_SENSORS
 		</Encyclopedia_Text>
-		<Icon_Name>I_BUTTON_HUTT_BANTHA2_SKIFF.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_EMPIRE_BANTHA2_SKIFF.tga</Icon_Name>
 
 		<Damage>40</Damage>
 

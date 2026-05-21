@@ -159,7 +159,7 @@
 	</UniqueUnit>
 
 	<UniqueUnit Name="Mahkkar">
-		<Variant_Of_Existing_Type>Bayonet_Cruiser</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Interceptor_I_Frigate</Variant_Of_Existing_Type>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Text_ID>TEXT_HERO_MAHKKAR</Text_ID>
 		<Encyclopedia_Text>
@@ -411,6 +411,7 @@
 		<Variant_Of_Existing_Type>Mandator_III_Dreadnought</Variant_Of_Existing_Type>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Text_ID>TEXT_HERO_HARRSK</Text_ID>
+		<Lua_Script>GenericGameObject</Lua_Script>
 		<Encyclopedia_Text> 
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_09_SPACE
@@ -4590,7 +4591,7 @@
 				<Target_Particle_Bone_Name>Turret_00, B_Turret_00, B_Turret, B_Turret_Base, ROOT</Target_Particle_Bone_Name>
 			</Force_Telekinesis_Ability>
 
-			<Force_Whirlwind_Ability Name="Thorn_Whirlwind">
+			<Force_Whirlwind_Ability Name="Thorn_Force_Whirlwind">
 				<!-- <Activation_Style>Special_Attack</Activation_Style> -->
 				<Activation_Style> User_Input </Activation_Style>
 				<!-- We need to be within this distance of the clicked target to consider activating Force Whirlwind -->
@@ -4715,7 +4716,7 @@
 		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
 		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
 		</Encyclopedia_Text>
-		<Icon_Name>I_BUTTON_DAYMON_THORN.TGA_SSD.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_DAYMON_THORN_SSD.tga</Icon_Name>
 
 		<Lua_Script>GenericGameObject</Lua_Script>
 

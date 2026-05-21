@@ -43,6 +43,8 @@ return {
 	["ZSINJ_IRON_FIST_EXECUTOR"] = "Iron Fist (Zsinj)",
 	-- Submods
 	["LEGATOR_STAR_DREADNOUGHT"] = "Legator",
-	-- Shadow Realm
+	-- Project Proteus
 	["SHADOW_VENGEANCE_STAR_DREADNOUGHT"] = "Shadow Vengeance",
+	["HARRSK_MEGADOR"] = "Megador (Harrsk)",
+	["DESANNE_DOMINION"] = "Dominion (Desanne)",
 }
