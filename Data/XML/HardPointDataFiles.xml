@@ -48,6 +48,11 @@
 	<File>HardPoints\AdditionalUnits\HardPoints_Fractal.xml</File>
 	
 		<!-- Project Proteus -->
-	<File>HardPoints/HardPoints_ProjectProteus.xml</File>
+	<File>HardPoints/Hardpoints_Capitals_ProjectProteus.xml</File>
+	<File>HardPoints/Hardpoints_Frigates_ProjectProteus.xml</File>
+	<File>HardPoints/Hardpoints_Corvettes_ProjectProteus.xml</File>
+	<File>HardPoints/Hardpoints_Fighters_ProjectProteus.xml</File>
+	<File>HardPoints/Hardpoints_Ground_ProjectProteus.xml</File>
+	<File>HardPoints/Hardpoints_Weapons_ProjectProteus.xml</File>
 
 </Hard_Point_Files>
