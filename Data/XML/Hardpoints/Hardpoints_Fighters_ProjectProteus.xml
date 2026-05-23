@@ -285,7 +285,7 @@
 
 	</HardPoint>
 	
-		<!-- Ixiyen -->
+	<!-- Ixiyen -->
 
 	<HardPoint Name="HP_Ixiyen_Laser_01">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
@@ -596,7 +596,7 @@
 	
 	<!--TIE Variants-->
 	
-		<HardPoint Name="HP_TIE_AFCM_01">
+	<HardPoint Name="HP_TIE_AFCM_01">
 		<Type> HARD_POINT_WEAPON_MISSILE </Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
@@ -616,7 +616,7 @@
 
 	</HardPoint>
 	
-		<HardPoint Name="HP_AS_Missile_Interceptor_00">
+	<HardPoint Name="HP_AS_Missile_Interceptor_00">
 	    <Type> HARD_POINT_WEAPON_MISSILE </Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
@@ -803,7 +803,7 @@
 	
 	<!--Skipray Variants-->
 	
-		<HardPoint Name="HP_SkiprayM_Torp">
+	<HardPoint Name="HP_SkiprayM_Torp">
 		<Type> HARD_POINT_WEAPON_TORPEDO </Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
@@ -825,7 +825,7 @@
 		<Allow_Opportunity_Fire_When_Idle>False</Allow_Opportunity_Fire_When_Idle>
 	</HardPoint>
 	
-		<HardPoint Name="HP_SkiprayK_Conc">
+	<HardPoint Name="HP_SkiprayK_Conc">
 		<Type> HARD_POINT_WEAPON_TORPEDO </Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
@@ -933,7 +933,7 @@
 		<Fire_Inaccuracy_Distance> SuperCapital, 5.0 </Fire_Inaccuracy_Distance>
 	</HardPoint>
 	
-		<!-- VCX-820 -->
+	<!-- VCX-820 -->
 
 	<HardPoint Name="HP_VCX820_00">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
@@ -1024,7 +1024,7 @@
 
     </HardPoint>
 
-		<HardPoint Name="HP_VCX820_03">
+	<HardPoint Name="HP_VCX820_03">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
@@ -1053,7 +1053,7 @@
 
     </HardPoint>
 
-		<HardPoint Name="HP_VCX820_04">
+	<HardPoint Name="HP_VCX820_04">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
@@ -1102,7 +1102,7 @@
 		<Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 	
-		<!-- YV-929 -->
+	<!-- YV-929 -->
 
 	<HardPoint Name="HP_YV929_00">
 		<Type> HARD_POINT_WEAPON_ION_CANNON </Type>
@@ -1442,7 +1442,7 @@
 		<Allow_Opportunity_Fire_When_Idle>False</Allow_Opportunity_Fire_When_Idle>
     </HardPoint>
 	
-		<!-- Coyote Droid Bomber -->
+	<!-- Coyote Droid Bomber -->
 	
 	<HardPoint Name="HP_Coyote_Bomber_00">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
@@ -1678,7 +1678,7 @@
 
 	</HardPoint>
 	
-		<HardPoint Name="HP_TIE_Interceptor_BF2_00">
+	<HardPoint Name="HP_TIE_Interceptor_BF2_00">
 	    <Type> HARD_POINT_WEAPON_MISSILE </Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
@@ -1733,7 +1733,7 @@
 
 	</HardPoint>
 
-		<HardPoint Name="HP_Theta_01">
+	<HardPoint Name="HP_Theta_01">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>No</Is_Targetable>
         <Is_Destroyable>No</Is_Destroyable>
@@ -1763,7 +1763,7 @@
 
 	</HardPoint>
 
-		<HardPoint Name="HP_Theta_02">
+	<HardPoint Name="HP_Theta_02">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
@@ -1814,7 +1814,7 @@
 
     </HardPoint>
 
-		<HardPoint Name="HP_Theta_04">
+	<HardPoint Name="HP_Theta_04">
 		<Type> HARD_POINT_WEAPON_MISSILE </Type>
 
 		<Is_Targetable>No</Is_Targetable>
@@ -2125,7 +2125,7 @@
         <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
     </HardPoint>
 	
-	   <!-- XG-1 Star Wing Variants-->
+	<!-- XG-1 Star Wing Variants-->
 
     <HardPoint Name="HP_Starwing_04">
         <Type> HARD_POINT_WEAPON_TORPEDO </Type>

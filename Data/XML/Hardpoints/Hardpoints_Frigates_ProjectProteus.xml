@@ -360,7 +360,7 @@
 
     </HardPoint>
 	
-			<!-- Tapani Assault Frigate -->
+	<!-- Tapani Assault Frigate -->
 
 	<HardPoint Name="HP_TAF_QuadTurbo_01">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
@@ -2529,7 +2529,7 @@
         <Damage_Decal></Damage_Decal>
         
         <Damage_Particles>Hangar_02</Damage_Particles>
-     </HardPoint>
+    </HardPoint>
 	 
 	 <!--VSD Carrier-->
 

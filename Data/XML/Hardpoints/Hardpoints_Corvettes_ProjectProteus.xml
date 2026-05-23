@@ -655,7 +655,7 @@
 		<Fire_Inaccuracy_Distance> SuperCapital, 10.0 </Fire_Inaccuracy_Distance>
 	</HardPoint>
 	
-		<!-- Bayonet Cruiser -->
+	<!-- Bayonet Cruiser -->
 	
 	<HardPoint Name="HP_Bayonet_Weapon_01">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
@@ -686,7 +686,7 @@
 
 	</HardPoint>
 	
-		<HardPoint Name="HP_Bayonet_Weapon_02">
+	<HardPoint Name="HP_Bayonet_Weapon_02">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
@@ -744,7 +744,7 @@
 
 	</HardPoint>
 	
-		<HardPoint Name="HP_Bayonet_Weapon_04">
+	<HardPoint Name="HP_Bayonet_Weapon_04">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
@@ -772,7 +772,7 @@
 
 	</HardPoint>
 	
-		<HardPoint Name="HP_Bayonet_Weapon_05">
+	<HardPoint Name="HP_Bayonet_Weapon_05">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>

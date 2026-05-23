@@ -1140,7 +1140,7 @@
 
 	</HardPoint>
 	
-		<HardPoint Name="HP_1HB_AV_Sponson_Green_Left">
+	<HardPoint Name="HP_1HB_AV_Sponson_Green_Left">
 
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
@@ -1228,7 +1228,7 @@
 
 	</HardPoint>
 	
-		<HardPoint Name="HP_1HB_AI_GRENADE">
+	<HardPoint Name="HP_1HB_AI_GRENADE">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
@@ -1306,7 +1306,7 @@
 		<Fire_Category_Restrictions> AirGunship, AirSpeeder </Fire_Category_Restrictions>
     </HardPoint>
 	
-		<!-- Imperial AAT -->
+	<!-- Imperial AAT -->
 
 	<HardPoint Name="HP_AAT_Turret_Imperial">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
