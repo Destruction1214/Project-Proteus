@@ -64,7 +64,7 @@ return {
 			if proteus == "TAGGE" then
 				fighter = "TIE_GT_TORPS_SQUADRON"
 			elseif proteus == "TIERFON" then
-				fighter = "ARMORED_TIE_INTERCEPTOR_SQUADRON"
+				fighter = "ARMORED_INTERCEPTOR_SQUADRON"
 			elseif proteus == "SELLASAS" then
 				fighter = "ELITE_SHIELDED_ARMORED_INTERCEPTOR_SQUADRON"
 			elseif proteus == "DASTA" then
@@ -72,7 +72,7 @@ return {
 			elseif proteus == "VOGEL" then
 				fighter = "TIE_AGGRESSOR_SQUADRON"
 			elseif proteus == "BRAK" then
-				fighter = "MODERN_CLOAKSHAPE_SQUADRON"
+				fighter = "CLOAKSHAPE_NEW_SQUADRON"
 				if Get_Fighter_Research("BrakFighters") then
 					fighter = "ARC_170_SQUADRON"
 				end
@@ -91,7 +91,7 @@ return {
 			elseif proteus == "ELROOD" then
 				fighter = "PREYBIRD_SQUADRON"
 			elseif proteus == "WILD_SPACE" then
-				fighter = "MODERN_CLOAKSHAPE_SQUADRON"
+				fighter = "CLOAKSHAPE_NEW_SQUADRON"
 			elseif proteus == "PRENTIOCH" then
 				fighter = "TIE_AGGRESSOR_SQUADRON"
 			elseif proteus == "JARDEEN" then
@@ -121,7 +121,7 @@ return {
 			elseif proteus == "RADAMA" then
 				fighter = "TIE_DEFENDER_SQUADRON"
 			elseif proteus == "MAELSTROM" then
-				fighter = "MODERN_CLOAKSHAPE_SQUADRON"
+				fighter = "CLOAKSHAPE_NEW_SQUADRON"
 			elseif proteus == "PROPHETS" then
 				fighter = "ARMORED_INTERCEPTOR_SQUADRON"
 			elseif proteus == "RAYTER" then
@@ -131,7 +131,7 @@ return {
 			--elseif proteus == "HAMMERS" then
 				--fighter = ""
 			elseif proteus == "QUINTAD" then
-				fighter = "R42_FIGHTER_SQUADRON"
+				fighter = "R42_STARCHASER_SQUADRON"
 			elseif proteus == "IMPERIAL_LIANNA" then
 				fighter = "TIE_AVENGER_SQUADRON"
 			elseif proteus == "GAROS" then
