@@ -97,11 +97,6 @@ return {
 		
 		if alias == "IMPERIAL" then
 			fighter = "TIE_BOMBER_SQUADRON"
-			if is_main_empire then
-				if regime == 3 or regime > 6 then
-					fighter = "SCIMITAR_SQUADRON"
-				end
-			end
 		elseif owner == "CORPORATE_SECTOR" or alias == "CORPORATE_SECTOR" then
 			if Check_Flags(flags,"ISD") then
 				fighter = "BTLB_Y_WING_SQUADRON"
@@ -110,11 +105,7 @@ return {
 			end
 		end 
 		
-		if suffix then
-			fighter = fighter .. suffix
-		end
-		
-				if owner == "IMPERIAL_PROTEUS" then
+		if owner == "IMPERIAL_PROTEUS" then
 				local group_name = GlobalValue.Get("PROTEUS_GROUP_NAME")
 				if proteustypes[group_name] then
 					fighter = proteustypes[group_name][1]
@@ -138,6 +129,16 @@ return {
 					end
 				end
 			end 
+			
+		if is_main_empire then
+			if regime == 3 or regime > 6 then
+				fighter = "SCIMITAR_SQUADRON"
+			end
+		end
+		
+		if suffix then
+			fighter = fighter .. suffix
+		end
 			
 		return fighter
 	end
