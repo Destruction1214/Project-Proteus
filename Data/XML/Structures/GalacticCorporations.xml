@@ -3035,7 +3035,7 @@
 
 		<Affiliation>Imperial_Proteus</Affiliation>
 
-		<Build_Cost_Credits>2500</Build_Cost_Credits>
+		<Build_Cost_Credits>3000</Build_Cost_Credits>
 		<Build_Time_Seconds>60</Build_Time_Seconds>
 		<Required_Special_Structures>Imperial_Proteus_Office</Required_Special_Structures>
 
@@ -3059,12 +3059,12 @@
 
 		<Starting_Spawned_Units_Tech_0>Security_Trooper_Squad, 1</Starting_Spawned_Units_Tech_0>
 
-		<Build_Limit_Current_Per_Player> 1 </Build_Limit_Current_Per_Player>
+		<Build_Limit_Current_Per_Player> -1 </Build_Limit_Current_Per_Player>
 
 		<Abilities SubObjectList="Yes">
 			<Planet_Income_Bonus_Ability Name="Biscuit_Baron_Income_Bonus">
 				<Specific_Mod_Source_Text>TEXT_ECONOMY_BISCUIT_BARON</Specific_Mod_Source_Text>
-				<Percentage_Income_Modifier>0.2</Percentage_Income_Modifier> <!-- X percent of base planetary income -->
+				<Percentage_Income_Modifier>0.1</Percentage_Income_Modifier> <!-- X percent of base planetary income -->
 				<Absolute_Income_Modifier>0</Absolute_Income_Modifier> <!-- plus flat Y credits -->
 				<Additional_Multiplier_On_Mining_Colonies>1.0</Additional_Multiplier_On_Mining_Colonies> <!-- multiply by Z on mining planets  -->
 				<!-- Total bonus credits per cycle = ((base * X) + Y) * Z -->
@@ -3139,4 +3139,55 @@
 		</Abilities>
 	</SpecialStructure>
 	
+	<SpecialStructure Name="Praji_Estates">
+		<Variant_Of_Existing_Type>Template_Galactic_Company</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_COMPANY_PRAJI_ESTATES</Text_ID>
+
+		<Land_Model_Name>W_ImperialPalace.alo</Land_Model_Name>
+		<Scale_Factor>1.5</Scale_Factor>
+
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+
+		<Build_Cost_Credits>10000</Build_Cost_Credits>
+
+		<Required_Planets>Coruscant, Kaikielius</Required_Planets>
+
+		<Icon_Name>I_BUTTON_PRAJI_ESTATE.TGA</Icon_Name>
+
+		<Encyclopedia_Text>
+		TEXT_COMPANY_PRAJI_ESTATES_DESCRIPTION
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_COMPANY_HEALTH
+		TEXT_TOOLTIP_SEPARATOR_GARRISON_BLOCK
+		TEXT_COMPANY_GARRISON_TARKIN_ESTATES
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_DISCOUNT_COMPANY_LOW2
+		TEXT_TOOLTIP_BONUS_INFLUENCE_PLUS_1
+		TEXT_TOOLTIP_BONUS_INFRASTRUCTURE_PLUS_1
+		TEXT_TOOLTIP_SEPARATOR_LOCATION_BLOCK
+		TEXT_OBJECT_STAR_SYSTEM_CORUSCANT
+		TEXT_OBJECT_STAR_SYSTEM_KAIKIELIUS
+		</Encyclopedia_Text>
+
+		<Starting_Spawned_Units_Tech_0>Military_Soldier_Squad, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Military_Soldier_Squad, 2</Reserve_Spawned_Units_Tech_0>
+
+		<Abilities SubObjectList="Yes">
+			<Reduce_Production_Price_Ability Name="Praji_Estate_Reduce_Production_Price">
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Excluded_Unit_Categories>Upgrade | Wall</Excluded_Unit_Categories>
+				<Price_Reduction_Percentage>0.1</Price_Reduction_Percentage>
+				<Stacking_Category>50</Stacking_Category>
+			</Reduce_Production_Price_Ability>
+
+			<Reduce_Production_Time_Ability Name="Praji_Estate_Production_Time_Bonus">
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Excluded_Unit_Categories>Upgrade | Wall</Excluded_Unit_Categories>
+				<Time_Reduction_Percentage>0.1</Time_Reduction_Percentage>
+				<Stacking_Category>50</Stacking_Category>
+				<Galaxy_Wide> No </Galaxy_Wide>
+			</Reduce_Production_Time_Ability>
+		</Abilities>
+	</SpecialStructure>
 </SpecialStructures>
