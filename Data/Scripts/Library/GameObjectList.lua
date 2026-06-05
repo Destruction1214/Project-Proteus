@@ -932,5 +932,6 @@ return {
 ["LUCREHULK_AUXILIARY_PROTEUS"] = true,
 ["T11"] = true,
 ["BRELLAR_ONSLAUGHT"] = true,
-
+["VECTOR_STAR_DESTROYER"] = true,
+  
 }
