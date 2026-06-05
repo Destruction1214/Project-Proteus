@@ -1256,6 +1256,13 @@ TEXT_VULTURE_SQUADRON2,Vulture Droid-I Squadron x2
 TEXT_YV929_SQUADRON,YV-929 Squadron
 TEXT_YV929_SQUADRON_HALF,YV-929 Squadron 1/2
 TEXT_YV929_SQUADRON2,YV-929 Squadron x2
+TEXT_TOOLTIP_VECTOR,A rare variant of the Victory-Class Star Destroyer that modifies the design in a similar way the Tector-Class modified the Imperator hull; with increased armor, no fighter launch bay, and a mission loadout much more focused on direct-ship-to-ship combat than the broad assignment profile of most Imperial capital ships. However, unlike the Tector modifying the Imperial I hull, the Vector uses the Victory II's hull as its base, inheriting the model's speed and focus on energy weapons instead of munitions. Although developed shortly after the Clone Wars, the design remained obscure, languishing in deep core reserve fleets until the campaigns of the Reborn Emperor. Very strong at engaging most types of capital ships, and boasts a sizable anti-fighter defense grid, but lacks the offensive versatility of the other variants.
+TEXT_TOOLTIP_VECTOR_HULL,Hull: 4000 (Heavy Frigate)
+TEXT_TOOLTIP_VECTOR_SHIELD,Shields: 4000 / [50/R] (Heavy Frigate)
+TEXT_TOOLTIP_WEAPON1,4x Medium Quad Turbolaser 2/2.0s/6.2km
+TEXT_TOOLTIP_WEAPON2,4x Medium Turbolaser 2/1.0s/6.2km
+TEXT_TOOLTIP_WEAPON3,3x Heavy Quad Laser Cannon 2/1.0s/4.7km
+TEXT_UNIT_VECTOR,Vector Star Destroyer
 Z_TEXT_TOOLTIP_AF2_RESEARCH,Comb through old schematics for Rendili's Assault Frigate-II and put the ship to use for our own purposes. Unlocks Assault Frigate-II.
 Z_TEXT_TOOLTIP_CORONA_RESEARCH,Steal the schematics for KDY's prototype frigate design and reverse-engineer the vessel for our own purposes. Unlocks Corona Frigate and Corona Tender, retires Nebulon-B and Star Galleon.
 Z_TEXT_TOOLTIP_GORATH_RESEARCH,"Borrow" the schematics for Loronar's prototype strike cruiser design and reverse-engineer the vessel for our own purposes. Unlocks Gorath, retires Strike Cruiser.
