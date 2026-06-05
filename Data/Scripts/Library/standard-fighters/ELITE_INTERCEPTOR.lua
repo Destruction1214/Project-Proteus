@@ -104,13 +104,6 @@ return {
 			end
 		end 
 		
-		if double then
-			suffix = Double_Suffix(suffix)
-		end
-		if suffix then
-			fighter = fighter .. suffix
-		end
-		
 		if owner == "IMPERIAL_PROTEUS" then
 				local group_name = GlobalValue.Get("PROTEUS_GROUP_NAME")
 				if proteustypes[group_name] then
@@ -135,6 +128,13 @@ return {
 					end
 				end
 			end 
+		
+		if double then
+			suffix = Double_Suffix(suffix)
+		end
+		if suffix then
+			fighter = fighter .. suffix
+		end
 		return fighter
 	end
 }

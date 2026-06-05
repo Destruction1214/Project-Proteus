@@ -87,10 +87,6 @@ return {
 			fighter = simpletypes[alias]
 		end
 		
-		if suffix then
-			fighter = fighter .. suffix
-		end
-		
 		if owner == "IMPERIAL_PROTEUS" then
 				local group_name = GlobalValue.Get("PROTEUS_GROUP_NAME")
 				if proteustypes[group_name] then
@@ -115,6 +111,10 @@ return {
 					end
 				end
 			end 
+		
+		if suffix then
+			fighter = fighter .. suffix
+		end
 		
 		return fighter
 	end
