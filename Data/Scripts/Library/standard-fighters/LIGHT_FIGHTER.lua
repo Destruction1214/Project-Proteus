@@ -1,5 +1,20 @@
 require("StandardFighterFunctions")
 
+-- Project Proteus standard fighter edit
+-- proteustypes table is layed out in the following format
+-- group name = { [1], [2],
+--         { [3],[4],[5] }, --research table 1
+--         { [6],[7],[8] }, --research table 2
+-- }
+-- 
+-- [1] *required* = string, standard fighter to use in slot
+-- [2] *required* = false or string, replaces [1] fighter with fighter type when proteus override found
+-- { [3],[4],[5] } *optional* = table, research layout 1
+-- [3] *required* = string, research name to lookup completion status
+-- [4] *required* = string, unit to replace if research found complete, replaces [1]
+-- [5] *required* = false or string, similar setup to [2] 
+-- later order research priotised, research table Y replaces research X if research complete where Y > X
+
 return {
 	Evaluate_Fighters = function(native,suffix,owner,alias,techLevel,regime,flags,is_main_empire)		
 		local fighter = "Z95_HEADHUNTER_SQUADRON"
@@ -8,6 +23,58 @@ return {
 			alias = native
 			owner = native
 		end
+
+		local proteustypes = {
+			-- TR entries
+			ARDA = {"TIE_FIGHTER_SQUADRON", false},
+			BAKURA = {"Z95_HEADHUNTER_SQUADRON", false},
+			BRAK = {"TIE_FIGHTER_SQUADRON", false,
+						{"BrakFighters", "NIMBUS_V_WING_SQUADRON", false}}, --research 1
+			CATO_NEIMOIDIA = {"TIE_FIGHTER_SQUADRON", false},
+			CIUTRIC_HEGEMONY = {"TIE_INTERCEPTOR_SQUADRON", false},
+			DASTA = {"R22_SPEARHEAD_SQUADRON", false},
+			ELROOD = {"TIE_Fighter_BF2_SQUADRON", false},
+			GAROS = {"TIE_FIGHTER_SQUADRON", false},
+			HAMMERS = {"TIE_STARFIGHTER_SQUADRON", false},
+			IMPERIAL_LIANNA = {"TIE_X3_SQUADRON", false},
+			ISECTOR = {"SHIELDED_TIE_FIGHTER_SQUADRON", false},
+			JARDEEN = {"TIE_DROID_SQUADRON", false},
+			KAARENTH_DISSENSION = {"TIE_FIGHTER_SQUADRON", false},
+			KAMINO = {"TIE_FIGHTER_SQUADRON", false},
+			KASHYYYK = {"TIE_FIGHTER_SQUADRON", false,
+						{"KSM", "TIE_FIGHTER_BF2_SQUADRON", false}}, --research 1
+			KUAT = {"NIMBUS_V_WING_SQUADRON", false},
+			LAMBDA = {"TIE_FIGHTER_SQUADRON", false},
+			LUMIYA = {"SHIELDED_TIE_FIGHTER_SQUADRON", false},
+			MAELSTROM = {"TIE_FIGHTER_SQUADRON", false},
+			NABOO = {"SHIELDED_TIE_FIGHTER_SQUADRON", false},
+			PRAKITH = {"TIE_INTERCEPTOR_SQUADRON", false}, --Shielded Upgrade and Time switch to droids? But also, Prakith always starts late...
+			PRENTIOCH = {"TIE_FIGHTER_SQUADRON", false},
+			PROPHETS = {"NIMBUS_V_WING_SQUADRON", false},
+			PROTECTORATE = {"STARVIPER_SQUADRON", false},
+			QUINTAD = {"TIE_STARFIGHTER_SQUADRON", false},
+			RADAMA = {"TIE_FIGHTER_SQUADRON", false},
+			RAYTER = {"TIE_FIGHTER_SQUADRON", false},
+			RESTORED_EMPIRE = {"Z95_HEADHUNTER_SQUADRON", false},
+			SECTOR_5 = {"NIMBUS_V_WING_ESK_SQUADRON", false},
+			SELLASAS = {"SHIELDED_ARMORED_INTERCEPTOR_SQUADRON", false},
+			SHADOWSPAWN = {"TIE_X3_SQUADRON", false},
+			TAGGE = {"TIE_FIGHTER_SQUADRON", false},
+			TAMARIN = {"TIE_FIGHTER_SQUADRON", false},
+			TAPANI = {"TIE_FIGHTER_SQUADRON", false},
+			TIERFON = {"TIE_INTERCEPTOR_SQUADRON", false},
+			VOGEL = {"TIE_FIGHTER_SQUADRON", false},
+			WESSEX = {"MISSILE_TIE_FIGHTER_SQUADRON", false},
+			WILD_SPACE = {"SHIELDED_TIE_FIGHTER_SQUADRON", false},
+			ZAARIN_REMNANTS = {"TIE_X3_SQUADRON", false},
+			ZERO_COMMAND = {"SHIELDED_TIE_FIGHTER_SQUADRON", false},
+			ZSINJ_REMNANTS = {"", false},
+			--Project Proteus
+			GRUNGER = {"NIMBUS_V_WING_ESK_SQUADRON", false},
+			THORN = {"NIMBUS_V_WING_SQUADRON", false},
+			X1 = {"", false},
+			PRAJI = {"SHIELDED_TIE_FIGHTER_SQUADRON", false},
+		}
 		
 		if alias == "IMPERIAL" or owner == "CORELLIA" then
 			fighter = "TIE_FIGHTER_SQUADRON"
@@ -21,6 +88,32 @@ return {
 			if Check_Flags(flags,"SHIELDED_LN") or Check_Flags(flags,"SHIELDED_FIGHTERS") then
 				fighter = "SHIELDED_TIE_FIGHTER_SQUADRON"
 			end
+
+		if owner == "IMPERIAL_PROTEUS" then
+					local group_name = GlobalValue.Get("PROTEUS_GROUP_NAME")
+					if proteustypes[group_name] then
+						fighter = proteustypes[group_name][1]
+						if proteustypes[group_name][2] ~= false then
+							if Check_Flags(flags, "PROTEUS_OVERRIDE") then
+								fighter = proteustypes[group_name][2]
+							end
+						end
+						 if table.getn(proteustypes[group_name]) > 2 then
+							for i = 3, table.getn(proteustypes[group_name]), 1 do
+								local research = proteustypes[group_name][i][1]
+								if Get_Fighter_Research(research) then
+									fighter = proteustypes[group_name][i][2]
+									if proteustypes[group_name][i][3] ~= false then
+										if Check_Flags(flags, "PROTEUS_OVERRIDE") then
+											fighter = proteustypes[group_name][i][3]
+										end
+									end
+								end
+							end    
+						end
+					end
+				end 
+
 			if is_main_empire then
 				if regime == 4 then
 					if owner == "ERIADU_AUTHORITY" and Get_Fighter_Research("EATIEShields") then
@@ -63,107 +156,6 @@ return {
 			fighter = "BAKURAN_GPA_SQUADRON"
 		end 
 		
-		if owner == "IMPERIAL_PROTEUS" then
-			local proteus = GlobalValue.Get("PROTEUS_GROUP_NAME")
-			if proteus == "TAGGE" then
-				fighter = "TIE_FIGHTER_SQUADRON"
-			elseif proteus == "TIERFON" then
-				fighter = "TIE_INTERCEPTOR_SQUADRON"
-			elseif proteus == "SELLASAS" then
-				fighter = "SHIELDED_ARMORED_INTERCEPTOR_SQUADRON"
-			elseif proteus == "DASTA" then
-				fighter = "R22_SPEARHEAD_SQUADRON"
-			elseif proteus == "VOGEL" then
-				fighter = "TIE_FIGHTER_SQUADRON"
-			elseif proteus == "BRAK" then
-				fighter = "TIE_FIGHTER_SQUADRON"
-				if Get_Fighter_Research("BrakFighters") then
-					fighter = "NIMBUS_V_WING_SQUADRON"
-				end
-			elseif proteus == "ISECTOR" then
-				fighter = "SHIELDED_TIE_FIGHTER_SQUADRON"
-			elseif proteus == "PRAJI" then
-				fighter = "SHIELDED_TIE_FIGHTER_SQUADRON"
-			elseif proteus == "SHADOWSPAWN" then
-				fighter = "TIE_X3_SQUADRON"
-			elseif proteus == "TAPANI" then
-				fighter = "TIE_FIGHTER_SQUADRON"
-			elseif proteus == "RESTORED_EMPIRE" then
-				fighter = "Z95_HEADHUNTER_SQUADRON"
-			elseif proteus == "ZAARIN_REMNANTS" then
-				fighter = "TIE_X3_SQUADRON"
-			elseif proteus == "ELROOD" then
-				fighter = "TIE_Fighter_BF2_SQUADRON"
-			elseif proteus == "WILD_SPACE" then
-				fighter = "SHIELDED_TIE_FIGHTER_SQUADRON"
-			elseif proteus == "PRENTIOCH" then
-				fighter = "TIE_FIGHTER_SQUADRON"
-			elseif proteus == "JARDEEN" then
-				fighter = "TIE_DROID_SQUADRON"
-			elseif proteus == "KASHYYYK" then
-				fighter = "TIE_FIGHTER_SQUADRON" --TBC Upgrade to BF2 Fighter
-				if Get_Fighter_Research("KSM") then
-					fighter = "TIE_FIGHTER_BF2_SQUADRON"
-				end
-			elseif proteus == "LUMIYA" then
-				fighter = "SHIELDED_TIE_FIGHTER_SQUADRON"
-			elseif proteus == "ARDA" then
-				fighter = "TIE_FIGHTER_SQUADRON"
-			elseif proteus == "CATO_NEIMOIDIA" then
-				fighter = "TIE_FIGHTER_SQUADRON" 
-			elseif proteus == "KUAT" then
-				fighter = "NIMBUS_V_WING_SQUADRON"
-			elseif proteus == "KAARENTH_DISSENSION" then
-				fighter = "TIE_FIGHTER_SQUADRON"
-			elseif proteus == "TAMARIN" then
-				fighter = "TIE_FIGHTER_SQUADRON"
-			elseif proteus == "BAKURA" then
-				fighter = "Z95_HEADHUNTER_SQUADRON" 
-			elseif proteus == "ANTEMERIDIAS" then
-				fighter = "SWARM_SQUADRON"
-			elseif proteus == "SECTOR_5" then
-				fighter = "NIMBUS_V_WING_ESK_SQUADRON"
-			elseif proteus == "PRAKITH" then
-				fighter = "TIE_INTERCEPTOR_SQUADRON" --Shielded Upgrade and Time switch to droids? But also, Prakith always starts late...
-			elseif proteus == "RADAMA" then
-				fighter = "TIE_FIGHTER_SQUADRON" --Custom Vulture Spawn on Providences
-			elseif proteus == "MAELSTROM" then
-				fighter = "TIE_FIGHTER_SQUADRON"
-			elseif proteus == "PROPHETS" then
-				fighter = "NIMBUS_V_WING_SQUADRON"
-			elseif proteus == "RAYTER" then
-				fighter = "TIE_FIGHTER_SQUADRON"
-			elseif proteus == "WESSEX" then
-				fighter = "MISSILE_TIE_FIGHTER_SQUADRON"
-			--elseif proteus == "HAMMERS" then
-				--fighter = ""
-			elseif proteus == "QUINTAD" then
-				fighter = "TIE_STARFIGHTER_SQUADRON"
-			elseif proteus == "IMPERIAL_LIANNA" then
-				fighter = "TIE_X3_SQUADRON"
-			elseif proteus == "GAROS" then
-				fighter = "TIE_FIGHTER_SQUADRON"
-			elseif proteus == "NABOO" then
-				fighter = "SHIELDED_TIE_FIGHTER_SQUADRON"
-			elseif proteus == "KAMINO" then
-				fighter = "TIE_FIGHTER_SQUADRON"
-			elseif proteus == "CIUTRIC_HEGEMONY" then
-				fighter = "TIE_INTERCEPTOR_SQUADRON"
-			elseif proteus == "ZERO_COMMAND" then
-				fighter = "SHIELDED_TIE_FIGHTER_SQUADRON"
-			--elseif proteus == "LAMBDA" then
-				--fighter = ""
-			elseif proteus == "PROTECTORATE" then
-				fighter = "STARVIPER_SQUADRON"
-			elseif proteus == "GRUNGER" then
-				fighter = "NIMBUS_V_WING_ESK_SQUADRON"
-			elseif proteus == "THORN" then
-				fighter = "NIMBUS_V_WING_SQUADRON"
-			--elseif proteus == "X1" then
-				--fighter = ""
-			end
-	
-		end
 		if suffix then
 			fighter = fighter .. suffix
 		end
