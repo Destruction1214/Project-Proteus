@@ -3143,7 +3143,7 @@
 		<Variant_Of_Existing_Type>Template_Galactic_Company</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_COMPANY_PRAJI_ESTATES</Text_ID>
 
-		<Land_Model_Name>W_ImperialPalace.alo</Land_Model_Name>
+		<Land_Model_Name>NB_Bothan_building.alo</Land_Model_Name>
 		<Scale_Factor>1.5</Scale_Factor>
 
 		<Affiliation>Imperial_Proteus</Affiliation>
@@ -3160,7 +3160,8 @@
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
 		TEXT_TOOLTIP_COMPANY_HEALTH
 		TEXT_TOOLTIP_SEPARATOR_GARRISON_BLOCK
-		TEXT_COMPANY_GARRISON_TARKIN_ESTATES
+		TEXT_COMPANY_GARRISON_PRAJI_ESTATES_1
+		TEXT_COMPANY_GARRISON_PRAJI_ESTATES_2
 		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
 		TEXT_TOOLTIP_BONUS_DISCOUNT_COMPANY_LOW2
 		TEXT_TOOLTIP_BONUS_INFLUENCE_PLUS_1
@@ -3170,8 +3171,11 @@
 		TEXT_OBJECT_STAR_SYSTEM_KAIKIELIUS
 		</Encyclopedia_Text>
 
-		<Starting_Spawned_Units_Tech_0>Military_Soldier_Squad, 2</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Military_Soldier_Squad, 2</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Security_Trooper_Squad, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Security_Trooper_Squad, 1</Reserve_Spawned_Units_Tech_0>
+
+		<Starting_Spawned_Units_Tech_0>Elite_Mercenary_Heavy_Squad, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Elite_Mercenary_Heavy_Squad, 1</Reserve_Spawned_Units_Tech_0>
 
 		<Abilities SubObjectList="Yes">
 			<Reduce_Production_Price_Ability Name="Praji_Estate_Reduce_Production_Price">
