@@ -35,8 +35,10 @@ TEXT_BELBULLAB24_SQUADRON2,Belbullab-24 Squadron x2
 TEXT_BTLA2_Y_WING_SQUADRON,BTL-A2 Y-wing Squadron
 TEXT_BTLA2_Y_WING_SQUADRON_HALF,BTL-A2 Y-wing Squadron 1/2
 TEXT_BTLA2_Y_WING_SQUADRON2,BTL-A2 Y-wing Squadron x2
-TEXT_COMPANY_PRAJI_ESTATES,Praji Family Estate
-TEXT_COMPANY_PRAJI_ESTATES_DESCRIPTION,
+TEXT_COMPANY_GARRISON_PRAJI_ESTATES_1,Corporate Security Trooper Squad: 1 / 1
+TEXT_COMPANY_GARRISON_PRAJI_ESTATES_2,Elite Mercenary Heavy Squad: 1 / 1
+TEXT_COMPANY_PRAJI_ESTATES,House Praji Estate
+TEXT_COMPANY_PRAJI_ESTATES_DESCRIPTION,The massive and sprawling estate of the prominent and well-connected House Praji, who came from Kaikielius to Coruscant and became increasingly influential in finance and government. Their original Coruscant-based estate boasted luxurious residences and offices as well as gardens and parks big enough to land large starships in. During the Vong War, the Prajii relocated their estate back to Kaikielius, their ancient homeworld. Serves as a hub for House Praji's business dealings and political machinations.
 TEXT_COMPANY_TIERFON_CAPITAL,Tierfon Sector Fleet HQ
 TEXT_COMPANY_TIERFON_DESCRIPTION,The main base of the Tierfon Sector Fleet, with extensive command centers and dockyard facilities. Functions as a dreadnaught-level shipyard and the faction's capital, but can be relocated much cheaper and faster than other capital buildings.
 TEXT_COMPANY_UBIQTORATE_BASE,Ubiqtorate Base
@@ -313,8 +315,8 @@ TEXT_STATBLOCK_THETA_ASSAULT_SHUTTLE_SQUADRON_DOUBLE,Squadron: 24x Theta Assault
 TEXT_STATBLOCK_THETA_ASSAULT_SHUTTLE_SQUADRON_HALF,Squadron: 6x Theta Assault Shuttles
 TEXT_STATBLOCK_THETA_ASSAULT_SHUTTLE_WEAP1,2x Fighter Laser Cannons: 8 / 3.0s / 1.0km
 TEXT_STATBLOCK_THETA_ASSAULT_SHUTTLE_WEAP2,1x Heavy Fighter Laser Cannon: 2 / 3.0s / 1.0km
-TEXT_STATBLOCK_THETA_ASSAULT_SHUTTLE_WEAP3,1x Fighter Concussion Missile (AF): 2 / 12.5s / 1.8km 
 TEXT_STATBLOCK_THETA_ASSAULT_SHUTTLE_WEAP3,1x Fighter Assault Concussion Missile: 1 / 37.5s / 1.8km
+TEXT_STATBLOCK_THETA_ASSAULT_SHUTTLE_WEAP3,1x Fighter Concussion Missile (AF): 2 / 12.5s / 1.8km 
 TEXT_STATBLOCK_TIE_AVENGER_ASSAULT_SQUADRON,Squadron: 12x Assault TIE Avenger
 TEXT_STATBLOCK_TIE_AVENGER_ASSAULT_SQUADRON_DOUBLE,Squadron: 24x Assault TIE Avenger
 TEXT_STATBLOCK_TIE_AVENGER_ASSAULT_SQUADRON_HALF,Squadron: 6x Assault TIE Avenger
