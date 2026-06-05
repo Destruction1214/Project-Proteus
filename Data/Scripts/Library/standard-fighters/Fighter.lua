@@ -114,7 +114,7 @@ return {
 			--Project Proteus
 			GRUNGER = {"TWIN_ION_ENGINE_STARFIGHTER_SQUADRON", false},
 			THORN = {"TIE_FIGHTER_BF2_SQUADRON", false},
-			X1 = {"", false},
+			X1 = {"HOWLRUNNER_SQUADRON", false},
 			PRAJI = {"SHIELDED_MISSILE_TIE_FIGHTER_SQUADRON", false},
 		}
 		

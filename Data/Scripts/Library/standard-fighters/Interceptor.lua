@@ -89,7 +89,7 @@ return {
 			--Project Proteus
 			GRUNGER = {"SHIELDED_ARMORED_INTERCEPTOR_SQUADRON", false},
 			THORN = {"TIE_INTERCEPTOR_SQUADRON", false},
-			X1 = {"", false},
+			X1 = {"TIE_INTERCEPTOR_BF2_SQUADRON", false},
 			PRAJI = {"SHIELDED_ARMORED_INTERCEPTOR_SQUADRON", false},
 		}
 		

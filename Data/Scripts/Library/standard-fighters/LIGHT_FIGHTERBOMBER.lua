@@ -77,7 +77,7 @@ return {
 			--Project Proteus
 			GRUNGER = {"SCYK_HEAVY_FIGHTER_SQUADRON", false},
 			THORN = {"TIE_GT_SQUADRON", false},
-			X1 = {"", false},
+			X1 = {"TIE_GT_SQUADRON", false},
 			PRAJI = {"TIE_X2_SQUADRON", false},
 		}
 		

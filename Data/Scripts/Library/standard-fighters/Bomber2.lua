@@ -86,8 +86,8 @@ return {
 			--Project Proteus
 			GRUNGER = {"STARWING_SQUADRON", false},
 			THORN = {"STARWING_SQUADRON", false},
-			X1 = {"", false},
-			PRAJI = {"", false},
+			X1 = {"STARWING_SQUADRON", false},
+			PRAJI = {"TIE_OPPRESSOR_SQUADRON", false},
 }
 
 		if simpletypes[owner] then

@@ -86,7 +86,7 @@ return {
 			GRUNGER = {"TIE_BOMBER_SQUADRON", false,
 					{"GRUSC", "SCIMITAR_SQUADRON", false}}, --research 1
 			THORN = {"TIE_BOMBER_SQUADRON", false},
-			X1 = {"", false},
+			X1 = {"TIE_BOMBER_SQUADRON", false},
 		}
 		
 		if simpletypes[owner] then

@@ -89,7 +89,7 @@ return {
 			--Project Proteus
 			GRUNGER = {"TIE_AVENGER_SQUADRON", false},
 			THORN = {"TIE_AVENGER_SQUADRON", false},
-			X1 = {"", false},
+			X1 = {"TIE_AVENGER_SQUADRON", false},
 			PRAJI = {"STARWING_SQUADRON", false},
 		}
 		

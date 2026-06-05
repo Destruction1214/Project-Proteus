@@ -97,7 +97,7 @@ return {
 			--Project Proteus
 			GRUNGER = {"FIRESPRAY_BOMBER_SQUADRON", false},
 			THORN = {"TIE_TERROR_SQUADRON", false},
-			X1 = {"", false},
+			X1 = {"TIE_HEAVY_BOMBER_SQUADRON", false},
 			PRAJI = {"TIE_HEAVY_BOMBER_SQUADRON", false},
 		}
 		
