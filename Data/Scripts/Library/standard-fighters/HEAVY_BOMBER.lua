@@ -93,7 +93,7 @@ return {
 			WILD_SPACE = {"H_WING_SQUADRON", false},
 			ZAARIN_REMNANTS = {"TIE_TERROR_SQUADRON", false},
 			ZERO_COMMAND = {"TIE_HEAVY_BOMBER_SQUADRON", false},
-			ZSINJ_REMNANTS = {"", false},
+			ZSINJ_REMNANTS = {"TIE_TERROR_SQUADRON", false},
 			--Project Proteus
 			GRUNGER = {"FIRESPRAY_BOMBER_SQUADRON", false},
 			THORN = {"TIE_TERROR_SQUADRON", false},
