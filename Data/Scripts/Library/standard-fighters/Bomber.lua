@@ -82,7 +82,7 @@ return {
 			ZAARIN_REMNANTS = {"TIE_AVENGER_BOMBER_SQUADRON", false,
 					{"ZSC", "SCIMITAR_SQUADRON", false}}, --research 1
 			ZERO_COMMAND = {"SHIELDED_TIE_BOMBER_SQUADRON", false},
-			ZSINJ_REMNANTS = {"", false},
+			ZSINJ_REMNANTS = {"BTLS1_Y_WING_SQUADRON", false},
 			--Project Proteus
 			GRUNGER = {"TIE_BOMBER_SQUADRON", false,
 					{"GRUSC", "SCIMITAR_SQUADRON", false}}, --research 1

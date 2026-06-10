@@ -88,11 +88,11 @@ return {
 			WILD_SPACE = {"EARLY_SKIPRAY_SQUADRON", false},
 			ZAARIN_REMNANTS = {"ADVANCED_SKIPRAY_SQUADRON", false},
 			ZERO_COMMAND = {"SKIPRAY_SQUADRON", false},
-			ZSINJ_REMNANTS = {"", false},
+			ZSINJ_REMNANTS = {"FIRESPRAY_GUNSHIP_SQUADRON", false},
 			--Project Proteus
 			GRUNGER = {"ADVANCED_SKIPRAY_SQUADRON", false},
 			THORN = {"THETA_ASSAULT_SQUADRON", false},
-			X1 = {"", false},
+			X1 = {"THETA_ASSAULT_SQUADRON", false},
 			PRAJI = {"SKIPRAY_INTERCEPTOR_SQUADRON", false},
 		}
 		

@@ -85,7 +85,7 @@ return {
 			WILD_SPACE = {"CLOAKSHAPE_NEW_SQUADRON", false},
 			ZAARIN_REMNANTS = {"TIE_AVENGER_TORPS_SQUADRON", false},
 			ZERO_COMMAND = {"TIE_SENTINEL_SQUADRON", false},
-			ZSINJ_REMNANTS = {"", false},
+			ZSINJ_REMNANTS = {"TIE_V1_SQUADRON", false},
 			--Project Proteus
 			GRUNGER = {"TIE_AVENGER_SQUADRON", false},
 			THORN = {"TIE_AVENGER_SQUADRON", false},
