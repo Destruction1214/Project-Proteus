@@ -3139,4 +3139,59 @@
 		</Abilities>
 	</SpecialStructure>
 	
+	<SpecialStructure Name="Praji_Estates">
+		<Variant_Of_Existing_Type>Template_Galactic_Company</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_COMPANY_PRAJI_ESTATES</Text_ID>
+
+		<Land_Model_Name>NB_Bothan_building.alo</Land_Model_Name>
+		<Scale_Factor>1.5</Scale_Factor>
+
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+
+		<Build_Cost_Credits>10000</Build_Cost_Credits>
+
+		<Required_Planets>Coruscant, Kaikielius</Required_Planets>
+
+		<Icon_Name>I_BUTTON_PRAJI_ESTATE.TGA</Icon_Name>
+
+		<Encyclopedia_Text>
+		TEXT_COMPANY_PRAJI_ESTATES_DESCRIPTION
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_COMPANY_HEALTH
+		TEXT_TOOLTIP_SEPARATOR_GARRISON_BLOCK
+		TEXT_COMPANY_GARRISON_PRAJI_ESTATES_1
+		TEXT_COMPANY_GARRISON_PRAJI_ESTATES_2
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_DISCOUNT_COMPANY_LOW2
+		TEXT_TOOLTIP_BONUS_INFLUENCE_PLUS_1
+		TEXT_TOOLTIP_BONUS_INFRASTRUCTURE_PLUS_1
+		TEXT_TOOLTIP_SEPARATOR_LOCATION_BLOCK
+		TEXT_OBJECT_STAR_SYSTEM_CORUSCANT
+		TEXT_OBJECT_STAR_SYSTEM_KAIKIELIUS
+		</Encyclopedia_Text>
+
+		<Starting_Spawned_Units_Tech_0>Security_Trooper_Squad, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Security_Trooper_Squad, 1</Reserve_Spawned_Units_Tech_0>
+
+		<Starting_Spawned_Units_Tech_0>Elite_Mercenary_Heavy_Squad, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Elite_Mercenary_Heavy_Squad, 1</Reserve_Spawned_Units_Tech_0>
+
+		<Abilities SubObjectList="Yes">
+			<Reduce_Production_Price_Ability Name="Praji_Estate_Reduce_Production_Price">
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Excluded_Unit_Categories>Upgrade | Wall</Excluded_Unit_Categories>
+				<Price_Reduction_Percentage>0.1</Price_Reduction_Percentage>
+				<Stacking_Category>50</Stacking_Category>
+			</Reduce_Production_Price_Ability>
+
+			<Reduce_Production_Time_Ability Name="Praji_Estate_Production_Time_Bonus">
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Excluded_Unit_Categories>Upgrade | Wall</Excluded_Unit_Categories>
+				<Time_Reduction_Percentage>0.1</Time_Reduction_Percentage>
+				<Stacking_Category>50</Stacking_Category>
+				<Galaxy_Wide> No </Galaxy_Wide>
+			</Reduce_Production_Time_Ability>
+		</Abilities>
+	</SpecialStructure>
 </SpecialStructures>

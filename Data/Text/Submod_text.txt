@@ -35,6 +35,10 @@ TEXT_BELBULLAB24_SQUADRON2,Belbullab-24 Squadron x2
 TEXT_BTLA2_Y_WING_SQUADRON,BTL-A2 Y-wing Squadron
 TEXT_BTLA2_Y_WING_SQUADRON_HALF,BTL-A2 Y-wing Squadron 1/2
 TEXT_BTLA2_Y_WING_SQUADRON2,BTL-A2 Y-wing Squadron x2
+TEXT_COMPANY_GARRISON_PRAJI_ESTATES_1,Corporate Security Trooper Squad: 1 / 1
+TEXT_COMPANY_GARRISON_PRAJI_ESTATES_2,Elite Mercenary Heavy Squad: 1 / 1
+TEXT_COMPANY_PRAJI_ESTATES,House Praji Estate
+TEXT_COMPANY_PRAJI_ESTATES_DESCRIPTION,The massive and sprawling estate of the prominent and well-connected House Praji, who came from Kaikielius to Coruscant and became increasingly influential in finance and government. Their original Coruscant-based estate boasted luxurious residences and offices as well as gardens and parks big enough to land large starships in. During the Vong War, the Prajii relocated their estate back to Kaikielius, their ancient homeworld. Serves as a hub for House Praji's business dealings and political machinations.
 TEXT_COMPANY_TIERFON_CAPITAL,Tierfon Sector Fleet HQ
 TEXT_COMPANY_TIERFON_DESCRIPTION,The main base of the Tierfon Sector Fleet, with extensive command centers and dockyard facilities. Functions as a dreadnaught-level shipyard and the faction's capital, but can be relocated much cheaper and faster than other capital buildings.
 TEXT_COMPANY_UBIQTORATE_BASE,Ubiqtorate Base
@@ -311,8 +315,8 @@ TEXT_STATBLOCK_THETA_ASSAULT_SHUTTLE_SQUADRON_DOUBLE,Squadron: 24x Theta Assault
 TEXT_STATBLOCK_THETA_ASSAULT_SHUTTLE_SQUADRON_HALF,Squadron: 6x Theta Assault Shuttles
 TEXT_STATBLOCK_THETA_ASSAULT_SHUTTLE_WEAP1,2x Fighter Laser Cannons: 8 / 3.0s / 1.0km
 TEXT_STATBLOCK_THETA_ASSAULT_SHUTTLE_WEAP2,1x Heavy Fighter Laser Cannon: 2 / 3.0s / 1.0km
-TEXT_STATBLOCK_THETA_ASSAULT_SHUTTLE_WEAP3,1x Fighter Concussion Missile (AF): 2 / 12.5s / 1.8km 
 TEXT_STATBLOCK_THETA_ASSAULT_SHUTTLE_WEAP3,1x Fighter Assault Concussion Missile: 1 / 37.5s / 1.8km
+TEXT_STATBLOCK_THETA_ASSAULT_SHUTTLE_WEAP3,1x Fighter Concussion Missile (AF): 2 / 12.5s / 1.8km 
 TEXT_STATBLOCK_TIE_AVENGER_ASSAULT_SQUADRON,Squadron: 12x Assault TIE Avenger
 TEXT_STATBLOCK_TIE_AVENGER_ASSAULT_SQUADRON_DOUBLE,Squadron: 24x Assault TIE Avenger
 TEXT_STATBLOCK_TIE_AVENGER_ASSAULT_SQUADRON_HALF,Squadron: 6x Assault TIE Avenger
@@ -508,6 +512,7 @@ TEXT_TOOLTIP_BELBULLAB22,Fighter created by the Techno Union in preparation for 
 TEXT_TOOLTIP_BELBULLAB23,Variant Belbullab design that acts as a heavy assault craft. Armed with heavier weaponry, it is well suited to engage Republic fighters such as the ARC-170, but is more rarely sighted compared to the more standard fighter and bomber Belbullab starfighters.
 TEXT_TOOLTIP_BELBULLAB24,Derivative of the Belbullab design spun into an average-performance bomber. Used as a more individually powerful asset compared to swarms of lighter droid bombers, and remained more popular with holdouts and small cells afterwards due to the pilotable nature. At least one instance was taken by Imperial forces for study.
 TEXT_TOOLTIP_BENJO,Benjo, also known as ST-1-2 is one of the original members of Alpha Squadron. Benjo previously flew under the command of Villian Dance as his right panelman and second-in-command. Dance later defected to the Rebel Alliance, at which time Benjo unofficially took command of Alpha Squadron due to his rank. Despite the betrayal of his previous squadron leader, Benjo kept his call sign and still admires Dance for their piloting skill witnessed during their mission in the Horuz system.
+TEXT_TOOLTIP_BONUS_DISCOUNT_COMPANY_LOW2,Price: -10% | Time: -10%
 TEXT_TOOLTIP_BRAK_FIGHTERS_RESEARCH,Upgrade the aging fighters of the Brak Sector Fleet with newer, more powerful models procured from Sienar despite ongoing difficulties. Phases out Cloakshape, Warpod, TIE/ln and TIE/gt fighters, pushes V-Wings and ARC-170s into support roles, and adds various TIE Interceptor, TIE Advanced and TIE Avenger models to serve as top-end models. Due to the situation in the galaxy, this process will be expensive and time consuming, but Admiral Trier assures us that it will be worth it.
 TEXT_TOOLTIP_BRELLAR,Alecs Brellar served as captain of the Onslaught. He was sent to Bakura to bring the system under Imperial control, and later presented Wilek Nereus with the official badges of office as Bakura's governor, amid anti-Imperial protests.
 TEXT_TOOLTIP_BTLA2_Y_WING,Early model of Y-wing tuned more towards a multirole fighter than assault bomber role. Reduced shield strength provides an increase in engine power and the weapon loadout is optimized for both its combat role and control by a single pilot. This variant lacks even the fixed-forward ions that later attempts at the concept will include.
@@ -610,6 +615,8 @@ TEXT_TOOLTIP_CORONA_TENDER_WEAP3,1x Light Ion Cannon: 2 / 5.0s / 5.1km
 TEXT_TOOLTIP_CORONA_TENDER_WEAP4,1x Medium Rapid Laser Cannon: 6 / 1.33s / 3.6km
 TEXT_TOOLTIP_CORONA_TENDER_WEAP5,1x Light Rapid Laser Cannon: 6 / 1.75s / 3.1km
 TEXT_TOOLTIP_COYOTE_BOMBER,This wartime direct upgrade to an older Droid Bomber design spun off from the Vulture series. Employed by the Trade Federation in the subjugation of its corporate interests, and would fly under CIS colors when the Trade Federation pledged its military to the Separatists. It is similar to its peer the Hyena Bomber in role and power, swarming enemy capital ships to cripple or eliminate them while pushing through Republic fighter forces. Unusually for the size and design it is equipped with a weak shield, though it does make other performance sacrifices in comparison.
+TEXT_TOOLTIP_DASTATRADESTATION,Orbital trading post and security platform for the widespread trade network of the D'Astan Family. 
+TEXT_TOOLTIP_DASTATRADESTATION_GARRISON,Marauder Picket Cruiser: 1/0
 TEXT_TOOLTIP_DIAMOND,A Commerce Guild transport and cruiser fitted with a respectable number of laser batteries. It is often used as a fast and secure courier vessel by ranking corporate individuals. Serves as an anti-fighter screen in fleet engagements.
 TEXT_TOOLTIP_DIAMOND_HULL,Hull: 900 (Frigate)
 TEXT_TOOLTIP_DIAMOND_MOVE,Speed: 5.6 | Accel: 0.175 | Turn: 0.4
@@ -928,6 +935,14 @@ TEXT_TOOLTIP_STRIKE_CRUISER_ZETA,A rare variant of the Loronar Strike Cruiser de
 TEXT_TOOLTIP_STRIKE_CRUISER_ZETA_SHIELD,Shields: 1200 / [21/R] (Frigate)
 TEXT_TOOLTIP_STRIKE_CRUISER_ZETA_WEAP1,1x Ultraheavy Ion Cannon: 2 / 3.33s / 8.1km
 TEXT_TOOLTIP_STRIKE_CRUISER_ZETA_WEAP2,2x Medium Ion Cannons: 2 / 2.0s / 6.1km
+TEXT_TOOLTIP_SUPERCRUISER,A support Acclamator variant with extensive transport equipment and sensor and ECM suites.
+TEXT_TOOLTIP_SUPERCRUISER_HULL,Hull: 2100 (Frigate)
+TEXT_TOOLTIP_SUPERCRUISER_MOVE,Speed: 4.9 | Accel: 0.2 | Turn: 0.45
+TEXT_TOOLTIP_SUPERCRUISER_SHIELD,Shields: 2000 / [20/R] (Frigate)
+TEXT_TOOLTIP_SUPERCRUISER_SQUADRON,Fighters: 3 / 6 | Bombers: 2 / 4
+TEXT_TOOLTIP_SUPERCRUISER_WEAP1,2x Medium Turbolasers: 2 / 0.83s / 6.3km
+TEXT_TOOLTIP_SUPERCRUISER_WEAP2,2x Concussion Missiles: 2 / 5.0s / 4.1km
+TEXT_TOOLTIP_SUPERCRUISER_WEAP3,2x Proton Torpedoes: 2 / 11.25s / 5.3km
 TEXT_TOOLTIP_T11,T-11 was an JV-Z1/S DataBank Droid, the Republic counterpart to the Separatist's Tactical Droid line. Following the end of the Clone Wars, T-11 was reassigned to command a garbage scowl and became the subject of a failed reprogramming. T-11's programming started to behave in a manner similar to organics afflicted with psychosis, flashing between his older personality and a slough of new ones.  
 TEXT_TOOLTIP_T11_SQAUDRON, 0.5 / 0 Fighters
 TEXT_TOOLTIP_TAPANI_A9_RESEARCH,Acquire Kuat's new A-9 Interceptors. Replaces the older TIE Interceptors.
@@ -1241,6 +1256,13 @@ TEXT_VULTURE_SQUADRON2,Vulture Droid-I Squadron x2
 TEXT_YV929_SQUADRON,YV-929 Squadron
 TEXT_YV929_SQUADRON_HALF,YV-929 Squadron 1/2
 TEXT_YV929_SQUADRON2,YV-929 Squadron x2
+TEXT_TOOLTIP_VECTOR,A rare variant of the Victory-Class Star Destroyer that modifies the design in a similar way the Tector-Class modified the Imperator hull; with increased armor, no fighter launch bay, and a mission loadout much more focused on direct-ship-to-ship combat than the broad assignment profile of most Imperial capital ships. However, unlike the Tector modifying the Imperial I hull, the Vector uses the Victory II's hull as its base, inheriting the model's speed and focus on energy weapons instead of munitions. Although developed shortly after the Clone Wars, the design remained obscure, languishing in deep core reserve fleets until the campaigns of the Reborn Emperor. Very strong at engaging most types of capital ships, and boasts a sizable anti-fighter defense grid, but lacks the offensive versatility of the other variants.
+TEXT_TOOLTIP_VECTOR_HULL,Hull: 4000 (Heavy Frigate)
+TEXT_TOOLTIP_VECTOR_SHIELD,Shields: 4000 / [50/R] (Heavy Frigate)
+TEXT_TOOLTIP_WEAPON1,4x Medium Quad Turbolaser 2/2.0s/6.2km
+TEXT_TOOLTIP_WEAPON2,4x Medium Turbolaser 2/1.0s/6.2km
+TEXT_TOOLTIP_WEAPON3,3x Heavy Quad Laser Cannon 2/1.0s/4.7km
+TEXT_UNIT_VECTOR,Vector Star Destroyer
 Z_TEXT_TOOLTIP_AF2_RESEARCH,Comb through old schematics for Rendili's Assault Frigate-II and put the ship to use for our own purposes. Unlocks Assault Frigate-II.
 Z_TEXT_TOOLTIP_CORONA_RESEARCH,Steal the schematics for KDY's prototype frigate design and reverse-engineer the vessel for our own purposes. Unlocks Corona Frigate and Corona Tender, retires Nebulon-B and Star Galleon.
 Z_TEXT_TOOLTIP_GORATH_RESEARCH,"Borrow" the schematics for Loronar's prototype strike cruiser design and reverse-engineer the vessel for our own purposes. Unlocks Gorath, retires Strike Cruiser.
@@ -1248,16 +1270,6 @@ Z_TEXT_TOOLTIP_MISSILE_BOAT_RESEARCH,Recover the schematics for Thrawn's Missile
 Z_TEXT_TOOLTIP_MTC_RESEARCH,Seize the schematics for TaggeCo's prototype frigate design and reverse-engineer the vessel for our own purposes. Unlocks Modular Taskforce Sensor Cruiser.
 Z_TEXT_TOOLTIP_SCIMITAR_RESEARCH,Use your powers of persuasion to coax the schematics for Tomax Bren's TIE Bomber Mark 2 out of Sienar's Engineers. Replaces all TIE Avenger Bomber spawns with Scimitar Assault Bombers.
 Z_TEXT_UNIT_AF2_RESEARCH,Reverse-engineer the Assault Frigate-II
-TEXT_TOOLTIP_DASTATRADESTATION_GARRISON,Marauder Picket Cruiser: 1/0
-TEXT_TOOLTIP_DASTATRADESTATION,Orbital trading post and security platform for the widespread trade network of the D'Astan Family. 
-TEXT_TOOLTIP_SUPERCRUISER,A support Acclamator variant with extensive transport equipment and sensor and ECM suites.
-TEXT_TOOLTIP_SUPERCRUISER_HULL,Hull: 2100 (Frigate)
-TEXT_TOOLTIP_SUPERCRUISER_MOVE,Speed: 4.9 | Accel: 0.2 | Turn: 0.45
-TEXT_TOOLTIP_SUPERCRUISER_SHIELD,Shields: 2000 / [20/R] (Frigate)
-TEXT_TOOLTIP_SUPERCRUISER_SQUADRON,Fighters: 3 / 6 | Bombers: 2 / 4
-TEXT_TOOLTIP_SUPERCRUISER_WEAP1,2x Medium Turbolasers: 2 / 0.83s / 6.3km
-TEXT_TOOLTIP_SUPERCRUISER_WEAP2,2x Concussion Missiles: 2 / 5.0s / 4.1km
-TEXT_TOOLTIP_SUPERCRUISER_WEAP3,2x Proton Torpedoes: 2 / 11.25s / 5.3km
 Z_TEXT_UNIT_CORONA_RESEARCH,Reverse-engineer the Corona Frigate
 Z_TEXT_UNIT_GORATH_RESEARCH,Reverse-engineer the Gorath Strike Cruiser
 Z_TEXT_UNIT_MISSILE_BOAT_RESEARCH,Reverse-engineer the Missile Boat

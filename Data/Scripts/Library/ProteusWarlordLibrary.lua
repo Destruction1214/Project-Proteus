@@ -1071,6 +1071,8 @@ return {
 				"AT_ST_Company", "AT_DP_Company", "Chariot_LAV_Company", "PX7_Company",
 				"Imperial_Dropship_Transport_Company", "S_1_Firehawke_Company", "SPMAT_Company", "AT_AA_Missile_Walker_Company", "Imperial_Light_Mobile_Artillery_Company",
 				"Imperial_AT_AT_Walker_Company", "A9_Floating_Fortress_Company", "Lancet_Air_Artillery_Company",
+				-- Structure
+				"Praji_Estates",
 			},
 			FactionOverride = "Empire",
 			FactionOverride2 = "Rebel",

@@ -41,7 +41,7 @@ return {
 		"Imperial_Army_Commando_Company", "Security_Trooper_Company", "New_Republic_Overracer_Speeder_Bike_Company", "PX10_Company", "New_Republic_AA5_Company", "Arrow_23_Company", "1M_Tank_Company", "JX40_Company", "Strikebreaker_Company", "Teklos_Company", "Tracked_Shield_Disabler_Company",
 		"Citadel_Cruiser_Group", "Neutron_Star", "Super_Transport_XI_Missile",
 		--Tierfon Sector added units
-		"Tartan_Patrol_Cruiser","Pursuit_Light_Cruiser",
+		"Tartan_Patrol_Cruiser","Pursuit_Light_Cruiser","Vector_Star_Destroyer",
 		"Imperial_I_Star_Destroyer_Assault","Secutor_Star_Destroyer","Praetor_II_Battlecruiser","Praetor_Carrier_Battlecruiser","Altor_Replenishment_Ship",
 		"Assertor_Star_Dreadnought",
 		"Imperial_Fleet_Commando_Company","64_Y_Swift_Repulsorlift_Sled_Company","Imperial_TX130T_Company", "Imperial_Shadow_LAAT_Company",
