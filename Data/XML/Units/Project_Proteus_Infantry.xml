@@ -214,7 +214,7 @@
 				<Type>SPREAD_OUT</Type>
 				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
 				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.75f</Mod_Multiplier>
-				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Clone_Trooper</SFXEvent_GUI_Unit_Ability_Activated>		  
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_BF2_Stormtrooper</SFXEvent_GUI_Unit_Ability_Activated>		  
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</GroundInfantry>
@@ -703,8 +703,8 @@
 
 		<SFXEvent_Build_Started>EHD_Build_Troops</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Recruitment_Canceled</SFXEvent_Build_Cancelled>
-		<SFXEvent_Build_Complete>Unit_Complete_Clone_Trooper</SFXEvent_Build_Complete>
-		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Clone_Trooper</SFXEvent_Fleet_Move>
+		<SFXEvent_Build_Complete>Unit_Complete_BF2_Stormtrooper</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_BF2_Stormtrooper</SFXEvent_Fleet_Move>
 
 		<LOD_Bias>5</LOD_Bias>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
@@ -1164,9 +1164,7 @@
 		
 		<Tech_Level>0</Tech_Level>
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
-		
-		<Company_Units>Darksider_Company_Dummy</Company_Units>
-		
+				
 		<Affiliation>Imperial_Proteus</Affiliation>
 
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
@@ -1186,7 +1184,7 @@
 
 		<Max_Squad_Size> 1 </Max_Squad_Size>
 		<Company_Transport_Unit>Shuttle_Tyderium</Company_Transport_Unit>
-		<Company_Units>Inquestor_Company_Dummy</Company_Units>
+		<Company_Units>Darksider_Company_Dummy</Company_Units>
 
 		<SFXEvent_Build_Started>EHD_Build_Troops</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Recruitment_Canceled</SFXEvent_Build_Cancelled>

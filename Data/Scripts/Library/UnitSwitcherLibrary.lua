@@ -36,6 +36,7 @@ return {
 	["GRUNGER_AGGRESSOR_DUMMY"] = {"Grunger_Mahler","Grunger_Aggressor"},
 	["GRONN_ACULEUS_DUMMY"] = {"Gronn_Acropora","Gronn_Aculeus"},
 	["THORN_ASSERTOR_DUMMY"] = {"Thorn","Thorn_Assertor"},
+	["COMEG_BELLATOR_DUMMY"] = {"Comeg_Ostrander","Comeg_Bellator"},
 
 	-- CSA Corporate Hire
 	["DUMMY_RECRUIT_GROUP_SIIN_SUUB_CSA"] = {nil,{"Siin_Suub_Proclamation"}},

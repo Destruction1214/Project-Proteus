@@ -1758,12 +1758,12 @@
 
 		<Lua_Script>GenericGameObject</Lua_Script>
 		
-		<Starting_Spawned_Units_Tech_1> Scarab_Squadron_Half, 1 </Starting_Spawned_Units_Tech_1>
+		<Starting_Spawned_Units_Tech_1> TIE_Fighter_Squadron_Half, 1 </Starting_Spawned_Units_Tech_1>
 		<Starting_Spawned_Units_Tech_3> TriFighter_Squadron_Half, 1 </Starting_Spawned_Units_Tech_3>
 		
 		<Spawned_Squadron_Delay_Seconds> 15 </Spawned_Squadron_Delay_Seconds>
 		
-		<Reserve_Spawned_Units_Tech_1> Scarab_Squadron_Half, 1 </Reserve_Spawned_Units_Tech_1>
+		<Reserve_Spawned_Units_Tech_1> TIE_Fighter_Squadron_Half, 1 </Reserve_Spawned_Units_Tech_1>
 		<Reserve_Spawned_Units_Tech_3> TriFighter_Squadron_Half, 1 </Reserve_Spawned_Units_Tech_3>
 
 		<Target_Bones>Root</Target_Bones>
@@ -2964,7 +2964,7 @@
 		<Tactical_Build_Cost_Multiplayer>3855</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>19</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<Tactical_Build_Prerequisites>Space_Level_One_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Build_Prerequisites>Space_Level_Four_Tech_Upgrade</Tactical_Build_Prerequisites>
 		<Tactical_Bribe_Cost>1500</Tactical_Bribe_Cost>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 		<Score_Cost_Credits> 1800</Score_Cost_Credits>
@@ -3387,8 +3387,6 @@
 
 		<Build_Initially_Locked>no</Build_Initially_Locked>
 
-		<Population_Value>25</Population_Value>
-
 		<HardPoints>
 		Venator_Bay, Venator_Engines,
 		HP_Venator_8X_MOTL_01, HP_Venator_8X_MOTL_02, HP_Venator_8X_MOTL_03, HP_Venator_8X_MOTL_04,
@@ -3735,7 +3733,7 @@
 		<Icon_Name>I_BUTTON_BAYONET.TGA</Icon_Name>
 
 		<Space_Model_Name>ReV_centax_frigate.ALO</Space_Model_Name>
-		<Scale_Factor>0.5</Scale_Factor>
+		<Scale_Factor>0.3</Scale_Factor>
 		<Select_Box_Scale>300</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 		<Size_Value>8</Size_Value>
@@ -3923,8 +3921,16 @@
 
 		</Unit_Abilities_Data>
 
-		<Death_Clone>Damage_Normal, Medium_Explosion_Space_Trails</Death_Clone>
+		<Death_Clone>Damage_Normal, Bayonet_Cruiser_Death_Clone</Death_Clone>
 	</SpaceUnit>
+
+	<Death_Clone Name="Bayonet_Cruiser_Death_Clone">
+		<Space_Model_Name>ReV_centax_frigate_d.alo</Space_Model_Name>
+		<Specific_Death_Anim_Type>DIE</Specific_Death_Anim_Type>
+		<Specific_Death_Anim_Index />
+		<Scale_Factor>0.3</Scale_Factor>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+	</Death_Clone>
 
 	<SpaceUnit Name="Template_Mansk_Frigate">
 		<Text_ID>TEXT_UNIT_MANSK_FRIGATE</Text_ID>
@@ -4967,8 +4973,8 @@
 		<Starting_Spawned_Units_Tech_2> Vulture_Squadron_Double, 1 </Starting_Spawned_Units_Tech_2>
 		<Starting_Spawned_Units_Tech_3> Vulture_Squadron_Double, 1 </Starting_Spawned_Units_Tech_3>
 		
-		<Starting_Spawned_Units_Tech_1> Scarab_Squadron, 1 </Starting_Spawned_Units_Tech_1>
-		<Starting_Spawned_Units_Tech_2> Scarab_Squadron, 1 </Starting_Spawned_Units_Tech_2>
+		<Starting_Spawned_Units_Tech_1> TIE_Fighter_Squadron, 1 </Starting_Spawned_Units_Tech_1>
+		<Starting_Spawned_Units_Tech_2> TIE_Fighter_Squadron, 1 </Starting_Spawned_Units_Tech_2>
 		<Starting_Spawned_Units_Tech_3> Trifighter_Squadron, 1 </Starting_Spawned_Units_Tech_3>
 		
 		<Starting_Spawned_Units_Tech_1> TIE_Bomber_Squadron, 1 </Starting_Spawned_Units_Tech_1>
@@ -4981,8 +4987,8 @@
 		<Reserve_Spawned_Units_Tech_2> Vulture_Squadron_Double, 3 </Reserve_Spawned_Units_Tech_2>
 		<Reserve_Spawned_Units_Tech_3> Vulture_Squadron_Double, 3 </Reserve_Spawned_Units_Tech_3>
 		
-		<Reserve_Spawned_Units_Tech_1> Scarab_Squadron, 4 </Reserve_Spawned_Units_Tech_1>
-		<Reserve_Spawned_Units_Tech_2> Scarab_Squadron, 4 </Reserve_Spawned_Units_Tech_2>
+		<Reserve_Spawned_Units_Tech_1> TIE_Fighter_Squadron, 4 </Reserve_Spawned_Units_Tech_1>
+		<Reserve_Spawned_Units_Tech_2> TIE_Fighter_Squadron, 4 </Reserve_Spawned_Units_Tech_2>
 		<Reserve_Spawned_Units_Tech_3> Trifighter_Squadron, 4 </Reserve_Spawned_Units_Tech_3>
 		
 		<Reserve_Spawned_Units_Tech_1> TIE_Bomber_Squadron, 4 </Reserve_Spawned_Units_Tech_1>

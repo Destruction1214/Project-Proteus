@@ -933,5 +933,7 @@ return {
 ["T11"] = true,
 ["BRELLAR_ONSLAUGHT"] = true,
 ["VECTOR_STAR_DESTROYER"] = true,
+["COMEG_OSTRANDER"] = true,
+["COMEG_BELLATOR_DUMMY"] = true,
   
 }
