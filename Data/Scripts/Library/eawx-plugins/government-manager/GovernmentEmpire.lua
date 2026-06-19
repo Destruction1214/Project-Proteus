@@ -723,11 +723,11 @@ function GovernmentEmpire:on_production_finished(planet, game_object_type_name)
     elseif game_object_type_name == "SELLASAS_LOADOUT_SWAP2" then
         --locks second loadout
         UnitUtil.SetLockList("IMPERIAL_PROTEUS", {
-            "Sellasas_Loadout_Swap2", "Rep_DHC", "Neutron_Star", "Carrack_Cruiser_Laser", "Victory_I_Star_Destroyer", "Victory_II_Carrier", "Imperial_I_Star_Destroyer_Patrol"
+            "Sellasas_Loadout_Swap2", "Rep_DHC", "Carrack_Cruiser_Laser", "Victory_I_Star_Destroyer", "Victory_II_Carrier", "Imperial_I_Star_Destroyer_Patrol"
         }, false)
         --unlocks first
         UnitUtil.SetLockList("IMPERIAL_PROTEUS", {
-            "Sellasas_Loadout_Swap1", "Imperial_DHC", "Neutron_Star_Mercenary", "Carrack_Cruiser", "Victory_I_Fleet_Star_Destroyer", "Victory_II_Star_Destroyer", "Imperial_I_Star_Destroyer"
+            "Sellasas_Loadout_Swap1", "Imperial_DHC", "Carrack_Cruiser", "Victory_I_Fleet_Star_Destroyer", "Victory_II_Star_Destroyer", "Imperial_I_Star_Destroyer"
         })
     end
 
