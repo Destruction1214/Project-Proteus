@@ -475,14 +475,14 @@ return {
 			UnlockList = {
 				-- Space
 				"Citadel_Cruiser_Group", "IPV1", "Nebulon_B_Tender", "Lancer_Frigate_PDF", "Marauder_Cruiser", "Surveyor_Frigate", "CEC_Light_Cruiser", 			
-				"DHC_Interdictor", "Pursuit_Light_Cruiser", "MTC_Support", "MTC_Sensor", "MTC_Combat", "Super_Transport_XI_Missile", "Gladiator_I",
+				"Rep_DHC", "DHC_Interdictor", "Pursuit_Light_Cruiser", "MTC_Support", "MTC_Sensor", "MTC_Combat", "Super_Transport_XI_Missile", "Gladiator_I",
 				"Imperial_I_Star_Destroyer_Patrol", "Imperial_I_Star_Destroyer_Command", "Triumph_Star_Destroyer", 
 				"CSA_Tagge_Battlecruiser", "Torpedo_Sphere", "Mandator_II_Dreadnought",
 				-- Ground
 				"Imperial_Army_Trooper_Company", "Imperial_Army_Commando_Company", "Security_Trooper_Company", "New_Republic_Overracer_Speeder_Bike_Company",
 				"PX10_Company", "New_Republic_AA5_Company", "Arrow_23_Company", "AT_MP_Company",
-				"1M_Tank_Company", "AT_AA_Flak_Walker_Company", "JX40_Company", "Imperial_Missile_Artillery_Company", "SPMAT_Company", 
-				"Strikebreaker_Company", "Teklos_Company",
+				"1M_Tank_Company", "AT_AA_Flak_Walker_Company", "JX40_Company", "Imperial_Missile_Artillery_Company", "SPMAT_Company", "Strikebreaker_Company",
+				"Teklos_Company", "C10_Siege_Tower_Company",
 				-- Structure
 				"TaggeCo_HQ", "Biscuit_Baron",
 			},
@@ -501,13 +501,13 @@ return {
 			UnlockList = {
 				-- Space	
 				"Beta_ETR_3_Group", "Raider_I_Corvette", "Raider_II_Corvette", "Tartan_Patrol_Cruiser", "Eidolon", 
-				"Pursuit_Light_Cruiser", "Imperial_II_Frigate", "Victory_II_Star_Destroyer", "Victory_II_Carrier", "Procursator_Star_Destroyer", 
-				"Imperial_I_Star_Destroyer_Assault", "Imperial_II_Star_Destroyer", "Secutor_Star_Destroyer", "Interdictor_Star_Destroyer", "Imperial_II_Star_Destroyer_Ion", 
+				"Vector_Star_Destroyer", "Victory_II_Carrier", "Procursator_Star_Destroyer", 
+				"Imperial_II_Star_Destroyer", "Secutor_Star_Destroyer", "Interdictor_Star_Destroyer", "Imperial_II_Star_Destroyer_Ion", 
 				"Praetor_I_Battlecruiser", "Praetor_II_Battlecruiser", "Praetor_Carrier_Battlecruiser", "Altor_Replenishment_Ship", "Assertor_Star_Dreadnought", 
 				-- Ground
 				"Imperial_Fleet_Commando_Company", "EVO_Trooper_Company", "64_Y_Swift_Repulsorlift_Sled_Company",
-				"Imperial_AT_RT_Company", "Imperial_ULAV_Company", "Imperial_TX130T_Company",
-				"Deathhawk_Company", "Imperial_Shadow_LAAT_Company", "AT_AA_Missile_Walker_Company", "SPMAG_Walker_Company", "SPMAT_Company", "Falchion_Artillery_Company",
+				"Imperial_AT_RT_Company", "Imperial_ULAV_Company", 
+				"Imperial_TX130T_Company", "Deathhawk_Company", "Imperial_Shadow_LAAT_Company", "AT_AA_Missile_Walker_Company", "SPMAG_Walker_Company", "SPMAT_Company",
 				"Imperial_A5_Juggernaut_Company", "Lancet_Air_Artillery_Company", 
 			},
 			FactionOverride = "Empire",
@@ -551,13 +551,13 @@ return {
 			HeroList = {"Ramier_Team","Trier_Secutor","Lacmar_Team","Maston_Team"},
 			UnlockList = {
 				-- Space
-				"VT49_Decimator_Group", "Imperial_CR90", "Tartan_Patrol_Cruiser", "Marauder_Picket_Cruiser", "Victory_I_Frigate", "Galleon_Minelayer", "Eidolon",
+				"VT49_Decimator_Group", "Imperial_CR90", "Tartan_Patrol_Cruiser", "Marauder_Picket_Cruiser", "Victory_I_Frigate", "Galleon_Minelayer",
 				"Rep_DHC", "Gladiator_I", "Acclamator_I_Supercruiser", "Neutron_Star_Tender", "Victory_I_Star_Destroyer", "Victory_II_Carrier", 
 				"Imperial_I_Star_Destroyer", "Tector_Star_Destroyer", "Secutor_Star_Destroyer", "Acclamator_Destroyer", 
 				"Impellor_Carrier", "Praetor_I_Battlecruiser", "Bellator_Star_Dreadnought",
 				-- Ground 
 				"Imperial_Army_Trooper_Company", "Navy_Commando_Company", "ISB_Infiltrator_Company", "Imperial_Army_74Z_Bike_Company", 
-				"AT_ST_Company", "Chariot_LAV_Company", "Imperial_ULAV_Company", 
+				"AT_ST_Company", "Chariot_LAV_Company", "PX7_Company", 
 				"1M_Tank_Company", "AT_AA_Missile_Walker_Company", "Imperial_Modified_LAAT_Company", "TIE_Crawler_Company", "Imperial_Missile_Artillery_Company", "SPMAG_Walker_Company", 
 				"B5_Juggernaut_Company", "Heavy_Recovery_Vehicle_Company", "Tracked_Mobile_Base_Company", 
 				-- Research
@@ -592,21 +592,21 @@ return {
 		},
 		["ISECTOR"] = {
 			FriendlyName = "I-sector",
-			Planets = {"THILA","SAGMA","MIRIAL"},
+			Planets = {"MIRIAL","THILA","SAGMA"},
 			LeaderTable = {["SHARGAEL_TEAM"] = {"SHARGAEL_AT_TE"}},
 			LeaderEndingNames = {"Emperor Shargael"},
 			HeroList = {"Shargael_Team"},
 			UnlockList = {
 				-- Space
-				"Gozanti_Cruiser_Group", "IPV1", "Patrol_Nebulon_B", "Galleon", "Strike_Cruiser", "Consular_Refit",
-				"PDF_DHC", "Battle_Horn", "Acclamator_Patrol_Refit", "Vindicator_Carrier", "Immobilizer_418", "Acclamator_I_Support", "Victory_I_Star_Destroyer",
+				"Gozanti_Cruiser_Group", "Action_VI_Refit", "Patrol_Nebulon_B", "Galleon", "Strike_Cruiser", "Consular_Refit",
+				"Rep_DHC", "Battle_Horn", "Acclamator_I_Assault", "Vindicator_Carrier", "Immobilizer_418", "Acclamator_I_Support", "Victory_I_Star_Destroyer",
 				"Imperial_I_Star_Destroyer_Patrol", "Tector_Star_Destroyer", "Triumph_Star_Destroyer", "Imperial_I_Star_Destroyer_Hero_Refit_Proteus", 
 				"Praetor_II_Battlecruiser", "Bellator_Star_Dreadnought",
 				-- Ground
-				"Imperial_Army_Trooper_Company", "Imperial_Army_Guard_Company", "Imperial_Scout_Trooper_Company", "Imperial_74Z_Bike_Company", 
-				"Imperial_AT_PT_Company", "AT_DP_Company", "Scorpenek_Utility_Company", "Skyhopper_Antivehicle_Company", 
-				"MZ8_Tank_Company", "1H_Tank_Company", "Imperial_Dropship_Transport_Company", "Imperial_AT_AP_Walker_Company", "MAL_Rocket_Vehicle_Company", "AT_AA_Walker_Company", "Hutt_Personnel_Skiff_IV_Company", 
-				"Imperial_A5_Juggernaut_Company", "PX4_Company", "Canderous_Assault_Tank_Company_Proteus",
+				"Imperial_Army_Guard_Company", "Imperial_Scout_Trooper_Company", "Imperial_74Z_Bike_Company", 
+				"Imperial_AT_PT_Company", "AT_DP_Company", "Scorpenek_Utility_Company", "Hutt_Personnel_Skiff_IV_Company",
+				"MZ8_Tank_Company", "1H_Tank_Company", "Imperial_AT_AP_Walker_Company", "MAL_Rocket_Vehicle_Company", "AT_AA_Walker_Company",  
+				"PX4_Company", "Canderous_Assault_Tank_Company_Proteus",
 			},
 			FactionOverride = "Empire",
 			FactionOverride2 = "Zsinj_Empire",
@@ -672,7 +672,7 @@ return {
 				"Imperial_I_Star_Destroyer_Command", "Imperial_II_Star_Destroyer", "Invincible_Cruiser", 
 				"Communications_Battlecruiser", "Mandator_III_Dreadnought",
 				-- Ground
-				"Military_Soldier_Company", "Imperial_Army_74Z_Bike_Company", 
+				"Imperial_Army_Guard_Company", "Military_Soldier_Company", "Imperial_Army_74Z_Bike_Company", 
 				"1L_Tank_Company", "Imperial_Gaba18_Company", "Gian_Company", 
 				"2M_Repulsor_Tank_Company", "Imperial_Flashblind_Company", "Imperial_VAAT_Company", "Imperial_Heavy_Mobile_Artillery_Company", "Freerunner_AA_Company", 
 				"A9_Floating_Fortress_Company", "Canderous_Assault_Tank_Lasers_Company",
@@ -814,16 +814,16 @@ return {
 			UnlockList = {
 				-- Space	
 				"Customs_Corvette", "Consular_Refit", "Tartan_Patrol_Cruiser", "Galleon", "Carrack_Cruiser", "Ton_Falk_Escort_Carrier", "Strike_Interdictor",
-				"Imperial_DHC", "Neutron_Star_Mercenary", "Proficient_Tender", "Broadside_Cruiser", "Victory_I_Fleet_Star_Destroyer", "Victory_II_Star_Destroyer",
+				"Imperial_DHC", "Proficient_Tender", "Broadside_Cruiser", "Victory_I_Fleet_Star_Destroyer", "Victory_II_Star_Destroyer",
 				"Imperial_I_Star_Destroyer", "Imperial_I_Star_Destroyer_Carrier", "Acclamator_Battleship",
 				"Sorannan_Star_Destroyer", "Bellator_Star_Dreadnought",
 				-- Ground
-				"Army_Special_Missions_Company", "Elite_Mercenary_Company", "64_Y_Swift_Repulsorlift_Sled_Company", "SD_6_Droid_Company_Sellasas",
-				"Imperial_AT_PT_Company", "T2A_Company",
-				"1H_Tank_Company", "Imperial_Dropship_Transport_Company", "Imperial_Light_Mobile_Artillery_Company", "AT_AI_Walker_Company", "Imperial_AT_AP_Walker_Company",
+				"Army_Special_Missions_Company", "Elite_Mercenary_Company", "64_Y_Swift_Repulsorlift_Sled_Company",
+				"Imperial_AT_PT_Company", "T2A_Company", "SD_6_Droid_Company_Sellasas",
+				"1H_Tank_Company", "Imperial_Dropship_Transport_Company", "Imperial_Light_Mobile_Artillery_Company", "Imperial_AT_AP_Walker_Company",
 				"Heavy_Recovery_Vehicle_Company", "A9_Floating_Fortress_Company", 
 				-- Structure
-				"Yutrane_Trackata_HQ", 
+				"Yutrane_Trackata_HQ", "CEC_HQ",
 				-- Research
 				"Sellasas_Loadout_Swap1",
 			},
@@ -915,9 +915,9 @@ return {
 			HeroList = {"Hauser_Team", "Trommer_Ravagor"},
 			UnlockList = {
 				-- Space	
-				"Gamma_ATR_6_Group", "Action_VI_Refit", "Tartan_Patrol_Cruiser", "Active_Frigate", "Victory_II_Frigate", 
-				"DHC_Gunboat", "Vindicator_Cruiser", "Immobilizer_Twin_Well", "Acclamator_II", "Imperial_I_Frigate", "Proteus_Cargo_Ship", "Victory_II_Star_Destroyer", 	"Procursator_Star_Destroyer", 
-				"Imperial_I_Star_Destroyer_Assault", "Imperial_I_Star_Destroyer_Command", "Imperial_II_Star_Destroyer", "Triumph_Star_Destroyer", 
+				"Gamma_ATR_6_Group", "IPV1", "Tartan_Patrol_Cruiser", "Active_Frigate", "Arquitens_Refit",  
+				"DHC_Gunboat", "Immobilizer_Twin_Well", "Acclamator_II", "Imperial_I_Frigate", "Proteus_Cargo_Ship", "Victory_II_Star_Destroyer", "Procursator_Star_Destroyer", 
+				"Imperial_I_Star_Destroyer_Assault", "Imperial_I_Star_Destroyer_Command",
 				"Allegiance_Battlecruiser", "Compellor_Battlecruiser", "Executor_Star_Dreadnought",
 				-- Ground
 				"Compforce_Assault_Company", "Imperial_Galactic_Marine_Company", "IntSec_Operator_Company", "Imperial_74Z_Bike_Company", 
@@ -1062,14 +1062,14 @@ return {
 			HeroList = {"Praji_Secutor"}, 
 			UnlockList = {
 				-- Space 
-				"Guardian_Cruiser_Group", "Customs_Corvette", "Raider_II_Corvette", "Lancer_Frigate", "Patrol_Nebulon_B", "Ton_Falk_Escort_Carrier", "Marauder_Picket_Cruiser",
-				"DHC_Carrier", "Immobilizer_Twin_Well", "Gladiator_II", "Proteus_Cargo_Ship", "Vindicator_Carrier", "Victory_II_Carrier", 
-				"Imperial_I_Star_Destroyer_Carrier", "Imperial_II_Star_Destroyer", "Secutor_Star_Destroyer",
-				"Praetor_Carrier_Battlecruiser", "Mandator_III_Dreadnought",
+				"Guardian_Cruiser_Group", "Customs_Corvette", "Corellian_Buccaneer", "Lancer_Frigate", "Strike_Cruiser", "Ton_Falk_Escort_Carrier", "Trenchant",
+				"DHC_Carrier", "Immobilizer_Twin_Well", "Gladiator_II", "Proteus_Cargo_Ship", "Vindicator_Carrier", "MTC_Sensor", "Victory_II_Carrier", "Vector_Star_Destroyer", 
+				"Imperial_I_Star_Destroyer_Hero_Refit_Proteus", "Imperial_II_Star_Destroyer", "Secutor_Star_Destroyer",
+				"Sorannan_Star_Destroyer", "Praetor_Carrier_Battlecruiser", "Mandator_III_Dreadnought",
 				-- Ground
-				"Navy_Commando_Company", "Imperial_Scout_Trooper_Company", "EVO_Trooper_Company", "Imperial_74Z_Bike_Company", 
-				"AT_ST_Company", "AT_DP_Company", "Chariot_LAV_Company", "PX7_Company",
-				"Imperial_Dropship_Transport_Company", "S_1_Firehawke_Company", "SPMAT_Company", "AT_AA_Missile_Walker_Company", "Imperial_Light_Mobile_Artillery_Company",
+				"Imperial_Galactic_Marine_Company", "Imperial_Scout_Trooper_Company", "EVO_Trooper_Company", "Imperial_74Z_Bike_Company", 
+				"AT_ST_A_Company", "AT_DP_Company", "Chariot_LAV_Company", "PX7_Company",
+				"Imperial_Dropship_Transport_Company", "S_1_Firehawke_Company", "SPMAT_Company", "AT_AA_Missile_Walker_Company", "Imperial_Heavy_Mobile_Artillery_Company",
 				"Imperial_AT_AT_Walker_Company", "A9_Floating_Fortress_Company", "Lancet_Air_Artillery_Company",
 				-- Structure
 				"Praji_Estates",
@@ -1128,5 +1128,30 @@ return {
 			FactionOverride = "Rebel",
 			IntroText = "TEXT_CONQUEST_PROTEUS_THORN",
 			IntroHolo = "Generic_Sith_Loop",
+		},
+		["BALMORRA"] = {
+			FriendlyName = "Imperial Balmorra",
+			Planets = {"BALMORRA"},
+			LeaderTable = {["BELTANE_TEAM"] = {"BELTANE_AT_ST_A"}},
+			LeaderEndingNames = {"Galactic Governor Beltane"},
+			HeroList = {"BELTANE_TEAM"}, 
+			UnlockList = {
+			-- Space 
+			"Beta_ETR_3_Group", "IPV1", "Lancer_Frigate", "Marauder_Missile_Cruiser", "Class_C_Frigate", "CC7700E", 
+			"Imperial_DHC", "Gladiator_II", "Proficient_Tender", "Broadside_Cruiser", "Captor", "Victory_I_Star_Destroyer", "Procursator_Star_Destroyer",
+			"Imperial_I_Star_Destroyer_Assault", "Triumph_Star_Destroyer", "Invincible_Cruiser", "Maelstrom_Battlecruiser",  
+			"Bulwark_III", "Mandator_II_Dreadnought",
+			-- Ground
+			"Military_Soldier_Company", "Security_Trooper_Company", "Imperial_Dwarf_Spider_Droid_Company", "Overracer_Speeder_Bike_Company",
+			"AT_ST_Company", "Scorpenek_Sentry_Company", "AAC_1_Company", 
+			"2M_Repulsor_Tank_Company", "Imperial_Missile_Artillery_Company", "AT_AA_Missile_Walker_Company",
+			"Tracked_Mobile_Base_Company", "Imperial_AT_TE_Walker_Company",
+			},
+			FactionOverride = "Empire",
+			FactionOverride2 = "Independent_Forces",
+			StartYear = 4,
+			LastYear = 9,
+			IntroText = "TEXT_CONQUEST_PROTEUS_BALMORRA",
+			IntroHolo = "Imperial_Army_Officer_Loop"
 		},
 }

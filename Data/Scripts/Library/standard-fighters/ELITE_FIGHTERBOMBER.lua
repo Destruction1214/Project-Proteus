@@ -59,7 +59,7 @@ return {
 			RAYTER = {"IXIYEN_FIGHTER_SQUADRON", false},
 			RESTORED_EMPIRE = {"ARC_170_SQUADRON", false},
 			SECTOR_5 = {"ARC_170_SQUADRON", false},
-			SELLASAS = {"TIE_DEFENDER_SQUADRON", false},
+			SELLASAS = {"STARWING_FIGHTER_SQUADRON", false},
 			SHADOWSPAWN = {"TIE_HUNTER_SQUADRON", false},
 			TAGGE = {"TIE_X2_SQUADRON", false},
 			TAMARIN = {"BTLA4_YWING_STARFIGHTER_SQUADRON", false},
@@ -76,6 +76,7 @@ return {
 			THORN = {"TIE_DEFENDER_SQUADRON", false},
 			X1 = {"TIE_DEFENDER_SQUADRON", false},
 			PRAJI = {"TIE_AVENGER_TORPS_SQUADRON", false},
+			BALMORRA = {"ARC_170_SQUADRON", false},
 		}
 		
 		if owner == "IMPERIAL_PROTEUS" then

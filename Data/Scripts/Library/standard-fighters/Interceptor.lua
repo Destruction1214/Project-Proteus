@@ -79,7 +79,7 @@ return {
 			TAMARIN = {"NIMBUS_V_WING_SQUADRON", false},
 			TAPANI = {"TIE_INTERCEPTOR_SQUADRON", false,
 					{"TapaniA9", "A9_SQUADRON", false}}, --research 1
-			TIERFON = {"TIE_INTERCEPTOR_ION_SQUADRON", false},
+			TIERFON = {"V38_SQUADRON", false},
 			VOGEL = {"TIE_INTERCEPTOR_SQUADRON", false},
 			WESSEX = {"A9_SQUADRON", false},
 			WILD_SPACE = {"SHIELDED_TIE_INTERCEPTOR_SQUADRON", false},
@@ -91,6 +91,7 @@ return {
 			THORN = {"TIE_INTERCEPTOR_SQUADRON", false},
 			X1 = {"TIE_INTERCEPTOR_BF2_SQUADRON", false},
 			PRAJI = {"SHIELDED_ARMORED_INTERCEPTOR_SQUADRON", false},
+			BALMORRA = {"NIMBUS_V_WING_SQUADRON", false},
 		}
 		
 		if simpletypes[owner] then
