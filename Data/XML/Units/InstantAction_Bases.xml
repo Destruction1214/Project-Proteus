@@ -3919,7 +3919,7 @@
 				IA_Consular_Refit,
 				IA_Class_C_Frigate,
 				IA_Shadow_Vigil,
-				IA_Lupus_Missile_Frigate
+				IA_Lupus_Missile_Frigate,
 				IA_Pelta_Assault,
 				IA_Munifex,
 				IA_Carrack_Cruiser_Laser,
@@ -3941,7 +3941,7 @@
 				IA_Consular_Refit,
 				IA_Class_C_Frigate,
 				IA_Shadow_Vigil,
-				IA_Lupus_Missile_Frigate
+				IA_Lupus_Missile_Frigate,
 				IA_Pelta_Assault,
 				IA_Munifex,
 				IA_Carrack_Cruiser_Laser,
@@ -3954,7 +3954,7 @@
 				IA_Mansk_Frigate,
 				IA_Hornet_Assault_Carrier,
 				IA_Tapani_Assault_Frigate,
-				IA_Shadow_Acclamator_I_Carrier
+				IA_Shadow_Acclamator_I_Carrier,
 			EmpireoftheHand,
 				IA_Consular,
 				IA_LAC,
@@ -3963,7 +3963,7 @@
 				IA_Consular_Refit,
 				IA_Class_C_Frigate,
 				IA_Shadow_Vigil,
-				IA_Lupus_Missile_Frigate
+				IA_Lupus_Missile_Frigate,
 				IA_Pelta_Assault,
 				IA_Munifex,
 				IA_Carrack_Cruiser_Laser,
@@ -3976,7 +3976,7 @@
 				IA_Mansk_Frigate,
 				IA_Hornet_Assault_Carrier,
 				IA_Tapani_Assault_Frigate,
-				IA_Shadow_Acclamator_I_Carrier
+				IA_Shadow_Acclamator_I_Carrier,
 			Eriadu_Authority,
 				IA_Consular,
 				IA_LAC,
@@ -3985,7 +3985,7 @@
 				IA_Consular_Refit,
 				IA_Class_C_Frigate,
 				IA_Shadow_Vigil,
-				IA_Lupus_Missile_Frigate
+				IA_Lupus_Missile_Frigate,
 				IA_Pelta_Assault,
 				IA_Munifex,
 				IA_Carrack_Cruiser_Laser,
@@ -3998,7 +3998,7 @@
 				IA_Mansk_Frigate,
 				IA_Hornet_Assault_Carrier,
 				IA_Tapani_Assault_Frigate,
-				IA_Shadow_Acclamator_I_Carrier
+				IA_Shadow_Acclamator_I_Carrier,
 			Greater_Maldrood,
 				IA_Consular,
 				IA_LAC,
@@ -4007,7 +4007,7 @@
 				IA_Consular_Refit,
 				IA_Class_C_Frigate,
 				IA_Shadow_Vigil,
-				IA_Lupus_Missile_Frigate
+				IA_Lupus_Missile_Frigate,
 				IA_Pelta_Assault,
 				IA_Munifex,
 				IA_Carrack_Cruiser_Laser,
@@ -4020,7 +4020,7 @@
 				IA_Mansk_Frigate,
 				IA_Hornet_Assault_Carrier,
 				IA_Tapani_Assault_Frigate,
-				IA_Shadow_Acclamator_I_Carrier
+				IA_Shadow_Acclamator_I_Carrier,
 			Hapes_Consortium,
 				IA_Consular,
 				IA_LAC,
@@ -4029,7 +4029,7 @@
 				IA_Consular_Refit,
 				IA_Class_C_Frigate,
 				IA_Shadow_Vigil,
-				IA_Lupus_Missile_Frigate
+				IA_Lupus_Missile_Frigate,
 				IA_Pelta_Assault,
 				IA_Munifex,
 				IA_Carrack_Cruiser_Laser,
@@ -4042,7 +4042,7 @@
 				IA_Mansk_Frigate,
 				IA_Hornet_Assault_Carrier,
 				IA_Tapani_Assault_Frigate,
-				IA_Shadow_Acclamator_I_Carrier
+				IA_Shadow_Acclamator_I_Carrier,
 			Hutt_Cartels,
 				IA_Consular,
 				IA_LAC,
@@ -4051,7 +4051,7 @@
 				IA_Consular_Refit,
 				IA_Class_C_Frigate,
 				IA_Shadow_Vigil,
-				IA_Lupus_Missile_Frigate
+				IA_Lupus_Missile_Frigate,
 				IA_Pelta_Assault,
 				IA_Munifex,
 				IA_Carrack_Cruiser_Laser,
@@ -4064,7 +4064,7 @@
 				IA_Mansk_Frigate,
 				IA_Hornet_Assault_Carrier,
 				IA_Tapani_Assault_Frigate,
-				IA_Shadow_Acclamator_I_Carrier
+				IA_Shadow_Acclamator_I_Carrier,
 			Pentastar,
 				IA_Consular,
 				IA_LAC,
@@ -4073,7 +4073,7 @@
 				IA_Consular_Refit,
 				IA_Class_C_Frigate,
 				IA_Shadow_Vigil,
-				IA_Lupus_Missile_Frigate
+				IA_Lupus_Missile_Frigate,
 				IA_Pelta_Assault,
 				IA_Munifex,
 				IA_Carrack_Cruiser_Laser,
@@ -4086,7 +4086,7 @@
 				IA_Mansk_Frigate,
 				IA_Hornet_Assault_Carrier,
 				IA_Tapani_Assault_Frigate,
-				IA_Shadow_Acclamator_I_Carrier
+				IA_Shadow_Acclamator_I_Carrier,
 			Rebel,
 				IA_Consular,
 				IA_LAC,
@@ -4095,7 +4095,7 @@
 				IA_Consular_Refit,
 				IA_Class_C_Frigate,
 				IA_Shadow_Vigil,
-				IA_Lupus_Missile_Frigate
+				IA_Lupus_Missile_Frigate,
 				IA_Pelta_Assault,
 				IA_Munifex,
 				IA_Carrack_Cruiser_Laser,
@@ -4108,7 +4108,7 @@
 				IA_Mansk_Frigate,
 				IA_Hornet_Assault_Carrier,
 				IA_Tapani_Assault_Frigate,
-				IA_Shadow_Acclamator_I_Carrier
+				IA_Shadow_Acclamator_I_Carrier,
 			Zsinj_Empire,
 				IA_Consular,
 				IA_LAC,
@@ -4117,7 +4117,7 @@
 				IA_Consular_Refit,
 				IA_Class_C_Frigate,
 				IA_Shadow_Vigil,
-				IA_Lupus_Missile_Frigate
+				IA_Lupus_Missile_Frigate,
 				IA_Pelta_Assault,
 				IA_Munifex,
 				IA_Carrack_Cruiser_Laser,
@@ -4130,7 +4130,7 @@
 				IA_Mansk_Frigate,
 				IA_Hornet_Assault_Carrier,
 				IA_Tapani_Assault_Frigate,
-				IA_Shadow_Acclamator_I_Carrier
+				IA_Shadow_Acclamator_I_Carrier,
 			Imperial_Proteus,
 				IA_Consular,
 				IA_LAC,
@@ -4139,7 +4139,7 @@
 				IA_Consular_Refit,
 				IA_Class_C_Frigate,
 				IA_Shadow_Vigil,
-				IA_Lupus_Missile_Frigate
+				IA_Lupus_Missile_Frigate,
 				IA_Pelta_Assault,
 				IA_Munifex,
 				IA_Carrack_Cruiser_Laser,
@@ -4152,7 +4152,7 @@
 				IA_Mansk_Frigate,
 				IA_Hornet_Assault_Carrier,
 				IA_Tapani_Assault_Frigate,
-				IA_Shadow_Acclamator_I_Carrier
+				IA_Shadow_Acclamator_I_Carrier,
 		</Tactical_Buildable_Objects_Campaign>
 	</DummyStructure>
 

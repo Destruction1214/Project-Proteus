@@ -1081,6 +1081,61 @@ return {
 			IntroText = "TEXT_CONQUEST_PROTEUS_PRAJI",
 			IntroHolo = "Imperial_Naval_Officer_Loop"
 		},
+		["BALMORRA"] = {
+			FriendlyName = "Imperial Balmorra",
+			Planets = {"BALMORRA"},
+			LeaderTable = {["BELTANE_TEAM"] = {"BELTANE_AT_ST_A"}},
+			LeaderEndingNames = {"Galactic Governor Beltane"},
+			HeroList = {"BELTANE_TEAM"}, 
+			UnlockList = {
+				-- Space 
+				"Beta_ETR_3_Group", "IPV1", "Lancer_Frigate", "Marauder_Missile_Cruiser", "Class_C_Frigate", "CC7700E", 
+				"Imperial_DHC", "Gladiator_II", "Proficient_Tender", "Broadside_Cruiser", "Captor", "Victory_I_Star_Destroyer", "Procursator_Star_Destroyer",
+				"Imperial_I_Star_Destroyer_Assault", "Triumph_Star_Destroyer", "Invincible_Cruiser", "Maelstrom_Battlecruiser",  
+				"Bulwark_III", "Mandator_II_Dreadnought",
+				-- Ground
+				"Military_Soldier_Company", "Security_Trooper_Company", "Imperial_Dwarf_Spider_Droid_Company", "Overracer_Speeder_Bike_Company",
+				"AT_ST_Company", "Scorpenek_Sentry_Company", "AAC_1_Company", 
+				"2M_Repulsor_Tank_Company", "Imperial_Missile_Artillery_Company", "AT_AA_Missile_Walker_Company",
+				"Tracked_Mobile_Base_Company", "Imperial_AT_TE_Walker_Company",
+			},
+			FactionOverride = "Empire",
+			FactionOverride2 = "Independent_Forces",
+			StartYear = 4,
+			LastYear = 9,
+			IntroText = "TEXT_CONQUEST_PROTEUS_BALMORRA",
+			IntroHolo = "Imperial_Army_Officer_Loop"
+		},
+		["EMPIRE_REBORN"] = {
+			FriendlyName = "Reborn Empire",
+			Planets = {},
+			Leader_Table = {},
+			LeaderEndingNames = {},
+			HeroList = {},
+			UnlockList = {
+				-- Space
+
+				-- Ground
+
+			},
+			IntroText = "",
+			IntroHolo = "",
+		},
+		["SECOND_IMPERIUM"] = {
+			FriendlyName = "Second_Imperium",
+			Planets = {},
+			Leader_Table = {},
+			LeaderEndingNames = {},
+			HeroList = {},
+			UnlockList = {
+				-- Space
+
+				-- Ground
+
+			},
+			IntroText = "",
+			IntroHolo = "",
+		},
 		["GRUNGER"] = {
 			FriendlyName = "Grunger's Empire",
 			Planets = {"GARGON", "ORDO"},
@@ -1129,29 +1184,49 @@ return {
 			IntroText = "TEXT_CONQUEST_PROTEUS_THORN",
 			IntroHolo = "Generic_Sith_Loop",
 		},
-		["BALMORRA"] = {
-			FriendlyName = "Imperial Balmorra",
-			Planets = {"BALMORRA"},
-			LeaderTable = {["BELTANE_TEAM"] = {"BELTANE_AT_ST_A"}},
-			LeaderEndingNames = {"Galactic Governor Beltane"},
-			HeroList = {"BELTANE_TEAM"}, 
+		["ALLIED_TION"] = {
+			FriendlyName = "Allied Tion Sector",
+			Planets = {},
+			Leader_Table = {"GRONN_ACROPORA"},
+			LeaderEndingNames = {"Emperor Gronn"},
+			HeroList = {"Gronn_Acropora"},
 			UnlockList = {
-			-- Space 
-			"Beta_ETR_3_Group", "IPV1", "Lancer_Frigate", "Marauder_Missile_Cruiser", "Class_C_Frigate", "CC7700E", 
-			"Imperial_DHC", "Gladiator_II", "Proficient_Tender", "Broadside_Cruiser", "Captor", "Victory_I_Star_Destroyer", "Procursator_Star_Destroyer",
-			"Imperial_I_Star_Destroyer_Assault", "Triumph_Star_Destroyer", "Invincible_Cruiser", "Maelstrom_Battlecruiser",  
-			"Bulwark_III", "Mandator_II_Dreadnought",
-			-- Ground
-			"Military_Soldier_Company", "Security_Trooper_Company", "Imperial_Dwarf_Spider_Droid_Company", "Overracer_Speeder_Bike_Company",
-			"AT_ST_Company", "Scorpenek_Sentry_Company", "AAC_1_Company", 
-			"2M_Repulsor_Tank_Company", "Imperial_Missile_Artillery_Company", "AT_AA_Missile_Walker_Company",
-			"Tracked_Mobile_Base_Company", "Imperial_AT_TE_Walker_Company",
+				-- Space
+
+				-- Ground
+
 			},
-			FactionOverride = "Empire",
-			FactionOverride2 = "Independent_Forces",
-			StartYear = 4,
-			LastYear = 9,
-			IntroText = "TEXT_CONQUEST_PROTEUS_BALMORRA",
-			IntroHolo = "Imperial_Army_Officer_Loop"
+			IntroText = "",
+			IntroHolo = "",
 		},
+		["RENDILI"] = {
+			FriendlyName = "Imperial Rendili",
+			Planets = {"RENDILI"},
+			Leader_Table = {"COMEG_OSTRANDER"},
+			LeaderEndingNames = {"Empress Comeg"},
+			HeroList = {"Comeg_Ostrander"},
+			UnlockList = {
+				-- Space
+
+				-- Ground
+
+			},
+			IntroText = "",
+			IntroHolo = "",
+		},
+		["X1"] = {
+			FriendlyName = "X1's Empire",
+			Planets = {"MUSTAFAR"},
+			Leader_Table = {["X1_TEAM"] = {"X1"}},
+			LeaderEndingNames = {"High Emperor X1"},
+			HeroList = {"X1_Team", "Rebus_Team", "Hal_Razor_Team", "GK121_Team"},
+			UnlockList = {
+				-- Space
+
+				-- Ground
+
+			},
+			IntroText = "",
+			IntroHolo = "",
+		}
 }

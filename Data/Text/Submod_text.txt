@@ -9,9 +9,6 @@ D_TEXT_UNIT_DRAGON_TROOPER_LIEUTENANT,Dragon Trooper Heavy Gunner
 D_TEXT_UNIT_DRAGON_TROOPER_PLATOON,Dragon Trooper Brood
 D_TEXT_UNIT_DRAGON_TROOPER_REPEATER,Dragon Trooper Light Gunner
 D_TEXT_UNIT_DRAGON_TROOPER_SQUAD,Dragon Trooper Pack
-TEXT_CONQUEST_PROTEUS_BALMORRA,Hinch Beltane: There has never been a better moment to finally seize our freedom than now. The Emperor is dead, and his lackeys in disarray. It is time for a new course, Commander. Rally our forces and make sure that all the other galactic powers are put on notice: they can buy our products, but they cannot have us as their subjects again. As of this hour, Balmorra is once again independent and open for business - and you are free to use whatever force you deem necessary to ensure it stays that way.
-TEXT_EVENT_WARLORD_CHOICE_BALMORRA,The Planet Balmorra was occupied by the Empire and forced to produce war walkers despite the natives desire for independence. Hinch Beltane, the ruthless Imperial governor, also subscribed to that goal, leading Balmorra into mercantilist indepence while maintaining full personal control as an autocrat for a time, until the armies of the Reborn Emperor forced him back into the fold. Under Beltane, the Balmorrans rebelled once more and successfully drove off the Empire for good.
-TEXT_PROTEUS_DESCRIPTION_BALMORRA,The Planet Balmorra was occupied by the Empire and forced to produce war walkers despite the natives desire for independence. Hinch Beltane, the ruthless Imperial governor, also subscribed to that goal, leading Balmorra into mercantilist indepence while maintaining full personal control as an autocrat for a time, until the armies of the Reborn Emperor forced him back into the fold. Under Beltane, the Balmorrans rebelled once more and successfully drove off the Empire for good.
 STAT_TRADESTATION_COUNT_DASTA,Trade Ports: %s / 30
 TEXT_ABILITY_DEPLOY_SHADOWTROOP,Deploy Shadow Stormtroopers
 TEXT_ABILITY_DEPLOY_SHADOWTROOP_DESCRIPTION,Deploy a squad of Shadow Stormtroopers from the transport.
@@ -46,6 +43,7 @@ TEXT_COMPANY_TIERFON_CAPITAL,Tierfon Sector Fleet HQ
 TEXT_COMPANY_TIERFON_DESCRIPTION,The main base of the Tierfon Sector Fleet, with extensive command centers and dockyard facilities. Functions as a dreadnaught-level shipyard and the faction's capital, but can be relocated much cheaper and faster than other capital buildings.
 TEXT_COMPANY_UBIQTORATE_BASE,Ubiqtorate Base
 TEXT_COMPANY_UBIQTORATE_BASE_DESCRIPTION,One of multiple large bases of the Imperial Ubiqtorate, an organization overseeing all aspects of various Imperial Intelligence Agencies. Their archives and surveillance facilities provide intel on nearby planets in a large radius.
+TEXT_CONQUEST_PROTEUS_BALMORRA,Hinch Beltane: There has never been a better moment to finally seize our freedom than now. The Emperor is dead, and his lackeys in disarray. It is time for a new course, Commander. Rally our forces and make sure that all the other galactic powers are put on notice: they can buy our products, but they cannot have us as their subjects again. As of this hour, Balmorra is once again independent and open for business - and you are free to use whatever force you deem necessary to ensure it stays that way.
 TEXT_CONQUEST_PROTEUS_GRUNGER,Josef Grunger: Word has reached me of the Emperor’s death, and I do not intend to pass up such an opportunity. This region of space is ripe with lesser men to join my armada. They will not be difficult to "convince".
 TEXT_CONQUEST_PROTEUS_PRAJI,Nahdonnis Praji: It was the right decision to retire to Kaikielius instead of following the Emperor to his final demise. Now we must build on our work, Commander, and secure our holdings against all the vultures descending.
 TEXT_CONQUEST_PROTEUS_THORN,Daymon Thorn: The Emperor is dead, and I shall pick up his crown and place it upon my own head.  With the power of the Korrendum crystals, we shall build a weapon that will surpass even the Death Stars, and with it, we shall overthrow and scatter all that oppose our march. The men who laugh at the Empire's distress, and inwardly rejoice at the triumph of our enemies, will soon be confounded and trembling, for the War Dog of the Empire is on the march. There still remains much to do!
@@ -76,6 +74,7 @@ TEXT_ETA2_MISSILE_SQUADRON2,Missile Eta-2 Actis Squadron x2
 TEXT_ETA2_SQUADRON,Eta-2 Actis Squadron
 TEXT_ETA2_SQUADRON_HALF,Eta-2 Actis Squadron 1/2
 TEXT_ETA2_SQUADRON2,Eta-2 Actis Squadron x2
+TEXT_EVENT_WARLORD_CHOICE_BALMORRA,Imperial Balmorra
 TEXT_EVENT_WARLORD_CHOICE_GRUNGER,Grunger's Empire
 TEXT_EVENT_WARLORD_CHOICE_PRAJI,Imperial Kaikielius
 TEXT_EVENT_WARLORD_CHOICE_THORN,Daymon Thorn's Empire
@@ -127,6 +126,7 @@ TEXT_NOTE,Put text changes for submods here
 TEXT_NTB_630_SQUADRON,NTB-630 Squadron
 TEXT_NTB_630_SQUADRON_HALF,NTB-630 Squadron 1/2
 TEXT_NTB_630_SQUADRON2,NTB-630 Squadron x2
+TEXT_PROTEUS_DESCRIPTION_BALMORRA,The Planet Balmorra was occupied by the Empire and forced to produce war walkers despite the natives desire for independence. Hinch Beltane, the ruthless Imperial governor, also subscribed to that goal, leading Balmorra into mercantilist indepence while maintaining full personal control as an autocrat for a time, until the armies of the Reborn Emperor forced him back into the fold. Under Beltane, the Balmorrans rebelled once more and successfully drove off the Empire for good.
 TEXT_PROTEUS_DESCRIPTION_GRUNGER,One of the original twelve Grand Admirals, Grunger wasted no time consolidating his powerbase and making a play for control of the Imperial Remnant once he learned of Palpatine's death. Aggressive and capable, he was one of the main contenders for the Imperial Throne, and his growing strength worried the Central Committee of Grand Moffs and other Imperial warlords.
 TEXT_PROTEUS_DESCRIPTION_PRAJI,After conquering his ancient family home world of Kaikielius, Nahdonnis Praji met with the reborn Emperor Palpatine in person for the first time, and upon experiencing the Emperor's apparent madness first hand, decided to retire to governorship of the planet. This saved him from the immolation of the Dark Empire shortly thereafter, but left him and his new fiefdom isolated as a resurgent New Republic and vengeful Imperial warlords all laid claim to the core and deep core regions.
 TEXT_PROTEUS_DESCRIPTION_THORN,A secretive dark jedi who pledged his allegiance to the Emperor while serving his own agenda, Daymon Thorn, also known as the Wardog of the Empire, has returned from his sujourn at the news of the Emperor's death. With a small army of followers and the power of a set of ancient crystals at his disposal, he seeks to claim the Imperial Throne for himself, and himself alone.
@@ -318,8 +318,8 @@ TEXT_STATBLOCK_THETA_ASSAULT_SHUTTLE_SQUADRON_DOUBLE,Squadron: 24x Theta Assault
 TEXT_STATBLOCK_THETA_ASSAULT_SHUTTLE_SQUADRON_HALF,Squadron: 6x Theta Assault Shuttles
 TEXT_STATBLOCK_THETA_ASSAULT_SHUTTLE_WEAP1,2x Fighter Laser Cannons: 8 / 3.0s / 1.0km
 TEXT_STATBLOCK_THETA_ASSAULT_SHUTTLE_WEAP2,1x Heavy Fighter Laser Cannon: 2 / 3.0s / 1.0km
-TEXT_STATBLOCK_THETA_ASSAULT_SHUTTLE_WEAP3,1x Fighter Assault Concussion Missile: 1 / 37.5s / 1.8km
 TEXT_STATBLOCK_THETA_ASSAULT_SHUTTLE_WEAP3,1x Fighter Concussion Missile (AF): 2 / 12.5s / 1.8km 
+TEXT_STATBLOCK_THETA_ASSAULT_SHUTTLE_WEAP3,1x Fighter Assault Concussion Missile: 1 / 37.5s / 1.8km
 TEXT_STATBLOCK_TIE_AVENGER_ASSAULT_SQUADRON,Squadron: 12x Assault TIE Avenger
 TEXT_STATBLOCK_TIE_AVENGER_ASSAULT_SQUADRON_DOUBLE,Squadron: 24x Assault TIE Avenger
 TEXT_STATBLOCK_TIE_AVENGER_ASSAULT_SQUADRON_HALF,Squadron: 6x Assault TIE Avenger
@@ -585,6 +585,7 @@ TEXT_TOOLTIP_CLONE_WEAP7,1x T-21 Repeating Blaster: 5 / 1.0s / 240m
 TEXT_TOOLTIP_CLONE_WEAP8,1x Concussion Grenade: 1 / 15.0s / 200m
 TEXT_TOOLTIP_CLONE_WEAP9,1x Ion Grenade: 1 / 15.0s / 200m
 TEXT_TOOLTIP_CLONETROOPER_PHASETWO,Imperial hardliners that have joined Devian's cause to restore the true Empire. They are well equipped with old Republic armor gathered on RZ7, and more fanatical than most other soldiers. They wear a mix of the old Phase I and more comfortable Phase II armor.
+TEXT_TOOLTIP_COMEG_UPGRADE,Upgrade: Bellator
 TEXT_TOOLTIP_COMMAND_ACROPORA,Tector Star Destroyer, Acropora
 TEXT_TOOLTIP_COMMAND_ALPHA_SQUADRON,TIE Fighter, Alpha Squadron
 TEXT_TOOLTIP_COMMAND_GURNST,Commands: Elite Mercenary Platoon Taskforce Bravo
@@ -592,6 +593,7 @@ TEXT_TOOLTIP_COMMAND_HSSISSK_SQUADRON,Zssisk Strike Squadron
 TEXT_TOOLTIP_COMMAND_MAHKKAR,Interceptor I-class Frigate
 TEXT_TOOLTIP_COMMAND_MAHLER,Imperial-II Star Destroyer, Mahler
 TEXT_TOOLTIP_COMMAND_ONSLAUGHT,Imperial-I Star Destroyer, Onslaught
+TEXT_TOOLTIP_COMMAND_OSTRANDER,Imperial-I Star Destroyer Command Refit, Ostrander
 TEXT_TOOLTIP_COMMAND_PRAETORIAN_SQUADRON,Royal Guard Interceptor, Praetorian Squadron
 TEXT_TOOLTIP_COMMAND_PUNISHER,Imperial-I Star Destroyer (Carrier), Punisher
 TEXT_TOOLTIP_COMMAND_REBUKE,Acclamator-I Supercruiser, Rebuke
@@ -1015,6 +1017,12 @@ TEXT_TOOLTIP_UTAT_WEAP2,2x Super Heavy AV Blaster Cannons: 1 / 2.0s / 480m
 TEXT_TOOLTIP_UTAT_WEAP3,4x AI Blaster Cannons: 5 / 2.5s / 320m
 TEXT_TOOLTIP_V_WING_ESK,V-Wing variant equipped with ion cannons to operate as a fast pursuit craft. Would often see use by groups in need of a fast interceptor with the ability to stun small ships attempting to escape.
 TEXT_TOOLTIP_VCX820,The VCX-820 was a heavy yet fast flying-guns platform that was designed to military specifications. As such it could easily guard convoys of otherwise defenseless bulk freighters and commerce craft. Well suited to engaging any enemy target.
+TEXT_TOOLTIP_VECTOR,A rare variant of the Victory-Class Star Destroyer that modifies the design in a similar way the Tector-Class modified the Imperator hull; with increased armor, no fighter launch bay, and a mission loadout much more focused on direct-ship-to-ship combat than the broad assignment profile of most Imperial capital ships. However, unlike the Tector modifying the Imperial I hull, the Vector uses the Victory II's hull as its base, inheriting the model's speed and focus on energy weapons instead of munitions. Although developed shortly after the Clone Wars, the design remained obscure, languishing in deep core reserve fleets until the campaigns of the Reborn Emperor. Very strong at engaging most types of capital ships, and boasts a sizable anti-fighter defense grid, but lacks the offensive versatility of the other variants.
+TEXT_TOOLTIP_VECTOR_HULL,Hull: 4000 (Heavy Frigate)
+TEXT_TOOLTIP_VECTOR_SHIELD,Shields: 4000 / [50/R] (Heavy Frigate)
+TEXT_TOOLTIP_VECTOR_WEAPON1,4x Medium Quad Turbolaser 2/2.0s/6.2km
+TEXT_TOOLTIP_VECTOR_WEAPON2,4x Medium Turbolaser 2/1.0s/6.2km
+TEXT_TOOLTIP_VECTOR_WEAPON3,3x Heavy Quad Laser Cannon 2/1.0s/4.7km
 TEXT_TOOLTIP_VENATOR_8X,A refit of the iconic Venator Star Destroyer. This variant sacrifices the original's large fighter wing for more abundant and heavier weaponry, making it more effective in ship to ship combat.
 TEXT_TOOLTIP_VENATOR_8X_MOVE,Speed: 4.0 | Accel: 0.2 | Turn: 0.4
 TEXT_TOOLTIP_VENATOR_8X_SHIELD,Shields: 2600 / [26/R] (Heavy Frigate)
@@ -1241,6 +1249,7 @@ TEXT_UNIT_TRIUMPH,Triumph Star Destroyer
 TEXT_UNIT_UT_AT,UT-AT
 TEXT_UNIT_V_WING_ESK,V-Wing "Esk"
 TEXT_UNIT_VCX820,VCX-820 Escort Freighter
+TEXT_UNIT_VECTOR,Vector Star Destroyer
 TEXT_UNIT_VENATOR_8X,Venator Star Destroyer Refit
 TEXT_UNIT_VICTORY_DESTROYER_MK2_CARRIER,Victory-II Star Destroyer Carrier Refit
 TEXT_UNIT_VINDICATOR_CARRIER,Vindicator Heavy Carrier
@@ -1259,13 +1268,6 @@ TEXT_VULTURE_SQUADRON2,Vulture Droid-I Squadron x2
 TEXT_YV929_SQUADRON,YV-929 Squadron
 TEXT_YV929_SQUADRON_HALF,YV-929 Squadron 1/2
 TEXT_YV929_SQUADRON2,YV-929 Squadron x2
-TEXT_TOOLTIP_VECTOR,A rare variant of the Victory-Class Star Destroyer that modifies the design in a similar way the Tector-Class modified the Imperator hull; with increased armor, no fighter launch bay, and a mission loadout much more focused on direct-ship-to-ship combat than the broad assignment profile of most Imperial capital ships. However, unlike the Tector modifying the Imperial I hull, the Vector uses the Victory II's hull as its base, inheriting the model's speed and focus on energy weapons instead of munitions. Although developed shortly after the Clone Wars, the design remained obscure, languishing in deep core reserve fleets until the campaigns of the Reborn Emperor. Very strong at engaging most types of capital ships, and boasts a sizable anti-fighter defense grid, but lacks the offensive versatility of the other variants.
-TEXT_TOOLTIP_VECTOR_HULL,Hull: 4000 (Heavy Frigate)
-TEXT_TOOLTIP_VECTOR_SHIELD,Shields: 4000 / [50/R] (Heavy Frigate)
-TEXT_TOOLTIP_WEAPON1,4x Medium Quad Turbolaser 2/2.0s/6.2km
-TEXT_TOOLTIP_WEAPON2,4x Medium Turbolaser 2/1.0s/6.2km
-TEXT_TOOLTIP_WEAPON3,3x Heavy Quad Laser Cannon 2/1.0s/4.7km
-TEXT_UNIT_VECTOR,Vector Star Destroyer
 Z_TEXT_TOOLTIP_AF2_RESEARCH,Comb through old schematics for Rendili's Assault Frigate-II and put the ship to use for our own purposes. Unlocks Assault Frigate-II.
 Z_TEXT_TOOLTIP_CORONA_RESEARCH,Steal the schematics for KDY's prototype frigate design and reverse-engineer the vessel for our own purposes. Unlocks Corona Frigate and Corona Tender, retires Nebulon-B and Star Galleon.
 Z_TEXT_TOOLTIP_GORATH_RESEARCH,"Borrow" the schematics for Loronar's prototype strike cruiser design and reverse-engineer the vessel for our own purposes. Unlocks Gorath, retires Strike Cruiser.

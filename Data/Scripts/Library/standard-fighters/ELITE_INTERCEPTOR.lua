@@ -46,7 +46,7 @@ return {
 			fighter = simpletypes[alias]
 		end
 		
-				local proteustypes = {
+		local proteustypes = {
 			-- TR entries
 			ARDA = {"MANEUVER_ETA2_ACTIS_SQUADRON", false},
 			BAKURA = {"TOSCAN_INTERCEPTOR_SQUADRON", false},
