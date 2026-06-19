@@ -99,6 +99,7 @@ return {
 			THORN = {"TIE_TERROR_SQUADRON", false},
 			X1 = {"TIE_HEAVY_BOMBER_SQUADRON", false},
 			PRAJI = {"TIE_HEAVY_BOMBER_SQUADRON", false},
+			BALMORRA = {"FIRESPRAY_BOMBER_SQUADRON", false},
 		}
 		
 		if owner == "IMPERIAL_PROTEUS" then

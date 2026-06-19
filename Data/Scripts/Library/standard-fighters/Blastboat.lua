@@ -52,7 +52,7 @@ return {
 					{"BrakFighters", "ADVANCED_SKIPRAY_SQUADRON", false}}, --research 1
 			CATO_NEIMOIDIA = {"SKIPRAY_SQUADRON", false},
 			CIUTRIC_HEGEMONY = {"EARLY_SKIPRAY_SQUADRON", false},
-			DASTA = {"VCX_820_SQUADRON", false},
+			DASTA = {"YV_929_SQUADRON", false},
 			ELROOD = {"SKIPRAY_SQUADRON", false},
 			GAROS = {"VCX_820_SQUADRON", false},
 			HAMMERS = {"SKIPRAY_SQUADRON", false},
@@ -79,7 +79,7 @@ return {
 			SECTOR_5 = {"SKIPRAY_SQUADRON", false},
 			SELLASAS = {"ADVANCED_SKIPRAY_SQUADRON", false},
 			SHADOWSPAWN = {"SKIPRAY_SQUADRON", false},
-			TAGGE = {"EARLY_SKIPRAY_SQUADRON", false},
+			TAGGE = {"YV_929_SQUADRON", false},
 			TAMARIN = {"EARLY_SKIPRAY_SQUADRON", false},
 			TAPANI = {"EARLY_SKIPRAY_SQUADRON", false},
 			TIERFON = {"ADVANCED_SKIPRAY_SQUADRON", false},
@@ -93,7 +93,8 @@ return {
 			GRUNGER = {"ADVANCED_SKIPRAY_SQUADRON", false},
 			THORN = {"THETA_ASSAULT_SQUADRON", false},
 			X1 = {"THETA_ASSAULT_SQUADRON", false},
-			PRAJI = {"SKIPRAY_INTERCEPTOR_SQUADRON", false},
+			PRAJI = {"VCX_820_SQUADRON", false},
+			BALMORRA = {"SKIPRAY_SQUADRON", false},
 		}
 		
 		if owner == "IMPERIAL_PROTEUS" then

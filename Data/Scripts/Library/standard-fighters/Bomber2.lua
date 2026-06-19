@@ -76,7 +76,7 @@ return {
 					{"TAMSC", "SCIMITAR_SQUADRON", false}}, --research 1
 			TAPANI = {"Z95_BOMBER_SQUADRON", false},
 			TIERFON = {"SCIMITAR_SQUADRON", false},
-			VOGEL = {"TIE_GT_BOMBER_SQUADRON", false},
+			VOGEL = {"SCIMITAR_SQUADRON", false},
 			WESSEX = {"TIE_OPPRESSOR_SQUADRON", false},
 			WILD_SPACE = {"TIE_GT_BOMBER_SQUADRON", false},
 			ZAARIN_REMNANTS = {"STARWING_SQUADRON", false,
@@ -88,6 +88,7 @@ return {
 			THORN = {"STARWING_SQUADRON", false},
 			X1 = {"STARWING_SQUADRON", false},
 			PRAJI = {"TIE_OPPRESSOR_SQUADRON", false},
+			BALMORRA = {"NIMBUS_V_WING_BOMBER_SQUADRON", false},
 }
 
 		if simpletypes[owner] then
