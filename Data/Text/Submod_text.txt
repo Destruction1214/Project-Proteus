@@ -1020,6 +1020,9 @@ TEXT_TOOLTIP_VCX820,The VCX-820 was a heavy yet fast flying-guns platform that w
 TEXT_TOOLTIP_VECTOR,A rare variant of the Victory-Class Star Destroyer that modifies the design in a similar way the Tector-Class modified the Imperator hull; with increased armor, no fighter launch bay, and a mission loadout much more focused on direct-ship-to-ship combat than the broad assignment profile of most Imperial capital ships. However, unlike the Tector modifying the Imperial I hull, the Vector uses the Victory II's hull as its base, inheriting the model's speed and focus on energy weapons instead of munitions. Although developed shortly after the Clone Wars, the design remained obscure, languishing in deep core reserve fleets until the campaigns of the Reborn Emperor. Very strong at engaging most types of capital ships, and boasts a sizable anti-fighter defense grid, but lacks the offensive versatility of the other variants.
 TEXT_TOOLTIP_VECTOR_HULL,Hull: 4000 (Heavy Frigate)
 TEXT_TOOLTIP_VECTOR_SHIELD,Shields: 4000 / [50/R] (Heavy Frigate)
+TEXT_TOOLTIP_VECTOR_WEAPON1,4x Medium Quad Turbolaser 2/2.0s/6.2km
+TEXT_TOOLTIP_VECTOR_WEAPON2,4x Medium Turbolaser 2/1.0s/6.2km
+TEXT_TOOLTIP_VECTOR_WEAPON3,3x Heavy Quad Laser Cannon 2/1.0s/4.7km
 TEXT_TOOLTIP_VENATOR_8X,A refit of the iconic Venator Star Destroyer. This variant sacrifices the original's large fighter wing for more abundant and heavier weaponry, making it more effective in ship to ship combat.
 TEXT_TOOLTIP_VENATOR_8X_MOVE,Speed: 4.0 | Accel: 0.2 | Turn: 0.4
 TEXT_TOOLTIP_VENATOR_8X_SHIELD,Shields: 2600 / [26/R] (Heavy Frigate)
@@ -1045,9 +1048,6 @@ TEXT_TOOLTIP_VINDICATOR_CARRIER_WEAP2,2x Light Turbolasers: 2 / 0.8s / 5.1km
 TEXT_TOOLTIP_VINDICATOR_CARRIER_WEAP3,2x Light Anti-Fighter Ion Cannons: 2 / 1.0s / 3.1km 
 TEXT_TOOLTIP_VINDICATOR_CARRIER_WEAP4,1x Laser Cannon: 2 / 0.5s / 3.6km
 TEXT_TOOLTIP_VULTURE_DROID,A small droid fighter that relies on numbers and maneuverability to win dogfights. While modular enough to carry munitions, they are often replaced with extra fuel slugs to increase flight time from being minutes long. They are best used to swarm enemy fighters and bombers.
-TEXT_TOOLTIP_WEAPON1,4x Medium Quad Turbolaser 2/2.0s/6.2km
-TEXT_TOOLTIP_WEAPON2,4x Medium Turbolaser 2/1.0s/6.2km
-TEXT_TOOLTIP_WEAPON3,3x Heavy Quad Laser Cannon 2/1.0s/4.7km
 TEXT_TOOLTIP_YARNAR,A TIE Fighter pilot stationed on Celanon in the D'Asta Sector during the later phases of Galactic Civil War.
 TEXT_TOOLTIP_YEORG_CAPTISON,Yeorg Captison was a member of the notable Bakuran Captison family of politicians and was married to Tiree Captison. Yeorg was elected to the Bakuran Senate as Prime Minister around four years before the beginning of the Clone Wars. After the Empire took control over Bakura they allowed him to remain as Prime Minister, though the post held little authority, as it was now subservient to the Imperial governor, Wilek Nereus.
 TEXT_TOOLTIP_YV929,A heavily armed corellian freighter that became popular with the pirates and rebels which it was designed to ward off. This "flying brick" as it is often called also made its way to the Corporate Sector Authority. The heavy armor and armament make it well suited to engaging hard targets like cruisers.

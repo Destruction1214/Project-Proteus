@@ -68,6 +68,6 @@ return {
 		{unlocks = {"Dummy_Recruit_Group_Gronn"}, text = "TEXT_GOVERNMENT_LEGITIMACY_GROUP_GRONN", name = "=== Despot of Tion === [ 4 ABY - 10 ABY ]", movie = "ISB_Officer_Loop", unlocked = false, AlternateUnitLocks = {"Gronn_Acropora"}, maxstartyear = 10, documentation = {"TEXT_GOVERNMENT_EMPIRE_TIER_1_REWARD_5"}}, -- SSD
 		{unlocks = {"Dummy_Recruit_Group_Drommel"}, text = "TEXT_GOVERNMENT_LEGITIMACY_GROUP_DROMMEL", name = "=== The Lost Dreadnought === [ 4 ABY - 16 ABY ]", movie = "Drommel_Loop", unlocked = false, maxstartyear = 16, documentation = {"TEXT_GOVERNMENT_EMPIRE_TIER_1_REWARD_6"}}, -- SSD
 		{unlocks = {"Dummy_Recruit_Group_Kiez"}, text = "TEXT_GOVERNMENT_LEGITIMACY_GROUP_KIEZ", name = "=== Azure Hammer Command === [ 7 ABY - 10 ABY ]", movie = "Feyet_Kiez_Loop", unlocked = false, minstartyear = 7, maxstartyear = 10, documentation = {"TEXT_GOVERNMENT_EMPIRE_TIER_1_REWARD_7"}}, -- SSD
-		{unlocks = {"Dummy_Recruit_Group_X1"}, text = "TEXT_GOVERNMENT_LEGITIMACY_GROUP_X1", name = "=== High Emperor === [ 11 ABY+ ]", movie = "Generic_Sith_Loop", unlocked = false, minstartyear = 11, documentation = {"TEXT_GOVERNMENT_EMPIRE_TIER_1_REWARD_8"}}, -- SSD
+		{unlocks = {"Dummy_Recruit_Group_X1"}, text = "TEXT_GOVERNMENT_LEGITIMACY_GROUP_X1", name = "=== High Emperor === [ 11 ABY+ ]", movie = "Generic_Sith_Loop", unlocked = false, AlternateUnitLocks = {"X1"}, minstartyear = 11, documentation = {"TEXT_GOVERNMENT_EMPIRE_TIER_1_REWARD_8"}}, -- SSD
     },
 }
