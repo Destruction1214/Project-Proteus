@@ -67,7 +67,7 @@ return {
 			TAGGE = {"TIE_GT_SQUADRON", false},
 			TAMARIN = {"TIE_GT_SQUADRON", false},
 			TAPANI = {"Z95ML_HEADHUNTER_SQUADRON", false},
-			TIERFON = {"MISSILE_TIE_INTERCEPTOR_SQUADRON", false},
+			TIERFON = {"TIE_X2_SQUADRON", false},
 			VOGEL = {"TIE_GT_SQUADRON", false},
 			WESSEX = {"TIE_GT_TORPS_SQUADRON", false},
 			WILD_SPACE = {"TIE_GT_TORPS_SQUADRON", false},
@@ -79,6 +79,7 @@ return {
 			THORN = {"TIE_GT_SQUADRON", false},
 			X1 = {"TIE_GT_SQUADRON", false},
 			PRAJI = {"TIE_X2_SQUADRON", false},
+			BALMORRA = {"T_WING_SQUADRON", false},
 		}
 		
 		if simpletypes[owner] then
