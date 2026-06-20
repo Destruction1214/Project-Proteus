@@ -2488,6 +2488,7 @@
 		Zeta_Strike,									Data\ShipNames\Strike_Cruiser.txt,
 		Providence_Carrier_Destroyer_Pirate,			Data\ShipNames\Providence.txt,
 		Refit_Venator_Star_Destroyer_Proteus,			Data\ShipNames\Venator.txt,
+		Vector_Star_Destroyer,							Data\ShipNames\victory_destroyer_II.txt,
 	</ShipNameTextFiles>
 
 	<!-- Main menu in-game demo/attract playback -->

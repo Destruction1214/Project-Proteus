@@ -4352,7 +4352,7 @@
 		
 		<Affiliation>Independent_Forces</Affiliation> --><!-- Stop AI enumerating -->
 
-		<!--<Abilities SubObjectList="Yes"> --><!-- Command_Tier_06 + Intel Focus -->
+		<!--<Abilities SubObjectList="Yes"> --><!-- Command_Tier_06 -->
 			<!--<Combat_Bonus_Ability Name="Command_Tier_06_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
 				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
@@ -4730,6 +4730,107 @@
 		<Population_Value>177</Population_Value>
 
 		<Required_Orbiting_Units>Shuttle_Tyderium_Thorn</Required_Orbiting_Units>
+	</DummyStructure>
+
+	<HeroUnit Name="Comeg_Ostrander">
+		<Variant_Of_Existing_Type>Tector_Star_Destroyer</Variant_Of_Existing_Type>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Text_ID>TEXT_HERO_COMEG</Text_ID>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_06_SPACE
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_COMEG
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
+		TEXT_TOOLTIP_COMMAND_OSTRANDER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_STAR_DESTROYER_COMMAND_HULL
+		TEXT_TOOLTIP_STAR_DESTROYER_COMMAND_SHIELD
+		TEXT_TOOLTIP_STAR_DESTROYER_MOVE
+		TEXT_TOOLTIP_STAR_DESTROYER_BRASHIN_SQUADRON
+		TEXT_TOOLTIP_STAR_DESTROYER_COMMAND_WEAP1
+		TEXT_TOOLTIP_STAR_DESTROYER_COMMAND_WEAP2
+		TEXT_TOOLTIP_STAR_DESTROYER_COMMAND_WEAP3
+		TEXT_TOOLTIP_STAR_DESTROYER_COMMAND_WEAP4
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_COMEG_UPGRADE
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADMIRAL </Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_COMEG.tga</Icon_Name>
+		
+		<CategoryMask> SpaceHero | AntiCapital </CategoryMask>
+		<Property_Flags>GTSImmune</Property_Flags>
+		
+		<Ranking_In_Category>3</Ranking_In_Category>
+		
+		<Tech_Level>99</Tech_Level>
+		
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
+
+		<Abilities SubObjectList="Yes"> <!-- Command_Tier_06 -->
+			<Combat_Bonus_Ability Name="Command_Tier_06_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Damage_Bonus_Percentage>0.18</Damage_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.18</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.18</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+
+			<Battlefield_Modifier_Ability Name="Command_Tier_06_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<FOW_Reveal_Range_Multiplier>1.18</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+		</Abilities>
+	</HeroUnit>
+
+	<DummyStructure Name="Comeg_Bellator_Dummy">
+		<Variant_Of_Existing_Type>Template_Flagship_Swap_NoSelfDelete</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_TOOLTIP_COMMAND_COMEG</Text_ID>
+		<Encyclopedia_Unit_Class>Ship Crews Cost: 4,100</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_UPGRADE_FLAG
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_06_SPACE
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_BELLATOR_HULL
+		TEXT_TOOLTIP_BELLATOR_SHIELD
+		TEXT_TOOLTIP_BELLATOR_MOVE
+		TEXT_TOOLTIP_BELLATOR_SQUADRON
+		TEXT_TOOLTIP_BELLATOR_WEAP1
+		TEXT_TOOLTIP_BELLATOR_WEAP2
+		TEXT_TOOLTIP_BELLATOR_WEAP3
+		TEXT_TOOLTIP_BELLATOR_WEAP4
+		TEXT_TOOLTIP_BELLATOR_WEAP5
+		TEXT_TOOLTIP_BELLATOR_WEAP6
+		TEXT_TOOLTIP_BELLATOR_WEAP7
+		TEXT_TOOLTIP_BELLATOR_WEAP8
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_COMEG_SSD.tga</Icon_Name>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+
+		<Affiliation>Imperial_Proteus</Affiliation>
+
+		<Build_Cost_Credits>17000</Build_Cost_Credits>
+		<Build_Time_Seconds>4</Build_Time_Seconds>
+
+		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy, Imperial_Proteus_Shipyard_Level_Four</Required_Special_Structures>
+		
+		<Population_Value>137</Population_Value>
+
+		<Required_Orbiting_Units>Comeg_Ostrander</Required_Orbiting_Units>
 	</DummyStructure>
 	
 </Proteus_Heroes>

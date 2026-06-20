@@ -65,7 +65,7 @@ return {
 			end
 		end
 		
-	local proteustypes = {
+		local proteustypes = {
 			-- TR entries
 			ARDA = {"TIE_POD_SQUADRON", false},
 			BAKURA = {"TIE_FIGHTER_SQUADRON", false,
