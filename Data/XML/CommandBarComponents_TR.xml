@@ -4767,15 +4767,15 @@
 		<Left_Justified>False</Left_Justified>
 		<Base_Layer>8</Base_Layer>
 		<Text_Outline>True</Text_Outline>
-		<Icon_Texture_Name>I_BUTTON_GRUNGER.tga</Icon_Texture_Name>
-		<Selected_Texture_Name>I_BUTTON_GRUNGER.tga</Selected_Texture_Name>
+		<Icon_Texture_Name>I_BUTTON_BELTANE.tga</Icon_Texture_Name>
+		<Selected_Texture_Name>I_BUTTON_BELTANE.tga</Selected_Texture_Name>
 		<Disabled_Texture_Name>i_button_disabled_square.tga</Disabled_Texture_Name>
 		<Toggle>False</Toggle>
 		<Selected_Alpha>True</Selected_Alpha>
 		<Tab>True</Tab>
 		<Disable_Darken>true</Disable_Darken>
 		<Group>faction_61</Group>
-		<Tooltip_Text>TEXT_EVENT_WARLORD_CHOICE_GRUNGER</Tooltip_Text>
+		<Tooltip_Text>TEXT_EVENT_WARLORD_CHOICE_BALMORRA</Tooltip_Text>
 		<Scale>0.75</Scale>
 	</CommandBarComponent>
 
@@ -4799,15 +4799,15 @@
 		<Left_Justified>False</Left_Justified>
 		<Base_Layer>8</Base_Layer>
 		<Text_Outline>True</Text_Outline>
-		<Icon_Texture_Name>I_BUTTON_DAYMON_THORN.tga</Icon_Texture_Name>
-		<Selected_Texture_Name>I_BUTTON_DAYMON_THORN.tga</Selected_Texture_Name>
+		<Icon_Texture_Name>I_BUTTON_DESANN.tga</Icon_Texture_Name>
+		<Selected_Texture_Name>I_BUTTON_DESANN.tga</Selected_Texture_Name>
 		<Disabled_Texture_Name>i_button_disabled_square.tga</Disabled_Texture_Name>
 		<Toggle>False</Toggle>
 		<Selected_Alpha>True</Selected_Alpha>
 		<Tab>True</Tab>
 		<Disable_Darken>true</Disable_Darken>
 		<Group>faction_62</Group>
-		<Tooltip_Text>TEXT_EVENT_WARLORD_CHOICE_THORN</Tooltip_Text>
+		<Tooltip_Text>WIP - Empire Reborn</Tooltip_Text>
 		<Scale>0.75</Scale>
 	</CommandBarComponent>
 
@@ -4820,6 +4820,199 @@
 		<Tab>True</Tab>
 		<Group>faction_62</Group>
 	</CommandBarComponent>
+
+	<CommandBarComponent Name="faction_63">
+		<!-- Faction Select Button 63 -->
+		<Type>TextButton</Type>
+		<Font_Name>Arial</Font_Name>
+		<Font_Point_Size>7</Font_Point_Size>
+		<Color>255 255 255 50</Color>
+		<Text_Offset>0 0</Text_Offset>
+		<Left_Justified>False</Left_Justified>
+		<Base_Layer>8</Base_Layer>
+		<Text_Outline>True</Text_Outline>
+		<Icon_Texture_Name></Icon_Texture_Name>
+		<Selected_Texture_Name></Selected_Texture_Name>
+		<Disabled_Texture_Name>i_button_disabled_square.tga</Disabled_Texture_Name>
+		<Toggle>False</Toggle>
+		<Selected_Alpha>True</Selected_Alpha>
+		<Tab>True</Tab>
+		<Disable_Darken>true</Disable_Darken>
+		<Group>faction_63</Group>
+		<Tooltip_Text>WIP - Second Imperium</Tooltip_Text>
+		<Scale>0.75</Scale>
+	</CommandBarComponent>
+
+	<CommandBarComponent Name="disabled_faction_63">
+		<Type>TextButton</Type>
+		<Base_Layer>8</Base_Layer>
+		<Icon_Texture_Name>i_button_invisible_circle.tga</Icon_Texture_Name>
+		<Selected_Texture_Name />
+		<Toggle>False</Toggle>
+		<Tab>True</Tab>
+		<Group>faction_63</Group>
+	</CommandBarComponent>
+
+	<CommandBarComponent Name="faction_64">
+		<!-- Faction Select Button 64 -->
+		<Type>TextButton</Type>
+		<Font_Name>Arial</Font_Name>
+		<Font_Point_Size>7</Font_Point_Size>
+		<Color>255 255 255 50</Color>
+		<Text_Offset>0 0</Text_Offset>
+		<Left_Justified>False</Left_Justified>
+		<Base_Layer>8</Base_Layer>
+		<Text_Outline>True</Text_Outline>
+		<Icon_Texture_Name>I_BUTTON_GRUNGER.tga</Icon_Texture_Name>
+		<Selected_Texture_Name>I_BUTTON_GRUNGER.tga</Selected_Texture_Name>
+		<Disabled_Texture_Name>i_button_disabled_square.tga</Disabled_Texture_Name>
+		<Toggle>False</Toggle>
+		<Selected_Alpha>True</Selected_Alpha>
+		<Tab>True</Tab>
+		<Disable_Darken>true</Disable_Darken>
+		<Group>faction_64</Group>
+		<Tooltip_Text>TEXT_EVENT_WARLORD_CHOICE_GRUNGER</Tooltip_Text>
+		<Scale>0.75</Scale>
+	</CommandBarComponent>
+
+	<CommandBarComponent Name="disabled_faction_64">
+		<Type>TextButton</Type>
+		<Base_Layer>8</Base_Layer>
+		<Icon_Texture_Name>i_button_invisible_circle.tga</Icon_Texture_Name>
+		<Selected_Texture_Name />
+		<Toggle>False</Toggle>
+		<Tab>True</Tab>
+		<Group>faction_64</Group>
+	</CommandBarComponent>
+
+	<CommandBarComponent Name="faction_65">
+		<!-- Faction Select Button 65 -->
+		<Type>TextButton</Type>
+		<Font_Name>Arial</Font_Name>
+		<Font_Point_Size>7</Font_Point_Size>
+		<Color>255 255 255 50</Color>
+		<Text_Offset>0 0</Text_Offset>
+		<Left_Justified>False</Left_Justified>
+		<Base_Layer>8</Base_Layer>
+		<Text_Outline>True</Text_Outline>
+		<Icon_Texture_Name>I_BUTTON_DAYMON_THORN.tga</Icon_Texture_Name>
+		<Selected_Texture_Name>I_BUTTON_DAYMON_THORN.tga</Selected_Texture_Name>
+		<Disabled_Texture_Name>i_button_disabled_square.tga</Disabled_Texture_Name>
+		<Toggle>False</Toggle>
+		<Selected_Alpha>True</Selected_Alpha>
+		<Tab>True</Tab>
+		<Disable_Darken>true</Disable_Darken>
+		<Group>faction_65</Group>
+		<Tooltip_Text>TEXT_EVENT_WARLORD_CHOICE_THORN</Tooltip_Text>
+		<Scale>0.75</Scale>
+	</CommandBarComponent>
+
+	<CommandBarComponent Name="disabled_faction_65">
+		<Type>TextButton</Type>
+		<Base_Layer>8</Base_Layer>
+		<Icon_Texture_Name>i_button_invisible_circle.tga</Icon_Texture_Name>
+		<Selected_Texture_Name />
+		<Toggle>False</Toggle>
+		<Tab>True</Tab>
+		<Group>faction_65</Group>
+	</CommandBarComponent>
+
+	<CommandBarComponent Name="faction_66">
+		<!-- Faction Select Button 66 -->
+		<Type>TextButton</Type>
+		<Font_Name>Arial</Font_Name>
+		<Font_Point_Size>7</Font_Point_Size>
+		<Color>255 255 255 50</Color>
+		<Text_Offset>0 0</Text_Offset>
+		<Left_Justified>False</Left_Justified>
+		<Base_Layer>8</Base_Layer>
+		<Text_Outline>True</Text_Outline>
+		<Icon_Texture_Name>i_button_gronn.tga</Icon_Texture_Name>
+		<Selected_Texture_Name>i_button_gronn.tga</Selected_Texture_Name>
+		<Disabled_Texture_Name>i_button_disabled_square.tga</Disabled_Texture_Name>
+		<Toggle>False</Toggle>
+		<Selected_Alpha>True</Selected_Alpha>
+		<Tab>True</Tab>
+		<Disable_Darken>true</Disable_Darken>
+		<Group>faction_66</Group>
+		<Tooltip_Text>WIP - Allied Tion Sector</Tooltip_Text>
+		<Scale>0.75</Scale>
+	</CommandBarComponent>
+
+	<CommandBarComponent Name="disabled_faction_66">
+		<Type>TextButton</Type>
+		<Base_Layer>8</Base_Layer>
+		<Icon_Texture_Name>i_button_invisible_circle.tga</Icon_Texture_Name>
+		<Selected_Texture_Name />
+		<Toggle>False</Toggle>
+		<Tab>True</Tab>
+		<Group>faction_66</Group>
+	</CommandBarComponent>
+
+	<CommandBarComponent Name="faction_67">
+		<!-- Faction Select Button 67 -->
+		<Type>TextButton</Type>
+		<Font_Name>Arial</Font_Name>
+		<Font_Point_Size>7</Font_Point_Size>
+		<Color>255 255 255 50</Color>
+		<Text_Offset>0 0</Text_Offset>
+		<Left_Justified>False</Left_Justified>
+		<Base_Layer>8</Base_Layer>
+		<Text_Outline>True</Text_Outline>
+		<Icon_Texture_Name>I_BUTTON_COMEG.tga</Icon_Texture_Name>
+		<Selected_Texture_Name>I_BUTTON_COMEG.tga</Selected_Texture_Name>
+		<Disabled_Texture_Name>i_button_disabled_square.tga</Disabled_Texture_Name>
+		<Toggle>False</Toggle>
+		<Selected_Alpha>True</Selected_Alpha>
+		<Tab>True</Tab>
+		<Disable_Darken>true</Disable_Darken>
+		<Group>faction_67</Group>
+		<Tooltip_Text>WIP - Imperial Rendili</Tooltip_Text>
+		<Scale>0.75</Scale>
+	</CommandBarComponent>
+
+	<CommandBarComponent Name="disabled_faction_67">
+		<Type>TextButton</Type>
+		<Base_Layer>8</Base_Layer>
+		<Icon_Texture_Name>i_button_invisible_circle.tga</Icon_Texture_Name>
+		<Selected_Texture_Name />
+		<Toggle>False</Toggle>
+		<Tab>True</Tab>
+		<Group>faction_67</Group>
+	</CommandBarComponent>
+
+	<CommandBarComponent Name="faction_68">
+		<!-- Faction Select Button 68 -->
+		<Type>TextButton</Type>
+		<Font_Name>Arial</Font_Name>
+		<Font_Point_Size>7</Font_Point_Size>
+		<Color>255 255 255 50</Color>
+		<Text_Offset>0 0</Text_Offset>
+		<Left_Justified>False</Left_Justified>
+		<Base_Layer>8</Base_Layer>
+		<Text_Outline>True</Text_Outline>
+		<Icon_Texture_Name>I_BUTTON_X1.tga</Icon_Texture_Name>
+		<Selected_Texture_Name>I_BUTTON_X1.tga</Selected_Texture_Name>
+		<Disabled_Texture_Name>i_button_disabled_square.tga</Disabled_Texture_Name>
+		<Toggle>False</Toggle>
+		<Selected_Alpha>True</Selected_Alpha>
+		<Tab>True</Tab>
+		<Disable_Darken>true</Disable_Darken>
+		<Group>faction_68</Group>
+		<Tooltip_Text>WIP - X1</Tooltip_Text>
+		<Scale>0.75</Scale>
+	</CommandBarComponent>
+
+	<CommandBarComponent Name="disabled_faction_68">
+		<Type>TextButton</Type>
+		<Base_Layer>8</Base_Layer>
+		<Icon_Texture_Name>i_button_invisible_circle.tga</Icon_Texture_Name>
+		<Selected_Texture_Name />
+		<Toggle>False</Toggle>
+		<Tab>True</Tab>
+		<Group>faction_68</Group>
+	</CommandBarComponent>
+	
 <!-- Proteus Selection Menu End -->
 
 

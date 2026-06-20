@@ -1131,4 +1131,23 @@ return {
 		}
 	},
 	
+	["BALMORRA"] = {
+		
+		["FullLarge"] = {
+			["4ABY"] = true
+			,["6ABY"] = true
+			,["9ABY"] = true
+		}
+		,["KnownMedium"] = {
+			["4ABY"] = true
+			,["6ABY"] = true
+			,["9ABY"] = true
+		}
+		,["KnownLarge"] = {
+			["4ABY"] = true
+			,["6ABY"] = true
+			,["9ABY"] = true
+		}
+	},
+	
 }

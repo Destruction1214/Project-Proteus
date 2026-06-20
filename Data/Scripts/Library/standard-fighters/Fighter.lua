@@ -65,7 +65,7 @@ return {
 			end
 		end
 		
-	local proteustypes = {
+		local proteustypes = {
 			-- TR entries
 			ARDA = {"TIE_POD_SQUADRON", false},
 			BAKURA = {"TIE_FIGHTER_SQUADRON", false,
@@ -104,7 +104,7 @@ return {
 			TAGGE = {"HOWLRUNNER_SQUADRON", false},
 			TAMARIN = {"Z95_HEADHUNTER_SQUADRON", false},
 			TAPANI = {"MANTA_FIGHTER_SQUADRON", false},
-			TIERFON = {"UPGUNNED_TIE_INTERCEPTOR_SQUADRON", false},
+			TIERFON = {"TIE_AGGRESSOR_SQUADRON", false},
 			VOGEL = {"MISSILE_TIE_FIGHTER_SQUADRON", false},
 			WESSEX = {"HOWLRUNNER_SQUADRON", false},
 			WILD_SPACE = {"NIMBUS_V_WING_SQUADRON", false},
@@ -115,7 +115,8 @@ return {
 			GRUNGER = {"TWIN_ION_ENGINE_STARFIGHTER_SQUADRON", false},
 			THORN = {"TIE_FIGHTER_BF2_SQUADRON", false},
 			X1 = {"HOWLRUNNER_SQUADRON", false},
-			PRAJI = {"SHIELDED_MISSILE_TIE_FIGHTER_SQUADRON", false},
+			PRAJI = {"A9_SQUADRON", false},
+			BALMORRA = {"Z95ML_HEADHUNTER_SQUADRON", false},
 		}
 		
 		if owner == "IMPERIAL_PROTEUS" then
