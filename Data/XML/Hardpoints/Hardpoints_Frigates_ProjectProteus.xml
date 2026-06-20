@@ -1303,7 +1303,7 @@
 		<Damage_Particles>Engines</Damage_Particles>
 	</HardPoint>
 	
-	<!-- Republic DHC?? -->
+	<!-- Interdictor DHC?? -->
 	
 	<HardPoint Name="HP_DHC_I_LDTL_01">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
@@ -1626,9 +1626,9 @@
         <Damage_Particles>Bulb_Blast</Damage_Particles>
 	</HardPoint>
 	
-		<!-- Venator 8X -->
+	<!-- Venator 8X -->
 		
-			<HardPoint Name="HP_Venator_8X_MOTL_01">
+	<HardPoint Name="HP_Venator_8X_MOTL_01">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>

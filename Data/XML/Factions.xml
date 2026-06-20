@@ -9783,6 +9783,7 @@
 			Providence_Carrier_Destroyer_Pirate,
 			Refit_Venator_Star_Destroyer_Proteus,
 			Vector_Star_Destroyer,
+			Comeg_Ostrander,
 		</Bombardment_Required_Orbital_Ships>
 		<Bombardment_Projectile> Proj_Bombardment_Turbolaser_Green </Bombardment_Projectile>
 		<Bombardment_Particle> Bombard_Particle_Effect </Bombardment_Particle>
