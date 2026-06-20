@@ -1303,7 +1303,7 @@
 		<Damage_Particles>Engines</Damage_Particles>
 	</HardPoint>
 	
-	<!-- Interdictor DHC?? -->
+	<!-- Interdictor DHC -->
 	
 	<HardPoint Name="HP_DHC_I_LDTL_01">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
