@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='ASCII'?>
-<Imperial_Vehicle_Companies>
+<Project_Proteus_Vehicles>
 
 	<GroundVehicle Name="Republic_BARC_Speeder">
 		<Variant_Of_Existing_Type>Template_BARC_Speeder</Variant_Of_Existing_Type>
@@ -5123,4 +5123,4 @@
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 
 	</GroundCompany>
-</Imperial_Vehicle_Companies>
+</Project_Proteus_Vehicles>

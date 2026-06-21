@@ -128,7 +128,8 @@
 	<File>Units\Militia_Companies.xml</File>
 	<File>Units\Yevetha_Ground.xml</File>
 	<File>Units\Project_Proteus_Space.xml</File>
-	<File>Units\Project_Proteus_Ground.xml</File>
+	<File>Units\Project_Proteus_Fighters.xml</File>
+	<File>Units\Project_Proteus_Vehicles.xml</File>
 	<File>Units\Project_Proteus_Infantry.xml</File>
 	<File>Units\InfluenceRewards.xml</File>
 	<File>Units\InstantAction_Bases.xml</File>

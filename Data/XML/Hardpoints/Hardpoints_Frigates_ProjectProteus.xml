@@ -2531,7 +2531,7 @@
         <Damage_Particles>Hangar_02</Damage_Particles>
     </HardPoint>
 	 
-	 <!--VSD Carrier-->
+	<!--VSD Carrier-->
 
 	<HardPoint Name="HP_Victory2_Carrier_LQLC_01">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
