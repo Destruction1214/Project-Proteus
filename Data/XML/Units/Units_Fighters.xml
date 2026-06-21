@@ -41805,7 +41805,7 @@
 		<Select_Box_Scale>24</Select_Box_Scale>
 
 		<Mass>0.995</Mass>
-		<Max_Speed>4.61</Max_Speed>
+		<Max_Speed>6.61</Max_Speed>
 		<Min_Speed>1.14</Min_Speed>
 		<Max_Thrust>2.13</Max_Thrust>
 		<OverrideAcceleration>2.13</OverrideAcceleration>
