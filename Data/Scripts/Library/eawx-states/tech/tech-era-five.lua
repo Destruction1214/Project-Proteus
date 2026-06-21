@@ -110,7 +110,7 @@ return {
 
             UnitUtil.SetLockList("ZSINJ_EMPIRE", {
                 "TaggeCo_HQ",
-                "GormTalquist_HQ"
+                "GormTalquist_HQ",
 				-- Historical-only units
 				"Navy_Commando_Company",
 				"Dark_Trooper_Phase_II_Company",
