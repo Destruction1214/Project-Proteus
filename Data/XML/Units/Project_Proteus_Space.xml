@@ -5941,7 +5941,7 @@
 		<Mouse_Collide_Override_Sphere_Radius> 5.0 </Mouse_Collide_Override_Sphere_Radius>
 
 		<Mass>0.995</Mass>
-		<Max_Speed>3.54</Max_Speed>
+		<Max_Speed>5.54</Max_Speed>
 		<Min_Speed>1.18</Min_Speed>
 		<Max_Thrust>1.25</Max_Thrust>
 		<OverrideAcceleration>1.25</OverrideAcceleration>
@@ -6630,7 +6630,7 @@
 		<Mouse_Collide_Override_Sphere_Radius> 5.0 </Mouse_Collide_Override_Sphere_Radius>
 
 		<Mass>0.985</Mass>
-		<Max_Speed>7.8</Max_Speed>
+		<Max_Speed>9.8</Max_Speed>
 		<Min_Speed>1.625</Min_Speed>
 		<Max_Thrust>6.08</Max_Thrust>
 		<OverrideAcceleration>6.08</OverrideAcceleration>
@@ -7286,7 +7286,7 @@
 		<Space_Model_Name>TIE_TwinIonEngineStarfighter.ALO</Space_Model_Name>
 
 		<Tactical_Health>11</Tactical_Health>
-		<Max_Speed>5.65</Max_Speed>
+		<Max_Speed>7.65</Max_Speed>
 		<Min_Speed>1.26</Min_Speed>
 		<Max_Rate_Of_Turn>4.5</Max_Rate_Of_Turn>
 		<OverrideAcceleration>3.19</OverrideAcceleration>
@@ -7489,7 +7489,7 @@
 		<Mouse_Collide_Override_Sphere_Radius> 5.0 </Mouse_Collide_Override_Sphere_Radius>
 
 		<Mass>0.995</Mass>
-		<Max_Speed>4.14</Max_Speed>
+		<Max_Speed>6.14</Max_Speed>
 		<Min_Speed>1.38</Min_Speed>
 		<Max_Thrust>1.71</Max_Thrust>
 		<OverrideAcceleration>1.71</OverrideAcceleration>
