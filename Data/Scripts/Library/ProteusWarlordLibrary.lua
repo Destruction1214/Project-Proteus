@@ -268,7 +268,17 @@ return {
 			LeaderTable = {},
 			LeaderEndingNames = {"a new Emperor"},
 			HeroList = {"Banjeer_Quasar","Teubbo_Team","Lanu_Pasiq_Team","Nabyl_Hawkbat","Raptor_Commando_Company","Raptor_Commando_Company"},
-			UnlockList = {"Raptor_Trooper_Company"},
+			UnlockList = {
+				-- Space
+				"YE_4_Group","Imperial_CR90","Ipv1_Gunboat_Proteus","Lancer_Frigate_PDF","Carrack_Cruiser_Laser","Patrol_Nebulon_B","Starbolt","Strike_Cruiser_Light","Marauder_Missile_Cruiser",
+				"Victory_I_Fleet_Star_Destroyer","Space_Arc_Cruiser","Kuari_Princess_Liner","Immobilizer_418_Refit","Gladiator_II","Neutron_Star",
+				"Imperial_I_Star_Destroyer_Assault","Imperial_II_Star_Destroyer_Ion","Procurator_Battlecruiser",
+				"Sorannan_Star_Destroyer","Altor_Replenishment_Ship","Legator_Star_Dreadnought",
+				-- Ground
+				"Faux_Stormtrooper_Company","Raptor_Trooper_Company","Raptor_Commando_Company","New_Republic_Overracer_Speeder_Bike_Company",
+				"PX10_Company","PX7_Company","INT4_Company","Chariot_LAV_Company",
+				"AT_AA_Flak_Walker_Company","SPMAG_Walker_Company","Swift_Assault_5_Company","Imperial_AT_AP_Walker_Company","HAET_Company",
+				"Teklos_Company","A9_Floating_Fortress_Company","B5_Juggernaut_Company"},
 			StartYear = 7,
 			LastYear = 9,
 			IntroText = "TEXT_CONQUEST_ZSINJ_REMNANTS_INTRO_E3",
