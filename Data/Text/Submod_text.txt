@@ -9,6 +9,10 @@ D_TEXT_UNIT_DRAGON_TROOPER_LIEUTENANT,Dragon Trooper Heavy Gunner
 D_TEXT_UNIT_DRAGON_TROOPER_PLATOON,Dragon Trooper Brood
 D_TEXT_UNIT_DRAGON_TROOPER_REPEATER,Dragon Trooper Light Gunner
 D_TEXT_UNIT_DRAGON_TROOPER_SQUAD,Dragon Trooper Pack
+TEXT_UNIT_TRADESTATION_DASTA,D'Asta Family Trade Port
+TEXT_CONQUEST_PROTEUS_RENDILI,Comeg: I'm glad you could make it, Commander. Things are dire, and it is abundantly clear that we cannot hope on any external support. I have taken steps to consolidate our position, but the local political and corporate elites are not enthusiastic about our presence. Still, they obey for now, and the resources at our fingertips are quite immense. I believe that with deliberate application of force, we can carve out a little pocket of order amidst the chaos reigning around us.
+TEXT_PROTEUS_DESCRIPTION_RENDILI,The core world of Rendili, a center of shipbuilding and military industry, became an Imperial fortress world after the death of the Emperor, successfully holding out even as most of the core was liberated by the New Republic. Following the end of the Reborn Emperor's campaigns, the Imperial forces on Rendili left and the planet joined the New Republic.
+TEXT_EVENT_WARLORD_CHOICE_RENDILI,Imperial Rendili
 STAT_TRADESTATION_COUNT_DASTA,Trade Ports: %s / 30
 TEXT_ABILITY_DEPLOY_SHADOWTROOP,Deploy Shadow Stormtroopers
 TEXT_ABILITY_DEPLOY_SHADOWTROOP_DESCRIPTION,Deploy a squad of Shadow Stormtroopers from the transport.
@@ -74,7 +78,7 @@ TEXT_ETA2_MISSILE_SQUADRON2,Missile Eta-2 Actis Squadron x2
 TEXT_ETA2_SQUADRON,Eta-2 Actis Squadron
 TEXT_ETA2_SQUADRON_HALF,Eta-2 Actis Squadron 1/2
 TEXT_ETA2_SQUADRON2,Eta-2 Actis Squadron x2
-TEXT_EVENT_WARLORD_CHOICE_BALMORRA,Imperial Balmorra
+TEXT_EVENT_WARLORD_CHOICE_BALMORRA,Independent Balmorra
 TEXT_EVENT_WARLORD_CHOICE_GRUNGER,Grunger's Empire
 TEXT_EVENT_WARLORD_CHOICE_PRAJI,Imperial Kaikielius
 TEXT_EVENT_WARLORD_CHOICE_THORN,Daymon Thorn's Empire
