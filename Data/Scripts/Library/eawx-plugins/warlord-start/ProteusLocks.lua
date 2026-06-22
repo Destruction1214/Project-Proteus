@@ -138,5 +138,5 @@ return {
 		--Zsinj Remnants added units
 		"Raptor_Commando_Company",
 	--Balmorra and Rendili added units
-	"Marauder_Missile_Cruiser", "AAC_I_Company", "Freerunner_Assault_Company", "CC7700E", "Aratech_Battle_Platform_Company",
+	"Marauder_Missile_Cruiser", "AAC_I_Company", "Freerunner_Assault_Company", "CC7700_E", "Aratech_Battle_Platform_Company",
 }
