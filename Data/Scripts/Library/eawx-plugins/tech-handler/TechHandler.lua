@@ -141,6 +141,12 @@ function TechHandler:new(galactic_conquest, human_player, planets)
 		{"Imperial_Proteus"},
 		{"MTC_Sensor"}
 		)
+	self.RRepublicResearch = GenericResearch(self.galactic_conquest,
+		"R_REPUBLIC_RESEARCH",
+		"Dummy_RepublicSD_Rendili",
+		{"Imperial_Proteus"},
+		{"Imperial_Republic_Star_Destroyer"}
+		)
 end
 
 function TechHandler:update()
