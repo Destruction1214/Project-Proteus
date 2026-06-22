@@ -105,6 +105,7 @@ return {
 		"Triumph_Star_Destroyer",
 		"DHC_Interdictor",
 		"Vindicator_Carrier",
+		"Trenchant",
 		--Grunger's Empire
 		"Lictor",
 		--Imperial Ord Radama
@@ -134,4 +135,6 @@ return {
 		"Luxury_Barge_Company",
 		--Wessex added units
 		"Relgim_ATWalker_Research_Proteus", "Imperial_AT_AT_Walker_Turbolaser_Refit_Company",
+		--Zsinj Remnants added units
+		"Raptor_Commando_Company",
 }
