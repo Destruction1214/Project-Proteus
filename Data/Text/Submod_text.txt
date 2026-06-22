@@ -1,4 +1,5 @@
-﻿D_TEXT_TOOLTIP_DRAGON_TROOPER,Primitive reptiloid warriors fiercely loyal to Delurin and equipped with ornate metal armor and flamethrowers to more closely resemble the Dragons of ancient myth. Unacquainted with blaster weaponry and other advanced technology, they are nonetheless resilient and quick on their feet.
+﻿TEXT_TOOLTIP_REPUBLIC_SD_R,TODO FOR SUPERNOVA
+D_TEXT_TOOLTIP_DRAGON_TROOPER,Primitive reptiloid warriors fiercely loyal to Delurin and equipped with ornate metal armor and flamethrowers to more closely resemble the Dragons of ancient myth. Unacquainted with blaster weaponry and other advanced technology, they are nonetheless resilient and quick on their feet.
 D_TEXT_TOOLTIP_DRAGON_TROOPER_COMPANY,Company: 36x Dragon Trooper
 D_TEXT_TOOLTIP_DRAGON_TROOPER_COMPANY_WEAP1,24x Blaster Carbine: 3 / 1.25s / 220m
 D_TEXT_TOOLTIP_DRAGON_TROOPER_SQUAD,Squad: 9x Dragon Trooper
@@ -9,10 +10,6 @@ D_TEXT_UNIT_DRAGON_TROOPER_LIEUTENANT,Dragon Trooper Heavy Gunner
 D_TEXT_UNIT_DRAGON_TROOPER_PLATOON,Dragon Trooper Brood
 D_TEXT_UNIT_DRAGON_TROOPER_REPEATER,Dragon Trooper Light Gunner
 D_TEXT_UNIT_DRAGON_TROOPER_SQUAD,Dragon Trooper Pack
-TEXT_UNIT_TRADESTATION_DASTA,D'Asta Family Trade Port
-TEXT_CONQUEST_PROTEUS_RENDILI,Comeg: I'm glad you could make it, Commander. Things are dire, and it is abundantly clear that we cannot hope on any external support. I have taken steps to consolidate our position, but the local political and corporate elites are not enthusiastic about our presence. Still, they obey for now, and the resources at our fingertips are quite immense. I believe that with deliberate application of force, we can carve out a little pocket of order amidst the chaos reigning around us.
-TEXT_PROTEUS_DESCRIPTION_RENDILI,The core world of Rendili, a center of shipbuilding and military industry, became an Imperial fortress world after the death of the Emperor, successfully holding out even as most of the core was liberated by the New Republic. Following the end of the Reborn Emperor's campaigns, the Imperial forces on Rendili left and the planet joined the New Republic.
-TEXT_EVENT_WARLORD_CHOICE_RENDILI,Imperial Rendili
 STAT_TRADESTATION_COUNT_DASTA,Trade Ports: %s / 30
 TEXT_ABILITY_DEPLOY_SHADOWTROOP,Deploy Shadow Stormtroopers
 TEXT_ABILITY_DEPLOY_SHADOWTROOP_DESCRIPTION,Deploy a squad of Shadow Stormtroopers from the transport.
@@ -50,6 +47,7 @@ TEXT_COMPANY_UBIQTORATE_BASE_DESCRIPTION,One of multiple large bases of the Impe
 TEXT_CONQUEST_PROTEUS_BALMORRA,Hinch Beltane: There has never been a better moment to finally seize our freedom than now. The Emperor is dead, and his lackeys in disarray. It is time for a new course, Commander. Rally our forces and make sure that all the other galactic powers are put on notice: they can buy our products, but they cannot have us as their subjects again. As of this hour, Balmorra is once again independent and open for business - and you are free to use whatever force you deem necessary to ensure it stays that way.
 TEXT_CONQUEST_PROTEUS_GRUNGER,Josef Grunger: Word has reached me of the Emperor’s death, and I do not intend to pass up such an opportunity. This region of space is ripe with lesser men to join my armada. They will not be difficult to "convince".
 TEXT_CONQUEST_PROTEUS_PRAJI,Nahdonnis Praji: It was the right decision to retire to Kaikielius instead of following the Emperor to his final demise. Now we must build on our work, Commander, and secure our holdings against all the vultures descending.
+TEXT_CONQUEST_PROTEUS_RENDILI,Comeg: I'm glad you could make it, Commander. Things are dire, and it is abundantly clear that we cannot hope on any external support. I have taken steps to consolidate our position, but the local political and corporate elites are not enthusiastic about our presence. Still, they obey for now, and the resources at our fingertips are quite immense. I believe that with deliberate application of force, we can carve out a little pocket of order amidst the chaos reigning around us.
 TEXT_CONQUEST_PROTEUS_THORN,Daymon Thorn: The Emperor is dead, and I shall pick up his crown and place it upon my own head.  With the power of the Korrendum crystals, we shall build a weapon that will surpass even the Death Stars, and with it, we shall overthrow and scatter all that oppose our march. The men who laugh at the Empire's distress, and inwardly rejoice at the triumph of our enemies, will soon be confounded and trembling, for the War Dog of the Empire is on the march. There still remains much to do!
 TEXT_COYOTE_BOMBER_SQUADRON,Coyote Advanced Droid Bomber Squadron
 TEXT_COYOTE_BOMBER_SQUADRON_HALF,Coyote Advanced Droid Bomber Squadron 1/2
@@ -81,6 +79,7 @@ TEXT_ETA2_SQUADRON2,Eta-2 Actis Squadron x2
 TEXT_EVENT_WARLORD_CHOICE_BALMORRA,Independent Balmorra
 TEXT_EVENT_WARLORD_CHOICE_GRUNGER,Grunger's Empire
 TEXT_EVENT_WARLORD_CHOICE_PRAJI,Imperial Kaikielius
+TEXT_EVENT_WARLORD_CHOICE_RENDILI,Imperial Rendili
 TEXT_EVENT_WARLORD_CHOICE_THORN,Daymon Thorn's Empire
 TEXT_GOVERNMENT_PROTEUS_MARKET_KUAT,KDY Market:
 TEXT_GOVERNMENT_PROTEUS_MARKET_OVERVIEW_KUAT,Every galactic cycle, new ships or ground vehicles may appear on the KDY market. These are units not typically available to the faction. You can see all units currently available and the amounts they're available in listed below.
@@ -133,6 +132,7 @@ TEXT_NTB_630_SQUADRON2,NTB-630 Squadron x2
 TEXT_PROTEUS_DESCRIPTION_BALMORRA,The Planet Balmorra was occupied by the Empire and forced to produce war walkers despite the natives desire for independence. Hinch Beltane, the ruthless Imperial governor, also subscribed to that goal, leading Balmorra into mercantilist independence while maintaining full personal control as an autocrat for a time, until the armies of the Reborn Emperor forced him back into the fold. Under Beltane, the Balmorrans rebelled once more and successfully drove off the Empire for good.
 TEXT_PROTEUS_DESCRIPTION_GRUNGER,One of the original twelve Grand Admirals, Grunger wasted no time consolidating his powerbase and making a play for control of the Imperial Remnant once he learned of Palpatine's death. Aggressive and capable, he was one of the main contenders for the Imperial Throne, and his growing strength worried the Central Committee of Grand Moffs and other Imperial warlords.
 TEXT_PROTEUS_DESCRIPTION_PRAJI,After conquering his ancient family home world of Kaikielius, Nahdonnis Praji met with the reborn Emperor Palpatine in person for the first time, and upon experiencing the Emperor's apparent madness first hand, decided to retire to governorship of the planet. This saved him from the immolation of the Dark Empire shortly thereafter, but left him and his new fiefdom isolated as a resurgent New Republic and vengeful Imperial warlords all laid claim to the core and deep core regions.
+TEXT_PROTEUS_DESCRIPTION_RENDILI,The core world of Rendili, a center of shipbuilding and military industry, became an Imperial fortress world after the death of the Emperor, successfully holding out even as most of the core was liberated by the New Republic. Following the end of the Reborn Emperor's campaigns, the Imperial forces on Rendili left and the planet joined the New Republic.
 TEXT_PROTEUS_DESCRIPTION_THORN,A secretive dark jedi who pledged his allegiance to the Emperor while serving his own agenda, Daymon Thorn, also known as the Wardog of the Empire, has returned from his sujourn at the news of the Emperor's death. With a small army of followers and the power of a set of ancient crystals at his disposal, he seeks to claim the Imperial Throne for himself, and himself alone.
 TEXT_PROTEUS_ROSTER_LAMBDA,Moff Lankin's forces are versatile and unspecialized, with a significant ISB contingent among their ranks to help keep the restive population in line. In space, a roster of efficient vessels can react to any situation and provide support to the massive battlecruisers that serve as anchors of the fleet. On the ground, their armies are adaptable, with a noticeable focus on mechanized assaults.
 TEXT_REPUBLIC_HEADHUNTER_SQUADRON,Republic Z-95 Squadron
@@ -141,6 +141,7 @@ TEXT_REPUBLIC_HEADHUNTER_SQUADRON_HALF,Republic Z-95 Squadron 1/2
 TEXT_REPUBLIC_TIE_SQUADRON,T.I.E. Starfighter Squadron
 TEXT_REPUBLIC_TIE_SQUADRON_HALF,T.I.E. Starfighter Squadron 1/2
 TEXT_REPUBLIC_TIE_SQUADRON2,T.I.E. Starfighter Squadron x2
+TEXT_REPUBLICSD_RENDILI_DESCRIPTION,"Walex Blissex, the former star designer at Rendili StarDrive, is still in touch with his former co-workers, and thus we have learned that he has had plans for an impressive new capital ship for a while now, a design that the rebels are not yet willing or able to put into production. It will take a lot of persuasion, but using his former Rendili colleagues as intermediaries, we might be able to convince him to license the design to us for 'local defense.
 TEXT_RESEARCH_SELLASAS_SWAP1_DESCRIPTION,Switch the loadouts of newly commissioned Dreadnaught, Carrack and Neutron Star Cruisers and Victory and Imperial Star Destroyers to more support-oriented configurations.
 TEXT_RESEARCH_SELLASAS_SWAP1_NAME,Switch to Support Loadouts
 TEXT_RESEARCH_SELLASAS_SWAP2_DESCRIPTION,Switch the loadouts of newly commissioned Dreadnaught, Carrack and Neutron Star Cruisers and Victory and Imperial Star Destroyers to more firepower-centric configurations. 
@@ -1024,9 +1025,9 @@ TEXT_TOOLTIP_VCX820,The VCX-820 was a heavy yet fast flying-guns platform that w
 TEXT_TOOLTIP_VECTOR,A rare variant of the Victory-Class Star Destroyer that modifies the design in a similar way the Tector-Class modified the Imperator hull; with increased armor, no fighter launch bay, and a mission loadout much more focused on direct-ship-to-ship combat than the broad assignment profile of most Imperial capital ships. However, unlike the Tector modifying the Imperial I hull, the Vector uses the Victory II's hull as its base, inheriting the model's speed and focus on energy weapons instead of munitions. Although developed shortly after the Clone Wars, the design remained obscure, languishing in deep core reserve fleets until the campaigns of the Reborn Emperor. Very strong at engaging most types of capital ships, and boasts a sizable anti-fighter defense grid, but lacks the offensive versatility of the other variants.
 TEXT_TOOLTIP_VECTOR_HULL,Hull: 4000 (Heavy Frigate)
 TEXT_TOOLTIP_VECTOR_SHIELD,Shields: 4000 / [50/R] (Heavy Frigate)
-TEXT_TOOLTIP_VECTOR_WEAPON1,4x Medium Quad Turbolaser 2/2.0s/6.2km
-TEXT_TOOLTIP_VECTOR_WEAPON2,4x Medium Turbolaser 2/1.0s/6.2km
-TEXT_TOOLTIP_VECTOR_WEAPON3,3x Heavy Quad Laser Cannon 2/1.0s/4.7km
+TEXT_TOOLTIP_VECTOR_WEAPON1,4x Medium Quad Turbolaser 2 / 2.0s/6.2km
+TEXT_TOOLTIP_VECTOR_WEAPON2,4x Medium Turbolaser 2 / 1.0s/6.2km
+TEXT_TOOLTIP_VECTOR_WEAPON3,3x Heavy Quad Laser Cannon 2 / 1.0s/4.7km
 TEXT_TOOLTIP_VENATOR_8X,A refit of the iconic Venator Star Destroyer. This variant sacrifices the original's large fighter wing for more abundant and heavier weaponry, making it more effective in ship to ship combat.
 TEXT_TOOLTIP_VENATOR_8X_MOVE,Speed: 4.0 | Accel: 0.2 | Turn: 0.4
 TEXT_TOOLTIP_VENATOR_8X_SHIELD,Shields: 2600 / [26/R] (Heavy Frigate)
@@ -1241,6 +1242,7 @@ TEXT_UNIT_TIE_GT_TORPS,Torpedo TIE/gt Starfighter
 TEXT_UNIT_TIE_INTERCEPTOR_BF2,Special Mission Refit TIE Interceptor
 TEXT_UNIT_TIE_INTERCEPTOR_ION,Ion Refit TIE Interceptor
 TEXT_UNIT_TIE_LIGHT_BOMBER,Tie Light Bomber
+TEXT_UNIT_TRADESTATION_DASTA,D'Asta Family Trade Port
 TEXT_UNIT_TRANDOSHAN_ALPHA,Trandoshan Alpha
 TEXT_UNIT_TRANDOSHAN_COMMAND_SQUAD,Trandoshan Command Squad
 TEXT_UNIT_TRANDOSHAN_FLAMER,Trandoshan Flamer

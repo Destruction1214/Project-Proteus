@@ -1950,7 +1950,7 @@
 				<Applicable_Unit_Categories/>
 				<Applicable_Unit_Types>
 				Customs_Corvette, Shadow_Customs_Corvette, Imperial_DHC, DHC_Carrier, PDF_DHC, Victory_I_Star_Destroyer, Victory_II_Star_Destroyer, Crimson_Victory_II_Star_Destroyer, Gladiator_I, Gladiator_II, Battle_Horn, Neutron_Star, NR_DHC, Alliance_Assault_Frigate, Alliance_Assault_Frigate_II, Republic_Star_Destroyer, Invincible_Cruiser,
-				Lictor, PDF_DHC, Rep_DHC, DHC_Gunboat, Neutron_Star_Mercenary, Neutron_Star_Tender, Triumph_Star_Destroyer, Victory_II_Carrier, Victory_I_Fleet_Star_Destroyer, DHC_Interdictor
+				Lictor, PDF_DHC, Rep_DHC, DHC_Gunboat, Neutron_Star_Mercenary, Neutron_Star_Tender, Triumph_Star_Destroyer, Victory_II_Carrier, Victory_I_Fleet_Star_Destroyer, DHC_Interdictor, Imperial_Republic_Star_Destroyer
 				</Applicable_Unit_Types>
 				<Price_Reduction_Percentage>0.30</Price_Reduction_Percentage>
 				<Stacking_Category>50</Stacking_Category>
@@ -1960,7 +1960,7 @@
 				<Applicable_Unit_Categories/>
 				<Applicable_Unit_Types> 
 				Customs_Corvette, Shadow_Customs_Corvette, Imperial_DHC, DHC_Carrier, PDF_DHC, Victory_I_Star_Destroyer, Victory_II_Star_Destroyer, Crimson_Victory_II_Star_Destroyer, Gladiator_I, Gladiator_II, Battle_Horn, Neutron_Star, NR_DHC, Alliance_Assault_Frigate, Alliance_Assault_Frigate_II, Republic_Star_Destroyer, Invincible_Cruiser,
-				Lictor, PDF_DHC, Rep_DHC, DHC_Gunboat, Neutron_Star_Mercenary, Neutron_Star_Tender, Triumph_Star_Destroyer, Victory_II_Carrier, Victory_I_Fleet_Star_Destroyer, DHC_Interdictor   
+				Lictor, PDF_DHC, Rep_DHC, DHC_Gunboat, Neutron_Star_Mercenary, Neutron_Star_Tender, Triumph_Star_Destroyer, Victory_II_Carrier, Victory_I_Fleet_Star_Destroyer, DHC_Interdictor, Imperial_Republic_Star_Destroyer  
 				</Applicable_Unit_Types>
 				<Time_Reduction_Percentage>0.30</Time_Reduction_Percentage>
 				<Stacking_Category>50</Stacking_Category>

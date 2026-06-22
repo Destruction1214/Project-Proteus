@@ -5230,5 +5230,61 @@
 		<Space_Layer> SuperCapital </Space_Layer>
 		<Layer_Z_Adjust>-490.0</Layer_Z_Adjust>
 	</SpaceUnit>
+
+	<!-- Imperial Republic Star Destroyer -->
+
+	<SpaceUnit Name="Imperial_Republic_Star_Destroyer">
+		<Variant_Of_Existing_Type>Republic_Star_Destroyer</Variant_Of_Existing_Type>
+
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_REPUBLIC_SD_R
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_REPUBLIC_SD_HULL
+		TEXT_TOOLTIP_REPUBLIC_SD_SHIELD
+		TEXT_TOOLTIP_REPUBLIC_SD_MOVE
+		TEXT_TOOLTIP_REPUBLIC_SD_SQUADRON
+		TEXT_TOOLTIP_REPUBLIC_SD_WEAP1
+		TEXT_TOOLTIP_REPUBLIC_SD_WEAP2
+		TEXT_TOOLTIP_REPUBLIC_SD_WEAP3
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
+		TEXT_TOOLTIP_CAPABILITY_BOARDABLE
+		</Encyclopedia_Text>
+
+		<Tech_Level>0</Tech_Level>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Lua_Script>GenericGameObject</Lua_Script>
+
+		<Required_Special_Structures>
+		Imperial_Proteus_Shipyard_Level_Three | Imperial_Proteus_Shipyard_Level_Four,
+		AI_Category_Dummy | Capital_Category_Dummy</Required_Special_Structures>
+
+		<HardPoints>
+			HP_RSDR_Turbo01,
+			HP_RSDR_Turbo02,
+			HP_RSDR_Turbo03,
+			HP_RSDR_Turbo04,
+			HP_RSDR_Turbo05,
+			HP_RSDR_Turbo06,
+			HP_RSDR_Turbo07,
+			HP_RSDR_Turbo08,
+			HP_RSDR_Turbo09,
+			HP_RSDR_Turbo10,
+			HP_RSDR_Turbo11,
+			HP_RSDR_Turbo12,
+			HP_RSD_Ion01,
+			HP_RSD_Ion02,
+			HP_RSD_Engine,
+			HP_RSD_Hangar
+		</HardPoints>
+
+		<Starting_Spawned_Units_Tech_1>TIE_Interceptor_Squadron, 1</Starting_Spawned_Units_Tech_1>
+		<Starting_Spawned_Units_Tech_1>Y_Wing_Squadron_Half, 1</Starting_Spawned_Units_Tech_1>
+
+		<Reserve_Spawned_Units_Tech_1>TIE_Interceptor_Squadron, 2</Reserve_Spawned_Units_Tech_1>
+		<Reserve_Spawned_Units_Tech_1>Y_Wing_Squadron_Half, 1</Reserve_Spawned_Units_Tech_1>
+	</SpaceUnit>
 	
 </Project_Proteus_Space>

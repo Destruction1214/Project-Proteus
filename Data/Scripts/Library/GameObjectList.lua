@@ -935,5 +935,6 @@ return {
 ["VECTOR_STAR_DESTROYER"] = true,
 ["COMEG_OSTRANDER"] = true,
 ["COMEG_BELLATOR_DUMMY"] = true,
+["IMPERIAL_REPUBLIC_STAR_DESTROYER"] = true,
   
 }
