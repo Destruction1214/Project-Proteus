@@ -1099,7 +1099,7 @@ return {
 			HeroList = {"BELTANE_TEAM"}, 
 			UnlockList = {
 				-- Space 
-				"Beta_ETR_3_Group", "IPV1", "Lancer_Frigate", "Marauder_Missile_Cruiser", "Class_C_Frigate", "CC7700E", 
+				"Beta_ETR_3_Group", "IPV1", "Lancer_Frigate", "Marauder_Missile_Cruiser", "Class_C_Frigate", "CC7700_E", 
 				"Imperial_DHC", "Gladiator_II", "Proficient_Tender", "Broadside_Cruiser", "Captor", "Victory_I_Star_Destroyer", "Procursator_Star_Destroyer",
 				"Imperial_I_Star_Destroyer_Assault", "Triumph_Star_Destroyer", "Invincible_Cruiser", "Maelstrom_Battlecruiser",  
 				"Bulwark_III", "Mandator_II_Dreadnought",
