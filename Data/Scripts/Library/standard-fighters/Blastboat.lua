@@ -95,6 +95,7 @@ return {
 			X1 = {"THETA_ASSAULT_SQUADRON", false},
 			PRAJI = {"VCX_820_SQUADRON", false},
 			BALMORRA = {"SKIPRAY_SQUADRON", false},
+			RENDILI = {"ADVANCED_SKIPRAY_SQUADRON", false},
 		}
 		
 		if owner == "IMPERIAL_PROTEUS" then
