@@ -1,5 +1,4 @@
-﻿TEXT_TOOLTIP_REPUBLIC_SD_R,TODO FOR SUPERNOVA
-D_TEXT_TOOLTIP_DRAGON_TROOPER,Primitive reptiloid warriors fiercely loyal to Delurin and equipped with ornate metal armor and flamethrowers to more closely resemble the Dragons of ancient myth. Unacquainted with blaster weaponry and other advanced technology, they are nonetheless resilient and quick on their feet.
+﻿D_TEXT_TOOLTIP_DRAGON_TROOPER,Primitive reptiloid warriors fiercely loyal to Delurin and equipped with ornate metal armor and flamethrowers to more closely resemble the Dragons of ancient myth. Unacquainted with blaster weaponry and other advanced technology, they are nonetheless resilient and quick on their feet.
 D_TEXT_TOOLTIP_DRAGON_TROOPER_COMPANY,Company: 36x Dragon Trooper
 D_TEXT_TOOLTIP_DRAGON_TROOPER_COMPANY_WEAP1,24x Blaster Carbine: 3 / 1.25s / 220m
 D_TEXT_TOOLTIP_DRAGON_TROOPER_SQUAD,Squad: 9x Dragon Trooper
@@ -178,19 +177,19 @@ TEXT_STATBLOCK_AS_TIE_INTERCEPTOR_UPGUNNED_SQUADRON_HALF,Squadron: 6x Upgunned H
 TEXT_STATBLOCK_AS_TIE_INTERCEPTOR_UPGUNNED_WEAP2,1x Fighter Laser Cannon: 4 / 2.0s / 1.0km
 TEXT_STATBLOCK_BELBULLAB22_BASE,Health: 16 | Shields: 6
 TEXT_STATBLOCK_BELBULLAB22_GRIEVOUS_BASE,Health: 220 | Shields: 200
-TEXT_STATBLOCK_BELBULLAB22_MOVE,Speed: 5.05 | Maneuverability: 3.94
+TEXT_STATBLOCK_BELBULLAB22_MOVE,Speed: 7.05 | Maneuverability: 3.94
 TEXT_STATBLOCK_BELBULLAB22_SQUADRON,Squadron: 12x Belbullab-22
 TEXT_STATBLOCK_BELBULLAB22_SQUADRON_DOUBLE,Squadron: 24x Belbullab-22
 TEXT_STATBLOCK_BELBULLAB22_SQUADRON_HALF,Squadron: 6x Belbullab-22
 TEXT_STATBLOCK_BELBULLAB22_WEAP1,1x Fighter Laser Cannon: 6 / 2.0s / 1.0km
 TEXT_STATBLOCK_BELBULLAB23_ESCORT_BASE,Health: 140 | Shields: 80
-TEXT_STATBLOCK_BELBULLAB23_MOVE,Speed: 4.8 | Maneuverability: 3.75
+TEXT_STATBLOCK_BELBULLAB23_MOVE,Speed: 6.8 | Maneuverability: 3.75
 TEXT_STATBLOCK_BELBULLAB23_NWON_RAINES_BASE,Health: 280 | Shields: 160
 TEXT_STATBLOCK_BELBULLAB23_SQUADRON,Squadron: 12x Belbullab-23
 TEXT_STATBLOCK_BELBULLAB23_WEAP1,1x Fighter Laser Cannon: 6 / 2.0s / 1.0km
 TEXT_STATBLOCK_BELBULLAB23_WEAP2,1x Fighter Concussion Missile: 1 / 37.5s / 1.8km
 TEXT_STATBLOCK_BELBULLAB24_BASE,Health: 16 | Shields: 6
-TEXT_STATBLOCK_BELBULLAB24_MOVE,Speed: 4.55 | Maneuverability: 3.55
+TEXT_STATBLOCK_BELBULLAB24_MOVE,Speed: 6.55 | Maneuverability: 3.55
 TEXT_STATBLOCK_BELBULLAB24_SQUADRON,Squadron: 12x Belbullab-24
 TEXT_STATBLOCK_BELBULLAB24_SQUADRON_DOUBLE,Squadron: 24x Belbullab-24
 TEXT_STATBLOCK_BELBULLAB24_SQUADRON_HALF,Squadron: 6x Belbullab-24
@@ -208,7 +207,7 @@ TEXT_STATBLOCK_BTLA2_YWING_WEAP2,1x Heavy Fighter Proton Torpedo: 1 / 30.0s / 1.
 TEXT_STATBLOCK_BTLB_YWING_JEDI_BASE,Health: 300 [2%/5s] | Shields: 80
 TEXT_STATBLOCK_BTLB_YWING_SHADOW_BASE,Health: 110 | Shields: 60
 TEXT_STATBLOCK_COYOTE_BOMBER_BASE,Health: 10 | Shields: 3
-TEXT_STATBLOCK_COYOTE_BOMBER_MOVE,Speed: 5.85 | Maneuverability: 4.25
+TEXT_STATBLOCK_COYOTE_BOMBER_MOVE,Speed: 7.85 | Maneuverability: 4.25
 TEXT_STATBLOCK_COYOTE_BOMBER_SQUADRON,Squadron: 24x Coyote Advanced Droid Bomber
 TEXT_STATBLOCK_COYOTE_BOMBER_SQUADRON_DOUBLE,Squadron: 48x Coyote Advanced Droid Bomber
 TEXT_STATBLOCK_COYOTE_BOMBER_SQUADRON_HALF,Squadron: 12x Coyote Advanced Droid Bomber
@@ -846,6 +845,7 @@ TEXT_TOOLTIP_RED_POLICE_WEAP6,1x Thermal Grenade: 1 / 15.0s / 200m
 TEXT_TOOLTIP_REE_SHALA,Ree Shala worked the majority of her life as a smuggler. She began by running spice, but after many unsuccessful ventures she established an operation where she was responsible for setting up deals, while others ran the space lanes. Through her hard work she was able to create a mid-sized smuggling ring based out of the Corva sector.
 TEXT_TOOLTIP_REFORM_PRAETORIAN,Reform Praetorian Squadron
 TEXT_TOOLTIP_RELGIMAT_RESEARCH,Upgrade the motor pool to include more modern AT Walkers. Replaces the AT-ST and standard AT-AT with the AT-ST/A and Turbolaser-equipped AT-AT.
+TEXT_TOOLTIP_REPUBLIC_SD_R,TODO FOR SUPERNOVA
 TEXT_TOOLTIP_REPUBLIC_TIE,The first general production model in a famous line of fighters with roots in the Sienar Advanced Project Vessel. It was created to fill space aboard older warships but was pressed into greater service due to efficiency compared to more expensive Kuati interceptors. It is sturdier than its successor designs but less maneuverable.
 TEXT_TOOLTIP_REPUBLIC_Z95,A variant of the popular Z-95 Headhunter, the clone Z-95 starfighter boasted speed and maneuverability on account of its sleek design. It was equipped with recessed torpedo launchers and a pair of wingtip laser cannons, and its shielding allowed it to endure much damage, though it lacked a hyperdrive.
 TEXT_TOOLTIP_ROEK,Roek was an officer in the Starfleet of the Galactic Empire. after the Battle of Endor, Admiral Roek and his fleet were recalled to the Core Worlds to defend the Corellian system from the New Republic. Roek replaced Admiral Jaeffis who was previously responsible for the defense of the Corellian shipyards with his fleet of 25 Star Destroyers, and partook in the Empire's withdraw from the system. Roek's fleet eventually passed into the hands of Grand Admiral Grunger.
