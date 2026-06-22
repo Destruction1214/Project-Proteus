@@ -96,6 +96,8 @@ return {
 			X1 = {"", false},
 			PRAJI = {"TIE_X7_SQUADRON", false},
 			BALMORRA = {"TOSCAN_GUNSHIP_SQUADRON", false},
+			RENDILI = {"IXIYEN_FIGHTER_SQUADRON", false},
+
 		}
 		
 		if owner == "REBEL" then
