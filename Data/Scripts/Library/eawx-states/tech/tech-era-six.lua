@@ -80,7 +80,7 @@ return {
             })
 
             UnitUtil.SetLockList("ZSINJ_EMPIRE", {
-                "Adz_Patrol_Destroyer"
+                "Adz_Patrol_Destroyer",
 				-- Historical-only units
 				"Navy_Commando_Company",
 				"Dark_Trooper_Phase_II_Company",
