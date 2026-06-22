@@ -1224,7 +1224,7 @@ return {
 			"Imperial_Army_Guard_Company", "Security_Trooper_Company", "64_Y_Swift_Repulsorlift_Sled_Company",
 			"1L_Tank_Company", "ULAV_Early_Company",
 			"008_Speeder_Company", "Imperial_VAAT_Company", "MAL_Rocket_Vehicle_Company", "AV_7_Company", "Imperial_UT_AA_Company", "Freerunner_Assault_Company", 
-			"Canderous_Assault_Tank_Company", "Teklos_Company", "Aratech_Battle_Platform_Company",
+			"Canderous_Assault_Tank_Company_Proteus", "Teklos_Company", "Aratech_Battle_Platform_Company",
 			},
 			FactionOverride = "Empire",
 			StartYear = 4,
