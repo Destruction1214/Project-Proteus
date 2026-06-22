@@ -75,6 +75,7 @@ return {
 			X1 = {"TIE_Fighter_BF2_SQUADRON", false},
 			PRAJI = {"SHIELDED_MISSILE_TIE_FIGHTER_SQUADRON", false},
 			BALMORRA = {"HOWLRUNNER_SQUADRON", false},
+			RENDILI = {"TIE_STARFIGHTER_SQUADRON", false},
 		}
 		
 		if alias == "IMPERIAL" or owner == "CORELLIA" then

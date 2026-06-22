@@ -101,7 +101,9 @@
 
 	<SpecialStructure Name="Dasta_TradeStation">
 		<Variant_Of_Existing_Type>Template_TradeStation</Variant_Of_Existing_Type>
-
+		
+		<Text_ID>TEXT_UNIT_TRADESTATION_DASTA</Text_ID>
+		
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_DASTATRADESTATION
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
