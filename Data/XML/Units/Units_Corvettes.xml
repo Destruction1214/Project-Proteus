@@ -6486,7 +6486,7 @@
 	<SpaceUnit Name="Marauder_Missile_Cruiser">
 		<Variant_Of_Existing_Type>Template_Marauder_Missile_Cruiser</Variant_Of_Existing_Type>
 
-		<Affiliation>Hutt_Cartels</Affiliation>
+		<Affiliation>Hutt_Cartels, Imperial_Proteus</Affiliation>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Tech_Level>0</Tech_Level>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
@@ -6494,7 +6494,7 @@
 
 		<Required_Special_Structures>
 		Pirate_Base |
-		CSA_Shipyard_Level_One | CSA_Shipyard_Level_Two | CSA_Shipyard_Level_Three | CSA_Shipyard_Level_Four,
+		CSA_Shipyard_Level_One | CSA_Shipyard_Level_Two | CSA_Shipyard_Level_Three | CSA_Shipyard_Level_Four | Imperial_Proteus_Shipyard_Level_One | Imperial_Proteus_Shipyard_Level_Two | Imperial_Proteus_Shipyard_Level_Three | Imperial_Proteus_Shipyard_Level_Four,
 		AI_Category_Dummy | Non_Capital_Category_Dummy
 		</Required_Special_Structures>
 		<Required_Planets/>
@@ -12738,7 +12738,7 @@
 		<AI_Combat_Power>362</AI_Combat_Power>
 		<Damage>20</Damage>
 
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Imperial_Proteus</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Override_Bounty_SP>10</Override_Bounty_SP>
 		<Maintenance_Cost>8</Maintenance_Cost>
@@ -12765,7 +12765,8 @@
 		<Slice_Cost_Credits>640</Slice_Cost_Credits>
 		<Required_Special_Structures>
 		NewRepublic_Shipyard_Level_One | NewRepublic_Shipyard_Level_Two | NewRepublic_Shipyard_Level_Three | NewRepublic_Shipyard_Level_Four |
-		CSA_Shipyard_Level_One | CSA_Shipyard_Level_Two | CSA_Shipyard_Level_Three | CSA_Shipyard_Level_Four,
+		CSA_Shipyard_Level_One | CSA_Shipyard_Level_Two | CSA_Shipyard_Level_Three | CSA_Shipyard_Level_Four | 
+		Imperial_Proteus_Shipyard_Level_One | Imperial_Proteus_Shipyard_Level_Two | Imperial_Proteus_Shipyard_Level_Three | Imperial_Proteus_Shipyard_Level_Four,
 		AI_Category_Dummy | Non_Capital_Category_Dummy
 		</Required_Special_Structures>
 		<Build_Time_Reduced_By_Multiple_Factories>yes</Build_Time_Reduced_By_Multiple_Factories>
