@@ -973,7 +973,7 @@
 
 
 		<!-- Same as unit -->
-		<Max_Speed>3.54</Max_Speed>
+		<Max_Speed>5.54</Max_Speed>
 		<Min_Speed>1.18</Min_Speed>
 
 		<MovementClass>Space</MovementClass>
@@ -1156,7 +1156,7 @@
 
 
 		<!-- Same as unit -->
-		<Max_Speed>3.54</Max_Speed>
+		<Max_Speed>5.54</Max_Speed>
 		<Min_Speed>1.18</Min_Speed>
 
 		<MovementClass>Space</MovementClass>
@@ -1327,7 +1327,7 @@
 
 
 		<!-- Same as unit -->
-		<Max_Speed>3.54</Max_Speed>
+		<Max_Speed>5.54</Max_Speed>
 		<Min_Speed>1.18</Min_Speed>
 
 		<MovementClass>Space</MovementClass>
@@ -1830,7 +1830,7 @@
 		<Icon_Name>i_button_eta2_two.tga</Icon_Name>
 
 			<!-- Same as unit -->
-		<Max_Speed>7.8</Max_Speed>
+		<Max_Speed>9.8</Max_Speed>
 		<Min_Speed>1.625</Min_Speed>
 
 		<MovementClass>Space</MovementClass>
@@ -1992,7 +1992,7 @@
 		<Icon_Name>i_button_eta2_half.tga</Icon_Name>
 
 		<!-- Same as unit -->
-		<Max_Speed>7.8</Max_Speed>
+		<Max_Speed>9.8</Max_Speed>
 		<Min_Speed>1.625</Min_Speed>
 
 		<MovementClass>Space</MovementClass>
@@ -2144,7 +2144,7 @@
 		<Icon_Name>I_BUTTON_REPUBLIC_TIE_ONE.tga</Icon_Name>
 
 		<!-- Same as unit -->
-		<Max_Speed>5.65</Max_Speed>
+		<Max_Speed>7.65</Max_Speed>
 		<Min_Speed>1.26</Min_Speed>
 	</Container>
 
@@ -2189,7 +2189,7 @@
 		<Icon_Name>I_BUTTON_REPUBLIC_TIE_TWO.tga</Icon_Name>
 
 		<!-- Same as unit -->
-		<Max_Speed>5.65</Max_Speed>
+		<Max_Speed>7.65</Max_Speed>
 		<Min_Speed>1.26</Min_Speed>
 	</Container>
 
@@ -2229,7 +2229,7 @@
 		<Icon_Name>I_BUTTON_REPUBLIC_TIE_HALF.tga</Icon_Name>
 
 		<!-- Same as unit -->
-		<Max_Speed>5.65</Max_Speed>
+		<Max_Speed>7.65</Max_Speed>
 		<Min_Speed>1.26</Min_Speed>
 	</Container>
 	
@@ -2521,7 +2521,7 @@
 
 
 		<!-- Same as unit -->
-		<Max_Speed>4.14</Max_Speed>
+		<Max_Speed>6.14</Max_Speed>
 		<Min_Speed>1.38</Min_Speed>
 
 		<MovementClass>Space</MovementClass>
@@ -2702,7 +2702,7 @@
 
 
 		<!-- Same as unit -->
-		<Max_Speed>4.14</Max_Speed>
+		<Max_Speed>6.14</Max_Speed>
 		<Min_Speed>1.38</Min_Speed>
 
 		<MovementClass>Space</MovementClass>
@@ -2871,7 +2871,7 @@
 
 
 		<!-- Same as unit -->
-		<Max_Speed>4.14</Max_Speed>
+		<Max_Speed>6.14</Max_Speed>
 		<Min_Speed>1.38</Min_Speed>
 
 		<MovementClass>Space</MovementClass>
@@ -13952,7 +13952,7 @@
 		<Icon_Name>I_BUTTON_Z95_REPUBLIC_ONE.tga</Icon_Name>
 
 		<!-- Same as unit -->
-		<Max_Speed>4.61</Max_Speed>
+		<Max_Speed>6.61</Max_Speed>
 		<Min_Speed>1.14</Min_Speed>
 
 		<Max_Squad_Size> 12 </Max_Squad_Size>
@@ -14001,7 +14001,7 @@
 		<Icon_Name>I_BUTTON_Z95_REPUBLIC_TWO.tga</Icon_Name>
 
 		<!-- Same as unit -->
-		<Max_Speed>4.61</Max_Speed>
+		<Max_Speed>6.61</Max_Speed>
 		<Min_Speed>1.14</Min_Speed>
 
 		<Max_Squad_Size> 24 </Max_Squad_Size>
@@ -14045,7 +14045,7 @@
 		<Icon_Name>I_BUTTON_Z95_REPUBLIC_HALF.tga</Icon_Name>
 
 		<!-- Same as unit -->
-		<Max_Speed>4.61</Max_Speed>
+		<Max_Speed>6.61</Max_Speed>
 		<Min_Speed>1.14</Min_Speed>
 
 		<Max_Squad_Size>6</Max_Squad_Size>
@@ -14073,7 +14073,7 @@
 		<Mouse_Collide_Override_Sphere_Radius> 5.0 </Mouse_Collide_Override_Sphere_Radius>
 
 		<Mass>0.985</Mass>
-		<Max_Speed>5.05</Max_Speed>
+		<Max_Speed>7.05</Max_Speed>
 		<Min_Speed>1.28</Min_Speed>
 		<Max_Thrust>2.55</Max_Thrust>
 		<OverrideAcceleration>2.55</OverrideAcceleration>
@@ -14325,7 +14325,7 @@
 		<Icon_Name>i_button_belbullab22_one.tga</Icon_Name>
 
 		<!-- Same as unit -->
-		<Max_Speed>5.05</Max_Speed>
+		<Max_Speed>7.05</Max_Speed>
 		<Min_Speed>1.11</Min_Speed>
 
 		<MovementClass>Space</MovementClass>
@@ -14493,7 +14493,7 @@
 		<Icon_Name>i_button_belbullab22_two.tga</Icon_Name>
 
 		<!-- Same as unit -->
-		<Max_Speed>5.05</Max_Speed>
+		<Max_Speed>7.05</Max_Speed>
 		<Min_Speed>1.11</Min_Speed>
 
 		<MovementClass>Space</MovementClass>
@@ -14648,7 +14648,7 @@
 		<Icon_Name>i_button_belbullab22_half.tga</Icon_Name>
 
 		<!-- Same as unit -->
-		<Max_Speed>5.05</Max_Speed>
+		<Max_Speed>7.05</Max_Speed>
 		<Min_Speed>1.11</Min_Speed>
 
 		<MovementClass>Space</MovementClass>
@@ -14708,7 +14708,7 @@
 		</Encyclopedia_Text>
 		<Icon_Name>I_BUTTON_BELBULLAB23.tga</Icon_Name>
 
-		<Max_Speed>4.8</Max_Speed>
+		<Max_Speed>6.8</Max_Speed>
 		<Min_Speed>1.28</Min_Speed>
 		<Max_Thrust>2.3</Max_Thrust>
 		<OverrideAcceleration>2.3</OverrideAcceleration>
@@ -14829,7 +14829,7 @@
 		<Icon_Name>I_BUTTON_BELBULLAB23_ONE.tga</Icon_Name>
 
 		<!-- Same as unit -->
-		<Max_Speed>4.8</Max_Speed>
+		<Max_Speed>6.8</Max_Speed>
 		<Min_Speed>1.28</Min_Speed>
 
 		<MovementClass>Space</MovementClass>
@@ -14900,7 +14900,7 @@
 
 		<Space_Model_Name>cis_belbullab_24.ALO</Space_Model_Name>
 
-		<Max_Speed>4.55</Max_Speed>
+		<Max_Speed>6.55</Max_Speed>
 		<Min_Speed>1.28</Min_Speed>
 		<Max_Thrust>2.07</Max_Thrust>
 		<OverrideAcceleration>2.07</OverrideAcceleration>
@@ -15033,7 +15033,7 @@
 		<Icon_Name>i_button_Belbullab24_one.tga</Icon_Name>
 
 		<!-- Same as unit -->
-		<Max_Speed>4.55</Max_Speed>
+		<Max_Speed>6.55</Max_Speed>
 		<Min_Speed>1.0</Min_Speed>
 
 		<MovementClass>Space</MovementClass>
@@ -15208,7 +15208,7 @@
 		<Icon_Name>i_button_Belbullab24_two.tga</Icon_Name>
 
 			<!-- Same as unit -->
-		<Max_Speed>4.55</Max_Speed>
+		<Max_Speed>6.55</Max_Speed>
 		<Min_Speed>1.0</Min_Speed>
 
 		<MovementClass>Space</MovementClass>
@@ -15372,7 +15372,7 @@
 		<Icon_Name>i_button_Belbullab24_half.tga</Icon_Name>
 
 		<!-- Same as unit -->
-		<Max_Speed>4.55</Max_Speed>
+		<Max_Speed>6.55</Max_Speed>
 		<Min_Speed>1.0</Min_Speed>
 
 		<MovementClass>Space</MovementClass>
@@ -15446,7 +15446,7 @@
 		<LOD_Bias>40</LOD_Bias>
 
 		<Mass>0.985</Mass>
-		<Max_Speed>5.85</Max_Speed>
+		<Max_Speed>7.85</Max_Speed>
 		<Min_Speed>1.37</Min_Speed>
 		<Max_Thrust>3.42</Max_Thrust>
 		<OverrideAcceleration>3.42</OverrideAcceleration>
@@ -16559,7 +16559,7 @@
 		<Icon_Name>I_BUTTON_COYOTE_BOMBER_ONE.tga</Icon_Name>
 
 		<!-- Same as unit -->
-		<Max_Speed>5.85</Max_Speed>
+		<Max_Speed>7.85</Max_Speed>
 		<Min_Speed>1.37</Min_Speed>
 
 		<MovementClass>Space</MovementClass>
@@ -16780,7 +16780,7 @@
 		<Icon_Name>I_BUTTON_COYOTE_BOMBER_TWO.tga</Icon_Name>
 
 		<!-- Same as unit -->
-		<Max_Speed>5.85</Max_Speed>
+		<Max_Speed>7.85</Max_Speed>
 		<Min_Speed>1.37</Min_Speed>
 
 		<MovementClass>Space</MovementClass>
@@ -16979,7 +16979,7 @@
 		<Icon_Name>I_BUTTON_COYOTE_BOMBER_HALF.tga</Icon_Name>
 
 		<!-- Same as unit -->
-		<Max_Speed>5.85</Max_Speed>
+		<Max_Speed>7.85</Max_Speed>
 		<Min_Speed>1.37</Min_Speed>
 
 		<MovementClass>Space</MovementClass>
