@@ -5402,7 +5402,7 @@
 		
 		<CategoryMask>Frigate | AntiCapital | AntiFrigate</CategoryMask>
 
-		<AI_Combat_Power>900</AI_Combat_Power>
+		<AI_Combat_Power>925</AI_Combat_Power>
 		<Build_Cost_Credits>1800</Build_Cost_Credits>
 		<Build_Time_Seconds>15</Build_Time_Seconds>
 		<Override_Bounty_SP>20</Override_Bounty_SP>
@@ -5461,7 +5461,7 @@
 		
 		<CategoryMask>Frigate | AntiCapital | AntiFrigate</CategoryMask>
 
-		<AI_Combat_Power>740</AI_Combat_Power>
+		<AI_Combat_Power>700</AI_Combat_Power>
 		<Build_Cost_Credits>1400</Build_Cost_Credits>
 		<Build_Time_Seconds>14</Build_Time_Seconds>
 		<Override_Bounty_SP>20</Override_Bounty_SP>
