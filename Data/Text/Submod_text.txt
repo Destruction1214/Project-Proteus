@@ -1307,9 +1307,9 @@ Z_TEXT_UNIT_GORATH_RESEARCH,Reverse-engineer the Gorath Strike Cruiser
 Z_TEXT_UNIT_MISSILE_BOAT_RESEARCH,Reverse-engineer the Missile Boat
 Z_TEXT_UNIT_MTC_RESEARCH,Reverse-engineer the Modular Taskforce Cruiser
 Z_TEXT_UNIT_SCIMITAR_RESEARCH,Reverse-engineer the Scimitar Assault Bomber
-TEXT_GAMBLE_RENDILI_VSD_NAME,--TODO: NOVA--
-TEXT_GAMBLE_RENDILI_VSD_DESCRIPTION,--TODO: NOVA--
-TEXT_GAMBLE_RENDILI_DHC_NAME,--TODO: NOVA--
-TEXT_GAMBLE_RENDILI_DHC_DESCRIPTION,--TODO: NOVA--
-TEXT_GAMBLE_RENDILI_NSBC_NAME,--TODO: NOVA--
-TEXT_GAMBLE_RENDILI_NSBC_DESCRIPTION,--TODO: NOVA--
+TEXT_GAMBLE_RENDILI_VSD_NAME,Rendili Priority Order: Victory-Class Star Destroyer
+TEXT_GAMBLE_RENDILI_VSD_DESCRIPTION,Commission a Victory-class Star Destroyer directly from the Rendili StarDrive slipways and stockpiles. Rendili vessels come in many configurations and the many associated shipyards are always experimenting with alternate loadouts and modifications.
+TEXT_GAMBLE_RENDILI_DHC_NAME,Rendili Priority Order: Victory-Class Star Destroyer
+TEXT_GAMBLE_RENDILI_DHC_DESCRIPTION,Commission a Dreadnaught-class Cruiser directly from the Rendili StarDrive slipways and stockpiles. Rendili vessels come in many configurations and the many associated shipyards are always experimenting with alternate loadouts and modifications.
+TEXT_GAMBLE_RENDILI_NSBC_NAME,Rendili Priority Order: Victory-Class Star Destroyer
+TEXT_GAMBLE_RENDILI_NSBC_DESCRIPTION,Commission a Neutron Star Bulk Cruiser directly from the Rendili StarDrive slipways and stockpiles. Rendili vessels come in many configurations and the many associated shipyards are always experimenting with alternate loadouts and modifications.
