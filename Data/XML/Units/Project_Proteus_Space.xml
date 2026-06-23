@@ -5336,5 +5336,180 @@
 		<Reserve_Spawned_Units_Tech_1>TIE_Interceptor_Squadron, 2</Reserve_Spawned_Units_Tech_1>
 		<Reserve_Spawned_Units_Tech_1>Y_Wing_Squadron_Half, 1</Reserve_Spawned_Units_Tech_1>
 	</SpaceUnit>
+
+	<SpaceUnit Name="Modernized_DHC">
+		<Variant_Of_Existing_Type>Template_PDF_DHC</Variant_Of_Existing_Type>
+
+		<Icon_Name>I_BUTTON_DREADNAUGHT_MODERNIZED.TGA</Icon_Name>
+		<Text_ID>TEXT_UNIT_DREADNAUGHT_MODERNIZED</Text_ID>
+		<Encyclopedia_Unit_Class>Ship Crews Cost: 55</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_DREADNAUGHT_MODERNIZED
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_DREADNAUGHT_MODERNIZED_HULL
+		TEXT_TOOLTIP_DREADNAUGHT_MODERNIZED_SHIELD
+		TEXT_TOOLTIP_DREADNAUGHT_MODERNIZED_MOVE
+		TEXT_TOOLTIP_DREADNAUGHT_MODERNIZED_SQUADRON
+		TEXT_TOOLTIP_DREADNAUGHT_MODERNIZED_WEAP1
+		TEXT_TOOLTIP_DREADNAUGHT_MODERNIZED_WEAP2
+		TEXT_TOOLTIP_DREADNAUGHT_MODERNIZED_WEAP3
+		TEXT_TOOLTIP_DREADNAUGHT_MODERNIZED_WEAP4
+		TEXT_TOOLTIP_DREADNAUGHT_MODERNIZED_WEAP5
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		TEXT_TOOLTIP_CAPABILITY_BOARDABLE
+		</Encyclopedia_Text>
+		
+		<Mass>0.999</Mass>
+		<Max_Speed>4,2</Max_Speed>
+		<Max_Thrust>1.5</Max_Thrust>
+		<OverrideAcceleration>0.175</OverrideAcceleration>
+		<OverrideDeceleration>0.35</OverrideDeceleration>
+		<Max_Rate_Of_Turn>0.375</Max_Rate_Of_Turn>
+		<Stopped_Rate_Of_Turn>0.75</Stopped_Rate_Of_Turn>
+		<Min_Speed_Fraction_For_Turn>0.0</Min_Speed_Fraction_For_Turn>
+		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>5</Bank_Turn_Angle>
+		<Hyperspace>Yes</Hyperspace>
+		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+		
+		<Shield_Points>2400</Shield_Points>
+		<Shield_Refresh_Rate>25</Shield_Refresh_Rate>
+		<Armor_Type> ArmourS_HeavyFrigate </Armor_Type>
+		<Tactical_Health>2310</Tactical_Health>
+		
+		<Affiliation>Independent_Forces,Imperial_Proteus</Affiliation>
+		
+		<Lua_Script>GenericGameObject</Lua_Script>
+		<Tech_Level>0</Tech_Level>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Required_Special_Structures>
+		NewRepublic_Shipyard_Level_Two | NewRepublic_Shipyard_Level_Three | NewRepublic_Shipyard_Level_Four |
+		EotH_Shipyard_Level_Two | EotH_Shipyard_Level_Three | EotH_Shipyard_Level_Four |
+		Empire_Shipyard_Level_Two | Empire_Shipyard_Level_Three | Empire_Shipyard_Level_Four |
+		Greater_Maldrood_Shipyard_Level_Two | Greater_Maldrood_Shipyard_Level_Three | Greater_Maldrood_Shipyard_Level_Four |
+		Zsinj_Shipyard_Level_Two | Zsinj_Shipyard_Level_Three | Zsinj_Shipyard_Level_Four | Rancor_Base |
+		Eriadu_Shipyard_Level_Two | Eriadu_Shipyard_Level_Three | Eriadu_Shipyard_Level_Four |
+		Pentastar_Shipyard_Level_Two | Pentastar_Shipyard_Level_Three | Pentastar_Shipyard_Level_Four |
+		Imperial_Proteus_Shipyard_Level_Two | Imperial_Proteus_Shipyard_Level_Three | Imperial_Proteus_Shipyard_Level_Four |
+		CSA_Shipyard_Level_Two | CSA_Shipyard_Level_Three | CSA_Shipyard_Level_Four |
+		Hapan_Shipyard_Royal | Hapan_Shipyard_Galney | Hapan_Shipyard_Requud | Hapan_Shipyard_Maluri | Hapan_Shipyard_AlGray | Hapan_Shipyard_Corr | Hapan_Shipyard_Thane |
+		Hutt_Shipyard_Level_Two | Hutt_Shipyard_Level_Three | Hutt_Shipyard_Level_Four,
+		AI_Category_Dummy | Heavy_Frigate_Category_Dummy
+		</Required_Special_Structures>
+		
+		<Max_Speed>4.2</Max_Speed>
+		
+		<CategoryMask>Frigate | AntiCapital | AntiFrigate</CategoryMask>
+
+		<AI_Combat_Power>900</AI_Combat_Power>
+		<Build_Cost_Credits>1800</Build_Cost_Credits>
+		<Build_Time_Seconds>15</Build_Time_Seconds>
+		<Override_Bounty_SP>20</Override_Bounty_SP>
+		<Maintenance_Cost>8</Maintenance_Cost>
+		<Population_Value>9</Population_Value>
+		
+		<Targeting_Priority_Set>AntiCapital</Targeting_Priority_Set>
+
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+
+		<HardPoints>
+			HP_Dreadnaught_Modernized_Weapon_01,
+			HP_Dreadnaught_Modernized_Weapon_02,
+			HP_Dreadnaught_Modernized_Weapon_03,
+			HP_Dreadnaught_Modernized_Weapon_04,
+			HP_Dreadnaught_Modernized_Weapon_05,
+			HP_Dreadnaught_Modernized_Weapon_06,
+			HP_Dreadnaught_Modernized_Weapon_07,
+			HP_Dreadnaught_Modernized_Weapon_08,
+			HP_Dreadnaught_Modernized_Weapon_09,
+			HP_Dreadnaught_Modernized_Engines,
+			HP_Dreadnaught_Modernized_Fighter_Bay
+		</HardPoints>
+
+		<Death_Clone>Damage_Normal, Dreadnaught_Death_Clone</Death_Clone>
+		
+		<Starting_Spawned_Units_Tech_0>TIE_Interceptor_Squadron_Half, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>TIE_Interceptor_Squadron_Half, 1</Reserve_Spawned_Units_Tech_0>
+	</SpaceUnit>
+
+	<SpaceUnit Name="Picket_DHC">
+		<Variant_Of_Existing_Type>Template_PDF_DHC</Variant_Of_Existing_Type>
+		<Space_Model_Name>Dreadnaught_GCW.ALO</Space_Model_Name>
+		<Icon_Name>I_BUTTON_DREADNAUGHT_ION.tga</Icon_Name>
+		<Text_ID>TEXT_UNIT_DREADNAUGHT_PICKET</Text_ID>
+
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_DREADNAUGHT_PICKET
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_DREADNAUGHT_PICKET_HULL
+		TEXT_TOOLTIP_DREADNAUGHT_PICKET_SHIELD
+		TEXT_TOOLTIP_DREADNAUGHT_PICKET_MOVE
+		TEXT_TOOLTIP_DREADNAUGHT_PICKET_SQUADRON
+		TEXT_TOOLTIP_DREADNAUGHT_PICKET_WEAP1
+		TEXT_TOOLTIP_DREADNAUGHT_PICKET_WEAP2
+		TEXT_TOOLTIP_DREADNAUGHT_PICKET_WEAP3
+		TEXT_TOOLTIP_DREADNAUGHT_PICKET_WEAP4
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		TEXT_TOOLTIP_CAPABILITY_BOARDABLE
+		</Encyclopedia_Text>
+
+		<Shield_Points>2200</Shield_Points>
+		<Shield_Refresh_Rate>22</Shield_Refresh_Rate>
+		<Tactical_Health>2205</Tactical_Health>
+		
+		<CategoryMask>Frigate | AntiCapital | AntiFrigate</CategoryMask>
+
+		<AI_Combat_Power>740</AI_Combat_Power>
+		<Build_Cost_Credits>1400</Build_Cost_Credits>
+		<Build_Time_Seconds>14</Build_Time_Seconds>
+		<Override_Bounty_SP>20</Override_Bounty_SP>
+		<Maintenance_Cost>8</Maintenance_Cost>
+		<Population_Value>8</Population_Value>
+
+		<Affiliation>Independent_Forces,Imperial_Proteus</Affiliation>
+
+		<No_Colorization_Color/>
+		<Starting_Spawned_Units_Tech_0>TIE_GT_Squadron_Half, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>TIE_GT_Squadron_Half, 1</Reserve_Spawned_Units_Tech_0>
+		<Tech_Level>0</Tech_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures>
+		NewRepublic_Shipyard_Level_Two | NewRepublic_Shipyard_Level_Three | NewRepublic_Shipyard_Level_Four |
+		EotH_Shipyard_Level_Two | EotH_Shipyard_Level_Three | EotH_Shipyard_Level_Four |
+		Empire_Shipyard_Level_Two | Empire_Shipyard_Level_Three | Empire_Shipyard_Level_Four |
+		Greater_Maldrood_Shipyard_Level_Two | Greater_Maldrood_Shipyard_Level_Three | Greater_Maldrood_Shipyard_Level_Four |
+		Zsinj_Shipyard_Level_Two | Zsinj_Shipyard_Level_Three | Zsinj_Shipyard_Level_Four | Rancor_Base |
+		Eriadu_Shipyard_Level_Two | Eriadu_Shipyard_Level_Three | Eriadu_Shipyard_Level_Four |
+		Pentastar_Shipyard_Level_Two | Pentastar_Shipyard_Level_Three | Pentastar_Shipyard_Level_Four |
+		Imperial_Proteus_Shipyard_Level_Two | Imperial_Proteus_Shipyard_Level_Three | Imperial_Proteus_Shipyard_Level_Four |
+		CSA_Shipyard_Level_Two | CSA_Shipyard_Level_Three | CSA_Shipyard_Level_Four |
+		Hapan_Shipyard_Royal | Hapan_Shipyard_Galney | Hapan_Shipyard_Requud | Hapan_Shipyard_Maluri | Hapan_Shipyard_AlGray | Hapan_Shipyard_Corr | Hapan_Shipyard_Thane |
+		Hutt_Shipyard_Level_Two | Hutt_Shipyard_Level_Three | Hutt_Shipyard_Level_Four,
+		AI_Category_Dummy | Heavy_Frigate_Category_Dummy
+		</Required_Special_Structures>
+		
+		<Lua_Script>GenericGameObject</Lua_Script>
+		
+		<Targeting_Max_Attack_Distance>2450.0</Targeting_Max_Attack_Distance>
+		<Targeting_Priority_Set>AntiCapital</Targeting_Priority_Set>
+
+		<HardPoints>
+			HP_Dreadnaught_Picket_Weapon_01,
+			HP_Dreadnaught_Picket_Weapon_02,
+			HP_Dreadnaught_Picket_Weapon_03,
+			HP_Dreadnaught_Picket_Weapon_04,
+			HP_Dreadnaught_Picket_Weapon_05,
+			HP_Dreadnaught_Picket_Weapon_06,
+			HP_Dreadnaught_Picket_Weapon_07,
+			HP_Dreadnaught_Picket_Engines,
+			HP_Dreadnaught_Picket_Fighter_Bay
+		</HardPoints>
+
+		<Death_Clone>Damage_Normal, Dreadnaught_Imperial_Death_Clone</Death_Clone>
+	</SpaceUnit>
+
+
 	
 </Project_Proteus_Space>
