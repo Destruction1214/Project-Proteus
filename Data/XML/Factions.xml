@@ -338,6 +338,9 @@
 			Providence_Carrier_Destroyer_Pirate,
 			Refit_Venator_Star_Destroyer_Proteus,
 			Vector_Star_Destroyer,
+			Picket_DHC,
+			Modernized_DHC,
+			Imperial_Republic_Star_Destroyer,
 		</Bombardment_Required_Orbital_Ships>
 		<Bombardment_Projectile> Proj_Bombardment_Turbolaser_Red </Bombardment_Projectile>
 		<Bombardment_Particle> Bombard_Particle_Effect </Bombardment_Particle>
@@ -1215,6 +1218,9 @@
 			Providence_Carrier_Destroyer_Pirate,
 			Refit_Venator_Star_Destroyer_Proteus,
 			Vector_Star_Destroyer,
+			Picket_DHC,
+			Modernized_DHC,
+			Imperial_Republic_Star_Destroyer,
 		</Bombardment_Required_Orbital_Ships>
 		
 		<Bombardment_Projectile> Proj_Bombardment_Turbolaser_Green </Bombardment_Projectile>
@@ -2441,6 +2447,9 @@
 			Providence_Carrier_Destroyer_Pirate,
 			Refit_Venator_Star_Destroyer_Proteus,
 			Vector_Star_Destroyer,
+			Picket_DHC,
+			Modernized_DHC,
+			Imperial_Republic_Star_Destroyer,
 		</Bombardment_Required_Orbital_Ships>
 		<Bombardment_Projectile> Proj_Bombardment_Turbolaser_Gold </Bombardment_Projectile>
 		<Bombardment_Particle> Bombard_Particle_Effect </Bombardment_Particle>
@@ -9784,6 +9793,9 @@
 			Refit_Venator_Star_Destroyer_Proteus,
 			Vector_Star_Destroyer,
 			Comeg_Ostrander,
+			Picket_DHC,
+			Modernized_DHC,
+			Imperial_Republic_Star_Destroyer,
 		</Bombardment_Required_Orbital_Ships>
 		<Bombardment_Projectile> Proj_Bombardment_Turbolaser_Green </Bombardment_Projectile>
 		<Bombardment_Particle> Bombard_Particle_Effect </Bombardment_Particle>
