@@ -1104,7 +1104,7 @@ return {
 				"Imperial_I_Star_Destroyer_Assault", "Triumph_Star_Destroyer", "Invincible_Cruiser", "Maelstrom_Battlecruiser",  
 				"Bulwark_III", "Mandator_II_Dreadnought",
 				-- Ground
-				"PDF_Tactical_Unit_Company", "Security_Trooper_Company", "Imperial_Dwarf_Spider_Droid_Company",  "Overracer_Speeder_Bike_Company",
+				"PDF_Tactical_Unit_Company", "Security_Trooper_Company", "Imperial_Dwarf_Spider_Droid_Company", "Overracer_Speeder_Bike_Company",
 				"AT_ST_Company", "Scorpenek_Sentry_Company", "AAC_1_Company", 
 				"2M_Repulsor_Tank_Company", "MAL_Rocket_Vehicle_Company", "AT_AA_Missile_Walker_Company",
 				"Tracked_Mobile_Base_Company", "Imperial_AT_TE_Walker_Company",
@@ -1225,8 +1225,8 @@ return {
 				"1L_Tank_Company", "ULAV_Early_Company", "SP9_Group", 
 				"008_Speeder_Company", "Imperial_VAAT_Company", "Imperial_Missile_Artillery_Company", "AV_7_Company", "Imperial_UT_AA_Company", "Freerunner_Assault_Company", 
 				"Canderous_Assault_Tank_Company_Proteus", "Teklos_Company", "Aratech_Battle_Platform_Company",
-				-- Ground
-				"Dummy_RepublicSD_Rendili",
+				-- Research
+				"Dummy_RepublicSD_Rendili", "Dummy_Random_Unit_Rendili_VSD", "Dummy_Random_Unit_Rendili_DHC", "Dummy_Random_Unit_Rendili_NSBC"
 			},
 			FactionOverride = "Empire",
 			StartYear = 4,

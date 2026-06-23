@@ -1154,11 +1154,10 @@ return {
 		}
 	},
 
-	["BALMORRA"] = {
+	["RENDILI"] = {
 		
 		["Empires_At_War"] = {
-			["4ABY"] = true
-			,["6ABY"] = true
+			["6ABY"] = true
 			,["9ABY"] = true
 		}
 	},
