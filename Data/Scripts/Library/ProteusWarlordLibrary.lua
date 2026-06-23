@@ -1221,9 +1221,9 @@ return {
 				"Rep_DHC", "Gladiator_I", "DHC_Carrier", "Neutron_Star_Tender", "Victory_I_Fleet_Star_Destroyer", "Victory_II_Carrier", "Vector_Star_Destroyer",
 				"Triumph_Star_Destroyer","Invincible_Cruiser", "Assertor_Star_Dreadnought",
 				-- Ground
-				"Imperial_Army_Guard_Company", "Security_Trooper_Company", "64_Y_Swift_Repulsorlift_Sled_Company",
-				"1L_Tank_Company", "ULAV_Early_Company",
-				"008_Speeder_Company", "Imperial_VAAT_Company", "MAL_Rocket_Vehicle_Company", "AV_7_Company", "Imperial_UT_AA_Company", "Freerunner_Assault_Company", 
+				"Imperial_Army_Guard_Company", "Security_Trooper_Company", "Imperial_Fleet_Commando_Company", "64_Y_Swift_Repulsorlift_Sled_Company",
+				"1L_Tank_Company", "ULAV_Early_Company", "SP9_Group", 
+				"008_Speeder_Company", "Imperial_VAAT_Company", "Imperial_Missile_Artillery_Company", "AV_7_Company", "Imperial_UT_AA_Company", "Freerunner_Assault_Company", 
 				"Canderous_Assault_Tank_Company_Proteus", "Teklos_Company", "Aratech_Battle_Platform_Company",
 				-- Research
 				"Dummy_RepublicSD_Rendili", "Dummy_Random_Unit_Rendili_VSD", "Dummy_Random_Unit_Rendili_DHC", "Dummy_Random_Unit_Rendili_NSBC"
