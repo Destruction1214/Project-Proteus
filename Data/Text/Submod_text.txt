@@ -10,6 +10,27 @@ D_TEXT_UNIT_DRAGON_TROOPER_PLATOON,Dragon Trooper Brood
 D_TEXT_UNIT_DRAGON_TROOPER_REPEATER,Dragon Trooper Light Gunner
 D_TEXT_UNIT_DRAGON_TROOPER_SQUAD,Dragon Trooper Pack
 STAT_TRADESTATION_COUNT_DASTA,Trade Ports: %s / 30
+TEXT_UNIT_DREADNAUGHT_MODERNIZED,Modernized Dreadnaught Heavy Cruiser
+TEXT_TOOLTIP_DREADNAUGHT_MODERNIZED,A rare, heavily modernized version of the venerable Dreadnaught-Class Cruiser hull featuring crew reduction technologies utilized in Katana- and Imperial refits as well as a drastically changed internal layout and upgraded power plant to accommodate a heavier armament, more modern defenses, and upgraded support systems. Features a wide range of weapons and can engage any target, but is still less effective than modern cruiser designs of a similar weight class.
+TEXT_TOOLTIP_DREADNAUGHT_MODERNIZED_HULL,Hull: 2310 (Heavy Frigate)
+TEXT_TOOLTIP_DREADNAUGHT_MODERNIZED_MOVE,Speed: 4.2 | Accel: 0.175 | Turn: 0.375
+TEXT_TOOLTIP_DREADNAUGHT_MODERNIZED_SHIELD,Shields: 2400 / [25/R] (Frigate)
+TEXT_TOOLTIP_DREADNAUGHT_MODERNIZED_SQUADRON,Fighters: 0.5 / 0.5
+TEXT_TOOLTIP_DREADNAUGHT_MODERNIZED_WEAP1,2x Heavy Dual Turbolasers: 2 / 4.0s / 7.1km
+TEXT_TOOLTIP_DREADNAUGHT_MODERNIZED_WEAP2,2x Light Turbolasers: 2 / 2.0s / 5.1km
+TEXT_TOOLTIP_DREADNAUGHT_MODERNIZED_WEAP3,2x Heavy Quad Laser Cannons: 2 / 0.5s / 4.6km
+TEXT_TOOLTIP_DREADNAUGHT_MODERNIZED_WEAP4,2x Heavy Ion Cannons: 2 / 2.0s / 7.1km
+TEXT_TOOLTIP_DREADNAUGHT_MODERNIZED_WEAP5,1x Assault Concussion Missile: 3 / 15.0s / 7.1km
+TEXT_TOOLTIP_DREADNAUGHT_PICKET,A Dreadnaught-Class Heavy Cruiser refitted for picket, escort and customs duties, armed with heavy ion cannons and an improved battery of laser cannons to support other vessels against small attack craft while still being able to engage larger vessels with its ion cannons.
+TEXT_TOOLTIP_DREADNAUGHT_PICKET_HULL,Hull: 2205 (Heavy Frigate)
+TEXT_TOOLTIP_DREADNAUGHT_PICKET_SHIELD,Shields: 2200 / [22/R] (Frigate)
+TEXT_TOOLTIP_DREADNAUGHT_PICKET_MOVE,Speed: 3.85 | Accel: 0.175 | Turn: 0.375
+TEXT_TOOLTIP_DREADNAUGHT_PICKET_SQUADRON,Fighters: 0.5 / 0.5
+TEXT_TOOLTIP_DREADNAUGHT_PICKET_WEAP1,2x Heavy Dual Ion Cannons: 2 / 4.0s / 7.1km
+TEXT_TOOLTIP_DREADNAUGHT_PICKET_WEAP2,2x Light Turbolasers: 2 / 2.0s / 5.1km
+TEXT_TOOLTIP_DREADNAUGHT_PICKET_WEAP3,2x Medium Quad Laser Cannons: 2 / 0.5s / 4.1km
+TEXT_TOOLTIP_DREADNAUGHT_PICKET_WEAP4,1x Heavy Laser Cannon: 2 / 0.5s / 4.6km
+TEXT_UNIT_DREADNAUGHT_PICKET,Dreadnaught Support Cruiser
 TEXT_ABILITY_DEPLOY_SHADOWTROOP,Deploy Shadow Stormtroopers
 TEXT_ABILITY_DEPLOY_SHADOWTROOP_DESCRIPTION,Deploy a squad of Shadow Stormtroopers from the transport.
 TEXT_ARMORED_SHIELDED_INTERCEPTOR_ELITE_SQUADRON,Elite Heavy TIE Interceptor Squadron
@@ -140,10 +161,10 @@ TEXT_REPUBLIC_HEADHUNTER_SQUADRON_HALF,Republic Z-95 Squadron 1/2
 TEXT_REPUBLIC_TIE_SQUADRON,T.I.E. Starfighter Squadron
 TEXT_REPUBLIC_TIE_SQUADRON_HALF,T.I.E. Starfighter Squadron 1/2
 TEXT_REPUBLIC_TIE_SQUADRON2,T.I.E. Starfighter Squadron x2
-TEXT_REPUBLICSD_RENDILI_DESCRIPTION,"Walex Blissex, the former star designer at Rendili StarDrive, is still in touch with his former co-workers, and thus we have learned that he has had plans for an impressive new capital ship for a while now, a design that the rebels are not yet willing or able to put into production. It will take a lot of persuasion, but using his former Rendili colleagues as intermediaries, we might be able to convince him to license the design to us for 'local defense.
-TEXT_RESEARCH_SELLASAS_SWAP1_DESCRIPTION,Switch the loadouts of newly commissioned Dreadnaught, Carrack and Neutron Star Cruisers and Victory and Imperial Star Destroyers to more support-oriented configurations.
+TEXT_REPUBLICSD_RENDILI_DESCRIPTION,Walex Blissex, the former star designer at Rendili StarDrive, is still in touch with his former co-workers, and through them we have learned that he has had plans for an impressive new capital ship for a while now, a design that the rebels are not yet willing or able to put into production. But we could. It will take a lot of persuasion, but using his former Rendili colleagues as intermediaries, we might be able to convince him to license the design to us for 'local defense' despite his rebel sympathies.
+TEXT_RESEARCH_SELLASAS_SWAP1_DESCRIPTION,Switch the loadouts of newly commissioned Dreadnaught Cruisers, Carrack Cruisers, Victory Star Destroyers and Imperial Star Destroyers to more support-oriented configurations.
 TEXT_RESEARCH_SELLASAS_SWAP1_NAME,Switch to Support Loadouts
-TEXT_RESEARCH_SELLASAS_SWAP2_DESCRIPTION,Switch the loadouts of newly commissioned Dreadnaught, Carrack and Neutron Star Cruisers and Victory and Imperial Star Destroyers to more firepower-centric configurations. 
+TEXT_RESEARCH_SELLASAS_SWAP2_DESCRIPTION,Switch the loadouts of newly commissioned Dreadnaught Cruisers, Carrack Cruisers, Victory Star Destroyers and Imperial Star Destroyers to more firepower-centric configurations. 
 TEXT_RESEARCH_SELLASAS_SWAP2_NAME,Switch to Combat Loadouts
 TEXT_SHIELDED_MISSILE_TIE_FIGHTER_SQUADRON,Shielded Missile TIE F⁬ighter Squadron
 TEXT_SHIELDED_MISSILE_TIE_FIGHTER_SQUADRON_HALF,Shielded Missile TIE F⁬ighter Squadron 1/2
@@ -845,7 +866,7 @@ TEXT_TOOLTIP_RED_POLICE_WEAP6,1x Thermal Grenade: 1 / 15.0s / 200m
 TEXT_TOOLTIP_REE_SHALA,Ree Shala worked the majority of her life as a smuggler. She began by running spice, but after many unsuccessful ventures she established an operation where she was responsible for setting up deals, while others ran the space lanes. Through her hard work she was able to create a mid-sized smuggling ring based out of the Corva sector.
 TEXT_TOOLTIP_REFORM_PRAETORIAN,Reform Praetorian Squadron
 TEXT_TOOLTIP_RELGIMAT_RESEARCH,Upgrade the motor pool to include more modern AT Walkers. Replaces the AT-ST and standard AT-AT with the AT-ST/A and Turbolaser-equipped AT-AT.
-TEXT_TOOLTIP_REPUBLIC_SD_R,TODO FOR SUPERNOVA
+TEXT_TOOLTIP_REPUBLIC_SD_R,A next-generation Star Destroyer design developed by Walex Blissex while in Alliance service. Smaller and more efficient than an Imperial-class due to having less complement and consumables space, while having comparable firepower. While the design carries unmistakable Mon Calamari influences, it is also an evolution of Rendili's Victory-class designs and was intended to be manufactured by RSD, though official production for the New Republic would not happen for years after the Battle of Endor. Blissex was eventually persuaded to give his design to RSD to get started on, even while the planet was still under Imperial occupation.
 TEXT_TOOLTIP_REPUBLIC_TIE,The first general production model in a famous line of fighters with roots in the Sienar Advanced Project Vessel. It was created to fill space aboard older warships but was pressed into greater service due to efficiency compared to more expensive Kuati interceptors. It is sturdier than its successor designs but less maneuverable.
 TEXT_TOOLTIP_REPUBLIC_Z95,A variant of the popular Z-95 Headhunter, the clone Z-95 starfighter boasted speed and maneuverability on account of its sleek design. It was equipped with recessed torpedo launchers and a pair of wingtip laser cannons, and its shielding allowed it to endure much damage, though it lacked a hyperdrive.
 TEXT_TOOLTIP_ROEK,Roek was an officer in the Starfleet of the Galactic Empire. after the Battle of Endor, Admiral Roek and his fleet were recalled to the Core Worlds to defend the Corellian system from the New Republic. Roek replaced Admiral Jaeffis who was previously responsible for the defense of the Corellian shipyards with his fleet of 25 Star Destroyers, and partook in the Empire's withdraw from the system. Roek's fleet eventually passed into the hands of Grand Admiral Grunger.
