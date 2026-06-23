@@ -259,6 +259,8 @@ return {
 ["DIAMOND_FRIGATE"] = true,
 ["DHC_CARRIER"] = true,
 ["DHC_GUNBOAT"] = true,
+["PICKET_DHC"] = true,
+["MODERNIZED_DHC"] = true,
 ["DOMINION"] = true,
 ["DOOLE_CARRACK"] = true,
 ["DORAT_ARROW_OF_SULLUST"] = true,
