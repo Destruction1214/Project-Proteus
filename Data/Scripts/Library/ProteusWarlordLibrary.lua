@@ -1218,8 +1218,8 @@ return {
 			UnlockList = {
 				-- Space 
 				"Gozanti_Cruiser_Group", "Customs_Corvette", "Tartan_Patrol_Cruiser", "CC7700", "Carrack_Cruiser", 
-				"Rep_DHC", "Gladiator_I", "DHC_Carrier", "Neutron_Star_Tender", "Victory_I_Fleet_Star_Destroyer", "Victory_II_Carrier", "Vector_Star_Destroyer",
-				"Triumph_Star_Destroyer","Invincible_Cruiser", "Assertor_Star_Dreadnought",
+				"Rep_DHC", "Gladiator_I", "Neutron_Star", "Lictor", "Victory_I_Star_Destroyer", "Victory_II_Star_Destroyer", 
+				"Triumph_Star_Destroyer", "Invincible_Cruiser", "Assertor_Star_Dreadnought",
 				-- Ground
 				"Imperial_Army_Guard_Company", "Security_Trooper_Company", "Imperial_Fleet_Commando_Company", "64_Y_Swift_Repulsorlift_Sled_Company",
 				"1L_Tank_Company", "ULAV_Early_Company", "SP9_Group", 
