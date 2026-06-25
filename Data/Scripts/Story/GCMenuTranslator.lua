@@ -63,12 +63,13 @@ return {
 	["BALMORRA"] ="faction_61",	
 	["EMPIRE_REBORN"] ="faction_62",	
 	["SECOND_IMPERIUM"] ="faction_63",
-	["GRUNGER"] ="faction_64",
-	["THORN"] ="faction_65",
-	["ALLIED_TION"] ="faction_66",
-	["RENDILI"] ="faction_67",
-	["X1"] ="faction_68",
-	["VEERS"] ="faction_69",
+	["VEERS"] ="faction_64",
+	["GRUNGER"] ="faction_65",
+	["THORN"] ="faction_66",
+	["ALLIED_TION"] ="faction_67",
+	["RENDILI"] ="faction_68",
+	["X1"] ="faction_69",
+	
 
 	["AllFactions"] = {
 		"REBEL", --New Republic
@@ -137,12 +138,12 @@ return {
 		"BALMORRA",	
 		"EMPIRE_REBORN",	
 		"SECOND_IMPERIUM",
+		"VEERS",
 		"GRUNGER",
 		"THORN",
 		"ALLIED_TION",
 		"RENDILI",
 		"X1",
-		"VEERS",
 	},
 
 	["Era_XML_Nums"] = {
