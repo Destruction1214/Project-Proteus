@@ -101,6 +101,7 @@ return {
 			PRAJI = {"TIE_HEAVY_BOMBER_SQUADRON", false},
 			BALMORRA = {"FIRESPRAY_BOMBER_SQUADRON", false},
 			RENDILI = {"SKIPRAY_BOMBER_SQUADRON", false},
+			VEERS = {"SCURRG_H6_SQUADRON", false},
 
 		}
 		

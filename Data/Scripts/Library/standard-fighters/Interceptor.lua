@@ -93,6 +93,7 @@ return {
 			PRAJI = {"SHIELDED_ARMORED_INTERCEPTOR_SQUADRON", false},
 			BALMORRA = {"NIMBUS_V_WING_SQUADRON", false},
 			RENDILI = {"V38_SQUADRON", false},
+			VEERS = {"V38_SQUADRON", false},
 		}
 		
 		if simpletypes[owner] then
