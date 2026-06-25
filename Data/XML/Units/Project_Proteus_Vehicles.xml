@@ -5264,7 +5264,7 @@
 		<Death_Clone>Damage_Normal, Imperial_AT_AT_Walker_Death_Clone_02</Death_Clone>
 	</GroundVehicle>
 
-		<GroundCompany Name="Shielded_Imperial_AT_AT_Walker_Company">
+	<GroundCompany Name="Shielded_Imperial_AT_AT_Walker_Company">
 
 		<Text_ID>TEXT_UNIT_SHIELDED_AT_AT_WALKER</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_WALKER</Encyclopedia_Unit_Class>
@@ -5292,7 +5292,108 @@
 		<Is_Escort>no</Is_Escort>
 
 		<GUI_Row> 1 </GUI_Row>
-		<Build_Cost_Credits>1100</Build_Cost_Credits>
+		<Build_Cost_Credits>1300</Build_Cost_Credits>
+		<Build_Time_Seconds>60</Build_Time_Seconds>
+		<Slice_Cost_Credits/>
+		<Required_Special_Structures>I_Ground_Advanced_Vehicle_Factory | KDY_HQ | KDY_HQ_Cheap | KDY_Branch | KDY_Branch_Cheap</Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Score_Cost_Credits>1250</Score_Cost_Credits>
+		<Population_Value>1</Population_Value>
+
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+
+		<Affiliation>Imperial_Proteus</Affiliation> 
+
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+
+		<Create_Team_Type/>
+		<Max_Squad_Size>1</Max_Squad_Size>
+		<Company_Transport_Unit>Imperial_ATAT_Barge_ATAT</Company_Transport_Unit>
+
+		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_AT_AT</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_AT_AT</SFXEvent_Fleet_Move>
+
+		<LOD_Bias>0.5</LOD_Bias>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Company_Units>Shielded_Imperial_AT_AT_Walker</Company_Units>
+		<Maintenance_Cost>0.0</Maintenance_Cost>
+
+	</GroundCompany>
+
+	<GroundVehicle Name="Shielded_Imperial_AT_AT_Walker_Turbolaser_Refit">
+		<Variant_Of_Existing_Type>Imperial_AT_AT_Walker_Turbolaser_Refit</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_SHIELDED_AT_AT_REFIT</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_WALKER</Encyclopedia_Unit_Class>
+
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SHIELDED_ATAT_REFIT
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_SHIELDED_ATAT_HEALTH
+		TEXT_TOOLTIP_SHIELDED_ATAT_SHIELD
+		TEXT_TOOLTIP_ATAT_MOVE
+		TEXT_TOOLTIP_ATAT_REFIT_WEAP1
+		TEXT_TOOLTIP_ATAT_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_ABILITY_BLOCK
+		TEXT_TOOLTIP_ATAT_WARLORD_DEPLOY
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_SUPER_CRUSH
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_ATAT_TL_SHIELDED.tga</Icon_Name>
+
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Armor_Type> ArmourG_HeavyVehicle </Armor_Type>
+		<Tactical_Health>700</Tactical_Health>
+		<Shield_Points>100</Shield_Points>
+		<Shield_Refresh_Rate>10</Shield_Refresh_Rate>
+		<Shield_Armor_Type>ShieldG_HeavyVehicle</Shield_Armor_Type>
+
+		<LandBehavior>ABILITY_COUNTDOWN, DEPLOY_TROOPERS, SELECTABLE, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, TURRET, POWERED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, STUNNABLE, DAMAGE_TRACKING, SQUASH, SHIELDED, AFFECTED_BY_SHIELD</LandBehavior>
+
+
+
+
+		<Death_Clone>Damage_Cable_Attack, Imperial_AT_AT_Walker_Turbolaser_Refit_Cable_Attack_Death_Clone</Death_Clone>
+		<Death_Clone>Damage_Normal, Imperial_AT_AT_Walker_Turbolaser_Refit_Death_Clone_00</Death_Clone>
+		<Death_Clone>Damage_Normal, Imperial_AT_AT_Walker_Turbolaser_Refit_Death_Clone_01</Death_Clone>
+		<Death_Clone>Damage_Normal, Imperial_AT_AT_Walker_Turbolaser_Refit_Death_Clone_02</Death_Clone>
+	</GroundVehicle>
+
+	<GroundCompany Name="Shielded_Imperial_AT_AT_Walker_Turbolaser_Refit_Company">
+
+		<Text_ID>TEXT_UNIT_SHIELDED_AT_AT_REFIT</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_WALKER</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SHIELDED_ATAT
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_SHIELDED_ATAT_REFIT_COMPANY
+		TEXT_TOOLTIP_SHIELDED_ATAT_HEALTH
+		TEXT_TOOLTIP_SHIELDED_ATAT_SHIELD
+		TEXT_TOOLTIP_ATAT_MOVE 
+		TEXT_TOOLTIP_ATAT_REFIT_WEAP1
+		TEXT_TOOLTIP_ATAT_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_ABILITY_BLOCK
+		TEXT_TOOLTIP_ATAT_WARLORD_DEPLOY
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_SUPER_CRUSH
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_ATAT_TL_SHIELDED.tga</Icon_Name>
+
+		<Damage>100</Damage>
+
+		<Ship_Class>walker</Ship_Class>
+		<Formation_Priority>4</Formation_Priority>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>no</Is_Escort>
+
+		<GUI_Row> 1 </GUI_Row>
+		<Build_Cost_Credits>1500</Build_Cost_Credits>
 		<Build_Time_Seconds>60</Build_Time_Seconds>
 		<Slice_Cost_Credits/>
 		<Required_Special_Structures>I_Ground_Advanced_Vehicle_Factory | KDY_HQ | KDY_HQ_Cheap | KDY_Branch | KDY_Branch_Cheap</Required_Special_Structures>
@@ -5322,7 +5423,7 @@
 
 		<LOD_Bias>0.5</LOD_Bias>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Company_Units>Shielded_Imperial_AT_AT_Walker</Company_Units>
+		<Company_Units>Shielded_Imperial_AT_AT_Walker_Turbolaser_Refit</Company_Units>
 		<Maintenance_Cost>0.0</Maintenance_Cost>
 
 	</GroundCompany>

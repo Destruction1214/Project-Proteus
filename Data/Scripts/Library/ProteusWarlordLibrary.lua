@@ -1238,7 +1238,7 @@ return {
 		["VEERS"] = {
 			FriendlyName = "Blizzard Force",
 			Planets = {"FOLESS"},
-			LeaderTable = {"VEERS_AT_AT_TEAM"},
+			LeaderTable = {["VEERS_CHARIOT_TEAM"] = {"VEERS_CHARIOT"}, ["VEERS_AT_AT_TEAM"] = {"VEERS_AT_AT_WALKER"},},
 			LeaderEndingNames = {"Emperor Veers"},
 			HeroList = {"Veers_AT_AT_Team","Nyrox_Team","Grath_Stormtrooper_Team"},
 			UnlockList = {
@@ -1251,13 +1251,13 @@ return {
 				"Army_Special_Missions_Company", "Imperial_Army_Commando_Company", "Imperial_Army_74Z_Bike_Company",
 				"Shielded_AT_ST_A_Company", "Imperial_AT_PT_Company", "AT_DP_Company", 
 				"Imperial_AT_AP_Walker_Company", "AT_AA_Walker_Company", "SPMAG_Walker_Company", "Imperial_Modified_LAAT_Company",
-				"Shielded_Imperial_AT_AT_Walker_Company", "Imperial_AT_ACT_Walker_Company",
+				"Shielded_Imperial_AT_AT_Walker_Turbolaser_Refit_Company", "Imperial_AT_ACT_Walker_Company",
 				-- Research
 				
 			},
 			FactionOverride = "Corellia",
-			StartYear = 8,
-			LastYear = 10,
+			StartYear = 7,
+			LastYear = 9,
 			IntroText = "TEXT_CONQUEST_PROTEUS_VEERS",
 			IntroHolo = "Imperial_Army_Officer_Loop"
 
