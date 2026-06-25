@@ -1166,6 +1166,9 @@ return {
 		["FullLarge"] = {
 			["9ABY"] = true
 		}
+		,["FullMedium"] = {
+			["9ABY"] = true
+		}
 		,["KnownMedium"] = {
 			["9ABY"] = true
 		}
