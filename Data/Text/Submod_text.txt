@@ -331,8 +331,8 @@ TEXT_STATBLOCK_THETA_ASSAULT_SHUTTLE_SQUADRON_DOUBLE,Squadron: 24x Theta Assault
 TEXT_STATBLOCK_THETA_ASSAULT_SHUTTLE_SQUADRON_HALF,Squadron: 6x Theta Assault Shuttles
 TEXT_STATBLOCK_THETA_ASSAULT_SHUTTLE_WEAP1,2x Fighter Laser Cannons: 8 / 3.0s / 1.0km
 TEXT_STATBLOCK_THETA_ASSAULT_SHUTTLE_WEAP2,1x Heavy Fighter Laser Cannon: 2 / 3.0s / 1.0km
-TEXT_STATBLOCK_THETA_ASSAULT_SHUTTLE_WEAP3,1x Fighter Assault Concussion Missile: 1 / 37.5s / 1.8km
 TEXT_STATBLOCK_THETA_ASSAULT_SHUTTLE_WEAP3,1x Fighter Concussion Missile (AF): 2 / 12.5s / 1.8km 
+TEXT_STATBLOCK_THETA_ASSAULT_SHUTTLE_WEAP3,1x Fighter Assault Concussion Missile: 1 / 37.5s / 1.8km
 TEXT_STATBLOCK_TIE_AVENGER_ASSAULT_SQUADRON,Squadron: 12x Assault TIE Avenger
 TEXT_STATBLOCK_TIE_AVENGER_ASSAULT_SQUADRON_DOUBLE,Squadron: 24x Assault TIE Avenger
 TEXT_STATBLOCK_TIE_AVENGER_ASSAULT_SQUADRON_HALF,Squadron: 6x Assault TIE Avenger
@@ -720,6 +720,7 @@ TEXT_TOOLTIP_HAG_HEALTH,Health: 100 (Medium Vehicle)
 TEXT_TOOLTIP_HAG_MOVE,Speed: 1.0 | Turn: 2.0 
 TEXT_TOOLTIP_HAG_WEAP1,1x Artillery Cannon: 1 / 8.333s / 1440m
 TEXT_TOOLTIP_HAG_WEAP2,2x AI Blaster Cannons: 2 / 3.0s / 240m
+TEXT_TOOLTIP_HARRSK_UPGRADE2,Upgrade: Mandator-III
 TEXT_TOOLTIP_HORNET,A large carrier developed by the SoroSuub Corporation in the years before the Clone Wars. Twin command towers allow the Hornet to efficiently direct starfighter operations of large fleets, a feature that would later appear on several Kuat Drive Yards ship designs. Despite its classification as a carrier, the armament allows it to serve as a passible heavy frigate.
 TEXT_TOOLTIP_HORNET_HULL,Hull: 2090 (Frigate)
 TEXT_TOOLTIP_HORNET_MOVE,Speed: 2.0 | Accel: 0.03 | Turn: 0.25
@@ -1054,6 +1055,7 @@ TEXT_TOOLTIP_UBIQTORATE_BASE_GARRISON_2,IntSec Operator Sniper Squad: 2 / 6
 TEXT_TOOLTIP_UBIQTORATE_BASE_GARRISON_3,CompForce Assault Trooper Squad: 2 / 6
 TEXT_TOOLTIP_UBIQTORATE_BASE_GARRISON_4,AT-ST Walker: 2 / 2
 TEXT_TOOLTIP_UNITS_TIERFON_CAPITAL,Tierfon Capital: Allows unit construction
+TEXT_TOOLTIP_UPGRADE_DESANNE,Upgrade: Bellator
 TEXT_TOOLTIP_UTAT,Repulsorlift assault vehicle created shortly into the Clone Wars for situations where walker vehicles are less-suited. Unwieldy and fragile compared to other heavy vehicles, but has a powerful set of fore-mounted anti-vehicle weapons. Standard configuration also boasts a respectable transport bay and rear-coverage anti-infantry guns.
 TEXT_TOOLTIP_UTAT_COMPANY,Company: 1x UT-AT
 TEXT_TOOLTIP_UTAT_HEALTH,Health: 450 (Heavy Vehicle)
