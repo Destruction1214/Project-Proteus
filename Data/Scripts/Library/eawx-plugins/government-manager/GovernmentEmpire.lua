@@ -732,7 +732,8 @@ function GovernmentEmpire:on_production_finished(planet, game_object_type_name)
     end
 
     if string.find(game_object_type_name, "DUMMY_RANDOM_UNIT_") then
-        self:gamble_manager(game_object_type_name, planet)
+        local location = Find_First_Object(game_object_type_name).Get_Planet_Location().Get_Type().Get_Name()
+        self:gamble_manager(game_object_type_name, location)
     end
 end
 
