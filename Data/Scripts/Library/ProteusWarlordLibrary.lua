@@ -1250,8 +1250,8 @@ return {
 				-- Ground
 				"Army_Special_Missions_Company", "Imperial_Army_Commando_Company", "Imperial_Army_74Z_Bike_Company",
 				"Shielded_AT_ST_A_Company", "Imperial_AT_PT_Company", "AT_DP_Company", 
-				"Imperial_AT_AP_Walker_Company", "AT_AA_Walker_Company", "SPMAG_Walker_Company", "Imperial_Modified_LAAT_Company",
-				"Shielded_Imperial_AT_AT_Walker_Turbolaser_Refit_Company", "Imperial_AT_ACT_Walker_Company",
+				"Shielded_AT_AP_Walker_Company", "AT_AA_Walker_Company", "SPMAG_Walker_Company", "Imperial_Modified_LAAT_Company",
+				"Shielded_Imperial_AT_AT_Walker_Turbolaser_Refit_Company", "Shielded_Imperial_AT_AT_Walker_Company",
 				-- Research
 				
 			},

@@ -1,7 +1,4 @@
-﻿TEXT_TOOLTIP_ATACT_Company,Company: 1x AT-ACT Walker
-TEXT_TOOLTIP_SHIELDED_ATAT_REFIT_COMPANY,Company: 1x Shielded Turbolaser Refit AT-AT Walker
-TEXT_UNIT_SHIELDED_AT_AT_REFIT,Shielded Turbolaser Refit AT-AT
-D_TEXT_TOOLTIP_DRAGON_TROOPER,Primitive reptiloid warriors fiercely loyal to Delurin and equipped with ornate metal armor and flamethrowers to more closely resemble the Dragons of ancient myth. Unacquainted with blaster weaponry and other advanced technology, they are nonetheless resilient and quick on their feet.
+﻿D_TEXT_TOOLTIP_DRAGON_TROOPER,Primitive reptiloid warriors fiercely loyal to Delurin and equipped with ornate metal armor and flamethrowers to more closely resemble the Dragons of ancient myth. Unacquainted with blaster weaponry and other advanced technology, they are nonetheless resilient and quick on their feet.
 D_TEXT_TOOLTIP_DRAGON_TROOPER_COMPANY,Company: 36x Dragon Trooper
 D_TEXT_TOOLTIP_DRAGON_TROOPER_COMPANY_WEAP1,24x Blaster Carbine: 3 / 1.25s / 220m
 D_TEXT_TOOLTIP_DRAGON_TROOPER_SQUAD,Squad: 9x Dragon Trooper
@@ -484,6 +481,7 @@ TEXT_TOOLTIP_AS_INTERCEPTOR_ION,A very rare and expensive modification of the al
 TEXT_TOOLTIP_AS_INTERCEPTOR_MISSILE,A very rare and expensive modification of the already obscure Shielded Armored TIE Interceptor variant, utilizing its more robust frame to install internal launchers for small anti-fighter missiles and hardpoints for anti-ship munitions on the wings. In addition, an overhaul of the power and propulsion systems claws back some of the stock model's performance lost to the increased mass. The result is an expensive and maintenance-heavy fighter that is exceptionally versatile and deadly while remaining nimble despite the heavier load and shield generator. These adaptations represent the apex of what the TIE Interceptor hull can achieve even with extensive modifications, only the purpose-build Royal Guard Interceptors surpass them.
 TEXT_TOOLTIP_AS_INTERCEPTOR_UPGUNNED,A very rare and expensive modification of the already obscure Shielded Armored TIE Interceptor variant, utilizing its more robust frame to install the necessary power systems to operate the chin-mounted secondary laser cannons at increased power. Upgraded propulsion systems offset the additional weight of the new systems, bringing flight performance closer to the slimmer stock Interceptor models. The result is a versatile interceptor with enormous firepower and surprising agility, at the cost of being expensive to upgrade and maintain. These adaptations represent the apex of what the TIE Interceptor hull can achieve even with extensive modifications, only the purpose-build Royal Guard Interceptors surpass them.
 TEXT_TOOLTIP_ATACT,Large cargo transport with forward weaponry. Although the AT-ACT was not built for combat it was still capable of posing a decent threat to enemy combatants. It is best used to support armies in head-on assaults of enemy forces while other forces destroy the enemy.
+TEXT_TOOLTIP_ATACT_Company,Company: 1x AT-ACT Walker
 TEXT_TOOLTIP_ATACT_REPAIR,1x Infantry Healing and Vehicle Repair: 5 / 1.0s / 150m
 TEXT_TOOLTIP_ATACT_WEAP1,2x Heavy AV Blaster Cannon: 1 / 3.0s / 480m
 TEXT_TOOLTIP_ATAT_IC,The Ion refit Imperial AT-AT was an uncommon variation that replaced its super heavy laser cannons with heavy ion cannons. Although ion cannons were rarely found aboard ground walkers, some minor warlords converted a small number of their All Terrain Armored Transport fleets into mobile ion cannon platforms.
@@ -924,9 +922,13 @@ TEXT_TOOLTIP_SHADOWTROOPER_M_SQUAD_WEAP1,9x E11 Blaster Carbine: 3 / 1.25s / 220
 TEXT_TOOLTIP_SHADOWTROOPER_M_SQUAD_WEAP2,1x T-21 Repeating Blaster: 5 / 1.0s / 240m
 TEXT_TOOLTIP_SHADOWTROOPER_M_SQUAD_WEAP3,1x Ion Grenade: 1 / 15.0s / 200m
 TEXT_TOOLTIP_SHARAOR,A female Draethos with a long career in law enforcement dating back to before the Clone Wars. After fleeing from Separatist occupation, she took a job as a private security officer for TaggeCo, a position she would keep throughout the Galactic Civil War and beyond.
+TEXT_TOOLTIP_SHIELDED_AT_AP_COMPANY,Company: 1x Shielded AT-AP Walker
+TEXT_TOOLTIP_SHIELDED_ATAP_HEALTH,Health 225 (Medium Vehicle)
+TEXT_TOOLTIP_SHIELDED_ATAP_SHIELD,Shields: 75 (Medium Vehicle)
 TEXT_TOOLTIP_SHIELDED_ATAT,TODO
 TEXT_TOOLTIP_SHIELDED_ATAT_COMPANY,Company: 1x Shielded AT-AT Walker
 TEXT_TOOLTIP_SHIELDED_ATAT_HEALTH,Health: 700 (Heavy Vehicle)
+TEXT_TOOLTIP_SHIELDED_ATAT_REFIT_COMPANY,Company: 1x Shielded Turbolaser Refit AT-AT Walker
 TEXT_TOOLTIP_SHIELDED_ATAT_SHIELD,Shields: 100 / [10/R] (Heavy Vehicle)
 TEXT_TOOLTIP_SHIELDED_ATST_A,TODO
 TEXT_TOOLTIP_SHIELDED_ATST_A_COMPANY,Company: 4x Shielded AT-ST/A Walker
@@ -1235,6 +1237,8 @@ TEXT_UNIT_SHIELDED_ARMORED_INTERCEPTOR_ELITE,Elite Heavy TIE Interceptor
 TEXT_UNIT_SHIELDED_ARMORED_INTERCEPTOR_ION,Ion Refit Heavy TIE Interceptor
 TEXT_UNIT_SHIELDED_ARMORED_INTERCEPTOR_MISSILE,Missile Heavy TIE Interceptor
 TEXT_UNIT_SHIELDED_ARMORED_INTERCEPTOR_UPGUNNED,Upgunned Heavy TIE Interceptor
+TEXT_UNIT_SHIELDED_AT_AP_WALKER,Shielded AT-AP Walker
+TEXT_UNIT_SHIELDED_AT_AT_REFIT,Shielded Turbolaser Refit AT-AT
 TEXT_UNIT_SHIELDED_AT_AT_WALKER,Shielded AT-AT Walker
 TEXT_UNIT_SHIELDED_AT_ST_A_WALKER,Shielded AT-ST/A
 TEXT_UNIT_SHIELDED_AT_ST_A_WALKER_COMPANY,Shielded AT-ST/A Company
