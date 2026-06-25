@@ -93,6 +93,7 @@ return {
 			PRAJI = {"STARWING_FIGHTER_SQUADRON", false},
 			BALMORRA = {"CLOAKSHAPE_NEW_SQUADRON", false},
 			RENDILI = {"BTLA4_YWING_STARFIGHTER_SQUADRON", false},
+			VEERS = {"TIE_AVENGER_SQUADRON", false},
 		}
 		
 		if simpletypes[owner] then

@@ -68,6 +68,7 @@ return {
 	["ALLIED_TION"] ="faction_66",
 	["RENDILI"] ="faction_67",
 	["X1"] ="faction_68",
+	["VEERS"] ="faction_69",
 
 	["AllFactions"] = {
 		"REBEL", --New Republic
@@ -141,6 +142,7 @@ return {
 		"ALLIED_TION",
 		"RENDILI",
 		"X1",
+		"VEERS",
 	},
 
 	["Era_XML_Nums"] = {

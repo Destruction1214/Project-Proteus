@@ -118,6 +118,7 @@ return {
 			PRAJI = {"A9_SQUADRON", false},
 			BALMORRA = {"Z95ML_HEADHUNTER_SQUADRON", false},
 			RENDILI = {"TOSCAN_MISSILE_SQUADRON", false},
+			VEERS = {"HLAF_SQUADRON", false},
 
 		}
 		

@@ -1161,5 +1161,19 @@ return {
 			,["9ABY"] = true
 		}
 	},
-	
+	["VEERS"] = {
+		
+		["FullLarge"] = {
+			["9ABY"] = true
+		}
+		,["FullMedium"] = {
+			["9ABY"] = true
+		}
+		,["KnownMedium"] = {
+			["9ABY"] = true
+		}
+		,["KnownLarge"] = {
+			["9ABY"] = true
+		}
+	},
 }

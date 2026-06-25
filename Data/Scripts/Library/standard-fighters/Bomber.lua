@@ -91,6 +91,7 @@ return {
 			PRAJI = {"SHIELDED_TIE_BOMBER_SQUADRON", false},
 			BALMORRA = {"Z95_BOMBER_SQUADRON", false},
 			RENDILI = {"TOSCAN_BOMBER_SQUADRON", false},
+			VEERS = {"2_WARPOD_SQUADRON", false},
 		}
 		
 		if simpletypes[owner] then

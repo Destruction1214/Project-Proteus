@@ -10,27 +10,6 @@ D_TEXT_UNIT_DRAGON_TROOPER_PLATOON,Dragon Trooper Brood
 D_TEXT_UNIT_DRAGON_TROOPER_REPEATER,Dragon Trooper Light Gunner
 D_TEXT_UNIT_DRAGON_TROOPER_SQUAD,Dragon Trooper Pack
 STAT_TRADESTATION_COUNT_DASTA,Trade Ports: %s / 30
-TEXT_UNIT_DREADNAUGHT_MODERNIZED,Modernized Dreadnaught Heavy Cruiser
-TEXT_TOOLTIP_DREADNAUGHT_MODERNIZED,A rare, heavily modernized version of the venerable Dreadnaught-Class Cruiser hull featuring crew reduction technologies utilized in Katana- and Imperial refits as well as a drastically changed internal layout and upgraded power plant to accommodate a heavier armament, more modern defenses, and upgraded support systems. Features a wide range of weapons and can engage any target, but is still less effective than modern cruiser designs of a similar weight class.
-TEXT_TOOLTIP_DREADNAUGHT_MODERNIZED_HULL,Hull: 2310 (Heavy Frigate)
-TEXT_TOOLTIP_DREADNAUGHT_MODERNIZED_MOVE,Speed: 4.2 | Accel: 0.175 | Turn: 0.375
-TEXT_TOOLTIP_DREADNAUGHT_MODERNIZED_SHIELD,Shields: 2400 / [25/R] (Frigate)
-TEXT_TOOLTIP_DREADNAUGHT_MODERNIZED_SQUADRON,Fighters: 0.5 / 0.5
-TEXT_TOOLTIP_DREADNAUGHT_MODERNIZED_WEAP1,2x Heavy Dual Turbolasers: 2 / 4.0s / 7.1km
-TEXT_TOOLTIP_DREADNAUGHT_MODERNIZED_WEAP2,2x Light Turbolasers: 2 / 2.0s / 5.1km
-TEXT_TOOLTIP_DREADNAUGHT_MODERNIZED_WEAP3,2x Heavy Quad Laser Cannons: 2 / 0.5s / 4.6km
-TEXT_TOOLTIP_DREADNAUGHT_MODERNIZED_WEAP4,2x Heavy Ion Cannons: 2 / 2.0s / 7.1km
-TEXT_TOOLTIP_DREADNAUGHT_MODERNIZED_WEAP5,1x Assault Concussion Missile: 3 / 15.0s / 7.1km
-TEXT_TOOLTIP_DREADNAUGHT_PICKET,A Dreadnaught-Class Heavy Cruiser refitted for picket, escort and customs duties, armed with heavy ion cannons and an improved battery of laser cannons to support other vessels against small attack craft while still being able to engage larger vessels with its ion cannons.
-TEXT_TOOLTIP_DREADNAUGHT_PICKET_HULL,Hull: 2205 (Heavy Frigate)
-TEXT_TOOLTIP_DREADNAUGHT_PICKET_SHIELD,Shields: 2200 / [22/R] (Frigate)
-TEXT_TOOLTIP_DREADNAUGHT_PICKET_MOVE,Speed: 3.85 | Accel: 0.175 | Turn: 0.375
-TEXT_TOOLTIP_DREADNAUGHT_PICKET_SQUADRON,Fighters: 0.5 / 0.5
-TEXT_TOOLTIP_DREADNAUGHT_PICKET_WEAP1,2x Heavy Dual Ion Cannons: 2 / 4.0s / 7.1km
-TEXT_TOOLTIP_DREADNAUGHT_PICKET_WEAP2,2x Light Turbolasers: 2 / 2.0s / 5.1km
-TEXT_TOOLTIP_DREADNAUGHT_PICKET_WEAP3,2x Medium Quad Laser Cannons: 2 / 0.5s / 4.1km
-TEXT_TOOLTIP_DREADNAUGHT_PICKET_WEAP4,1x Heavy Laser Cannon: 2 / 0.5s / 4.6km
-TEXT_UNIT_DREADNAUGHT_PICKET,Dreadnaught Support Cruiser
 TEXT_ABILITY_DEPLOY_SHADOWTROOP,Deploy Shadow Stormtroopers
 TEXT_ABILITY_DEPLOY_SHADOWTROOP_DESCRIPTION,Deploy a squad of Shadow Stormtroopers from the transport.
 TEXT_ARMORED_SHIELDED_INTERCEPTOR_ELITE_SQUADRON,Elite Heavy TIE Interceptor Squadron
@@ -101,6 +80,13 @@ TEXT_EVENT_WARLORD_CHOICE_GRUNGER,Grunger's Empire
 TEXT_EVENT_WARLORD_CHOICE_PRAJI,Imperial Kaikielius
 TEXT_EVENT_WARLORD_CHOICE_RENDILI,Imperial Rendili
 TEXT_EVENT_WARLORD_CHOICE_THORN,Daymon Thorn's Empire
+TEXT_EVENT_WARLORD_CHOICE_VEERS,Blizzard Force
+TEXT_GAMBLE_RENDILI_DHC_DESCRIPTION,Commission a Dreadnaught-class Cruiser directly from the Rendili StarDrive slipways and stockpiles. Rendili vessels come in many configurations and the many associated shipyards are always experimenting with alternate loadouts and modifications.
+TEXT_GAMBLE_RENDILI_DHC_NAME,Rendili Priority Order: Dreadnaught-class Cruiser
+TEXT_GAMBLE_RENDILI_NSBC_DESCRIPTION,Commission a Neutron Star Bulk Cruiser directly from the Rendili StarDrive slipways and stockpiles. Rendili vessels come in many configurations and the many associated shipyards are always experimenting with alternate loadouts and modifications.
+TEXT_GAMBLE_RENDILI_NSBC_NAME,Rendili Priority Order: Neutron Star Bulk Cruiser
+TEXT_GAMBLE_RENDILI_VSD_DESCRIPTION,Commission a Victory-class Star Destroyer directly from the Rendili StarDrive slipways and stockpiles. Rendili vessels come in many configurations and the many associated shipyards are always experimenting with alternate loadouts and modifications.
+TEXT_GAMBLE_RENDILI_VSD_NAME,Rendili Priority Order: Victory-Class Star Destroyer
 TEXT_GOVERNMENT_PROTEUS_MARKET_KUAT,KDY Market:
 TEXT_GOVERNMENT_PROTEUS_MARKET_OVERVIEW_KUAT,Every galactic cycle, new ships or ground vehicles may appear on the KDY market. These are units not typically available to the faction. You can see all units currently available and the amounts they're available in listed below.
 TEXT_GROUND_BISCUIT_BARON,Biscuit Baron
@@ -154,6 +140,7 @@ TEXT_PROTEUS_DESCRIPTION_GRUNGER,One of the original twelve Grand Admirals, Grun
 TEXT_PROTEUS_DESCRIPTION_PRAJI,After conquering his ancient family home world of Kaikielius, Nahdonnis Praji met with the reborn Emperor Palpatine in person for the first time, and upon experiencing the Emperor's apparent madness first hand, decided to retire to governorship of the planet. This saved him from the immolation of the Dark Empire shortly thereafter, but left him and his new fiefdom isolated as a resurgent New Republic and vengeful Imperial warlords all laid claim to the core and deep core regions.
 TEXT_PROTEUS_DESCRIPTION_RENDILI,The core world of Rendili, a center of shipbuilding and military industry, became an Imperial fortress world after the death of the Emperor, successfully holding out even as most of the core was liberated by the New Republic. Following the end of the Reborn Emperor's campaigns, the Imperial forces on Rendili left and the planet joined the New Republic.
 TEXT_PROTEUS_DESCRIPTION_THORN,A secretive dark jedi who pledged his allegiance to the Emperor while serving his own agenda, Daymon Thorn, also known as the Wardog of the Empire, has returned from his sujourn at the news of the Emperor's death. With a small army of followers and the power of a set of ancient crystals at his disposal, he seeks to claim the Imperial Throne for himself, and himself alone.
+TEXT_PROTEUS_DESCRIPTION_VEERS,TODO
 TEXT_PROTEUS_ROSTER_LAMBDA,Moff Lankin's forces are versatile and unspecialized, with a significant ISB contingent among their ranks to help keep the restive population in line. In space, a roster of efficient vessels can react to any situation and provide support to the massive battlecruisers that serve as anchors of the fleet. On the ground, their armies are adaptable, with a noticeable focus on mechanized assaults.
 TEXT_REPUBLIC_HEADHUNTER_SQUADRON,Republic Z-95 Squadron
 TEXT_REPUBLIC_HEADHUNTER_SQUADRON_DOUBLE,Republic Z-95 Squadron x2
@@ -343,8 +330,8 @@ TEXT_STATBLOCK_THETA_ASSAULT_SHUTTLE_SQUADRON_DOUBLE,Squadron: 24x Theta Assault
 TEXT_STATBLOCK_THETA_ASSAULT_SHUTTLE_SQUADRON_HALF,Squadron: 6x Theta Assault Shuttles
 TEXT_STATBLOCK_THETA_ASSAULT_SHUTTLE_WEAP1,2x Fighter Laser Cannons: 8 / 3.0s / 1.0km
 TEXT_STATBLOCK_THETA_ASSAULT_SHUTTLE_WEAP2,1x Heavy Fighter Laser Cannon: 2 / 3.0s / 1.0km
-TEXT_STATBLOCK_THETA_ASSAULT_SHUTTLE_WEAP3,1x Fighter Concussion Missile (AF): 2 / 12.5s / 1.8km 
 TEXT_STATBLOCK_THETA_ASSAULT_SHUTTLE_WEAP3,1x Fighter Assault Concussion Missile: 1 / 37.5s / 1.8km
+TEXT_STATBLOCK_THETA_ASSAULT_SHUTTLE_WEAP3,1x Fighter Concussion Missile (AF): 2 / 12.5s / 1.8km 
 TEXT_STATBLOCK_TIE_AVENGER_ASSAULT_SQUADRON,Squadron: 12x Assault TIE Avenger
 TEXT_STATBLOCK_TIE_AVENGER_ASSAULT_SQUADRON_DOUBLE,Squadron: 24x Assault TIE Avenger
 TEXT_STATBLOCK_TIE_AVENGER_ASSAULT_SQUADRON_HALF,Squadron: 6x Assault TIE Avenger
@@ -664,6 +651,25 @@ TEXT_TOOLTIP_DREADNAUGHT_I_SQUADRON,Fighters: 0.5 / 0.5
 TEXT_TOOLTIP_DREADNAUGHT_I_WEAP1,2x Light Dual Turbolasers: 2 / 4.0s / 5.1km
 TEXT_TOOLTIP_DREADNAUGHT_I_WEAP2,3x Medium Laser Cannons: 2 / 0.75s / 4.1km
 TEXT_TOOLTIP_DREADNAUGHT_I_WEAP3,2x Light Quad Laser Cannons: 2 / 0.5s / 3.6km
+TEXT_TOOLTIP_DREADNAUGHT_MODERNIZED,A rare, heavily modernized version of the venerable Dreadnaught-Class Cruiser hull featuring crew reduction technologies utilized in Katana- and Imperial refits as well as a drastically changed internal layout and upgraded power plant to accommodate a heavier armament, more modern defenses, and upgraded support systems. Features a wide range of weapons and can engage any target, but is still less effective than modern cruiser designs of a similar weight class.
+TEXT_TOOLTIP_DREADNAUGHT_MODERNIZED_HULL,Hull: 2310 (Heavy Frigate)
+TEXT_TOOLTIP_DREADNAUGHT_MODERNIZED_MOVE,Speed: 4.2 | Accel: 0.175 | Turn: 0.375
+TEXT_TOOLTIP_DREADNAUGHT_MODERNIZED_SHIELD,Shields: 2400 / [25/R] (Frigate)
+TEXT_TOOLTIP_DREADNAUGHT_MODERNIZED_SQUADRON,Fighters: 0.5 / 0.5
+TEXT_TOOLTIP_DREADNAUGHT_MODERNIZED_WEAP1,2x Heavy Dual Turbolasers: 2 / 4.0s / 7.1km
+TEXT_TOOLTIP_DREADNAUGHT_MODERNIZED_WEAP2,2x Light Turbolasers: 2 / 2.0s / 5.1km
+TEXT_TOOLTIP_DREADNAUGHT_MODERNIZED_WEAP3,2x Heavy Quad Laser Cannons: 2 / 0.5s / 4.6km
+TEXT_TOOLTIP_DREADNAUGHT_MODERNIZED_WEAP4,2x Heavy Ion Cannons: 2 / 2.0s / 7.1km
+TEXT_TOOLTIP_DREADNAUGHT_MODERNIZED_WEAP5,1x Assault Concussion Missile: 3 / 15.0s / 7.1km
+TEXT_TOOLTIP_DREADNAUGHT_PICKET,A Dreadnaught-Class Heavy Cruiser refitted for picket, escort and customs duties, armed with heavy ion cannons and an improved battery of laser cannons to support other vessels against small attack craft while still being able to engage larger vessels with its ion cannons.
+TEXT_TOOLTIP_DREADNAUGHT_PICKET_HULL,Hull: 2205 (Heavy Frigate)
+TEXT_TOOLTIP_DREADNAUGHT_PICKET_MOVE,Speed: 3.85 | Accel: 0.175 | Turn: 0.375
+TEXT_TOOLTIP_DREADNAUGHT_PICKET_SHIELD,Shields: 2200 / [22/R] (Frigate)
+TEXT_TOOLTIP_DREADNAUGHT_PICKET_SQUADRON,Fighters: 0.5 / 0.5
+TEXT_TOOLTIP_DREADNAUGHT_PICKET_WEAP1,2x Heavy Dual Ion Cannons: 2 / 4.0s / 7.1km
+TEXT_TOOLTIP_DREADNAUGHT_PICKET_WEAP2,2x Light Turbolasers: 2 / 2.0s / 5.1km
+TEXT_TOOLTIP_DREADNAUGHT_PICKET_WEAP3,2x Medium Quad Laser Cannons: 2 / 0.5s / 4.1km
+TEXT_TOOLTIP_DREADNAUGHT_PICKET_WEAP4,1x Heavy Laser Cannon: 2 / 0.5s / 4.6km
 TEXT_TOOLTIP_ESCORT_GURNST1,1x Elite Mercenary Platoon
 TEXT_TOOLTIP_ESCORT_SHARAOR,2x Corporate Security Trooper Squad
 TEXT_TOOLTIP_ESCORT_THORN,2x Royal Guard Stormtrooper Squad
@@ -914,6 +920,14 @@ TEXT_TOOLTIP_SHADOWTROOPER_M_SQUAD_WEAP1,9x E11 Blaster Carbine: 3 / 1.25s / 220
 TEXT_TOOLTIP_SHADOWTROOPER_M_SQUAD_WEAP2,1x T-21 Repeating Blaster: 5 / 1.0s / 240m
 TEXT_TOOLTIP_SHADOWTROOPER_M_SQUAD_WEAP3,1x Ion Grenade: 1 / 15.0s / 200m
 TEXT_TOOLTIP_SHARAOR,A female Draethos with a long career in law enforcement dating back to before the Clone Wars. After fleeing from Separatist occupation, she took a job as a private security officer for TaggeCo, a position she would keep throughout the Galactic Civil War and beyond.
+TEXT_TOOLTIP_SHIELDED_ATAT,TODO
+TEXT_TOOLTIP_SHIELDED_ATAT_COMPANY,Company: 1x Shielded AT-AT Walker
+TEXT_TOOLTIP_SHIELDED_ATAT_HEALTH,Health: 700 (Heavy Vehicle)
+TEXT_TOOLTIP_SHIELDED_ATAT_SHIELD,Shields: 100 / [10/R] (Heavy Vehicle)
+TEXT_TOOLTIP_SHIELDED_ATST_A,TODO
+TEXT_TOOLTIP_SHIELDED_ATST_A_COMPANY,Company: 4x Shielded AT-ST/A Walker
+TEXT_TOOLTIP_SHIELDED_ATST_A_HEALTH,Health: 130 (Light Vehicle)
+TEXT_TOOLTIP_SHIELDED_ATST_A_SHIELD,Shields: 50 / [5/R] (Light Vehicle)
 TEXT_TOOLTIP_SHIELDED_MISSILE_TIE_FIGHTER,A rare TIE Fighter variant modified with a shield generator and anti-fighter concussion missile launchers. Typically deployed in situations that require the extra durability and firepower and no other dedicated interceptors are available. The additional weight creates a small but noticeable decrease to the craft’s speed and handling.
 TEXT_TOOLTIP_SHIELDED_TIE_BOMBER,An uncommon modification of the stock TIE/sa model to incorporate a shield generator for increased survivability. However, the frame and power systems were not designed with such an addition in mind, and thus the craft loses a significant chunk of its speed and agility as a result of the increased mass and power draw. The results led to Imperial procurement favoring newer bomber models whose designs included shields from the outset over re-fitting existing models. However, after the Battle of Endor, a variety of Imperial warlords and other groups would make use of this modification in order to reduce lost bombers during strike missions.
 TEXT_TOOLTIP_SITH_ASSASSIN,Masters of subterfuge, Sith Assassins work unseen on the battlefield until they sense weakness, at which point they pounce on their enemy. Sith Assassins in Revan's Empire to the Sith Triumvirate used both lightsabers for elite members and a mix of quarterstaffs and blaster weaponry for lower ranks. They would be used by the Triumvirate to great effect to ruthlessly hunt down Jedi.
@@ -1119,6 +1133,8 @@ TEXT_UNIT_CR20,CR20 Transport
 TEXT_UNIT_CR25,CR25 Transport
 TEXT_UNIT_DIAMOND,Diamond Cruiser
 TEXT_UNIT_DREADNAUGHT_I,Dreadnaught Heavy Cruiser Interdictor
+TEXT_UNIT_DREADNAUGHT_MODERNIZED,Modernized Dreadnaught Heavy Cruiser
+TEXT_UNIT_DREADNAUGHT_PICKET,Dreadnaught Support Cruiser
 TEXT_UNIT_DREADNAUGHT_UPGRADE,PDF Dreadnaught Heavy Cruiser Upgrade
 TEXT_UNIT_ETA2_FIGHTER,Eta-2 Actis Interceptor
 TEXT_UNIT_ETA2_FIGHTER_ASSAULT,Assault Eta-2 Actis Interceptor
@@ -1215,6 +1231,9 @@ TEXT_UNIT_SHIELDED_ARMORED_INTERCEPTOR_ELITE,Elite Heavy TIE Interceptor
 TEXT_UNIT_SHIELDED_ARMORED_INTERCEPTOR_ION,Ion Refit Heavy TIE Interceptor
 TEXT_UNIT_SHIELDED_ARMORED_INTERCEPTOR_MISSILE,Missile Heavy TIE Interceptor
 TEXT_UNIT_SHIELDED_ARMORED_INTERCEPTOR_UPGUNNED,Upgunned Heavy TIE Interceptor
+TEXT_UNIT_SHIELDED_AT_AT_WALKER,Shielded AT-AT Walker
+TEXT_UNIT_SHIELDED_AT_ST_A_WALKER,Shielded AT-ST/A
+TEXT_UNIT_SHIELDED_AT_ST_A_WALKER_COMPANY,Shielded AT-ST/A Company
 TEXT_UNIT_SHIELDED_MISSILE_TIE_FIGHTER,Shielded Missile TIE Fighter
 TEXT_UNIT_SHIELDED_TIE_BOMBER,Shielded TIE Bomber
 TEXT_UNIT_SITH_ASSASSIN,Sith Assassin
@@ -1307,9 +1326,3 @@ Z_TEXT_UNIT_GORATH_RESEARCH,Reverse-engineer the Gorath Strike Cruiser
 Z_TEXT_UNIT_MISSILE_BOAT_RESEARCH,Reverse-engineer the Missile Boat
 Z_TEXT_UNIT_MTC_RESEARCH,Reverse-engineer the Modular Taskforce Cruiser
 Z_TEXT_UNIT_SCIMITAR_RESEARCH,Reverse-engineer the Scimitar Assault Bomber
-TEXT_GAMBLE_RENDILI_VSD_NAME,Rendili Priority Order: Victory-Class Star Destroyer
-TEXT_GAMBLE_RENDILI_VSD_DESCRIPTION,Commission a Victory-class Star Destroyer directly from the Rendili StarDrive slipways and stockpiles. Rendili vessels come in many configurations and the many associated shipyards are always experimenting with alternate loadouts and modifications.
-TEXT_GAMBLE_RENDILI_DHC_NAME,Rendili Priority Order: Dreadnaught-class Cruiser
-TEXT_GAMBLE_RENDILI_DHC_DESCRIPTION,Commission a Dreadnaught-class Cruiser directly from the Rendili StarDrive slipways and stockpiles. Rendili vessels come in many configurations and the many associated shipyards are always experimenting with alternate loadouts and modifications.
-TEXT_GAMBLE_RENDILI_NSBC_NAME,Rendili Priority Order: Neutron Star Bulk Cruiser
-TEXT_GAMBLE_RENDILI_NSBC_DESCRIPTION,Commission a Neutron Star Bulk Cruiser directly from the Rendili StarDrive slipways and stockpiles. Rendili vessels come in many configurations and the many associated shipyards are always experimenting with alternate loadouts and modifications.
