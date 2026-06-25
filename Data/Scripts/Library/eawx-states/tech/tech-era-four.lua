@@ -188,6 +188,18 @@ return {
                 "Imperial_AT_AT_Walker_Turbolaser_Refit_Company",
                 "AT_ST_A_Company",
             })
+
+            local proteus = GlobalValue.Get("PROTEUS_GROUP_NAME")
+            if proteus ~= nil then
+                if proteus == "BALMORRA" then
+                    UnitUtil.SetLockList("IMPERIAL_PROTEUS", {
+                        "AT_ST_A_Company"
+                    })
+                    UnitUtil.SetLockList("IMPERIAL_PROTEUS", {
+                        "AT_ST_Company"
+                    }, false)
+                end
+            end
         end
     end,
     on_update = function(self, state_context)
