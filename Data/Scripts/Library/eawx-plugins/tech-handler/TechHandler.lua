@@ -147,17 +147,6 @@ function TechHandler:new(galactic_conquest, human_player, planets)
 		{"Imperial_Proteus"},
 		{"Imperial_Republic_Star_Destroyer"}
 		)
-	self.VShieldedWalkersResearch = GenericResearch(self.galactic_conquest,
-		"SHIELDED_WALKERS_RESEARCH",
-		"Dummy_Veers_Shielded_Walkers_Research", {"Imperial_Proteus"},
-		{"Shielded_AT_ST_A_Company","Shielded_AT_AP_Walker_Company","Shielded_Imperial_AT_AT_Walker_Company","Shielded_Imperial_AT_AT_Walker_Turbolaser_Refit_Company"},
-		{"AT_ST_A_Company","Imperial_AT_AP_Walker_Company","Imperial_AT_AT_Walker_Company","Imperial_AT_AT_Walker_Turbolaser_Refit_Company"})
-	self.VTurboRefitResearch = GenericResearch(self.galactic_conquest,
-		"V_TLREFIT_RESEARCH",
-		"Dummy_Veers_Turbo_AT_AT_Research", {"Imperial_Proteus"},
-		{"Shielded_Imperial_AT_AT_Walker_Company","Shielded_Imperial_AT_AT_Walker_Turbolaser_Refit_Company"},
-		{"Imperial_AT_AT_Walker_Company","Imperial_AT_AT_Walker_Turbolaser_Refit_Company"})
-
 end
 
 function TechHandler:update()

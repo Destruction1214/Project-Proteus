@@ -198,6 +198,22 @@ return {
                     UnitUtil.SetLockList("IMPERIAL_PROTEUS", {
                         "AT_ST_Company"
                     }, false)
+                elseif proteus == "VEERS" then
+                    if GlobalValue.Get("SHIELDED_WALKERS") == true then
+                        UnitUtil.SetLockList("IMPERIAL_PROTEUS", {
+                            "Shielded_Imperial_AT_AT_Walker_Turbolaser_Refit_Company"
+                        })
+                        UnitUtil.SetLockList("IMPERIAL_PROTEUS", {
+                            "Shielded_Imperial_AT_AT_Walker_Company"
+                        }, false)
+                    else
+                        UnitUtil.SetLockList("IMPERIAL_PROTEUS", {
+                            "Imperial_AT_AT_Walker_Turbolaser_Refit_Company"
+                        })
+                        UnitUtil.SetLockList("IMPERIAL_PROTEUS", {
+                            "Imperial_AT_AT_Walker_Company"
+                        }, false)
+                    end                
                 end
             end
         end
