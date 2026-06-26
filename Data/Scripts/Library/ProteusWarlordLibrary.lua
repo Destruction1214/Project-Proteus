@@ -1146,6 +1146,33 @@ return {
 			IntroText = "",
 			IntroHolo = "",
 		},
+		["VEERS"] = {
+			FriendlyName = "Blizzard Force",
+			Planets = {"FOLESS"},
+			LeaderTable = {["VEERS_CHARIOT_TEAM"] = {"VEERS_CHARIOT"}, ["VEERS_AT_AT_TEAM"] = {"VEERS_AT_AT_WALKER"},},
+			LeaderEndingNames = {"Emperor Veers"},
+			HeroList = {"Veers_AT_AT_Team","Nyrox_Team","Grath_Stormtrooper_Team"},
+			UnlockList = {
+				-- Space 
+				"Gamma_ATR_6_Group", "Crusader_Gunship", "Lancer_Frigate", "CC7700", "Strike_Cruiser_Light", "Carrack_Cruiser", "Star_Galleon",
+				"Rep_DHC", "Gladiator_II","Broadside_Cruiser", "Vindicator_Cruiser", "Victory_II_Star_Destroyer", "Proficient_Tender",
+				"Imperial_I_Star_Destroyer", "Imperial_I_Star_Destroyer_Command", "Interdictor_Star_Destroyer",
+				"Sorannan_Star_Destroyer", "Executor_Star_Dreadnought",
+				-- Ground
+				"Army_Special_Missions_Company", "Imperial_Army_Commando_Company", "Imperial_Army_74Z_Bike_Company",
+				"AT_ST_A_Company", "Imperial_AT_PT_Company", "AT_DP_Company", 
+				"Imperial_AT_AP_Walker_Company", "AT_AA_Walker_Company", "SPMAG_Walker_Company", "Imperial_Modified_LAAT_Company",
+				"Imperial_AT_ACT_Walker_Company", "Imperial_AT_AT_Walker_Company",
+				-- Research
+				"Dummy_Veers_Shielded_Walkers_Research",
+			},
+			FactionOverride = "Corellia",
+			StartYear = 7,
+			LastYear = 9,
+			IntroText = "TEXT_CONQUEST_PROTEUS_VEERS",
+			IntroHolo = "Imperial_Army_Officer_Loop"
+
+		},
 		["GRUNGER"] = {
 			FriendlyName = "Grunger's Empire",
 			Planets = {"GARGON", "ORDO"},
@@ -1233,33 +1260,6 @@ return {
 			LastYear = 9,
 			IntroText = "TEXT_CONQUEST_PROTEUS_RENDILI",
 			IntroHolo = "Imperial_Naval_Officer_Loop"
-
-		},
-		["VEERS"] = {
-			FriendlyName = "Blizzard Force",
-			Planets = {"FOLESS"},
-			LeaderTable = {["VEERS_CHARIOT_TEAM"] = {"VEERS_CHARIOT"}, ["VEERS_AT_AT_TEAM"] = {"VEERS_AT_AT_WALKER"},},
-			LeaderEndingNames = {"Emperor Veers"},
-			HeroList = {"Veers_AT_AT_Team","Nyrox_Team","Grath_Stormtrooper_Team"},
-			UnlockList = {
-				-- Space 
-				"Gamma_ATR_6_Group", "Crusader_Gunship", "Lancer_Frigate", "CC7700", "Strike_Cruiser_Light", "Carrack_Cruiser", "Star_Galleon",
-				"Rep_DHC", "Gladiator_II","Broadside_Cruiser", "Vindicator_Cruiser", "Victory_II_Star_Destroyer", "Proficient_Tender",
-				"Imperial_I_Star_Destroyer", "Imperial_I_Star_Destroyer_Command", "Interdictor_Star_Destroyer",
-				"Sorannan_Star_Destroyer", "Executor_Star_Dreadnought",
-				-- Ground
-				"Army_Special_Missions_Company", "Imperial_Army_Commando_Company", "Imperial_Army_74Z_Bike_Company",
-				"AT_ST_A_Company", "Imperial_AT_PT_Company", "AT_DP_Company", 
-				"Imperial_AT_AP_Walker_Company", "AT_AA_Walker_Company", "SPMAG_Walker_Company", "Imperial_Modified_LAAT_Company",
-				"Imperial_AT_ACT_Walker_Company", "Imperial_AT_AT_Walker_Company",
-				-- Research
-				"Dummy_Veers_Shielded_Walkers_Research", "Dummy_Veers_Turbo_AT_AT_Research",
-			},
-			FactionOverride = "Corellia",
-			StartYear = 7,
-			LastYear = 9,
-			IntroText = "TEXT_CONQUEST_PROTEUS_VEERS",
-			IntroHolo = "Imperial_Army_Officer_Loop"
 
 		},
 		["X1"] = {
