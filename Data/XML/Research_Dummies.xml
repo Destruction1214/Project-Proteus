@@ -1484,4 +1484,56 @@
 		<SFXEvent_Build_Complete>RHD_Research_Complete</SFXEvent_Build_Complete>
 	</DummyStructure>
 
+	<DummyStructure Name="Dummy_Veers_Shielded_Walkers_Research">
+		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_VSHIELDED_RESEARCH</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_VSHIELDED_RESEARCH</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_TECHUPGRADE </Encyclopedia_Unit_Class>
+
+		<Icon_Name>I_BUTTON_RESEARCH_SHIELDEDWALKERS.TGA</Icon_Name>
+
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Tech_Level>0</Tech_Level>
+		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy</Required_Special_Structures>
+		<Build_Cost_Credits>25000</Build_Cost_Credits>
+		<Build_Time_Seconds>300</Build_Time_Seconds>
+
+		<Lua_Script>DelayedSelfDelete</Lua_Script>
+
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		
+		<SFXEvent_Build_Started>EHD_Researching</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Research_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Research_Complete</SFXEvent_Build_Complete>
+	</DummyStructure>
+
+	<DummyStructure Name="Dummy_Veers_Turbo_AT_AT_Research">
+		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_VTLREFIT_RESEARCH</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_VTLREFIT_RESEARCH</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_TECHUPGRADE </Encyclopedia_Unit_Class>
+
+		<Icon_Name>I_BUTTON_ATAT_TL_RESEARCH.TGA</Icon_Name>
+
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Tech_Level>0</Tech_Level>
+		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy</Required_Special_Structures>
+		<Build_Cost_Credits>25000</Build_Cost_Credits>
+		<Build_Time_Seconds>300</Build_Time_Seconds>
+
+		<Lua_Script>DelayedSelfDelete</Lua_Script>
+
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		
+		<SFXEvent_Build_Started>EHD_Researching</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Research_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Research_Complete</SFXEvent_Build_Complete>
+	</DummyStructure>
+
 </Dummy_Structures>
