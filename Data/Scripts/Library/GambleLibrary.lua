@@ -28,6 +28,7 @@ return {
         "DHC_Carrier",
         "Picket_DHC",
         "Modernized_DHC",
+		"DHC_Interdictor",
     },
     ["DUMMY_RANDOM_UNIT_RENDILI_NSBC"] = {
 		"Neutron_Star",
