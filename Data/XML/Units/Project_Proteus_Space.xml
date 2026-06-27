@@ -4994,12 +4994,11 @@
 		<Shield_Refresh_Rate>28.5</Shield_Refresh_Rate>
 		<Tactical_Health>1960</Tactical_Health>
 		<Build_Cost_Credits>2400</Build_Cost_Credits>
-		<Population_Value>12</Population_Value>
-		<AI_Combat_Power>803</AI_Combat_Power>
+		<AI_Combat_Power>1193</AI_Combat_Power>
 
 		<Affiliation>Imperial_Proteus</Affiliation>
 
-		<Population_Value>12</Population_Value>
+		<Population_Value>14</Population_Value>
 
 		<HardPoints>
 			HP_Vindicator_C_01, HP_Vindicator_C_02, HP_Vindicator_C_03, HP_Vindicator_C_04, HP_Vindicator_C_05, HP_Vindicator_C_06, HP_Vindicator_C_07, HP_Vindicator_C_Engines, HP_Interdictor_Fighter_Bay
