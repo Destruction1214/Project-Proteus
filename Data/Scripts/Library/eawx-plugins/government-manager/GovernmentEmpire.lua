@@ -219,6 +219,9 @@ function GovernmentEmpire:new(gc, absorb, dark_empire_available, id)
         ["COMEG_BELLATOR"] = "TEXT_GOVERNMENT_EMPIRE_SSD_HERO_COMEG",
         ["X1_EXECUTOR"] = "TEXT_GOVERNMENT_EMPIRE_SSD_WARLORD_X1",
         ["THORN_ASSERTOR"] = "TEXT_GOVERNMENT_EMPIRE_SSD_HERO_THORN",
+		["HARRSK_MEGADOR"] = "TEXT_GOVERNMENT_EMPIRE_SSD_HERO_HARRSK",
+		["DESANNE_DOMINION"] = "TEXT_GOVERNMENT_EMPIRE_SSD_HERO_DESANNE",
+		
     }
 
     self.planet_values = {
