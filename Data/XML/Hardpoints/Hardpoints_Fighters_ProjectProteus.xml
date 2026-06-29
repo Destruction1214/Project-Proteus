@@ -304,7 +304,7 @@
 		<Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
 
-		<Fire_Range_Distance>450.0</Fire_Range_Distance>
+		<Fire_Range_Distance>500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_X_Wing_Fire</Fire_SFXEvent>
 
 		<Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
@@ -334,7 +334,7 @@
 		<Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
 
-		<Fire_Range_Distance>450.0</Fire_Range_Distance>
+		<Fire_Range_Distance>500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_X_Wing_Fire</Fire_SFXEvent>
 
 		<Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
