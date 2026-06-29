@@ -25,6 +25,9 @@ function GovernmentManager:new(gc, absorb, dark_empire, id, dummy_lifecycle_hand
     self.hutt_mobilize = false
     self.hutt_empire = false
 
+    self.market_adjustments = require("ShipMarketAdjustmentsLibrary")
+
+    crossplot:subscribe("UPDATE_MARKET", self.Market_Update, self)
     crossplot:subscribe("TEMPEST_RESEARCH_FINISHED", self.Hutt_Research_Tempest, self)
     crossplot:subscribe("CHELANDION_AVAILABLE", self.Hutt_Militarization_Chelandion, self)
     crossplot:subscribe("TARRADA_AVAILABLE", self.Hutt_Militarization_Tarrada, self)
@@ -43,6 +46,21 @@ function GovernmentManager:update()
     self.SHIPMARKET:update()
     self.FAVOUR:update()
     self.HUTTGOV:update()
+end
+
+function GovernmentManager:Market_Update(tag)
+
+    if self.market_adjustments[tag] then
+        if self.market_adjustments[tag].adjustment_lists then
+            self.SHIPMARKET:adjust_ship_chance(self.market_adjustments[tag].adjustment_lists)
+        end
+        if self.market_adjustments[tag].lock_lists then
+            self.SHIPMARKET:lock_or_unlock_options(self.market_adjustments[tag].lock_lists)
+        end
+        if self.market_adjustments[tag].requirement_lists then
+            self.SHIPMARKET:adjust_ship_requirements(self.market_adjustments[tag].requirement_lists)
+        end
+    end
 end
 
 function GovernmentManager:Hutt_Research_Tempest()
