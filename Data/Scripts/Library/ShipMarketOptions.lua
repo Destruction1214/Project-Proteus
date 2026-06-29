@@ -481,7 +481,7 @@ return {
 						text_requirement = "",
 						order = 9,
 					},
-					
+
 					["SECUTOR_STAR_DESTROYER"] = {
 						locked = false,
 						gc_locked = false,
@@ -518,14 +518,14 @@ return {
 						order = 12,
 					},
 					
-					["IMPERIAL_I_STAR_DESTROYER"] = {
+					["Imperial_I_Star_Destroyer"] = {
 						locked = false,
 						gc_locked = false,
 						amount = 0,
-						chance = 50,
+						chance = 25,
 						perception_modifier = nil,
 						association = nil,
-						readable_name =  "Imperial-I Star Destroyer",
+						readable_name =  "Imperial I Star Destroyer",
 						text_requirement = "",
 						order = 13,
 					},
@@ -863,7 +863,7 @@ return {
 						association = nil,
 						readable_name =  "INT4 Interceptor",
 						text_requirement = "",
-						order = 42,
+						order = 41,
 					},
 					
 					["IMPERIAL_UT_AA_COMPANY"] = {
@@ -875,7 +875,7 @@ return {
 						association = nil,
 						readable_name =  "UT-AA",
 						text_requirement = "",
-						order = 41,
+						order = 42,
 					},
 					
 					["SPMAT_COMPANY"] = {
@@ -886,18 +886,6 @@ return {
 						perception_modifier = nil,
 						association = nil,
 						readable_name =  "SPAMAT",
-						text_requirement = "",
-						order = 42,
-					},
-					
-					["2M_REPULSOR_TANK_COMPANY"] = {
-						locked = false,
-						gc_locked = false,
-						amount = 0,
-						chance = 20,
-						perception_modifier = nil,
-						association = nil,
-						readable_name =  "2M Repulsortank",
 						text_requirement = "",
 						order = 43,
 					},
