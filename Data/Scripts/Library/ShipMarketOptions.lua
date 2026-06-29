@@ -382,7 +382,7 @@ return {
 						perception_modifier = nil,
 						association = nil,
 						readable_name =  "Executor Star Dreadnought",
-						text_requirement = "",
+						text_requirement = "Wessex Group Adds 4%",
 						order = 1,
 					},
 					
@@ -518,7 +518,7 @@ return {
 						order = 12,
 					},
 					
-					["Imperial_I_Star_Destroyer"] = {
+					["IMPERIAL_I_STAR_DESTROYER"] = {
 						locked = false,
 						gc_locked = false,
 						amount = 0,

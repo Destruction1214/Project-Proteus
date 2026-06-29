@@ -851,6 +851,7 @@ TEXT_TOOLTIP_PROCURATOR_SQUADRON,Fighters: 2 / 4
 TEXT_TOOLTIP_PROCURATOR_WEAP1,8x Medium Dual Turbolasers: 2 / 2.0s / 6.5km
 TEXT_TOOLTIP_PROCURATOR_WEAP2,14x Light Turbolasers: 2 / 1.0s / 5.5km
 TEXT_TOOLTIP_PROCURATOR_WEAP3,6x Proton Torpedoes: 2 / 7.5s / 5.5km
+TEXT_TOOLTIP_PROTEUS_A9_RESEARCH,Acquire Kuat's new A-9 Interceptors. Replace the older Interceptors.
 TEXT_TOOLTIP_PROVIDENCE_PIRATE_SQUADRON,Fighters: 1 / 3 | Bombers: 2 / 6  
 TEXT_TOOLTIP_RBANN,Rbann was a Kubaz Imperial spy who worked directly for Blackhole, the shadowy Director of Imperial Intelligence. In 1 ABY, Blackhole dispatched Rbann to the "Gambler's World" of Vorzyd V, ordering the Kubaz to track prominent Rebel leaders Luke Skywalker and Leia Organa, who Blackhole had learned had been sent to Vorzyd V to disrupt Imperial operations there. Rbann quickly managed to track them to the Casino Royale in the capital city of Efavan, and his stormtroopers overpowered the Rebels and imprisoned them aboard Rbann's ship.
 TEXT_TOOLTIP_RED_POLICE,An infamous law enforcement agency established on the planet Prakith under the auspices of Moff Foga Brill. The Red Police were feared as the paramilitary instruments of Brill's reign, and suspected of conducting mass executions of vagrants, dissidents and other undesirables. Like much of Moff Brill's private fiefdom, the Red Police are ostentatious, imposing and flaunting expensive gear, only to mask deep-set rot and brittleness.
@@ -976,6 +977,7 @@ TEXT_TOOLTIP_SKIPRAYK,A variant of Skipray Blastboat configured as a heavy bombe
 TEXT_TOOLTIP_SKIPRAYM,A later model of the venerable GAT-12 Skipray line. This variant sacrificed warhead capacity to allow for more powerful engines and was used by Imperial forces and other authorities as an interceptor. This unit can be used against a variety of targets.
 TEXT_TOOLTIP_SKIPRAYZ,An experimental Skipray Blastboat used exclusively by the Kaarenth Dissension. This design was based on the GAT-12G variant and incorporated downscaled version of the Zeta One Ion Cannon into its arsenal. Specialized against capital ships.
 TEXT_TOOLTIP_SP9,The mobile version of Golan Arms' iconic DF.9 Anti-Infantry Battery. Like its stationary counterpart, the SP.9 saw service under multiple governments over the decades. Most prominently, it was used by the Empire, Rebellion and their various successor states. Best used against infantry formations. 
+TEXT_TOOLTIP_SP9_COMPANY,Company: 4x SP9 Anti Infantry Artillery Platform
 TEXT_TOOLTIP_SP9_HEALTH,Health: 125 (Speeder)
 TEXT_TOOLTIP_SP9_MOVE,Speed: 1.0
 TEXT_TOOLTIP_SP9_WEAP1,1x Heavy AI Blaster Cannon (AOE): 4 / 1.0s / 320m
@@ -1000,7 +1002,6 @@ TEXT_TOOLTIP_SUPERCRUISER_WEAP2,2x Concussion Missiles: 2 / 5.0s / 4.1km
 TEXT_TOOLTIP_SUPERCRUISER_WEAP3,2x Proton Torpedoes: 2 / 11.25s / 5.3km
 TEXT_TOOLTIP_T11,T-11 was an JV-Z1/S DataBank Droid, the Republic counterpart to the Separatist's Tactical Droid line. Following the end of the Clone Wars, T-11 was reassigned to command a garbage scowl and became the subject of a failed reprogramming. T-11's programming started to behave in a manner similar to organics afflicted with psychosis, flashing between his older personality and a slough of new ones.  
 TEXT_TOOLTIP_T11_SQAUDRON, 0.5 / 0 Fighters
-TEXT_TOOLTIP_PROTEUS_A9_RESEARCH,Acquire Kuat's new A-9 Interceptors. Replace the older Interceptors.
 TEXT_TOOLTIP_TAPANI_ASSAULT_FRIGATE,The Tapani-class Assault Frigate is the primary capital ship utilized in the Tapani Sector and can be found in the fleets of the Tapani Noble Families as well as the Freeworlds. Although they are slow, these heavily armored frigates are equipped with enough firepower to challenge heavier military warships.
 TEXT_TOOLTIP_TAPANI_ASSAULT_FRIGATE_HULL,Hull: 2275 (Heavy Frigate)
 TEXT_TOOLTIP_TAPANI_ASSAULT_FRIGATE_MOVE,Speed: 2.8 | Accel: 0.02 | Turn: 0.25
@@ -1206,6 +1207,7 @@ TEXT_UNIT_PHASE_TWO_RIFLEMAN_GRENADIER,Republic Surplus Trooper Rifleman Grenadi
 TEXT_UNIT_PHASE_TWO_SQUAD,Republic Surplus Trooper Squad
 TEXT_UNIT_PRAETOR_I,Praetor-I Battlecruiser
 TEXT_UNIT_PROCURATOR,Procurator Battlecruiser
+TEXT_UNIT_PROTEUS_A9_RESEARCH,Acquire A-9 Interceptors.
 TEXT_UNIT_RED_POLICE,Red Police
 TEXT_UNIT_RED_POLICE_DISRUPTOR,Red Police Disruptor
 TEXT_UNIT_RED_POLICE_GUNNER_LIGHT,Red Police Light Gunner
@@ -1277,7 +1279,6 @@ TEXT_UNIT_STAR_DESTROYER_X,Upgunned Imperial-I Star Destroyer
 TEXT_UNIT_STARWING_ASSAULT,Xg-1 Star Wing Assault
 TEXT_UNIT_STARWING_FIGHTER,Xg-1 Star Wing Fighter
 TEXT_UNIT_STRIKE_CRUISER_ZETA,Strike Cruiser Zeta Two Refit
-TEXT_UNIT_PROTEUS_A9_RESEARCH,Acquire A-9 Interceptors.
 TEXT_UNIT_TAPANI_ASSAULT_FRIGATE,Tapani Assault Frigate
 TEXT_UNIT_THETA_ASSAULT_SHUTTLE,Theta Assault Shuttle
 TEXT_UNIT_TIE_AVENGER_ASSAULT,Assault TIE Avenger
