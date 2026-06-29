@@ -1310,7 +1310,7 @@
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Tooltip_Text>TEXT_WEAPON_TURBOLASER_LIGHT_DUAL</Tooltip_Text>
-		<Health>190.0</Health>
+		<Health>210.0</Health>
 
 		<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -1349,7 +1349,7 @@
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Tooltip_Text>TEXT_WEAPON_TURBOLASER_LIGHT_DUAL</Tooltip_Text>
-		<Health>190.0</Health>
+		<Health>210.0</Health>
 
 		<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -1388,7 +1388,7 @@
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
-		<Health>190.0</Health>
+		<Health>210.0</Health>
 
 		<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
@@ -1427,7 +1427,7 @@
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
-		<Health>190.0</Health>
+		<Health>210.0</Health>
 
 		<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
@@ -1466,7 +1466,7 @@
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
-		<Health>190.0</Health>
+		<Health>210.0</Health>
 
 		<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
@@ -1505,7 +1505,7 @@
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Tooltip_Text>TEXT_WEAPON_LASERCANNON_LIGHT_QUAD</Tooltip_Text>
-		<Health>190.0</Health>
+		<Health>210.0</Health>
 
 		<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -1545,7 +1545,7 @@
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Tooltip_Text>TEXT_WEAPON_LASERCANNON_LIGHT_QUAD</Tooltip_Text>
-		<Health>190.0</Health>
+		<Health>210.0</Health>
 
 		<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -1586,7 +1586,7 @@
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
-		<Health>190.0</Health>
+		<Health>210.0</Health>
 
 		<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
@@ -1604,7 +1604,7 @@
 		<Attachment_Bone>Hangar</Attachment_Bone>
 		<Collision_Mesh>Hangar</Collision_Mesh>
 		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
-		<Health>190.0</Health>
+		<Health>210.0</Health>
 		<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
@@ -1614,7 +1614,7 @@
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Tooltip_Text>TEXT_GRAVITY_WELL_HARDPOINT</Tooltip_Text>
-		<Health>190.0</Health>
+		<Health>210.0</Health>
 
 		<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Gravity_Well_Death</Death_Explosion_SFXEvent>

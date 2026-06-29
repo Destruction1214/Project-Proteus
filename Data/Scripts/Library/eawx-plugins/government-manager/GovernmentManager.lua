@@ -157,6 +157,14 @@ function GovernmentManager:UpdateProteusShipmarketDisplay()
                 government_display_event.Add_Dialog_Text(ship_data.readable_name .." : [ ".. tostring(ship_data.chance/10) .."%% ]")
             end
         end
+        government_display_event.Add_Dialog_Text("TEXT_NONE")
+        government_display_event.Add_Dialog_Text("TEXT_GOVERNMENT_CSA_LIST_MODIFIERS")
+        for i, ship in ipairs(SortKeysByElement(self.SHIPMARKET.market_types["IMPERIAL_PROTEUS"][current_proteus]["SHIP_MARKET"].list,"order","asc")) do
+            local ship_data = self.SHIPMARKET.market_types["IMPERIAL_PROTEUS"][current_proteus]["SHIP_MARKET"].list[ship]
+            if string.len(ship_data.text_requirement) ~= 0 then
+                government_display_event.Add_Dialog_Text(ship_data.readable_name ..": ".. ship_data.text_requirement)
+            end
+        end
     end
 end
 

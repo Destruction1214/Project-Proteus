@@ -10,8 +10,6 @@ D_TEXT_UNIT_DRAGON_TROOPER_PLATOON,Dragon Trooper Brood
 D_TEXT_UNIT_DRAGON_TROOPER_REPEATER,Dragon Trooper Light Gunner
 D_TEXT_UNIT_DRAGON_TROOPER_SQUAD,Dragon Trooper Pack
 STAT_TRADESTATION_COUNT_DASTA,Trade Ports: %s / 30
-TEXT_GOVERNMENT_EMPIRE_SSD_HERO_HARRSK,Blitzer Harrsk (commands Mandator-III Star Dreadnought, Megador)
-TEXT_GOVERNMENT_EMPIRE_SSD_HERO_DESANNE,Desanne (commands Bellator Star Dreadnought, Dominion)
 TEXT_ABILITY_DEPLOY_SHADOWTROOP,Deploy Shadow Stormtroopers
 TEXT_ABILITY_DEPLOY_SHADOWTROOP_DESCRIPTION,Deploy a squad of Shadow Stormtroopers from the transport.
 TEXT_ARMORED_SHIELDED_INTERCEPTOR_ELITE_SQUADRON,Elite Heavy TIE Interceptor Squadron
@@ -86,10 +84,14 @@ TEXT_EVENT_WARLORD_CHOICE_THORN,Daymon Thorn's Empire
 TEXT_EVENT_WARLORD_CHOICE_VEERS,Blizzard Force
 TEXT_GAMBLE_RENDILI_DHC_DESCRIPTION,Commission a Dreadnaught-class Cruiser directly from the Rendili StarDrive slipways and stockpiles. Rendili vessels come in many configurations and the many associated shipyards are always experimenting with alternate loadouts and modifications.
 TEXT_GAMBLE_RENDILI_DHC_NAME,Rendili Priority Order: Dreadnaught-class Cruiser
+TEXT_GAMBLE_RENDILI_GSD_DESCRIPTION,Commission a Gladiator-class Star Destroyer directly from the Rendili StarDrive slipways and stockpiles. Rendili vessels come in many configurations and the many associated shipyards are always experimenting with alternate loadouts and modifications.
+TEXT_GAMBLE_RENDILI_GSD_NAME,,Rendili Priority Order: Gladiator-Class Star Destroyer
 TEXT_GAMBLE_RENDILI_NSBC_DESCRIPTION,Commission a Neutron Star Bulk Cruiser directly from the Rendili StarDrive slipways and stockpiles. Rendili vessels come in many configurations and the many associated shipyards are always experimenting with alternate loadouts and modifications.
 TEXT_GAMBLE_RENDILI_NSBC_NAME,Rendili Priority Order: Neutron Star Bulk Cruiser
 TEXT_GAMBLE_RENDILI_VSD_DESCRIPTION,Commission a Victory-class Star Destroyer directly from the Rendili StarDrive slipways and stockpiles. Rendili vessels come in many configurations and the many associated shipyards are always experimenting with alternate loadouts and modifications.
 TEXT_GAMBLE_RENDILI_VSD_NAME,Rendili Priority Order: Victory-Class Star Destroyer
+TEXT_GOVERNMENT_EMPIRE_SSD_HERO_DESANNE,Desanne (commands Bellator Star Dreadnought, Dominion)
+TEXT_GOVERNMENT_EMPIRE_SSD_HERO_HARRSK,Blitzer Harrsk (commands Mandator-III Star Dreadnought, Megador)
 TEXT_GOVERNMENT_PROTEUS_MARKET_KUAT,KDY Market:
 TEXT_GOVERNMENT_PROTEUS_MARKET_OVERVIEW_KUAT,Every galactic cycle, new ships or ground vehicles may appear on the KDY market. These are units not typically available to the faction. You can see all units currently available and the amounts they're available in listed below.
 TEXT_GROUND_BISCUIT_BARON,Biscuit Baron
@@ -649,8 +651,8 @@ TEXT_TOOLTIP_DOMINA_TAGGE,The youngest child of Sanya Tagge, Domina was sent awa
 TEXT_TOOLTIP_DREADNAUGHT_CARRIER_UPGRADE,Upgrade: Dreadnaught Carrier
 TEXT_TOOLTIP_DREADNAUGHT_CARRIER_UPGRADEABLE,Refits a PDF Dreadnaught with respectable hangars while still maintaining armament near the stock levels.
 TEXT_TOOLTIP_DREADNAUGHT_I,One of the many conversions of the ubiquitous Dreadnaught-Class hull to adapt it for a specialized purpose once it was no longer a prime frontline combatant. This version rearranges most of the interior space to fit a single gravity field generator into the hull, safely tucked away behind heavier armor plating than most other interdictors of the time. The huge power draw of the gravity field generator however requires the main armament and shield coverage to be scaled down, though the vessel is still capable of fending off smaller corvettes and gunships that try to knock out its interdiction field.
-TEXT_TOOLTIP_DREADNAUGHT_I_HULL,Hull: 1900 (Heavy Frigate)
-TEXT_TOOLTIP_DREADNAUGHT_I_SHIELD,Shields: 2150 / [21.5/R] (Frigate)
+TEXT_TOOLTIP_DREADNAUGHT_I_HULL,Hull: 2100 (Heavy Frigate)
+TEXT_TOOLTIP_DREADNAUGHT_I_SHIELD,Shields: 1900 / [19/R] (Frigate)
 TEXT_TOOLTIP_DREADNAUGHT_I_SQUADRON,Fighters: 0.5 / 0.5
 TEXT_TOOLTIP_DREADNAUGHT_I_WEAP1,2x Light Dual Turbolasers: 2 / 4.0s / 5.1km
 TEXT_TOOLTIP_DREADNAUGHT_I_WEAP2,3x Medium Laser Cannons: 2 / 0.75s / 4.1km
@@ -998,7 +1000,7 @@ TEXT_TOOLTIP_SUPERCRUISER_WEAP2,2x Concussion Missiles: 2 / 5.0s / 4.1km
 TEXT_TOOLTIP_SUPERCRUISER_WEAP3,2x Proton Torpedoes: 2 / 11.25s / 5.3km
 TEXT_TOOLTIP_T11,T-11 was an JV-Z1/S DataBank Droid, the Republic counterpart to the Separatist's Tactical Droid line. Following the end of the Clone Wars, T-11 was reassigned to command a garbage scowl and became the subject of a failed reprogramming. T-11's programming started to behave in a manner similar to organics afflicted with psychosis, flashing between his older personality and a slough of new ones.  
 TEXT_TOOLTIP_T11_SQAUDRON, 0.5 / 0 Fighters
-TEXT_TOOLTIP_TAPANI_A9_RESEARCH,Acquire Kuat's new A-9 Interceptors. Replaces the older TIE Interceptors.
+TEXT_TOOLTIP_PROTEUS_A9_RESEARCH,Acquire Kuat's new A-9 Interceptors. Replace the older Interceptors.
 TEXT_TOOLTIP_TAPANI_ASSAULT_FRIGATE,The Tapani-class Assault Frigate is the primary capital ship utilized in the Tapani Sector and can be found in the fleets of the Tapani Noble Families as well as the Freeworlds. Although they are slow, these heavily armored frigates are equipped with enough firepower to challenge heavier military warships.
 TEXT_TOOLTIP_TAPANI_ASSAULT_FRIGATE_HULL,Hull: 2275 (Heavy Frigate)
 TEXT_TOOLTIP_TAPANI_ASSAULT_FRIGATE_MOVE,Speed: 2.8 | Accel: 0.02 | Turn: 0.25
@@ -1275,7 +1277,7 @@ TEXT_UNIT_STAR_DESTROYER_X,Upgunned Imperial-I Star Destroyer
 TEXT_UNIT_STARWING_ASSAULT,Xg-1 Star Wing Assault
 TEXT_UNIT_STARWING_FIGHTER,Xg-1 Star Wing Fighter
 TEXT_UNIT_STRIKE_CRUISER_ZETA,Strike Cruiser Zeta Two Refit
-TEXT_UNIT_TAPANI_A9_RESEARCH,Acquire A-9 Interceptors.
+TEXT_UNIT_PROTEUS_A9_RESEARCH,Acquire A-9 Interceptors.
 TEXT_UNIT_TAPANI_ASSAULT_FRIGATE,Tapani Assault Frigate
 TEXT_UNIT_THETA_ASSAULT_SHUTTLE,Theta Assault Shuttle
 TEXT_UNIT_TIE_AVENGER_ASSAULT,Assault TIE Avenger

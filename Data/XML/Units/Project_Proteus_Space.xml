@@ -4911,12 +4911,12 @@
 			HP_DHC_I_GW
 		</HardPoints>
 
-		<Shield_Points>2150</Shield_Points>
-		<Shield_Refresh_Rate>21.5</Shield_Refresh_Rate>
-		<Tactical_Health>1900</Tactical_Health>
+		<Shield_Points>1900</Shield_Points>
+		<Shield_Refresh_Rate>19.0</Shield_Refresh_Rate>
+		<Tactical_Health>2100</Tactical_Health>
 		<Build_Cost_Credits>2200</Build_Cost_Credits>
-		<Population_Value>6</Population_Value>
-		<AI_Combat_Power>500</AI_Combat_Power>
+		<Population_Value>7</Population_Value>
+		<AI_Combat_Power>613</AI_Combat_Power>
 
 		<Affiliation>Imperial_Proteus</Affiliation>
 
@@ -4937,6 +4937,9 @@
 		<Tactical_Build_Time_Seconds>9</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+
+		<Starting_Units_Spawned_Tech_0>TIE_Fighter_Squadron_Half, 1</Starting_Units_Spawned_Tech_0>
+		<Reserve_Units_Spawned_Tech_0>TIE_Fighter_Squadron_Half, 1</Reserve_Units_Spawned_Tech_0>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>

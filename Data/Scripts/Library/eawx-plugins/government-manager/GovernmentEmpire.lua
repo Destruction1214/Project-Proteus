@@ -714,6 +714,12 @@ function GovernmentEmpire:on_production_finished(planet, game_object_type_name)
         self:tagge_handler(planet, game_object_type_name)
     end
 
+    if game_object_type_name == "DUMMY_RECRUIT_GROUP_DELURIN" then
+        local market_table = {{"IMPERIAL_PROTEUS","SHIP_MARKET","DRAGON_HEAVY_CRUISER",false}}
+
+        crossplot:publish("LOCK_MARKET_OPTIONS", market_table)
+    end
+
 	if game_object_type_name == "SELLASAS_LOADOUT_SWAP1" then
         --locks first loadout
         UnitUtil.SetLockList("IMPERIAL_PROTEUS", {

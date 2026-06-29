@@ -36,4 +36,9 @@ return {
         "Neutron_Star_Mercenary",
         "Battle_Horn",
 	},
+    ["DUMMY_RANDOM_UNIT_RENDILI_GSD"] = {
+		"Gladiator_I",
+        "Gladiator_II",
+        --"Gladiator_Carrier",
+	},
 }
