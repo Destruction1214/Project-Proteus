@@ -998,12 +998,12 @@ return {
 				-- Space	
 				"VT49_Decimator_Group", "Raider_I_Corvette", "Lancer_Frigate", "Arquitens", "Ton_Falk_Escort_Carrier", "Nebulon_B_Tender", "Eidolon", "Imperial_Nebulon_B",
 				"Super_Transport_VII_Interdictor", "Pursuit_Light_Cruiser", "Acclamator_II", "Victory_I_Star_Destroyer",
-				"Imperial_I_Star_Destroyer", "Imperial_I_Star_Destroyer_Assault",
+				"Imperial_II_Star_Destroyer", "Imperial_I_Star_Destroyer_Assault",
 				"Mandator_III_Dreadnought",
 				-- Ground
 				"Imperial_Army_Trooper_Company", "Compforce_Assault_Company", "Imperial_74Z_Bike_Company",
 				"Imperial_AT_PT_Company", "Chariot_LAV_Company", "AT_ST_Company",
-				"AT_AA_Walker_Company", "1M_Tank_Company", "SPMAG_Walker_Company", "Imperial_Dropship_Transport_Company",
+				"AT_AA_Walker_Company", "2M_Repulsor_Tank_Company", "SPMAG_Walker_Company", "Imperial_Dropship_Transport_Company",
 				"B5_Juggernaut_Company", "Imperial_AT_AT_Walker_Company",
 				-- Research
 				"KUAT_Dummy_Research_Corona",
