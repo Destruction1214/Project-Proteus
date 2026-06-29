@@ -297,7 +297,7 @@
 		<Randomize_Between_Fire_Bones> No </Randomize_Between_Fire_Bones>
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
 		<Fire_Cone_Height>60.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Ship_Fighter_Laser_Cannon_Red_Heavy</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Ship_Fighter_Laser_Cannon_Green_Heavy</Fire_Projectile_Type>
 		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
 
@@ -327,7 +327,7 @@
 		<Randomize_Between_Fire_Bones> No </Randomize_Between_Fire_Bones>
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
 		<Fire_Cone_Height>60.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Ship_Fighter_Laser_Cannon_Red_Heavy</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Ship_Fighter_Laser_Cannon_Green_Heavy</Fire_Projectile_Type>
 		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
 
