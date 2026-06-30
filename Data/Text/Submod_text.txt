@@ -276,6 +276,13 @@ TEXT_STATBLOCK_HSSISSK_ESCORT_BASE,Health: 140 | Shields: 60
 TEXT_STATBLOCK_HSSISSK_Z95_WEAP1,1x Heavy Fighter Laser Cannon: 4 / 2.0s / 1.0km
 TEXT_STATBLOCK_HSSISSK_Z95_WEAP2,1x Fighter Flechette Slugthrower: 2 / 2.5s / 1.0km
 TEXT_STATBLOCK_IRAN_RYAD_TIE_DEFENDER_BASE,Health: 180 | Shields: 240
+TEXT_STATBLOCK_IXIYEN_FIGHTER_BASE,Health: 20 | Shields: 20
+TEXT_STATBLOCK_IXIYEN_FIGHTER_SQUADRON_HALF,Squadron: 6x Ixiyen Fighter
+TEXT_STATBLOCK_IXIYEN_FIGHTER_WEAP1,2x Heavy Fighter Laser Cannon: 4 / 2.0s / 1.0km
+TEXT_STATBLOCK_IXIYEN_FIGHTER_WEAP2,1x Fighter Proton Torpedo: 1 / 60.0s / 1.4km
+TEXT_STATBLOCK_IXIYEN_MOVE,Speed: 6.46 | Maneuverability: 5.5
+TEXT_STATBLOCK_IXIYEN_SQUADRON,Squadron: 12x Ixiyen Fighter
+TEXT_STATBLOCK_IXIYEN_SQUADRON_DOUBLE,Squadron: 24x Ixiyen Fighter
 TEXT_STATBLOCK_MANTA_FIGHTER_BASE,Health: 10 | Shields: 5
 TEXT_STATBLOCK_MANTA_FIGHTER_MOVE,Speed: 9.2 | Maneuverability: 4.0
 TEXT_STATBLOCK_MANTA_FIGHTER_SQUADRON,Squadron: 12x Manta Fighter
@@ -739,6 +746,7 @@ TEXT_TOOLTIP_HSSISSK,Hssissk is a member of the "Zssik Clan", a small Trandoshan
 TEXT_TOOLTIP_INCOME_BISCUIT_BARON,Credit Income: +10%
 TEXT_TOOLTIP_IRAN_RYAD,Countess Iran Ryad was a human politician who used her wealth and influence to indulge her interest in starfighters and eventually used her connections to take up pilot training. Following the events at Endor, Ryad would requisition a TIE Defender to serve as her personal starfighter 'Red Star 1' and modify its capabilities and appearance. In time, Ryad became a starfighter ace and would form her own squadron, known as Red Star Squadron, which went on to hunt any starships that entered Imperial space without permission; her actions led to her being accused of treason and eventually defeated by Soontir Fel.
 TEXT_TOOLTIP_IRRV,Dimone Irrv was the ranking TaggeCo representative on Goroth Prime. A competent manager and administrator by all accounts, she was also more than capable of engaging in corporate maneuvering, making her one of the most noteworthy managers in the employ of the Tagge Family.
+TEXT_TOOLTIP_IXIYEN_FIGHTER,The latest entry in TransGalMeg's infamous fighter catalog, the Ixiyen is a modular multirole fighter utilized primarily by illegal interests and local defense forces. This configuration of the Ixiyen has an armament comparable to Sienar's TIE Defender but is otherwise inferior in most respects. Able to engage any target type effectively.
 TEXT_TOOLTIP_JAEFFIS,Admiral Jaeffis was an officer in the Imperial Navy and the commander in charge of defending the Corellian shipyards from New Republic attack, before being superseded by Admiral Roek.
 TEXT_TOOLTIP_JUGGERNAUT_A4_COMPANY,Company: 1x A4 Juggernaut
 TEXT_TOOLTIP_KILE_HANNAD,Kile Hannad was a Imperial Royal Guardsmen who served under the Empire. Like other Royal Guards, Kile was trained at the Imperial Royal Guard Academy on Yinchorr where he partook in extensive training in the deadly arts. Trained in the use of many common and exotic weapons and martial arts, Kile found he preferred to use his concealed heavy blaster pistol in a pinch. During Kile's service, he found himself working alongside the likes of Kir Kanos.

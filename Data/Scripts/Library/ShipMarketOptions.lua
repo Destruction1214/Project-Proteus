@@ -382,7 +382,7 @@ return {
 						perception_modifier = nil,
 						association = nil,
 						readable_name =  "Executor Star Dreadnought",
-						text_requirement = "Wessex Group Adds 4%",
+						text_requirement = "[ Wessex Group Increased to 3%% ]",
 						order = 1,
 					},
 					
@@ -666,7 +666,7 @@ return {
 						locked = true,
 						gc_locked = false,
 						amount = 0,
-						chance = 1000,
+						chance = 50,
 						perception_modifier = nil,
 						association = nil,
 						readable_name =  "Dragon Heavy Cruiser",
