@@ -1001,7 +1001,7 @@ return {
 				"Imperial_II_Star_Destroyer", "Imperial_I_Star_Destroyer_Assault",
 				"Mandator_III_Dreadnought",
 				-- Ground
-				"Imperial_Army_Trooper_Company", "Compforce_Assault_Company", "Imperial_74Z_Bike_Company","Reborn_Dark_Jedi_Company",
+				"Imperial_Army_Trooper_Company", "Compforce_Assault_Company", "Imperial_74Z_Bike_Company",
 				"Imperial_AT_PT_Company", "Chariot_LAV_Company", "AT_ST_Company",
 				"AT_AA_Walker_Company", "2M_Repulsor_Tank_Company", "SPMAG_Walker_Company", "Imperial_Dropship_Transport_Company",
 				"B5_Juggernaut_Company", "Imperial_AT_AT_Walker_Company",
