@@ -35,6 +35,9 @@ return {
 	["ROYAL_GUARD_STORMTROOPER_COMPANY"] = {
 		current_limit = 5,
 	},
+	["REBORN_DARK_JEDI_COMPANY"] = {
+		current_limit = 5,
+	},
 	["PROTEUS_A6_COMPANY"] = {
         current_limit = 2,
         alt_name = "A6_JUGGERNAUT",
