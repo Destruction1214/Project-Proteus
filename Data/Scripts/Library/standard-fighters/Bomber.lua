@@ -102,26 +102,23 @@ return {
 		
 		if alias == "IMPERIAL" then
 			fighter = "TIE_BOMBER_SQUADRON"
-		elseif owner == "CORPORATE_SECTOR" or alias == "CORPORATE_SECTOR" then
-			if Check_Flags(flags,"ISD") then
-				fighter = "BTLB_Y_WING_SQUADRON"
-			else
-				fighter = "2_WARPOD_SQUADRON"
-			end
-		end 
-		
-		if owner == "IMPERIAL_PROTEUS" then
+			if owner == "IMPERIAL_PROTEUS" then
 				local group_name = GlobalValue.Get("PROTEUS_GROUP_NAME")
 				if proteustypes[group_name] then
-					fighter = proteustypes[group_name][1]
 					if string.find(fighter, "GAMBLE_") then
 						local random_list = require("random-fighters/GAMBLE_BOMBER")
-						local select = GameRandom.Free_Random(1, table.getn(random_list[group_name]))
-						for pos, obj in pairs(random_list[group_name]) do
-							if pos == select then
-								fighter = obj
+						if random_list[group_name] then
+							if table.getn(random_list[group_name]) > 0 then
+								local select = GameRandom.Free_Random(1, table.getn(random_list[group_name]))
+								for pos, obj in pairs(random_list[group_name]) do
+									if pos == select then
+										fighter = obj
+									end
+								end
 							end
 						end
+					else
+						fighter = proteustypes[group_name][1]
 					end
 					if proteustypes[group_name][2] ~= false then
 						if Check_Flags(flags, "PROTEUS_OVERRIDE") then
@@ -142,7 +139,14 @@ return {
 						end	
 					end
 				end
-			end 
+			end
+		elseif owner == "CORPORATE_SECTOR" or alias == "CORPORATE_SECTOR" then
+			if Check_Flags(flags,"ISD") then
+				fighter = "BTLB_Y_WING_SQUADRON"
+			else
+				fighter = "2_WARPOD_SQUADRON"
+			end
+		end
 			
 		if is_main_empire then
 			if regime == 3 or regime > 6 then
