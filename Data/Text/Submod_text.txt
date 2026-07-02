@@ -1115,6 +1115,7 @@ TEXT_TOOLTIP_VINDICATOR_CARRIER_WEAP1,2x Light Quad Turbolasers: 2 / 1.0s / 5.1k
 TEXT_TOOLTIP_VINDICATOR_CARRIER_WEAP2,2x Light Turbolasers: 2 / 0.8s / 5.1km
 TEXT_TOOLTIP_VINDICATOR_CARRIER_WEAP3,2x Light Anti-Fighter Ion Cannons: 2 / 1.0s / 3.1km 
 TEXT_TOOLTIP_VINDICATOR_CARRIER_WEAP4,1x Medium Laser Cannon: 2 / 0.5s / 3.6km
+TEXT_TOOLTIP_VSHIELDED_RESEARCH,Refit Imperial walkers with shield generators inspired by the AT-XT, exchanging some hull integrity for renewable defensive protection against sustained enemy fire. (Replaces AT-ST/A, AT-AP, and AT-AT/AT-AT Turbolaser Refit)
 TEXT_TOOLTIP_VULTURE_DROID,A small droid fighter that relies on numbers and maneuverability to win dogfights. While modular enough to carry munitions, they are often replaced with extra fuel slugs to increase flight time from being minutes long. They are best used to swarm enemy fighters and bombers.
 TEXT_TOOLTIP_YARNAR,A TIE Fighter pilot stationed on Celanon in the D'Asta Sector during the later phases of Galactic Civil War.
 TEXT_TOOLTIP_YEORG_CAPTISON,Yeorg Captison was a member of the notable Bakuran Captison family of politicians and was married to Tiree Captison. Yeorg was elected to the Bakuran Senate as Prime Minister around four years before the beginning of the Clone Wars. After the Empire took control over Bakura they allowed him to remain as Prime Minister, though the post held little authority, as it was now subservient to the Imperial governor, Wilek Nereus.
@@ -1329,6 +1330,7 @@ TEXT_UNIT_VECTOR,Vector Star Destroyer
 TEXT_UNIT_VENATOR_8X,Venator Star Destroyer Refit
 TEXT_UNIT_VICTORY_DESTROYER_MK2_CARRIER,Victory-II Star Destroyer Carrier Refit
 TEXT_UNIT_VINDICATOR_CARRIER,Vindicator Heavy Carrier
+TEXT_UNIT_VSHIELDED_RESEARCH,Shielded Walker Research
 TEXT_UNIT_VULTURE_DROID,Vulture Droid Mark 1
 TEXT_UNIT_YV929,YV-929 Armed Freighter
 TEXT_V_WING_ESK_SQUADRON,V-wing "Esk" Squadron
