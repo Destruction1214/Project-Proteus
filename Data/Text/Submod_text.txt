@@ -700,7 +700,7 @@ TEXT_TOOLTIP_ETA2_MANEUVER,The first variant of the Eta-2, introduced just a few
 TEXT_TOOLTIP_ETA2_MISSILE,Uncommon variant of the Eta-2 that replaces the ion cannons with anti-fighter concussion missile launchers. Fighters of this type could be seen being flown by Clone Pilots during the Clone Wars throughout the end of the war, notably at Mygeeto, Kashyyyk and Felucia.
 TEXT_TOOLTIP_FAUX_STORMTROOPER,Mercenaries or soldiers from other branches of the Imperial military wearing salvaged or stolen Stormtrooper armor for intimidation or legitimacy. While the armor itself has its benefits, wearing it without undergoing the grueling training and conditioning of the Stormtrooper program does not make a soldier a real Stormtrooper. As a result, these troopers are merely expensive line infantry, often used for ceremonial, enforcement or bodyguard duties and propaganda rather than open warfare.
 TEXT_TOOLTIP_FAUX_STORMTROOPER_COMPANY,Company: 1x Stormtrooper Sergeant, 44x Faux Stormtrooper
-TEXT_TOOLTIP_FAUX_STORMTROOPER_COMPANY_WEAP1,44 Blaster Carbine: 3 / 1.25s / 220m
+TEXT_TOOLTIP_FAUX_STORMTROOPER_COMPANY_WEAP1,44x Blaster Carbine: 3 / 1.25s / 220m
 TEXT_TOOLTIP_FAUX_STORMTROOPER_COMPANY_WEAP2,1x T-21 Repeating Blaster: 5 / 1.0s / 240m
 TEXT_TOOLTIP_FAUX_STORMTROOPER_COMPANY_WEAP3,8x Concussion Grenade: 1 / 15.0s / 200m
 TEXT_TOOLTIP_FAUX_STORMTROOPER_HEALTH,Health: 18 (Infantry)
