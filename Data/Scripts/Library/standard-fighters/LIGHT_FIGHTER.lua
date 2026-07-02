@@ -96,6 +96,15 @@ return {
 					local group_name = GlobalValue.Get("PROTEUS_GROUP_NAME")
 					if proteustypes[group_name] then
 						fighter = proteustypes[group_name][1]
+						if string.find(fighter, "GAMBLE_") then
+						local random_list = require("random-fighters/GAMBLE_LIGHT_FIGHTER")
+						local select = GameRandom.Free_Random(1, table.getn(random_list[group_name]))
+						for pos, obj in pairs(random_list[group_name]) do
+							if pos == select then
+								fighter = obj
+							end
+						end
+					end
 						if proteustypes[group_name][2] ~= false then
 							if Check_Flags(flags, "PROTEUS_OVERRIDE") then
 								fighter = proteustypes[group_name][2]
