@@ -7837,7 +7837,7 @@
 		<Icon_Name>I_BUTTON_IMPERIAL_LEGITIMACY_TIER3.tga</Icon_Name>
 
 		<Affiliation>Empire, Pentastar, Zsinj_Empire, Greater_Maldrood, Eriadu_Authority, Imperial_Proteus</Affiliation>
-		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Tech_Level>0</Tech_Level>
 		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy</Required_Special_Structures>
 		<Build_Cost_Credits>4500</Build_Cost_Credits>

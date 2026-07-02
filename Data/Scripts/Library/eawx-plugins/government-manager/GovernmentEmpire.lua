@@ -718,6 +718,10 @@ function GovernmentEmpire:on_production_finished(planet, game_object_type_name)
         crossplot:publish("UPDATE_MARKET","DRAGON")
     end
 
+     if game_object_type_name == "DUMMY_RECRUIT_GROUP_WESSEX" then
+        crossplot:publish("UPDATE_MARKET","WESSEX")
+    end
+
 	if game_object_type_name == "SELLASAS_LOADOUT_SWAP1" then
         --locks first loadout
         UnitUtil.SetLockList("IMPERIAL_PROTEUS", {
