@@ -18,4 +18,9 @@ return {
 				{"IMPERIAL_PROTEUS", "SHIP_MARKET", "DRAGON_HEAVY_CRUISER", ""},
 			},
 		},
+		["WESSEX"] = {
+			adjustment_lists = {
+				{"IMPERIAL_PROTEUS", "SHIP_MARKET", "EXECUTOR_STAR_DREADNOUGHT", 30, true},
+			},
+		},
 }
