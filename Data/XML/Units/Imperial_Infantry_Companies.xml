@@ -10500,7 +10500,7 @@
 
 		<Create_Team_Type> Faux_Stormtrooper_Main_Container </Create_Team_Type>
 		<Max_Squad_Size> 14 </Max_Squad_Size>
-		<Company_Units> Faux_Stormtrooper, Faux_Stormtrooper, Faux_Stormtrooper, Faux_Stormtrooper, Faux_Stormtrooper_Grenadier, Faux_Stormtrooper, Faux_Stormtrooper, Faux_Stormtrooper, Faux_Stormtrooper_Grenadier, Faux_Stormtrooper, Faux_Stormtrooper, Faux_Stormtrooper, Faux_Stormtrooper_Sergeant, Imperial_Stormtrooper_Sergeant</Company_Units>
+		<Company_Units> Faux_Stormtrooper, Faux_Stormtrooper, Faux_Stormtrooper, Faux_Stormtrooper, Faux_Stormtrooper, Faux_Stormtrooper, Faux_Stormtrooper, Faux_Stormtrooper,Faux_Stormtrooper, Faux_Stormtrooper_Grenadier,Faux_Stormtrooper_Grenadier, Imperial_Stormtrooper_Sergeant</Company_Units>
 	</GroundCompany>
 
 	<GroundCompany Name="Faux_Stormtrooper_Squad">
@@ -10519,7 +10519,7 @@
 		</Encyclopedia_Text>
 
 		<Create_Team_Type> Faux_Stormtrooper_Container </Create_Team_Type>
-		<Company_Units> Faux_Stormtrooper, Faux_Stormtrooper, Faux_Stormtrooper, Faux_Stormtrooper, Faux_Stormtrooper_Grenadier, Faux_Stormtrooper, Faux_Stormtrooper, Faux_Stormtrooper, Faux_Stormtrooper_Grenadier, Faux_Stormtrooper, Faux_Stormtrooper, Faux_Stormtrooper, Faux_Stormtrooper, Faux_Stormtrooper_Sergeant</Company_Units>
+		<Company_Units>Faux_Stormtrooper, Faux_Stormtrooper, Faux_Stormtrooper, Faux_Stormtrooper, Faux_Stormtrooper, Faux_Stormtrooper, Faux_Stormtrooper, Faux_Stormtrooper, Faux_Stormtrooper_Grenadier, Faux_Stormtrooper_Grenadier, Faux_Stormtrooper_Sergeant</Company_Units>
 	</GroundCompany>
 
 	<Container Name="Faux_Stormtrooper_Main_Container">
