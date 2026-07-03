@@ -25,7 +25,7 @@ return {
                     perception_modifier = nil,
                     association = nil,
                     readable_name =  "Tagge Battlecruiser",
-                    text_requirement = " [ Ulric Tagge adds 3% ]",
+                    text_requirement = " [ Ulric Tagge adds 3%% ]",
                     order = 2,
                 },
 
@@ -382,7 +382,7 @@ return {
 						perception_modifier = nil,
 						association = nil,
 						readable_name =  "Executor Star Dreadnought",
-						text_requirement = "[ Wessex Group Increases to 3% ]",
+						text_requirement = "[ Wessex Group Increases to 3%% ]",
 						order = 1,
 					},
 					
