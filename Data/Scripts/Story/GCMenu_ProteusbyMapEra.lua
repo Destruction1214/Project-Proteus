@@ -1148,6 +1148,32 @@ return {
 			,["6ABY"] = true
 			,["9ABY"] = true
 		}
+		,["Empires_At_War"] = {
+			["4ABY"] = true
+			,["6ABY"] = true
+		}
 	},
-	
+
+	["RENDILI"] = {
+		
+		["Empires_At_War"] = {
+			["6ABY"] = true
+			,["9ABY"] = true
+		}
+	},
+	["VEERS"] = {
+		
+		["FullLarge"] = {
+			["9ABY"] = true
+		}
+		,["FullMedium"] = {
+			["9ABY"] = true
+		}
+		,["KnownMedium"] = {
+			["9ABY"] = true
+		}
+		,["KnownLarge"] = {
+			["9ABY"] = true
+		}
+	},
 }

@@ -731,6 +731,28 @@ function GovernmentEmpire:on_production_finished(planet, game_object_type_name)
         })
     end
 
+    if string.find(game_object_type_name, "DUMMY_RANDOM_UNIT_") then
+        local location = Find_First_Object(game_object_type_name).Get_Planet_Location().Get_Type().Get_Name()
+        self:gamble_manager(game_object_type_name, location)
+    end
+end
+
+function GovernmentEmpire:gamble_manager(unit_type, location)
+    --Logger:trace("entering GovernmentEmpire:gamble_manager")
+    local gamble_table = require("GambleLibrary")
+    local src_obj = Find_First_Object(unit_type)
+        
+    for dummyobj, optionsdata in pairs(gamble_table) do
+        if dummyobj == unit_type then
+            local posnr = GameRandom.Free_Random(1,table.getn(optionsdata))
+            for pos, unit in pairs(optionsdata) do
+                if pos == posnr then
+                    local spawn = StoryUtil.SpawnAtSafePlanet(location, Find_Player("Imperial_Proteus"), StoryUtil.GetSafePlanetTable(), {unit}, true, false)
+                    src_obj.Despawn()
+                end
+            end
+        end
+    end
 end
 
 function GovernmentEmpire:tagge_handler(planet, game_object_type_name)

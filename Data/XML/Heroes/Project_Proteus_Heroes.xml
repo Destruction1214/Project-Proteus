@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Proteus_Heroes>
+<Project_Proteus_Heroes>
 
 	<!-- ============================= Space ============================= -->
 	<UniqueUnit Name="Kiara_Schmong">
@@ -4733,7 +4733,7 @@
 	</DummyStructure>
 
 	<HeroUnit Name="Comeg_Ostrander">
-		<Variant_Of_Existing_Type>Tector_Star_Destroyer</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Imperial_I_Star_Destroyer_Command</Variant_Of_Existing_Type>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Text_ID>TEXT_HERO_COMEG</Text_ID>
 		<Encyclopedia_Text> 
@@ -4747,7 +4747,7 @@
 		TEXT_TOOLTIP_STAR_DESTROYER_COMMAND_HULL
 		TEXT_TOOLTIP_STAR_DESTROYER_COMMAND_SHIELD
 		TEXT_TOOLTIP_STAR_DESTROYER_MOVE
-		TEXT_TOOLTIP_STAR_DESTROYER_BRASHIN_SQUADRON
+		TEXT_TOOLTIP_STAR_DESTROYER_SQUADRON
 		TEXT_TOOLTIP_STAR_DESTROYER_COMMAND_WEAP1
 		TEXT_TOOLTIP_STAR_DESTROYER_COMMAND_WEAP2
 		TEXT_TOOLTIP_STAR_DESTROYER_COMMAND_WEAP3
@@ -4768,6 +4768,43 @@
 		<Tech_Level>99</Tech_Level>
 		
 		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
+
+		<SFXEvent_Select>Unit_Select_Rep_Secutor</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Rep_Secutor</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Rep_Secutor</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Rep_Secutor</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Move_Rep_Secutor</SFXEvent_Guard>
+		<SFXEvent_Move_Into_Asteroid_Field>  </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula>  </SFXEvent_Move_Into_Nebula>
+		<SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_Attack_Rep_Secutor </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_Attack_Rep_Secutor </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_Attack_Rep_Secutor </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_Attack_Rep_Secutor </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_Attack_Rep_Secutor </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_Attack_Rep_Secutor </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_Attack_Rep_Secutor </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_FIGHTER_BAY, Unit_Attack_Rep_Secutor </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_TRACTOR_BEAM, Unit_Attack_Rep_Secutor </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MASS_DRIVER, Unit_Attack_Rep_Secutor </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_SPECIAL, Unit_Attack_Rep_Secutor </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_Attack_Rep_Secutor </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_DUMMY_ART, Unit_Attack_Rep_Secutor </SFXEvent_Attack_Hardpoint>
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MASS_DRIVER, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_SPECIAL, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_DUMMY_ART, null </SFXEvent_Hardpoint_Destroyed>
 
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_06 -->
 			<Combat_Bonus_Ability Name="Command_Tier_06_Combat_Bonus">
@@ -4833,4 +4870,4 @@
 		<Required_Orbiting_Units>Comeg_Ostrander</Required_Orbiting_Units>
 	</DummyStructure>
 	
-</Proteus_Heroes>
+</Project_Proteus_Heroes>

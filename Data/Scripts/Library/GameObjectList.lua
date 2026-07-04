@@ -259,6 +259,8 @@ return {
 ["DIAMOND_FRIGATE"] = true,
 ["DHC_CARRIER"] = true,
 ["DHC_GUNBOAT"] = true,
+["PICKET_DHC"] = true,
+["MODERNIZED_DHC"] = true,
 ["DOMINION"] = true,
 ["DOOLE_CARRACK"] = true,
 ["DORAT_ARROW_OF_SULLUST"] = true,
@@ -935,5 +937,6 @@ return {
 ["VECTOR_STAR_DESTROYER"] = true,
 ["COMEG_OSTRANDER"] = true,
 ["COMEG_BELLATOR_DUMMY"] = true,
+["IMPERIAL_REPUBLIC_STAR_DESTROYER"] = true,
   
 }

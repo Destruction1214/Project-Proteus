@@ -268,7 +268,17 @@ return {
 			LeaderTable = {},
 			LeaderEndingNames = {"a new Emperor"},
 			HeroList = {"Banjeer_Quasar","Teubbo_Team","Lanu_Pasiq_Team","Nabyl_Hawkbat","Raptor_Commando_Company","Raptor_Commando_Company"},
-			UnlockList = {"Raptor_Trooper_Company"},
+			UnlockList = {
+				-- Space
+				"YE_4_Group","Imperial_CR90","Ipv1_Gunboat_Proteus","Lancer_Frigate_PDF","Carrack_Cruiser_Laser","Patrol_Nebulon_B","Starbolt","Strike_Cruiser_Light","Marauder_Missile_Cruiser",
+				"Victory_I_Fleet_Star_Destroyer","Space_Arc_Cruiser","Kuari_Princess_Liner","Immobilizer_418_Refit","Gladiator_II","Neutron_Star",
+				"Imperial_I_Star_Destroyer_Assault","Imperial_II_Star_Destroyer_Ion","Procurator_Battlecruiser",
+				"Sorannan_Star_Destroyer","Altor_Replenishment_Ship","Legator_Star_Dreadnought",
+				-- Ground
+				"Faux_Stormtrooper_Company","Raptor_Trooper_Company","Raptor_Commando_Company","New_Republic_Overracer_Speeder_Bike_Company",
+				"PX10_Company","PX7_Company","INT4_Company","Chariot_LAV_Company",
+				"AT_AA_Flak_Walker_Company","SPMAG_Walker_Company","Swift_Assault_5_Company","Imperial_AT_AP_Walker_Company","HAET_Company",
+				"Teklos_Company","A9_Floating_Fortress_Company","B5_Juggernaut_Company"},
 			StartYear = 7,
 			LastYear = 9,
 			IntroText = "TEXT_CONQUEST_ZSINJ_REMNANTS_INTRO_E3",
@@ -1082,32 +1092,32 @@ return {
 			IntroHolo = "Imperial_Naval_Officer_Loop"
 		},
 		["BALMORRA"] = {
-			FriendlyName = "Imperial Balmorra",
+			FriendlyName = "Independent Balmorra",
 			Planets = {"BALMORRA"},
 			LeaderTable = {["BELTANE_TEAM"] = {"BELTANE_AT_ST_A"}},
 			LeaderEndingNames = {"Galactic Governor Beltane"},
 			HeroList = {"BELTANE_TEAM"}, 
 			UnlockList = {
 				-- Space 
-				"Beta_ETR_3_Group", "IPV1", "Lancer_Frigate", "Marauder_Missile_Cruiser", "Class_C_Frigate", "CC7700E", 
+				"Beta_ETR_3_Group", "IPV1", "Lancer_Frigate", "Marauder_Missile_Cruiser", "Class_C_Frigate", "CC7700_E", 
 				"Imperial_DHC", "Gladiator_II", "Proficient_Tender", "Broadside_Cruiser", "Captor", "Victory_I_Star_Destroyer", "Procursator_Star_Destroyer",
 				"Imperial_I_Star_Destroyer_Assault", "Triumph_Star_Destroyer", "Invincible_Cruiser", "Maelstrom_Battlecruiser",  
 				"Bulwark_III", "Mandator_II_Dreadnought",
 				-- Ground
-				"Military_Soldier_Company", "Security_Trooper_Company", "Imperial_Dwarf_Spider_Droid_Company", "Overracer_Speeder_Bike_Company",
+				"PDF_Tactical_Unit_Company", "Security_Trooper_Company", "Imperial_Dwarf_Spider_Droid_Company", "Overracer_Speeder_Bike_Company",
 				"AT_ST_Company", "Scorpenek_Sentry_Company", "AAC_1_Company", 
-				"2M_Repulsor_Tank_Company", "Imperial_Missile_Artillery_Company", "AT_AA_Missile_Walker_Company",
+				"2M_Repulsor_Tank_Company", "MAL_Rocket_Vehicle_Company", "AT_AA_Missile_Walker_Company",
 				"Tracked_Mobile_Base_Company", "Imperial_AT_TE_Walker_Company",
 			},
 			FactionOverride = "Empire",
 			FactionOverride2 = "Independent_Forces",
 			StartYear = 4,
-			LastYear = 9,
+			--LastYear = 9,
 			IntroText = "TEXT_CONQUEST_PROTEUS_BALMORRA",
 			IntroHolo = "Imperial_Army_Officer_Loop"
 		},
 		["EMPIRE_REBORN"] = {
-			FriendlyName = "Reborn Empire",
+			FriendlyName = "Empire Reborn",
 			Planets = {},
 			Leader_Table = {},
 			LeaderEndingNames = {},
@@ -1202,17 +1212,55 @@ return {
 		["RENDILI"] = {
 			FriendlyName = "Imperial Rendili",
 			Planets = {"RENDILI"},
-			Leader_Table = {"COMEG_OSTRANDER"},
-			LeaderEndingNames = {"Empress Comeg"},
+			LeaderTable = {"COMEG_OSTRANDER"},
+			LeaderEndingNames = {"A new Emperor"},
 			HeroList = {"Comeg_Ostrander"},
 			UnlockList = {
-				-- Space
-
+				-- Space 
+				"Gozanti_Cruiser_Group", "Customs_Corvette", "Tartan_Patrol_Cruiser", "CC7700", "Carrack_Cruiser", 
+				"Rep_DHC", "Gladiator_I", "Neutron_Star", "Lictor", "Victory_I_Star_Destroyer", "Victory_II_Star_Destroyer", 
+				"Triumph_Star_Destroyer", "Invincible_Cruiser", "Assertor_Star_Dreadnought",
 				-- Ground
-
+				"Imperial_Army_Guard_Company", "Security_Trooper_Company", "Imperial_Fleet_Commando_Company", "64_Y_Swift_Repulsorlift_Sled_Company",
+				"1L_Tank_Company", "ULAV_Early_Company", "SP9_Group", 
+				"008_Speeder_Company", "Imperial_VAAT_Company", "Imperial_Missile_Artillery_Company", "AV_7_Company", "Imperial_UT_AA_Company", "Freerunner_Assault_Company", 
+				"Canderous_Assault_Tank_Company_Proteus", "Teklos_Company", "Aratech_Battle_Platform_Company",
+				-- Research
+				"Dummy_RepublicSD_Rendili", "Dummy_Random_Unit_Rendili_VSD", "Dummy_Random_Unit_Rendili_DHC", "Dummy_Random_Unit_Rendili_NSBC"
 			},
-			IntroText = "",
-			IntroHolo = "",
+			FactionOverride = "Empire",
+			StartYear = 4,
+			LastYear = 9,
+			IntroText = "TEXT_CONQUEST_PROTEUS_RENDILI",
+			IntroHolo = "Imperial_Naval_Officer_Loop"
+
+		},
+		["VEERS"] = {
+			FriendlyName = "Blizzard Force",
+			Planets = {"FOLESS"},
+			LeaderTable = {["VEERS_CHARIOT_TEAM"] = {"VEERS_CHARIOT"}, ["VEERS_AT_AT_TEAM"] = {"VEERS_AT_AT_WALKER"},},
+			LeaderEndingNames = {"Emperor Veers"},
+			HeroList = {"Veers_AT_AT_Team","Nyrox_Team","Grath_Stormtrooper_Team"},
+			UnlockList = {
+				-- Space 
+				"Gamma_ATR_6_Group", "Crusader_Gunship", "Lancer_Frigate", "CC7700", "Strike_Cruiser_Light", "Carrack_Cruiser", "Star_Galleon",
+				"Rep_DHC", "Gladiator_II","Broadside_Cruiser", "Vindicator_Cruiser", "Victory_II_Star_Destroyer", "Proficient_Tender",
+				"Imperial_I_Star_Destroyer", "Imperial_I_Star_Destroyer_Command", "Interdictor_Star_Destroyer",
+				"Sorannan_Star_Destroyer", "Executor_Star_Dreadnought",
+				-- Ground
+				"Army_Special_Missions_Company", "Imperial_Army_Commando_Company", "Imperial_Army_74Z_Bike_Company",
+				"Shielded_AT_ST_A_Company", "Imperial_AT_PT_Company", "AT_DP_Company", 
+				"Shielded_AT_AP_Walker_Company", "AT_AA_Walker_Company", "SPMAG_Walker_Company", "Imperial_Modified_LAAT_Company",
+				"Shielded_Imperial_AT_AT_Walker_Turbolaser_Refit_Company", "Shielded_Imperial_AT_AT_Walker_Company",
+				-- Research
+				
+			},
+			FactionOverride = "Corellia",
+			StartYear = 7,
+			LastYear = 9,
+			IntroText = "TEXT_CONQUEST_PROTEUS_VEERS",
+			IntroHolo = "Imperial_Army_Officer_Loop"
+
 		},
 		["X1"] = {
 			FriendlyName = "X1's Empire",
