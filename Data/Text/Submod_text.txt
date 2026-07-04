@@ -1108,7 +1108,7 @@ TEXT_TOOLTIP_VICTORY2_WEAP1_CARRIER,4x Light Dual Turbolasers: 2 / 2.0s / 5.2km
 TEXT_TOOLTIP_VICTORY2_WEAP2_CARRIER,4x Light Ion Cannons: 2 / 1.0s / 5.2km
 TEXT_TOOLTIP_VICTORY2_WEAP3_CARRIER,2x Light Quad Laser Cannons: 2 / 0.5s / 3.7km
 TEXT_TOOLTIP_VICTORYPATROL_WEAP1,2x Medium Ion Cannons: 2 / 2.0s / 6.2km
-TEXT_TOOLTIP_VICTORYPATROL_WEAP3,4x Medium Dual Laser Cannons 2/ 2.0s/ 6.2km
+TEXT_TOOLTIP_VICTORYPATROL_WEAP3,4x Medium Dual Laser Cannons 2/ 2.0s / 4.2km
 TEXT_TOOLTIP_VINDICATOR_CARRIER,An alternative variant of the common Vindicator hull which boasted heavier weaponry while at the same time carrying a larger fighter complement. While potent, the vessels sacrificed a lot of their utility and anti-fighter defense capabilities in the process.
 TEXT_TOOLTIP_VINDICATOR_CARRIER_HULL,Hull: 1944 (Frigate)
 TEXT_TOOLTIP_VINDICATOR_CARRIER_MOVE,Speed: 3.5 | Accel: 0.125 | Turn: 0.35
