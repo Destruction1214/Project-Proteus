@@ -834,6 +834,7 @@ return {
 ["VICTORY_II_STAR_DESTROYER"] = true,
 ["VICTORY_I_FRIGATE"] = true,
 ["VICTORY_I_STAR_DESTROYER"] = true,
+["VICTORY_I_STAR_DESTROYER_PATROL"] = true,
 ["VIEDAS_SOLIDARITY"] = true,
 ["VIGIL"] = true,
 ["VINDICATOR_CRUISER"] = true,

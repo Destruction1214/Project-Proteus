@@ -137,6 +137,8 @@ return {
 		"Relgim_ATWalker_Research_Proteus", "Imperial_AT_AT_Walker_Turbolaser_Refit_Company",
 		--Zsinj Remnants added units
 		"Raptor_Commando_Company",
-	--Balmorra and Rendili added units
-	"Marauder_Missile_Cruiser", "AAC_I_Company", "Freerunner_Assault_Company", "CC7700_E", "Aratech_Battle_Platform_Company", "MAL_Rocket_Vehicle_Company", "Modernized_DHC", "Picket_DHC", "Overracer_Speeder_Bike_Company",
+	    --Balmorra and Rendili added units
+	    "Marauder_Missile_Cruiser", "AAC_I_Company", "Freerunner_Assault_Company", "CC7700_E", "Aratech_Battle_Platform_Company", "MAL_Rocket_Vehicle_Company", "Modernized_DHC", "Picket_DHC", "Overracer_Speeder_Bike_Company",
+		--Imperial Hutt Space added units
+		"Victory_I_Star_Destroyer_Patrol",
 }
