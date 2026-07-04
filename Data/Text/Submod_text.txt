@@ -59,6 +59,7 @@ TEXT_ENCYCLOPEDIA_CLASS_APPRENTICE,Apprentice
 TEXT_ENCYCLOPEDIA_CLASS_ARMS_DEALER,Arms Dealer
 TEXT_ENCYCLOPEDIA_CLASS_BARONESS,Baroness
 TEXT_ENCYCLOPEDIA_CLASS_PRIME_MINISTER,Prime Minister 
+TEXT_ENCYCLOPEDIA_CLASS_RESEARCH_DIRECTOR,Research Director
 TEXT_ENCYCLOPEDIA_CLASS_SECOND_LIEUTENANT,Second Lieutenant
 TEXT_ENCYCLOPEDIA_CLASS_TACTICAL_DROID,Tactical Droid
 TEXT_ETA2_ASSAULT_SQUADRON,Assault Eta-2 Actis Squadron
@@ -109,6 +110,7 @@ TEXT_HERO_IRRV,Dimone Irrv
 TEXT_HERO_JAEFFIS,Jaeffis
 TEXT_HERO_KILE_HANNAD,Kile Hannad
 TEXT_HERO_KLEMP,Klemp
+TEXT_HERO_LEZNER,Director Lezner
 TEXT_HERO_MAHKKAR,Mahk'Kar
 TEXT_HERO_MALLAT,Zeven Mallat
 TEXT_HERO_MERILI,Merili
@@ -697,17 +699,17 @@ TEXT_TOOLTIP_ETA2_DEFENSIVE,Variant of the Eta-2 introduced at some point after 
 TEXT_TOOLTIP_ETA2_MANEUVER,The first variant of the Eta-2, introduced just a few months after the stock model. The High Maneuver variant is equipped with a stripped down hull to allow for the already impressive maneuverability to be greatly improved. Due to the nature of the modifications, this variant is less durable than other Eta-2 models. 
 TEXT_TOOLTIP_ETA2_MISSILE,Uncommon variant of the Eta-2 that replaces the ion cannons with anti-fighter concussion missile launchers. Fighters of this type could be seen being flown by Clone Pilots during the Clone Wars throughout the end of the war, notably at Mygeeto, Kashyyyk and Felucia.
 TEXT_TOOLTIP_FAUX_STORMTROOPER,Mercenaries or soldiers from other branches of the Imperial military wearing salvaged or stolen Stormtrooper armor for intimidation or legitimacy. While the armor itself has its benefits, wearing it without undergoing the grueling training and conditioning of the Stormtrooper program does not make a soldier a real Stormtrooper. As a result, these troopers are merely expensive line infantry, often used for ceremonial, enforcement or bodyguard duties and propaganda rather than open warfare.
-TEXT_TOOLTIP_FAUX_STORMTROOPER_COMPANY,Company: 1x Stormtrooper Sergeant, 55x Faux Stormtrooper
-TEXT_TOOLTIP_FAUX_STORMTROOPER_COMPANY_WEAP1,55x Blaster Carbine: 3 / 1.25s / 220m
+TEXT_TOOLTIP_FAUX_STORMTROOPER_COMPANY,Company: 1x Stormtrooper Sergeant, 44x Faux Stormtrooper
+TEXT_TOOLTIP_FAUX_STORMTROOPER_COMPANY_WEAP1,44x Blaster Carbine: 3 / 1.25s / 220m
 TEXT_TOOLTIP_FAUX_STORMTROOPER_COMPANY_WEAP2,1x T-21 Repeating Blaster: 5 / 1.0s / 240m
 TEXT_TOOLTIP_FAUX_STORMTROOPER_COMPANY_WEAP3,8x Concussion Grenade: 1 / 15.0s / 200m
-TEXT_TOOLTIP_FAUX_STORMTROOPER_HEALTH,Health: 16 (Infantry)
+TEXT_TOOLTIP_FAUX_STORMTROOPER_HEALTH,Health: 18 (Infantry)
 TEXT_TOOLTIP_FAUX_STORMTROOPER_SERGEANT_HEALTH,Health: 20 (Infantry)
-TEXT_TOOLTIP_FAUX_STORMTROOPER_SQUAD_1,Squad: 1x Stormtrooper Sergeant, 13x Faux Stormtrooper
-TEXT_TOOLTIP_FAUX_STORMTROOPER_SQUAD_2,Squad: 14x Faux Stormtrooper
-TEXT_TOOLTIP_FAUX_STORMTROOPER_SQUAD_WEAP1_1A,13x Blaster Carbine: 3 / 1.25s / 220m
+TEXT_TOOLTIP_FAUX_STORMTROOPER_SQUAD_1,Squad: 1x Stormtrooper Sergeant, 11x Faux Stormtrooper
+TEXT_TOOLTIP_FAUX_STORMTROOPER_SQUAD_2,Squad: 11x Faux Stormtrooper
+TEXT_TOOLTIP_FAUX_STORMTROOPER_SQUAD_WEAP1_1A,11x Blaster Carbine: 3 / 1.25s / 220m
 TEXT_TOOLTIP_FAUX_STORMTROOPER_SQUAD_WEAP1_1B,1x T-21 Repeating Blaster: 5 / 1.0s / 240m
-TEXT_TOOLTIP_FAUX_STORMTROOPER_SQUAD_WEAP1_2,14x Blaster Carbine: 3 / 1.25s / 220m
+TEXT_TOOLTIP_FAUX_STORMTROOPER_SQUAD_WEAP1_2,11x Blaster Carbine: 3 / 1.25s / 220m
 TEXT_TOOLTIP_GAT,The Ground Armored Tank served as a shielded fast attack platform early in the war, often in opposition to the comparable Saber tanks. Due to losses and poor direct performance against loyalist assets, the design ceased production relatively quickly into the war in favour of Techno Union alternatives.
 TEXT_TOOLTIP_GAT_COMPANY,Company: 4x GAT
 TEXT_TOOLTIP_GAT_HEALTH,Health: 100 (Medium Vehicle)
@@ -772,6 +774,7 @@ TEXT_TOOLTIP_LAC_MOVE,Speed: 6.65 | Accel: 0.25 | Turn: 0.65
 TEXT_TOOLTIP_LAC_PD,Point-Defense: 1 / 0.45s / 1.5km
 TEXT_TOOLTIP_LAC_SHIELD,Shields: 450 / [9/R] (Corvette)
 TEXT_TOOLTIP_LAC_WEAP1,5x Medium Dual Rapid Laser Cannons: 6 / 5.0s / 3.5km
+TEXT_TOOLTIP_LEZNER,Director Lenzer oversaw Grand Admiral Zaarin's TIE Experimental Project, leading the Empire's most advanced starfighter research. Though presumed dead after the program's collapse, his ultimate fate was never confirmed.
 TEXT_TOOLTIP_LICTOR,The Lictor-Class were specialized prison ships built by Rendili StarDrive and reminiscent of older Mandalorian designs, to the point of sometimes being called "Mandalorian Dungeon Ships." They were introduced at the end of the Clone Wars to aid in the Great Jedi Purge by providing a secure way to transport captured Jedi and other force sensitives. When not in use as prisoner transports, they could fulfill other support roles in a fleet, but were rarely used as such due to the intentional limitations placed on their nav-computer.
 TEXT_TOOLTIP_LICTOR_HULL,Hull: 4550 (Heavy Frigate)
 TEXT_TOOLTIP_LICTOR_MOVE,Speed: 3.85 | Accel: 0.5 | Turn: 0.4
@@ -1115,6 +1118,7 @@ TEXT_TOOLTIP_VINDICATOR_CARRIER_WEAP1,2x Light Quad Turbolasers: 2 / 1.0s / 5.1k
 TEXT_TOOLTIP_VINDICATOR_CARRIER_WEAP2,2x Light Turbolasers: 2 / 0.8s / 5.1km
 TEXT_TOOLTIP_VINDICATOR_CARRIER_WEAP3,2x Light Anti-Fighter Ion Cannons: 2 / 1.0s / 3.1km 
 TEXT_TOOLTIP_VINDICATOR_CARRIER_WEAP4,1x Medium Laser Cannon: 2 / 0.5s / 3.6km
+TEXT_TOOLTIP_VSHIELDED_RESEARCH,Refit Imperial walkers with shield generators inspired by the AT-XT, exchanging some hull integrity for renewable defensive protection against sustained enemy fire. (Replaces AT-ST/A, AT-AP, and AT-AT/AT-AT Turbolaser Refit)
 TEXT_TOOLTIP_VULTURE_DROID,A small droid fighter that relies on numbers and maneuverability to win dogfights. While modular enough to carry munitions, they are often replaced with extra fuel slugs to increase flight time from being minutes long. They are best used to swarm enemy fighters and bombers.
 TEXT_TOOLTIP_YARNAR,A TIE Fighter pilot stationed on Celanon in the D'Asta Sector during the later phases of Galactic Civil War.
 TEXT_TOOLTIP_YEORG_CAPTISON,Yeorg Captison was a member of the notable Bakuran Captison family of politicians and was married to Tiree Captison. Yeorg was elected to the Bakuran Senate as Prime Minister around four years before the beginning of the Clone Wars. After the Empire took control over Bakura they allowed him to remain as Prime Minister, though the post held little authority, as it was now subservient to the Imperial governor, Wilek Nereus.
@@ -1330,6 +1334,7 @@ TEXT_UNIT_VENATOR_8X,Venator Star Destroyer Refit
 TEXT_UNIT_VICTORY_DESTROYER_MK2_CARRIER,Victory-II Star Destroyer Carrier Refit
 TEXT_UNIT_VICTORY_PATROL,Patrol Victory-I Star Destroyer
 TEXT_UNIT_VINDICATOR_CARRIER,Vindicator Heavy Carrier
+TEXT_UNIT_VSHIELDED_RESEARCH,Shielded Walker Research
 TEXT_UNIT_VULTURE_DROID,Vulture Droid Mark 1
 TEXT_UNIT_YV929,YV-929 Armed Freighter
 TEXT_V_WING_ESK_SQUADRON,V-wing "Esk" Squadron

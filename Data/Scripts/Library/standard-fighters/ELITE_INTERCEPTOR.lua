@@ -64,7 +64,7 @@ return {
 			KAARENTH_DISSENSION = {"T_WING_SQUADRON", false},
 			KAMINO = {"MISSILE_ETA2_ACTIS_SQUADRON", false},
 			KASHYYYK = {"MISSILE_ETA2_ACTIS_SQUADRON", false},
-			KUAT = {"NIMBUS_V_WING_ESK_SQUADRON", false},
+			KUAT = {"TIE_X7_SQUADRON", false},
 			LAMBDA = {"V38_SQUADRON", false},
 			LUMIYA = {"ROYAL_GUARD_INTERCEPTOR_SQUADRON", false},
 			MAELSTROM = {"UPGUNNED_SHIELDED_ARMORED_INTERCEPTOR_SQUADRON", false},
@@ -109,29 +109,43 @@ return {
 		end 
 		
 		if owner == "IMPERIAL_PROTEUS" then
-				local group_name = GlobalValue.Get("PROTEUS_GROUP_NAME")
-				if proteustypes[group_name] then
-					fighter = proteustypes[group_name][1]
-					if proteustypes[group_name][2] ~= false then
-						if Check_Flags(flags, "PROTEUS_OVERRIDE") then
-							fighter = proteustypes[group_name][2]
-						end
-					end
-					if table.getn(proteustypes[group_name]) > 2 then
-						for i = 3, table.getn(proteustypes[group_name]), 1 do
-							local research = proteustypes[group_name][i][1]
-							if Get_Fighter_Research(research) then
-								fighter = proteustypes[group_name][i][2]
-								if proteustypes[group_name][i][3][1] ~= false then
-									if Check_Flags(flags, "PROTEUS_OVERRIDE") then
-										fighter = proteustypes[group_name][i][3]
-									end
+			local group_name = GlobalValue.Get("PROTEUS_GROUP_NAME")
+			if proteustypes[group_name] then
+				if string.find(fighter, "GAMBLE_") then
+					local random_list = require("random-fighters/GAMBLE_ELITE_INTERCEPTOR")
+					if random_list[group_name] then
+						if table.getn(random_list[group_name]) > 0 then
+							local select = GameRandom.Free_Random(1, table.getn(random_list[group_name]))
+							for pos, obj in pairs(random_list[group_name]) do
+								if pos == select then
+									fighter = obj
 								end
 							end
-						end	
+						end
+					end
+				else
+					fighter = proteustypes[group_name][1]
+				end
+				if proteustypes[group_name][2] ~= false then
+					if Check_Flags(flags, "PROTEUS_OVERRIDE") then
+						fighter = proteustypes[group_name][2]
 					end
 				end
-			end 
+				if table.getn(proteustypes[group_name]) > 2 then
+					for i = 3, table.getn(proteustypes[group_name]), 1 do
+						local research = proteustypes[group_name][i][1]
+						if Get_Fighter_Research(research) then
+							fighter = proteustypes[group_name][i][2]
+							if proteustypes[group_name][i][3][1] ~= false then
+								if Check_Flags(flags, "PROTEUS_OVERRIDE") then
+									fighter = proteustypes[group_name][i][3]
+								end
+							end
+						end
+					end	
+				end
+			end
+		end
 		
 		if double then
 			suffix = Double_Suffix(suffix)

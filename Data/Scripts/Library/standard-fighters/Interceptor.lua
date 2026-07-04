@@ -59,7 +59,7 @@ return {
 			KAMINO = {"TIE_INTERCEPTOR_SQUADRON", false},
 			KASHYYYK = {"TIE_INTERCEPTOR_SQUADRON", false,
 					{"KSM", "TIE_INTERCEPTOR_BF2_SQUADRON", false}}, --research 1
-			KUAT = {"MANEUVER_ETA2_ACTIS_SQUADRON", false},
+			KUAT = {"A9_SQUADRON", false},
 			LAMBDA = {"TIE_INTERCEPTOR_SQUADRON", false},
 			LUMIYA = {"ASSAULT_ETA2_ACTIS_SQUADRON", false},
 			MAELSTROM = {"NIMBUS_V_WING_SQUADRON", false},
@@ -127,10 +127,24 @@ return {
 				fighter = "MISSILE_TIE_INTERCEPTOR_SQUADRON"
 			end
 			
-		if owner == "IMPERIAL_PROTEUS" then
+			if owner == "IMPERIAL_PROTEUS" then
 				local group_name = GlobalValue.Get("PROTEUS_GROUP_NAME")
 				if proteustypes[group_name] then
-					fighter = proteustypes[group_name][1]
+					if string.find(fighter, "GAMBLE_") then
+						local random_list = require("random-fighters/GAMBLE_INTERCEPTOR")
+						if random_list[group_name] then
+							if table.getn(random_list[group_name]) > 0 then
+								local select = GameRandom.Free_Random(1, table.getn(random_list[group_name]))
+								for pos, obj in pairs(random_list[group_name]) do
+									if pos == select then
+										fighter = obj
+									end
+								end
+							end
+						end
+					else
+						fighter = proteustypes[group_name][1]
+					end
 					if proteustypes[group_name][2] ~= false then
 						if Check_Flags(flags, "PROTEUS_OVERRIDE") then
 							fighter = proteustypes[group_name][2]
@@ -150,7 +164,7 @@ return {
 						end	
 					end
 				end
-			end 
+			end
 			
 			if is_main_empire and Check_Flags(flags,"ISD") then
 				if regime == 4 or regime == 6 then

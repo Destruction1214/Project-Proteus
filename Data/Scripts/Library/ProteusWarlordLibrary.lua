@@ -378,7 +378,7 @@ return {
 				-- Fighter Hero
 				"Red_Star_Location_Set",
 				-- Research
-				"Tapani_A9_Research",
+				"Proteus_A9_Research",
 			},
 			LockList = {"Firebird_Stormtrooper_Company"},
 			FactionOverride = "Empire",
@@ -868,7 +868,7 @@ return {
 			Planets = {"DANTOOINE"},
 			LeaderTable = {"RAVEEN_PREDOMINANT"},
 			LeaderEndingNames = {"Emperor Raveen"},
-			HeroList = {"Raveen_Predominant"},
+			HeroList = {"Raveen_Predominant","Lezner_Team"},
 			FighterHero = {{"DEATHFIRE_GAMMA_SQUADRON","RAVEEN_PREDOMINANT"}},
 			FactionOverride = "Empire",
 			FactionOverride2 = "Pentastar",
@@ -1108,6 +1108,8 @@ return {
 				"AT_ST_Company", "Scorpenek_Sentry_Company", "AAC_1_Company", 
 				"Freerunner_Assault_Company", "MAL_Rocket_Vehicle_Company", "AT_AA_Missile_Walker_Company",
 				"Tracked_Mobile_Base_Company", "Imperial_AT_TE_Walker_Company",
+				-- Research
+				"Proteus_A9_Research",
 			},
 			FactionOverride = "Empire",
 			FactionOverride2 = "Independent_Forces",
@@ -1252,7 +1254,7 @@ return {
 				"008_Speeder_Company", "Imperial_VAAT_Company", "Imperial_Missile_Artillery_Company", "AV_7_Company", "Imperial_UT_AA_Company", 
 				"Teklos_Company", "Aratech_Battle_Platform_Company",
 				-- Research
-				"Dummy_RepublicSD_Rendili", "Dummy_Random_Unit_Rendili_VSD", "Dummy_Random_Unit_Rendili_DHC", "Dummy_Random_Unit_Rendili_NSBC"
+				"Dummy_RepublicSD_Rendili", "Dummy_Random_Unit_Rendili_VSD", "Dummy_Random_Unit_Rendili_DHC", "Dummy_Random_Unit_Rendili_NSBC", "Dummy_Random_Unit_Rendili_GSD",
 			},
 			FactionOverride = "Empire",
 			StartYear = 4,
