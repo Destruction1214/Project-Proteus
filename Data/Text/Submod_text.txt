@@ -1,4 +1,9 @@
-﻿D_TEXT_TOOLTIP_DRAGON_TROOPER,Primitive reptiloid warriors fiercely loyal to Delurin and equipped with ornate metal armor and flamethrowers to more closely resemble the Dragons of ancient myth. Unacquainted with blaster weaponry and other advanced technology, they are nonetheless resilient and quick on their feet.
+﻿TEXT_TOOLTIP_SHIELDED_ATST_A,Equipped with a compact shield generator, the Shielded AT-ST/A exchanges some hull integrity for rechargeable defensive shielding, allowing it to remain effective under sustained enemy fire.
+TEXT_TOOLTIP_SHIELDED_ATAT_HEALTH,Fitted with an advanced shield generator, the Shielded AT-AT trades some hull integrity for rechargeable shielding, greatly increasing its endurance during prolonged assaults.
+TEXT_TOOLTIP_SHIELDED_ATAT_REFIT,Retaining the devastating firepower of the Turbolaser Refit, this variant incorporates a shield generator that exchanges some hull integrity for renewable defensive shielding, improving its resilience in combat.
+TEXT_TOOLTIP_SHIELDED_ATAP,Outfitted with a compact shield generator, the Shielded AT-AP sacrifices some structural durability in exchange for renewable shielding, improving its survivability while retaining its anti-armor role.
+TEXT_TOOLTIP_REBORN_DARKJEDI,The strongest of Desann's dark side followers, empowered by the Valley of the Jedi and wearing Shadow Armor made from cortosis. While originally few in number, Desann and Hethrir threatened to use the Valley's power to create an entire army of them to unleash upon the Galaxy, prompting intervention by the New Republic Agent and Jedi Kyle Katarn. These Reborn are fearsome duelists, able to cut through most enemies with ease and challenge even trained Jedi. In addition to their lightsabers and force powers, they possess personal cloaking fields for ambushes and infiltration. Extremely hard to put down, but not invincible.
+D_TEXT_TOOLTIP_DRAGON_TROOPER,Primitive reptiloid warriors fiercely loyal to Delurin and equipped with ornate metal armor and flamethrowers to more closely resemble the Dragons of ancient myth. Unacquainted with blaster weaponry and other advanced technology, they are nonetheless resilient and quick on their feet.
 D_TEXT_TOOLTIP_DRAGON_TROOPER_COMPANY,Company: 36x Dragon Trooper
 D_TEXT_TOOLTIP_DRAGON_TROOPER_COMPANY_WEAP1,24x Blaster Carbine: 3 / 1.25s / 220m
 D_TEXT_TOOLTIP_DRAGON_TROOPER_SQUAD,Squad: 9x Dragon Trooper
@@ -945,16 +950,16 @@ TEXT_TOOLTIP_SHADOWTROOPER_M_SQUAD_WEAP3,1x Ion Grenade: 1 / 15.0s / 200m
 TEXT_TOOLTIP_SHARAOR,A female Draethos with a long career in law enforcement dating back to before the Clone Wars. After fleeing from Separatist occupation, she took a job as a private security officer for TaggeCo, a position she would keep throughout the Galactic Civil War and beyond.
 TEXT_TOOLTIP_SHIELDED_AT_AP_COMPANY,Company: 1x Shielded AT-AP Walker
 TEXT_TOOLTIP_SHIELDED_ATAP_HEALTH,Health 225 (Medium Vehicle)
-TEXT_TOOLTIP_SHIELDED_ATAP_SHIELD,Shields: 75 (Medium Vehicle)
+TEXT_TOOLTIP_SHIELDED_ATAP_SHIELD,Shields: 80 / [5/R] (Medium Vehicle)
 TEXT_TOOLTIP_SHIELDED_ATAT,TODO
 TEXT_TOOLTIP_SHIELDED_ATAT_COMPANY,Company: 1x Shielded AT-AT Walker
 TEXT_TOOLTIP_SHIELDED_ATAT_HEALTH,Health: 700 (Heavy Vehicle)
 TEXT_TOOLTIP_SHIELDED_ATAT_REFIT_COMPANY,Company: 1x Shielded Turbolaser Refit AT-AT Walker
-TEXT_TOOLTIP_SHIELDED_ATAT_SHIELD,Shields: 100 / [10/R] (Heavy Vehicle)
+TEXT_TOOLTIP_SHIELDED_ATAT_SHIELD,Shields: 150 / [10/R] (Heavy Vehicle)
 TEXT_TOOLTIP_SHIELDED_ATST_A,TODO
 TEXT_TOOLTIP_SHIELDED_ATST_A_COMPANY,Company: 4x Shielded AT-ST/A Walker
-TEXT_TOOLTIP_SHIELDED_ATST_A_HEALTH,Health: 130 (Light Vehicle)
-TEXT_TOOLTIP_SHIELDED_ATST_A_SHIELD,Shields: 50 / [5/R] (Light Vehicle)
+TEXT_TOOLTIP_SHIELDED_ATST_A_HEALTH,Health: 120 (Light Vehicle)
+TEXT_TOOLTIP_SHIELDED_ATST_A_SHIELD,Shields: 75 / [5/R] (Light Vehicle)
 TEXT_TOOLTIP_SHIELDED_MISSILE_TIE_FIGHTER,A rare TIE Fighter variant modified with a shield generator and anti-fighter concussion missile launchers. Typically deployed in situations that require the extra durability and firepower and no other dedicated interceptors are available. The additional weight creates a small but noticeable decrease to the craft’s speed and handling.
 TEXT_TOOLTIP_SHIELDED_TIE_BOMBER,An uncommon modification of the stock TIE/sa model to incorporate a shield generator for increased survivability. However, the frame and power systems were not designed with such an addition in mind, and thus the craft loses a significant chunk of its speed and agility as a result of the increased mass and power draw. The results led to Imperial procurement favoring newer bomber models whose designs included shields from the outset over re-fitting existing models. However, after the Battle of Endor, a variety of Imperial warlords and other groups would make use of this modification in order to reduce lost bombers during strike missions.
 TEXT_TOOLTIP_SITH_ASSASSIN,Masters of subterfuge, Sith Assassins work unseen on the battlefield until they sense weakness, at which point they pounce on their enemy. Sith Assassins in Revan's Empire to the Sith Triumvirate used both lightsabers for elite members and a mix of quarterstaffs and blaster weaponry for lower ranks. They would be used by the Triumvirate to great effect to ruthlessly hunt down Jedi.
@@ -1228,8 +1233,8 @@ TEXT_UNIT_PHASE_TWO_SQUAD,Republic Surplus Trooper Squad
 TEXT_UNIT_PRAETOR_I,Praetor-I Battlecruiser
 TEXT_UNIT_PROCURATOR,Procurator Battlecruiser
 TEXT_UNIT_PROTEUS_A9_RESEARCH,Acquire A-9 Interceptors.
-TEXT_UNIT_REBORN_DARKJEDI,Reborn Shadow Dark Jedi
-TEXT_UNIT_REBORN_DARKJEDI_COMPANY,Reborn Shadow Dark Jedi Company
+TEXT_UNIT_REBORN_DARKJEDI,Reborn Dark Jedi
+TEXT_UNIT_REBORN_DARKJEDI_COMPANY,Reborn Dark Jedi Company
 TEXT_UNIT_RED_POLICE,Red Police
 TEXT_UNIT_RED_POLICE_DISRUPTOR,Red Police Disruptor
 TEXT_UNIT_RED_POLICE_GUNNER_LIGHT,Red Police Light Gunner
