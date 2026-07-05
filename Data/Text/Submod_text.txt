@@ -1,9 +1,4 @@
-﻿TEXT_TOOLTIP_SHIELDED_ATST_A,Equipped with a compact shield generator, the Shielded AT-ST/A exchanges some hull integrity for rechargeable defensive shielding, allowing it to remain effective under sustained enemy fire.
-TEXT_TOOLTIP_SHIELDED_ATAT_HEALTH,Fitted with an advanced shield generator, the Shielded AT-AT trades some hull integrity for rechargeable shielding, greatly increasing its endurance during prolonged assaults.
-TEXT_TOOLTIP_SHIELDED_ATAT_REFIT,Retaining the devastating firepower of the Turbolaser Refit, this variant incorporates a shield generator that exchanges some hull integrity for renewable defensive shielding, improving its resilience in combat.
-TEXT_TOOLTIP_SHIELDED_ATAP,Outfitted with a compact shield generator, the Shielded AT-AP sacrifices some structural durability in exchange for renewable shielding, improving its survivability while retaining its anti-armor role.
-TEXT_TOOLTIP_REBORN_DARKJEDI,The strongest of Desann's dark side followers, empowered by the Valley of the Jedi and wearing Shadow Armor made from cortosis. While originally few in number, Desann and Hethrir threatened to use the Valley's power to create an entire army of them to unleash upon the Galaxy, prompting intervention by the New Republic Agent and Jedi Kyle Katarn. These Reborn are fearsome duelists, able to cut through most enemies with ease and challenge even trained Jedi. In addition to their lightsabers and force powers, they possess personal cloaking fields for ambushes and infiltration. Extremely hard to put down, but not invincible.
-D_TEXT_TOOLTIP_DRAGON_TROOPER,Primitive reptiloid warriors fiercely loyal to Delurin and equipped with ornate metal armor and flamethrowers to more closely resemble the Dragons of ancient myth. Unacquainted with blaster weaponry and other advanced technology, they are nonetheless resilient and quick on their feet.
+﻿D_TEXT_TOOLTIP_DRAGON_TROOPER,Primitive reptiloid warriors fiercely loyal to Delurin and equipped with ornate metal armor and flamethrowers to more closely resemble the Dragons of ancient myth. Unacquainted with blaster weaponry and other advanced technology, they are nonetheless resilient and quick on their feet.
 D_TEXT_TOOLTIP_DRAGON_TROOPER_COMPANY,Company: 36x Dragon Trooper
 D_TEXT_TOOLTIP_DRAGON_TROOPER_COMPANY_WEAP1,24x Blaster Carbine: 3 / 1.25s / 220m
 D_TEXT_TOOLTIP_DRAGON_TROOPER_SQUAD,Squad: 9x Dragon Trooper
@@ -875,6 +870,7 @@ TEXT_TOOLTIP_PROCURATOR_WEAP3,6x Proton Torpedoes: 2 / 7.5s / 5.5km
 TEXT_TOOLTIP_PROTEUS_A9_RESEARCH,Acquire Kuat's new A-9 Interceptors. Replace the older Interceptors.
 TEXT_TOOLTIP_PROVIDENCE_PIRATE_SQUADRON,Fighters: 1 / 3 | Bombers: 2 / 6  
 TEXT_TOOLTIP_RBANN,Rbann was a Kubaz Imperial spy who worked directly for Blackhole, the shadowy Director of Imperial Intelligence. In 1 ABY, Blackhole dispatched Rbann to the "Gambler's World" of Vorzyd V, ordering the Kubaz to track prominent Rebel leaders Luke Skywalker and Leia Organa, who Blackhole had learned had been sent to Vorzyd V to disrupt Imperial operations there. Rbann quickly managed to track them to the Casino Royale in the capital city of Efavan, and his stormtroopers overpowered the Rebels and imprisoned them aboard Rbann's ship.
+TEXT_TOOLTIP_REBORN_DARKJEDI,The strongest of Desann's dark side followers, empowered by the Valley of the Jedi and wearing Shadow Armor made from cortosis. While originally few in number, Desann and Hethrir threatened to use the Valley's power to create an entire army of them to unleash upon the Galaxy, prompting intervention by the New Republic Agent and Jedi Kyle Katarn. These Reborn are fearsome duelists, able to cut through most enemies with ease and challenge even trained Jedi. In addition to their lightsabers and force powers, they possess personal cloaking fields for ambushes and infiltration. Extremely hard to put down, but not invincible.
 TEXT_TOOLTIP_RED_POLICE,An infamous law enforcement agency established on the planet Prakith under the auspices of Moff Foga Brill. The Red Police were feared as the paramilitary instruments of Brill's reign, and suspected of conducting mass executions of vagrants, dissidents and other undesirables. Like much of Moff Brill's private fiefdom, the Red Police are ostentatious, imposing and flaunting expensive gear, only to mask deep-set rot and brittleness.
 TEXT_TOOLTIP_RED_POLICE_COMPANY,Company: 18x Red Police
 TEXT_TOOLTIP_RED_POLICE_COMPANY_WEAP1,9x Blaster SMG: 5 / 2.0s / 220m
@@ -949,14 +945,18 @@ TEXT_TOOLTIP_SHADOWTROOPER_M_SQUAD_WEAP2,1x T-21 Repeating Blaster: 5 / 1.0s / 2
 TEXT_TOOLTIP_SHADOWTROOPER_M_SQUAD_WEAP3,1x Ion Grenade: 1 / 15.0s / 200m
 TEXT_TOOLTIP_SHARAOR,A female Draethos with a long career in law enforcement dating back to before the Clone Wars. After fleeing from Separatist occupation, she took a job as a private security officer for TaggeCo, a position she would keep throughout the Galactic Civil War and beyond.
 TEXT_TOOLTIP_SHIELDED_AT_AP_COMPANY,Company: 1x Shielded AT-AP Walker
+TEXT_TOOLTIP_SHIELDED_ATAP,Outfitted with a compact shield generator, the Shielded AT-AP sacrifices some structural durability in exchange for renewable shielding, improving its survivability while retaining its anti-armor role.
 TEXT_TOOLTIP_SHIELDED_ATAP_HEALTH,Health 225 (Medium Vehicle)
 TEXT_TOOLTIP_SHIELDED_ATAP_SHIELD,Shields: 80 / [5/R] (Medium Vehicle)
 TEXT_TOOLTIP_SHIELDED_ATAT,TODO
 TEXT_TOOLTIP_SHIELDED_ATAT_COMPANY,Company: 1x Shielded AT-AT Walker
 TEXT_TOOLTIP_SHIELDED_ATAT_HEALTH,Health: 700 (Heavy Vehicle)
+TEXT_TOOLTIP_SHIELDED_ATAT_HEALTH,Fitted with an advanced shield generator, the Shielded AT-AT trades some hull integrity for rechargeable shielding, greatly increasing its endurance during prolonged assaults.
+TEXT_TOOLTIP_SHIELDED_ATAT_REFIT,Retaining the devastating firepower of the Turbolaser Refit, this variant incorporates a shield generator that exchanges some hull integrity for renewable defensive shielding, improving its resilience in combat.
 TEXT_TOOLTIP_SHIELDED_ATAT_REFIT_COMPANY,Company: 1x Shielded Turbolaser Refit AT-AT Walker
 TEXT_TOOLTIP_SHIELDED_ATAT_SHIELD,Shields: 150 / [10/R] (Heavy Vehicle)
 TEXT_TOOLTIP_SHIELDED_ATST_A,TODO
+TEXT_TOOLTIP_SHIELDED_ATST_A,Equipped with a compact shield generator, the Shielded AT-ST/A exchanges some hull integrity for rechargeable defensive shielding, allowing it to remain effective under sustained enemy fire.
 TEXT_TOOLTIP_SHIELDED_ATST_A_COMPANY,Company: 4x Shielded AT-ST/A Walker
 TEXT_TOOLTIP_SHIELDED_ATST_A_HEALTH,Health: 120 (Light Vehicle)
 TEXT_TOOLTIP_SHIELDED_ATST_A_SHIELD,Shields: 75 / [5/R] (Light Vehicle)
