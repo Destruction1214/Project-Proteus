@@ -11507,7 +11507,7 @@
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_IXIYEN_FIGHTER
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		TEXT_STATBLOCK_IXIYEN_SQUADRON
+		TEXT_STATBLOCK_IXIYEN_SQUADRON_DOUBLE
 		TEXT_STATBLOCK_IXIYEN_BASE 
 		TEXT_STATBLOCK_IXIYEN_MOVE
 		TEXT_STATBLOCK_IXIYEN_WEAP1
@@ -11693,7 +11693,7 @@
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_IXIYEN_FIGHTER
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		TEXT_STATBLOCK_IXIYEN_FIGHTER_SQUADRON_DOUBLE
+		TEXT_STATBLOCK_IXIYEN_FIGHTER_SQUADRON_HALF
 		TEXT_STATBLOCK_IXIYEN_FIGHTER_BASE 
 		TEXT_STATBLOCK_IXIYEN_FIGHTER_MOVE
 		TEXT_STATBLOCK_IXIYEN_FIGHTER_WEAP1
@@ -12536,14 +12536,14 @@
 		<Text_ID>TEXT_VCX820_SQUADRON</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_FBHEAVY </Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>
-		TEXT_TOOLTIP_VCX_820
+		TEXT_TOOLTIP_VCX820
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
-		TEXT_STATBLOCK_VCX_820_SQUADRON
-		TEXT_STATBLOCK_VCX_820_BASE
-		TEXT_STATBLOCK_VCX_820_MOVE
-		TEXT_STATBLOCK_VCX_820_WEAP1
-		TEXT_STATBLOCK_VCX_820_WEAP2
-		TEXT_STATBLOCK_VCX_820_WEAP3
+		TEXT_STATBLOCK_VCX820_SQUADRON
+		TEXT_STATBLOCK_VCX820_BASE
+		TEXT_STATBLOCK_VCX820_MOVE
+		TEXT_STATBLOCK_VCX820_WEAP1
+		TEXT_STATBLOCK_VCX820_WEAP2
+		TEXT_STATBLOCK_VCX820_WEAP3
 		</Encyclopedia_Text>
 		
 		<Encyclopedia_Good_Against>  </Encyclopedia_Good_Against>
@@ -12715,14 +12715,14 @@
 		<Text_ID>TEXT_VCX820_SQUADRON2</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_FBHEAVY </Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>
-		TEXT_TOOLTIP_VCX_820
+		TEXT_TOOLTIP_VCX820
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		TEXT_STATBLOCK_VCX_820_SQUADRON_DOUBLE
-		TEXT_STATBLOCK_VCX_820_BASE
-		TEXT_STATBLOCK_VCX_820_MOVE
-		TEXT_STATBLOCK_VCX_820_WEAP1 
-		TEXT_STATBLOCK_VCX_820_WEAP2
-		TEXT_STATBLOCK_VCX_820_WEAP3
+		TEXT_STATBLOCK_VCX820_SQUADRON_DOUBLE
+		TEXT_STATBLOCK_VCX820_BASE
+		TEXT_STATBLOCK_VCX820_MOVE
+		TEXT_STATBLOCK_VCX820_WEAP1 
+		TEXT_STATBLOCK_VCX820_WEAP2
+		TEXT_STATBLOCK_VCX820_WEAP3
 		</Encyclopedia_Text>
 		
 		<Encyclopedia_Good_Against>  </Encyclopedia_Good_Against>
@@ -12885,14 +12885,14 @@
 		<Text_ID>TEXT_VCX820_SQUADRON_HALF</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_FBHEAVY </Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>
-		TEXT_TOOLTIP_VCX_820
+		TEXT_TOOLTIP_VCX820
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		TEXT_STATBLOCK_VCX_820_SQUADRON_HALF
-		TEXT_STATBLOCK_VCX_820_BASE
-		TEXT_STATBLOCK_VCX_820_MOVE 
-		TEXT_STATBLOCK_VCX_820_WEAP1 
-		TEXT_STATBLOCK_VCX_820_WEAP2 
-		TEXT_STATBLOCK_VCX_820_WEAP3
+		TEXT_STATBLOCK_VCX820_SQUADRON_HALF
+		TEXT_STATBLOCK_VCX820_BASE
+		TEXT_STATBLOCK_VCX820_MOVE 
+		TEXT_STATBLOCK_VCX820_WEAP1 
+		TEXT_STATBLOCK_VCX820_WEAP2 
+		TEXT_STATBLOCK_VCX820_WEAP3
 		</Encyclopedia_Text>
 		
 		<Encyclopedia_Good_Against>  </Encyclopedia_Good_Against>
@@ -14141,31 +14141,33 @@
 		<SFXEvent_Build_Cancelled>RHD_Unit_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Complete_Scarab</SFXEvent_Build_Complete>
 		
-		<SFXEvent_Select> Unit_Select_Scarab </SFXEvent_Select>
-		<SFXEvent_Move> Unit_Move_Scarab </SFXEvent_Move>
-		<SFXEvent_Fleet_Move>Unit_Move_Scarab</SFXEvent_Fleet_Move>
-		<SFXEvent_Attack> Unit_Attack_Scarab </SFXEvent_Attack>
-		<SFXEvent_Guard> Unit_Select_Scarab </SFXEvent_Guard>
-		<SFXEvent_Move_Into_Asteroid_Field> Unit_Move_Scarab </SFXEvent_Move_Into_Asteroid_Field>
-		<SFXEvent_Move_Into_Nebula> Unit_Move_Scarab </SFXEvent_Move_Into_Nebula>
-		<SFXEvent_Enemy_Damaged_Health_Low_Warning> Unit_enemy_low_health_Scarab </SFXEvent_Enemy_Damaged_Health_Low_Warning>
-		<SFXEvent_Enemy_Damaged_Health_Critical_Warning> Unit_enemy_critical_health_Scarab </SFXEvent_Enemy_Damaged_Health_Critical_Warning>
-		<SFXEvent_Health_Low_Warning> Unit_low_health_Scarab </SFXEvent_Health_Low_Warning>
-		<SFXEvent_Health_Critical_Warning> Unit_critical_health_Scarab </SFXEvent_Health_Critical_Warning>
+		<SFXEvent_Select> Unit_Select_Pirate_Fighter </SFXEvent_Select>
+		<SFXEvent_Move> Unit_Move_Pirate_Fighter </SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Pirate_Fighter</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack> Unit_Attack_Pirate_Fighter </SFXEvent_Attack>
+		<SFXEvent_Guard> Unit_Guard_Pirate_Fighter </SFXEvent_Guard>
+		<SFXEvent_Assist_Move>Unit_Assist_Move_Pirate_Fighter</SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack>Unit_Assist_Attack_Pirate_Fighter</SFXEvent_Assist_Attack>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_Pirate_Fighter </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Nebula_Pirate_Fighter </SFXEvent_Move_Into_Nebula>
+		<SFXEvent_Enemy_Damaged_Health_Low_Warning> Unit_Enemy_Health_Low_Pirate_Fighter </SFXEvent_Enemy_Damaged_Health_Low_Warning>
+		<SFXEvent_Enemy_Damaged_Health_Critical_Warning> Unit_Enemy_Health_Critical_Pirate_Fighter </SFXEvent_Enemy_Damaged_Health_Critical_Warning>
+		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Pirate_Fighter</SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Pirate_Fighter </SFXEvent_Health_Critical_Warning>
 
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_Attack_Scarab </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_Attack_Scarab </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_Attack_Scarab </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_Attack_Scarab </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_Attack_Scarab </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_Attack_Scarab </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_Attack_Scarab </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_FIGHTER_BAY, Unit_Attack_Scarab </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_TRACTOR_BEAM, Unit_Attack_Scarab </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MASS_DRIVER, Unit_Attack_Scarab </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_SPECIAL, Unit_Attack_Scarab </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_Attack_Scarab </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_DUMMY_ART, Unit_Attack_Scarab </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Pirate_Fighter </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Pirate_Fighter </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Pirate_Fighter </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Pirate_Fighter </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Pirate_Fighter </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_Pirate_Fighter </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_Pirate_Fighter </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_FIGHTER_BAY, Unit_HP_Bay_Pirate_Fighter </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_TRACTOR_BEAM, Unit_Attack_Pirate_Fighter </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MASS_DRIVER, Unit_Attack_Pirate_Fighter </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_SPECIAL, Unit_Attack_Pirate_Fighter </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_Attack_Pirate_Fighter </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_DUMMY_ART, Unit_Attack_Pirate_Fighter </SFXEvent_Attack_Hardpoint>
 
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, null </SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE, null </SFXEvent_Hardpoint_Destroyed>
@@ -17751,6 +17753,7 @@
 		TEXT_STATBLOCK_THETA_ASSAULT_SHUTTLE_WEAP1
 		TEXT_STATBLOCK_THETA_ASSAULT_SHUTTLE_WEAP2
 		TEXT_STATBLOCK_THETA_ASSAULT_SHUTTLE_WEAP3
+		TEXT_STATBLOCK_THETA_ASSAULT_SHUTTLE_WEAP4
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_FBHEAVY </Encyclopedia_Unit_Class>
 		<Space_Model_Name>Theta-class_T-2c_shuttle_space.alo</Space_Model_Name>
@@ -18132,6 +18135,7 @@
 		TEXT_STATBLOCK_THETA_ASSAULT_SHUTTLE_WEAP1
 		TEXT_STATBLOCK_THETA_ASSAULT_SHUTTLE_WEAP2
 		TEXT_STATBLOCK_THETA_ASSAULT_SHUTTLE_WEAP3
+		TEXT_STATBLOCK_THETA_ASSAULT_SHUTTLE_WEAP4
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_FBHEAVY </Encyclopedia_Unit_Class>
 
@@ -18159,6 +18163,7 @@
 		TEXT_STATBLOCK_THETA_ASSAULT_SHUTTLE_WEAP1 
 		TEXT_STATBLOCK_THETA_ASSAULT_SHUTTLE_WEAP2
 		TEXT_STATBLOCK_THETA_ASSAULT_SHUTTLE_WEAP3
+		TEXT_STATBLOCK_THETA_ASSAULT_SHUTTLE_WEAP4
 		</Encyclopedia_Text>
 		
 		<Encyclopedia_Good_Against>  </Encyclopedia_Good_Against>
@@ -18302,6 +18307,7 @@
 		TEXT_STATBLOCK_THETA_ASSAULT_SHUTTLE_WEAP1
 		TEXT_STATBLOCK_THETA_ASSAULT_SHUTTLE_WEAP2
 		TEXT_STATBLOCK_THETA_ASSAULT_SHUTTLE_WEAP3
+		TEXT_STATBLOCK_THETA_ASSAULT_SHUTTLE_WEAP4
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_FBHEAVY </Encyclopedia_Unit_Class>
 
@@ -18329,6 +18335,7 @@
 		TEXT_STATBLOCK_THETA_ASSAULT_SHUTTLE_WEAP1 
 		TEXT_STATBLOCK_THETA_ASSAULT_SHUTTLE_WEAP2 
 		TEXT_STATBLOCK_THETA_ASSAULT_SHUTTLE_WEAP3
+		TEXT_STATBLOCK_THETA_ASSAULT_SHUTTLE_WEAP4
 		</Encyclopedia_Text>
 		
 		<Encyclopedia_Good_Against>  </Encyclopedia_Good_Against>

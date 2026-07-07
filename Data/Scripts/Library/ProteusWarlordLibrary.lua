@@ -378,7 +378,7 @@ return {
 				-- Fighter Hero
 				"Red_Star_Location_Set",
 				-- Research
-				"Tapani_A9_Research",
+				"Proteus_A9_Research",
 			},
 			LockList = {"Firebird_Stormtrooper_Company"},
 			FactionOverride = "Empire",
@@ -481,7 +481,7 @@ return {
 			Planets = {"TEPASI","BRENTAAL","BONADAN","LANTILLIES","DRUCKENWELL","MONASTERY","KRANN","TISSSHARL","PALLAXIDES"},
 			LeaderTable = {"ULRIC_TAGGE"},
 			LeaderEndingNames = {"Baron-Emperor Tagge"},
-			HeroList = {{"Ulric_Tagge", "Domina_Tagge_Team", "Dimone_Irrv_Team", "Shara_Or_Team"}, [5] = {"Ulric_Tagge", "Dimone_Irrv_Team", "Shara_Or_Team"}},
+			HeroList = {{"Ulric_Tagge", "Domina_Tagge_Team", "Dimone_Irrv_Team", "Shara_Or_Team"}, [6] = {"Ulric_Tagge", "Dimone_Irrv_Team", "Shara_Or_Team"}},
 			UnlockList = {
 				-- Space
 				"Citadel_Cruiser_Group", "IPV1", "Nebulon_B_Tender", "Lancer_Frigate_PDF", "Marauder_Cruiser", "Surveyor_Frigate", "CEC_Light_Cruiser", 			
@@ -489,7 +489,7 @@ return {
 				"Imperial_I_Star_Destroyer_Patrol", "Imperial_I_Star_Destroyer_Command", "Triumph_Star_Destroyer", 
 				"CSA_Tagge_Battlecruiser", "Torpedo_Sphere", "Mandator_II_Dreadnought",
 				-- Ground
-				"Imperial_Army_Trooper_Company", "Imperial_Army_Commando_Company", "Security_Trooper_Company", "New_Republic_Overracer_Speeder_Bike_Company",
+				"Imperial_Army_Trooper_Company", "Imperial_Army_Commando_Company", "Security_Trooper_Company", "Overracer_Speeder_Bike_Company",
 				"PX10_Company", "New_Republic_AA5_Company", "Arrow_23_Company", "AT_MP_Company",
 				"1M_Tank_Company", "AT_AA_Flak_Walker_Company", "JX40_Company", "Imperial_Missile_Artillery_Company", "SPMAT_Company", "Strikebreaker_Company",
 				"Teklos_Company", "C10_Siege_Tower_Company",
@@ -868,7 +868,7 @@ return {
 			Planets = {"DANTOOINE"},
 			LeaderTable = {"RAVEEN_PREDOMINANT"},
 			LeaderEndingNames = {"Emperor Raveen"},
-			HeroList = {"Raveen_Predominant"},
+			HeroList = {"Raveen_Predominant","Lezner_Team"},
 			FighterHero = {{"DEATHFIRE_GAMMA_SQUADRON","RAVEEN_PREDOMINANT"}},
 			FactionOverride = "Empire",
 			FactionOverride2 = "Pentastar",
@@ -998,12 +998,12 @@ return {
 				-- Space	
 				"VT49_Decimator_Group", "Raider_I_Corvette", "Lancer_Frigate", "Arquitens", "Ton_Falk_Escort_Carrier", "Nebulon_B_Tender", "Eidolon", "Imperial_Nebulon_B",
 				"Super_Transport_VII_Interdictor", "Pursuit_Light_Cruiser", "Acclamator_II", "Victory_I_Star_Destroyer",
-				"Imperial_I_Star_Destroyer", "Imperial_I_Star_Destroyer_Assault",
+				"Imperial_II_Star_Destroyer", "Imperial_I_Star_Destroyer_Assault",
 				"Mandator_III_Dreadnought",
 				-- Ground
 				"Imperial_Army_Trooper_Company", "Compforce_Assault_Company", "Imperial_74Z_Bike_Company",
 				"Imperial_AT_PT_Company", "Chariot_LAV_Company", "AT_ST_Company",
-				"AT_AA_Walker_Company", "1M_Tank_Company", "SPMAG_Walker_Company", "Imperial_Dropship_Transport_Company",
+				"AT_AA_Walker_Company", "2M_Repulsor_Tank_Company", "SPMAG_Walker_Company", "Imperial_Dropship_Transport_Company",
 				"B5_Juggernaut_Company", "Imperial_AT_AT_Walker_Company",
 				-- Research
 				"KUAT_Dummy_Research_Corona",
@@ -1106,8 +1106,10 @@ return {
 				-- Ground
 				"PDF_Tactical_Unit_Company", "Security_Trooper_Company", "Imperial_Dwarf_Spider_Droid_Company", "Overracer_Speeder_Bike_Company",
 				"AT_ST_Company", "Scorpenek_Sentry_Company", "AAC_1_Company", 
-				"2M_Repulsor_Tank_Company", "MAL_Rocket_Vehicle_Company", "AT_AA_Missile_Walker_Company",
+				"Freerunner_Assault_Company", "MAL_Rocket_Vehicle_Company", "AT_AA_Missile_Walker_Company",
 				"Tracked_Mobile_Base_Company", "Imperial_AT_TE_Walker_Company",
+				-- Research
+				"Proteus_A9_Research",
 			},
 			FactionOverride = "Empire",
 			FactionOverride2 = "Independent_Forces",
@@ -1145,6 +1147,33 @@ return {
 			},
 			IntroText = "",
 			IntroHolo = "",
+		},
+		["VEERS"] = {
+			FriendlyName = "Blizzard Force",
+			Planets = {"FOLESS"},
+			LeaderTable = {["VEERS_CHARIOT_TEAM"] = {"VEERS_CHARIOT"}, ["VEERS_AT_AT_TEAM"] = {"VEERS_AT_AT_WALKER"},},
+			LeaderEndingNames = {"Emperor Veers"},
+			HeroList = {"Veers_AT_AT_Team","Nyrox_Team","Grath_Stormtrooper_Team"},
+			UnlockList = {
+				-- Space 
+				"Gamma_ATR_6_Group", "Crusader_Gunship", "Lancer_Frigate", "CC7700", "Strike_Cruiser_Light", "Carrack_Cruiser", "Star_Galleon",
+				"Rep_DHC", "Gladiator_II","Broadside_Cruiser", "Vindicator_Cruiser", "Victory_II_Star_Destroyer", "Proficient_Tender",
+				"Imperial_I_Star_Destroyer", "Imperial_I_Star_Destroyer_Command", "Interdictor_Star_Destroyer",
+				"Sorannan_Star_Destroyer", "Executor_Star_Dreadnought",
+				-- Ground
+				"Army_Special_Missions_Company", "Imperial_Army_Commando_Company", "Imperial_Army_74Z_Bike_Company",
+				"AT_ST_A_Company", "Imperial_AT_PT_Company", "AT_DP_Company", 
+				"Imperial_AT_AP_Walker_Company", "AT_AA_Walker_Company", "SPMAG_Walker_Company", "Imperial_Modified_LAAT_Company",
+				"Imperial_AT_ACT_Walker_Company", "Imperial_AT_AT_Walker_Company",
+				-- Research
+				"Dummy_Veers_Shielded_Walkers_Research",
+			},
+			FactionOverride = "Corellia",
+			StartYear = 7,
+			LastYear = 9,
+			IntroText = "TEXT_CONQUEST_PROTEUS_VEERS",
+			IntroHolo = "Imperial_Army_Officer_Loop"
+
 		},
 		["GRUNGER"] = {
 			FriendlyName = "Grunger's Empire",
@@ -1217,49 +1246,21 @@ return {
 			HeroList = {"Comeg_Ostrander"},
 			UnlockList = {
 				-- Space 
-				"Gozanti_Cruiser_Group", "Customs_Corvette", "Tartan_Patrol_Cruiser", "CC7700", "Carrack_Cruiser", 
-				"Rep_DHC", "Gladiator_I", "Neutron_Star", "Lictor", "Victory_I_Star_Destroyer", "Victory_II_Star_Destroyer", 
+				"Gozanti_Cruiser_Group", "Customs_Corvette", "Tartan_Patrol_Cruiser", "Carrack_Cruiser",
 				"Triumph_Star_Destroyer", "Invincible_Cruiser", "Assertor_Star_Dreadnought",
 				-- Ground
 				"Imperial_Army_Guard_Company", "Security_Trooper_Company", "Imperial_Fleet_Commando_Company", "64_Y_Swift_Repulsorlift_Sled_Company",
-				"1L_Tank_Company", "ULAV_Early_Company", "SP9_Group", 
-				"008_Speeder_Company", "Imperial_VAAT_Company", "Imperial_Missile_Artillery_Company", "AV_7_Company", "Imperial_UT_AA_Company", "Freerunner_Assault_Company", 
-				"Canderous_Assault_Tank_Company_Proteus", "Teklos_Company", "Aratech_Battle_Platform_Company",
+				"1L_Tank_Company", "ULAV_Early_Company", "Imperial_Gaba18_Company", 
+				"008_Speeder_Company", "Imperial_VAAT_Company", "Imperial_Missile_Artillery_Company", "AV_7_Company", "Imperial_UT_AA_Company", 
+				"Teklos_Company", "Aratech_Battle_Platform_Company",
 				-- Research
-				"Dummy_RepublicSD_Rendili", "Dummy_Random_Unit_Rendili_VSD", "Dummy_Random_Unit_Rendili_DHC", "Dummy_Random_Unit_Rendili_NSBC"
+				"Dummy_RepublicSD_Rendili", "Dummy_Random_Unit_Rendili_VSD", "Dummy_Random_Unit_Rendili_DHC", "Dummy_Random_Unit_Rendili_NSBC", "Dummy_Random_Unit_Rendili_GSD",
 			},
 			FactionOverride = "Empire",
 			StartYear = 4,
 			LastYear = 9,
 			IntroText = "TEXT_CONQUEST_PROTEUS_RENDILI",
 			IntroHolo = "Imperial_Naval_Officer_Loop"
-
-		},
-		["VEERS"] = {
-			FriendlyName = "Blizzard Force",
-			Planets = {"FOLESS"},
-			LeaderTable = {["VEERS_CHARIOT_TEAM"] = {"VEERS_CHARIOT"}, ["VEERS_AT_AT_TEAM"] = {"VEERS_AT_AT_WALKER"},},
-			LeaderEndingNames = {"Emperor Veers"},
-			HeroList = {"Veers_AT_AT_Team","Nyrox_Team","Grath_Stormtrooper_Team"},
-			UnlockList = {
-				-- Space 
-				"Gamma_ATR_6_Group", "Crusader_Gunship", "Lancer_Frigate", "CC7700", "Strike_Cruiser_Light", "Carrack_Cruiser", "Star_Galleon",
-				"Rep_DHC", "Gladiator_II","Broadside_Cruiser", "Vindicator_Cruiser", "Victory_II_Star_Destroyer", "Proficient_Tender",
-				"Imperial_I_Star_Destroyer", "Imperial_I_Star_Destroyer_Command", "Interdictor_Star_Destroyer",
-				"Sorannan_Star_Destroyer", "Executor_Star_Dreadnought",
-				-- Ground
-				"Army_Special_Missions_Company", "Imperial_Army_Commando_Company", "Imperial_Army_74Z_Bike_Company",
-				"Shielded_AT_ST_A_Company", "Imperial_AT_PT_Company", "AT_DP_Company", 
-				"Shielded_AT_AP_Walker_Company", "AT_AA_Walker_Company", "SPMAG_Walker_Company", "Imperial_Modified_LAAT_Company",
-				"Shielded_Imperial_AT_AT_Walker_Turbolaser_Refit_Company", "Shielded_Imperial_AT_AT_Walker_Company",
-				-- Research
-				
-			},
-			FactionOverride = "Corellia",
-			StartYear = 7,
-			LastYear = 9,
-			IntroText = "TEXT_CONQUEST_PROTEUS_VEERS",
-			IntroHolo = "Imperial_Army_Officer_Loop"
 
 		},
 		["X1"] = {

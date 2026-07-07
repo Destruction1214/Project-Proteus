@@ -5150,8 +5150,8 @@
 		</Encyclopedia_Text>
 
 		<Affiliation>Imperial_Proteus</Affiliation>
-		<Tactical_Health>130</Tactical_Health>
-		<Shield_Points>50</Shield_Points>
+		<Tactical_Health>120</Tactical_Health>
+		<Shield_Points>75</Shield_Points>
 		<Shield_Refresh_Rate>5</Shield_Refresh_Rate>
 		<Shield_Armor_Type>ShieldG_LightVehicle</Shield_Armor_Type>
 
@@ -5249,7 +5249,7 @@
 		<Affiliation>Imperial_Proteus</Affiliation>
 		<Armor_Type> ArmourG_HeavyVehicle </Armor_Type>
 		<Tactical_Health>700</Tactical_Health>
-		<Shield_Points>100</Shield_Points>
+		<Shield_Points>150</Shield_Points>
 		<Shield_Refresh_Rate>10</Shield_Refresh_Rate>
 		<Shield_Armor_Type>ShieldG_HeavyVehicle</Shield_Armor_Type>
 
@@ -5350,7 +5350,7 @@
 		<Affiliation>Imperial_Proteus</Affiliation>
 		<Armor_Type> ArmourG_HeavyVehicle </Armor_Type>
 		<Tactical_Health>700</Tactical_Health>
-		<Shield_Points>100</Shield_Points>
+		<Shield_Points>150</Shield_Points>
 		<Shield_Refresh_Rate>10</Shield_Refresh_Rate>
 		<Shield_Armor_Type>ShieldG_HeavyVehicle</Shield_Armor_Type>
 
@@ -5448,7 +5448,7 @@
 
 		<Affiliation>Imperial_Proteus</Affiliation>
 		<Tactical_Health>225</Tactical_Health>
-		<Shield_Points>75</Shield_Points>
+		<Shield_Points>80</Shield_Points>
 		<Shield_Refresh_Rate>5</Shield_Refresh_Rate>
 		<Shield_Armor_Type>ShieldG_MediumVehicle</Shield_Armor_Type>
 

@@ -110,7 +110,7 @@ function TechHandler:new(galactic_conquest, human_player, planets)
 		"MON_CALAMARI"
 		)
 		
-	self.ZCoronaResearch = GenericResearch(self.galactic_conquest,
+	self.KCoronaResearch = GenericResearch(self.galactic_conquest,
 		"KUAT_CORONA_RESEARCH",
 		"KUAT_Dummy_Research_Corona", {"Imperial_Proteus"},
 		{"Corona","Corona_Tender"},

@@ -28,11 +28,17 @@ return {
         "DHC_Carrier",
         "Picket_DHC",
         "Modernized_DHC",
+		"DHC_Interdictor",
     },
     ["DUMMY_RANDOM_UNIT_RENDILI_NSBC"] = {
 		"Neutron_Star",
         "Neutron_Star_Tender",
         "Neutron_Star_Mercenary",
         "Battle_Horn",
+	},
+    ["DUMMY_RANDOM_UNIT_RENDILI_GSD"] = {
+		"Gladiator_I",
+        "Gladiator_II",
+        --"Gladiator_Carrier",
 	},
 }

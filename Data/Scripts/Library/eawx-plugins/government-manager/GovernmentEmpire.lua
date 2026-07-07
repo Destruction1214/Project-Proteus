@@ -219,6 +219,9 @@ function GovernmentEmpire:new(gc, absorb, dark_empire_available, id)
         ["COMEG_BELLATOR"] = "TEXT_GOVERNMENT_EMPIRE_SSD_HERO_COMEG",
         ["X1_EXECUTOR"] = "TEXT_GOVERNMENT_EMPIRE_SSD_WARLORD_X1",
         ["THORN_ASSERTOR"] = "TEXT_GOVERNMENT_EMPIRE_SSD_HERO_THORN",
+		["HARRSK_MEGADOR"] = "TEXT_GOVERNMENT_EMPIRE_SSD_HERO_HARRSK",
+		["DESANNE_DOMINION"] = "TEXT_GOVERNMENT_EMPIRE_SSD_HERO_DESANNE",
+		
     }
 
     self.planet_values = {
@@ -711,7 +714,17 @@ function GovernmentEmpire:on_production_finished(planet, game_object_type_name)
         self:tagge_handler(planet, game_object_type_name)
     end
 
-	if game_object_type_name == "SELLASAS_LOADOUT_SWAP1" then
+    local market_updates = {
+        ["DUMMY_RECRUIT_GROUP_DELURIN"] = "DRAGON",
+        ["DUMMY_RECRUIT_GROUP_WESSEX"] = "WESSEX",
+    }
+    for group, event in pairs(market_updates) do
+        if game_object_type_name == group then
+            crossplot:publish("UPDATE_MARKET",event)
+        end
+    end
+
+    if game_object_type_name == "SELLASAS_LOADOUT_SWAP1" then
         --locks first loadout
         UnitUtil.SetLockList("IMPERIAL_PROTEUS", {
             "Sellasas_Loadout_Swap1", "Imperial_DHC", "Neutron_Star_Mercenary", "Carrack_Cruiser", "Victory_I_Fleet_Star_Destroyer", "Victory_II_Star_Destroyer", "Imperial_I_Star_Destroyer"

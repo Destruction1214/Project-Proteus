@@ -91,7 +91,7 @@ return {
 			BALMORRA = {"NIMBUS_V_WING_BOMBER_SQUADRON", false}, 
 			RENDILI = {"BTLS1_Y_WING_SQUADRON", false},
 			VEERS = {"SCIMITAR_SQUADRON", false},
-}
+		}
 
 		if simpletypes[owner] then
 			fighter = simpletypes[owner]
@@ -117,10 +117,24 @@ return {
 			fighter = "B_WING_SQUADRON"
 		end 
 		
-	if owner == "IMPERIAL_PROTEUS" then
+		if owner == "IMPERIAL_PROTEUS" then
             local group_name = GlobalValue.Get("PROTEUS_GROUP_NAME")
             if proteustypes[group_name] then
-                fighter = proteustypes[group_name][1]
+				if string.find(fighter, "GAMBLE_") then
+					local random_list = require("random-fighters/GAMBLE_BOMBER2")
+					if random_list[group_name] then
+						if table.getn(random_list[group_name]) > 0 then
+							local select = GameRandom.Free_Random(1, table.getn(random_list[group_name]))
+							for pos, obj in pairs(random_list[group_name]) do
+								if pos == select then
+									fighter = obj
+								end
+							end
+						end
+					end
+				else
+					fighter = proteustypes[group_name][1]
+				end
                 if proteustypes[group_name][2] ~= false then
                     if Check_Flags(flags, "PROTEUS_OVERRIDE") then
                         fighter = proteustypes[group_name][2]
@@ -140,7 +154,7 @@ return {
                     end    
                 end
             end
-        end 
+        end
 		if suffix then
 			fighter = fighter .. suffix
 		end

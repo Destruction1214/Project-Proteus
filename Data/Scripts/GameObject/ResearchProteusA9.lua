@@ -14,7 +14,7 @@ function State_Init(message)
             ScriptExit()
         end
 
-		Set_Fighter_Research("TapaniA9")
+		Set_Fighter_Research("ProteusA9")
 		
         Object.Despawn()
         ScriptExit()
