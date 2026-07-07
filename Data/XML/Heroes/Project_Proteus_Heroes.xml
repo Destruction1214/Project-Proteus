@@ -4870,7 +4870,7 @@
 		<Required_Orbiting_Units>Comeg_Ostrander</Required_Orbiting_Units>
 	</DummyStructure>
 
-	    <HeroUnit Name="Lezner"> <!-- Proteus only -->
+	<HeroUnit Name="Lezner"> <!-- Proteus only -->
 		<Variant_Of_Existing_Type>Non_Combat_Hero_Template</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_HERO_LEZNER</Text_ID>
 		<Encyclopedia_Text> 
