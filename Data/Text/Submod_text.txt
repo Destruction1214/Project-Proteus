@@ -1,4 +1,10 @@
-﻿D_TEXT_TOOLTIP_DRAGON_TROOPER,Primitive reptiloid warriors fiercely loyal to Delurin and equipped with ornate metal armor and flamethrowers to more closely resemble the Dragons of ancient myth. Unacquainted with blaster weaponry and other advanced technology, they are nonetheless resilient and quick on their feet.
+﻿TEXT_TOOLTIP_HETHRIR_WEAP1,1x Lightsaber: 1 / 0.2s / 1m
+TEXT_TOOLTIP_HETHRIR_MOVE,Speed: 1.3
+TEXT_TOOLTIP_HETHRIR_HEALTH,210 [2%/5s] (Hero)
+TEXT_HERO_HETHRIR,Hethrir
+TEXT_TOOLTIP_HETHRIR,TODO
+TEXT_ENCYCLOPEDIA_CLASS_PROCURATOR_OF_JUSTICE,Procurator Of Justice
+D_TEXT_TOOLTIP_DRAGON_TROOPER,Primitive reptiloid warriors fiercely loyal to Delurin and equipped with ornate metal armor and flamethrowers to more closely resemble the Dragons of ancient myth. Unacquainted with blaster weaponry and other advanced technology, they are nonetheless resilient and quick on their feet.
 D_TEXT_TOOLTIP_DRAGON_TROOPER_COMPANY,Company: 36x Dragon Trooper
 D_TEXT_TOOLTIP_DRAGON_TROOPER_COMPANY_WEAP1,24x Blaster Carbine: 3 / 1.25s / 220m
 D_TEXT_TOOLTIP_DRAGON_TROOPER_SQUAD,Squad: 9x Dragon Trooper
