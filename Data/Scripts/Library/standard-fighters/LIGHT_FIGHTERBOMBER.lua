@@ -80,8 +80,10 @@ return {
 			X1 = {"TIE_GT_SQUADRON", false},
 			PRAJI = {"TIE_X2_SQUADRON", false},
 			BALMORRA = {"T_WING_SQUADRON", false},
-			RENDILI = {"Z95ML_HEADHUNTER_SQUADRON", false},
+			RENDILI = {"TIE_GT_TORPS_SQUADRON", "RIHKXYRK_SQUADRON"},
 			VEERS = {"TIE_GT_SQUADRON", false},
+			EMPIRE_REBORN = {"TIE_GT_TORPS_SQUADRON", false},
+			SECOND_IMPERIUM = {"Z95ML_HEADHUNTER_SQUADRON", false},
 		}
 		
 		if simpletypes[owner] then
