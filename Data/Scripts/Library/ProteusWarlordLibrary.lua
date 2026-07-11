@@ -1119,7 +1119,7 @@ return {
 			IntroHolo = "Imperial_Army_Officer_Loop"
 		},
 	
-["EMPIRE_REBORN"] = {
+		["EMPIRE_REBORN"] = {
 			FriendlyName = "Empire Reborn",
 			Planets = {"VJUN", "BESPIN", "ALZOC", "CHALCEDON", "RUUSAN"},
 			LeaderTable = {},
@@ -1146,7 +1146,7 @@ return {
 			IntroHolo = "Generic_Sith_Loop"
 		},
 	
-["SECOND_IMPERIUM"] = {
+		["SECOND_IMPERIUM"] = {
 			FriendlyName = "Second Imperium",
 			Planets = {"DATHOMIR", "KASHYYYK", "HAD ABADDON", "EBAQ"},
 			LeaderTable = {},
