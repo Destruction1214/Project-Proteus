@@ -1193,7 +1193,7 @@ return {
 			StartYear = 7,
 			LastYear = 9,
 			IntroText = "TEXT_CONQUEST_PROTEUS_VEERS",
-			IntroHolo = "Imperial_Army_Officer_Loop"
+			IntroHolo = "Veers_Loop"
 
 		},
 		["GRUNGER"] = {
