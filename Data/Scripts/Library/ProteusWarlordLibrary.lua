@@ -1131,7 +1131,7 @@ return {
 				"Imperial_I_Star_Destroyer_Patrol", "Imperial_II_Star_Destroyer", "Secutor_Star_Destroyer",  
 				"Allegiance_Battlecruiser", "Praetor_II_Battlecruiser", "Vengeance_Star_Dreadnought",
 				-- Ground
-				"Faux_Stormtrooper_Company", "64_Y_Swift_Repulsorlift_Sled_Company", 
+				"Faux_Stormtrooper_Company","Reborn_Dark_Jedi_Company", "64_Y_Swift_Repulsorlift_Sled_Company", 
 				"AT_ST_A_Company", "Arrow_23_Company", "Scorpenek_Company", "Imperial_APC_Company",
 				"TIE_Crawler_Company", "AV_7_Company", "Imperial_Shadow_LAAT_Company", "AT_AA_Flak_Walker_Company",
 				"A9_Floating_Fortress_Company", "AT_AT_Walker_IC_Company", 
