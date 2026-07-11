@@ -1,11 +1,11 @@
 return {
-	Ship_Crew_Requirement = 220,
+	Ship_Crew_Requirement = 200,
 	Fighters = {
-		["FIGHTER_HALF"] = {
-			DEFAULT = {Initial = 1, Reserve = 1, HeroOverride = {{"PANAKA_THEED"}, {"N1_SQUADRON_HALF"}}},
+		["FIGHTER"] = {
+			DEFAULT = {Initial = 1, Reserve = 1},
 			EMPIRE = {Initial = 1, Reserve = 1, ResearchType = "~IMPERIAL_NABOO"}
 		},
-		["N1_SQUADRON_HALF"] = {
+		["X_WING_SQUADRON"] = {
 			EMPIRE = {Initial = 1, Reserve = 1, ResearchType = "IMPERIAL_NABOO"}
 		}
 	},
