@@ -69,6 +69,7 @@ return {
 	["ALLIED_TION"] ="faction_67",
 	["RENDILI"] ="faction_68",
 	["X1"] ="faction_69",
+	["SECRET"] ="faction_75",
 	
 
 	["AllFactions"] = {
@@ -144,6 +145,7 @@ return {
 		"ALLIED_TION",
 		"RENDILI",
 		"X1",
+		"SECRET",
 	},
 
 	["Era_XML_Nums"] = {

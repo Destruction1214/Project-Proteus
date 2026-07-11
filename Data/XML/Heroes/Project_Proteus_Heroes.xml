@@ -5206,5 +5206,104 @@
 		<Tactical_Build_Time_Seconds>14</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
 	</HeroCompany>
+
+	<UniqueUnit Name="Destruction1214">
+		<Variant_Of_Existing_Type>Maelstrom_Battlecruiser</Variant_Of_Existing_Type>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Text_ID>TEXT_HERO_1214</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_09_SPACE
+		TEXT_TOOLTIP_TRAIT_COMMAND_OFFENSE_FOCUS
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_1214
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
+		TEXT_TOOLTIP_COMMAND_1214
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_1214_HULL 
+		TEXT_TOOLTIP_1214_SHIELD
+		TEXT_TOOLTIP_MAELSTROM_MOVE
+		TEXT_TOOLTIP_1214_SQUADRON
+		TEXT_TOOLTIP_1214_WEAP1
+		TEXT_TOOLTIP_1214_WEAP2
+		TEXT_TOOLTIP_1214_WEAP3
+		TEXT_TOOLTIP_1214_WEAP4
+		TEXT_TOOLTIP_1214_WEAP5
+		TEXT_TOOLTIP_1214_WEAP6
+		TEXT_TOOLTIP_1214_WEAP7
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_AIR_MARSHAL </Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_1214.tga</Icon_Name>
+		
+		<CategoryMask> AntiCapital | SpaceHero </CategoryMask>
+		<Property_Flags>GTSImmune</Property_Flags>
+
+		<Ranking_In_Category> 2 </Ranking_In_Category>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+		<Tech_Level>99</Tech_Level>
+		
+		<AI_Combat_Power>3994</AI_Combat_Power>
+		<Population_Value>46</Population_Value>
+
+		<Targeting_Max_Attack_Distance>7400.0</Targeting_Max_Attack_Distance>
+
+		<No_Colorization_Color> 0, 0, 0, 255 </No_Colorization_Color>
+
+		<Tactical_Health>7950</Tactical_Health>
+		<Shield_Refresh_Rate>40.5</Shield_Refresh_Rate>
+		<Shield_Points>8100</Shield_Points>
+
+		<HardPoints>
+			HP_1214_Turbo_HQ_01, HP_1214_Turbo_HQ_02, HP_1214_Turbo_HQ_03, HP_1214_Turbo_HQ_04,
+			HP_1214_Turbo_MT_01, HP_1214_Turbo_MT_02, HP_1214_Turbo_MT_03, HP_1214_Turbo_MT_04, HP_1214_Turbo_MT_05, HP_1214_Turbo_MT_06,
+			HP_1214_Ion_HQ_01, HP_1214_Ion_HQ_02, HP_1214_Ion_HQ_03, HP_1214_Ion_HQ_04, HP_1214_Ion_HQ_05,
+			HP_1214_Ion_MQ_01, HP_1214_Ion_MQ_02, HP_1214_Ion_MQ_03, HP_1214_Ion_MQ_04,
+			HP_1214_Torpedo_LP_01, HP_1214_Torpedo_LP_02, HP_1214_Torpedo_LP_03, HP_1214_Torpedo_LP_04,
+			HP_1214_Missile_AC_01, HP_1214_Missile_AC_02,
+			HP_1214_Missile_AC_Rapid_01, HP_1214_Missile_AC_Rapid_02,
+			HP_1214_Engine_01, HP_1214_Engine_02, HP_1214_Hangar_01, HP_1214_Hangar_02
+		</HardPoints>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+				<Unit_Ability>
+				<Type>SENSOR_JAMMING</Type>
+				<GUI_Activated_Ability_Name> Maelstrom_II_Sensor_Jamming </GUI_Activated_Ability_Name>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_SENSOR_JAMMING_DESCRIPTION_1000</Alternate_Description_Text>
+				<Recharge_Seconds>60.0</Recharge_Seconds>
+				<Expiration_Seconds>20.0</Expiration_Seconds>
+				<Effective_Radius>1000.0</Effective_Radius>
+				<Supports_Autofire>True</Supports_Autofire>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes"> <!-- Command_Tier_09 + Offense_Focus -->
+			<Combat_Bonus_Ability Name="Command_Tier_09_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Damage_Bonus_Percentage>0.33</Damage_Bonus_Percentage>    
+				<Defense_Bonus_Percentage>0.27</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.27</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Battlefield_Modifier_Ability Name="Command_Tier_09_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<FOW_Reveal_Range_Multiplier>1.27</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+
+			<Sensor_Jamming_Ability Name="Maelstrom_II_Sensor_Jamming">
+				<Activation_Style> User_Input </Activation_Style>
+				<Owner_Particle_Effect>Sensor_Jamming_Effect_1000</Owner_Particle_Effect>
+			</Sensor_Jamming_Ability>
+		</Abilities>
+	</UniqueUnit>
 	
 </Project_Proteus_Heroes>

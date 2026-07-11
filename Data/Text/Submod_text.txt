@@ -1379,3 +1379,16 @@ Z_TEXT_UNIT_MISSILE_BOAT_RESEARCH,Reverse-engineer the Missile Boat
 Z_TEXT_UNIT_MTC_RESEARCH,Reverse-engineer the Modular Taskforce Cruiser
 Z_TEXT_UNIT_SCIMITAR_RESEARCH,Reverse-engineer the Scimitar Assault Bomber
 TEXT_TOOLTIP_CAPABILITY_X1_UPGRADE,Upgrade: Executor
+TEXT_HERO_1214,Destruction1214
+TEXT_TOOLTIP_COMMAND_1214,Modified Maelstrom Battlecruiser, Rain of Destruction
+TEXT_TOOLTIP_1214,
+TEXT_TOOLTIP_1214_HULL,Hull: 7950 (Capital)
+TEXT_TOOLTIP_1214_SHIELD,Shields: 8100 / [40.5/R] (Capital)
+TEXT_TOOLTIP_1214_WEAP1,4x Heavy Quad Turbolasers: 2 / 5.0s / 14.8km
+TEXT_TOOLTIP_1214_WEAP2,6x Medium Triple Turbolasers: 2 / 4.0s / 12.4km
+TEXT_TOOLTIP_1214_WEAP3,5x Heavy Quad Ion Cannons: 2 / 5.0s / 14.8km
+TEXT_TOOLTIP_1214_WEAP4,4x Medium Quad Ion Cannons: 2 / 4.0s / 12.8km
+TEXT_TOOLTIP_1214_WEAP5,4x Proton Torpedoes: 5 / 10.0s / 10.8km
+TEXT_TOOLTIP_1214_WEAP6,2x Assault Concussion Missiles: 7 / 17.5s / 14.8km
+TEXT_TOOLTIP_1214_WEAP7,2x Assault Concoussion Missiles: 2 / 2.5s / 14.8km
+TEXT_TOOLTIP_1214_SQUADRON,Fighters: 2.5 / 5.5 | Bombers: 1.5 / 2.5

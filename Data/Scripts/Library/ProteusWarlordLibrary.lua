@@ -1247,7 +1247,7 @@ return {
 		["ALLIED_TION"] = {
 			FriendlyName = "Allied Tion Sector",
 			Planets = {},
-			Leader_Table = {"GRONN_ACROPORA"},
+			LeaderTable = {"GRONN_ACROPORA"},
 			LeaderEndingNames = {"Emperor Gronn"},
 			HeroList = {"Gronn_Acropora"},
 			UnlockList = {
@@ -1287,7 +1287,7 @@ return {
 		["X1"] = {
 			FriendlyName = "X1's Empire",
 			Planets = {"MUSTAFAR"},
-			Leader_Table = {["X1_TEAM"] = {"X1"}},
+			LeaderTable = {["X1_TEAM"] = {"X1"}},
 			LeaderEndingNames = {"High Emperor X1"},
 			HeroList = {"X1_Team", "Rebus_Team", "Hal_Razor_Team", "GK121_Team"},
 			UnlockList = {
@@ -1298,5 +1298,23 @@ return {
 			},
 			IntroText = "",
 			IntroHolo = "",
+		},
+		["SECRET"] = {
+			FriendlyName = "The Coruscant Proteus you were asking for",
+			Planets = {"CORUSCANT"},
+			LeaderTable = {},
+			LeaderEndingNames = {},
+			HeroList = {"Destruction1214"},--tax, greene, nova, michael, rook, coyote, eleian
+			-- UnlockList = {
+			-- 	-- Space
+
+			-- 	-- Ground
+
+			-- },
+			FactionOverride = "Empire",
+			FactionOverride2 = "Rebel",
+			IntroText = "",
+			IntroHolo = "",
 		}
+
 }
