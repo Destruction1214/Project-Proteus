@@ -1137,4 +1137,12 @@
 	<TransportUnit Name="Gallofree_Transport_Commander_Hapes_Landing">
 		<Variant_Of_Existing_Type>Gallofree_Transport_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
+
+	<TransportUnits Name="Shuttle_Tyderium_Hethrir">
+		<Variant_Of_Existing_Type>Shuttle_Tyderium_Admin</Variant_Of_Existing_Type>
+	</TransportUnits>
+
+	<TransportUnit Name="Shuttle_Tyderium_X1">
+		<Variant_Of_Existing_Type>Shuttle_Tyderium</Variant_Of_Existing_Type>
+	</TransportUnit>
 </TransportUnits>
