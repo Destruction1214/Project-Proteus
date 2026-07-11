@@ -602,6 +602,6 @@ return {
     ,REBUS_TEAM = {"Is_Production_Planet", false}
     ,GRONN_ACROPORA = {nil, true}
     ,THORN_TEAM = {nil, false}
-    ,Lezner_Team = {nil, false}
+    ,LEZNER_TEAM = {nil, false}
     
 }
