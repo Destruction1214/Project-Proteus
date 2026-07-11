@@ -35,6 +35,12 @@ TEXT_BELBULLAB24_SQUADRON2,Belbullab-24 Squadron x2
 TEXT_BTLA2_Y_WING_SQUADRON,BTL-A2 Y-wing Squadron
 TEXT_BTLA2_Y_WING_SQUADRON_HALF,BTL-A2 Y-wing Squadron 1/2
 TEXT_BTLA2_Y_WING_SQUADRON2,BTL-A2 Y-wing Squadron x2
+TEXT_CONQUEST_PROTEUS_REBORN,Lord Hethrir: I welcome you, Commander, to our rebirth, and the rebirth of the Empire! Once our efforts to create a new legion of force-empowered Imperial soldiers is complete, we shall take back what is rightfully ours, and purify the galaxy of the taint of rebellion once and for all! They shall all bow before the Empire! Reborn!
+TEXT_PROTEUS_DESCRIPTION_REBORN,The Imperial Procurator of Justice, Lord Hethrir, went underground following the Imperial defeat at Endor, building a network of support in the shadows. After Palpatine's final death, he rechristened his faction 'Empire Reborn' and worked with the Dark Jedi Desann and Admiral Galak Fyyar in creating a new army of force-using soldiers to unleash upon the galaxy.
+TEXT_EVENT_WARLORD_CHOICE_REBORN,Empire Reborn
+TEXT_CONQUEST_PROTEUS_SHADOW_ACADEMY,Great Leader: You did not think I would be gone, did you? I will always return! Now, there is no time for hesitation! Pledge yourself to me once more, and together we shall crush the rebellion once and for all! You shall lead my armies and my new Dark Knights into battle! Return to your station, my loyal guards will relay further orders soon.
+TEXT_EVENT_WARLORD_CHOICE_SHADOW_ACADEMY,Second Imperium
+TEXT_PROTEUS_DESCRIPTION_SHADOW_ACADEMY,The Second Imperium was a hardliner faction within the Imperial Remnant, forming alongside but unaffiliated with the Replacement Warlords of the Deep Core. Originally obscure and unimportant, they surged to momentary prominence after the Pellaeon-Gavrisom-Treaty, decrying the peace accords as surrender and urging the Imperial splinters to make war upon the New Republic. To rally support, four royal guards faked the return of Emperor Palpatine and started the Shadow Academy, a mobile cloaked facility for indoctrinating young force-sensitives into dark jedi, and embarked on a capmaign of piracy and sabotage to build up forces to assault the Jedi Praxeum on Yavin IV. 
 TEXT_COMPANY_GARRISON_PRAJI_ESTATES_1,Corporate Security Trooper Squad: 1 / 1
 TEXT_COMPANY_GARRISON_PRAJI_ESTATES_2,Elite Mercenary Heavy Squad: 1 / 1
 TEXT_COMPANY_PRAJI_ESTATES,House Praji Estate
