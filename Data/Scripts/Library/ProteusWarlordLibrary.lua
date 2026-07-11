@@ -1123,7 +1123,7 @@ return {
 			Planets = {"VJUN", "BESPIN", "ALZOC", "CHALCEDON", "RUUSAN"},
 			LeaderTable = {},
 			LeaderEndingNames = {"Omnipotent Master Hethrir"},
-			HeroList = {"Desann_Team", "Tavion_Axmis_Team", "Alora_Team"}, 
+			HeroList = {"Hethrir_Team","Desann_Team", "Tavion_Axmis_Team", "Alora_Team"}, 
 			UnlockList = {
 				-- Space 
 				"Gozanti_Cruiser_Group", "Imperial_CR90", "Trenchant", "Class_C_Frigate", "Strike_Cruiser_Gorath", "Ton_Falk_Escort_Carrier", "Corona_Tender", 
@@ -1193,7 +1193,7 @@ return {
 			StartYear = 7,
 			LastYear = 9,
 			IntroText = "TEXT_CONQUEST_PROTEUS_VEERS",
-			IntroHolo = "Imperial_Army_Officer_Loop"
+			IntroHolo = "Veers_Loop"
 
 		},
 		["GRUNGER"] = {
