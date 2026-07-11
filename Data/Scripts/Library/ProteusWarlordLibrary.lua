@@ -1117,8 +1117,7 @@ return {
 			StartYear = 4,
 			IntroText = "TEXT_CONQUEST_PROTEUS_BALMORRA",
 			IntroHolo = "Imperial_Army_Officer_Loop"
-		},
-	
+		},	
 		["EMPIRE_REBORN"] = {
 			FriendlyName = "Empire Reborn",
 			Planets = {"VJUN", "BESPIN", "ALZOC", "CHALCEDON", "RUUSAN"},
@@ -1126,16 +1125,16 @@ return {
 			LeaderEndingNames = {"Omnipotent Master Hethrir"},
 			HeroList = {"Desann_Team", "Tavion_Axmis_Team", "Alora_Team"}, 
 			UnlockList = {
-			-- Space 
- 			"Gozanti_Cruiser_Group", "Imperial_CR90", "Trenchant", "Class_C_Frigate", "Strike_Cruiser_Gorath", "Ton_Falk_Escort_Carrier", "Corona_Tender", 
-			"Imperial_DHC", "Lictor", "Immobilizer_418", "Victory_II_Carrier", "Procursator_Star_Destroyer",
-			"Imperial_I_Star_Destroyer_Patrol", "Imperial_II_Star_Destroyer", "Secutor_Star_Destroyer",  
-			"Allegiance_Battlecruiser", "Praetor_II_Battlecruiser", "Vengeance_Star_Dreadnought",
-			-- Ground
-			"Faux_Stormtrooper_Company", "64_Y_Swift_Repulsorlift_Sled_Company", 
-			"AT_ST_A_Company", "Arrow_23_Company", "Scorpenek_Company", "Imperial_APC_Company",
-			"TIE_Crawler_Company", "AV_7_Company", "Imperial_Shadow_LAAT_Company", "AT_AA_Flak_Walker_Company",
-			"A9_Floating_Fortress_Company", "AT_AT_Walker_IC_Company", 
+				-- Space 
+				"Gozanti_Cruiser_Group", "Imperial_CR90", "Trenchant", "Class_C_Frigate", "Strike_Cruiser_Gorath", "Ton_Falk_Escort_Carrier", "Corona_Tender", 
+				"Imperial_DHC", "Lictor", "Immobilizer_418", "Victory_II_Carrier", "Procursator_Star_Destroyer",
+				"Imperial_I_Star_Destroyer_Patrol", "Imperial_II_Star_Destroyer", "Secutor_Star_Destroyer",  
+				"Allegiance_Battlecruiser", "Praetor_II_Battlecruiser", "Vengeance_Star_Dreadnought",
+				-- Ground
+				"Faux_Stormtrooper_Company", "64_Y_Swift_Repulsorlift_Sled_Company", 
+				"AT_ST_A_Company", "Arrow_23_Company", "Scorpenek_Company", "Imperial_APC_Company",
+				"TIE_Crawler_Company", "AV_7_Company", "Imperial_Shadow_LAAT_Company", "AT_AA_Flak_Walker_Company",
+				"A9_Floating_Fortress_Company", "AT_AT_Walker_IC_Company", 
 			},
 			FactionOverride = "Empire",
 			FactionOverride2 = "Rebel",
@@ -1145,7 +1144,6 @@ return {
 			IntroText = "TEXT_CONQUEST_PROTEUS_REBORN",
 			IntroHolo = "Generic_Sith_Loop"
 		},
-	
 		["SECOND_IMPERIUM"] = {
 			FriendlyName = "Second Imperium",
 			Planets = {"DATHOMIR", "KASHYYYK", "HAD ABADDON", "EBAQ"},
@@ -1153,25 +1151,24 @@ return {
 			LeaderEndingNames = {"The Unseen Emperor"},
 			HeroList = {"Brakiss_Team"}, 
 			UnlockList = {
-			-- Space 
-			"Delta_JV7_Group", "IPV1", "Trenchant", "Active_Frigate", "Imperial_II_Frigate", "Eidolon", 
-			"Pursuit_Light_Cruiser", "DHC_Carrier", "Proteus_Cargo_Ship", "Acclamator_I_Assault", "Victory_II_Carrier", "Vector_Star_Destroyer",
-			"Imperial_I_Star_Destroyer_Patrol", "Interdictor_Star_Destroyer", "Secutor_Star_Destroyer",  
-			"Sorannan_Star_Destroyer", "Bellator_Star_Dreadnought", "Vengeance_Star_Dreadnought",
-			-- Ground
-			"Compforce_Assault_Company", "Imperial_Dark_Jedi_Company", "Shadow_EVO_Trooper_Company", "Imperial_Army_74Z_Bike_Company", 
-			"Imperial_ISP_Company", "Chariot_LAV_Company", "AT_DP_Company", "RTT_Company", 
-			"AT_AA_Flak_Walker_Company", "Imperial_Heavy_Mobile_Artillery_Company", "2M_Repulsor_Tank_Company", "MAAT_Company",
-			"A9_Floating_Fortress_Company", "Imperial_AT_AT_Walker_Company",
+				-- Space 
+				"Delta_JV7_Group", "IPV1", "Trenchant", "Active_Frigate", "Imperial_II_Frigate", "Eidolon", 
+				"Pursuit_Light_Cruiser", "DHC_Carrier", "Proteus_Cargo_Ship", "Acclamator_I_Assault", "Victory_II_Carrier", "Vector_Star_Destroyer",
+				"Imperial_I_Star_Destroyer_Patrol", "Interdictor_Star_Destroyer", "Secutor_Star_Destroyer",  
+				"Sorannan_Star_Destroyer", "Bellator_Star_Dreadnought", "Vengeance_Star_Dreadnought",
+				-- Ground
+				"Compforce_Assault_Company", "Imperial_Dark_Jedi_Company", "Shadow_EVO_Trooper_Company", "Imperial_Army_74Z_Bike_Company", 
+				"Imperial_ISP_Company", "Chariot_LAV_Company", "AT_DP_Company", "RTT_Company", 
+				"AT_AA_Flak_Walker_Company", "Imperial_Heavy_Mobile_Artillery_Company", "2M_Repulsor_Tank_Company", "MAAT_Company",
+				"A9_Floating_Fortress_Company", "Imperial_AT_AT_Walker_Company",
 			},
 			FactionOverride = "Empire",
 			FactionOverride2 = "Rebel",
 			StartYear = 12,
 			--LastYear = 23,
 			IntroText = "TEXT_CONQUEST_PROTEUS_SHADOW_ACADEMY",
-			IntroHolo = "Palpatine_DED"
+			IntroHolo = "PalpatineDED_Loop",
 		},
-	
 		["VEERS"] = {
 			FriendlyName = "Blizzard Force",
 			Planets = {"FOLESS"},
@@ -1284,7 +1281,7 @@ return {
 			StartYear = 4,
 			LastYear = 9,
 			IntroText = "TEXT_CONQUEST_PROTEUS_RENDILI",
-			IntroHolo = "Daala"
+			IntroHolo = "Daala_Loop",
 
 		},
 		["X1"] = {
