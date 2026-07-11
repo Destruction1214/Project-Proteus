@@ -1121,9 +1121,9 @@ return {
 		["EMPIRE_REBORN"] = {
 			FriendlyName = "Empire Reborn",
 			Planets = {"VJUN", "BESPIN", "ALZOC", "CHALCEDON", "RUUSAN"},
-			LeaderTable = {},
+			LeaderTable = {["HETHRIR_TEAM"] = {"HETHRIR"}},
 			LeaderEndingNames = {"Omnipotent Master Hethrir"},
-			HeroList = {"Hethrir_Team","Desann_Team", "Tavion_Axmis_Team", "Alora_Team"}, 
+			HeroList = {"Hethrir_Team", "Desann_Team", "Tavion_Axmis_Team", "Alora_Team"}, 
 			UnlockList = {
 				-- Space 
 				"Gozanti_Cruiser_Group", "Imperial_CR90", "Trenchant", "Class_C_Frigate", "Strike_Cruiser_Gorath", "Ton_Falk_Escort_Carrier", "Corona_Tender", 
@@ -1131,7 +1131,7 @@ return {
 				"Imperial_I_Star_Destroyer_Patrol", "Imperial_II_Star_Destroyer", "Secutor_Star_Destroyer",  
 				"Allegiance_Battlecruiser", "Praetor_II_Battlecruiser", "Vengeance_Star_Dreadnought",
 				-- Ground
-				"Faux_Stormtrooper_Company","Reborn_Dark_Jedi_Company", "64_Y_Swift_Repulsorlift_Sled_Company", 
+				"Faux_Stormtrooper_Company", "Reborn_Dark_Jedi_Company", "64_Y_Swift_Repulsorlift_Sled_Company", 
 				"AT_ST_A_Company", "Arrow_23_Company", "Scorpenek_Company", "Imperial_APC_Company",
 				"TIE_Crawler_Company", "AV_7_Company", "Imperial_Shadow_LAAT_Company", "AT_AA_Flak_Walker_Company",
 				"A9_Floating_Fortress_Company", "AT_AT_Walker_IC_Company", 
@@ -1247,7 +1247,7 @@ return {
 		["ALLIED_TION"] = {
 			FriendlyName = "Allied Tion Sector",
 			Planets = {},
-			Leader_Table = {"GRONN_ACROPORA"},
+			LeaderTable = {"GRONN_ACROPORA"},
 			LeaderEndingNames = {"Emperor Gronn"},
 			HeroList = {"Gronn_Acropora"},
 			UnlockList = {
@@ -1287,7 +1287,7 @@ return {
 		["X1"] = {
 			FriendlyName = "X1's Empire",
 			Planets = {"MUSTAFAR"},
-			Leader_Table = {["X1_TEAM"] = {"X1"}},
+			LeaderTable = {["X1_TEAM"] = {"X1"}},
 			LeaderEndingNames = {"High Emperor X1"},
 			HeroList = {"X1_Team", "Rebus_Team", "Hal_Razor_Team", "GK121_Team"},
 			UnlockList = {
@@ -1298,5 +1298,23 @@ return {
 			},
 			IntroText = "",
 			IntroHolo = "",
+		},
+		["SECRET"] = {
+			FriendlyName = "The Coruscant Proteus you were asking for",
+			Planets = {"CORUSCANT"},
+			LeaderTable = {},
+			LeaderEndingNames = {},
+			HeroList = {"Destruction1214"},--tax, greene, nova, michael, rook, coyote, eleian
+			-- UnlockList = {
+			-- 	-- Space
+
+			-- 	-- Ground
+
+			-- },
+			FactionOverride = "Empire",
+			FactionOverride2 = "Rebel",
+			IntroText = "",
+			IntroHolo = "",
 		}
+
 }
