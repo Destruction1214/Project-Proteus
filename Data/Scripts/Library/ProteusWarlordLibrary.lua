@@ -1304,7 +1304,7 @@ return {
 			Planets = {"CORUSCANT"},
 			LeaderTable = {},
 			LeaderEndingNames = {},
-			HeroList = {"Destruction1214","Rook_Frostfire"},--tax, (???), Nova, Michael, Rook, Coyote, Eleian
+			HeroList = {"Destruction1214","Rook_Frostfire","Eleian_BlackHoleSun"},--tax, (???), Nova, Michael, Rook, Coyote, Eleian
 			-- UnlockList = {
 			-- 	-- Space
 
