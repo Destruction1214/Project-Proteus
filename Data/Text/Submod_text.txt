@@ -2,10 +2,9 @@
 TEXT_TOOLTIP_ELITES,A cabal of rich former members of the Imperial elite who resented the New Republic and supported the Empire Reborn insurgency with money and ships, as well as engaging in slave trade and child trafficking to facilitate their dealings and Lord Hethrir's goals. The most prominent members of the group were Lord Brashaa, Lord Cnorec, Lady Ucce and Lord Qaqquqqu, though their network reached far and wide and included traitors within the New Republic and contacts with other warlords. 
 TEXT_HERO_ELITES,Imperial Elite Backers
 TEXT_TOOLTIP_FROSTFIRE_SQUADRON,Fighters: 2 / 8 | Bombers: 2 / 4
-TEXT_TOOLTIP_FROSTFIRE_WEAP4,2x Medium Dual Ion Cannons: 2 / 4.0s / 6.3km
-TEXT_TOOLTIP_FROSTFIRE_WEAP3,4x Medium Turbolasers: 2 / 0.75s / 6.3km
-TEXT_TOOLTIP_FROSTFIRE_WEAP2,2x Medium Sextuple Turbolasers: 1 / 5.0s / 6.3km
-TEXT_TOOLTIP_FROSTFIRE_WEAP1,2x Medium Quad Turbolasers: 1 / 4.0s / 6.3km
+TEXT_TOOLTIP_FROSTFIRE_WEAP3,2x Medium Dual Ion Cannons: 2 / 4.0s / 6.3km
+TEXT_TOOLTIP_FROSTFIRE_WEAP2,4x Medium Turbolasers: 2 / 0.75s / 6.3km
+TEXT_TOOLTIP_FROSTFIRE_WEAP1,4x Medium Quad Turbolasers: 1 / 4.0s / 6.3km
 TEXT_TOOLTIP_ROOK,TODO
 TEXT_HERO_ROOK,Rook
 TEXT_TOOLTIP_FROSTFIRE_SHIELD,Shields: 5,000 / [50/R] (Capital)
