@@ -1123,7 +1123,7 @@ return {
 			Planets = {"VJUN", "BESPIN", "ALZOC", "CHALCEDON", "RUUSAN"},
 			LeaderTable = {["HETHRIR_TEAM"] = {"HETHRIR"}},
 			LeaderEndingNames = {"Omnipotent Master Hethrir"},
-			HeroList = {"Hethrir_Team", "Desann_Team", "Tavion_Axmis_Team", "Alora_Team"}, 
+			HeroList = {"Hethrir_Team", "Desann_Team", "Tavion_Axmis_Team", "Alora_Team", "Nobles_Team"}, 
 			UnlockList = {
 				-- Space 
 				"Gozanti_Cruiser_Group", "Imperial_CR90", "Trenchant", "Class_C_Frigate", "Strike_Cruiser_Gorath", "Ton_Falk_Escort_Carrier", "Corona_Tender", 
@@ -1304,7 +1304,7 @@ return {
 			Planets = {"CORUSCANT"},
 			LeaderTable = {},
 			LeaderEndingNames = {},
-			HeroList = {"Destruction1214"},--tax, greene, nova, michael, rook, coyote, eleian
+			HeroList = {"Destruction1214","Rook_Frostfire"},--tax, (???), Nova, Michael, Rook, Coyote, Eleian
 			-- UnlockList = {
 			-- 	-- Space
 
