@@ -5370,7 +5370,7 @@
 		</Abilities>
 	</UniqueUnit>
 
-		<UniqueUnit Name="Rook_Frostfire">
+	<UniqueUnit Name="Rook_Frostfire">
 		<Variant_Of_Existing_Type>Ascendancy_Star_Destroyer</Variant_Of_Existing_Type>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Text_ID>TEXT_HERO_ROOK</Text_ID>
@@ -5457,6 +5457,110 @@
 				<Initially_Enabled>Yes</Initially_Enabled>
 				<Activation_Style>Space_Automatic</Activation_Style>
 				<FOW_Reveal_Range_Multiplier>1.21</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+			
+		</Abilities>
+	</UniqueUnit>
+
+	<UniqueUnit Name="TaxEvader_SynTax_Error">
+		<Variant_Of_Existing_Type>Mothma_Star_Destroyer</Variant_Of_Existing_Type>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Text_ID>TEXT_HERO_TAXEVADER</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK 
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_09_SPACE
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK 
+		TEXT_TOOLTIP_TAXEVADER
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK 
+		TEXT_TOOLTIP_COMMAND_SYNTAX_ERROR
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_STAR_DESTROYER_MOTHMA_HULL
+		TEXT_TOOLTIP_STAR_DESTROYER_MOTHMA_SHIELD
+		TEXT_TOOLTIP_STAR_DESTROYER_MOTHMA_MOVE
+		TEXT_TOOLTIP_STAR_DESTROYER_MOTHMA_SQUADRON
+		TEXT_TOOLTIP_STAR_DESTROYER_MOTHMA_WEAP1
+		TEXT_TOOLTIP_STAR_DESTROYER_MOTHMA_WEAP2
+		TEXT_TOOLTIP_SYNTAX_ERROR_WEAP3
+		TEXT_TOOLTIP_STAR_DESTROYER_MOTHMA_WEAP4
+		TEXT_TOOLTIP_STAR_DESTROYER_MOTHMA_WEAP5
+		TEXT_TOOLTIP_SYNTAX_ERROR_WEAP6
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INFORMER_OF_DEER </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_taxevader.tga</Icon_Name>
+		
+		<CategoryMask> SpaceHero | AntiFrigate </CategoryMask>
+		<Property_Flags>GTSImmune</Property_Flags>
+		<Affiliation>Imperial_Proteus</Affiliation> <!-- Stop AI enumerating -->
+		
+        <Ranking_In_Category>4</Ranking_In_Category>
+
+		<SpaceBehavior>TELEKINESIS_TARGET,ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
+        
+		<HardPoints>
+			HP_Star_Destroyer_Mothma_Weapon_01, HP_Star_Destroyer_Mothma_Weapon_02, HP_Star_Destroyer_Mothma_Weapon_03, HP_Star_Destroyer_Mothma_Weapon_04, HP_Star_Destroyer_Mothma_Weapon_05, HP_Star_Destroyer_Mothma_Weapon_06,
+			HP_Star_Destroyer_Mothma_Weapon_07, HP_Star_Destroyer_Mothma_Weapon_08, HP_Star_Destroyer_Mothma_Weapon_09, HP_Star_Destroyer_Mothma_Weapon_10, HP_Star_Destroyer_Mothma_Weapon_11, HP_Star_Destroyer_Mothma_Weapon_12,
+			HP_SynTax_Error_Missile_Trout_01, HP_SynTax_Error_Missile_Trout_02, HP_Star_Destroyer_Mothma_Weapon_15, HP_Star_Destroyer_Mothma_Weapon_16, HP_SynTax_Error_Missile_Trout_03, HP_Star_Destroyer_Mothma_Engines,
+			HP_Star_Destroyer_Mothma_Fighter_Bay, HP_Star_Destroyer_2_Main_Battery_5, HP_Star_Destroyer_2_Main_Battery_2, HP_Star_Destroyer_2_Main_Battery_3, HP_Star_Destroyer_2_Main_Battery_4, HP_Star_Destroyer_Mothma_Gravity_Well
+		</HardPoints>
+
+		<SFXEvent_Select>Unit_Select_Hissa</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Hissa</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Move_Hissa</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Hissa</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Move_Hissa</SFXEvent_Guard>
+		<SFXEvent_Move_Into_Nebula> Unit_Nebula_Hissa </SFXEvent_Move_Into_Nebula>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_Hissa </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Health_Low_Warning>Unit_Health_Low_Hissa</SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_Hissa</SFXEvent_Health_Critical_Warning>
+		<Death_SFXEvent_Start_Die>Unit_Death_Hissa</Death_SFXEvent_Start_Die>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_Laser_Hissa </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_Missile_Hissa </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_Torp_Hissa </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_Ion_Hissa </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_Attack_Hissa </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_Engines_Hissa </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_HP_Grav_Hissa </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_FIGHTER_BAY, Unit_HP_Bay_Hissa </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_TRACTOR_BEAM, Unit_Attack_Hissa </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MASS_DRIVER, Unit_Attack_Hissa </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_SPECIAL, Unit_Attack_Hissa </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_Attack_Hissa </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_DUMMY_ART, Unit_Attack_Hissa </SFXEvent_Attack_Hardpoint>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+		<Tech_Level>99</Tech_Level>
+
+	<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>INTERDICT</Type>
+				<Disable_Movement>Yes</Disable_Movement>
+
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Grav_Online_Interdictor</SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated>Unit_Grav_Offline_Interdictor</SFXEvent_GUI_Unit_Ability_Deactivated>
+			</Unit_Ability>
+	</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes"> <!-- Command_Tier_09 -->
+			<Combat_Bonus_Ability Name="Command_Tier_09_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Damage_Bonus_Percentage>0.27</Damage_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.27</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.27</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Battlefield_Modifier_Ability Name="Command_Tier_10_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<FOW_Reveal_Range_Multiplier>1.27</FOW_Reveal_Range_Multiplier>
 				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
 				<Stacking_Category>0</Stacking_Category>
 			</Battlefield_Modifier_Ability>

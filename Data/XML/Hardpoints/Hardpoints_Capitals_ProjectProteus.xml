@@ -11250,5 +11250,101 @@
         
  
     </HardPoint>
+
+	<HardPoint Name="HP_SynTax_Error_Missile_Trout_01">
+		<Type> HARD_POINT_WEAPON_MISSILE </Type>
+		<Is_Targetable>Yes</Is_Targetable>
+		<Is_Destroyable>Yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_A_MISSILETROUT</Tooltip_Text>
+		<Health>425.0</Health>
+
+		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Missile_Death</Death_Explosion_SFXEvent>
+
+		<Model_To_Attach />
+		<Attachment_Bone>FC_01</Attachment_Bone>
+		<Collision_Mesh>FC_01</Collision_Mesh>
+		<Damage_Particles>FC_01</Damage_Particles>
+
+		<Fire_Bone_A>FC_01_FP_00</Fire_Bone_A>
+		<Fire_Bone_B>FC_01_FP_01</Fire_Bone_B>
+		<Randomize_Between_Fire_Bones> Yes </Randomize_Between_Fire_Bones>
+		<Fire_Cone_Width>175</Fire_Cone_Width>
+		<Fire_Cone_Height>180.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Ship_Assault_Concussion_Missile</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>12.5</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>12.5</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>5</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>3600.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+		<Full_Salvo_Weapon_Delay_Multiplier>.25</Full_Salvo_Weapon_Delay_Multiplier>
+
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+	</HardPoint>
+
+	<HardPoint Name="HP_SynTax_Error_Missile_Trout_02">
+		<Type> HARD_POINT_WEAPON_MISSILE </Type>
+		<Is_Targetable>Yes</Is_Targetable>
+		<Is_Destroyable>Yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_A_MISSILETROUT</Tooltip_Text>
+		<Health>425.0</Health>
+
+		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Missile_Death</Death_Explosion_SFXEvent>
+
+		<Model_To_Attach />
+		<Attachment_Bone>FC_02</Attachment_Bone>
+		<Collision_Mesh>FC_02</Collision_Mesh>
+		<Damage_Particles>FC_02</Damage_Particles>
+
+		<Fire_Bone_A>FC_02_FP_00</Fire_Bone_A>
+		<Fire_Bone_B>FC_02_FP_01</Fire_Bone_B>
+		<Randomize_Between_Fire_Bones> Yes </Randomize_Between_Fire_Bones>
+		<Fire_Cone_Width>175</Fire_Cone_Width>
+		<Fire_Cone_Height>180.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Ship_Assault_Concussion_Missile</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>12.5</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>12.5</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>5</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>3600.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+		<Full_Salvo_Weapon_Delay_Multiplier>.25</Full_Salvo_Weapon_Delay_Multiplier>
+
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+	</HardPoint>
+
+	<HardPoint Name="HP_SynTax_Error_Missile_Trout_03">
+		<Type> HARD_POINT_WEAPON_MISSILE </Type>
+		<Is_Targetable>Yes</Is_Targetable>
+		<Is_Destroyable>Yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_A_MISSILETROUT</Tooltip_Text>
+		<Health>425.0</Health>
+
+		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Missile_Death</Death_Explosion_SFXEvent>
+
+		<Model_To_Attach />
+		<Attachment_Bone>FC_00</Attachment_Bone>
+		<Collision_Mesh>FC_00</Collision_Mesh>
+		<Damage_Particles>FC_00</Damage_Particles>
+
+		<Fire_Bone_A>FC_00_FP_00</Fire_Bone_A>
+		<Fire_Bone_B>FC_00_FP_01</Fire_Bone_B>
+		<Randomize_Between_Fire_Bones> Yes </Randomize_Between_Fire_Bones>
+		<Fire_Cone_Width>175</Fire_Cone_Width>
+		<Fire_Cone_Height>180.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Ship_Assault_Concussion_Missile</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>12.5</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>12.5</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>5</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>3600.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+		<Full_Salvo_Weapon_Delay_Multiplier>.25</Full_Salvo_Weapon_Delay_Multiplier>
+
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+	</HardPoint>
 	
 </HardPoints>
