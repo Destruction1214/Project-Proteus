@@ -944,6 +944,8 @@ return {
 ["DUMMY_RANDOM_UNIT_RENDILI_VSD"] = true,
 ["DUMMY_RANDOM_UNIT_RENDILI_GSD"] = true,
 -- ["X1_EXECUTOR_DUMMY"] = true,
+-- Project Proteus Dev Heroes
 ["DESTRUCTION1214"] = true, 
 ["ROOK_FROSTFIRE"] = true, 
+["ELEIAN_BLACKHOLESUN"] = true, 
 }
