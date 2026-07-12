@@ -9807,6 +9807,7 @@
 			Modernized_DHC,
 			Imperial_Republic_Star_Destroyer,
 			Victory_I_Star_Destroyer_Patrol,
+			Destruction1214,
 		</Bombardment_Required_Orbital_Ships>
 		<Bombardment_Projectile> Proj_Bombardment_Turbolaser_Green </Bombardment_Projectile>
 		<Bombardment_Particle> Bombard_Particle_Effect </Bombardment_Particle>

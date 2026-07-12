@@ -6,6 +6,7 @@ return {
 		}
 	},
 	Native = "IMPERIAL_PROTEUS",
+	Fighterflags = {"PROTEUS_OVERRIDE"},
 	Scripts = {"multilayer", "fighter-spawn"}
 }
 

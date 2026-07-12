@@ -943,5 +943,7 @@ return {
 ["DUMMY_RANDOM_UNIT_RENDILI_NSBC"] = true,
 ["DUMMY_RANDOM_UNIT_RENDILI_VSD"] = true,
 ["DUMMY_RANDOM_UNIT_RENDILI_GSD"] = true,
-  
+-- ["X1_EXECUTOR_DUMMY"] = true,
+["DESTRUCTION1214"] = true, 
+["ROOK_FROSTFIRE"] = true, 
 }
