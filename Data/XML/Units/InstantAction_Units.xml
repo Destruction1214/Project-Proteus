@@ -11176,38 +11176,9 @@
 	</UpgradeObject>
 
 <!-- Project Proteus -->
-	<UpgradeObject Name="IA_Consular">
-		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel, Underworld, Independent_Forces, Hutt_Cartels, Eriadu_Authority, Greater_Maldrood, Pentastar, Zsinj_Empire, Corellia, Corporate_Sector, Hapes_Consortium, Yevetha, EmpireoftheHand, SsiRuuvi_Imperium, Imperial_Proteus</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
-		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<Build_Limit_Current_For_All_Allies>-1</Build_Limit_Current_For_All_Allies>
-
-		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
-		<Icon_Name>i_button_consular.tga</Icon_Name>
-
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
-		<Text_ID>TEXT_UNIT_CONSULAR</Text_ID>
-		<Encyclopedia_Text> 
-		TEXT_TOOLTIP_CONSULAR
-		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		TEXT_TOOLTIP_CONSULAR_HULL 
-		TEXT_TOOLTIP_CONSULAR_SHIELD
-		TEXT_TOOLTIP_CONSULAR_MOVE 
-		</Encyclopedia_Text>
-
-		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
-		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
-
-		<CategoryMask>Wall</CategoryMask>
-		<Lua_Script>Add_InstantActionUnit_Imperial_Proteus</Lua_Script>
-	</UpgradeObject>
 	
+	<!-- Light Frigate -->
+
 	<UpgradeObject Name="IA_LAC">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Empire, Rebel, Underworld, Independent_Forces, Hutt_Cartels, Eriadu_Authority, Greater_Maldrood, Pentastar, Zsinj_Empire, Corellia, Corporate_Sector, Hapes_Consortium, Yevetha, EmpireoftheHand, SsiRuuvi_Imperium, Imperial_Proteus</Affiliation>
@@ -11278,6 +11249,42 @@
 		<Lua_Script>Add_InstantActionUnit_Imperial_Proteus</Lua_Script>
 	</UpgradeObject>
 
+	<UpgradeObject Name="IA_Mansk_Frigate">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Empire, Rebel, Underworld, Independent_Forces, Hutt_Cartels, Eriadu_Authority, Greater_Maldrood, Pentastar, Zsinj_Empire, Corellia, Corporate_Sector, Hapes_Consortium, Yevetha, EmpireoftheHand, SsiRuuvi_Imperium, Imperial_Proteus</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>-1</Build_Limit_Current_For_All_Allies>
+
+		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_button_mansk_frigate.tga</Icon_Name>
+
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UNIT_MANSK_FRIGATE</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_MANSK
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_MANSK_HULL 
+		TEXT_TOOLTIP_MANSK_SHIELD 
+		TEXT_TOOLTIP_MANSK_MOVE
+		TEXT_TOOLTIP_MANSK_WEAP1 
+		TEXT_TOOLTIP_MANSK_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_MANSK_PD
+		</Encyclopedia_Text>
+
+		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
+
+		<CategoryMask>Wall</CategoryMask>
+		<Lua_Script>Add_InstantActionUnit_Imperial_Proteus</Lua_Script>
+	</UpgradeObject>
+
 	<UpgradeObject Name="IA_Diamond_Frigate">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Empire, Rebel, Underworld, Independent_Forces, Hutt_Cartels, Eriadu_Authority, Greater_Maldrood, Pentastar, Zsinj_Empire, Corellia, Corporate_Sector, Hapes_Consortium, Yevetha, EmpireoftheHand, SsiRuuvi_Imperium, Imperial_Proteus</Affiliation>
@@ -11338,6 +11345,44 @@
 		TEXT_TOOLTIP_CONSULAR_MOVE 
 		TEXT_TOOLTIP_CONSULAR_REFIT_WEAP1
 		TEXT_TOOLTIP_CONSULAR_REFIT_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		</Encyclopedia_Text>
+
+		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
+
+		<CategoryMask>Wall</CategoryMask>
+		<Lua_Script>Add_InstantActionUnit_Imperial_Proteus</Lua_Script>
+	</UpgradeObject>
+
+	<UpgradeObject Name="IA_Shadow_Vigil">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Empire, Rebel, Underworld, Independent_Forces, Hutt_Cartels, Eriadu_Authority, Greater_Maldrood, Pentastar, Zsinj_Empire, Corellia, Corporate_Sector, Hapes_Consortium, Yevetha, EmpireoftheHand, SsiRuuvi_Imperium, Imperial_Proteus</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>-1</Build_Limit_Current_For_All_Allies>
+
+		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_button_shadow_vigil.tga</Icon_Name>
+
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UNIT_SHADOW_VIGIL</Text_ID>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_SHADOW_VIGIL
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_VIGIL_HULL
+		TEXT_TOOLTIP_VIGIL_SHIELD
+		TEXT_TOOLTIP_VIGIL_MOVE 
+		TEXT_TOOLTIP_VIGIL_SQUADRON
+		TEXT_TOOLTIP_VIGIL_WEAP1 
+		TEXT_TOOLTIP_VIGIL_WEAP2 
+		TEXT_TOOLTIP_VIGIL_WEAP3
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
 		</Encyclopedia_Text>
@@ -11423,44 +11468,6 @@
 		<CategoryMask>Wall</CategoryMask>
 		<Lua_Script>Add_InstantActionUnit_Imperial_Proteus</Lua_Script>
 	</UpgradeObject>
-	
-	<UpgradeObject Name="IA_Shadow_Vigil">
-		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel, Underworld, Independent_Forces, Hutt_Cartels, Eriadu_Authority, Greater_Maldrood, Pentastar, Zsinj_Empire, Corellia, Corporate_Sector, Hapes_Consortium, Yevetha, EmpireoftheHand, SsiRuuvi_Imperium, Imperial_Proteus</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
-		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<Build_Limit_Current_For_All_Allies>-1</Build_Limit_Current_For_All_Allies>
-
-		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
-		<Icon_Name>i_button_shadow_vigil.tga</Icon_Name>
-
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
-		<Text_ID>TEXT_UNIT_SHADOW_VIGIL</Text_ID>
-		<Encyclopedia_Text> 
-		TEXT_TOOLTIP_SHADOW_VIGIL
-		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		TEXT_TOOLTIP_VIGIL_HULL
-		TEXT_TOOLTIP_VIGIL_SHIELD
-		TEXT_TOOLTIP_VIGIL_MOVE 
-		TEXT_TOOLTIP_VIGIL_SQUADRON
-		TEXT_TOOLTIP_VIGIL_WEAP1 
-		TEXT_TOOLTIP_VIGIL_WEAP2 
-		TEXT_TOOLTIP_VIGIL_WEAP3
-		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
-		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
-		</Encyclopedia_Text>
-
-		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
-		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
-
-		<CategoryMask>Wall</CategoryMask>
-		<Lua_Script>Add_InstantActionUnit_Imperial_Proteus</Lua_Script>
-	</UpgradeObject>
 
 	<UpgradeObject Name="IA_Pelta_Assault">
 		<Behavior>DUMMY_UPGRADE</Behavior>
@@ -11530,6 +11537,48 @@
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
 		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
+		</Encyclopedia_Text>
+		
+		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
+
+		<CategoryMask>Wall</CategoryMask>
+		<Lua_Script>Add_InstantActionUnit_Imperial_Proteus</Lua_Script>
+	</UpgradeObject>
+	
+	<UpgradeObject Name="IA_Corona_Tender">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Empire, Rebel, Underworld, Independent_Forces, Hutt_Cartels, Eriadu_Authority, Greater_Maldrood, Pentastar, Zsinj_Empire, Corellia, Corporate_Sector, Hapes_Consortium, Yevetha, EmpireoftheHand, SsiRuuvi_Imperium, Imperial_Proteus</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>-1</Build_Limit_Current_For_All_Allies>
+
+		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Icon_Name>I_BUTTON_CORONA_TENDER.tga</Icon_Name>
+
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UNIT_CORONA_TENDER</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_CORONA_TENDER_DESC
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_CORONA_HULL
+		TEXT_TOOLTIP_CORONA_TENDER_SHIELD
+		TEXT_TOOLTIP_CORONA_MOVE
+		TEXT_TOOLTIP_CORONA_WEAP1
+		TEXT_TOOLTIP_CORONA_TENDER_WEAP2
+		TEXT_TOOLTIP_CORONA_TENDER_WEAP3
+		TEXT_TOOLTIP_CORONA_TENDER_WEAP4
+		TEXT_TOOLTIP_CORONA_TENDER_WEAP5
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_CORONA_TENDER_PD
+		TEXT_TOOLTIP_CORONA_TENDER
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
 		</Encyclopedia_Text>
 		
 		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
@@ -11729,6 +11778,7 @@
 		<Lua_Script>Add_InstantActionUnit_Imperial_Proteus</Lua_Script>
 	</UpgradeObject>
 	
+	<!-- Heavy Frigate -->
 	<UpgradeObject Name="IA_Vindicator_Carrier">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Empire, Rebel, Underworld, Independent_Forces, Hutt_Cartels, Eriadu_Authority, Greater_Maldrood, Pentastar, Zsinj_Empire, Corellia, Corporate_Sector, Hapes_Consortium, Yevetha, EmpireoftheHand, SsiRuuvi_Imperium, Imperial_Proteus</Affiliation>
@@ -11767,7 +11817,7 @@
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
 
 		<CategoryMask>Wall</CategoryMask>
-		<Lua_Script>Add_InstantActionUnit_Imperial_Proteus</Lua_Script>
+		<Lua_Script>Add_InstantActionUnit_Imperial_Proteus2</Lua_Script>
 	</UpgradeObject>
 	
 	<UpgradeObject Name="IA_Picket_DHC">
@@ -11807,7 +11857,7 @@
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
 
 		<CategoryMask>Wall</CategoryMask>
-		<Lua_Script>Add_InstantActionUnit_Imperial_Proteus</Lua_Script>
+		<Lua_Script>Add_InstantActionUnit_Imperial_Proteus2</Lua_Script>
 	</UpgradeObject>
 	
 	<UpgradeObject Name="IA_DHC_Interdictor">
@@ -11846,7 +11896,7 @@
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
 
 		<CategoryMask>Wall</CategoryMask>
-		<Lua_Script>Add_InstantActionUnit_Imperial_Proteus</Lua_Script>
+		<Lua_Script>Add_InstantActionUnit_Imperial_Proteus2</Lua_Script>
 	</UpgradeObject>
 	
 	<UpgradeObject Name="IA_Modernized_DHC">
@@ -11887,122 +11937,7 @@
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
 
 		<CategoryMask>Wall</CategoryMask>
-		<Lua_Script>Add_InstantActionUnit_Imperial_Proteus</Lua_Script>
-	</UpgradeObject>
-
-	<UpgradeObject Name="IA_Acclamator_I_Support">
-		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel, Underworld, Independent_Forces, Hutt_Cartels, Eriadu_Authority, Greater_Maldrood, Pentastar, Zsinj_Empire, Corellia, Corporate_Sector, Hapes_Consortium, Yevetha, EmpireoftheHand, SsiRuuvi_Imperium, Imperial_Proteus</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
-		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<Build_Limit_Current_For_All_Allies>-1</Build_Limit_Current_For_All_Allies>
-
-		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
-		<Icon_Name>I_BUTTON_ACCLAMATOR_I_SUPPORT.TGA</Icon_Name>
-
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
-		<Text_ID>TEXT_UNIT_ACCLAMATOR_I_SUPPORT</Text_ID>
-		<Encyclopedia_Text>
-		TEXT_TOOLTIP_ACCLAMATOR_I_SUPPORT
-		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		TEXT_TOOLTIP_ACCLAMATOR_I_SUPPORT_HULL
-		TEXT_TOOLTIP_ACCLAMATOR_I_SHIELD
-		TEXT_TOOLTIP_ACCLAMATOR_I_MOVE
-		TEXT_TOOLTIP_ACCLAMATOR_I_WEAP1
-		TEXT_TOOLTIP_ACCLAMATOR_I_WEAP2 
-		TEXT_TOOLTIP_ACCLAMATOR_I_WEAP3 
-		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
-		TEXT_TOOLTIP_IMPERIAL_CARGO_SHIP_TENDER
-		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
-		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
-		TEXT_TOOLTIP_CAPABILITY_BOARDABLE
-		</Encyclopedia_Text>
-
-		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
-		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
-
-		<CategoryMask>Wall</CategoryMask>
-		<Lua_Script>Add_InstantActionUnit_Imperial_Proteus</Lua_Script>
-	</UpgradeObject>
-
-	<UpgradeObject Name="IA_Acclamator_I_Supercruiser">
-		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel, Underworld, Independent_Forces, Hutt_Cartels, Eriadu_Authority, Greater_Maldrood, Pentastar, Zsinj_Empire, Corellia, Corporate_Sector, Hapes_Consortium, Yevetha, EmpireoftheHand, SsiRuuvi_Imperium, Imperial_Proteus</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
-		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<Build_Limit_Current_For_All_Allies>-1</Build_Limit_Current_For_All_Allies>
-
-		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
-		<Icon_Name>I_BUTTON_ACCLAMATOR_SUPERCRUISER.TGA</Icon_Name>
-
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
-		<Text_ID>TEXT_UNIT_ACCLAMATOR_I </Text_ID>
-		<Encyclopedia_Text>
-		TEXT_TOOLTIP_SUPERCRUISER
-		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		TEXT_TOOLTIP_SUPERCRUISER_HULL
-		TEXT_TOOLTIP_SUPERCRUISER_SHIELD
-		TEXT_TOOLTIP_SUPERCRUISER_MOVE
-		TEXT_TOOLTIP_SUPERCRUISER_WEAP1
-		TEXT_TOOLTIP_SUPERCRUISER_WEAP2 
-		TEXT_TOOLTIP_SUPERCRUISER_WEAP3 
-		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
-		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
-		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
-		TEXT_TOOLTIP_CAPABILITY_BOARDABLE
-		</Encyclopedia_Text>
-
-		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
-		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
-
-		<CategoryMask>Wall</CategoryMask>
-		<Lua_Script>Add_InstantActionUnit_Imperial_Proteus</Lua_Script>
-	</UpgradeObject>
-
-	<UpgradeObject Name="IA_Mansk_Frigate">
-		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel, Underworld, Independent_Forces, Hutt_Cartels, Eriadu_Authority, Greater_Maldrood, Pentastar, Zsinj_Empire, Corellia, Corporate_Sector, Hapes_Consortium, Yevetha, EmpireoftheHand, SsiRuuvi_Imperium, Imperial_Proteus</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
-		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<Build_Limit_Current_For_All_Allies>-1</Build_Limit_Current_For_All_Allies>
-
-		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
-		<Icon_Name>i_button_mansk_frigate.tga</Icon_Name>
-
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
-		<Text_ID>TEXT_UNIT_MANSK_FRIGATE</Text_ID>
-		<Encyclopedia_Text>
-		TEXT_TOOLTIP_MANSK
-		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		TEXT_TOOLTIP_MANSK_HULL 
-		TEXT_TOOLTIP_MANSK_SHIELD 
-		TEXT_TOOLTIP_MANSK_MOVE
-		TEXT_TOOLTIP_MANSK_WEAP1 
-		TEXT_TOOLTIP_MANSK_WEAP2
-		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
-		TEXT_TOOLTIP_MANSK_PD
-		</Encyclopedia_Text>
-
-		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
-		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
-
-		<CategoryMask>Wall</CategoryMask>
-		<Lua_Script>Add_InstantActionUnit_Imperial_Proteus</Lua_Script>
+		<Lua_Script>Add_InstantActionUnit_Imperial_Proteus2</Lua_Script>
 	</UpgradeObject>
 
 	<UpgradeObject Name="IA_Hornet_Assault_Carrier">
@@ -12044,7 +11979,7 @@
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
 
 		<CategoryMask>Wall</CategoryMask>
-		<Lua_Script>Add_InstantActionUnit_Imperial_Proteus</Lua_Script>
+		<Lua_Script>Add_InstantActionUnit_Imperial_Proteus2</Lua_Script>
 	</UpgradeObject>
 
 	<UpgradeObject Name="IA_Tapani_Assault_Frigate">
@@ -12082,10 +12017,10 @@
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
 
 		<CategoryMask>Wall</CategoryMask>
-		<Lua_Script>Add_InstantActionUnit_Imperial_Proteus</Lua_Script>
+		<Lua_Script>Add_InstantActionUnit_Imperial_Proteus2</Lua_Script>
 	</UpgradeObject>
 
-	<UpgradeObject Name="IA_Auxilia">
+	<UpgradeObject Name="IA_Acclamator_I_Support">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Empire, Rebel, Underworld, Independent_Forces, Hutt_Cartels, Eriadu_Authority, Greater_Maldrood, Pentastar, Zsinj_Empire, Corellia, Corporate_Sector, Hapes_Consortium, Yevetha, EmpireoftheHand, SsiRuuvi_Imperium, Imperial_Proteus</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
@@ -12097,20 +12032,21 @@
 
 		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
-		<Icon_Name>i_button_auxilia.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_ACCLAMATOR_I_SUPPORT.TGA</Icon_Name>
 
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
-		<Text_ID>TEXT_UNIT_AUXILIA</Text_ID>
-		<Encyclopedia_Text> 
-		TEXT_TOOLTIP_AUXILIA 
+		<Text_ID>TEXT_UNIT_ACCLAMATOR_I_SUPPORT</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_ACCLAMATOR_I_SUPPORT
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		TEXT_TOOLTIP_AUXILIA_HULL
-		TEXT_TOOLTIP_AUXILIA_SHIELD 
-		TEXT_TOOLTIP_AUXILIA_MOVE 
-		TEXT_TOOLTIP_AUXILIA_WEAP1
-		TEXT_TOOLTIP_AUXILIA_WEAP2 
-		TEXT_TOOLTIP_AUXILIA_WEAP3
-		TEXT_TOOLTIP_AUXILIA_WEAP4
+		TEXT_TOOLTIP_ACCLAMATOR_I_SUPPORT_HULL
+		TEXT_TOOLTIP_ACCLAMATOR_I_SHIELD
+		TEXT_TOOLTIP_ACCLAMATOR_I_MOVE
+		TEXT_TOOLTIP_ACCLAMATOR_I_WEAP1
+		TEXT_TOOLTIP_ACCLAMATOR_I_WEAP2 
+		TEXT_TOOLTIP_ACCLAMATOR_I_WEAP3 
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_IMPERIAL_CARGO_SHIP_TENDER
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
 		TEXT_TOOLTIP_CAPABILITY_BOARDABLE
@@ -12153,6 +12089,123 @@
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
 		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN 
+		TEXT_TOOLTIP_CAPABILITY_BOARDABLE
+		</Encyclopedia_Text>
+
+		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
+
+		<CategoryMask>Wall</CategoryMask>
+		<Lua_Script>Add_InstantActionUnit_Imperial_Proteus2</Lua_Script>
+	</UpgradeObject>
+
+	<UpgradeObject Name="IA_Acclamator_I_Supercruiser">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Empire, Rebel, Underworld, Independent_Forces, Hutt_Cartels, Eriadu_Authority, Greater_Maldrood, Pentastar, Zsinj_Empire, Corellia, Corporate_Sector, Hapes_Consortium, Yevetha, EmpireoftheHand, SsiRuuvi_Imperium, Imperial_Proteus</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>-1</Build_Limit_Current_For_All_Allies>
+
+		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Icon_Name>I_BUTTON_ACCLAMATOR_SUPERCRUISER.TGA</Icon_Name>
+
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UNIT_ACCLAMATOR_I </Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SUPERCRUISER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_SUPERCRUISER_HULL
+		TEXT_TOOLTIP_SUPERCRUISER_SHIELD
+		TEXT_TOOLTIP_SUPERCRUISER_MOVE
+		TEXT_TOOLTIP_SUPERCRUISER_WEAP1
+		TEXT_TOOLTIP_SUPERCRUISER_WEAP2 
+		TEXT_TOOLTIP_SUPERCRUISER_WEAP3 
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
+		TEXT_TOOLTIP_CAPABILITY_BOARDABLE
+		</Encyclopedia_Text>
+
+		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
+
+		<CategoryMask>Wall</CategoryMask>
+		<Lua_Script>Add_InstantActionUnit_Imperial_Proteus2</Lua_Script>
+	</UpgradeObject>
+
+	<UpgradeObject Name="IA_Auxilia">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Empire, Rebel, Underworld, Independent_Forces, Hutt_Cartels, Eriadu_Authority, Greater_Maldrood, Pentastar, Zsinj_Empire, Corellia, Corporate_Sector, Hapes_Consortium, Yevetha, EmpireoftheHand, SsiRuuvi_Imperium, Imperial_Proteus</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>-1</Build_Limit_Current_For_All_Allies>
+
+		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_button_auxilia.tga</Icon_Name>
+
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UNIT_AUXILIA</Text_ID>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_AUXILIA 
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_AUXILIA_HULL
+		TEXT_TOOLTIP_AUXILIA_SHIELD 
+		TEXT_TOOLTIP_AUXILIA_MOVE 
+		TEXT_TOOLTIP_AUXILIA_WEAP1
+		TEXT_TOOLTIP_AUXILIA_WEAP2 
+		TEXT_TOOLTIP_AUXILIA_WEAP3
+		TEXT_TOOLTIP_AUXILIA_WEAP4
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		TEXT_TOOLTIP_CAPABILITY_BOARDABLE
+		</Encyclopedia_Text>
+
+		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
+
+		<CategoryMask>Wall</CategoryMask>
+		<Lua_Script>Add_InstantActionUnit_Imperial_Proteus2</Lua_Script>
+	</UpgradeObject>
+
+	<UpgradeObject Name="IA_Victory_II_Carrier">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Empire, Rebel, Underworld, Independent_Forces, Hutt_Cartels, Eriadu_Authority, Greater_Maldrood, Pentastar, Zsinj_Empire, Corellia, Corporate_Sector, Hapes_Consortium, Yevetha, EmpireoftheHand, SsiRuuvi_Imperium, Imperial_Proteus</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>-1</Build_Limit_Current_For_All_Allies>
+
+		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_button_victory_ii_carrier.tga</Icon_Name>
+
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UNIT_VICTORY_DESTROYER_MK2_CARRIER</Text_ID>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_VICTORY2_CARRIER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_VICTORY2_HULL
+		TEXT_TOOLTIP_VICTORY2_SHIELD_CARRIER
+		TEXT_TOOLTIP_VICTORY2_MOVE
+		TEXT_TOOLTIP_VICTORY2_SQUADRON_CARRIER
+		TEXT_TOOLTIP_VICTORY2_WEAP1_CARRIER
+		TEXT_TOOLTIP_VICTORY2_WEAP2_CARRIER
+		TEXT_TOOLTIP_VICTORY2_WEAP3_CARRIER
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
 		TEXT_TOOLTIP_CAPABILITY_BOARDABLE
 		</Encyclopedia_Text>
 
@@ -12281,45 +12334,6 @@
 		<CategoryMask>Wall</CategoryMask>
 		<Lua_Script>Add_InstantActionUnit_Imperial_Proteus2</Lua_Script>
 	</UpgradeObject>
-
-	<UpgradeObject Name="IA_Victory_II_Carrier">
-		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel, Underworld, Independent_Forces, Hutt_Cartels, Eriadu_Authority, Greater_Maldrood, Pentastar, Zsinj_Empire, Corellia, Corporate_Sector, Hapes_Consortium, Yevetha, EmpireoftheHand, SsiRuuvi_Imperium, Imperial_Proteus</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
-		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<Build_Limit_Current_For_All_Allies>-1</Build_Limit_Current_For_All_Allies>
-
-		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
-		<Icon_Name>i_button_victory_ii_carrier.tga</Icon_Name>
-
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
-		<Text_ID>TEXT_UNIT_VICTORY_DESTROYER_MK2_CARRIER</Text_ID>
-		<Encyclopedia_Text> 
-		TEXT_TOOLTIP_VICTORY2_CARRIER
-		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		TEXT_TOOLTIP_VICTORY2_HULL
-		TEXT_TOOLTIP_VICTORY2_SHIELD_CARRIER
-		TEXT_TOOLTIP_VICTORY2_MOVE
-		TEXT_TOOLTIP_VICTORY2_SQUADRON_CARRIER
-		TEXT_TOOLTIP_VICTORY2_WEAP1_CARRIER
-		TEXT_TOOLTIP_VICTORY2_WEAP2_CARRIER
-		TEXT_TOOLTIP_VICTORY2_WEAP3_CARRIER
-		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
-		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
-		TEXT_TOOLTIP_CAPABILITY_BOARDABLE
-		</Encyclopedia_Text>
-
-		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
-		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
-
-		<CategoryMask>Wall</CategoryMask>
-		<Lua_Script>Add_InstantActionUnit_Imperial_Proteus2</Lua_Script>
-	</UpgradeObject>
 	
 	<UpgradeObject Name="IA_Vector_Star_Destroyer">
 		<Behavior>DUMMY_UPGRADE</Behavior>
@@ -12358,7 +12372,8 @@
 		<CategoryMask>Wall</CategoryMask>
 		<Lua_Script>Add_InstantActionUnit_Imperial_Proteus2</Lua_Script>
 	</UpgradeObject>
-
+	
+	<!-- Capital -->
 	<UpgradeObject Name="IA_Acclamator_Destroyer">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Empire, Rebel, Underworld, Independent_Forces, Hutt_Cartels, Eriadu_Authority, Greater_Maldrood, Pentastar, Zsinj_Empire, Corellia, Corporate_Sector, Hapes_Consortium, Yevetha, EmpireoftheHand, SsiRuuvi_Imperium, Imperial_Proteus</Affiliation>
@@ -12396,10 +12411,10 @@
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
 
 		<CategoryMask>Wall</CategoryMask>
-		<Lua_Script>Add_InstantActionUnit_Imperial_Proteus2</Lua_Script>
+		<Lua_Script>Add_InstantActionUnit_Imperial_Proteus3</Lua_Script>
 	</UpgradeObject>
-	
-	<UpgradeObject Name="IA_Lucrehulk_Auxiliary_Proteus">
+
+	<UpgradeObject Name="IA_Acclamator_Battleship">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Empire, Rebel, Underworld, Independent_Forces, Hutt_Cartels, Eriadu_Authority, Greater_Maldrood, Pentastar, Zsinj_Empire, Corellia, Corporate_Sector, Hapes_Consortium, Yevetha, EmpireoftheHand, SsiRuuvi_Imperium, Imperial_Proteus</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
@@ -12411,32 +12426,71 @@
 
 		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
-		<Icon_Name>I_BUTTON_LUCREHULK_AUXILIARY.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_ACCLAMATOR_BATTLESHIP.TGA</Icon_Name>
 
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
-		<Text_ID>TEXT_UNIT_LUCREHULKAUXILIARY</Text_ID>
-		<Encyclopedia_Text>  
-		TEXT_TOOLTIP_LUCREHULKAUXILIARY
+		<Text_ID>TEXT_UNIT_ACCLAMATOR_BATTLESHIP</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_ACCLAMATOR_BATTLESHIP
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		TEXT_TOOLTIP_LUCREHULKAUXILIARY_HULL
-		TEXT_TOOLTIP_LUCREHULKAUXILIARY_SHIELD 
-		TEXT_TOOLTIP_LUCREHULKAUXILIARY_MOVE 
-		TEXT_TOOLTIP_LUCREHULK_SQUADRON
-		TEXT_TOOLTIP_LUCREHULKAUXILIARY_WEAP1
-		TEXT_TOOLTIP_LUCREHULKAUXILIARY_WEAP2 
-		TEXT_TOOLTIP_LUCREHULKAUXILIARY_WEAP3 
-		TEXT_TOOLTIP_LUCREHULKAUXILIARY_WEAP4 
+		TEXT_TOOLTIP_ACCLAMATOR_BATTLESHIP_HULL 
+		TEXT_TOOLTIP_ACCLAMATOR_BATTLESHIP_SHIELD
+		TEXT_TOOLTIP_ACCLAMATOR_BATTLESHIP_MOVE
+		TEXT_TOOLTIP_ACCLAMATOR_BATTLESHIP_SQUADRON 
+		TEXT_TOOLTIP_ACCLAMATOR_BATTLESHIP_WEAP1 
+		TEXT_TOOLTIP_ACCLAMATOR_BATTLESHIP_WEAP2
+		TEXT_TOOLTIP_ACCLAMATOR_BATTLESHIP_WEAP3
+		TEXT_TOOLTIP_ACCLAMATOR_BATTLESHIP_WEAP4
+		TEXT_TOOLTIP_ACCLAMATOR_BATTLESHIP_WEAP5
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
 		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
 		</Encyclopedia_Text>
-		
+
 		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
 
 		<CategoryMask>Wall</CategoryMask>
-		<Lua_Script>Add_InstantActionUnit_Imperial_Proteus2</Lua_Script>
+		<Lua_Script>Add_InstantActionUnit_Imperial_Proteus3</Lua_Script>
+	</UpgradeObject>
+
+	<UpgradeObject Name="IA_Procurator_Battlecruiser">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Empire, Rebel, Underworld, Independent_Forces, Hutt_Cartels, Eriadu_Authority, Greater_Maldrood, Pentastar, Zsinj_Empire, Corellia, Corporate_Sector, Hapes_Consortium, Yevetha, EmpireoftheHand, SsiRuuvi_Imperium, Imperial_Proteus</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>-1</Build_Limit_Current_For_All_Allies>
+
+		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_button_procurator.tga</Icon_Name>
+
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UNIT_PROCURATOR</Text_ID>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_PROCURATOR
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_PROCURATOR_HULL
+		TEXT_TOOLTIP_PROCURATOR_SHIELD
+		TEXT_TOOLTIP_PROCURATOR_MOVE
+		TEXT_TOOLTIP_PROCURATOR_SQUADRON
+		TEXT_TOOLTIP_PROCURATOR_WEAP1
+		TEXT_TOOLTIP_PROCURATOR_WEAP2
+		TEXT_TOOLTIP_PROCURATOR_WEAP3  
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		</Encyclopedia_Text>
+
+		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
+
+		<CategoryMask>Wall</CategoryMask>
+		<Lua_Script>Add_InstantActionUnit_Imperial_Proteus3</Lua_Script>
 	</UpgradeObject>
 
 	<UpgradeObject Name="IA_Imperial_II_Star_Destroyer_Ion">
@@ -12478,7 +12532,7 @@
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
 
 		<CategoryMask>Wall</CategoryMask>
-		<Lua_Script>Add_InstantActionUnit_Imperial_Proteus2</Lua_Script>
+		<Lua_Script>Add_InstantActionUnit_Imperial_Proteus3</Lua_Script>
 	</UpgradeObject>
 
 	<UpgradeObject Name="IA_Imperial_I_Star_Destroyer_Hero_Refit_Proteus">
@@ -12521,7 +12575,7 @@
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
 
 		<CategoryMask>Wall</CategoryMask>
-		<Lua_Script>Add_InstantActionUnit_Imperial_Proteus2</Lua_Script>
+		<Lua_Script>Add_InstantActionUnit_Imperial_Proteus3</Lua_Script>
 	</UpgradeObject>
 
 	<UpgradeObject Name="IA_Imperial_I_Star_Destroyer_Stealth">
@@ -12564,7 +12618,7 @@
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
 
 		<CategoryMask>Wall</CategoryMask>
-		<Lua_Script>Add_InstantActionUnit_Imperial_Proteus2</Lua_Script>
+		<Lua_Script>Add_InstantActionUnit_Imperial_Proteus3</Lua_Script>
 	</UpgradeObject>
 
 	<UpgradeObject Name="IA_Shadow_Imperial_I_Star_Destroyer_Carrier">
@@ -12607,9 +12661,9 @@
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
 
 		<CategoryMask>Wall</CategoryMask>
-		<Lua_Script>Add_InstantActionUnit_Imperial_Proteus2</Lua_Script>
+		<Lua_Script>Add_InstantActionUnit_Imperial_Proteus3</Lua_Script>
 	</UpgradeObject>
-	
+
 	<UpgradeObject Name="IA_Imperial_Republic_Star_Destroyer">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Empire, Rebel, Underworld, Independent_Forces, Hutt_Cartels, Eriadu_Authority, Greater_Maldrood, Pentastar, Zsinj_Empire, Corellia, Corporate_Sector, Hapes_Consortium, Yevetha, EmpireoftheHand, SsiRuuvi_Imperium, Imperial_Proteus</Affiliation>
@@ -12647,127 +12701,9 @@
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
 
 		<CategoryMask>Wall</CategoryMask>
-		<Lua_Script>Add_InstantActionUnit_Imperial_Proteus2</Lua_Script>
+		<Lua_Script>Add_InstantActionUnit_Imperial_Proteus3</Lua_Script>
 	</UpgradeObject>
 
-	<UpgradeObject Name="IA_Procurator_Battlecruiser">
-		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel, Underworld, Independent_Forces, Hutt_Cartels, Eriadu_Authority, Greater_Maldrood, Pentastar, Zsinj_Empire, Corellia, Corporate_Sector, Hapes_Consortium, Yevetha, EmpireoftheHand, SsiRuuvi_Imperium, Imperial_Proteus</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
-		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<Build_Limit_Current_For_All_Allies>-1</Build_Limit_Current_For_All_Allies>
-
-		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
-		<Icon_Name>i_button_procurator.tga</Icon_Name>
-
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
-		<Text_ID>TEXT_UNIT_PROCURATOR</Text_ID>
-		<Encyclopedia_Text> 
-		TEXT_TOOLTIP_PROCURATOR
-		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		TEXT_TOOLTIP_PROCURATOR_HULL
-		TEXT_TOOLTIP_PROCURATOR_SHIELD
-		TEXT_TOOLTIP_PROCURATOR_MOVE
-		TEXT_TOOLTIP_PROCURATOR_SQUADRON
-		TEXT_TOOLTIP_PROCURATOR_WEAP1
-		TEXT_TOOLTIP_PROCURATOR_WEAP2
-		TEXT_TOOLTIP_PROCURATOR_WEAP3  
-		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
-		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
-		</Encyclopedia_Text>
-
-		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
-		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
-
-		<CategoryMask>Wall</CategoryMask>
-		<Lua_Script>Add_InstantActionUnit_Imperial_Proteus2</Lua_Script>
-	</UpgradeObject>
-
-	<UpgradeObject Name="IA_Acclamator_Battleship">
-		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel, Underworld, Independent_Forces, Hutt_Cartels, Eriadu_Authority, Greater_Maldrood, Pentastar, Zsinj_Empire, Corellia, Corporate_Sector, Hapes_Consortium, Yevetha, EmpireoftheHand, SsiRuuvi_Imperium, Imperial_Proteus</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
-		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<Build_Limit_Current_For_All_Allies>-1</Build_Limit_Current_For_All_Allies>
-
-		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
-		<Icon_Name>I_BUTTON_ACCLAMATOR_BATTLESHIP.TGA</Icon_Name>
-
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
-		<Text_ID>TEXT_UNIT_ACCLAMATOR_BATTLESHIP</Text_ID>
-		<Encyclopedia_Text>
-		TEXT_TOOLTIP_ACCLAMATOR_BATTLESHIP
-		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		TEXT_TOOLTIP_ACCLAMATOR_BATTLESHIP_HULL 
-		TEXT_TOOLTIP_ACCLAMATOR_BATTLESHIP_SHIELD
-		TEXT_TOOLTIP_ACCLAMATOR_BATTLESHIP_MOVE
-		TEXT_TOOLTIP_ACCLAMATOR_BATTLESHIP_SQUADRON 
-		TEXT_TOOLTIP_ACCLAMATOR_BATTLESHIP_WEAP1 
-		TEXT_TOOLTIP_ACCLAMATOR_BATTLESHIP_WEAP2
-		TEXT_TOOLTIP_ACCLAMATOR_BATTLESHIP_WEAP3
-		TEXT_TOOLTIP_ACCLAMATOR_BATTLESHIP_WEAP4
-		TEXT_TOOLTIP_ACCLAMATOR_BATTLESHIP_WEAP5
-		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
-		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
-		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
-		</Encyclopedia_Text>
-
-		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
-		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
-
-		<CategoryMask>Wall</CategoryMask>
-		<Lua_Script>Add_InstantActionUnit_Imperial_Proteus2</Lua_Script>
-	</UpgradeObject>
-	
-	<UpgradeObject Name="IA_Lucrehulk_Battleship">
-		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel, Underworld, Independent_Forces, Hutt_Cartels, Eriadu_Authority, Greater_Maldrood, Pentastar, Zsinj_Empire, Corellia, Corporate_Sector, Hapes_Consortium, Yevetha, EmpireoftheHand, SsiRuuvi_Imperium, Imperial_Proteus</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
-		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<Build_Limit_Current_For_All_Allies>-1</Build_Limit_Current_For_All_Allies>
-
-		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
-		<Icon_Name>I_BUTTON_LUCREHULK_BATTLESHIP.TGA</Icon_Name>
-
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
-		<Text_ID>TEXT_UNIT_LUCREHULKBATTLESHIP</Text_ID>
-		<Encyclopedia_Text> 
-		TEXT_TOOLTIP_LUCREHULKBATTLESHIP
-		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		TEXT_TOOLTIP_LUCREHULKBATTLESHIP_HULL
-		TEXT_TOOLTIP_LUCREHULKBATTLESHIP_SHIELD
-		TEXT_TOOLTIP_LUCREHULKBATTLESHIP_MOVE
-		TEXT_TOOLTIP_LUCREHULKBATTLESHIP_SQUADRON
-		TEXT_TOOLTIP_LUCREHULKBATTLESHIP_WEAP1
-		TEXT_TOOLTIP_LUCREHULKBATTLESHIP_WEAP2
-		TEXT_TOOLTIP_LUCREHULKBATTLESHIP_WEAP3
-		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
-		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
-		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
-		</Encyclopedia_Text>
-
-		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
-		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
-
-		<CategoryMask>Wall</CategoryMask>
-		<Lua_Script>Add_InstantActionUnit_Imperial_Proteus2</Lua_Script>
-	</UpgradeObject>
-	
 	<UpgradeObject Name="IA_Triumph_Star_Destroyer">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Empire, Rebel, Underworld, Independent_Forces, Hutt_Cartels, Eriadu_Authority, Greater_Maldrood, Pentastar, Zsinj_Empire, Corellia, Corporate_Sector, Hapes_Consortium, Yevetha, EmpireoftheHand, SsiRuuvi_Imperium, Imperial_Proteus</Affiliation>
@@ -12806,7 +12742,87 @@
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
 
 		<CategoryMask>Wall</CategoryMask>
-		<Lua_Script>Add_InstantActionUnit_Imperial_Proteus2</Lua_Script>
+		<Lua_Script>Add_InstantActionUnit_Imperial_Proteus3</Lua_Script>
+	</UpgradeObject>
+	
+	<!-- Dreadnought -->
+	<UpgradeObject Name="IA_Lucrehulk_Auxiliary_Proteus">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Empire, Rebel, Underworld, Independent_Forces, Hutt_Cartels, Eriadu_Authority, Greater_Maldrood, Pentastar, Zsinj_Empire, Corellia, Corporate_Sector, Hapes_Consortium, Yevetha, EmpireoftheHand, SsiRuuvi_Imperium, Imperial_Proteus</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>-1</Build_Limit_Current_For_All_Allies>
+
+		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Icon_Name>I_BUTTON_LUCREHULK_AUXILIARY.tga</Icon_Name>
+
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UNIT_LUCREHULKAUXILIARY</Text_ID>
+		<Encyclopedia_Text>  
+		TEXT_TOOLTIP_LUCREHULKAUXILIARY
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_LUCREHULKAUXILIARY_HULL
+		TEXT_TOOLTIP_LUCREHULKAUXILIARY_SHIELD 
+		TEXT_TOOLTIP_LUCREHULKAUXILIARY_MOVE 
+		TEXT_TOOLTIP_LUCREHULK_SQUADRON
+		TEXT_TOOLTIP_LUCREHULKAUXILIARY_WEAP1
+		TEXT_TOOLTIP_LUCREHULKAUXILIARY_WEAP2 
+		TEXT_TOOLTIP_LUCREHULKAUXILIARY_WEAP3 
+		TEXT_TOOLTIP_LUCREHULKAUXILIARY_WEAP4 
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
+		</Encyclopedia_Text>
+		
+		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
+
+		<CategoryMask>Wall</CategoryMask>
+		<Lua_Script>Add_InstantActionUnit_Imperial_Proteus3</Lua_Script>
+	</UpgradeObject>
+	
+	<UpgradeObject Name="IA_Lucrehulk_Battleship">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Empire, Rebel, Underworld, Independent_Forces, Hutt_Cartels, Eriadu_Authority, Greater_Maldrood, Pentastar, Zsinj_Empire, Corellia, Corporate_Sector, Hapes_Consortium, Yevetha, EmpireoftheHand, SsiRuuvi_Imperium, Imperial_Proteus</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>-1</Build_Limit_Current_For_All_Allies>
+
+		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Icon_Name>I_BUTTON_LUCREHULK_BATTLESHIP.TGA</Icon_Name>
+
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UNIT_LUCREHULKBATTLESHIP</Text_ID>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_LUCREHULKBATTLESHIP
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_LUCREHULKBATTLESHIP_HULL
+		TEXT_TOOLTIP_LUCREHULKBATTLESHIP_SHIELD
+		TEXT_TOOLTIP_LUCREHULKBATTLESHIP_MOVE
+		TEXT_TOOLTIP_LUCREHULKBATTLESHIP_SQUADRON
+		TEXT_TOOLTIP_LUCREHULKBATTLESHIP_WEAP1
+		TEXT_TOOLTIP_LUCREHULKBATTLESHIP_WEAP2
+		TEXT_TOOLTIP_LUCREHULKBATTLESHIP_WEAP3
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
+		</Encyclopedia_Text>
+
+		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
+
+		<CategoryMask>Wall</CategoryMask>
+		<Lua_Script>Add_InstantActionUnit_Imperial_Proteus3</Lua_Script>
 	</UpgradeObject>
 
 	<UpgradeObject Name="IA_Praetor_I_Battlecruiser">
@@ -12845,7 +12861,7 @@
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
 
 		<CategoryMask>Wall</CategoryMask>
-		<Lua_Script>Add_InstantActionUnit_Imperial_Proteus2</Lua_Script>
+		<Lua_Script>Add_InstantActionUnit_Imperial_Proteus3</Lua_Script>
 	</UpgradeObject>
 
 	<UpgradeObject Name="IA_Shadow_Vengeance_Star_Dreadnought">
@@ -12888,6 +12904,6 @@
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
 
 		<CategoryMask>Wall</CategoryMask>
-		<Lua_Script>Add_InstantActionUnit_Imperial_Proteus2</Lua_Script>
+		<Lua_Script>Add_InstantActionUnit_Imperial_Proteus3</Lua_Script>
 	</UpgradeObject>
 </UpgradeObjects>
