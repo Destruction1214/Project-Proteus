@@ -5425,6 +5425,7 @@
 
 		<Lua_Script>GenericGameObject</Lua_Script>
 		<Tech_Level>99</Tech_Level>
+		<Population_Value>30</Population_Value>
 
 	<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
