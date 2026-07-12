@@ -6,7 +6,6 @@ TEXT_TOOLTIP_FROSTFIRE_WEAP4,2x Medium Dual Ion Cannons: 2 / 4.0s / 6.3km
 TEXT_TOOLTIP_FROSTFIRE_WEAP3,4x Medium Turbolasers: 2 / 0.75s / 6.3km
 TEXT_TOOLTIP_FROSTFIRE_WEAP2,2x Medium Sextuple Turbolasers: 1 / 5.0s / 6.3km
 TEXT_TOOLTIP_FROSTFIRE_WEAP1,2x Medium Quad Turbolasers: 1 / 4.0s / 6.3km
-TEXT_TOOLTIP_ROOK,TODO
 TEXT_HERO_ROOK,Rook
 TEXT_TOOLTIP_FROSTFIRE_SHIELD,Shields: 5,000 / [50/R] (Capital)
 TEXT_TOOLTIP_COMMAND_FROSTFIRE,Modified Ascendancy Star Destroyer, Frostfire
@@ -1393,7 +1392,6 @@ Z_TEXT_UNIT_SCIMITAR_RESEARCH,Reverse-engineer the Scimitar Assault Bomber
 TEXT_TOOLTIP_CAPABILITY_X1_UPGRADE,Upgrade: Executor
 TEXT_HERO_1214,Destruction1214
 TEXT_TOOLTIP_COMMAND_1214,Modified Maelstrom Battlecruiser, Rain of Destruction
-TEXT_TOOLTIP_1214,
 TEXT_TOOLTIP_1214_HULL,Hull: 7950 (Capital)
 TEXT_TOOLTIP_1214_SHIELD,Shields: 8100 / [40.5/R] (Capital)
 TEXT_TOOLTIP_1214_WEAP1,4x Heavy Quad Turbolasers: 2 / 5.0s / 14.8km
@@ -1404,3 +1402,11 @@ TEXT_TOOLTIP_1214_WEAP5,4x Proton Torpedoes: 5 / 10.0s / 10.8km
 TEXT_TOOLTIP_1214_WEAP6,2x Assault Concussion Missiles: 7 / 17.5s / 14.8km
 TEXT_TOOLTIP_1214_WEAP7,2x Assault Concoussion Missiles: 2 / 2.5s / 14.8km
 TEXT_TOOLTIP_1214_SQUADRON,Fighters: 2.5 / 5.5 | Bombers: 1.5 / 2.5
+TEXT_HERO_ELEIAN,Eleian
+TEXT_TOOLTIP_COMMAND_BLACKHOLESUN,Communications Battlecruiser, Black Hole Sun
+TEXT_TOOLTIP_CAPABILITY_ORBITAL_SUPPORT_ELEIAN,Adds Eleian to the reinforcement pool when in orbit. If destroyed, he can be healed and redeployed.
+TEXT_ENCYCLOPEDIA_CLASS_DEV,Project Proteus Dev
+
+TEXT_TOOLTIP_ROOK,TODO
+TEXT_TOOLTIP_1214,TODO
+TEXT_TOOLTIP_ELEIAN,TODO
