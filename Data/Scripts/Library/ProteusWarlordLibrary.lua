@@ -1304,7 +1304,7 @@ return {
 			Planets = {"CORUSCANT"},
 			LeaderTable = {"TaxEvader_SynTax_Error"},
 			LeaderEndingNames = {"The ever brilliant TaxEvader"},
-			HeroList = {"TaxEvader_SynTax_Error", "Destruction1214","Rook_Frostfire"}, --(???), Nova, Michael, Rook, Coyote, Eleian
+			HeroList = {"TaxEvader_SynTax_Error", "Destruction1214","Rook_Frostfire", "Eleian_BlackHoleSun"}, --(???), Nova, Michael, Rook, Coyote
 			-- UnlockList = {
 			-- 	-- Space
 
