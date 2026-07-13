@@ -1003,8 +1003,8 @@
         <Fire_Cone_Width>360</Fire_Cone_Width> 
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_Ship_Rapid_Laser_Cannon_Green_Medium</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>1.33</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>1.33</Fire_Max_Recharge_Seconds>
+        <Fire_Min_Recharge_Seconds>1.67</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>1.67</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>6</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>1800.0</Fire_Range_Distance>
@@ -1033,8 +1033,8 @@
         <Fire_Cone_Width>200</Fire_Cone_Width> 
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_Ship_Rapid_Laser_Cannon_Green_Light</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>1.75</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>1.75</Fire_Max_Recharge_Seconds>
+        <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>6</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>1550.0</Fire_Range_Distance>

@@ -704,8 +704,8 @@ TEXT_TOOLTIP_CORONA_TENDER_PD,Point-Defense: 1 / 0.35 / 1.4km
 TEXT_TOOLTIP_CORONA_TENDER_SHIELD,Shields: 700 / [16/R] (Frigate)
 TEXT_TOOLTIP_CORONA_TENDER_WEAP2,1x Light Turbolaser: 2 / 5.0s / 5.1km
 TEXT_TOOLTIP_CORONA_TENDER_WEAP3,1x Light Ion Cannon: 2 / 5.0s / 5.1km
-TEXT_TOOLTIP_CORONA_TENDER_WEAP4,1x Medium Rapid Laser Cannon: 6 / 1.33s / 3.6km
-TEXT_TOOLTIP_CORONA_TENDER_WEAP5,1x Light Rapid Laser Cannon: 6 / 1.75s / 3.1km
+TEXT_TOOLTIP_CORONA_TENDER_WEAP4,1x Medium Rapid Laser Cannon: 6 / 1.67s / 3.6km
+TEXT_TOOLTIP_CORONA_TENDER_WEAP5,1x Light Rapid Laser Cannon: 6 / 2.5s / 3.1km
 TEXT_TOOLTIP_COYOTE_BOMBER,This wartime direct upgrade to an older Droid Bomber design spun off from the Vulture series. Employed by the Trade Federation in the subjugation of its corporate interests, and would fly under CIS colors when the Trade Federation pledged its military to the Separatists. It is similar to its peer the Hyena Bomber in role and power, swarming enemy capital ships to cripple or eliminate them while pushing through Republic fighter forces. Unusually for the size and design it is equipped with a weak shield, though it does make other performance sacrifices in comparison.
 TEXT_TOOLTIP_DARK_JEDI_REBORN_COMPANY,Company: 5x Reborn Shadow Dark Jedi
 TEXT_TOOLTIP_DARK_JEDI_REBORN_HEALTH,Health: 70 [2%/5s] (Hero)
