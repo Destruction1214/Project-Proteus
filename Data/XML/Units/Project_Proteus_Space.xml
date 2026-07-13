@@ -5733,6 +5733,81 @@
 		</HardPoints>
 	</SpaceUnit>
 
+	<SpaceUnit Name="Imperial_II_Star_Destroyer_Sentry">
+		<Variant_Of_Existing_Type>Template_Imperial_II_Star_Destroyer</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_STAR_DESTROYER_TWO_SENTRY</Text_ID>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_STAR_DESTROYER_TWO_SENTRY 
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
+		TEXT_TOOLTIP_STAR_DESTROYER_TWO_SENTRY_HULL 
+		TEXT_TOOLTIP_STAR_DESTROYER_TWO_SENTRY_SHIELD 
+		TEXT_TOOLTIP_STAR_DESTROYER_TWO_SENTRY_MOVE 
+		TEXT_TOOLTIP_STAR_DESTROYER_TWO_SENTRY_SQUADRON 
+		TEXT_TOOLTIP_STAR_DESTROYER_TWO_SENTRY_WEAP1 
+		TEXT_TOOLTIP_STAR_DESTROYER_TWO_SENTRY_WEAP2 
+		TEXT_TOOLTIP_STAR_DESTROYER_TWO_SENTRY_WEAP3 
+		TEXT_TOOLTIP_STAR_DESTROYER_TWO_SENTRY_WEAP4 
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK 
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT 
+		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN 
+		TEXT_TOOLTIP_CAPABILITY_BOARDABLE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_ISD_TWO_SENTRY.TGA</Icon_Name>
+
+		<Tech_Level>0</Tech_Level>
+		<Affiliation>Imperial_Proteus</Affiliation> <!-- ZC -->
+
+		<Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron_Half, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Skipray_Squadron_Half, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>TIE_Avenger_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 1</Starting_Spawned_Units_Tech_0>
+
+		<Reserve_Spawned_Units_Tech_0>Skipray_Squadron_Half, 1</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>TIE_Avenger_Squadron, 2</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>TIE_Bomber_Squadron_Half, 1</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 2</Reserve_Spawned_Units_Tech_0>
+
+		<Death_Clone>Damage_Normal, Star_Destroyer_Two_Death_Clone</Death_Clone>
+
+
+		<HardPoints>
+		HP_ISD_II_Sentry_Octuple_01, HP_ISD_II_Sentry_Octuple_02, HP_ISD_II_Sentry_Octuple_03, HP_ISD_II_Sentry_Octuple_04, 
+		HP_ISD_II_Sentry_ML_00, HP_ISD_II_Sentry_ML_01, HP_ISD_II_Sentry_ML_02, HP_ISD_II_Sentry_ML_03, HP_ISD_II_Sentry_ML_04, HP_ISD_II_Sentry_ML_05, 
+		HP_ISD_II_Sentry_LT_00, HP_ISD_II_Sentry_LT_01, HP_ISD_II_Sentry_LT_02, HP_ISD_II_Sentry_LT_03, HP_ISD_II_Sentry_LT_04, HP_ISD_II_Sentry_LT_05, 
+		HP_ISD_II_Sentry_HT_00, HP_ISD_II_Sentry_HT_01, HP_ISD_II_Sentry_HT_02, HP_ISD_II_Sentry_HT_03, HP_ISD_II_Sentry_HT_04, HP_ISD_II_Sentry_HT_05, 
+		HP_ISD_II_Sentry_Engines, HP_ISD_II_Sentry_Fighter_Bay, 
+		HP_ISD_II_Sentry_Main_Battery_1, HP_ISD_II_Sentry_Main_Battery_2, HP_ISD_II_Sentry_Main_Battery_3, HP_ISD_II_Sentry_Main_Battery_4, 
+		HP_ISD_II_Sentry_Main_Battery_5, HP_ISD_II_Sentry_Main_Battery_6, HP_ISD_II_Sentry_Main_Battery_7, HP_ISD_II_Sentry_Main_Battery_8
+		</HardPoints>
+
+		<Tactical_Health>8400</Tactical_Health>
+		<Shield_Points>9000</Shield_Points>
+		<Armor_Type>ArmourS_Capital</Armor_Type>
+		<Shield_Armor_Type>ShieldS_Capital</Shield_Armor_Type>
+		<Shield_Refresh_Rate>45</Shield_Refresh_Rate>
+
+		<Max_Speed>4.2</Max_Speed>
+		<Max_Rate_Of_Turn>0.2</Max_Rate_Of_Turn>
+		<OverrideAcceleration>0.15</OverrideAcceleration>
+		<Targeting_Max_Attack_Distance>2550.0</Targeting_Max_Attack_Distance>
+
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		
+		<Build_Cost_Credits>7750</Build_Cost_Credits>
+		<AI_Combat_Power>3518</AI_Combat_Power>
+		<Population_Value>39</Population_Value>
+
+		<!-- SURVIVAL -->
+		<Tactical_Build_Cost_Multiplayer>4380</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Space_Level_Four_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+
+	</SpaceUnit>
+
+
 <!-- Dreadnought -->
 	
 	<SpaceUnit Name="Lucrehulk_Auxiliary_Proteus">
