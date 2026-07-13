@@ -1168,7 +1168,7 @@ return {
 			StartYear = 12,
 			--LastYear = 23,
 			IntroText = "TEXT_CONQUEST_PROTEUS_SHADOW_ACADEMY",
-			IntroHolo = "Generic_Sith_Loop,
+			IntroHolo = "Generic_Sith_Loop",
 		},
 		["VEERS"] = {
 			FriendlyName = "Blizzard Force",
