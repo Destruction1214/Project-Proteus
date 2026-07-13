@@ -3234,6 +3234,7 @@
 				<Additional_Multiplier_On_Mining_Colonies>1.0</Additional_Multiplier_On_Mining_Colonies> <!-- multiply by Z on mining planets  -->
 				<!-- Total bonus credits per cycle = ((base * X) + Y) * Z -->
 			</Planet_Income_Bonus_Ability>
+	</Abilities>
 	
 	</SpecialStructure>
 	
