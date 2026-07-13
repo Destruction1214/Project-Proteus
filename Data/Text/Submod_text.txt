@@ -2,6 +2,19 @@
 ﻿TEXT_ENCYCLOPEDIA_CLASS_IMPERIAL_NOBLE,Imperial Noble
 TEXT_TOOLTIP_ELITES,A cabal of rich former members of the Imperial elite who resented the New Republic and supported the Empire Reborn insurgency with money and ships, as well as engaging in slave trade and child trafficking to facilitate their dealings and Lord Hethrir's goals. The most prominent members of the group were Lord Brashaa, Lord Cnorec, Lady Ucce and Lord Qaqquqqu, though their network reached far and wide and included traitors within the New Republic and contacts with other warlords. 
 TEXT_HERO_ELITES,Imperial Elite Backers
+TEXT_TOOLTIP_STAR_DESTROYER_TWO_SENTRY,An adaptation of the Imperial II-Class of Star Destroyers that saw increased usage in warlord arsenals and backwater garrisons after the Battle of Endor. A simplified and lighter weapons loadout makes maintenance easier and offers improved defense against strike craft, making it a good choice when facing enemies relying on small craft like pirates or the New Republic. The lower power draw of the weapons also leaves more power for shields and damage control systems. While not as powerful against capital ships as its base design, this variant is still quite threatening to most opponents.
+TEXT_TOOLTIP_STAR_DESTROYER_TWO_SENTRY_HULL,Hull: 8400 (Capital)
+TEXT_TOOLTIP_STAR_DESTROYER_TWO_SENTRY_MOVE,Speed: 4.2 | Accel: 0.15 | Turn: 0.2
+TEXT_TOOLTIP_STAR_DESTROYER_TWO_SENTRY_SHIELD,Shields: 9000 / [45/R] (Capital)
+TEXT_TOOLTIP_STAR_DESTROYER_TWO_SENTRY_SQUADRON,Fighters: 2.5 / 4.5 | Bombers: 0.5 / 0.5
+TEXT_TOOLTIP_STAR_DESTROYER_TWO_SENTRY_WEAP1,6x Heavy Turbolasers: 2 / 1.0s / 7.3km
+TEXT_TOOLTIP_STAR_DESTROYER_TWO_SENTRY_WEAP2,4x Medium Octuple Turbolasers: 2 / 5.0s / 6.3km
+TEXT_TOOLTIP_STAR_DESTROYER_TWO_SENTRY_WEAP3,6x Light Turbolasers: 2 / 1.0s / 5.3km
+TEXT_TOOLTIP_STAR_DESTROYER_TWO_SENTRY_WEAP4,6x Medium Dual Laser Cannons: 2 / 1.0s / 4.3km
+TEXT_UNIT_STAR_DESTROYER_TWO_SENTRY,Imperial-II Star Destroyer Garrison Refit
+TEXT_COMPANY_BANKOFTHECORE,Bank of the Core
+TEXT_COMPANY_BANKOFTHECORE_DESCRIPTION,The Bank of the Core was a Coruscant-based financial institution that played a major role in galactic finance for millennia, even rivaling the Bank of Aargau and the IGBC during the reign of the Galactic Empire. The Bank was one of the sponsors of the Corporate Sector Authority and one of its major financial backers. House Praji were the majority stockholders and leveraged the Bank of the Core's wealth for political and industrial influence.
+TEXT_TOOLTIP_INCOME_BANKOFTHECORE,Credit Income: +600
 TEXT_TOOLTIP_FROSTFIRE_SQUADRON,Fighters: 2 / 8 | Bombers: 2 / 4
 TEXT_TOOLTIP_FROSTFIRE_WEAP4,2x Medium Dual Ion Cannons: 2 / 4.0s / 6.3km
 TEXT_TOOLTIP_FROSTFIRE_WEAP3,4x Medium Turbolasers: 2 / 0.75s / 6.3km
@@ -55,7 +68,7 @@ TEXT_BTLA2_Y_WING_SQUADRON2,BTL-A2 Y-wing Squadron x2
 TEXT_COMPANY_GARRISON_PRAJI_ESTATES_1,Corporate Security Trooper Squad: 1 / 1
 TEXT_COMPANY_GARRISON_PRAJI_ESTATES_2,Elite Mercenary Heavy Squad: 1 / 1
 TEXT_COMPANY_PRAJI_ESTATES,House Praji Estate
-TEXT_COMPANY_PRAJI_ESTATES_DESCRIPTION,The massive and sprawling estate of the prominent and well-connected House Praji, who came from Kaikielius to Coruscant and became increasingly influential in finance and government. Their original Coruscant-based estate boasted luxurious residences and offices as well as gardens and parks big enough to land large starships in. During the Vong War, the Prajii relocated their estate back to Kaikielius, their ancient homeworld. Serves as a hub for House Praji's business dealings and political machinations.
+TEXT_COMPANY_PRAJI_ESTATES_DESCRIPTION,The massive and sprawling estate of the prominent and well-connected House Praji, who came from Kaikielius to Coruscant and became increasingly influential in finance and government. Their original Coruscant-based estate boasted luxurious residences and offices as well as gardens and parks big enough to land large starships in. During the Vong War, the Prajii relocated their estate back to Kaikielius, their ancient homeworld. Serves as a hub for House Praji's business dealings and political machinations, and allows House Praji to influence procurement and construction on the planet.
 TEXT_COMPANY_TIERFON_CAPITAL,Tierfon Sector Fleet HQ
 TEXT_COMPANY_TIERFON_DESCRIPTION,The main base of the Tierfon Sector Fleet, with extensive command centers and dockyard facilities. Functions as a dreadnaught-level shipyard and the faction's capital, but can be relocated much cheaper and faster than other capital buildings.
 TEXT_COMPANY_UBIQTORATE_BASE,Ubiqtorate Base
