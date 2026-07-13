@@ -1,5 +1,4 @@
 ﻿D_TEXT_TOOLTIP_DRAGON_TROOPER,Primitive reptiloid warriors fiercely loyal to Delurin and equipped with ornate metal armor and flamethrowers to more closely resemble the Dragons of ancient myth. Unacquainted with blaster weaponry and other advanced technology, they are nonetheless resilient and quick on their feet.
-﻿TEXT_ENCYCLOPEDIA_CLASS_IMPERIAL_NOBLE,Imperial Noble
 TEXT_TOOLTIP_ELITES,A cabal of rich former members of the Imperial elite who resented the New Republic and supported the Empire Reborn insurgency with money and ships, as well as engaging in slave trade and child trafficking to facilitate their dealings and Lord Hethrir's goals. The most prominent members of the group were Lord Brashaa, Lord Cnorec, Lady Ucce and Lord Qaqquqqu, though their network reached far and wide and included traitors within the New Republic and contacts with other warlords. 
 TEXT_HERO_ELITES,Imperial Elite Backers
 TEXT_TOOLTIP_STAR_DESTROYER_TWO_SENTRY,An adaptation of the Imperial II-Class of Star Destroyers that saw increased usage in warlord arsenals and backwater garrisons after the Battle of Endor. A simplified and lighter weapons loadout makes maintenance easier and offers improved defense against strike craft, making it a good choice when facing enemies relying on small craft like pirates or the New Republic. The lower power draw of the weapons also leaves more power for shields and damage control systems. While not as powerful against capital ships as its base design, this variant is still quite threatening to most opponents.
@@ -135,6 +134,7 @@ TEXT_GROUND_BISCUIT_BARON,Biscuit Baron
 TEXT_H60_SQUADRON,H-60 Tempest Squadron
 TEXT_H60_SQUADRON_HALF,H-60 Tempest Squadron 1/2
 TEXT_H60_SQUADRON2,H-60 Tempest Squadron x2
+TEXT_HERO_1214,Destruction1214
 TEXT_HERO_BENJO,Benjo
 TEXT_HERO_BRELLAR,Alecs Brellar
 TEXT_HERO_CEX,Tyionsis Cex
@@ -970,6 +970,7 @@ TEXT_TOOLTIP_REPUBLIC_SD_R,A next-generation Star Destroyer design developed by 
 TEXT_TOOLTIP_REPUBLIC_TIE,The first general production model in a famous line of fighters with roots in the Sienar Advanced Project Vessel. It was created to fill space aboard older warships but was pressed into greater service due to efficiency compared to more expensive Kuati interceptors. It is sturdier than its successor designs but less maneuverable.
 TEXT_TOOLTIP_REPUBLIC_Z95,A variant of the popular Z-95 Headhunter, the clone Z-95 starfighter boasted speed and maneuverability on account of its sleek design. It was equipped with recessed torpedo launchers and a pair of wingtip laser cannons, and its shielding allowed it to endure much damage, though it lacked a hyperdrive.
 TEXT_TOOLTIP_ROEK,Roek was an officer in the Starfleet of the Galactic Empire. after the Battle of Endor, Admiral Roek and his fleet were recalled to the Core Worlds to defend the Corellian system from the New Republic. Roek replaced Admiral Jaeffis who was previously responsible for the defense of the Corellian shipyards with his fleet of 25 Star Destroyers, and partook in the Empire's withdraw from the system. Roek's fleet eventually passed into the hands of Grand Admiral Grunger.
+TEXT_TOOLTIP_ROOK,TODO
 TEXT_TOOLTIP_SCHMONG,Kiara Schmong was a Sullustan arms dealer and spy who constantly switched affiliations, though she most prominently worked for the Kaarenth Dissension. Selling them illegally sourced SoroSuub hardware and scientific secrets stolen from the Brothers Teradoc, she was last seen fleeing New Republic authorities.
 TEXT_TOOLTIP_SCIMITAR_RESEARCH_BOMBER1,Finance mass production of a Sienar assault fighter based off Tomax Bren's proposed TIE Bomber MK2, replacing the TIE Bomber completely.
 TEXT_TOOLTIP_SHADOW_ACCLAMATOR_I,A large, transgalactic assault vessel that was secretly developed before the Clone Wars. While best known for carrying army groups, it is typically used as a carrier in naval duties. Carries enough turbolasers to threaten other large ships, but is not durable for the size. Coated in black stygian-triprismatic polymer, this vessel was almost impossible to detect at sensor range and nearly invisible to the naked eye in deep space.
