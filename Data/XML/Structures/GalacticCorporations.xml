@@ -3226,7 +3226,6 @@
 		TEXT_OBJECT_STAR_SYSTEM_CORUSCANT
 		</Encyclopedia_Text>
 
-	
 		<Abilities SubObjectList="Yes">
 			<Planet_Income_Bonus_Ability Name="Bank_Income_Bonus">
 				<Specific_Mod_Source_Text>TEXT_ECONOMY_BANK_RESERVE</Specific_Mod_Source_Text>
@@ -3236,7 +3235,6 @@
 				<!-- Total bonus credits per cycle = ((base * X) + Y) * Z -->
 			</Planet_Income_Bonus_Ability>
 	
-		<Starting_Spawned_Units_Tech_0>Security_Trooper_Squad, 1</Starting_Spawned_Units_Tech_0>
 	</SpecialStructure>
 	
 </SpecialStructures>
