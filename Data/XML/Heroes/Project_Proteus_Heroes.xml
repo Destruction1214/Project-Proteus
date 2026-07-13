@@ -5429,6 +5429,7 @@
 
 		<Lua_Script>GenericGameObject</Lua_Script>
 		<Tech_Level>99</Tech_Level>
+		<Population_Value>30</Population_Value>
 
 		<Starting_Spawned_Units_Tech_0>Scarssis_Squadron, 1</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Scarssis_Squadron, 4</Reserve_Spawned_Units_Tech_0>
