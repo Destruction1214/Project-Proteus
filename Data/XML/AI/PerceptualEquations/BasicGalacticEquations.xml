@@ -506,6 +506,7 @@
 									Parameter_Type = "Biscuit_Baron",
 									Parameter_Type = "Ubiqtorate_Base",
 									Parameter_Type = "Praji_Estates",
+									Parameter_Type = "Bankofthecore",
 									Parameter_Only_Consider_Complete = 1.0
 									}
 	</Planet_Has_Ground_Company>
@@ -602,6 +603,7 @@
 									Parameter_Type = "Biscuit_Baron",
 									Parameter_Type = "Ubiqtorate_Base",
 									Parameter_Type = "Praji_Estates",
+									Parameter_Type = "Bankofthecore",
 									Parameter_Only_Consider_Complete = 1.0
 									}
 	</Player_Has_Ground_Company>

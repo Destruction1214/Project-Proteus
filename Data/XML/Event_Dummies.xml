@@ -893,7 +893,36 @@
 		<Icon_Name>empty.tga</Icon_Name>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 	</DummyStructure>
-	
+
+		<DummyStructure Name="Warlord_Choice_Empire_Reborn">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_EVENT_WARLORD_CHOICE_REBORN</Text_ID>
+		<Encyclopedia_Text>
+			TEXT_EVENT_TOOLTIP_WARLORD_CHOICE
+			TEXT_PLANET_SEPARATOR
+			TEXT_PROTEUS_DESCRIPTION_REBORN
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>I_BUTTON_DESANN.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
+
+	<DummyStructure Name="Warlord_Choice_Second_Imperium">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_EVENT_WARLORD_CHOICE_SHADOW_ACADEMY</Text_ID>
+		<Encyclopedia_Text>
+			TEXT_EVENT_TOOLTIP_WARLORD_CHOICE
+			TEXT_PLANET_SEPARATOR
+			TEXT_PROTEUS_DESCRIPTION_SHADOW_ACADEMY
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>I_BUTTON_BRAKISS.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
 
 	<!-- Regime Leader Choices -->
 
