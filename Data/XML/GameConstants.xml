@@ -2490,6 +2490,7 @@
 		Refit_Venator_Star_Destroyer_Proteus,			Data\ShipNames\Venator.txt,
 		Vector_Star_Destroyer,							Data\ShipNames\victory_destroyer_II.txt,
 		Victory_I_Star_Destroyer_Patrol,				Data\ShipNames\Victory_Destroyer.txt,
+		Imperial_II_Star_Destroyer_Sentry,				Data\ShipNames\Star_Destroyer.txt,
 	</ShipNameTextFiles>
 
 	<!-- Main menu in-game demo/attract playback -->

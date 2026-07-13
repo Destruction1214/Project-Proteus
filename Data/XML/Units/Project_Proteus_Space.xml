@@ -5795,9 +5795,9 @@
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		
-		<Build_Cost_Credits>7750</Build_Cost_Credits>
-		<AI_Combat_Power>3518</AI_Combat_Power>
-		<Population_Value>39</Population_Value>
+		<Build_Cost_Credits>8200</Build_Cost_Credits>
+		<AI_Combat_Power>3689</AI_Combat_Power>
+		<Population_Value>41</Population_Value>
 
 		<!-- SURVIVAL -->
 		<Tactical_Build_Cost_Multiplayer>4380</Tactical_Build_Cost_Multiplayer>

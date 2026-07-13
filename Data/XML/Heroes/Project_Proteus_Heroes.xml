@@ -5389,8 +5389,8 @@
 		TEXT_TOOLTIP_ASCENDANCY_MOVE
 		TEXT_TOOLTIP_FROSTFIRE_SQUADRON
 		TEXT_TOOLTIP_FROSTFIRE_WEAP1
-		TEXT_TOOLTIP_FROSTFIRE_WEAP2
 		TEXT_TOOLTIP_FROSTFIRE_WEAP3
+		TEXT_TOOLTIP_FROSTFIRE_WEAP4
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
 		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
@@ -5406,6 +5406,9 @@
 		<Shield_Refresh_Rate>50</Shield_Refresh_Rate>
 		
         <Ranking_In_Category>4</Ranking_In_Category>
+
+		<AI_Combat_Power>2038</AI_Combat_Power>
+		<Population_Value>34</Population_Value>
 
 		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, ION_STUN_EFFECT, NEBULA</SpaceBehavior>
 
@@ -5427,7 +5430,14 @@
 		<Lua_Script>GenericGameObject</Lua_Script>
 		<Tech_Level>99</Tech_Level>
 
-	<Unit_Abilities_Data SubObjectList="Yes">
+		<Starting_Spawned_Units_Tech_0>Scarssis_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Scarssis_Squadron, 4</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>E_Wing_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>E_Wing_Squadron, 4</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>TIE_Terror_Squadron_Double, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>TIE_Terror_Squadron_Double, 2</Reserve_Spawned_Units_Tech_0>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>DEFEND</Type>
 				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	1.25f</Mod_Multiplier>
@@ -5533,6 +5543,9 @@
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_SPECIAL, Unit_Attack_Hissa </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_Attack_Hissa </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_DUMMY_ART, Unit_Attack_Hissa </SFXEvent_Attack_Hardpoint>
+
+		<AI_Combat_Power>2864</AI_Combat_Power>
+		<Population_Value>31</Population_Value>
 
 		<Lua_Script>GenericGameObject</Lua_Script>
 		<Tech_Level>99</Tech_Level>
