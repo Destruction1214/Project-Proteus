@@ -1568,7 +1568,7 @@
                 <Projectile_Dist_Travelled>100</Projectile_Dist_Travelled>
                 <Lightning_Effect_Name>Force_Lightning</Lightning_Effect_Name>
                 <Laser_Beam_Texture>tractor_beam00.tga</Laser_Beam_Texture>
-                <Recharge_Time_In_Secs>0.35</Recharge_Time_In_Secs>
+                <Recharge_Time_In_Secs>0.54</Recharge_Time_In_Secs>
                 <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
                 <Zap_SFXEvent>Unit_Point_Laser_Fire</Zap_SFXEvent>
             </Laser_Defense_Ability>
