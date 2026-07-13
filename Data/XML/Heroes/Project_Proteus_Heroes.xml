@@ -4975,7 +4975,7 @@
 		<Affiliation>Imperial_Proteus</Affiliation>
 	</HeroCompany>
 
-		<HeroUnit Name="Nobles"> <!-- Proteus only -->
+	<HeroUnit Name="Nobles"> <!-- Proteus only -->
 		<Variant_Of_Existing_Type>Non_Combat_Hero_Template</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_HERO_ELITES</Text_ID>
 		<Encyclopedia_Text> 
@@ -5271,6 +5271,7 @@
 		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
 	</HeroCompany>
 
+<!-- Dev Faction Heroes -->
 	<UniqueUnit Name="Destruction1214">
 		<Variant_Of_Existing_Type>Maelstrom_Battlecruiser</Variant_Of_Existing_Type>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
@@ -5370,7 +5371,7 @@
 		</Abilities>
 	</UniqueUnit>
 
-		<UniqueUnit Name="Rook_Frostfire">
+	<UniqueUnit Name="Rook_Frostfire">
 		<Variant_Of_Existing_Type>Ascendancy_Star_Destroyer</Variant_Of_Existing_Type>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Text_ID>TEXT_HERO_ROOK</Text_ID>
@@ -5388,8 +5389,8 @@
 		TEXT_TOOLTIP_ASCENDANCY_MOVE
 		TEXT_TOOLTIP_FROSTFIRE_SQUADRON
 		TEXT_TOOLTIP_FROSTFIRE_WEAP1
-		TEXT_TOOLTIP_FROSTFIRE_WEAP2
 		TEXT_TOOLTIP_FROSTFIRE_WEAP3
+		TEXT_TOOLTIP_FROSTFIRE_WEAP4
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
 		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
@@ -5405,6 +5406,9 @@
 		<Shield_Refresh_Rate>50</Shield_Refresh_Rate>
 		
         <Ranking_In_Category>4</Ranking_In_Category>
+
+		<AI_Combat_Power>2038</AI_Combat_Power>
+		<Population_Value>34</Population_Value>
 
 		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, ION_STUN_EFFECT, NEBULA</SpaceBehavior>
 
@@ -5426,7 +5430,14 @@
 		<Lua_Script>GenericGameObject</Lua_Script>
 		<Tech_Level>99</Tech_Level>
 
-	<Unit_Abilities_Data SubObjectList="Yes">
+		<Starting_Spawned_Units_Tech_0>Scarssis_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Scarssis_Squadron, 4</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>E_Wing_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>E_Wing_Squadron, 4</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>TIE_Terror_Squadron_Double, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>TIE_Terror_Squadron_Double, 2</Reserve_Spawned_Units_Tech_0>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>DEFEND</Type>
 				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	1.25f</Mod_Multiplier>
@@ -5463,5 +5474,201 @@
 			
 		</Abilities>
 	</UniqueUnit>
+
+	<UniqueUnit Name="TaxEvader_SynTax_Error">
+		<Variant_Of_Existing_Type>Mothma_Star_Destroyer</Variant_Of_Existing_Type>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Text_ID>TEXT_HERO_TAXEVADER</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK 
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_09_SPACE
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK 
+		TEXT_TOOLTIP_TAXEVADER
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK 
+		TEXT_TOOLTIP_COMMAND_SYNTAX_ERROR
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_STAR_DESTROYER_MOTHMA_HULL
+		TEXT_TOOLTIP_STAR_DESTROYER_MOTHMA_SHIELD
+		TEXT_TOOLTIP_STAR_DESTROYER_MOTHMA_MOVE
+		TEXT_TOOLTIP_STAR_DESTROYER_MOTHMA_SQUADRON
+		TEXT_TOOLTIP_STAR_DESTROYER_MOTHMA_WEAP1
+		TEXT_TOOLTIP_STAR_DESTROYER_MOTHMA_WEAP2
+		TEXT_TOOLTIP_SYNTAX_ERROR_WEAP3
+		TEXT_TOOLTIP_STAR_DESTROYER_MOTHMA_WEAP4
+		TEXT_TOOLTIP_STAR_DESTROYER_MOTHMA_WEAP5
+		TEXT_TOOLTIP_SYNTAX_ERROR_WEAP6
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INFORMER_OF_DEER </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_taxevader.tga</Icon_Name>
+		
+		<CategoryMask> SpaceHero | AntiFrigate </CategoryMask>
+		<Property_Flags>GTSImmune</Property_Flags>
+		<Affiliation>Imperial_Proteus</Affiliation> <!-- Stop AI enumerating -->
+		
+        <Ranking_In_Category>4</Ranking_In_Category>
+
+		<SpaceBehavior>TELEKINESIS_TARGET,ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
+        
+		<HardPoints>
+			HP_Star_Destroyer_Mothma_Weapon_01, HP_Star_Destroyer_Mothma_Weapon_02, HP_Star_Destroyer_Mothma_Weapon_03, HP_Star_Destroyer_Mothma_Weapon_04, HP_Star_Destroyer_Mothma_Weapon_05, HP_Star_Destroyer_Mothma_Weapon_06,
+			HP_Star_Destroyer_Mothma_Weapon_07, HP_Star_Destroyer_Mothma_Weapon_08, HP_Star_Destroyer_Mothma_Weapon_09, HP_Star_Destroyer_Mothma_Weapon_10, HP_Star_Destroyer_Mothma_Weapon_11, HP_Star_Destroyer_Mothma_Weapon_12,
+			HP_SynTax_Error_Missile_Trout_01, HP_SynTax_Error_Missile_Trout_02, HP_Star_Destroyer_Mothma_Weapon_15, HP_Star_Destroyer_Mothma_Weapon_16, HP_SynTax_Error_Missile_Trout_03, HP_Star_Destroyer_Mothma_Engines,
+			HP_Star_Destroyer_Mothma_Fighter_Bay, HP_Star_Destroyer_2_Main_Battery_5, HP_Star_Destroyer_2_Main_Battery_2, HP_Star_Destroyer_2_Main_Battery_3, HP_Star_Destroyer_2_Main_Battery_4, HP_Star_Destroyer_Mothma_Gravity_Well
+		</HardPoints>
+
+		<SFXEvent_Select>Unit_Select_Hissa</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Hissa</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Move_Hissa</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Hissa</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Move_Hissa</SFXEvent_Guard>
+		<SFXEvent_Move_Into_Nebula> Unit_Nebula_Hissa </SFXEvent_Move_Into_Nebula>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_Hissa </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Health_Low_Warning>Unit_Health_Low_Hissa</SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_Hissa</SFXEvent_Health_Critical_Warning>
+		<Death_SFXEvent_Start_Die>Unit_Death_Hissa</Death_SFXEvent_Start_Die>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_Laser_Hissa </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_Missile_Hissa </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_Torp_Hissa </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_Ion_Hissa </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_Attack_Hissa </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_Engines_Hissa </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_HP_Grav_Hissa </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_FIGHTER_BAY, Unit_HP_Bay_Hissa </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_TRACTOR_BEAM, Unit_Attack_Hissa </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MASS_DRIVER, Unit_Attack_Hissa </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_SPECIAL, Unit_Attack_Hissa </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_Attack_Hissa </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_DUMMY_ART, Unit_Attack_Hissa </SFXEvent_Attack_Hardpoint>
+
+		<AI_Combat_Power>2864</AI_Combat_Power>
+		<Population_Value>31</Population_Value>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+		<Tech_Level>99</Tech_Level>
+
+	<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>INTERDICT</Type>
+				<Disable_Movement>Yes</Disable_Movement>
+
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Grav_Online_Interdictor</SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated>Unit_Grav_Offline_Interdictor</SFXEvent_GUI_Unit_Ability_Deactivated>
+			</Unit_Ability>
+	</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes"> <!-- Command_Tier_09 -->
+			<Combat_Bonus_Ability Name="Command_Tier_09_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Damage_Bonus_Percentage>0.27</Damage_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.27</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.27</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Battlefield_Modifier_Ability Name="Command_Tier_10_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<FOW_Reveal_Range_Multiplier>1.27</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+			
+		</Abilities>
+	</UniqueUnit>
 	
+	<UniqueUnit Name="Eleian_BlackHoleSun">
+		<Variant_Of_Existing_Type>Communications_Battlecruiser</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_HERO_ELEIAN</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK 
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_09_SPACE
+		TEXT_TOOLTIP_TRAIT_AGENT_TIER_AGENT_02
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK 
+		TEXT_TOOLTIP_ELEIAN 
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK 
+		TEXT_TOOLTIP_COMMAND_BADMOTORFINGER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_COMM_BATTLECRUISER_HULL
+		TEXT_TOOLTIP_COMM_BATTLECRUISER_SHIELD
+		TEXT_TOOLTIP_COMM_BATTLECRUISER_MOVE
+		TEXT_TOOLTIP_COMM_BATTLECRUISER_SQUADRON
+		TEXT_TOOLTIP_COMM_BATTLECRUISER_WEAP1
+		TEXT_TOOLTIP_COMM_BATTLECRUISER_WEAP2
+		TEXT_TOOLTIP_COMM_BATTLECRUISER_WEAP3 
+		TEXT_TOOLTIP_COMM_BATTLECRUISER_WEAP4 
+		TEXT_TOOLTIP_COMM_BATTLECRUISER_WEAP5  
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_SUPPORT_ELEIAN
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_ELEIAN.tga</Icon_Name>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEV </Encyclopedia_Unit_Class>
+		
+		<Ranking_In_Category>3</Ranking_In_Category>
+		<CategoryMask> SpaceHero | AntiCapital </CategoryMask>
+		<Property_Flags>GTSImmune</Property_Flags>
+		<Affiliation>Imperial_Proteus</Affiliation> <!-- Stop AI enumerating -->
+		
+		<Abilities SubObjectList="Yes">
+			<Sensor_Jamming_Ability Name="Comm_Battlecruiser_Sensor_Jamming">
+				<Activation_Style> User_Input </Activation_Style>
+				<Owner_Particle_Effect>Sensor_Jamming_Effect_2000</Owner_Particle_Effect>
+			</Sensor_Jamming_Ability>
+			
+			<Combat_Bonus_Ability Name="Command_Tier_09_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Damage_Bonus_Percentage>0.33</Damage_Bonus_Percentage>    
+				<Defense_Bonus_Percentage>0.27</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.27</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Battlefield_Modifier_Ability Name="Command_Tier_09_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<FOW_Reveal_Range_Multiplier>1.27</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+			
+			<Reduce_Production_Price_Ability Name="Agent_Tier_Agent_02_Reduce_Production_Price">
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Excluded_Unit_Categories>Upgrade | Wall</Excluded_Unit_Categories>
+				<Applicable_Unit_Types></Applicable_Unit_Types>
+				<Price_Reduction_Percentage>0.10</Price_Reduction_Percentage>
+				<Stacking_Category>51</Stacking_Category>
+			</Reduce_Production_Price_Ability>
+			
+			<Combat_Bonus_Ability Name="Comm_Battlecruiser_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories> Capital | Frigate | Corvette </Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> </Excluded_Unit_Types>
+				<Damage_Bonus_Percentage>0.06</Damage_Bonus_Percentage>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.06</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.06</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>1</Stacking_Category>
+			</Combat_Bonus_Ability>
+			
+			<Battlefield_Modifier_Ability Name="Comm_Battlecruiser_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories> Capital | Frigate | Corvette </Applicable_Unit_Categories>
+				<FOW_Reveal_Range_Multiplier>1.06</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>1</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+		</Abilities>
+	</UniqueUnit>
 </Project_Proteus_Heroes>

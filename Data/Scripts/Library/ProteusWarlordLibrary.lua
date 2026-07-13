@@ -575,7 +575,7 @@ return {
 			},
 			FactionOverride = "Empire",
 			IntroText = "TEXT_CONQUEST_PROTEUS_BRAK",
-			IntroHolo = "Imperial_Naval_Officer_Loop"
+			IntroHolo = "ISB_Officer_Loop"
 		},
 		["TAMARIN"] = {
 			FriendlyName = "Tamarin Sector",
@@ -840,7 +840,7 @@ return {
 			LockList = {"SD_6_Droid_Company"},
 			FactionOverride = "Eriadu_Authority",
 			IntroText = "TEXT_CONQUEST_PROTEUS_SELLASAS",
-			IntroHolo = "Imperial_Naval_Officer_Loop"
+			IntroHolo = "Imperial_Army_Officer_Loop"
 		},
 		["PROTECTORATE"] = {
 			FriendlyName = "The Protectorate",
@@ -1075,7 +1075,7 @@ return {
 				-- Space 
 				"Guardian_Cruiser_Group", "Customs_Corvette", "Corellian_Buccaneer", "Lancer_Frigate", "Strike_Cruiser", "Ton_Falk_Escort_Carrier", "Trenchant",
 				"DHC_Carrier", "Immobilizer_Twin_Well", "Gladiator_II", "Proteus_Cargo_Ship", "Vindicator_Carrier", "MTC_Sensor", "Victory_II_Carrier", "Vector_Star_Destroyer", 
-				"Imperial_I_Star_Destroyer_Hero_Refit_Proteus", "Imperial_II_Star_Destroyer", "Secutor_Star_Destroyer",
+				"Imperial_I_Star_Destroyer_Hero_Refit_Proteus", "Imperial_II_Star_Destroyer", "Secutor_Star_Destroyer", "Imperial_II_Star_Destroyer_Sentry",
 				"Sorannan_Star_Destroyer", "Praetor_Carrier_Battlecruiser", "Mandator_III_Dreadnought",
 				-- Ground
 				"Imperial_Galactic_Marine_Company", "Imperial_Scout_Trooper_Company", "EVO_Trooper_Company", "Imperial_74Z_Bike_Company", 
@@ -1083,13 +1083,13 @@ return {
 				"Imperial_Dropship_Transport_Company", "S_1_Firehawke_Company", "SPMAT_Company", "AT_AA_Missile_Walker_Company", "Imperial_Heavy_Mobile_Artillery_Company",
 				"Imperial_AT_AT_Walker_Company", "A9_Floating_Fortress_Company", "Lancet_Air_Artillery_Company",
 				-- Structure
-				"Praji_Estates",
+				"Praji_Estates", "Bankofthecore",
 			},
 			FactionOverride = "Empire",
 			FactionOverride2 = "Rebel",
 			StartYear = 11,
 			IntroText = "TEXT_CONQUEST_PROTEUS_PRAJI",
-			IntroHolo = "Imperial_Naval_Officer_Loop"
+			IntroHolo = "Stormtrooper_Officer_Loop"
 		
 		},
 		["BALMORRA"] = {
@@ -1146,13 +1146,13 @@ return {
 		},
 		["SECOND_IMPERIUM"] = {
 			FriendlyName = "Second Imperium",
-			Planets = {"DATHOMIR", "KASHYYYK", "HAD ABADDON", "EBAQ"},
+			Planets = {"DATHOMIR", "KASHYYYK", "EBAQ"},
 			LeaderTable = {},
 			LeaderEndingNames = {"The Unseen Emperor"},
 			HeroList = {"Brakiss_Team"}, 
 			UnlockList = {
 				-- Space 
-				"Delta_JV7_Group", "IPV1", "Trenchant", "Active_Frigate", "Imperial_II_Frigate", "Eidolon", 
+				"Delta_JV7_Group", "IPV1", "Trenchant", "Active_Frigate", "Victory_II_Frigate", "Eidolon", 
 				"Pursuit_Light_Cruiser", "DHC_Carrier", "Proteus_Cargo_Ship", "Acclamator_I_Assault", "Victory_II_Carrier", "Vector_Star_Destroyer",
 				"Imperial_I_Star_Destroyer_Patrol", "Interdictor_Star_Destroyer", "Secutor_Star_Destroyer",  
 				"Sorannan_Star_Destroyer", "Bellator_Star_Dreadnought", "Vengeance_Star_Dreadnought",
@@ -1164,10 +1164,11 @@ return {
 			},
 			FactionOverride = "Empire",
 			FactionOverride2 = "Rebel",
+			FactionOverride3 = "Neutral",
 			StartYear = 12,
 			--LastYear = 23,
 			IntroText = "TEXT_CONQUEST_PROTEUS_SHADOW_ACADEMY",
-			IntroHolo = "PalpatineDED_Loop",
+			IntroHolo = "Generic_Sith_Loop",
 		},
 		["VEERS"] = {
 			FriendlyName = "Blizzard Force",
@@ -1302,9 +1303,9 @@ return {
 		["SECRET"] = {
 			FriendlyName = "The Coruscant Proteus you were asking for",
 			Planets = {"CORUSCANT"},
-			LeaderTable = {},
-			LeaderEndingNames = {},
-			HeroList = {"Destruction1214","Rook_Frostfire"},--tax, (???), Nova, Michael, Rook, Coyote, Eleian
+			LeaderTable = {"TaxEvader_SynTax_Error"},
+			LeaderEndingNames = {"The ever brilliant TaxEvader"},
+			HeroList = {"TaxEvader_SynTax_Error", "Destruction1214","Rook_Frostfire", "Eleian_BlackHoleSun"}, --(???), Nova, Michael, Rook, Coyote
 			-- UnlockList = {
 			-- 	-- Space
 
