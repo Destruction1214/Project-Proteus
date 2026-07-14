@@ -993,7 +993,7 @@ return {
 			Planets = {"KUAT"},
 			LeaderTable= {["KURAS_TEAM"] = {"KURAS_CHARIOT"}},
 			LeaderEndingNames = {"Emperor Kuras"},
-			HeroList = {"Kuras_Team", "Kendel_Luminous", "Kateel_Team"},
+			HeroList = {"Kuras_Team", "Kendel_Luminous","Anton_Kale", "Kateel_Team"},
 			UnlockList = {
 				-- Space	
 				"VT49_Decimator_Group", "Raider_I_Corvette", "Lancer_Frigate", "Arquitens", "Ton_Falk_Escort_Carrier", "Nebulon_B_Tender", "Eidolon", "Imperial_Nebulon_B",
