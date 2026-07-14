@@ -5585,6 +5585,7 @@
 	
 	<UniqueUnit Name="Eleian_BlackHoleSun">
 		<Variant_Of_Existing_Type>Communications_Battlecruiser</Variant_Of_Existing_Type>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Text_ID>TEXT_HERO_ELEIAN</Text_ID>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK 
@@ -5616,6 +5617,7 @@
 		<CategoryMask> SpaceHero | AntiCapital </CategoryMask>
 		<Property_Flags>GTSImmune</Property_Flags>
 		<Affiliation>Imperial_Proteus</Affiliation> <!-- Stop AI enumerating -->
+		<Tech_Level>99</Tech_Level>
 		
 		<Abilities SubObjectList="Yes">
 			<Sensor_Jamming_Ability Name="Comm_Battlecruiser_Sensor_Jamming">

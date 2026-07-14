@@ -948,6 +948,7 @@ return {
 -- ["X1_EXECUTOR_DUMMY"] = true,
 ["IMPERIAL_II_STAR_DESTROYER_SENTRY"] = true,
 -- Project Proteus Dev Heroes
+["TAXEVADER_SYNTAX_ERROR"] = true, 
 ["DESTRUCTION1214"] = true, 
 ["ROOK_FROSTFIRE"] = true, 
 ["ELEIAN_BLACKHOLESUN"] = true, 
