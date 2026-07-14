@@ -944,6 +944,7 @@ return {
 ["DUMMY_RANDOM_UNIT_RENDILI_NSBC"] = true,
 ["DUMMY_RANDOM_UNIT_RENDILI_VSD"] = true,
 ["DUMMY_RANDOM_UNIT_RENDILI_GSD"] = true,
+["ANTON_KALE"] = true,
 -- ["X1_EXECUTOR_DUMMY"] = true,
 ["IMPERIAL_II_STAR_DESTROYER_SENTRY"] = true,
 -- Project Proteus Dev Heroes
