@@ -5509,7 +5509,7 @@
 		<Property_Flags>GTSImmune</Property_Flags>
 		<Affiliation>Imperial_Proteus</Affiliation> <!-- Stop AI enumerating -->
 		
-        <Ranking_In_Category>4</Ranking_In_Category>
+        <Ranking_In_Category>1</Ranking_In_Category>
 
 		<SpaceBehavior>TELEKINESIS_TARGET,ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
         
