@@ -4467,7 +4467,7 @@
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
-		<Icon_Name>I_BUTTON_REBORN_SHADOW_STORM_TROOPER.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_REBORN_SHADOWTROOPER.tga</Icon_Name>
 		<Land_Model_Name>Shadow_Stormtrooper_Weap.alo</Land_Model_Name>
 		<Land_Terrain_Model_Mapping>
 			Temperate, 			Shadow_Stormtrooper.ALO,
@@ -4716,7 +4716,7 @@
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text> 
-		<Icon_Name>I_BUTTON_REBORN_SHADOW_STORM_TROOPER.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_REBORN_SHADOWTROOPER.tga</Icon_Name>
 
 		<Tech_Level>99</Tech_Level>
 		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
@@ -4748,7 +4748,7 @@
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
 
-		<Icon_Name>I_BUTTON_REBORN_SHADOW_STORM_TROOPER.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_REBORN_SHADOWTROOPER.tga</Icon_Name>
 
 		<Select_Box_Scale>65</Select_Box_Scale>
 		<Select_Box_Z_Adjust>0</Select_Box_Z_Adjust>
@@ -4825,7 +4825,7 @@
 
 		<Land_Model_Name>Shadow_Stormtrooper.ALO</Land_Model_Name>
 		<Land_Model_Anim_Override_Name>TrainedInfantry.alo</Land_Model_Anim_Override_Name>
-		<Icon_Name>I_BUTTON_REBORN_SHADOW_STORM_TROOPER.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_REBORN_SHADOWTROOPER.tga</Icon_Name>
 		<AI_Combat_Power>119.79</AI_Combat_Power>
 		<Affiliation>Empire, Eriadu_Authority, Pentastar, Greater_Maldrood, Zsinj_Empire, Imperial_Proteus</Affiliation>
 
@@ -4864,7 +4864,7 @@
 		TEXT_TOOLTIP_SEPARATOR_LIMITS_BLOCK
 		TEXT_TOOLTIP_BUILDLIMIT_DARK_JEDI
 		</Encyclopedia_Text>
-		<Icon_Name>I_BUTTON_REBORN_SHADOW_STORM_TROOPER.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_REBORN_SHADOWTROOPER.tga</Icon_Name>
 
 		<Build_Cost_Credits>350</Build_Cost_Credits>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
