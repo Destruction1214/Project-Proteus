@@ -52,7 +52,9 @@ return {
 					{"BrakFighters", "ADVANCED_SKIPRAY_SQUADRON", false}}, --research 1
 			CATO_NEIMOIDIA = {"SKIPRAY_SQUADRON", false},
 			CIUTRIC_HEGEMONY = {"EARLY_SKIPRAY_SQUADRON", false},
-			DASTA = {"YV_929_SQUADRON", false},
+			DASTA = {"YV_929_SQUADRON", false,
+					{"DastaFightersImperial", "", false},
+					{"DastaFightersRebel", "", false}},
 			ELROOD = {"SKIPRAY_SQUADRON", false},
 			GAROS = {"VCX_820_SQUADRON", false},
 			HAMMERS = {"SKIPRAY_SQUADRON", false},

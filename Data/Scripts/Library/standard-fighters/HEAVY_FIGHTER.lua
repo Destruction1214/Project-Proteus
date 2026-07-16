@@ -50,7 +50,9 @@ return {
 					{"BrakFighters", "ARC_170_SQUADRON", false}}, --research 1
 			CATO_NEIMOIDIA = {"TIE_X1_SQUADRON", false},
 			CIUTRIC_HEGEMONY = {"TIE_AVENGER_TORPS_SQUADRON", false},
-			DASTA = {"T_WING_SQUADRON", false},
+			DASTA = {"T_WING_SQUADRON", false,
+					{"DastaFightersImperial", "", false},
+					{"DastaFightersRebel", "", false}},
 			ELROOD = {"PREYBIRD_SQUADRON", false},
 			GAROS = {"TIE_X2_SQUADRON", false},
 			HAMMERS = {"TIE_AVENGER_SQUADRON", false},

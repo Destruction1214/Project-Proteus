@@ -7,6 +7,7 @@ require("eawx-util/StoryUtil")
 require("eawx-util/UnitUtil")
 require("UnitSwitcherLibrary")
 require("eawx-util/Sort")
+require("eawx-util/StringUtil")
 CONSTANTS = ModContentLoader.get("GameConstants")
 
 ---@class GovernmentEmpire
@@ -249,6 +250,7 @@ function GovernmentEmpire:new(gc, absorb, dark_empire_available, id)
     crossplot:subscribe("DARK_EMPIRE_CHEAT_CHOICE_MADE", self.dark_empire_unlock, self)
     crossplot:subscribe("DARK_EMPIRE_CHOICE_MADE", self.dark_empire_choice_made, self)
     crossplot:subscribe("FACTION_DISPLAY_NAME_CHANGE", self.faction_display_name_change, self)
+    crossplot:subscribe("DASTA_FIGHTER_CHOICE_OPTION", self.dasta_fighters, self)
 
     if self.human_is_imperial == true then
         crossplot:subscribe("UPDATE_GOVERNMENT", self.UpdateDisplay, self)
@@ -762,6 +764,18 @@ function GovernmentEmpire:on_production_finished(planet, game_object_type_name)
         local location = Find_First_Object(game_object_type_name).Get_Planet_Location().Get_Type().Get_Name()
         self:gamble_manager(game_object_type_name, location)
     end
+
+    if game_object_type_name == "DASTA_PROCURE_FIGHTERS" then
+        GenericPopup("DASTA_FIGHTER_CHOICE", {"IMPERIAL", "REBEL"}, "DASTA_FIGHTER_CHOICE_OPTION")
+    end
+end
+
+function GovernmentEmpire:dasta_fighters(choice)
+    --Logger:trace("entering GovernmentEmpire:dasta_fighters")
+    local option = string.gsub(choice, "DASTA_FIGHTER_CHOICE_", "")
+    option = string.lower(option)
+    option = CapitalizeFirstCharacterOfEachSentence(option)
+    Set_Fighter_Research("DastaFighters"..option)
 end
 
 function GovernmentEmpire:gamble_manager(unit_type, location)

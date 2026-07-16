@@ -54,7 +54,9 @@ return {
 					{"BrakFighters", "TIE_HEAVY_BOMBER_SQUADRON", false}}, --research 1
 			CATO_NEIMOIDIA = {"TIE_TERROR_SQUADRON", false},
 			CIUTRIC_HEGEMONY = {"TIE_HEAVY_BOMBER_SQUADRON", false},
-			DASTA = {"SKIPRAY_BOMBER_SQUADRON", false},
+			DASTA = {"SKIPRAY_BOMBER_SQUADRON", false,
+					{"DastaFightersImperial", "", false},
+					{"DastaFightersRebel", "", false}},
 			ELROOD = {"TIE_HEAVY_BOMBER_SQUADRON", false},
 			GAROS = {"SKIPRAY_BOMBER_SQUADRON", false},
 			HAMMERS = {"TIE_HEAVY_BOMBER_SQUADRON", false},

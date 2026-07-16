@@ -46,7 +46,9 @@ return {
 					{"BrakFighters", "UPGUNNED_TIE_INTERCEPTOR_SQUADRON", false}}, --research 1
 			CATO_NEIMOIDIA = {"TIE_INTERCEPTOR_SQUADRON", false},
 			CIUTRIC_HEGEMONY = {"UPGUNNED_SHIELDED_ARMORED_INTERCEPTOR_SQUADRON", false},
-			DASTA = {"TOSCAN_INTERCEPTOR_SQUADRON", false},
+			DASTA = {"TOSCAN_INTERCEPTOR_SQUADRON", false,
+					{"DastaFightersImperial", "", false},
+					{"DastaFightersRebel", "", false}},
 			ELROOD = {"TIE_INTERCEPTOR_SQUADRON", false,
 					{"ELRArmoredTIE", "ARMORED_TIE_INTERCEPTOR_SQUADRON", false}}, --research 1
 			GAROS = {"ARMORED_TIE_INTERCEPTOR_SQUADRON", false},

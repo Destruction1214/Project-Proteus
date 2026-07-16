@@ -45,7 +45,9 @@ return {
 					{"BrakFighters", "SHIELDED_TIE_BOMBER_SQUADRON", false}}, --research 1
 			CATO_NEIMOIDIA = {"TIE_BOMBER_SQUADRON", false},
 			CIUTRIC_HEGEMONY = {"STARWING_SQUADRON", false},
-			DASTA = {"Z95_BOMBER_SQUADRON", false},
+			DASTA = {"Z95_BOMBER_SQUADRON", false,
+					{"DastaFightersImperial", "", false},
+					{"DastaFightersRebel", "", false}},
 			ELROOD = {"STARWING_SQUADRON", false},
 			GAROS = {"TIE_LIGHT_BOMBER_SQUADRON", false},
 			HAMMERS = {"TIE_BOMBER_SQUADRON", false},

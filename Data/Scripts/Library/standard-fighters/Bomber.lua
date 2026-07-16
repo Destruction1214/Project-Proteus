@@ -45,7 +45,9 @@ return {
 					{"BrakFighters", "TIE_BOMBER_SQUADRON", false}}, --research 1
 			CATO_NEIMOIDIA = {"BELBULLAB24_SQUADRON", false},
 			CIUTRIC_HEGEMONY = {"TIE_BOMBER_SQUADRON", false},
-			DASTA = {"2_WARPOD_SQUADRON", false},
+			DASTA = {"2_WARPOD_SQUADRON", false,
+					{"DastaFightersImperial", "", false},
+					{"DastaFightersRebel", "", false}},
 			ELROOD = {"TIE_BOMBER_SQUADRON", false,
 					{"ELRSC", "SCIMITAR_SQUADRON", false}}, --research 1
 			GAROS = {"TIE_GT_BOMBER_SQUADRON", false},
