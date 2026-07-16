@@ -106,6 +106,7 @@ return {
 		"DHC_Interdictor",
 		"Vindicator_Carrier",
 		"Trenchant",
+		"Imperial_II_Star_Destroyer_Sentry",
 		--Grunger's Empire
 		"Lictor",
 		--Imperial Ord Radama
