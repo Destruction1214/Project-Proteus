@@ -1304,7 +1304,7 @@ return {
 			FriendlyName = "The Coruscant Proteus you were asking for",
 			Planets = {"CORUSCANT"},
 			LeaderTable = {"TaxEvader_SynTax_Error"},
-			LeaderEndingNames = {"The ever brilliant TaxEvader"},
+			LeaderEndingNames = {"The Ever Brilliant TaxEvader"},
 			HeroList = {"TaxEvader_SynTax_Error", "Destruction1214","Rook_Frostfire", "Eleian_BlackHoleSun"}, --(???), Nova, Michael, Rook, Coyote
 			-- UnlockList = {
 			-- 	-- Space
