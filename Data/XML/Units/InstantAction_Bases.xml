@@ -3904,7 +3904,7 @@
 
 	<!-- Project Proteus -->
 
-	<DummyStructure Name="InstantAction_Marker_Imperial_Proteus">
+	<DummyStructure Name="InstantAction_Marker_Imperial_Proteus"> <!-- Light Frigate -->
 		<Variant_Of_Existing_Type>InstantAction_Marker_Generic</Variant_Of_Existing_Type>
 		<Tech_Level>99</Tech_Level>
 		<Space_FOW_Reveal_Range>50000.0</Space_FOW_Reveal_Range>
@@ -4101,7 +4101,7 @@
 		</Tactical_Buildable_Objects_Campaign>
 	</DummyStructure>
 
-	<DummyStructure Name="InstantAction_Marker_Imperial_Proteus2">
+	<DummyStructure Name="InstantAction_Marker_Imperial_Proteus2"> <!-- Heavy Frigate -->
 		<Variant_Of_Existing_Type>InstantAction_Marker_Generic</Variant_Of_Existing_Type>
 		<Tech_Level>99</Tech_Level>
 		<Space_FOW_Reveal_Range>50000.0</Space_FOW_Reveal_Range>
@@ -4287,7 +4287,7 @@
 		</Tactical_Buildable_Objects_Campaign>
 	</DummyStructure>
 
-	<DummyStructure Name="InstantAction_Marker_Imperial_Proteus3">
+	<DummyStructure Name="InstantAction_Marker_Imperial_Proteus3"> <!-- Capital, Dreadnought -->
 		<Variant_Of_Existing_Type>InstantAction_Marker_Generic</Variant_Of_Existing_Type>
 		<Tech_Level>99</Tech_Level>
 		<Space_FOW_Reveal_Range>50000.0</Space_FOW_Reveal_Range>
@@ -4299,6 +4299,7 @@
 				IA_Acclamator_Battleship,
 				IA_Procurator_Battlecruiser,
 				IA_Imperial_II_Star_Destroyer_Ion,
+				IA_Imperial_II_Star_Destroyer_Sentry,
 				IA_Imperial_I_Star_Destroyer_Hero_Refit_Proteus,
 				IA_Imperial_I_Star_Destroyer_Stealth,
 				IA_Shadow_Imperial_I_Star_Destroyer_Carrier,
@@ -4313,6 +4314,7 @@
 				IA_Acclamator_Battleship,
 				IA_Procurator_Battlecruiser,
 				IA_Imperial_II_Star_Destroyer_Ion,
+				IA_Imperial_II_Star_Destroyer_Sentry,
 				IA_Imperial_I_Star_Destroyer_Hero_Refit_Proteus,
 				IA_Imperial_I_Star_Destroyer_Stealth,
 				IA_Shadow_Imperial_I_Star_Destroyer_Carrier,
@@ -4327,6 +4329,7 @@
 				IA_Acclamator_Battleship,
 				IA_Procurator_Battlecruiser,
 				IA_Imperial_II_Star_Destroyer_Ion,
+				IA_Imperial_II_Star_Destroyer_Sentry,
 				IA_Imperial_I_Star_Destroyer_Hero_Refit_Proteus,
 				IA_Imperial_I_Star_Destroyer_Stealth,
 				IA_Shadow_Imperial_I_Star_Destroyer_Carrier,
@@ -4341,6 +4344,7 @@
 				IA_Acclamator_Battleship,
 				IA_Procurator_Battlecruiser,
 				IA_Imperial_II_Star_Destroyer_Ion,
+				IA_Imperial_II_Star_Destroyer_Sentry,
 				IA_Imperial_I_Star_Destroyer_Hero_Refit_Proteus,
 				IA_Imperial_I_Star_Destroyer_Stealth,
 				IA_Shadow_Imperial_I_Star_Destroyer_Carrier,
@@ -4355,6 +4359,7 @@
 				IA_Acclamator_Battleship,
 				IA_Procurator_Battlecruiser,
 				IA_Imperial_II_Star_Destroyer_Ion,
+				IA_Imperial_II_Star_Destroyer_Sentry,
 				IA_Imperial_I_Star_Destroyer_Hero_Refit_Proteus,
 				IA_Imperial_I_Star_Destroyer_Stealth,
 				IA_Shadow_Imperial_I_Star_Destroyer_Carrier,
@@ -4369,6 +4374,7 @@
 				IA_Acclamator_Battleship,
 				IA_Procurator_Battlecruiser,
 				IA_Imperial_II_Star_Destroyer_Ion,
+				IA_Imperial_II_Star_Destroyer_Sentry,
 				IA_Imperial_I_Star_Destroyer_Hero_Refit_Proteus,
 				IA_Imperial_I_Star_Destroyer_Stealth,
 				IA_Shadow_Imperial_I_Star_Destroyer_Carrier,
@@ -4383,6 +4389,7 @@
 				IA_Acclamator_Battleship,
 				IA_Procurator_Battlecruiser,
 				IA_Imperial_II_Star_Destroyer_Ion,
+				IA_Imperial_II_Star_Destroyer_Sentry,
 				IA_Imperial_I_Star_Destroyer_Hero_Refit_Proteus,
 				IA_Imperial_I_Star_Destroyer_Stealth,
 				IA_Shadow_Imperial_I_Star_Destroyer_Carrier,
@@ -4397,6 +4404,7 @@
 				IA_Acclamator_Battleship,
 				IA_Procurator_Battlecruiser,
 				IA_Imperial_II_Star_Destroyer_Ion,
+				IA_Imperial_II_Star_Destroyer_Sentry,
 				IA_Imperial_I_Star_Destroyer_Hero_Refit_Proteus,
 				IA_Imperial_I_Star_Destroyer_Stealth,
 				IA_Shadow_Imperial_I_Star_Destroyer_Carrier,
@@ -4411,6 +4419,7 @@
 				IA_Acclamator_Battleship,
 				IA_Procurator_Battlecruiser,
 				IA_Imperial_II_Star_Destroyer_Ion,
+				IA_Imperial_II_Star_Destroyer_Sentry,
 				IA_Imperial_I_Star_Destroyer_Hero_Refit_Proteus,
 				IA_Imperial_I_Star_Destroyer_Stealth,
 				IA_Shadow_Imperial_I_Star_Destroyer_Carrier,
@@ -4425,6 +4434,7 @@
 				IA_Acclamator_Battleship,
 				IA_Procurator_Battlecruiser,
 				IA_Imperial_II_Star_Destroyer_Ion,
+				IA_Imperial_II_Star_Destroyer_Sentry,
 				IA_Imperial_I_Star_Destroyer_Hero_Refit_Proteus,
 				IA_Imperial_I_Star_Destroyer_Stealth,
 				IA_Shadow_Imperial_I_Star_Destroyer_Carrier,
@@ -4439,6 +4449,7 @@
 				IA_Acclamator_Battleship,
 				IA_Procurator_Battlecruiser,
 				IA_Imperial_II_Star_Destroyer_Ion,
+				IA_Imperial_II_Star_Destroyer_Sentry,
 				IA_Imperial_I_Star_Destroyer_Hero_Refit_Proteus,
 				IA_Imperial_I_Star_Destroyer_Stealth,
 				IA_Shadow_Imperial_I_Star_Destroyer_Carrier,
