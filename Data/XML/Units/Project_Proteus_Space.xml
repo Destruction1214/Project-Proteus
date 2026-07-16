@@ -1440,7 +1440,6 @@
 	</SpaceUnit>
 
 	<SpaceUnit Name="Corona_Tender">
-
 		<Variant_Of_Existing_Type>Corona</Variant_Of_Existing_Type>
 		<Affiliation>Imperial_Proteus</Affiliation>
 		<Lua_Script>GenericGameObject</Lua_Script>
@@ -1580,7 +1579,6 @@
 	
 	<SpaceUnit Name="Pelta_Assault">
 		<Variant_Of_Existing_Type>Template_Pelta_Assault</Variant_Of_Existing_Type>
-
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_PELTA_ASSAULT
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
@@ -1615,7 +1613,6 @@
 	</SpaceUnit>
 	
 	<SpaceUnit Name="Lupus_Missile_Frigate">
-
 		<Text_ID>TEXT_UNIT_LUPUS</Text_ID>
 		<Encyclopedia_Unit_Class>Ship Crews Cost: 21</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>
@@ -1829,7 +1826,6 @@
 	</SpaceUnit>
 	
 	<SpaceUnit Name="Munifex">
-
 		<Text_ID>TEXT_UNIT_MUNIFEX</Text_ID>
 		<Encyclopedia_Unit_Class>Ship Crews Cost: 39</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>
@@ -2135,10 +2131,8 @@
 	</SpaceUnit>
 
 	<SpaceUnit Name="Carrack_Cruiser_Laser">
-		<Variant_Of_Existing_Type>Template_Carrack_Cruiser</Variant_Of_Existing_Type>
-		
-		<Text_ID>TEXT_UNIT_CARRACK_LASERS</Text_ID>
-		
+		<Variant_Of_Existing_Type>Template_Carrack_Cruiser</Variant_Of_Existing_Type>		
+		<Text_ID>TEXT_UNIT_CARRACK_LASERS</Text_ID>	
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_CARRACK_LASERS
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
@@ -2180,10 +2174,8 @@
 	</SpaceUnit>
 
 	<SpaceUnit Name="Carrack_Cruiser_Zeta">
-		<Variant_Of_Existing_Type>Template_Carrack_Cruiser</Variant_Of_Existing_Type>
-		
-		<Text_ID>TEXT_UNIT_CARRACK_ZETA</Text_ID>
-		
+		<Variant_Of_Existing_Type>Template_Carrack_Cruiser</Variant_Of_Existing_Type>	
+		<Text_ID>TEXT_UNIT_CARRACK_ZETA</Text_ID>		
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_CARRACK_ZETA
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
@@ -2229,7 +2221,6 @@
 	</SpaceUnit>
 	
 	<SpaceUnit Name="Zeta_Strike">
-
 		<Text_ID>TEXT_UNIT_STRIKE_CRUISER_ZETA</Text_ID>
 		<Encyclopedia_Unit_Class>Ship Crews Cost: 72</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text> 
@@ -5806,7 +5797,6 @@
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 
 	</SpaceUnit>
-
 
 <!-- Dreadnought -->
 	
