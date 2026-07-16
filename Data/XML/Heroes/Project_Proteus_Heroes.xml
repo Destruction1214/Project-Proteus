@@ -5261,6 +5261,11 @@
 		<Company_Units>Hethrir</Company_Units>
 		
 		<Affiliation>Imperial_Proteus</Affiliation>
+
+		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Sith_Lord</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Sith_Lord</SFXEvent_Fleet_Move>
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>375</Tactical_Build_Cost_Multiplayer>
