@@ -5467,7 +5467,7 @@
 		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
 		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
 		</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADMIRAL </Encyclopedia_Unit_Class>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEV </Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_rook.tga</Icon_Name>
 		
 		<CategoryMask> SpaceHero | AntiFrigate </CategoryMask>
@@ -5744,6 +5744,112 @@
 				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
 				<Stacking_Category>1</Stacking_Category>
 			</Battlefield_Modifier_Ability>
+		</Abilities>
+	</UniqueUnit>
+
+	<UniqueUnit Name="Supernova_Vibes">
+		<Variant_Of_Existing_Type>Modernized_DHC</Variant_Of_Existing_Type>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Text_ID>TEXT_HERO_SUPERNOVA</Text_ID>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_05_SPACE
+		TEXT_TOOLTIP_TRAIT_UTILITY_COOPERATIVE
+		TEXT_TOOLTIP_TRAIT_SPECIALIZATION_STARFIGHTER
+		TEXT_TOOLTIP_TRAIT_SUPERNOVA_DESIGNER
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_SUPERNOVA
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
+		TEXT_TOOLTIP_COMMAND_SUPERNOVA
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
+		TEXT_TOOLTIP_DREADNAUGHT_MODERNIZED_HULL
+		TEXT_TOOLTIP_DREADNAUGHT_MODERNIZED_SHIELD
+		TEXT_TOOLTIP_DREADNAUGHT_MODERNIZED_MOVE
+		TEXT_TOOLTIP_SUPERNOVA_SQUADRON
+		TEXT_TOOLTIP_DREADNAUGHT_MODERNIZED_WEAP1
+		TEXT_TOOLTIP_DREADNAUGHT_MODERNIZED_WEAP2
+		TEXT_TOOLTIP_DREADNAUGHT_MODERNIZED_WEAP3
+		TEXT_TOOLTIP_DREADNAUGHT_MODERNIZED_WEAP4
+		TEXT_TOOLTIP_DREADNAUGHT_MODERNIZED_WEAP5
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_COMMANDER </Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_SUPERNOVA.tga</Icon_Name>
+		
+		<CategoryMask> SpaceHero | AntiCorvette </CategoryMask>
+		<Property_Flags>GTSImmune</Property_Flags>
+		
+		<Ranking_In_Category>6</Ranking_In_Category>
+		
+		<Tech_Level>99</Tech_Level>
+		
+		<Affiliation>Imperial_Proteus</Affiliation>
+
+		<Abilities SubObjectList="Yes"> <!-- Command_Tier_05 -->
+			<Combat_Bonus_Ability Name="Command_Tier_05_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Damage_Bonus_Percentage>0.15</Damage_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.15</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.15</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+
+			<Battlefield_Modifier_Ability Name="Command_Tier_05_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<FOW_Reveal_Range_Multiplier>1.15</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+
+			<Combat_Bonus_Ability Name="Starfighter_Specialist_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>Fighter | Bomber</Applicable_Unit_Categories>
+				<Damage_Bonus_Percentage>0.06</Damage_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.06</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.06</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>1</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Battlefield_Modifier_Ability Name="Starfighter_Specialist_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>Fighter | Bomber</Applicable_Unit_Categories>
+				<FOW_Reveal_Range_Multiplier>1.06</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>1</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+
+			<Combat_Bonus_Ability Name="Cooperative_Stacking_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Damage_Bonus_Percentage>0.03</Damage_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.03</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.03</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category>
+			</Combat_Bonus_Ability>
+
+			<Battlefield_Modifier_Ability Name="Cooperative_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<FOW_Reveal_Range_Multiplier>1.03</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>3</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+
+			<Reduce_Production_Price_Ability Name="Supernova_Reduce_Production_Price">
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types>Triumph_Star_Destroyer, Vector_Star_Destroyer, Victory_II_Carrier, Modernized_DHC, Picket_DHC </Applicable_Unit_Types>
+				<Excluded_Unit_Types></Excluded_Unit_Types>
+				<Price_Reduction_Percentage>0.20</Price_Reduction_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Reduce_Production_Price_Ability>
+
 		</Abilities>
 	</UniqueUnit>
 

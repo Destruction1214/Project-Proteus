@@ -1306,9 +1306,9 @@ return {
 		["SECRET"] = {
 			FriendlyName = "The Coruscant Proteus you were asking for",
 			Planets = {"CORUSCANT"},
-			LeaderTable = {"TaxEvader_SynTax_Error"},
+			LeaderTable = {"TAXEVADER_SYNTAX_ERROR"},
 			LeaderEndingNames = {"The Ever Brilliant TaxEvader"},
-			HeroList = {"TaxEvader_SynTax_Error", "Destruction1214","Rook_Frostfire", "Eleian_BlackHoleSun"}, --(???), Nova, Michael, Rook, Coyote
+			HeroList = {"TaxEvader_SynTax_Error", "Destruction1214","Rook_Frostfire", "Supernova_Vibes", "Eleian_BlackHoleSun"}, --(???), Nova, Michael, Coyote
 			-- UnlockList = {
 			-- 	-- Space
 
