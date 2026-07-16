@@ -1215,8 +1215,8 @@
 				<Max_Num_Spawned_Objects>1</Max_Num_Spawned_Objects>
 				<Owner_Attachment_Bone>B_SPAWN_00, B_SPAWN_01, B_SPAWN_02 </Owner_Attachment_Bone>
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Deploy_AT_AT</SFXEvent_GUI_Unit_Ability_Activated>
-				<Alternate_Name_Text>TEXT_ABILITY_DEPLOY_CLONE</Alternate_Name_Text>
-				<Alternate_Description_Text>TEXT_ABILITY_DEPLOY_CLONE_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Name_Text>TEXT_ABILITY_DEPLOY_DRAGON</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_ABILITY_DEPLOY_DRAGON_DESCRIPTION</Alternate_Description_Text>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 		<Close_Enough_Angle_For_Move_Start> 30 </Close_Enough_Angle_For_Move_Start>
