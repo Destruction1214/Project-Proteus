@@ -951,4 +951,5 @@ return {
 ["DESTRUCTION1214"] = true, 
 ["ROOK_FROSTFIRE"] = true, 
 ["ELEIAN_BLACKHOLESUN"] = true, 
+["SUPERNOVA_VIBES"] = true, 
 }
