@@ -1,5 +1,4 @@
-﻿TEXT_TOOLTIP_REBORN_SHADOWTROOPER_SQUAD,Squad: 5x Reborn Shadowtrooper
-D_TEXT_TOOLTIP_DRAGON_TROOPER,Primitive reptiloid warriors fiercely loyal to Delurin and equipped with ornate metal armor and flamethrowers to more closely resemble the Dragons of ancient myth. Unacquainted with blaster weaponry and other advanced technology, they are nonetheless resilient and quick on their feet.
+﻿D_TEXT_TOOLTIP_DRAGON_TROOPER,Primitive reptiloid warriors fiercely loyal to Delurin and equipped with ornate metal armor and flamethrowers to more closely resemble the Dragons of ancient myth. Unacquainted with blaster weaponry and other advanced technology, they are nonetheless resilient and quick on their feet.
 D_TEXT_TOOLTIP_DRAGON_TROOPER_COMPANY,Company: 36x Dragon Trooper
 D_TEXT_TOOLTIP_DRAGON_TROOPER_COMPANY_WEAP1,24x Blaster Carbine: 3 / 1.25s / 220m
 D_TEXT_TOOLTIP_DRAGON_TROOPER_SQUAD,Squad: 9x Dragon Trooper
@@ -932,6 +931,7 @@ TEXT_TOOLTIP_REBORN_SHADOWTROOPER_COMPANY_WEAP3,3x Proton Rifle: 1 / 1.5s / 280m
 TEXT_TOOLTIP_REBORN_SHADOWTROOPER_COMPANY_WEAP4,3x Thermal Grenade: 1 / 15.0s / 200m
 TEXT_TOOLTIP_REBORN_SHADOWTROOPER_COMPANY_WEAP5,3x Portable Ion Cannon: 4 / 10.0s / 320m
 TEXT_TOOLTIP_REBORN_SHADOWTROOPER_HEALTH,Health: 50 [2%/5s] (Infantry)
+TEXT_TOOLTIP_REBORN_SHADOWTROOPER_SQUAD,Squad: 5x Reborn Shadowtrooper
 TEXT_TOOLTIP_REBORN_SHADOWTROOPER_WEAP1,1x Heavy Repeating Blaster: 5 / 1.0s / 280m
 TEXT_TOOLTIP_REBORN_SHADOWTROOPERGRENADIER_WEAP1,1x Proton Rifle: 1 / 1.5s / 280m
 TEXT_TOOLTIP_REBORN_SHADOWTROOPERGRENADIER_WEAP2,1x Thermal Grenade: 1 / 15.0s / 200m
