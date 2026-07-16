@@ -32,7 +32,9 @@ return {
 						{"BrakFighters", "NIMBUS_V_WING_SQUADRON", false}}, --research 1
 			CATO_NEIMOIDIA = {"TIE_FIGHTER_SQUADRON", false},
 			CIUTRIC_HEGEMONY = {"TIE_INTERCEPTOR_SQUADRON", false},
-			DASTA = {"R22_SPEARHEAD_SQUADRON", false},
+			DASTA = {"R22_SPEARHEAD_SQUADRON", false,
+					{"DastaFightersImperial", "", false},
+					{"DastaFightersRebel", "", false}},
 			ELROOD = {"TIE_Fighter_BF2_SQUADRON", false},
 			GAROS = {"TIE_FIGHTER_SQUADRON", false},
 			HAMMERS = {"TIE_STARFIGHTER_SQUADRON", false},

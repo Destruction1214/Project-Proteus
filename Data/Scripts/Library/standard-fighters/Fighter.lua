@@ -74,7 +74,9 @@ return {
 					{"BrakFighters", "TIE_INTERCEPTOR_SQUADRON", false}}, --research 1
 			CATO_NEIMOIDIA = {"R41_STARCHASER_SQUADRON", false},
 			CIUTRIC_HEGEMONY = {"MISSILE_TIE_FIGHTER_SQUADRON", false},
-			DASTA = {"HOWLRUNNER_SQUADRON", false},
+			DASTA = {"HOWLRUNNER_SQUADRON", false,
+					{"DastaFightersImperial", "", false},
+					{"DastaFightersRebel", "", false}},
 			ELROOD = {"HOWLRUNNER_SQUADRON", false},
 			GAROS = {"HOWLRUNNER_SQUADRON", false},
 			HAMMERS = {"HOWLRUNNER_SQUADRON", false},
