@@ -543,6 +543,20 @@ function GovernmentEmpire:update()
             end
         end
     end
+
+    local proteus = GlobalValue.Get("PROTEUS_GROUP_NAME")
+    if proteus == "DASTA" then
+        if GlobalValue.Get("CURRENT_ERA") >= 14 then
+            local dasta = Find_First_Object("RAGEZ_DASTA_MARAUDER")
+            if TestValid(dasta) then
+                dasta.Despawn()
+                if self.PlayerImperial_Proteus.Is_Human() then
+                    StoryUtil.Multimedia("TEXT_CONQUEST_PROTEUS_DASTA_RAGEZ_RETIRE", 10, nil, "Ragez_DAsta_Loop", 0)
+                end
+                self.leader_table["FEENA_DASTA_TEAM"] = "FEENA_DASTA"
+            end
+        end
+    end
 end
 
 function GovernmentEmpire:process_pending_integrations()
