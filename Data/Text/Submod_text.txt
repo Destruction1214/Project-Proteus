@@ -1,6 +1,4 @@
-﻿TEXT_HERO_SUPERNOVA,Supernova
-TEXT_TOOLTIP_COMMAND_SUPERNOVA,Modernized DHC, Act on Vibes
-D_TEXT_TOOLTIP_DRAGON_TROOPER,Primitive reptiloid warriors fiercely loyal to Delurin and equipped with ornate metal armor and flamethrowers to more closely resemble the Dragons of ancient myth. Unacquainted with blaster weaponry and other advanced technology, they are nonetheless resilient and quick on their feet.
+﻿D_TEXT_TOOLTIP_DRAGON_TROOPER,Primitive reptiloid warriors fiercely loyal to Delurin and equipped with ornate metal armor and flamethrowers to more closely resemble the Dragons of ancient myth. Unacquainted with blaster weaponry and other advanced technology, they are nonetheless resilient and quick on their feet.
 D_TEXT_TOOLTIP_DRAGON_TROOPER_COMPANY,Company: 36x Dragon Trooper
 D_TEXT_TOOLTIP_DRAGON_TROOPER_COMPANY_WEAP1,24x Blaster Carbine: 3 / 1.25s / 220m
 D_TEXT_TOOLTIP_DRAGON_TROOPER_SQUAD,Squad: 9x Dragon Trooper
@@ -139,6 +137,7 @@ TEXT_HERO_ROEK,Roek
 TEXT_HERO_ROOK,Rook
 TEXT_HERO_SCHMONG,Kiara Schmong
 TEXT_HERO_SHARAOR,Shara-Or
+TEXT_HERO_SUPERNOVA,Supernova
 TEXT_HERO_T11,T-11
 TEXT_HERO_TAXEVADER,xXTaxEvaderXx
 TEXT_HERO_TEZRIN,Dongal Tezrin
@@ -668,6 +667,7 @@ TEXT_TOOLTIP_COMMAND_RECKONING,Imperial-II Star Destroyer, Reckoning
 TEXT_TOOLTIP_COMMAND_RED_STAR_SQUADRON,Modified TIE Defender, Red Star Squadron
 TEXT_TOOLTIP_COMMAND_RINTONNES_FLAME,Bayonet Light Cruiser, Rintonne's Flame
 TEXT_TOOLTIP_COMMAND_SITHSPAWN,Modified Belbullab-22, Sithspawn
+TEXT_TOOLTIP_COMMAND_SUPERNOVA,Modernized DHC, Act on Vibes
 TEXT_TOOLTIP_COMMAND_SYNTAX_ERROR,Modified Glory Star Destroyer, SynTax Error
 TEXT_TOOLTIP_COMMAND_T11,Super Transport VII Garbage Scowl
 TEXT_TOOLTIP_COMMAND_THETA_SQUADRON,TIE Bomber, Theta Squadron
@@ -1102,6 +1102,8 @@ TEXT_TOOLTIP_SUPERCRUISER_SQUADRON,Fighters: 3 / 6 | Bombers: 2 / 4
 TEXT_TOOLTIP_SUPERCRUISER_WEAP1,2x Medium Turbolasers: 2 / 0.83s / 6.3km
 TEXT_TOOLTIP_SUPERCRUISER_WEAP2,2x Concussion Missiles: 2 / 5.0s / 4.1km
 TEXT_TOOLTIP_SUPERCRUISER_WEAP3,2x Proton Torpedoes: 2 / 11.25s / 5.3km
+TEXT_TOOLTIP_SUPERNOVA,TODO
+TEXT_TOOLTIP_SUPERNOVA_SQUADRON,Fighters: 1 / 0
 TEXT_TOOLTIP_SYNTAX_ERROR_WEAP3,2x Light Quad Turbolasers: 2 / 5.0s / 5.3km
 TEXT_TOOLTIP_SYNTAX_ERROR_WEAP6,3x Missiles Trouts: 5 / 12.5s / 7.2km
 TEXT_TOOLTIP_T11,T-11 was an JV-Z1/S DataBank Droid, the Republic counterpart to the Separatist's Tactical Droid line. Following the end of the Clone Wars, T-11 was reassigned to command a garbage scowl and became the subject of a failed reprogramming. T-11's programming started to behave in a manner similar to organics afflicted with psychosis, flashing between his older personality and a slough of new ones.  
@@ -1134,6 +1136,7 @@ TEXT_TOOLTIP_TIE_INTERCEPTOR_ION,A somewhat obscure modification of the TIE Inte
 TEXT_TOOLTIP_TIE_LIGHT_BOMBER,A post-Endor modification of the common TIE/sa with a tongue-in-cheek name. Originally an improvisation by garrisons and task forces with stressed or threatened supply lines; the flight mechanics removed the secondary launchers and support systems and reduced the primary payload to reduce mass and complexity, as well as tuning the power systems for speed. While less versatile or threatening as the base model, these stripped variants proved much easier to maintain and boasted a higher mission survival rate in certain scenarios due to their improved flight performance.
 TEXT_TOOLTIP_TRAIT_AGENT_TIER_AGENT_02_SPEC_SCHMONG,Agent Spec 02 (-20% price and time on all SoroSuub and Zeta Project products),  
 TEXT_TOOLTIP_TRAIT_AGENT_TIER_INDUSTRIALIST_TAGGE,Industrialist: TaggeCo (-20% cost, -20% time)
+TEXT_TOOLTIP_TRAIT_SUPERNOVA_DESIGNER,Ship Designer (-20% Cost on Triumph, Vector, VSD Carrier, DHC Interdictor, Modernized DHC, Picket DHC, Praetor Dreadnought, Garrison Refit ISD II)
 TEXT_TOOLTIP_TRANDOSHAN_HUNTER,Elite soldier-enforcers which served the Trandoshan slaver clans. They were also employed as mercenaries by governments known to have practiced slavery, such as the Confederacy of Independent Systems, the Hutts and the Galactic Empire. Best used against enemy infantry formations while being supported by allied armor.
 TEXT_TOOLTIP_TRANDOSHAN_HUNTER_COMPANY,Company: 18x Trandoshan Hunters
 TEXT_TOOLTIP_TRANDOSHAN_HUNTER_HEALTH,Health: 32

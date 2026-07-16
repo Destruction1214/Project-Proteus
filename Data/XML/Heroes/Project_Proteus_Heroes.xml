@@ -5467,7 +5467,7 @@
 		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
 		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
 		</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADMIRAL </Encyclopedia_Unit_Class>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEV </Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_rook.tga</Icon_Name>
 		
 		<CategoryMask> SpaceHero | AntiFrigate </CategoryMask>
@@ -5756,6 +5756,7 @@
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_05_SPACE
 		TEXT_TOOLTIP_TRAIT_UTILITY_COOPERATIVE
 		TEXT_TOOLTIP_TRAIT_SPECIALIZATION_STARFIGHTER
+		TEXT_TOOLTIP_TRAIT_SUPERNOVA_DESIGNER
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_SUPERNOVA
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
@@ -5764,7 +5765,7 @@
 		TEXT_TOOLTIP_DREADNAUGHT_MODERNIZED_HULL
 		TEXT_TOOLTIP_DREADNAUGHT_MODERNIZED_SHIELD
 		TEXT_TOOLTIP_DREADNAUGHT_MODERNIZED_MOVE
-		TEXT_TOOLTIP_DREADNAUGHT_MODERNIZED_SQUADRON
+		TEXT_TOOLTIP_SUPERNOVA_SQUADRON
 		TEXT_TOOLTIP_DREADNAUGHT_MODERNIZED_WEAP1
 		TEXT_TOOLTIP_DREADNAUGHT_MODERNIZED_WEAP2
 		TEXT_TOOLTIP_DREADNAUGHT_MODERNIZED_WEAP3
@@ -5840,6 +5841,14 @@
 				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
 				<Stacking_Category>3</Stacking_Category>
 			</Battlefield_Modifier_Ability>
+
+			<Reduce_Production_Price_Ability Name="Supernova_Reduce_Production_Price">
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types>Triumph_Star_Destroyer, Vector_Star_Destroyer, Victory_II_Carrier, Modernized_DHC, Picket_DHC </Applicable_Unit_Types>
+				<Excluded_Unit_Types></Excluded_Unit_Types>
+				<Price_Reduction_Percentage>0.20</Price_Reduction_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Reduce_Production_Price_Ability>
 
 		</Abilities>
 	</UniqueUnit>
