@@ -1446,7 +1446,7 @@
 		<Property_Flags> DoKite | HealsVehicles </Property_Flags>
 
 		<Text_ID>TEXT_UNIT_CORONA_TENDER</Text_ID>
-		<Build_Cost_Credits>1050</Build_Cost_Credits>
+		<Build_Cost_Credits>1500</Build_Cost_Credits>
 		<Build_Time_Seconds>21</Build_Time_Seconds>
 		<AI_Combat_Power>362</AI_Combat_Power>
 		<Population_Value>6</Population_Value>

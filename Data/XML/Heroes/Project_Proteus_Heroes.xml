@@ -5156,19 +5156,16 @@
 		<OverrideAcceleration> 1.2 </OverrideAcceleration>
 		<OverrideDeceleration> 1.2 </OverrideDeceleration>
 
-		<SFXEvent_Engine_Idle_Loop> Unit_Vader_Lightsaber_Idle_Loop </SFXEvent_Engine_Idle_Loop>
-		<SFXEvent_Engine_Moving_Loop> Unit_Vader_Lightsaber_Moving_Loop </SFXEvent_Engine_Moving_Loop>
-		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Vader_Lightsaber_Cinematic_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
-
-		<SFXEvent_Select>Unit_Select_Dark_Jedi</SFXEvent_Select>
-		<SFXEvent_Move>Unit_Move_Dark_Jedi</SFXEvent_Move>
-		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Dark_Jedi</SFXEvent_Fleet_Move>
-		<SFXEvent_Attack>Unit_Attack_Dark_Jedi</SFXEvent_Attack>
-		<SFXEvent_Assist_Move> Unit_Move_Dark_Jedi </SFXEvent_Assist_Move>
-		<SFXEvent_Assist_Attack> Unit_Attack_Dark_Jedi </SFXEvent_Assist_Attack>
-		<SFXEvent_Guard>Unit_Move_Dark_Jedi</SFXEvent_Guard>
-		<SFXEvent_Health_Low_Warning> Unit_Low_Health_Dark_Jedi </SFXEvent_Health_Low_Warning>
-		<Death_SFXEvent_Start_Die> Unit_Death_Dark_Jedi </Death_SFXEvent_Start_Die>
+		<SFXEvent_Select>Unit_Select_Sith_Lord</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Sith_Lord</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Sith_Lord</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Sith_Lord</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Sith_Lord</SFXEvent_Guard>
+		<SFXEvent_Group_Move>Unit_Group_Move_Sith_Lord</SFXEvent_Group_Move>
+		<SFXEvent_Group_Attack>Unit_Group_Attack_Sith_Lord</SFXEvent_Group_Attack>
+		<SFXEvent_Health_Low_Warning>Unit_Health_Low_Sith_Lord</SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_Sith_Lord</SFXEvent_Health_Critical_Warning>
+		<Death_SFXEvent_Start_Die> Unit_Death_Sith_Lord </Death_SFXEvent_Start_Die>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 				<Unit_Ability>
@@ -5334,6 +5331,11 @@
 		<Company_Units>Hethrir</Company_Units>
 		
 		<Affiliation>Imperial_Proteus</Affiliation>
+
+		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Sith_Lord</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Sith_Lord</SFXEvent_Fleet_Move>
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>375</Tactical_Build_Cost_Multiplayer>
@@ -5579,7 +5581,7 @@
 		<Property_Flags>GTSImmune</Property_Flags>
 		<Affiliation>Imperial_Proteus</Affiliation> <!-- Stop AI enumerating -->
 		
-        <Ranking_In_Category>4</Ranking_In_Category>
+        <Ranking_In_Category>1</Ranking_In_Category>
 
 		<SpaceBehavior>TELEKINESIS_TARGET,ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
         
