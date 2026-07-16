@@ -24,6 +24,9 @@ return {
 		["INSTANTACTION_MARKER_IMPERIAL_PROTEUS2"] = {
 			DEFAULT = {Initial = 1, Reserve = 0}
 		},
+		["InstantAction_Marker_Imperial_Proteus3"] = {
+			DEFAULT = {Initial = 1, Reserve = 0}
+		},
 	},
 	Scripts = {"fighter-spawn"},
 	Flags = {HANGAR = true, RAPIDDEPLOY = true}
