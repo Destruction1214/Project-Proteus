@@ -9,7 +9,11 @@
       "param-type-mismatch",
       "undefined-field",
       "need-check-nil",
-      "global-in-non-module"
+      "global-in-non-module",
+      "assign-type-mismatch",
+      "call-non-callable",
+      "type-not-found",
+      "undefined-doc-param"
     ]
   }
 }
