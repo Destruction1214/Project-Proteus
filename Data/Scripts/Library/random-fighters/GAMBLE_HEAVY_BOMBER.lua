@@ -1,5 +1,6 @@
 return {
-    --["PROTEUS_GROUP_NAME"] = {
-        --list of options, Squadron Name in caps
-    --},
+    ["IMPERIAL_LIANNA"] = {
+    "TIE_HEAVY_BOMBER_SQUADRON",
+    "TIE_TERROR_SQUADRON",
+    },
 }
