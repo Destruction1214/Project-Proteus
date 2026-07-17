@@ -99,7 +99,7 @@ return {
 			if owner == "IMPERIAL_PROTEUS" then
 				local group_name = GlobalValue.Get("PROTEUS_GROUP_NAME")
 				if proteustypes[group_name] then
-					if string.find(fighter, "GAMBLE_") then
+					if string.find(proteustypes[group_name][1], "GAMBLE_") then
 						local random_list = require("random-fighters/GAMBLE_LIGHT_FIGHTER")
 						if random_list[group_name] then
 							if table.getn(random_list[group_name]) > 0 then
