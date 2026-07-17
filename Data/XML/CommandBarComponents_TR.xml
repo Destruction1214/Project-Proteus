@@ -4799,8 +4799,8 @@
 		<Left_Justified>False</Left_Justified>
 		<Base_Layer>8</Base_Layer>
 		<Text_Outline>True</Text_Outline>
-		<Icon_Texture_Name>I_BUTTON_DESANN.tga</Icon_Texture_Name>
-		<Selected_Texture_Name>I_BUTTON_DESANN.tga</Selected_Texture_Name>
+		<Icon_Texture_Name>I_BUTTON_HETHRIR.tga</Icon_Texture_Name>
+		<Selected_Texture_Name>I_BUTTON_HETHRIR.tga</Selected_Texture_Name>
 		<Disabled_Texture_Name>i_button_disabled_square.tga</Disabled_Texture_Name>
 		<Toggle>False</Toggle>
 		<Selected_Alpha>True</Selected_Alpha>
