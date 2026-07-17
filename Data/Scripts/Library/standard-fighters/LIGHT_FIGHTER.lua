@@ -104,30 +104,30 @@ return {
 				local group_name = GlobalValue.Get("PROTEUS_GROUP_NAME")
 				if proteustypes[group_name] then
 					if string.find(proteustypes[group_name][1], "GAMBLE_") then
-						local random_list = require("random-fighters/GAMBLE_LIGHT_FIGHTER")
-						if random_list[group_name] then
-							local gamble = {}
-							local year = GlobalValue.Get("GALACTIC_YEAR")
-							for option, data in pairs(random_list[group_name]) do
-								if year >= data.Min_Year and year <= data.Max_Year then
-									if data.Research then
-										if Get_Fighter_Research(data.Research) then
-											table.insert(gamble, option)
-										end
-									else 
+					local random_list = require("random-fighters/GAMBLE_LIGHT_FIGHTER")
+					if random_list[group_name] then
+						local gamble = {}
+						local year = GlobalValue.Get("GALACTIC_YEAR")
+						for option, data in pairs(random_list[group_name]) do
+							if year >= data.Min_Year and year <= data.Max_Year then
+								if data.Research then
+									if Get_Fighter_Research(data.Research) then
 										table.insert(gamble, option)
 									end
-								end
-							end
-							if table.getn(gamble) > 0 then
-								local select = GameRandom.Free_Random(1, table.getn(gamble))
-								for pos, obj in pairs(gamble) do
-									if pos == select then
-										fighter = obj
-									end
+								else 
+									table.insert(gamble, option)
 								end
 							end
 						end
+						if table.getn(gamble) > 0 then
+							local select = GameRandom.Free_Random(1, table.getn(gamble))
+							for pos, obj in pairs(gamble) do
+								if pos == select then
+									fighter = obj
+								end
+							end
+						end
+					end
 					else
 						fighter = proteustypes[group_name][1]
 					end
