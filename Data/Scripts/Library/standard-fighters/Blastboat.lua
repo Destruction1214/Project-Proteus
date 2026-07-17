@@ -114,9 +114,9 @@ return {
 					local random_list = require("random-fighters/GAMBLE_BLASTBOAT")
 					if random_list[group_name] then
 						local gamble = {}
-						local era = GlobalValue.Get("CURRENT_ERA")
+						local year = GlobalValue.Get("GALACTIC_YEAR")
 						for option, data in pairs(random_list[group_name]) do
-							if era >= data.Min_Era and era <= data.Max_Era then
+							if year >= data.Min_Year and year <= data.Max_Year then
 								if data.Research then
 									if Get_Fighter_Research(data.Research) then
 										table.insert(gamble, option)
