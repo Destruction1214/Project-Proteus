@@ -14,6 +14,10 @@ require("StandardFighterFunctions")
 -- [4] *required* = string, unit to replace if research found complete, replaces [1]
 -- [5] *required* = false or string, similar setup to [2] 
 -- later order research priotised, research table Y replaces research X if research complete where Y > X
+-- 
+-- Random Spawns, Proteus specific and independent to the EAWX random fighter pool system
+-- set [1] as "GAMBLE_BLASTBOAT" to enable random spawns, needs a proteus specific list in /random-fighters/GAMBLE_BLASTBOAT.lua
+-- the random pool can be overridden on unit-by-unit basis by using the proteus as explained above
 
 return {
 	Evaluate_Fighters = function(native,suffix,owner,alias,techLevel,regime,flags,is_main_empire)		
@@ -102,9 +106,22 @@ return {
 					if string.find(proteustypes[group_name][1], "GAMBLE_") then
 						local random_list = require("random-fighters/GAMBLE_LIGHT_FIGHTER")
 						if random_list[group_name] then
-							if table.getn(random_list[group_name]) > 0 then
-								local select = GameRandom.Free_Random(1, table.getn(random_list[group_name]))
-								for pos, obj in pairs(random_list[group_name]) do
+							local gamble = {}
+							local era = GlobalValue.Get("CURRENT_ERA")
+							for option, data in pairs(random_list[group_name]) do
+								if era >= data.Min_Era and era <= data.Max_Era then
+									if data.Research then
+										if Get_Fighter_Research(data.Research) then
+											table.insert(gamble, option)
+										end
+									else 
+										table.insert(gamble, option)
+									end
+								end
+							end
+							if table.getn(gamble) > 0 then
+								local select = GameRandom.Free_Random(1, table.getn(gamble))
+								for pos, obj in pairs(gamble) do
 									if pos == select then
 										fighter = obj
 									end
