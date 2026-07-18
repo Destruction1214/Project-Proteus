@@ -436,7 +436,7 @@ return {
 				"AT_AA_Walker_Company", "2M_Repulsor_Tank_Company", "SPMAG_Walker_Company", "Imperial_Dropship_Transport_Company",
 				"B5_Juggernaut_Company", "Imperial_AT_AT_Walker_Company",
 				-- Research/Dummies
-				"KUAT_Dummy_Research_Corona", "ROGRISS_AURORA_DUMMY",
+				"KUAT_Dummy_Research_Corona", "Rogriss_Aurora_Dummy",
 			},
 			FactionOverride = "Empire",
 			IntroText = "TEXT_CONQUEST_PROTEUS_KUAT",
@@ -1066,7 +1066,7 @@ return {
 			IntroHolo = "Llon_Banjeer_Loop",
 			PlanetParticle = "ZE_Allies",
 		},
-	-- Projec Proteus Original
+	-- Project Proteus Original
 		["ALLIED_TION"] = {
 			FriendlyName = "Allied Tion Sector",
 			Planets = {},

@@ -39,6 +39,7 @@ return {
 	["COMEG_BELLATOR_DUMMY"] = {"Comeg_Ostrander","Comeg_Bellator"},
 	["X1_EXECUTOR_DUMMY"] = {"X1","X1_Executor"},
 	["ROGRISS_AURORA_DUMMY"] = {"Rogriss_Agonizer","Rogriss_Aurora"},
+	["ROGRISS_DOMINION_DUMMY2"] = {"Rogriss_Aurora", "Rogriss_Dominion"},
 
 	-- CSA Corporate Hire
 	["DUMMY_RECRUIT_GROUP_SIIN_SUUB_CSA"] = {nil,{"Siin_Suub_Proclamation"}},
