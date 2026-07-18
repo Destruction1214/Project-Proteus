@@ -186,7 +186,7 @@ TEXT_RESEARCH_SELLASAS_SWAP1_DESCRIPTION,Switch the loadouts of newly commission
 TEXT_RESEARCH_SELLASAS_SWAP1_NAME,Switch to Support Loadouts
 TEXT_RESEARCH_SELLASAS_SWAP2_DESCRIPTION,Switch the loadouts of newly commissioned Dreadnaught Cruisers, Carrack Cruisers, Victory Star Destroyers and Imperial Star Destroyers to more firepower-centric configurations. 
 TEXT_RESEARCH_SELLASAS_SWAP2_NAME,Switch to Combat Loadouts
-TEXT_ROGRISS_RETURN,Admiral Rogriss: Losing the Aurora is unfortunate, but hardly the end of my service. Prepare the Agonizer for departure.
+TEXT_ROGRISS_RETURN,Teren Rogriss: Losing the Aurora is unfortunate, but hardly the end of my service. Prepare the Agonizer for departure.\n[ Teren Rogriss has returned in command of the Imperial-I Star Destroyer Agonizer ]
 TEXT_SHIELDED_MISSILE_TIE_FIGHTER_SQUADRON,Shielded Missile TIE F⁬ighter Squadron
 TEXT_SHIELDED_MISSILE_TIE_FIGHTER_SQUADRON_HALF,Shielded Missile TIE F⁬ighter Squadron 1/2
 TEXT_SHIELDED_MISSILE_TIE_FIGHTER_SQUADRON2,Shielded Missile TIE F⁬ighter Squadron x2
@@ -981,7 +981,7 @@ TEXT_TOOLTIP_RELGIMAT_RESEARCH,Upgrade the motor pool to include more modern AT 
 TEXT_TOOLTIP_REPUBLIC_SD_R,A next-generation Star Destroyer design developed by Walex Blissex while in Alliance service. Smaller and more efficient than an Imperial-class due to having less complement and consumables space, while having comparable firepower. While the design carries unmistakable Mon Calamari influences, it is also an evolution of Rendili's Victory-class designs and was intended to be manufactured by RSD, though official production for the New Republic would not happen for years after the Battle of Endor. Blissex was eventually persuaded to give his design to RSD to get started on, even while the planet was still under Imperial occupation.
 TEXT_TOOLTIP_REPUBLIC_TIE,The first general production model in a famous line of fighters with roots in the Sienar Advanced Project Vessel. It was created to fill space aboard older warships but was pressed into greater service due to efficiency compared to more expensive Kuati interceptors. It is sturdier than its successor designs but less maneuverable.
 TEXT_TOOLTIP_REPUBLIC_Z95,A variant of the popular Z-95 Headhunter, the clone Z-95 starfighter boasted speed and maneuverability on account of its sleek design. It was equipped with recessed torpedo launchers and a pair of wingtip laser cannons, and its shielding allowed it to endure much damage, though it lacked a hyperdrive.
-TEXT_TOOLTIP_RESPAWN_ROGRISS,Tactical Retreat: Respawns in Agonizer if defeated
+TEXT_TOOLTIP_RESPAWN_ROGRISS,Tactical Retreat: Respawns in an ISD-I if defeated
 TEXT_TOOLTIP_ROEK,Roek was an officer in the Starfleet of the Galactic Empire. after the Battle of Endor, Admiral Roek and his fleet were recalled to the Core Worlds to defend the Corellian system from the New Republic. Roek replaced Admiral Jaeffis who was previously responsible for the defense of the Corellian shipyards with his fleet of 25 Star Destroyers, and partook in the Empire's withdraw from the system. Roek's fleet eventually passed into the hands of Grand Admiral Grunger.
 TEXT_TOOLTIP_ROGRISS_UPGRADE2,Upgrade: Praetor (Requires Kuat and Kuat Minor Warlord)
 TEXT_TOOLTIP_ROOK,TODO
