@@ -5853,4 +5853,43 @@
 		</Abilities>
 	</UniqueUnit>
 
+	<DummyStructure Name="ROGRISS_AURORA_DUMMY">
+		<Variant_Of_Existing_Type>Template_Flagship_Swap_NoSelfDelete</Variant_Of_Existing_Type>
+		<Build_Cost_Credits>13750</Build_Cost_Credits>
+		<Build_Time_Seconds>10</Build_Time_Seconds>
+
+		<Text_ID>TEXT_TOOLTIP_COMMAND_AURORA</Text_ID>
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Icon_Name>i_button_rogriss.tga</Icon_Name>
+
+		<Encyclopedia_Unit_Class>Ship Crews Cost: 2,500</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_UPGRADE_FLAG
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
+		TEXT_TOOLTIP_PRAETOR_II_HULL
+		TEXT_TOOLTIP_PRAETOR_II_SHIELD 
+		TEXT_TOOLTIP_PRAETOR_II_MOVE 
+		TEXT_TOOLTIP_PRAETOR_II_SQUADRON
+		TEXT_TOOLTIP_PRAETOR_II_WEAP1 
+		TEXT_TOOLTIP_PRAETOR_II_WEAP2 
+		TEXT_TOOLTIP_PRAETOR_II_WEAP3
+		TEXT_TOOLTIP_PRAETOR_II_WEAP4
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_RESPAWN_ROGRISS
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		</Encyclopedia_Text>
+
+		<Lua_Script></Lua_Script>
+
+		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy, Imperial_Proteus_Shipyard_Level_Four</Required_Special_Structures>
+
+		<Required_Orbiting_Units>Rogriss_Agonizer</Required_Orbiting_Units>
+		
+		<Population_Value>108</Population_Value>
+
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+	</DummyStructure>
+
 </Project_Proteus_Heroes>
