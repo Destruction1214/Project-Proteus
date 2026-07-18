@@ -19,6 +19,7 @@ return {
         "Victory_II_Carrier",
         "Victory_I_Fleet_Star_Destroyer",
         "Vector_Star_Destroyer",
+		"Victory_I_Star_Destroyer_Patrol",
     }, 
     ["DUMMY_RANDOM_UNIT_RENDILI_DHC"] = {
         "PDF_DHC",
@@ -29,6 +30,8 @@ return {
         "Picket_DHC",
         "Modernized_DHC",
 		"DHC_Interdictor",
+		"Alliance_Assault_Frigate",
+		--"Katana_DHC",
     },
     ["DUMMY_RANDOM_UNIT_RENDILI_NSBC"] = {
 		"Neutron_Star",
@@ -40,5 +43,6 @@ return {
 		"Gladiator_I",
         "Gladiator_II",
         --"Gladiator_Carrier",
+		--"Gladiator_Siege_Refit",
 	},
 }
