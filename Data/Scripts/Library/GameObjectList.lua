@@ -897,6 +897,7 @@ return {
 ["DESANNE_DOMINION"] = true,
 ["DESANNE_DOMINION_DUMMY"] = true,
 ["DHC_INTERDICTOR"] = true,
+["FYYAR_DOOMGIVER"] = true,
 ["GALLEON_MINELAYER"] = true,
 ["HARRSK_MEGADOR"] = true,
 ["HARRSK_MEGADOR_DUMMY_1"] = true,
