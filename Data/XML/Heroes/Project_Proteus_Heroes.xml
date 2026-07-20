@@ -696,6 +696,7 @@
 		TEXT_TOOLTIP_DOOMGIVER_SQUADRON
 		TEXT_TOOLTIP_DOOMGIVER_WEAP1
 		TEXT_TOOLTIP_DOOMGIVER_WEAP2
+		TEXT_TOOLTIP_DOOMGIVER_WEAP3
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
 		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
@@ -728,10 +729,9 @@
 
 		<Shield_Armor_Type>ShieldS_Capital</Shield_Armor_Type>
 		<Shield_Points>12500</Shield_Points>
-		<Shield_Refresh_Rate>125.0</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>93.75</Shield_Refresh_Rate>
 		<Armor_Type> ArmourS_Capital </Armor_Type>
-		<Tactical_Health>9500</Tactical_Health>
-
+		<Tactical_Health>9504</Tactical_Health>
 		<Energy_Capacity>8000</Energy_Capacity>
 		<Energy_Refresh_Rate>800</Energy_Refresh_Rate>
 
@@ -778,17 +778,21 @@
 
 		<HardPoints>
 			HP_Doomgiver_Engine1,
-			HP_Doomgiver_Engine2, 
+			HP_Doomgiver_Engine2,
 			HP_Doomgiver_Hangar,
 			HP_Doomgiver_HSTurbo01,
 			HP_Doomgiver_HSTurbo02,
 			HP_Doomgiver_HSTurbo03,
+			HP_Doomgiver_LDTurbo01,
+			HP_Doomgiver_LDTurbo02,
+			HP_Doomgiver_LDTurbo03,
+			HP_Doomgiver_LDTurbo04,
 			HP_Doomgiver_MTurbo1,
 			HP_Doomgiver_MTurbo2,
 			HP_Doomgiver_MTurbo3,
 			HP_Doomgiver_MTurbo4,
 			HP_Doomgiver_MTurbo5,
-			HP_Doomgiver_MTurbo6,
+			HP_Doomgiver_MTurbo6
 		</HardPoints>
 
 		<Lua_Script>GenericGameObject</Lua_Script>
