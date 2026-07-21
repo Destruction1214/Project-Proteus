@@ -9,5 +9,6 @@ return {
 		}
 	},
 	Native = "CORPORATE_SECTOR",
+	FighterFlags = {"PROTEUS_OVERRIDE"},
 	Scripts = {"multilayer", "fighter-spawn"}
 }
