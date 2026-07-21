@@ -87,8 +87,8 @@ TEXT_ETA2_SQUADRON_HALF,Eta-2 Actis Squadron 1/2
 TEXT_ETA2_SQUADRON2,Eta-2 Actis Squadron x2
 TEXT_EVENT_DASTA_FIGHTER_CHOICE_BODY,Procure starfighters from either Imperial or New Republic forces, fully changing your fighter roster.
 TEXT_EVENT_DASTA_FIGHTER_CHOICE_HEADER,Procure Starfighters
-TEXT_EVENT_DASTA_FIGHTER_CHOICE_IMPERIAL,New Republic Starfighters
-TEXT_EVENT_DASTA_FIGHTER_CHOICE_REBEL,Imperial Starfighters
+TEXT_EVENT_DASTA_FIGHTER_CHOICE_IMPERIAL,Imperial Starfighters
+TEXT_EVENT_DASTA_FIGHTER_CHOICE_REBEL,New Republic Starfighters
 TEXT_EVENT_TOOLTIP_DASTA_FIGHTER_CHOICE_IMPERIAL,Offer the Imperial Remnant logistical and financial support in return for some of their best starfighter models. 
 TEXT_EVENT_TOOLTIP_DASTA_FIGHTER_CHOICE_REBEL,Offer the New Republic a trade agreement and diplomatic recognition in exchange for some of their modern starfighter models.
 TEXT_EVENT_WARLORD_CHOICE_BALMORRA,Independent Balmorra
