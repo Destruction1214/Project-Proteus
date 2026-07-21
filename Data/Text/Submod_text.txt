@@ -773,7 +773,7 @@ TEXT_TOOLTIP_FROSTFIRE_SQUADRON,Fighters: 2 / 8 | Bombers: 2 / 4
 TEXT_TOOLTIP_FROSTFIRE_WEAP1,4x Medium Quad Turbolasers: 1 / 4.0s / 6.3km
 TEXT_TOOLTIP_FROSTFIRE_WEAP2,4x Medium Turbolasers: 2 / 0.75s / 6.3km
 TEXT_TOOLTIP_FROSTFIRE_WEAP3,2x Medium Dual Ion Cannons: 2 / 4.0s / 6.3km
-TEXT_TOOLTIP_FYYAR,TODO For Supernova
+TEXT_TOOLTIP_FYYAR,An Imperial Admiral mainly known for his research projects rather than military campaigns. Fyyar worked on armor and shield technologies, including the Shadow Armor that the Reborn Dark Jedi would wear, empowered by Artusian crystals, as well as a mechanized battle suit for himself. Sometime after the Battle of Endor, Fyyar joined forces with Hethrir and Desann, lending his technological expertise and gaining command of the faction's advanced siege warship, the Doomgiver. However, Fyyar had little respect for the force-obsessed Hethrir and Desann and planned to take the throne for himself once the Jedi were out of the way.   
 TEXT_TOOLTIP_GAT,The Ground Armored Tank served as a shielded fast attack platform early in the war, often in opposition to the comparable Saber tanks. Due to losses and poor direct performance against loyalist assets, the design ceased production relatively quickly into the war in favour of Techno Union alternatives.
 TEXT_TOOLTIP_GAT_COMPANY,Company: 4x GAT
 TEXT_TOOLTIP_GAT_HEALTH,Health: 100 (Medium Vehicle)
