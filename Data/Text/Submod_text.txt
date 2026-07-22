@@ -491,7 +491,7 @@ TEXT_TOOLTIP_008_SPEEDER_HEALTH,Health: 250 (Medium Vehicle)
 TEXT_TOOLTIP_008_SPEEDER_MOVE,Speed: 2.50 | Turn: 3.0
 TEXT_TOOLTIP_008_WEAP1,1x AV Blaster Cannon: 4 / 2.0s / 400m
 TEXT_TOOLTIP_008_WEAP2,1x AI Blaster Cannon: 2 / 1.0s / 320m
-TEXT_TOOLTIP_1214,TODO
+TEXT_TOOLTIP_1214,The Admiral of Destruction came into the orbit of the Proteus Project by accident, and while he thinks of himself as an independent contractor, he is nothing more than a puppet for the others, doing their dirty work. Diligent but antagonistic, the project would never have come as far as it did without his help. He often has to fix problems that crop up when the other members of the Central Committee of Proteus Modders screw up.
 TEXT_TOOLTIP_1214_HULL,Hull: 7950 (Capital)
 TEXT_TOOLTIP_1214_SHIELD,Shields: 8100 / [40.5/R] (Capital)
 TEXT_TOOLTIP_1214_SQUADRON,Fighters: 2.5 / 5.5 | Bombers: 1.5 / 2.5
@@ -659,8 +659,9 @@ TEXT_TOOLTIP_COMEG_UPGRADE,Upgrade: Bellator
 TEXT_TOOLTIP_COMMAND_1214,Modified Maelstrom Battlecruiser, Rain of Destruction
 TEXT_TOOLTIP_COMMAND_ACROPORA,Tector Star Destroyer, Acropora
 TEXT_TOOLTIP_COMMAND_ALPHA_SQUADRON,TIE Fighter, Alpha Squadron
+TEXT_TOOLTIP_COMMAND_BADMOTORFINGER,Communications Battlecruiser, Badmotorfinger
 TEXT_TOOLTIP_COMMAND_BLACKHOLESUN,Communications Battlecruiser, Black Hole Sun
-TEXT_TOOLTIP_COMMAND_DREAM_OF_A_QUIET_LIFE,Sovereign Star Dreadnought, Dream of a Quiet Life
+TEXT_TOOLTIP_COMMAND_DREAM_OF_A_QUIET_LIFE,Bou'Halec Star Dreadnought, Dream of a Quiet Life
 TEXT_TOOLTIP_COMMAND_FROSTFIRE,Modified Ascendancy Star Destroyer, Frostfire
 TEXT_TOOLTIP_COMMAND_GURNST,Commands: Elite Mercenary Platoon Taskforce Bravo
 TEXT_TOOLTIP_COMMAND_HSSISSK_SQUADRON,Zssisk Strike Squadron
@@ -746,6 +747,7 @@ TEXT_TOOLTIP_DREADNAUGHT_PICKET_WEAP1,2x Heavy Dual Ion Cannons: 2 / 4.0s / 7.1k
 TEXT_TOOLTIP_DREADNAUGHT_PICKET_WEAP2,2x Light Turbolasers: 2 / 2.0s / 5.1km
 TEXT_TOOLTIP_DREADNAUGHT_PICKET_WEAP3,2x Medium Quad Laser Cannons: 2 / 0.5s / 4.1km
 TEXT_TOOLTIP_DREADNAUGHT_PICKET_WEAP4,1x Heavy Laser Cannon: 2 / 0.5s / 4.6km
+TEXT_TOOLTIP_DREAM_OF_A_QUIET_LIFE_WEAP,25x Missiles Trouts: 4 / 3.0s / 7.2km
 TEXT_TOOLTIP_ELEIAN,TODO
 TEXT_TOOLTIP_ELITES,A cabal of rich former members of the Imperial elite who resented the New Republic and supported the Empire Reborn insurgency with money and ships, as well as engaging in slave trade and child trafficking to facilitate their dealings and Lord Hethrir's goals. The most prominent members of the group were Lord Brashaa, Lord Cnorec, Lady Ucce and Lord Qaqquqqu, though their network reached far and wide and included traitors within the New Republic and contacts with other warlords. 
 TEXT_TOOLTIP_ESCORT_GURNST1,1x Elite Mercenary Platoon

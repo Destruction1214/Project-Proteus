@@ -12262,7 +12262,7 @@
 		<Fire_Max_Recharge_Seconds>12.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>5</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>3600.0</Fire_Range_Distance>
+		<Fire_Range_Distance>7200.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 		<Full_Salvo_Weapon_Delay_Multiplier>.25</Full_Salvo_Weapon_Delay_Multiplier>
 
@@ -12294,7 +12294,7 @@
 		<Fire_Max_Recharge_Seconds>12.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>5</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>3600.0</Fire_Range_Distance>
+		<Fire_Range_Distance>7200.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 		<Full_Salvo_Weapon_Delay_Multiplier>.25</Full_Salvo_Weapon_Delay_Multiplier>
 
@@ -12326,12 +12326,812 @@
 		<Fire_Max_Recharge_Seconds>12.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>5</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>3600.0</Fire_Range_Distance>
+		<Fire_Range_Distance>7200.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 		<Full_Salvo_Weapon_Delay_Multiplier>.25</Full_Salvo_Weapon_Delay_Multiplier>
 
 		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
 	</HardPoint>
+
+	<HardPoint Name="HP_Dream_Of_A_Quiet_Life_Missile_Trout_01">
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_A_MISSILE_TROUT</Tooltip_Text>
+        <Health>655.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Missile_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>WEAP_MISSILE_CONC_01_150</Attachment_Bone>
+        <Collision_Mesh>WEAP_MISSILE_CONC_01_150</Collision_Mesh>
+        <Damage_Particles>WEAP_MISSILE_CONC_01_150</Damage_Particles>
+
+
+        <Fire_Bone_A>WEAP_MISSILE_CONC_01_150_FP00</Fire_Bone_A>
+        <Fire_Bone_B>WEAP_MISSILE_CONC_01_150_FP01</Fire_Bone_B>
+        <Fire_Cone_Width>150.0</Fire_Cone_Width>
+        <Fire_Cone_Height>270.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Assault_Concussion_Missile</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>7200.0</Fire_Range_Distance>
+        <Randomize_Between_Fire_Bones> No </Randomize_Between_Fire_Bones>
+
+        <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+
+    </HardPoint>
+
+    <HardPoint Name="HP_Dream_Of_A_Quiet_Life_Missile_Trout_02">
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_A_MISSILE_TROUT</Tooltip_Text>
+        <Health>655.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Missile_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>WEAP_MISSILE_CONC_02_160</Attachment_Bone>
+        <Collision_Mesh>WEAP_MISSILE_CONC_02_160</Collision_Mesh>
+        <Damage_Particles>WEAP_MISSILE_CONC_02_160</Damage_Particles>
+
+
+        <Fire_Bone_A>WEAP_MISSILE_CONC_02_160_FP00</Fire_Bone_A>
+        <Fire_Bone_B>WEAP_MISSILE_CONC_02_160_FP01</Fire_Bone_B>
+        <Fire_Cone_Width>160.0</Fire_Cone_Width>
+        <Fire_Cone_Height>270.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Assault_Concussion_Missile</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>7200.0</Fire_Range_Distance>
+        <Randomize_Between_Fire_Bones> No </Randomize_Between_Fire_Bones>
+
+        <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+
+    </HardPoint>
+
+    <HardPoint Name="HP_Dream_Of_A_Quiet_Life_Missile_Trout_03">
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_A_MISSILE_TROUT</Tooltip_Text>
+        <Health>655.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Missile_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>WEAP_MISSILE_CONC_03_160</Attachment_Bone>
+        <Collision_Mesh>WEAP_MISSILE_CONC_03_160</Collision_Mesh>
+        <Damage_Particles>WEAP_MISSILE_CONC_03_160</Damage_Particles>
+
+
+        <Fire_Bone_A>WEAP_MISSILE_CONC_03_160_FP00</Fire_Bone_A>
+        <Fire_Bone_B>WEAP_MISSILE_CONC_03_160_FP01</Fire_Bone_B>
+        <Fire_Cone_Width>160.0</Fire_Cone_Width>
+        <Fire_Cone_Height>270.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Assault_Concussion_Missile</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>7200.0</Fire_Range_Distance>
+        <Randomize_Between_Fire_Bones> No </Randomize_Between_Fire_Bones>
+
+        <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+
+    </HardPoint>
+
+    <HardPoint Name="HP_Dream_Of_A_Quiet_Life_Missile_Trout_04">
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_A_MISSILE_TROUT</Tooltip_Text>
+        <Health>655.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Missile_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>WEAP_MISSILE_CONC_04_170</Attachment_Bone>
+        <Collision_Mesh>WEAP_MISSILE_CONC_04_170</Collision_Mesh>
+        <Damage_Particles>WEAP_MISSILE_CONC_04_170</Damage_Particles>
+
+
+        <Fire_Bone_A>WEAP_MISSILE_CONC_04_170_FP00</Fire_Bone_A>
+        <Fire_Bone_B>WEAP_MISSILE_CONC_04_170_FP01</Fire_Bone_B>
+        <Fire_Cone_Width>170.0</Fire_Cone_Width>
+        <Fire_Cone_Height>270.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Assault_Concussion_Missile</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>7200.0</Fire_Range_Distance>
+        <Randomize_Between_Fire_Bones> No </Randomize_Between_Fire_Bones>
+
+        <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+
+    </HardPoint>
+
+    <HardPoint Name="HP_Dream_Of_A_Quiet_Life_Missile_Trout_05">
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_A_MISSILE_TROUT</Tooltip_Text>
+        <Health>655.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Missile_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>WEAP_MISSILE_CONC_05_170</Attachment_Bone>
+        <Collision_Mesh>WEAP_MISSILE_CONC_05_170</Collision_Mesh>
+        <Damage_Particles>WEAP_MISSILE_CONC_05_170</Damage_Particles>
+
+
+        <Fire_Bone_A>WEAP_MISSILE_CONC_05_170_FP00</Fire_Bone_A>
+        <Fire_Bone_B>WEAP_MISSILE_CONC_05_170_FP01</Fire_Bone_B>
+        <Fire_Cone_Width>170.0</Fire_Cone_Width>
+        <Fire_Cone_Height>270.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Assault_Concussion_Missile</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>7200.0</Fire_Range_Distance>
+        <Randomize_Between_Fire_Bones> No </Randomize_Between_Fire_Bones>
+
+        <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+
+    </HardPoint>
+
+    <HardPoint Name="HP_Dream_Of_A_Quiet_Life_Missile_Trout_06">
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_A_MISSILE_TROUT</Tooltip_Text>
+        <Health>655.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Missile_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>WEAP_MISSILE_CONC_06_170</Attachment_Bone>
+        <Collision_Mesh>WEAP_MISSILE_CONC_06_170</Collision_Mesh>
+        <Damage_Particles>WEAP_MISSILE_CONC_06_170</Damage_Particles>
+
+
+        <Fire_Bone_A>WEAP_MISSILE_CONC_06_170_FP00</Fire_Bone_A>
+        <Fire_Bone_B>WEAP_MISSILE_CONC_06_170_FP01</Fire_Bone_B>
+        <Fire_Cone_Width>170.0</Fire_Cone_Width>
+        <Fire_Cone_Height>270.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Assault_Concussion_Missile</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>7200.0</Fire_Range_Distance>
+        <Randomize_Between_Fire_Bones> No </Randomize_Between_Fire_Bones>
+
+        <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+
+    </HardPoint>
+
+    <HardPoint Name="HP_Dream_Of_A_Quiet_Life_Missile_Trout_07">
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_A_MISSILE_TROUT</Tooltip_Text>
+        <Health>655.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Missile_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>WEAP_MISSILE_CONC_07_170</Attachment_Bone>
+        <Collision_Mesh>WEAP_MISSILE_CONC_07_170</Collision_Mesh>
+        <Damage_Particles>WEAP_MISSILE_CONC_07_170</Damage_Particles>
+
+
+        <Fire_Bone_A>WEAP_MISSILE_CONC_07_170_FP00</Fire_Bone_A>
+        <Fire_Bone_B>WEAP_MISSILE_CONC_07_170_FP01</Fire_Bone_B>
+        <Fire_Cone_Width>170.0</Fire_Cone_Width>
+        <Fire_Cone_Height>270.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Assault_Concussion_Missile</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>7200.0</Fire_Range_Distance>
+        <Randomize_Between_Fire_Bones> No </Randomize_Between_Fire_Bones>
+
+        <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+
+    </HardPoint>
+
+    <HardPoint Name="HP_Dream_Of_A_Quiet_Life_Missile_Trout_08">
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_A_MISSILE_TROUT</Tooltip_Text>
+        <Health>655.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Missile_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>WEAP_MISSILE_CONC_08_155</Attachment_Bone>
+        <Collision_Mesh>WEAP_MISSILE_CONC_08_155</Collision_Mesh>
+        <Damage_Particles>WEAP_MISSILE_CONC_08_155</Damage_Particles>
+
+
+        <Fire_Bone_A>WEAP_MISSILE_CONC_08_155</Fire_Bone_A>
+        <Fire_Bone_B>WEAP_MISSILE_CONC_08_155</Fire_Bone_B>
+        <Fire_Cone_Width>155.0</Fire_Cone_Width>
+        <Fire_Cone_Height>270.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Assault_Concussion_Missile</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>7200.0</Fire_Range_Distance>
+        <Randomize_Between_Fire_Bones> No </Randomize_Between_Fire_Bones>
+
+        <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+
+    </HardPoint>
+
+    <HardPoint Name="HP_Dream_Of_A_Quiet_Life_Missile_Trout_09">
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_A_MISSILE_TROUT</Tooltip_Text>
+        <Health>655.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Missile_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>WEAP_MISSILE_CONC_09_170</Attachment_Bone>
+        <Collision_Mesh>WEAP_MISSILE_CONC_09_170</Collision_Mesh>
+        <Damage_Particles>WEAP_MISSILE_CONC_09_170</Damage_Particles>
+
+
+        <Fire_Bone_A>WEAP_MISSILE_CONC_09_170_FP00</Fire_Bone_A>
+        <Fire_Bone_B>WEAP_MISSILE_CONC_09_170_FP01</Fire_Bone_B>
+        <Fire_Cone_Width>170.0</Fire_Cone_Width>
+        <Fire_Cone_Height>270.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Assault_Concussion_Missile</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>7200.0</Fire_Range_Distance>
+        <Randomize_Between_Fire_Bones> No </Randomize_Between_Fire_Bones>
+
+        <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+
+    </HardPoint>
+
+    <HardPoint Name="HP_Dream_Of_A_Quiet_Life_Missile_Trout_10">
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_A_MISSILE_TROUT</Tooltip_Text>
+        <Health>655.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Missile_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>WEAP_MISSILE_CONC_10_170</Attachment_Bone>
+        <Collision_Mesh>WEAP_MISSILE_CONC_10_170</Collision_Mesh>
+        <Damage_Particles>WEAP_MISSILE_CONC_10_170</Damage_Particles>
+
+
+        <Fire_Bone_A>WEAP_MISSILE_CONC_10_170_FP00</Fire_Bone_A>
+        <Fire_Bone_B>WEAP_MISSILE_CONC_10_170_FP01</Fire_Bone_B>
+        <Fire_Cone_Width>170.0</Fire_Cone_Width>
+        <Fire_Cone_Height>270.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Assault_Concussion_Missile</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>7200.0</Fire_Range_Distance>
+        <Randomize_Between_Fire_Bones> No </Randomize_Between_Fire_Bones>
+
+        <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+
+    </HardPoint>
+
+    <HardPoint Name="HP_Dream_Of_A_Quiet_Life_Missile_Trout_11">
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_A_MISSILE_TROUT</Tooltip_Text>
+        <Health>655.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Missile_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>WEAP_MISSILE_CONC_11_150</Attachment_Bone>
+        <Collision_Mesh>WEAP_MISSILE_CONC_11_150</Collision_Mesh>
+        <Damage_Particles>WEAP_MISSILE_CONC_11_150</Damage_Particles>
+
+
+        <Fire_Bone_A>WEAP_MISSILE_CONC_11_150_FP00</Fire_Bone_A>
+        <Fire_Bone_B>WEAP_MISSILE_CONC_11_150_FP01</Fire_Bone_B>
+        <Fire_Cone_Width>150.0</Fire_Cone_Width>
+        <Fire_Cone_Height>270.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Assault_Concussion_Missile</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>7200.0</Fire_Range_Distance>
+        <Randomize_Between_Fire_Bones> No </Randomize_Between_Fire_Bones>
+
+        <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+
+    </HardPoint>
+
+    <HardPoint Name="HP_Dream_Of_A_Quiet_Life_Missile_Trout_12">
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_A_MISSILE_TROUT</Tooltip_Text>
+        <Health>655.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Missile_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>WEAP_MISSILE_CONC_12_170</Attachment_Bone>
+        <Collision_Mesh>WEAP_MISSILE_CONC_12_170</Collision_Mesh>
+        <Damage_Particles>WEAP_MISSILE_CONC_12_170</Damage_Particles>
+
+
+        <Fire_Bone_A>WEAP_MISSILE_CONC_12_170_FP00</Fire_Bone_A>
+        <Fire_Bone_B>WEAP_MISSILE_CONC_12_170_FP01</Fire_Bone_B>
+        <Fire_Cone_Width>170.0</Fire_Cone_Width>
+        <Fire_Cone_Height>270.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Assault_Concussion_Missile</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>7200.0</Fire_Range_Distance>
+        <Randomize_Between_Fire_Bones> No </Randomize_Between_Fire_Bones>
+
+        <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+
+    </HardPoint>
+
+    <HardPoint Name="HP_Dream_Of_A_Quiet_Life_Missile_Trout_13">
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_A_MISSILE_TROUT</Tooltip_Text>
+        <Health>655.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Missile_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>WEAP_MISSILE_CONC_13_170</Attachment_Bone>
+        <Collision_Mesh>WEAP_MISSILE_CONC_13_170</Collision_Mesh>
+        <Damage_Particles>WEAP_MISSILE_CONC_13_170</Damage_Particles>
+
+
+        <Fire_Bone_A>WEAP_MISSILE_CONC_13_170_FP00</Fire_Bone_A>
+        <Fire_Bone_B>WEAP_MISSILE_CONC_13_170_FP01</Fire_Bone_B>
+        <Fire_Cone_Width>170.0</Fire_Cone_Width>
+        <Fire_Cone_Height>270.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Assault_Concussion_Missile</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>7200.0</Fire_Range_Distance>
+        <Randomize_Between_Fire_Bones> No </Randomize_Between_Fire_Bones>
+
+        <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+
+    </HardPoint>
+
+    <HardPoint Name="HP_Dream_Of_A_Quiet_Life_Missile_Trout_14">
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_A_MISSILE_TROUT</Tooltip_Text>
+        <Health>655.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Missile_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>WEAP_MISSILE_CONC_14_170</Attachment_Bone>
+        <Collision_Mesh>WEAP_MISSILE_CONC_14_170</Collision_Mesh>
+        <Damage_Particles>WEAP_MISSILE_CONC_14_170</Damage_Particles>
+
+
+        <Fire_Bone_A>WEAP_MISSILE_CONC_14_170_FP00</Fire_Bone_A>
+        <Fire_Bone_B>WEAP_MISSILE_CONC_14_170_FP01</Fire_Bone_B>
+        <Fire_Cone_Width>170.0</Fire_Cone_Width>
+        <Fire_Cone_Height>270.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Assault_Concussion_Missile</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>7200.0</Fire_Range_Distance>
+        <Randomize_Between_Fire_Bones> No </Randomize_Between_Fire_Bones>
+
+        <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+
+    </HardPoint>
+
+    <HardPoint Name="HP_Dream_Of_A_Quiet_Life_Missile_Trout_15">
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_A_MISSILE_TROUT</Tooltip_Text>
+        <Health>655.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Missile_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>WEAP_MISSILE_CONC_15_170</Attachment_Bone>
+        <Collision_Mesh>WEAP_MISSILE_CONC_15_170</Collision_Mesh>
+        <Damage_Particles>WEAP_MISSILE_CONC_15_170</Damage_Particles>
+
+
+        <Fire_Bone_A>WEAP_MISSILE_CONC_15_170_FP00</Fire_Bone_A>
+        <Fire_Bone_B>WEAP_MISSILE_CONC_15_170_FP01</Fire_Bone_B>
+        <Fire_Cone_Width>170.0</Fire_Cone_Width>
+        <Fire_Cone_Height>270.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Assault_Concussion_Missile</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>7200.0</Fire_Range_Distance>
+        <Randomize_Between_Fire_Bones> No </Randomize_Between_Fire_Bones>
+
+        <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+
+    </HardPoint>
+
+    <HardPoint Name="HP_Dream_Of_A_Quiet_Life_Missile_Trout_16">
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_A_MISSILE_TROUT</Tooltip_Text>
+        <Health>655.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Missile_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>WEAP_MISSILE_CONC_16_170</Attachment_Bone>
+        <Collision_Mesh>WEAP_MISSILE_CONC_16_170</Collision_Mesh>
+        <Damage_Particles>WEAP_MISSILE_CONC_16_170</Damage_Particles>
+
+
+        <Fire_Bone_A>WEAP_MISSILE_CONC_16_170_FP00</Fire_Bone_A>
+        <Fire_Bone_B>WEAP_MISSILE_CONC_16_170_FP01</Fire_Bone_B>
+        <Fire_Cone_Width>170.0</Fire_Cone_Width>
+        <Fire_Cone_Height>270.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Assault_Concussion_Missile</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>7200.0</Fire_Range_Distance>
+        <Randomize_Between_Fire_Bones> No </Randomize_Between_Fire_Bones>
+
+        <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+
+    </HardPoint>
+
+    <HardPoint Name="HP_Dream_Of_A_Quiet_Life_Missile_Trout_17">
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_A_MISSILE_TROUT</Tooltip_Text>
+        <Health>655.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Missile_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>WEAP_MISSILE_CONC_17_170</Attachment_Bone>
+        <Collision_Mesh>WEAP_MISSILE_CONC_17_170</Collision_Mesh>
+        <Damage_Particles>WEAP_MISSILE_CONC_17_170</Damage_Particles>
+
+
+        <Fire_Bone_A>WEAP_MISSILE_CONC_17_170_FP00</Fire_Bone_A>
+        <Fire_Bone_B>WEAP_MISSILE_CONC_17_170_FP01</Fire_Bone_B>
+        <Fire_Cone_Width>170.0</Fire_Cone_Width>
+        <Fire_Cone_Height>270.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Assault_Concussion_Missile</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>7200.0</Fire_Range_Distance>
+        <Randomize_Between_Fire_Bones> No </Randomize_Between_Fire_Bones>
+
+        <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+
+    </HardPoint>
+
+    <HardPoint Name="HP_Dream_Of_A_Quiet_Life_Missile_Trout_18">
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_A_MISSILE_TROUT</Tooltip_Text>
+        <Health>655.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Missile_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>WEAP_MISSILE_CONC_18_170</Attachment_Bone>
+        <Collision_Mesh>WEAP_MISSILE_CONC_18_170</Collision_Mesh>
+        <Damage_Particles>WEAP_MISSILE_CONC_18_170</Damage_Particles>
+
+
+        <Fire_Bone_A>WEAP_MISSILE_CONC_18_170_FP00</Fire_Bone_A>
+        <Fire_Bone_B>WEAP_MISSILE_CONC_18_170_FP01</Fire_Bone_B>
+        <Fire_Cone_Width>170.0</Fire_Cone_Width>
+        <Fire_Cone_Height>270.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Assault_Concussion_Missile</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>7200.0</Fire_Range_Distance>
+        <Randomize_Between_Fire_Bones> No </Randomize_Between_Fire_Bones>
+
+        <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+
+    </HardPoint>
+
+    <HardPoint Name="HP_Dream_Of_A_Quiet_Life_Missile_Trout_19">
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_A_MISSILE_TROUT</Tooltip_Text>
+        <Health>655.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Missile_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>WEAP_MISSILE_CONC_19_170</Attachment_Bone>
+        <Collision_Mesh>WEAP_MISSILE_CONC_19_170</Collision_Mesh>
+        <Damage_Particles>WEAP_MISSILE_CONC_19_170</Damage_Particles>
+
+
+        <Fire_Bone_A>WEAP_MISSILE_CONC_19_170_FP00</Fire_Bone_A>
+        <Fire_Bone_B>WEAP_MISSILE_CONC_19_170_FP01</Fire_Bone_B>
+        <Fire_Cone_Width>170.0</Fire_Cone_Width>
+        <Fire_Cone_Height>270.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Assault_Concussion_Missile</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>7200.0</Fire_Range_Distance>
+        <Randomize_Between_Fire_Bones> No </Randomize_Between_Fire_Bones>
+
+        <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+
+    </HardPoint>
+
+    <HardPoint Name="HP_Dream_Of_A_Quiet_Life_Missile_Trout_20">
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_A_MISSILE_TROUT</Tooltip_Text>
+        <Health>655.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Missile_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>WEAP_MISSILE_CONC_20_170</Attachment_Bone>
+        <Collision_Mesh>WEAP_MISSILE_CONC_20_170</Collision_Mesh>
+        <Damage_Particles>WEAP_MISSILE_CONC_20_170</Damage_Particles>
+
+
+        <Fire_Bone_A>WEAP_MISSILE_CONC_20_170_FP00</Fire_Bone_A>
+        <Fire_Bone_B>WEAP_MISSILE_CONC_20_170_FP01</Fire_Bone_B>
+        <Fire_Cone_Width>170.0</Fire_Cone_Width>
+        <Fire_Cone_Height>270.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Assault_Concussion_Missile</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>7200.0</Fire_Range_Distance>
+        <Randomize_Between_Fire_Bones> No </Randomize_Between_Fire_Bones>
+
+        <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+
+    </HardPoint>
+
+    <HardPoint Name="HP_Dream_Of_A_Quiet_Life_Missile_Trout_21">
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_A_MISSILE_TROUT</Tooltip_Text>
+        <Health>655.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Missile_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>WEAP_MISSILE_CONC_21_170</Attachment_Bone>
+        <Collision_Mesh>WEAP_MISSILE_CONC_21_170</Collision_Mesh>
+        <Damage_Particles>WEAP_MISSILE_CONC_21_170</Damage_Particles>
+
+
+        <Fire_Bone_A>WEAP_MISSILE_CONC_21_170_FP00</Fire_Bone_A>
+        <Fire_Bone_B>WEAP_MISSILE_CONC_21_170_FP01</Fire_Bone_B>
+        <Fire_Cone_Width>170.0</Fire_Cone_Width>
+        <Fire_Cone_Height>270.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Assault_Concussion_Missile</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>7200.0</Fire_Range_Distance>
+        <Randomize_Between_Fire_Bones> No </Randomize_Between_Fire_Bones>
+
+        <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+
+    </HardPoint>
+
+    <HardPoint Name="HP_Dream_Of_A_Quiet_Life_Missile_Trout_22">
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_A_MISSILE_TROUT</Tooltip_Text>
+        <Health>655.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Missile_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>WEAP_MISSILE_CONC_22_170</Attachment_Bone>
+        <Collision_Mesh>WEAP_MISSILE_CONC_22_170</Collision_Mesh>
+        <Damage_Particles>WEAP_MISSILE_CONC_22_170</Damage_Particles>
+
+
+        <Fire_Bone_A>WEAP_MISSILE_CONC_22_170_FP00</Fire_Bone_A>
+        <Fire_Bone_B>WEAP_MISSILE_CONC_22_170_FP01</Fire_Bone_B>
+        <Fire_Cone_Width>170.0</Fire_Cone_Width>
+        <Fire_Cone_Height>270.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Assault_Concussion_Missile</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>7200.0</Fire_Range_Distance>
+        <Randomize_Between_Fire_Bones> No </Randomize_Between_Fire_Bones>
+
+        <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+
+    </HardPoint>
+
+    <HardPoint Name="HP_Dream_Of_A_Quiet_Life_Missile_Trout_23">
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_A_MISSILE_TROUT</Tooltip_Text>
+        <Health>655.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Missile_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>WEAP_MISSILE_CONC_23_170</Attachment_Bone>
+        <Collision_Mesh>WEAP_MISSILE_CONC_23_170</Collision_Mesh>
+        <Damage_Particles>WEAP_MISSILE_CONC_23_170</Damage_Particles>
+
+
+        <Fire_Bone_A>WEAP_MISSILE_CONC_23_170_FP00</Fire_Bone_A>
+        <Fire_Bone_B>WEAP_MISSILE_CONC_23_170_FP01</Fire_Bone_B>
+        <Fire_Cone_Width>170.0</Fire_Cone_Width>
+        <Fire_Cone_Height>270.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Assault_Concussion_Missile</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>7200.0</Fire_Range_Distance>
+        <Randomize_Between_Fire_Bones> No </Randomize_Between_Fire_Bones>
+
+        <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+
+    </HardPoint>
+
+    <HardPoint Name="HP_Dream_Of_A_Quiet_Life_Missile_Trout_24">
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_A_MISSILE_TROUT</Tooltip_Text>
+        <Health>655.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Missile_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>WEAP_MISSILE_CONC_24_360</Attachment_Bone>
+        <Collision_Mesh>WEAP_MISSILE_CONC_24_360</Collision_Mesh>
+        <Damage_Particles>WEAP_MISSILE_CONC_24_360</Damage_Particles>
+
+
+        <Fire_Bone_A>WEAP_MISSILE_CONC_24_360_FP00</Fire_Bone_A>
+        <Fire_Bone_B>WEAP_MISSILE_CONC_24_360_FP01</Fire_Bone_B>
+        <Fire_Cone_Width>360.0</Fire_Cone_Width>
+        <Fire_Cone_Height>270.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Assault_Concussion_Missile</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>7200.0</Fire_Range_Distance>
+        <Randomize_Between_Fire_Bones> No </Randomize_Between_Fire_Bones>
+
+        <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+
+    </HardPoint>
+
+    <HardPoint Name="HP_Dream_Of_A_Quiet_Life_Missile_Trout_25">
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_A_MISSILE_TROUT</Tooltip_Text>
+        <Health>655.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Missile_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>WEAP_MISSILE_CONC_25_360</Attachment_Bone>
+        <Collision_Mesh>WEAP_MISSILE_CONC_25_360</Collision_Mesh>
+        <Damage_Particles>WEAP_MISSILE_CONC_25_360</Damage_Particles>
+
+
+        <Fire_Bone_A>WEAP_MISSILE_CONC_25_360_FP00</Fire_Bone_A>
+        <Fire_Bone_B>WEAP_MISSILE_CONC_25_360_FP01</Fire_Bone_B>
+        <Fire_Cone_Width>360.0</Fire_Cone_Width>
+        <Fire_Cone_Height>270.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Assault_Concussion_Missile</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>7200.0</Fire_Range_Distance>
+        <Randomize_Between_Fire_Bones> No </Randomize_Between_Fire_Bones>
+
+        <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+
+    </HardPoint>
 
 	<HardPoint Name="HP_Doomgiver_Hangar">
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
