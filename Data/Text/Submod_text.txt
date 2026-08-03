@@ -885,6 +885,11 @@ TEXT_TOOLTIP_MERILI,A Witch of Dathomir who was inducted into the Prophets of th
 TEXT_TOOLTIP_MERILI_HEALTH,Health: 180 [2%/5s] (Hero)
 TEXT_TOOLTIP_MERILI_MOVE,Speed: 1.45
 TEXT_TOOLTIP_MERILI_WEAP1,1x Electroblade: 1 / 0.2s / 1m
+TEXT_TOOLTIP_MODERNIZED_PROCURATOR,TODO
+TEXT_TOOLTIP_MODERNIZED_PROCURATOR_SHIELD,Shields: 12000 / [30/R] (Capital)
+TEXT_TOOLTIP_MODERNIZED_PROCURATOR_WEAP1,4x Heavy Quad Turbolasers: 2 / 2.0s / 7.5km
+TEXT_TOOLTIP_MODERNIZED_PROCURATOR_WEAP2,4x Heavy Quad Ion Cannons: 2 / 2.0s / 7.5km
+TEXT_TOOLTIP_MODERNIZED_PROCURATOR_WEAP3,14x Medium Turbolasers: 2 / 1.0s / 6.5km
 TEXT_TOOLTIP_MUNIFEX,Also known as the "Class 1000" for setting the modern KDY production batch size. A fragile but over-gunned frigate produced for the Trade Defence Force two centuries before the Clone Wars. Intended to eliminate similar-sized vessels while also being plentiful enough to mass-attack larger cruisers.
 TEXT_TOOLTIP_MUNIFEX_HULL,Hull: 900 (Frigate)
 TEXT_TOOLTIP_MUNIFEX_MOVE,Speed: 3.5 | Accel: 0.175 | Turn: 0.3
@@ -938,9 +943,6 @@ TEXT_TOOLTIP_PROCURATOR_HULL,Hull: 13020 (Capital)
 TEXT_TOOLTIP_PROCURATOR_MOVE,Speed: 2.45 | Accel: 0.05 | Turn: 0.15
 TEXT_TOOLTIP_PROCURATOR_SHIELD,Shields: 9000 / [22.5/R] (Capital)
 TEXT_TOOLTIP_PROCURATOR_SQUADRON,Fighters: 2 / 4
-TEXT_TOOLTIP_PROCURATOR_WEAP1,8x Medium Dual Turbolasers: 2 / 2.0s / 6.5km
-TEXT_TOOLTIP_PROCURATOR_WEAP2,14x Light Turbolasers: 2 / 1.0s / 5.5km
-TEXT_TOOLTIP_PROCURATOR_WEAP3,6x Proton Torpedoes: 2 / 7.5s / 5.5km
 TEXT_TOOLTIP_PROTEUS_A9_RESEARCH,Acquire Kuat's new A-9 Interceptors. Replace the older Interceptors.
 TEXT_TOOLTIP_PROVIDENCE_PIRATE_SQUADRON,Fighters: 1 / 3 | Bombers: 2 / 6  
 TEXT_TOOLTIP_RBANN,Rbann was a Kubaz Imperial spy who worked directly for Blackhole, the shadowy Director of Imperial Intelligence. In 1 ABY, Blackhole dispatched Rbann to the "Gambler's World" of Vorzyd V, ordering the Kubaz to track prominent Rebel leaders Luke Skywalker and Leia Organa, who Blackhole had learned had been sent to Vorzyd V to disrupt Imperial operations there. Rbann quickly managed to track them to the Casino Royale in the capital city of Efavan, and his stormtroopers overpowered the Rebels and imprisoned them aboard Rbann's ship.
@@ -1316,6 +1318,7 @@ TEXT_UNIT_LUCREHULKBATTLESHIP,Lucrehulk Battleship
 TEXT_UNIT_LUPUS,Lupus Missile Frigate
 TEXT_UNIT_MANSK_FRIGATE,Mansk Escort Frigate
 TEXT_UNIT_MANTA_FIGHTER,Manta Assault Fighter
+TEXT_UNIT_MODERNIZED_PROCURATOR,Modernized Procurator
 TEXT_UNIT_MUNIFEX,Munifex Light Cruiser
 TEXT_UNIT_NEIMOIDIAN_GUARD,Neimoidian Guard
 TEXT_UNIT_NEIMOIDIAN_GUARD_AT_HEAVY,Neimoidian Guard Heavy AT
