@@ -70,6 +70,7 @@ return {
 	["RENDILI"] ="faction_68",
 	["X1"] ="faction_69",
 	["LANOX"] ="faction_70",
+	["STORM_COMMANDOS"] ="faction_71",
 	["SECRET"] ="faction_75",
 	
 
@@ -147,6 +148,7 @@ return {
 		"RENDILI",
 		"X1",
 		"LANOX",
+		"STORM_COMMANDOS",
 		"SECRET",
 	},
 
