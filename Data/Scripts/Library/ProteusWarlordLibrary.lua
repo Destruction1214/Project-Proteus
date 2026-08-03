@@ -436,7 +436,7 @@ return {
 				"AT_AA_Walker_Company", "2M_Repulsor_Tank_Company", "SPMAG_Walker_Company", "Imperial_Dropship_Transport_Company",
 				"B5_Juggernaut_Company", "Imperial_AT_AT_Walker_Company",
 				-- Research/Dummies
-				"KUAT_Dummy_Research_Corona", "Rogriss_Aurora_Dummy",
+				"KUAT_Dummy_Research_Corona", "Rogriss_Aurora_Dummy", "Kale_Modernized_Dummy", "Procurator_Upgrade_Dummy",
 			},
 			FactionOverride = "Empire",
 			IntroText = "TEXT_CONQUEST_PROTEUS_KUAT",
