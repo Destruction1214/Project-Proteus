@@ -1367,5 +1367,5 @@ return {
 			--FactionOverride2 = "Rebel",
 			--IntroText = "",
 			--IntroHolo = "",
-		}
+		--}
 }
