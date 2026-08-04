@@ -5095,7 +5095,7 @@
 		<Tab>True</Tab>
 		<Disable_Darken>true</Disable_Darken>
 		<Group>faction_71</Group>
-		<Tooltip_Text>WIP - X1</Tooltip_Text>
+		<Tooltip_Text>WIP--X1</Tooltip_Text>
 		<Scale>0.75</Scale>
 	</CommandBarComponent>
 
