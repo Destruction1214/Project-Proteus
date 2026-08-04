@@ -13027,7 +13027,6 @@
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 		<Full_Salvo_Weapon_Delay_Multiplier>.25</Full_Salvo_Weapon_Delay_Multiplier>
 
-		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
 	</HardPoint>
 
 	<HardPoint Name="HP_SynTax_Error_Missile_Trout_02">
@@ -13058,8 +13057,6 @@
 		<Fire_Range_Distance>7200.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 		<Full_Salvo_Weapon_Delay_Multiplier>.25</Full_Salvo_Weapon_Delay_Multiplier>
-
-		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
 	</HardPoint>
 
 	<HardPoint Name="HP_SynTax_Error_Missile_Trout_03">
@@ -13091,7 +13088,6 @@
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 		<Full_Salvo_Weapon_Delay_Multiplier>.25</Full_Salvo_Weapon_Delay_Multiplier>
 
-		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
 	</HardPoint>
 
 	<HardPoint Name="HP_Dream_Of_A_Quiet_Life_Missile_Trout_01">
