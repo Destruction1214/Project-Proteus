@@ -1,0 +1,3 @@
+return {
+	Flags = {FULLINHERIT = "BOUHALEC_STAR_DREADNOUGHT"}
+}
