@@ -42,6 +42,7 @@ return {
 	["ROGRISS_DOMINION_DUMMY2"] = {"Rogriss_Aurora", "Rogriss_Dominion"},
 	["KALE_MODERNIZED_DUMMY"] = {"Anton_Kale", "Anton_Kale_Modernized"},
 	["TAXEVADER_DREAM_OF_A_QUIET_LIFE_DUMMY"] = {"TaxEvader_SynTax_Error", "TaxEvader_Dream_of_a_Quiet_Life"},
+	["MICHAEL_TERROR_DUMMY"] = {"Michael", "Michael_Terror"},
 
 	-- CSA Corporate Hire
 	["DUMMY_RECRUIT_GROUP_SIIN_SUUB_CSA"] = {nil,{"Siin_Suub_Proclamation"}},
