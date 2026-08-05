@@ -63,6 +63,7 @@ TEXT_ENCYCLOPEDIA_BISCUIT_BARON,A popular casual dining franchise with a logo be
 TEXT_ENCYCLOPEDIA_CLASS_APPRENTICE,Apprentice
 TEXT_ENCYCLOPEDIA_CLASS_ARMS_DEALER,Arms Dealer
 TEXT_ENCYCLOPEDIA_CLASS_BARONESS,Baroness
+TEXT_ENCYCLOPEDIA_CLASS_CHAOS_BRINGER,Bringer of Chaos
 TEXT_ENCYCLOPEDIA_CLASS_DEV,Project Proteus Dev
 TEXT_ENCYCLOPEDIA_CLASS_IMPERIAL_NOBLE,Imperial Noble
 TEXT_ENCYCLOPEDIA_CLASS_INFORMER_OF_DEER,Informer of Deer
@@ -96,6 +97,7 @@ TEXT_EVENT_TOOLTIP_DASTA_FIGHTER_CHOICE_IMPERIAL,Offer the Imperial Remnant logi
 TEXT_EVENT_TOOLTIP_DASTA_FIGHTER_CHOICE_REBEL,Offer the New Republic a trade agreement and diplomatic recognition in exchange for some of their modern starfighter models.
 TEXT_EVENT_WARLORD_CHOICE_BALMORRA,Independent Balmorra
 TEXT_EVENT_WARLORD_CHOICE_GRUNGER,Grunger's Empire
+TEXT_EVENT_WARLORD_CHOICE_LANOX,Imperial Loyalist
 TEXT_EVENT_WARLORD_CHOICE_PRAJI,Imperial Kaikielius
 TEXT_EVENT_WARLORD_CHOICE_REBORN,Empire Reborn
 TEXT_EVENT_WARLORD_CHOICE_RENDILI,Imperial Rendili
@@ -113,6 +115,7 @@ TEXT_GAMBLE_RENDILI_VSD_DESCRIPTION,Commission a Victory-class Star Destroyer di
 TEXT_GAMBLE_RENDILI_VSD_NAME,Rendili Priority Order: Victory-Class Star Destroyer
 TEXT_GOVERNMENT_EMPIRE_SSD_HERO_DESANNE,Desanne (commands Bellator Star Dreadnought, Dominion)
 TEXT_GOVERNMENT_EMPIRE_SSD_HERO_HARRSK,Blitzer Harrsk (commands Mandator-III Star Dreadnought, Megador)
+TEXT_GOVERNMENT_EMPIRE_SSD_HERO_MICHAEL,Michael (commands Executor Star Dreadnought, Terror)
 TEXT_GOVERNMENT_EMPIRE_SSD_HERO_TAX,xXTaxEvaderXx (commands Modified Bou'Halec Star Dreadnought, Dream of a Quiet Life)
 TEXT_GOVERNMENT_PROTEUS_MARKET_KUAT,KDY Market:
 TEXT_GOVERNMENT_PROTEUS_MARKET_OVERVIEW_KUAT,Every galactic cycle, new ships or ground vehicles may appear on the KDY market. These are units not typically available to the faction. You can see all units currently available and the amounts they're available in listed below.
@@ -145,6 +148,7 @@ TEXT_HERO_MERILI,Merili
 TEXT_HERO_MICHAEL,Michael
 TEXT_HERO_NAMMAN,Namman Cha
 TEXT_HERO_RBANN,Rbann
+TEXT_HERO_REBUILD_TAX,MPTL
 TEXT_HERO_RED_STAR,Iran Ryad
 TEXT_HERO_REE_SHALA,Ree Shala
 TEXT_HERO_ROEK,Roek
@@ -603,6 +607,7 @@ TEXT_TOOLTIP_BUILDLIMIT_ROYAL_GUARD,Build Limit: 5 | Total: ∞
 TEXT_TOOLTIP_BUILDLIMIT_SHADOW_EVO,Build Limit: 5 | Total: ∞
 TEXT_TOOLTIP_BUILDLIMIT_SITH_KNIGHT,Build Limit: 5 | Total: ∞
 TEXT_TOOLTIP_CAPABILITY_ORBITAL_SUPPORT_ELEIAN,Adds Eleian to the reinforcement pool when in orbit. If destroyed, he can be healed and redeployed.
+TEXT_TOOLTIP_CAPABILITY_ORBITAL_SUPPORT_TAX,Adds TaxEvader to the reinforcement pool when in orbit. If defeated, his MPTL can be rebuilt and redeployed.
 TEXT_TOOLTIP_CAPABILITY_X1_UPGRADE,Upgrade: Executor
 TEXT_TOOLTIP_CAPITAL_TF_SHIELD,Shields: 7000 / [70/R] (Capital)
 TEXT_TOOLTIP_CAPITAL_TF_WEAP1,4x Medium Turbolasers: 2 / 2.0s / 6.2km
@@ -894,6 +899,7 @@ TEXT_TOOLTIP_MERILI_HEALTH,Health: 180 [2%/5s] (Hero)
 TEXT_TOOLTIP_MERILI_MOVE,Speed: 1.45
 TEXT_TOOLTIP_MERILI_WEAP1,1x Electroblade: 1 / 0.2s / 1m
 TEXT_TOOLTIP_MICHAEL,TODO
+TEXT_TOOLTIP_MICHAEL_UPGRADE,Upgrade: Executor
 TEXT_TOOLTIP_MODERNIZED_PROCURATOR,The original Procurator hulls were deliberately undergunned to comply with the Ruusan Reformation rules regarding battlecruisers, but following the outbreak of the Clone Wars, some of these older models saw their armament and combat support systems drastically increased, taking full advantage of their for the time advanced reactors. However, the later and bigger Praetor series would see most of the combat assignments during the Clone Wars and the early Imperial period, leaving the Procurator to languish in reserve fleets and Imperial-aligned private arsenals. In the post-Endor period, a number of these older vessels would be reactivated and further upgraded, though they would never achieve prominence owing to their limited production run and aging hulls. While not as powerful as modern battlecruisers, they can deal with most Star Destroyer-level threats.
 TEXT_TOOLTIP_MODERNIZED_PROCURATOR_SHIELD,Shields: 12000 / [30/R] (Capital)
 TEXT_TOOLTIP_MODERNIZED_PROCURATOR_UPGRADE,Upgrade the Procurator to a Post-Ruusan Armament.
@@ -977,6 +983,7 @@ TEXT_TOOLTIP_REBORN_SHADOWTROOPERSQUAD_WEAP3,1x Proton Rifle: 1 / 1.5s / 280m
 TEXT_TOOLTIP_REBORN_SHADOWTROOPERSQUAD_WEAP4,1x Thermal Grenade: 1 / 15.0s / 200m
 TEXT_TOOLTIP_REBORN_SHADOWTROOPERSQUAD_WEAP5,1x Portable Ion Cannon: 4 / 10.0s / 320m
 TEXT_TOOLTIP_REBORN_SHADOWTROOPERTURBO_WEAP1,1x Turbocannon: 1 / 3.0s / 320m
+TEXT_TOOLTIP_REBUILD_TAX,Build a new MPTL for TaxEvader's use in ground battles.
 TEXT_TOOLTIP_RED_POLICE,An infamous law enforcement agency established on the planet Prakith under the auspices of Moff Foga Brill. The Red Police were feared as the paramilitary instruments of Brill's reign, and suspected of conducting mass executions of vagrants, dissidents and other undesirables. Like much of Moff Brill's private fiefdom, the Red Police are ostentatious, imposing and flaunting expensive gear, only to mask deep-set rot and brittleness.
 TEXT_TOOLTIP_RED_POLICE_COMPANY,Company: 18x Red Police
 TEXT_TOOLTIP_RED_POLICE_COMPANY_WEAP1,9x Blaster SMG: 5 / 2.0s / 220m
