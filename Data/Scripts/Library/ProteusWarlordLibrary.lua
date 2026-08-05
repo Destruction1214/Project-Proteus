@@ -1351,27 +1351,27 @@ return {
 			IntroHolo = "",
 		},
 		-- Secret Dev Faction
-	--	["SECRET"] = {
-	--		FriendlyName = "The Coruscant Proteus you were asking for",
-	--	 	Planets = {"CORUSCANT"},
-	--	 	LeaderTable = {"TAXEVADER_SYNTAX_ERROR"},
-	--	 	LeaderEndingNames = {"The Ever Brilliant TaxEvader"},
-	--	 	HeroList = {"TaxEvader_SynTax_Error", "Destruction1214","Rook_Frostfire", "Supernova_Vibes", "Eleian_BlackHoleSun"}, --(???), Michael, Coyote
-	--	 	UnlockList = {
+		["SECRET"] = {
+			FriendlyName = "The Coruscant Proteus you were asking for",
+		 	Planets = {"CORUSCANT"},
+		 	LeaderTable = {"TAXEVADER_SYNTAX_ERROR", "TAXEVADER_DREAM_OF_A_QUIET_LIFE"},
+		 	LeaderEndingNames = {"The Ever Brilliant TaxEvader"},
+		 	HeroList = {"TaxEvader_SynTax_Error", "Destruction1214","Rook_Frostfire", "Supernova_Vibes", "Eleian_BlackHoleSun", "Michael_Team", "TaxEvader_Team", "coyotetgt_Team"}, --(???), Michael, Coyote
+		 	UnlockList = {
 		 		-- Space
-	--			"Customs_Corvette", "Consular_Refit", "Carrack_Cruiser_Zeta", "Class_C_Frigate", "Corona_Tender", "Quasar", "Strike_Cruiser",
-	--			"DHC_Interdictor", "Modernized_DHC", "Acclamator_I_Support", "Hornet_Assault_Carrier", "Victory_I_Star_Destroyer_Patrol", "Vector_Star_Destroyer", "Venator_8X",
-	--			"Triumph_Star_Destroyer", "Shadow_Imperial_I_Star_Destroyer_Carrier", "Nebula_Star_Destroyer", "Vontor_Destroyer",
-	--			"Modernized_Procurator", "Mediator", "Sovereign_Star_Dreadnought",
+				"Customs_Corvette", "Consular_Refit", "Carrack_Cruiser_Zeta", "Class_C_Frigate", "Corona_Tender", "Quasar", "Strike_Cruiser",
+				"DHC_Interdictor", "Modernized_DHC", "Acclamator_I_Support", "Hornet_Assault_Carrier", "Victory_I_Star_Destroyer_Patrol", "Vector_Star_Destroyer", "Venator_8X",
+				"Triumph_Star_Destroyer", "Shadow_Imperial_I_Star_Destroyer_Carrier", "Nebula_Star_Destroyer", "Vontor_Destroyer",
+				"Modernized_Procurator", "Mediator", "Sovereign_Star_Dreadnought",
 		 		-- Ground
-	--			"Security_Trooper_Company", "Clonetrooper_Phase_Two_Company", "Nova_Stormtrooper_Company", "Reborn_Dark_Jedi_Company",
-	--			"PX7_Company", "AT_KT_Company", "Chariot_LAV_Company","INT4_Company",
-	--			"Imperial_TNT_Company", "MAL_Rocket_Vehicle_Company", "Swift_Assault_5_Company", "AT_AA_Missile_Walker_Company", "Shadow_Imperial_TX130S_Company", "Nemesis_Gunship_Company",
-	--			"Shielded_Imperial_AT_AT_Walker_Company", "Sith_Slayer_Company", "Heavy_Recovery_Vehicle_Company", "XR85_Company",
-	--	 	},
-	--	 	FactionOverride = "Empire",
-	--	 	FactionOverride2 = "Rebel",
-	--	 	IntroText = "",
-	--	 	IntroHolo = "",
-	--	 },
+				"Security_Trooper_Company", "Clonetrooper_Phase_Two_Company", "Nova_Stormtrooper_Company", "Reborn_Dark_Jedi_Company",
+				"PX7_Company", "AT_KT_Company", "Chariot_LAV_Company","INT4_Company",
+				"Imperial_TNT_Company", "MAL_Rocket_Vehicle_Company", "Swift_Assault_5_Company", "AT_AA_Missile_Walker_Company", "Shadow_Imperial_TX130S_Company", "Nemesis_Gunship_Company",
+				"Shielded_Imperial_AT_AT_Walker_Company", "Sith_Slayer_Company", "Heavy_Recovery_Vehicle_Company", "XR85_Company",
+		 	},
+		 	FactionOverride = "Empire",
+		 	FactionOverride2 = "Rebel",
+		 	IntroText = "",
+		 	IntroHolo = "",
+		 },
 }

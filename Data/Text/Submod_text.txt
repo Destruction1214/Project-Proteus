@@ -70,6 +70,8 @@ TEXT_ENCYCLOPEDIA_CLASS_PRIME_MINISTER,Prime Minister
 TEXT_ENCYCLOPEDIA_CLASS_PROCURATOR_OF_JUSTICE,Procurator Of Justice
 TEXT_ENCYCLOPEDIA_CLASS_RESEARCH_DIRECTOR,Research Director
 TEXT_ENCYCLOPEDIA_CLASS_SECOND_LIEUTENANT,Second Lieutenant
+TEXT_ENCYCLOPEDIA_CLASS_STARBORN,Starborn of Legend
+TEXT_ENCYCLOPEDIA_CLASS_SWIRBLIES,Lord Being of the Swirblies
 TEXT_ENCYCLOPEDIA_CLASS_TACTICAL_DROID,Tactical Droid
 TEXT_ETA2_ASSAULT_SQUADRON,Assault Eta-2 Actis Squadron
 TEXT_ETA2_ASSAULT_SQUADRON_HALF,Assault Eta-2 Actis Squadron 1/2
@@ -111,6 +113,7 @@ TEXT_GAMBLE_RENDILI_VSD_DESCRIPTION,Commission a Victory-class Star Destroyer di
 TEXT_GAMBLE_RENDILI_VSD_NAME,Rendili Priority Order: Victory-Class Star Destroyer
 TEXT_GOVERNMENT_EMPIRE_SSD_HERO_DESANNE,Desanne (commands Bellator Star Dreadnought, Dominion)
 TEXT_GOVERNMENT_EMPIRE_SSD_HERO_HARRSK,Blitzer Harrsk (commands Mandator-III Star Dreadnought, Megador)
+TEXT_GOVERNMENT_EMPIRE_SSD_HERO_TAX,xXTaxEvaderXx (commands Modified Bou'Halec Star Dreadnought, Dream of a Quiet Life)
 TEXT_GOVERNMENT_PROTEUS_MARKET_KUAT,KDY Market:
 TEXT_GOVERNMENT_PROTEUS_MARKET_OVERVIEW_KUAT,Every galactic cycle, new ships or ground vehicles may appear on the KDY market. These are units not typically available to the faction. You can see all units currently available and the amounts they're available in listed below.
 TEXT_GROUND_BISCUIT_BARON,Biscuit Baron
@@ -121,6 +124,7 @@ TEXT_HERO_1214,Destruction1214
 TEXT_HERO_BENJO,Benjo
 TEXT_HERO_BRELLAR,Alecs Brellar
 TEXT_HERO_CEX,Tyionsis Cex
+TEXT_HERO_COYOTE,coyotetgt
 TEXT_HERO_DEMOS,Demos
 TEXT_HERO_DOMINA_TAGGE,Domina Tagge
 TEXT_HERO_ELEIAN,Eleian
@@ -138,6 +142,7 @@ TEXT_HERO_LEZNER,Director Lezner
 TEXT_HERO_MAHKKAR,Mahk'Kar
 TEXT_HERO_MALLAT,Zeven Mallat
 TEXT_HERO_MERILI,Merili
+TEXT_HERO_MICHAEL,Michael
 TEXT_HERO_NAMMAN,Namman Cha
 TEXT_HERO_RBANN,Rbann
 TEXT_HERO_RED_STAR,Iran Ryad
@@ -700,6 +705,7 @@ TEXT_TOOLTIP_CORONA_TENDER_WEAP2,1x Light Turbolaser: 2 / 5.0s / 5.1km
 TEXT_TOOLTIP_CORONA_TENDER_WEAP3,1x Light Ion Cannon: 2 / 5.0s / 5.1km
 TEXT_TOOLTIP_CORONA_TENDER_WEAP4,1x Medium Rapid Laser Cannon: 6 / 1.67s / 3.6km
 TEXT_TOOLTIP_CORONA_TENDER_WEAP5,1x Light Rapid Laser Cannon: 6 / 2.5s / 3.1km
+TEXT_TOOLTIP_COYOTE,TODO
 TEXT_TOOLTIP_COYOTE_BOMBER,This wartime direct upgrade to an older Droid Bomber design spun off from the Vulture series. Employed by the Trade Federation in the subjugation of its corporate interests, and would fly under CIS colors when the Trade Federation pledged its military to the Separatists. It is similar to its peer the Hyena Bomber in role and power, swarming enemy capital ships to cripple or eliminate them while pushing through Republic fighter forces. Unusually for the size and design it is equipped with a weak shield, though it does make other performance sacrifices in comparison.
 TEXT_TOOLTIP_DARK_JEDI_REBORN_COMPANY,Company: 5x Reborn Dark Jedi
 TEXT_TOOLTIP_DARK_JEDI_REBORN_HEALTH,Health: 70 [2%/5s] (Hero)
@@ -755,6 +761,7 @@ TEXT_TOOLTIP_ELEIAN,TODO
 TEXT_TOOLTIP_ELITES,A cabal of rich former members of the Imperial elite who resented the New Republic and supported the Empire Reborn insurgency with money and ships, as well as engaging in slave trade and child trafficking to facilitate their dealings and Lord Hethrir's goals. The most prominent members of the group were Lord Brashaa, Lord Cnorec, Lady Ucce and Lord Qaqquqqu, though their network reached far and wide and included traitors within the New Republic and contacts with other warlords. 
 TEXT_TOOLTIP_ESCORT_GURNST1,1x Elite Mercenary Platoon
 TEXT_TOOLTIP_ESCORT_SHARAOR,2x Corporate Security Trooper Squad
+TEXT_TOOLTIP_ESCORT_TAXEVADER,2x Necron Warrior Squad
 TEXT_TOOLTIP_ESCORT_THORN,2x Royal Guard Stormtrooper Squad
 TEXT_TOOLTIP_ETA2,A Kuat-designed interceptor that shares traits with the Sienar TIE line. Its stripped-down defenses allow for very impressive flight performance at the cost of durability, with weapon systems that allow it to excel against heavier fighters.
 TEXT_TOOLTIP_ETA2_ASSAULT,Extremely rare variant of the Eta-2 that replaces the ion cannons with ordinance launchers loaded with assault concussion missiles. This variant would most notably be utilized by Anakin Skywalker during the Battle of Belderone to great effect.
@@ -886,12 +893,14 @@ TEXT_TOOLTIP_MERILI,A Witch of Dathomir who was inducted into the Prophets of th
 TEXT_TOOLTIP_MERILI_HEALTH,Health: 180 [2%/5s] (Hero)
 TEXT_TOOLTIP_MERILI_MOVE,Speed: 1.45
 TEXT_TOOLTIP_MERILI_WEAP1,1x Electroblade: 1 / 0.2s / 1m
+TEXT_TOOLTIP_MICHAEL,TODO
 TEXT_TOOLTIP_MODERNIZED_PROCURATOR,The original Procurator hulls were deliberately undergunned to comply with the Ruusan Reformation rules regarding battlecruisers, but following the outbreak of the Clone Wars, some of these older models saw their armament and combat support systems drastically increased, taking full advantage of their for the time advanced reactors. However, the later and bigger Praetor series would see most of the combat assignments during the Clone Wars and the early Imperial period, leaving the Procurator to languish in reserve fleets and Imperial-aligned private arsenals. In the post-Endor period, a number of these older vessels would be reactivated and further upgraded, though they would never achieve prominence owing to their limited production run and aging hulls. While not as powerful as modern battlecruisers, they can deal with most Star Destroyer-level threats.
 TEXT_TOOLTIP_MODERNIZED_PROCURATOR_SHIELD,Shields: 12000 / [30/R] (Capital)
 TEXT_TOOLTIP_MODERNIZED_PROCURATOR_UPGRADE,Upgrade the Procurator to a Post-Ruusan Armament.
 TEXT_TOOLTIP_MODERNIZED_PROCURATOR_WEAP1,4x Heavy Quad Turbolasers: 2 / 2.0s / 7.5km
 TEXT_TOOLTIP_MODERNIZED_PROCURATOR_WEAP2,4x Heavy Quad Ion Cannons: 2 / 2.0s / 7.5km
 TEXT_TOOLTIP_MODERNIZED_PROCURATOR_WEAP3,14x Medium Turbolasers: 2 / 1.0s / 6.5km
+TEXT_TOOLTIP_MPTAXL_WEAP1,1x Missile Trout: 9 / 16.66s / 1440m
 TEXT_TOOLTIP_MUNIFEX,Also known as the "Class 1000" for setting the modern KDY production batch size. A fragile but over-gunned frigate produced for the Trade Defence Force two centuries before the Clone Wars. Intended to eliminate similar-sized vessels while also being plentiful enough to mass-attack larger cruisers.
 TEXT_TOOLTIP_MUNIFEX_HULL,Hull: 900 (Frigate)
 TEXT_TOOLTIP_MUNIFEX_MOVE,Speed: 3.5 | Accel: 0.175 | Turn: 0.3
@@ -1142,6 +1151,7 @@ TEXT_TOOLTIP_TAPANI_ASSAULT_FRIGATE_WEAP1,2x Medium Quad Turbolasers: 2 / 3.33s 
 TEXT_TOOLTIP_TAPANI_ASSAULT_FRIGATE_WEAP2,2x Medium Turbolasers: 2 / 1.33s / 6.2km
 TEXT_TOOLTIP_TAPANI_ASSAULT_FRIGATE_WEAP3,2x Medium Laser Cannons: 2 / 0.5s / 4.2km
 TEXT_TOOLTIP_TAXEVADER,fxXTaxEvaderXx was the director of Project Proteus. Following a major political defeat in the Engyneering County Informer of Deer elections TaxEvader fled to a salubrious cove where he claimed the title unopposed. Following the mysterious deaths of various major figures within the cove at the hands of a demonic entity TaxEvader fled to Denmark. There he tricked two factions of a school into fighting each other because they annoyed him. During this time he developed the missile trouts and began planning the early stages of Project Proteus. TaxEvader was presumed dead after accidentally lending his flintlock to a fugitive, the Killer Girl, in one of his schemes. But they were wrong, for he will live forever.
+TEXT_TOOLTIP_TAXEVADER_UPGRADE,Upgrade: Modified Bou'Halec
 TEXT_TOOLTIP_TEZRIN,Dongal Tezrin was the captain of the light cruiser Rintonne's Flame. He was assigned to patrol the Elrood sector during the Galactic Civil War. He was known to be a very irritable person.
 TEXT_TOOLTIP_THETA_ASSAULT_SHUTTLE,A militarized variant of a venerable Cygnus design. While the original transport model is decently armed with lasers, this version packs additional warhead launchers. Famous as a VIP shuttle and a boarding transport for the 501st Stormtrooper Legion.
 TEXT_TOOLTIP_THETA_SQUADRON,TIE Bombers of the Theta Squadron, known for its effectiveness of well timed bombing runs both in space and land engagement. It was under command of Lumiya, Dark Lady of the Sith, following the decimation of her fleet in the Nagai–Tof War and assigned to EF76 Nebulon-B escort frigate "Revenant". Theta Squadron participated in the assault led by Lumiya on the Communications Research space station Epsilon Nine.
@@ -1475,6 +1485,7 @@ TEXT_VCX820_SQUADRON2,VCX-820 Squadron x2
 TEXT_VULTURE_SQUADRON,Vulture Droid-I Squadron
 TEXT_VULTURE_SQUADRON_HALF,Vulture Droid-I Squadron 1/2
 TEXT_VULTURE_SQUADRON2,Vulture Droid-I Squadron x2
+TEXT_WEAPON_A_CONCUSSIONMISSILE_RAPID,Rapid Assault Concussion Missile Launcher
 TEXT_WEAPON_A_MISSILETROUT,Missile Trout Launcher
 TEXT_YV929_SQUADRON,YV-929 Squadron
 TEXT_YV929_SQUADRON_HALF,YV-929 Squadron 1/2
@@ -1491,6 +1502,3 @@ Z_TEXT_UNIT_GORATH_RESEARCH,Reverse-engineer the Gorath Strike Cruiser
 Z_TEXT_UNIT_MISSILE_BOAT_RESEARCH,Reverse-engineer the Missile Boat
 Z_TEXT_UNIT_MTC_RESEARCH,Reverse-engineer the Modular Taskforce Cruiser
 Z_TEXT_UNIT_SCIMITAR_RESEARCH,Reverse-engineer the Scimitar Assault Bomber
-TEXT_GOVERNMENT_EMPIRE_SSD_HERO_TAX,xXTaxEvaderXx (commands Modified Bou'Halec Star Dreadnought, Dream of a Quiet Life)
-TEXT_TOOLTIP_TAXEVADER_UPGRADE,Upgrade: Modified Bou'Halec
-TEXT_WEAPON_A_CONCUSSIONMISSILE_RAPID,Rapid Assault Concussion Missile Launcher
