@@ -1169,7 +1169,7 @@ return {
 			UnlockList = {
 				-- Space 
 				"YE_4_Group", "Imperial_CR90", "CR92A", "Lancer_Frigate", "Quasar", "Carrack_Cruiser_Laser", "Star_Galleon",
-				"Broadside_Cruiser", "DHC_Interdictor", "DHC_Carrier", "DHC_Gunboat", "Vindicator_Cruiser", "Acclamator_I_Assault", "Venator_8X", "Victory_I_Star_Destroyer",
+				"Broadside_Cruiser", "DHC_Interdictor", "DHC_Carrier", "DHC_Gunboat", "Vindicator_Cruiser", "Acclamator_I_Assault", "Venator_Star_Destroyer", "Victory_I_Star_Destroyer",
 				"Imperial_I_Star_Destroyer", "Tector_Star_Destroyer", "Acclamator_Battleship", "Triumph_Star_Destroyer",
 				"Allegiance_Battlecruiser", "Sorannan_Star_Destroyer", "Bellator_Star_Dreadnought",
 				-- Ground
