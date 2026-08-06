@@ -1162,10 +1162,10 @@ return {
 		},
 		["LANOX"] = {
 			FriendlyName = "Imperial Loyalist",
-			Planets = {"MAKEM_TE"},
+			Planets = {"MAKEM_TE", "OSSUS"},
 		    LeaderTable = {"LANOX_HAZARD"},
 			LeaderEndingNames = {"Imperial Regent Lanox"},
-			HeroList = {"Lanox_Hazard"}, 
+			HeroList = {"Lanox_Hazard", "Dunhausen_Espa", "Muzzer_Whaladon"}, 
 			UnlockList = {
 				-- Space 
 				"YE_4_Group", "Imperial_CR90", "CR92A", "Lancer_Frigate", "Quasar", "Carrack_Cruiser_Laser", "Star_Galleon",
@@ -1180,7 +1180,6 @@ return {
 				-- Research
 			},
 			FactionOverride = "Empire",
-			FactionOverride2 = "Rebel",
 			StartYear = 11,
 			IntroText = "",
 			IntroHolo = "Imperial_Naval_Officer_Loop"
