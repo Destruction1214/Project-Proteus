@@ -1509,3 +1509,15 @@ Z_TEXT_UNIT_GORATH_RESEARCH,Reverse-engineer the Gorath Strike Cruiser
 Z_TEXT_UNIT_MISSILE_BOAT_RESEARCH,Reverse-engineer the Missile Boat
 Z_TEXT_UNIT_MTC_RESEARCH,Reverse-engineer the Modular Taskforce Cruiser
 Z_TEXT_UNIT_SCIMITAR_RESEARCH,Reverse-engineer the Scimitar Assault Bomber
+TEXT_EVENT_KUAT_BC_CHOICE_SORANNAN,Sorannan Star Destroyer
+TEXT_EVENT_KUAT_BC_CHOICE_COMMS_BC,Communications Battlecruiser
+TEXT_EVENT_KUAT_BC_CHOICE_PRAETOR_CARRIER,Praetor Carrier Battlecruiser
+TEXT_EVENT_KUAT_BC_CHOICE_PRAETOR,Praetor-II Battlecruiser
+TEXT_EVENT_TOOLTIP_KUAT_BC_CHOICE_PRAETOR,TODO ROOK - select choice desc
+TEXT_EVENT_TOOLTIP_KUAT_BC_CHOICE_PRAETOR_CARRIER,TODO ROOK - select choice desc
+TEXT_EVENT_TOOLTIP_KUAT_BC_CHOICE_COMMS_BC,TODO ROOK - select choice desc
+TEXT_EVENT_TOOLTIP_KUAT_BC_CHOICE_SORANNAN,TODO ROOK - select choice desc
+TEXT_UNIT_KUAT_CHOOSE_BC,TODO ROOK - name on dummy
+TEXT_TOOLTIP_KUAT_CHOOSE_BC,TODO ROOK - desc on dummy
+TEXT_EVENT_KUAT_BC_CHOICE_BODY,Choose one Battlecruiser to be made available permanently outside the market. The other options will be removed from the market.
+TEXT_EVENT_KUAT_BC_CHOICE_HEADER,TODO ROOK - header in popup
