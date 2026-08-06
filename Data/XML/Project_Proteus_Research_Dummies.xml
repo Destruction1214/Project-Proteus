@@ -219,6 +219,100 @@
 		<SFXEvent_Build_Complete>EHD_Research_Complete</SFXEvent_Build_Complete>
 	</DummyStructure>
 
+	<DummyStructure Name="Kuat_BC_Choice_Header">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_EVENT_KUAT_BC_CHOICE_HEADER</Text_ID>
+		<Encyclopedia_Text> </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>nothing.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
+
+	<DummyStructure Name="Kuat_BC_Choice_Body">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_EVENT_KUAT_BC_CHOICE_BODY</Text_ID>
+		<Encyclopedia_Text> </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>i_button_kdy.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
+
+	<DummyStructure Name="Kuat_BC_Choice_Praetor_II_Battlecruiser">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_EVENT_KUAT_BC_CHOICE_PRAETOR</Text_ID>
+		<Encyclopedia_Text>TEXT_EVENT_TOOLTIP_KUAT_BC_CHOICE_PRAETOR </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>i_button_praetortwo.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
+
+	<DummyStructure Name="Kuat_BC_Choice_Praetor_Carrier_Battlecruiser">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_EVENT_KUAT_BC_CHOICE_PRAETOR_CARRIER</Text_ID>
+		<Encyclopedia_Text>TEXT_EVENT_TOOLTIP_KUAT_BC_CHOICE_PRAETOR_CARRIER</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>i_button_praetor_carrier.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
+
+	<DummyStructure Name="Kuat_BC_Choice_Communications_Battlecruiser">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_EVENT_KUAT_BC_CHOICE_COMMS_BC</Text_ID>
+		<Encyclopedia_Text>TEXT_EVENT_TOOLTIP_KUAT_BC_CHOICE_COMMS_BC</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>i_button_comm_battlecruiser.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
+
+	<DummyStructure Name="Kuat_BC_Choice_Sorannan_Star_Destroyer">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_EVENT_KUAT_BC_CHOICE_SORANNAN</Text_ID>
+		<Encyclopedia_Text>TEXT_EVENT_TOOLTIP_KUAT_BC_CHOICE_SORANNAN</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>I_BUTTON_SORANNAN.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
+
+	<DummyStructure Name="Kuat_Choose_BC">
+		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_KUAT_CHOOSE_BC</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_TECHUPGRADE </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> TEXT_TOOLTIP_KUAT_CHOOSE_BC </Encyclopedia_Text>
+
+		<Icon_Name>i_button_kdy.tga</Icon_Name>
+		<GUI_Row>1</GUI_Row>
+
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Tech_Level>0</Tech_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy</Required_Special_Structures>
+		<Build_Cost_Credits>1</Build_Cost_Credits>
+		<Build_Time_Seconds>1</Build_Time_Seconds>
+
+		<Lua_Script/>
+
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+		
+		<SFXEvent_Build_Started>EHD_Researching</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Research_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Research_Complete</SFXEvent_Build_Complete>
+	</DummyStructure>
+
 <!--Tamarin Sector-->
 	
 	<DummyStructure Name="TAM_Dummy_Research_Scimitar">
@@ -493,7 +587,7 @@
 		<SFXEvent_Build_Complete>EHD_Research_Complete</SFXEvent_Build_Complete>
 	</DummyStructure>
 
-	<!--Relgim Sector-->
+<!--Relgim Sector-->
 
 	<DummyStructure Name="Relgim_ATWalker_Research_Proteus">
 		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
@@ -521,7 +615,7 @@
 		<SFXEvent_Build_Complete>EHD_Research_Complete</SFXEvent_Build_Complete>
 	</DummyStructure>
 
-	<!--Imperial Neimoidia-->
+<!--Imperial Neimoidia-->
 
 	<DummyStructure Name="Neimoidia_Lucrehulk_Research_Proteus">
 		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
@@ -548,7 +642,7 @@
 		<SFXEvent_Build_Complete>EHD_Research_Complete</SFXEvent_Build_Complete>
 	</DummyStructure>
 
-	<!--Imperial Rendili-->
+<!--Imperial Rendili-->
 
 	<DummyStructure Name="Dummy_RepublicSD_Rendili">
 		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
@@ -683,7 +777,7 @@
 		<SFXEvent_Build_Complete>RHD_Research_Complete</SFXEvent_Build_Complete>
 	</DummyStructure>
 
-	<!--Blizzard Force-->
+<!--Blizzard Force-->
 
 	<DummyStructure Name="Dummy_Veers_Shielded_Walkers_Research">
 		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
@@ -711,7 +805,7 @@
 		<SFXEvent_Build_Complete>EHD_Research_Complete</SFXEvent_Build_Complete>
 	</DummyStructure>
 
-	<!--Tapani Sector-->
+<!--Tapani Sector-->
 
 	<DummyStructure Name="Proteus_A9_Research">
 		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
@@ -742,7 +836,7 @@
 		<SFXEvent_Build_Complete>EHD_Research_Complete</SFXEvent_Build_Complete>
 	</DummyStructure>
 
-	<!--D'astan Sector-->
+<!--D'astan Sector-->
 
 	<DummyStructure Name="Dasta_Fighter_Choice_Header">
 		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
@@ -762,7 +856,7 @@
 		<Encyclopedia_Text> </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
 
-		<Icon_Name>.tga</Icon_Name> <!--todo-->
+		<Icon_Name>I_BUTTON_DASTA_FIGHTER_RESEARCH.tga</Icon_Name>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 	</DummyStructure>
 
@@ -773,7 +867,7 @@
 		<Encyclopedia_Text>TEXT_EVENT_TOOLTIP_DASTA_FIGHTER_CHOICE_IMPERIAL </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
 
-		<Icon_Name>I_BUTTON_A_WING.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_TIE_INTERCEPTOR.tga</Icon_Name>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 	</DummyStructure>
 
@@ -784,7 +878,7 @@
 		<Encyclopedia_Text>TEXT_EVENT_TOOLTIP_DASTA_FIGHTER_CHOICE_REBEL</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
 
-		<Icon_Name>I_BUTTON_TIE_INTERCEPTOR.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_A_WING.tga</Icon_Name>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 	</DummyStructure>
 
@@ -816,7 +910,7 @@
 		<SFXEvent_Build_Complete>EHD_Research_Complete</SFXEvent_Build_Complete>
 	</DummyStructure>
 
-	<!--Zaarin Remnants-->
+<!--Zaarin Remnants-->
 
 	<DummyStructure Name="Z_Research_MB">
 		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
@@ -982,7 +1076,6 @@
 		<SFXEvent_Build_Complete>EHD_Research_Complete</SFXEvent_Build_Complete>
 	</DummyStructure>
 
-	<!--Storm Commandos-->
-
+<!--Storm Commandos-->
 	
 </Proteus_Research_Dummies>
