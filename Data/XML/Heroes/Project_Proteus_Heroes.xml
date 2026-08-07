@@ -804,11 +804,12 @@
 
 		<Lua_Script>GenericGameObject</Lua_Script>
 		
-<!-- 	<Starting_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<!--<Starting_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 1</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Starwing_Squadron_Half, 1</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 2</Reserve_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Starwing_Squadron_Half, 1</Reserve_Spawned_Units_Tech_0>
--->
+		-->
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>DEFEND</Type>
@@ -1046,7 +1047,7 @@
 		<Build_Cost_Credits>5000</Build_Cost_Credits>
 		<Build_Time_Seconds>30</Build_Time_Seconds>
 
-		<Text_ID>TEXT_HERO_KALE</Text_ID>
+		<Text_ID>TEXT_TOOLTIP_COMMAND_STELLARHALO_MODERNIZED</Text_ID>
 		<Affiliation>Imperial_Proteus</Affiliation>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Icon_Name>i_button_kale.tga</Icon_Name>
