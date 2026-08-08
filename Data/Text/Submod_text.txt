@@ -1524,3 +1524,7 @@ TEXT_UNIT_KUAT_CHOOSE_BC,TODO ROOK - name on dummy
 TEXT_TOOLTIP_KUAT_CHOOSE_BC,TODO ROOK - desc on dummy
 TEXT_EVENT_KUAT_BC_CHOICE_BODY,Choose one Battlecruiser to be made available permanently outside the market. The other options will be removed from the market.
 TEXT_EVENT_KUAT_BC_CHOICE_HEADER,TODO ROOK - header in popup
+
+TEXT_ENCYCLOPEDIA_CLASS_OUTSPOKEN_MANAGER,Outspoken Manager
+TEXT_HERO_SETI_ASHGAD,
+TEXT_TOOLTIP_SETI_ASHGAD,
