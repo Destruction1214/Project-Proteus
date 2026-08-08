@@ -1,4 +1,18 @@
-﻿D_TEXT_TOOLTIP_DRAGON_TROOPER,Primitive reptiloid warriors fiercely loyal to Delurin and equipped with ornate metal armor and flamethrowers to more closely resemble the Dragons of ancient myth. Unacquainted with blaster weaponry and other advanced technology, they are nonetheless resilient and quick on their feet.
+﻿TEXT_TOOLTIP_ARMYGUARD_SQUAD_MEDIUM_WEAP1,9x Blaster Rifle: 1 / 1.0s / 240m
+TEXT_TOOLTIP_NAVYCOMMANDO_SQUAD_MEDIC_WEAP1,9x Blaster Carbine: 3 / 1.25s / 220m
+TEXT_TOOLTIP_SEPARATOR_DEFAULT_BLOCK,===============DEFAULT GARRISONS===============
+TEXT_UNIT_ARMYGUARD_MEDIC,Army Guard Medic
+TEXT_UNIT_ARMYGUARD_MEDIC_SQUAD,Army Guard Medic Squad
+TEXT_UNIT_ARMYGUARD_MEDIUM_SQUAD,Army Guard Fireteam
+TEXT_UNIT_NAVYCOMMANDO_MEDIC,Navy Commando Medic
+TEXT_UNIT_NAVYCOMMANDO_MEDIC_SQUAD,Navy Commando Medic Squad
+TEXT_UNIT_NAVYCOMMANDO_MEDIUM_SQUAD,Navy Commando Fireteam
+TEXT_UNIT_NAVYTROOPER_MEDIC,Navy Trooper Medic
+TEXT_UNIT_NAVYTROOPER_MEDIC_SQUAD,Navy Trooper Medic Squad
+TEXT_PROTEUS_DESCRIPTION_STORM_COMMANDOS,Prior to the Battle of Endor, General Weir of the Storm Commandos was placed in charge of an imperial outpost on Tralus which stockpiled weapons and vehicles and projected imperial power over the Corellia system. Amidst the chaos following the Rebellion's victory at Endor, this outpost would serve as a rallying point for the remaining Storm Commandos and as a staging area for terror attacks and insurgent operations against the New Republic and its sympathizers.
+TEXT_TOOLTIP_KIEZ_UPGRADE,Upgrade: Executor
+TEXT_TOOLTIP_STAR_DESTROYER_TWO_EMPIRE_SHIELD,Shields: 10000 / [50/R] (Capital)
+D_TEXT_TOOLTIP_DRAGON_TROOPER,Primitive reptiloid warriors fiercely loyal to Delurin and equipped with ornate metal armor and flamethrowers to more closely resemble the Dragons of ancient myth. Unacquainted with blaster weaponry and other advanced technology, they are nonetheless resilient and quick on their feet.
 D_TEXT_TOOLTIP_DRAGON_TROOPER_COMPANY,Company: 36x Dragon Trooper
 D_TEXT_TOOLTIP_DRAGON_TROOPER_COMPANY_WEAP1,24x Blaster Carbine: 3 / 1.25s / 220m
 D_TEXT_TOOLTIP_DRAGON_TROOPER_SQUAD,Squad: 9x Dragon Trooper
@@ -1509,3 +1523,15 @@ Z_TEXT_UNIT_GORATH_RESEARCH,Reverse-engineer the Gorath Strike Cruiser
 Z_TEXT_UNIT_MISSILE_BOAT_RESEARCH,Reverse-engineer the Missile Boat
 Z_TEXT_UNIT_MTC_RESEARCH,Reverse-engineer the Modular Taskforce Cruiser
 Z_TEXT_UNIT_SCIMITAR_RESEARCH,Reverse-engineer the Scimitar Assault Bomber
+TEXT_EVENT_KUAT_BC_CHOICE_SORANNAN,Sorannan Star Destroyer
+TEXT_EVENT_KUAT_BC_CHOICE_COMMS_BC,Communications Battlecruiser
+TEXT_EVENT_KUAT_BC_CHOICE_PRAETOR_CARRIER,Praetor Carrier Battlecruiser
+TEXT_EVENT_KUAT_BC_CHOICE_PRAETOR,Praetor-II Battlecruiser
+TEXT_EVENT_TOOLTIP_KUAT_BC_CHOICE_PRAETOR,TODO ROOK - select choice desc
+TEXT_EVENT_TOOLTIP_KUAT_BC_CHOICE_PRAETOR_CARRIER,TODO ROOK - select choice desc
+TEXT_EVENT_TOOLTIP_KUAT_BC_CHOICE_COMMS_BC,TODO ROOK - select choice desc
+TEXT_EVENT_TOOLTIP_KUAT_BC_CHOICE_SORANNAN,TODO ROOK - select choice desc
+TEXT_UNIT_KUAT_CHOOSE_BC,TODO ROOK - name on dummy
+TEXT_TOOLTIP_KUAT_CHOOSE_BC,TODO ROOK - desc on dummy
+TEXT_EVENT_KUAT_BC_CHOICE_BODY,Choose one Battlecruiser to be made available permanently outside the market. The other options will be removed from the market.
+TEXT_EVENT_KUAT_BC_CHOICE_HEADER,TODO ROOK - header in popup
