@@ -243,6 +243,7 @@ return {
 ["DECLANN_RECONDITE"] = true,
 ["DEFENDER_CARRIER"] = true,
 ["DEGOORT_VALOR"] = true,
+["DAKOVA_PREFECT"] = true,
 ["DEKEET_INTRACTABLE"] = true,
 ["DELTA_JV7_GROUP"] = true,
 ["DELURIN_GALAXY_DRAGON"] = true,
