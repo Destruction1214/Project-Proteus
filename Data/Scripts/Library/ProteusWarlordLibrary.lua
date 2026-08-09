@@ -311,7 +311,7 @@ return {
 				"Praetor_II_Battlecruiser", "Bellator_Star_Dreadnought", -- Replace praetor with SSD Variant
 				-- Ground
 				"Imperial_Army_Trooper_Company", "Imperial_Scout_Trooper_Company", "Imperial_74Z_Bike_Company", 
-				"PX10_Company", "Skyhopper_Antivehicle_Company", "Imperial_ULAV_Company", "Hailfire_Company", "Scorpenek_Utility_Company". "Hutt_AA_Skiff_Company",
+				"PX10_Company", "Skyhopper_Antivehicle_Company", "Imperial_ULAV_Company", "Hailfire_Company", "Scorpenek_Utility_Company", "Hutt_AA_Skiff_Company",
 				"Swift_Assault_5_Company", "MZ8_Tank_Company", "Imperial_LAAT_Company", "TIE_Crawler_Company", "Freerunner_AA_Company",
 				"Imperial_A5_Juggernaut_Company", "Imperial_A5RX_Company",
 			},
