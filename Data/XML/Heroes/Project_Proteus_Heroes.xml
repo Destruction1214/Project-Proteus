@@ -371,8 +371,7 @@
 		<Score_Cost_Credits> 60000 </Score_Cost_Credits>
 		<CategoryMask> SpaceHero | AntiFrigate </CategoryMask>
 		<Property_Flags>GTSImmune</Property_Flags>
-
-    	<Affiliation>Independent_Forces</Affiliation>
+  <Affiliation>Independent_Forces</Affiliation>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
