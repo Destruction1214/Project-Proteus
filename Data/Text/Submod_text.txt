@@ -1,4 +1,5 @@
-﻿TEXT_UNIT_LANOX_FIGHTERRESEARCH,Improve Starfighters
+﻿TEXT_GOVERNMENT_EMPIRE_SSD_HERO_THARKUS,(commands Executor Star Dreadnought, Ambition)
+TEXT_UNIT_LANOX_FIGHTERRESEARCH,Improve Starfighters
 TEXT_TOOLTIP_LANOX_FIGHTERRESEARCH,Most of our starfighters and bombers come from reserve stocks and the open market. Now that we are established, corporations are willing to sell us their finest craft. We must spare no expense to ensure our forces possess only the best available.
 TEXT_TOOLTIP_COMMAND_BLITZ,Victory-II Star Destroyer, Blitz
 TEXT_TOOLTIP_VASKOR,Captain Vaskor was an Imperial naval officer who commanded a Victory II-class Star Destroyer during the fragmentation of the Empire after Endor. A trusted officer within High Admiral Tharkus's forces, Vaskor and his vessel served throughout the campaign to secure the Heart of the Jedi and restore Imperial dominance over the galaxy.

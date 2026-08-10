@@ -1352,14 +1352,14 @@ return {
 			HeroList = {"Tharkus_Greed", "Vaskor_Blitz", "Dakova_Prefect", "Pollux_Team", "Kastor_Team"},
 			UnlockList = {
 				-- Space
-				"YZ_775_Freighter_Group", "Customs_Corvette","CR92A", "Carrack_Cruiser","Star_Galleon","Surveyor_Frigate", "Patrol_Nebulon_B", "Quasar",
+				"YZ_775_Freighter_Group", "Customs_Corvette","CR92A", "Carrack_Cruiser","Star_Galleon","Surveyor_Frigate", "Patrol_Nebulon_B", "Quasar", "Strike_Cruiser", 
 				"Pursuit_Light_Cruiser", "Modernized_DHC", "Immobilizer_418", "Imperial_II_Frigate", "Victory_II_Star_Destroyer",
 				"Imperial_I_Star_Destroyer", "Imperial_II_Star_Destroyer", "Interdictor_Star_Destroyer",
-				"Allegiance_Battlecruiser", "Bellator_Star_Dreadnought"
+				"Allegiance_Battlecruiser", "Bellator_Star_Dreadnought",
 				-- Ground
 
 				-- Dummies
-
+				"Tharkus_Ambition_Dummy"
 			},
 			LastYear = 4,
 			FactionOverride = "Empire",
