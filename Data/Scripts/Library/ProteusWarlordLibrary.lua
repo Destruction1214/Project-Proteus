@@ -1212,7 +1212,7 @@ return {
 				"Imperial_AT_AP_Walker_Company", "AT_AA_Walker_Company", "Imperial_TNT_Company", "Swift_Assault_5_Company", "Imperial_Missile_Artillery_Company",
 				"Imperial_A4_Juggernaut_Company", "PX4_Company", "Tracked_Shield_Disabler_Company",
 				-- Research
-				"Dummy_Research_Lannox_Fighter",
+				"Dummy_Research_Lanox_Fighter",
 			},
 			FactionOverride = "Empire",
 			StartYear = 11,
