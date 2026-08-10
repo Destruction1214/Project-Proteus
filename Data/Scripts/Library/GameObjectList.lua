@@ -826,6 +826,7 @@ return {
 ["ULCANE_DISSENSION"] = true,
 ["ULRIC_TAGGE"] = true,
 ["VALEK_REVENANT"] = true,
+["VASKOR_BLITZ"] = true,
 ["VALIDUSIA"] = true,
 ["VALLES_INTERDICTOR"] = true,
 ["VANGAR_CORVETTE"] = true,

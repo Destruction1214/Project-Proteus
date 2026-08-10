@@ -1212,6 +1212,7 @@ return {
 				"Imperial_AT_AP_Walker_Company", "AT_AA_Walker_Company", "Imperial_TNT_Company", "Swift_Assault_5_Company", "Imperial_Missile_Artillery_Company",
 				"Imperial_A4_Juggernaut_Company", "PX4_Company", "Tracked_Shield_Disabler_Company",
 				-- Research
+				"Dummy_Research_Lannox_Fighter",
 			},
 			FactionOverride = "Empire",
 			StartYear = 11,
@@ -1348,7 +1349,7 @@ return {
 			Planets = {"CHANDRILA"},
 			LeaderTable = {"THARKUS_GREED"},
 			LeaderEndingNames = {"Emperor Tharkus"},
-			HeroList = {"Tharkus_Greed", "Dakova_Prefect", "Pollux_Team", "Kastor_Team"},
+			HeroList = {"Tharkus_Greed", "Vaskor_Blitz", "Dakova_Prefect", "Pollux_Team", "Kastor_Team"},
 			UnlockList = {
 				-- Space
 				"YZ_775_Freighter_Group", "Customs_Corvette","CR92A", "Carrack_Cruiser","Star_Galleon","Surveyor_Frigate", "Patrol_Nebulon_B", "Quasar",
