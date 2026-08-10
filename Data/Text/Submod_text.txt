@@ -1,6 +1,8 @@
-﻿TEXT_TOOLTIP_COMMAND_BLITZ,Victory-II Star Destroyer, Blitz
+﻿TEXT_UNIT_LANNOX_FIGHTERRESEARCH,Improve Starfighters
+TEXT_TOOLTIP_LANNOX_FIGHTERRESEARCH,Most of our starfighters and bombers come from reserve stocks and the open market. Now that we are established, corporations are willing to sell us their finest craft. We must spare no expense to ensure our forces possess only the best available.
+TEXT_TOOLTIP_COMMAND_BLITZ,Victory-II Star Destroyer, Blitz
 TEXT_TOOLTIP_VASKOR,Captain Vaskor was an Imperial naval officer who commanded a Victory II-class Star Destroyer during the fragmentation of the Empire after Endor. A trusted officer within High Admiral Tharkus's forces, Vaskor and his vessel served throughout the campaign to secure the Heart of the Jedi and restore Imperial dominance over the galaxy.
-TEXT_HERO_VASKOR,
+TEXT_HERO_VASKOR,Captain Vaskor was an Imperial naval officer who commanded a Victory II-class Star Destroyer during the fragmentation of the Empire after Endor. A trusted officer within High Admiral Tharkus's forces, Vaskor and his vessel served throughout the campaign to secure the Heart of the Jedi and restore Imperial dominance over the galaxy.
 TEXT_HERO_DAKOVA,Dakova
 TEXT_TOOLTIP_COMMAND_PREFECT,Imperial-II Star Destroyer, Prefect
 TEXT_TOOLTIP_DAKOVA,Admiral Dakova was an Imperial naval officer present during the chaos following the Battle of Endor. Cautious and pragmatic, Dakova was concerned by High Admiral Tharkus's determination to defy the Imperial Senate and continue the war against the New Republic, warning that doing so would make them rebels themselves. Despite his reservations, Dakova would ultimately serve among the forces gathered under Tharkus's command.
