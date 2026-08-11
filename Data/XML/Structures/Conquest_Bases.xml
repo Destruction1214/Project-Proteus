@@ -788,7 +788,7 @@
 				UC_Imperial_Proteus_Field_Military_Base, 
 				UC_Imperial_Proteus_Field_Support_Base, 
 				UC_Imperial_Proteus_Field_Commando_Base,
-				UC_Proteus_Jumptrooper_Field_Scout_Base, 
+				UC_Empire_Field_Scout_Base, 
 		</Tactical_Buildable_Objects_Campaign>
 
 	</Tactical_Capturable>
@@ -1213,7 +1213,7 @@
 				UC_Hutt_Cartels_Field_Support_Base,
 			Imperial_Proteus, 
 				UC_Proteus_Shadow_Stormtrooper_Field_Military_Base, 
-				UC_Proteus_Stormtrooper_Field_Support_Base, 
+				UC_Empire_Field_Support_Base, 
 				UC_Proteus_Shadow_EVO_Field_Commando_Base,
 		</Tactical_Buildable_Objects_Campaign>
 
@@ -1852,7 +1852,7 @@
 				UC_Imperial_Proteus_Field_Military_Base, 
 				UC_Imperial_Proteus_Field_Support_Base, 
 				UC_Proteus_Trandoshan_Field_Mercenary_Base, 
-				UC_Proteus_Jumptrooper_Field_Scout_Base, 
+				UC_Empire_Field_Scout_Base, 
 		</Tactical_Buildable_Objects_Campaign>
 
 	</Tactical_Capturable>
@@ -3023,6 +3023,7 @@
 				UC_Imperial_Proteus_Field_Military_Base, 
 				UC_Imperial_Proteus_Field_Support_Base, 
 				UC_Imperial_Proteus_Field_Commando_Base,
+				UC_Proteus_Dark_Trooper_Field_Scout_Base, 
 		</Tactical_Buildable_Objects_Campaign>
 
 	</Tactical_Capturable>
@@ -5378,7 +5379,7 @@
 		<Terrain_Texture_Modifier_Square>false</Terrain_Texture_Modifier_Square>
 
 		<Obstacle_Proxy_Type> Bunker_Pad </Obstacle_Proxy_Type>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Imperial_Proteus</Affiliation>
 		<Icon_Name>I_BUTTON_EV_BUNKER.tga</Icon_Name>
 
 	</GroundBuildable>
@@ -5396,7 +5397,7 @@
 			TEXT_TOOLTIP_FIELD_BASE_SUPPORT_EMPIRE2
 		</Encyclopedia_Text>
 		<Land_Model_Name>EB_TestBunker.alo</Land_Model_Name>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Imperial_Proteus</Affiliation>
 		<Scale_Factor>1.0</Scale_Factor>
         <Garrison_Radius>10</Garrison_Radius>
 		<Num_Garrison_Slots>0</Num_Garrison_Slots>
@@ -8326,7 +8327,7 @@
 		<Terrain_Texture_Modifier_Square>false</Terrain_Texture_Modifier_Square>
 
 		<Obstacle_Proxy_Type> Bunker_Pad </Obstacle_Proxy_Type>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Imperial_Proteus</Affiliation>
 		<Icon_Name>I_BUTTON_EV_BUNKER.tga</Icon_Name>
 
 	</GroundBuildable>
@@ -8343,7 +8344,7 @@
 			TEXT_TOOLTIP_FIELD_BASE_SCOUT_EMPIRE1
 		</Encyclopedia_Text>
 		<Land_Model_Name>EB_TestBunker.alo</Land_Model_Name>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Imperial_Proteus</Affiliation>
 		<Land_FOW_Reveal_Range>600.0</Land_FOW_Reveal_Range>
 		<Scale_Factor>1.0</Scale_Factor>
         <Garrison_Radius>10</Garrison_Radius>
@@ -8463,80 +8464,6 @@
 <!--===========================================================================-->
 <!--                        Proteus Scout Start                                -->
 <!--===========================================================================-->
-
-	<!-- Proteus Jumptrooper Scouting FB  -->
-	<GroundBuildable Name="UC_Proteus_Jumptrooper_Field_Scout_Base">
-		<Variant_Of_Existing_Type>UC_Empire_Field_Military_Base</Variant_Of_Existing_Type>
-		<Text_ID>TEXT_FIELD_BASE_SCOUT</Text_ID>
-		<Encyclopedia_Text>
-			TEXT_TOOLTIP_FIELD_BASE_SCOUT
-			TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-			TEXT_TOOLTIP_FIELD_BASE_HEALTH
-			TEXT_TOOLTIP_SEPARATOR_GARRISON_BLOCK
-			TEXT_TOOLTIP_FIELD_BASE_SCOUT_TERADOC1
-		</Encyclopedia_Text>
-		<Tactical_Buildable_Constructed> Proteus_Jumptrooper_Field_Scout_Base </Tactical_Buildable_Constructed>
-
-		<Tactical_Build_Cost_Multiplayer> 350 </Tactical_Build_Cost_Multiplayer>
-		<Terrain_Texture_Modifier_Square>false</Terrain_Texture_Modifier_Square>
-
-		<Obstacle_Proxy_Type> Bunker_Pad </Obstacle_Proxy_Type>
-		<Affiliation>Imperial_Proteus</Affiliation>
-		<Icon_Name>I_BUTTON_EV_BUNKER.tga</Icon_Name>
-
-	</GroundBuildable>
-
-	<SpecialStructure Name="Proteus_Jumptrooper_Field_Scout_Base">
-		<Variant_Of_Existing_Type>Garrison_Bunker_Template</Variant_Of_Existing_Type>
-		<Icon_Name>I_BUTTON_EV_BUNKER.tga</Icon_Name>
-		<Text_ID>TEXT_FIELD_BASE_SCOUT</Text_ID>
-		<Encyclopedia_Text>
-			TEXT_TOOLTIP_FIELD_BASE_SCOUT
-			TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-			TEXT_TOOLTIP_FIELD_BASE_HEALTH
-			TEXT_TOOLTIP_SEPARATOR_GARRISON_BLOCK
-			TEXT_TOOLTIP_FIELD_BASE_SCOUT_TERADOC1
-		</Encyclopedia_Text>
-		<Land_Model_Name>EB_TestBunker.alo</Land_Model_Name>
-		<Affiliation>Imperial_Proteus</Affiliation>
-		<Land_FOW_Reveal_Range>600.0</Land_FOW_Reveal_Range>
-		<Scale_Factor>1.0</Scale_Factor>
-        <Garrison_Radius>10</Garrison_Radius>
-		
-		<Tactical_Health>350</Tactical_Health>
-
-		<LandBehavior> SPAWN_SQUADRON, REVEAL, SELECTABLE, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, EARTHQUAKE_TARGET, UNIT_AI</LandBehavior>
-		<Num_Garrison_Slots>0</Num_Garrison_Slots>
-		<Property_Flags>TacticalStructure </Property_Flags>
-		<Garrison_Category/>
-
-		<Starting_Spawned_Units_Tech_0>Proteus_Jumptrooper_Field_Scout, 1</Starting_Spawned_Units_Tech_0>
-        <!--<Starting_Spawned_Units_Tech_0>Field_Pad_Basic, 1</Starting_Spawned_Units_Tech_0>-->
-
-		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
-		<Spawned_Squadron_Location_Bones>B_GARRISON_03</Spawned_Squadron_Location_Bones>
-		<Spawned_Squadron_Location_Flyout_Distances>40.0</Spawned_Squadron_Location_Flyout_Distances>
-		<Spawn_Garrison_On_Load>True</Spawn_Garrison_On_Load>
-
-	</SpecialStructure>
-
-	<Marker Name="Proteus_Jumptrooper_Field_Scout">
-		<Text_ID>TEXT_NONE</Text_ID>
-		<Galactic_Model_Name/>
-		<Space_Model_Name>W_LASER_INVISIBLE.ALO</Space_Model_Name>
-		<Land_Model_Name>W_LASER_INVISIBLE.ALO</Land_Model_Name>
-		<Behavior></Behavior>
-		<LandBehavior>SPAWN_SQUADRON</LandBehavior>
-		<Lua_Script>FieldBaseSpawner</Lua_Script>
-		<Is_Discardable>false</Is_Discardable>
-		<Affiliation>Neutral</Affiliation>
-		<Scale_Factor>0.1</Scale_Factor>
-
-		<Starting_Spawned_Units_Tech_0>Imperial_Jumptrooper_Squad, 3</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Imperial_Jumptrooper_Squad, 9</Reserve_Spawned_Units_Tech_0>
-        <Spawned_Squadron_Delay_Seconds>30.0</Spawned_Squadron_Delay_Seconds>
-
-	</Marker>
 
 	<!-- Proteus Dark Trooper Scouting FB  -->
 	<GroundBuildable Name="UC_Proteus_Dark_Trooper_Field_Scout_Base">
