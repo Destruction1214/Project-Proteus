@@ -4967,7 +4967,7 @@
 		<Tab>True</Tab>
 		<Disable_Darken>true</Disable_Darken>
 		<Group>faction_67</Group>
-		<Tooltip_Text>WIP--THARKUS</Tooltip_Text>
+		<Tooltip_Text>TEXT_EVENT_WARLORD_CHOICE_THARKUS</Tooltip_Text>
 		<Scale>0.75</Scale>
 	</CommandBarComponent>
 

@@ -1349,7 +1349,7 @@ return {
 			Planets = {"CHANDRILA"},
 			LeaderTable = {"THARKUS_GREED"},
 			LeaderEndingNames = {"Emperor Tharkus"},
-			HeroList = {"Tharkus_Greed", "Vaskor_Blitz", "Dakova_Prefect", "Pollux_Team", "Kastor_Team"},
+			HeroList = {"Tharkus_Greed", "Vaskor_Blitz", "Ghek_Patroller", "Dakova_Prefect", "Pollux_Team", "Kastor_Team", "Kantos_Team", "Voss_Team"},
 			UnlockList = {
 				-- Space
 				"YZ_775_Freighter_Group", "Customs_Corvette","CR92A", "Carrack_Cruiser","Star_Galleon","Surveyor_Frigate", "Patrol_Nebulon_B", "Quasar", "Strike_Cruiser", 
