@@ -94,27 +94,17 @@ TEXT_EVENT_DASTA_FIGHTER_CHOICE_BODY,Procure starfighters from either Imperial o
 TEXT_EVENT_DASTA_FIGHTER_CHOICE_HEADER,Procure Starfighters
 TEXT_EVENT_DASTA_FIGHTER_CHOICE_IMPERIAL,Imperial Starfighters
 TEXT_EVENT_DASTA_FIGHTER_CHOICE_REBEL,New Republic Starfighters
-TEXT_EVENT_KUAT_BC_CHOICE_BODY,Choose one Battlecruiser to be made available permanently outside the market. The other options will be removed from the market.
-TEXT_EVENT_KUAT_BC_CHOICE_BODY,Choose one Battlecruiser to be made available permanently outside the market. The other options will be removed from the market.
-TEXT_EVENT_KUAT_BC_CHOICE_COMMS_BC,Communications Battlecruiser
+TEXT_EVENT_KUAT_BC_CHOICE_BODY,Choose one Battlecruiser to be made available permanently. The other options will be removed.
 TEXT_EVENT_KUAT_BC_CHOICE_COMMS_BC,Communications Battlecruiser
 TEXT_EVENT_KUAT_BC_CHOICE_HEADER,Battlecruiser Choice
-TEXT_EVENT_KUAT_BC_CHOICE_HEADER,TODO ROOK - header in popup
-TEXT_EVENT_KUAT_BC_CHOICE_PRAETOR,Praetor-II Battlecruiser
 TEXT_EVENT_KUAT_BC_CHOICE_PRAETOR,Praetor-II Battlecruiser
 TEXT_EVENT_KUAT_BC_CHOICE_PRAETOR_CARRIER,Praetor Carrier Battlecruiser
-TEXT_EVENT_KUAT_BC_CHOICE_PRAETOR_CARRIER,Praetor Carrier Battlecruiser
-TEXT_EVENT_KUAT_BC_CHOICE_SORANNAN,Sorannan Star Destroyer
 TEXT_EVENT_KUAT_BC_CHOICE_SORANNAN,Sorannan Star Destroyer
 TEXT_EVENT_TOOLTIP_DASTA_FIGHTER_CHOICE_IMPERIAL,Offer the Imperial Remnant logistical and financial support in return for some of their best starfighter models. 
 TEXT_EVENT_TOOLTIP_DASTA_FIGHTER_CHOICE_REBEL,Offer the New Republic a trade agreement and diplomatic recognition in exchange for some of their modern starfighter models.
-TEXT_EVENT_TOOLTIP_KUAT_BC_CHOICE_COMMS_BC,TODO ROOK - select choice desc
 TEXT_EVENT_TOOLTIP_KUAT_BC_CHOICE_COMMS_BC,Choose the Communications Battlecruiser. (Locks Praetor II, Praetor II Carrier, Sorannan Star Destroyer)
 TEXT_EVENT_TOOLTIP_KUAT_BC_CHOICE_PRAETOR,Choose the Praetor II (Locks Praetor II Carrier, Comms Battlecruiser, Sorannan Star Destroyer)
-TEXT_EVENT_TOOLTIP_KUAT_BC_CHOICE_PRAETOR,TODO ROOK - select choice desc
-TEXT_EVENT_TOOLTIP_KUAT_BC_CHOICE_PRAETOR_CARRIER,TODO ROOK - select choice desc
 TEXT_EVENT_TOOLTIP_KUAT_BC_CHOICE_PRAETOR_CARRIER,Choose the Praetor Carrier (Locks Praetor II, Comms Battlecruiser, Sorannan Star Destroyer)
-TEXT_EVENT_TOOLTIP_KUAT_BC_CHOICE_SORANNAN,TODO ROOK - select choice desc
 TEXT_EVENT_TOOLTIP_KUAT_BC_CHOICE_SORANNAN,Choose the Sorannan Star Destroyer (Locks Praetor II, Praetor II Carrier, Comms Battlecruiser)
 TEXT_EVENT_WARLORD_CHOICE_BALMORRA,Independent Balmorra
 TEXT_EVENT_WARLORD_CHOICE_GRUNGER,Grunger's Empire
@@ -837,6 +827,8 @@ TEXT_TOOLTIP_FAUX_STORMTROOPER_SQUAD_WEAP1_1B,1x T-21 Repeating Blaster: 5 / 1.0
 TEXT_TOOLTIP_FAUX_STORMTROOPER_SQUAD_WEAP1_2,11x Blaster Carbine: 3 / 1.25s / 220m
 TEXT_TOOLTIP_FIELD_BASE_COMMANDO_PROTEUS_ARMY_COMMANDO_DROIDEKA1,Army Commando Squad: 2 / 10
 TEXT_TOOLTIP_FIELD_BASE_COMMANDO_PROTEUS_ARMY_COMMANDO_DROIDEKA2,Q-Series Destroyer Droid: 5 / 25
+TEXT_TOOLTIP_FIELD_BASE_COMMANDO_PROTEUS_ARMY_COMMANDO_FLEET_COMMANDO1,Army Commando Squad: 2 / 10
+TEXT_TOOLTIP_FIELD_BASE_COMMANDO_PROTEUS_ARMY_COMMANDO_FLEET_COMMANDO2,Fleet Commando Squad: 2 / 10
 TEXT_TOOLTIP_FIELD_BASE_COMMANDO_PROTEUS_EVO1,EVO Trooper Squad: 3 / 15
 TEXT_TOOLTIP_FIELD_BASE_COMMANDO_PROTEUS_FLEET_COMMANDO1,Fleet Commando Squad: 3 / 15
 TEXT_TOOLTIP_FIELD_BASE_COMMANDO_PROTEUS_FLEET_COMMANDO2,Fleet Commando Sniper Squad: 1 / 5
@@ -860,6 +852,8 @@ TEXT_TOOLTIP_FIELD_BASE_MERCENARY_PROTEUS_MANDALORIAN_COMMANDO1,Mandalorian Comm
 TEXT_TOOLTIP_FIELD_BASE_MERCENARY_PROTEUS_MANDALORIAN_SOLDIER1,Mandalorian Soldier Squad: 4 / 20
 TEXT_TOOLTIP_FIELD_BASE_MERCENARY_PROTEUS_STANDARD1,Mercenary Squad: 4 / 20
 TEXT_TOOLTIP_FIELD_BASE_MERCENARY_PROTEUS_TRANDOSHAN1,Trandoshan Hunter Squad: 3 / 15
+TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_ARMY_GUARD_COMMAND1,Army Guard Squad: 2 / 10
+TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_ARMY_GUARD_COMMAND2,Army Guard Command Squad: 2 / 10
 TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_ARMY_GUARD_LIGHT_MERCENARY1,Army Guard Squad: 2 / 10
 TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_ARMY_GUARD_LIGHT_MERCENARY2,Light Mercenary Squad: 2 / 10
 TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_ARMY_GUARD_SPECIAL_MISSIONS_RIFLEMAN1,Army Guard Squad: 2 / 10
@@ -877,6 +871,8 @@ TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_DRAGON_TROOPER1,Dragon Trooper Squad: 4
 TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_FORCE_CULTIST1,Local Force Cultist Squad: 4 / 20
 TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_GALACTIC_MARINE1,Galactic Marine Assault Squad: 2 / 10
 TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_GALACTIC_MARINE2,Galactic Marine Heavy Squad: 2 / 10
+TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_LOCAL_MILITARY_PDF_HEAVY1,Local Military Squad: 2 / 10
+TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_LOCAL_MILITARY_PDF_HEAVY2,Defense Force Trooper Anti-Vehicle Squad: 2 / 10
 TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_LOCAL_MILITARY1,Local Military Squad: 4 / 20
 TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_NAVY_COMMANDO1,Navy Commando Squad: 4 / 20
 TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_NAVY_TROOPER1,Navy Trooper Squad: 4 / 20
@@ -890,10 +886,14 @@ TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_STORMTROOPER_GALACTIC_MARINE2,Galactic 
 TEXT_TOOLTIP_FIELD_BASE_SCOUT_PROTEUS_ARMY_COMMANDO_OVERRACER1,Army Commando Squad: 2 / 10
 TEXT_TOOLTIP_FIELD_BASE_SCOUT_PROTEUS_ARMY_COMMANDO_OVERRACER2,Overracer Speeder Bike Scout: 4 / 20
 TEXT_TOOLTIP_FIELD_BASE_SCOUT_PROTEUS_DARKTROOPER1,Dark Trooper Phase II Squad: 3 / 9
+TEXT_TOOLTIP_FIELD_BASE_SCOUT_PROTEUS_EVO_64Y1,EVO Trooper Squad: 2 / 10
+TEXT_TOOLTIP_FIELD_BASE_SCOUT_PROTEUS_EVO_64Y2,64-Y Swift 3 Repulsor Sled: 4 / 20
 TEXT_TOOLTIP_FIELD_BASE_SCOUT_WARLORD1,Army Commando Squad: 2 / 10
 TEXT_TOOLTIP_FIELD_BASE_SCOUT_WARLORD2,74-Z Speeder Bike: 4 / 20
 TEXT_TOOLTIP_FIELD_BASE_SUPPORT_BACKWATER_CORPORATE_SECURITY1,Backwater Soldier Squad: 1 / 10
 TEXT_TOOLTIP_FIELD_BASE_SUPPORT_BACKWATER_CORPORATE_SECURITY2,Corporate Security Trooper Squad: 2 / 10
+TEXT_TOOLTIP_FIELD_BASE_SUPPORT_LOCAL_MILITARY1,Local Military Medic Squad: 2 / 10
+TEXT_TOOLTIP_FIELD_BASE_SUPPORT_LOCAL_MILITARY2,Local Military Squad: 1 / 10
 TEXT_TOOLTIP_FIELD_BASE_SUPPORT_PROTEUS_ARMY_GUARD1,Army Guard Fireteam: 1 / 10
 TEXT_TOOLTIP_FIELD_BASE_SUPPORT_PROTEUS_ARMY_GUARD2,Army Guard Medic Squad: 2 / 10
 TEXT_TOOLTIP_FIELD_BASE_SUPPORT_PROTEUS_ARMY_MEDIC_CORPORATE_SECURITY1,Corporate Security Trooper Squad: 1 / 5
@@ -978,7 +978,6 @@ TEXT_TOOLTIP_KPREYBIRD_PRODUCTION,Begin putting the Preybird schematics illegall
 TEXT_TOOLTIP_KSM_RESEARCH,
 TEXT_TOOLTIP_KSOROSUUB_RESEARCH,Completing this research unlocks the Dauntless Heavy Cruiser, Liberator Cruiser and Bulwark-III Battlecruiser. Retires the Gladiator-I Star Destroyer and Dauntless Transport Cruiser.
 TEXT_TOOLTIP_KUAT_CHOOSE_BC,Lobby Kuat Drive Yards to gain one battlecruiser as a permanent buildable. (Locks other BC's from Market)
-TEXT_TOOLTIP_KUAT_CHOOSE_BC,TODO ROOK - desc on dummy
 TEXT_TOOLTIP_KZETA_RESEARCH,Completing this research unlocks the Zeta Strike Cruiser, Corona Frigate, Imperial-II Star Destroyer II Ion Refit, Aggressor Star Destroyer, Tracked Shield Disabler Company and AT-AT Walker Ion Refit. Retires the Strike Cruiser.
 TEXT_TOOLTIP_LAAT_IMPERIAL,A modified variant of the common LAAT/i specifically designed for special operations and ISB enforcement actions, using the obscure LAAT/s from the Clone Wars as a proof-of-concept. Features a black paintjob for intimidation and trades the shield generator for an enhanced EW suite, but retains the same offensive capabilities as the stock version. It also inherits the maintenance requirements of the base model, leading to it being largely confined to special forces use, with the IDT and MAAT being far more common in frontline military service.
 TEXT_TOOLTIP_LAAT_IMPERIAL_COMPANY,Company: 1x Imperial Spec Ops Gunship
@@ -1028,6 +1027,7 @@ TEXT_TOOLTIP_MERILI_MOVE,Speed: 1.45
 TEXT_TOOLTIP_MERILI_WEAP1,1x Electroblade: 1 / 0.2s / 1m
 TEXT_TOOLTIP_MICHAEL,TODO
 TEXT_TOOLTIP_MICHAEL_UPGRADE,Upgrade: Executor
+TEXT_TOOLTIP_MILITARY_SOLDIER_MEDIC_SQUAD_WEAP1,10 Blaster Rifle: 1 / 1.0s / 240m
 TEXT_TOOLTIP_MODERNIZED_PROCURATOR,The original Procurator hulls were deliberately undergunned to comply with the Ruusan Reformation rules regarding battlecruisers, but following the outbreak of the Clone Wars, some of these older models saw their armament and combat support systems drastically increased, taking full advantage of their for the time advanced reactors. However, the later and bigger Praetor series would see most of the combat assignments during the Clone Wars and the early Imperial period, leaving the Procurator to languish in reserve fleets and Imperial-aligned private arsenals. In the post-Endor period, a number of these older vessels would be reactivated and further upgraded, though they would never achieve prominence owing to their limited production run and aging hulls. While not as powerful as modern battlecruisers, they can deal with most Star Destroyer-level threats.
 TEXT_TOOLTIP_MODERNIZED_PROCURATOR_SHIELD,Shields: 12000 / [30/R] (Capital)
 TEXT_TOOLTIP_MODERNIZED_PROCURATOR_UPGRADE,Upgrade the Procurator to a Post-Ruusan Armament.
@@ -1473,7 +1473,6 @@ TEXT_UNIT_KLUCREHULK_RESEARCH,Remilitarize Lucrehulks
 TEXT_UNIT_KPREYBIRD_PRODUCTION,Begin Illegal Preybird Production
 TEXT_UNIT_KSM_RESEARCH,Refit existing TIE/Ln and In fighters to match the specifications of those formerly used by Lord Vader's elite pilots. Adds shields, weapons and SLAM capabilities at the cost of base engine speed.
 TEXT_UNIT_KSOROSUUB_RESEARCH,SoroSuub Contract
-TEXT_UNIT_KUAT_CHOOSE_BC,TODO ROOK - name on dummy
 TEXT_UNIT_KUAT_CHOOSE_BC,Lobby KDY
 TEXT_UNIT_KZETA_RESEARCH,Expand Zeta Program
 TEXT_UNIT_LAAT_IMPERIAL,Imperial Spec Ops Gunship
@@ -1485,6 +1484,8 @@ TEXT_UNIT_LUCREHULKBATTLESHIP,Lucrehulk Battleship
 TEXT_UNIT_LUPUS,Lupus Missile Frigate
 TEXT_UNIT_MANSK_FRIGATE,Mansk Escort Frigate
 TEXT_UNIT_MANTA_FIGHTER,Manta Assault Fighter
+TEXT_UNIT_MILITARY_SOLDIER_MEDIC,Local Military Medic
+TEXT_UNIT_MILITARY_SOLDIER_MEDIC_SQUAD,Local Military Medic Squad
 TEXT_UNIT_MODERNIZED_PROCURATOR,Modernized Procurator Battlecruiser
 TEXT_UNIT_MUNIFEX,Munifex Light Cruiser
 TEXT_UNIT_NAVYCOMMANDO_MEDIC,Navy Commando Medic
@@ -1663,16 +1664,3 @@ Z_TEXT_UNIT_GORATH_RESEARCH,Reverse-engineer the Gorath Strike Cruiser
 Z_TEXT_UNIT_MISSILE_BOAT_RESEARCH,Reverse-engineer the Missile Boat
 Z_TEXT_UNIT_MTC_RESEARCH,Reverse-engineer the Modular Taskforce Cruiser
 Z_TEXT_UNIT_SCIMITAR_RESEARCH,Reverse-engineer the Scimitar Assault Bomber
-TEXT_TOOLTIP_FIELD_BASE_SCOUT_PROTEUS_EVO_64Y1,EVO Trooper Squad: 2 / 10
-TEXT_TOOLTIP_FIELD_BASE_SCOUT_PROTEUS_EVO_64Y2,64-Y Swift 3 Repulsor Sled: 4 / 20
-TEXT_TOOLTIP_FIELD_BASE_COMMANDO_PROTEUS_ARMY_COMMANDO_FLEET_COMMANDO1,Army Commando Squad: 2 / 10
-TEXT_TOOLTIP_FIELD_BASE_COMMANDO_PROTEUS_ARMY_COMMANDO_FLEET_COMMANDO2,Fleet Commando Squad: 2 / 10
-TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_ARMY_GUARD_COMMAND1,Army Guard Squad: 2 / 10
-TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_ARMY_GUARD_COMMAND2,Army Guard Command Squad: 2 / 10
-TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_LOCAL_MILITARY_PDF_HEAVY1,Local Military Squad: 2 / 10
-TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_LOCAL_MILITARY_PDF_HEAVY2,Defense Force Trooper Anti-Vehicle Squad: 2 / 10
-TEXT_TOOLTIP_FIELD_BASE_SUPPORT_LOCAL_MILITARY1,Local Military Medic Squad: 2 / 10
-TEXT_TOOLTIP_FIELD_BASE_SUPPORT_LOCAL_MILITARY2,Local Military Squad: 1 / 10
-TEXT_UNIT_MILITARY_SOLDIER_MEDIC,Local Military Medic
-TEXT_UNIT_MILITARY_SOLDIER_MEDIC_SQUAD,Local Military Medic Squad
-TEXT_TOOLTIP_MILITARY_SOLDIER_MEDIC_SQUAD_WEAP1,10 Blaster Rifle: 1 / 1.0s / 240m
