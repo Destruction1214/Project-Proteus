@@ -1131,7 +1131,7 @@ return {
 		}
 	},
 
-	["Tharkus"] = {
+	["THARKUS"] = {
 		["FullLarge"] = {
 			["4ABY"] = true
 		}

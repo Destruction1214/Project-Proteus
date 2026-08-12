@@ -1,3 +1,4 @@
 return {
-	Flags = {FULLINHERIT = "VICTORY_II_STAR_DESTROYER"}
+	Scripts = {"multilayer", "fighter-spawn", "single-unit-retreat"},
+	Flags = {FIGHTERINHERIT = "VICTORY_II_STAR_DESTROYER"}
 }
