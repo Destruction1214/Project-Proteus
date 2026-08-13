@@ -107,6 +107,7 @@ return {
 			STORM_COMMANDOS = {"TIE_AVENGER_SQUADRON", false},
 			THARKUS = {"TIE_V1_SQUADRON", false},
 			CENTRALITY = {"CLOAKSHAPE_NEW_SQUADRON", false},
+			ANAXES = {"TIE_SENTINEL_SQUADRON", false},
 			SECRET = {"E_WING_SQUADRON", false},
 		}
 		

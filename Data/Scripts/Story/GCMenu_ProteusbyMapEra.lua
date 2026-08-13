@@ -1249,4 +1249,13 @@ return {
 			["12ABY"] = true
 		}
 	},
+	["ANAXES"] = {
+		["FullLarge"] = {
+			["6ABY"] = true
+		},
+		["Empires_At_War"] = {
+			["4ABY"] = true
+			,["6ABY"] = true
+		}
+	},
 }

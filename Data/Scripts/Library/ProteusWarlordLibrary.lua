@@ -1080,6 +1080,32 @@ return {
 			PlanetParticle = "ZE_Allies",
 		},
 	-- Project Proteus Original
+		["ANAXES"] = {
+			FriendlyName = "Azure Hammer Command",
+			Planets = {"ANAXES"},
+			LeaderTable = {"KIEZ_EMPIRE"},
+			LeaderEndingNames = {"Emperor Kiez"},
+			HeroList = {"Kiez_Empire", "Wermis_Empire"},
+			UnlockList = {
+				-- Space
+				"Delta_JV7_Group", "Bayonet_Cruiser", "Lancer_Frigate", "Surveyor_Frigate", "Victory_II_Frigate",
+				"Acclamator_I_Assault", "Acclamator_I_Carrier", "Imperial_DHC", "Acclamator_I_Support", "Victory_I_Star_Destroyer", "Procursator_Star_Destroyer",
+				"Imperial_II_Star_Destroyer", "Interdictor_Star_Destroyer", "Tector_Star_Destroyer",
+				"Allegiance_Battlecruiser", "Lucrehulk_Auxiliary_Proteus", "Praetor_II_Battlecruiser", "Mandator_II_Dreadnought", "Assertor_Star_Dreadnought",
+				-- Ground
+				"Imperial_Navy_Trooper_Company", "Navy_Commando_Company", "Imperial_Fleet_Commando_Company",
+				"Imperial_AT_PT_Company", "Scorpenek_Company", "AT_MP_Company", "AT_DP_Company",
+				"Nemesis_Gunship_Company", "TIE_Crawler_Company", "SPMAT_Company", "Imperial_AT_AP_Walker_Company",
+				"Imperial_A5_Juggernaut_Company", "A9_Floating_Fortress_Company", "C10_Siege_Tower_Company", "Lancet_Air_Artillery_Company", "Heavy_Recovery_Vehicle_Company",
+
+
+			},
+			FactionOverride2 = "Independent_Forces",
+			StartYear = 4,
+			LastYear = 8,
+			IntroText = "TEXT_CONQUEST_PROTEUS_ANAXES",
+			IntroHolo = "Feyet_Kiez_Loop",
+		},
 		["ALLIED_TION"] = {
 			FriendlyName = "Allied Tion Sector",
 			Planets = {},
@@ -1273,7 +1299,7 @@ return {
 			StartYear = 11,
 			IntroText = "TEXT_CONQUEST_PROTEUS_PRAJI",
 			IntroHolo = "Stormtrooper_Officer_Loop",
-            CustomRewardTable
+			CustomRewardTable = true,
 		
 		},
 		["RENDILI"] = {
