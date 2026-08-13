@@ -103,6 +103,7 @@ return {
 					{"LFU", "Y_WING_SQUADRON", false}}, --research 1
 			STORM_COMMANDOS = {"SCIMITAR_SQUADRON", false},
 			THARKUS = {"SCIMITAR_SQUADRON", false},
+			CENTRALITY = {"TIE_LIGHT_BOMBER_SQUADRON", false},
 			SECRET = {"TIE_AVENGER_BOMBER_SQUADRON", false},
 		}
 

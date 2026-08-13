@@ -109,6 +109,7 @@ return {
             LANOX = {"FIRESPRAY_BOMBER_SQUADRON", false},
 			STORM_COMMANDOS = {"TIE_TERROR_SQUADRON", false},
 			THARKUS = {"TIE_TERROR_SQUADRON", false},
+			CENTRALITY = {"SCURRG_H6_SQUADRON", false},
 			SECRET = {"TIE_PUNISHER_SQUADRON", false},
 		}
 		

@@ -104,6 +104,7 @@ return {
 					{"LFU", "SCIMITAR_SQUADRON", false}}, --research 1
 			STORM_COMMANDOS = {"TIE_OPPRESSOR_SQUADRON", false},
 			THARKUS = {"TIE_LIGHT_BOMBER_SQUADRON", false},
+			CENTRALITY = {"BTLS1_Y_WING_SQUADRON", false},
 			SECRET = {"SHIELDED_TIE_BOMBER_SQUADRON", false},
 		}
 		
