@@ -1143,6 +1143,34 @@ return {
 			IntroHolo = "Daala_Loop",
 
 		},
+		["CENTRALITY"] = {
+			FriendlyName = "Imperial Centrality",
+			Planets = {"RINGNELDIA"},
+			LeaderTable = {"LEHHETT_VAINGLORIOUS"},
+			LeaderEndingNames = {"Emperor Lahhett"},
+			HeroList = {"Lehhett_Vainglorious"},
+			UnlockList = {
+				-- Space 
+				"Gozanti_Cruiser_Group", "Imperial_CR90", "Imperial_DP20", "Arquitens", "Starbolt", "Galleon", "Lancer_Frigate_PDF", "Carrack_Cruiser_Laser",
+				"Hornet_Assault_Carrier", "Imperial_DHC", "DHC_Carrier", "DHC_Interdictor", "Acclamator_I_Assault", "Victory_I_Fleet_Star_Destroyer",
+				"Imperial_I_Star_Destroyer_Patrol", "Invincible_Cruiser", "Procurator_Battlecruiser",
+				"Praetor_I_Battlecruiser", "Mandator_II_Dreadnought",
+				-- Ground
+				"Mercenary_Company", "Imperial_Army_Trooper_Company",
+				"SP9_Group", "Imperial_ULAV_Company", "Espo_Walker_91_Company", 
+				"AV_7_Company", "Imperial_VAAT_Company", "T4A_Company", "Imperial_UT_AA_Company", "SPMAT_Company",
+				"Imperial_A5_Juggernaut_Company", "Tracked_Mobile_Base_Company",
+
+
+				-- Research
+				
+			},
+			FactionOverride = "Independent_Forces",
+			StartYear = 4,
+			IntroText = "TEXT_CONQUEST_PROTEUS_CENTRALITY",
+			IntroHolo = "Imperial_Naval_Officer_Loop",
+
+		},
 		["EMPIRE_REBORN"] = {
 			FriendlyName = "Empire Reborn",
 			Planets = {"VJUN", "BESPIN", "ALZOC", "CHALCEDON", "RUUSAN"},
