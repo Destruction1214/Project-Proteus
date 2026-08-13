@@ -1080,6 +1080,32 @@ return {
 			PlanetParticle = "ZE_Allies",
 		},
 	-- Project Proteus Original
+		["ANAXES"] = {
+			FriendlyName = "Azure Hammer Command",
+			Planets = {"ANAXES"},
+			LeaderTable = {"KIEZ_EMPIRE"},
+			LeaderEndingNames = {"Emperor Kiez"},
+			HeroList = {"Kiez_Empire", "Wermis_Empire"},
+			UnlockList = {
+				-- Space
+				"Delta_JV7_Group", "Bayonet_Cruiser", "Lancer_Frigate", "Surveyor_Frigate", "Victory_II_Frigate",
+				"Acclamator_I_Assault", "Acclamator_I_Carrier", "Imperial_DHC", "Acclamator_I_Support", "Victory_I_Star_Destroyer", "Procursator_Star_Destroyer",
+				"Imperial_II_Star_Destroyer", "Interdictor_Star_Destroyer", "Tector_Star_Destroyer",
+				"Allegiance_Battlecruiser", "Lucrehulk_Auxiliary_Proteus", "Praetor_II_Battlecruiser", "Mandator_II_Dreadnought", "Assertor_Star_Dreadnought",
+				-- Ground
+				"Imperial_Navy_Trooper_Company", "Navy_Commando_Company", "Imperial_Fleet_Commando_Company",
+				"Imperial_AT_PT_Company", "Scorpenek_Company", "AT_MP_Company", "AT_DP_Company",
+				"Nemesis_Gunship_Company", "TIE_Crawler_Company", "SPMAT_Company", "Imperial_AT_AP_Walker_Company",
+				"Imperial_A5_Juggernaut_Company", "A9_Floating_Fortress_Company", "C10_Siege_Tower_Company", "Lancet_Air_Artillery_Company", "Heavy_Recovery_Vehicle_Company",
+				"Kiez_Whelm_Dummy",
+
+			},
+			FactionOverride2 = "Independent_Forces",
+			StartYear = 4,
+			LastYear = 8,
+			IntroText = "TEXT_CONQUEST_PROTEUS_ANAXES",
+			IntroHolo = "Feyet_Kiez_Loop",
+		},
 		["ALLIED_TION"] = {
 			FriendlyName = "Allied Tion Sector",
 			Planets = {},
@@ -1141,6 +1167,34 @@ return {
 			LastYear = 11,
 			IntroText = "TEXT_CONQUEST_PROTEUS_CARIDA",
 			IntroHolo = "Daala_Loop",
+
+		},
+		["CENTRALITY"] = {
+			FriendlyName = "Imperial Centrality",
+			Planets = {"RINGNELDIA"},
+			LeaderTable = {"LEHHETT_VAINGLORIOUS"},
+			LeaderEndingNames = {"Emperor Lahhett"},
+			HeroList = {"Lehhett_Vainglorious"},
+			UnlockList = {
+				-- Space 
+				"Gozanti_Cruiser_Group", "Imperial_CR90", "Imperial_DP20", "Arquitens", "Starbolt", "Galleon", "Lancer_Frigate_PDF", "Carrack_Cruiser_Laser",
+				"Hornet_Assault_Carrier", "Imperial_DHC", "DHC_Carrier", "DHC_Interdictor", "Acclamator_I_Assault", "Victory_I_Fleet_Star_Destroyer",
+				"Imperial_I_Star_Destroyer_Patrol", "Invincible_Cruiser", "Procurator_Battlecruiser",
+				"Praetor_I_Battlecruiser", "Mandator_II_Dreadnought",
+				-- Ground
+				"Mercenary_Company", "Imperial_Army_Trooper_Company",
+				"SP9_Group", "Imperial_ULAV_Company", "Espo_Walker_91_Company", 
+				"AV_7_Company", "Imperial_VAAT_Company", "T4A_Company", "Imperial_UT_AA_Company", "SPMAT_Company",
+				"Imperial_A5_Juggernaut_Company", "Tracked_Mobile_Base_Company",
+
+
+				-- Research
+				
+			},
+			FactionOverride = "Independent_Forces",
+			StartYear = 4,
+			IntroText = "TEXT_CONQUEST_PROTEUS_CENTRALITY",
+			IntroHolo = "Imperial_Naval_Officer_Loop",
 
 		},
 		["EMPIRE_REBORN"] = {
@@ -1245,7 +1299,7 @@ return {
 			StartYear = 11,
 			IntroText = "TEXT_CONQUEST_PROTEUS_PRAJI",
 			IntroHolo = "Stormtrooper_Officer_Loop",
-            CustomRewardTable
+			CustomRewardTable = true,
 		
 		},
 		["RENDILI"] = {

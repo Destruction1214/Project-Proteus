@@ -1231,4 +1231,31 @@ return {
 			["4ABY"] = true
 		}
 	},
+	["CENTRALITY"] = {
+		["FullLarge"] = {
+			["11ABY"] = true
+			,["12ABY"] = true
+		},
+		["KnownLarge"] = {
+			["6ABY"] = true
+			,["11ABY"] = true
+			,["11.5ABY"] = true
+			,["12ABY"] = true
+		},
+		["CorporateAcquisitions"] = {
+			["12ABY"] = true
+		},
+		["KnownMedium"] = {
+			["12ABY"] = true
+		}
+	},
+	["ANAXES"] = {
+		["FullLarge"] = {
+			["6ABY"] = true
+		},
+		["Empires_At_War"] = {
+			["4ABY"] = true
+			,["6ABY"] = true
+		}
+	},
 }

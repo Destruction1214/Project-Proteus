@@ -11,7 +11,7 @@ return {
 		{
 	   		{"Imperial_Stormtrooper_Company", 5},
 			{"CEC_Light_Cruiser", 5},
-			{"Nebulon_B_Tender, 2},
+			{"Nebulon_B_Tender", 2},
 			{"Neutron_Star", 3},
 			{"AT_AI_Walker_Company", 3},
 			{"Scorpenek_Utility_Company", 3},
@@ -36,7 +36,7 @@ return {
 		{
 	   		{"Imperial_Stormtrooper_Company", 5},
 			{"CEC_Light_Cruiser", 5},
-			{"Nebulon_B_Tender, 2},
+			{"Nebulon_B_Tender", 2},
 			{"Neutron_Star", 3},
 			{"AT_AI_Walker_Company", 3},
 			{"Scorpenek_Utility_Company", 3},
@@ -61,7 +61,7 @@ return {
 		{
 	   		{"Imperial_Stormtrooper_Company", 5},
 			{"CEC_Light_Cruiser", 5},
-			{"Nebulon_B_Tender, 2},
+			{"Nebulon_B_Tender", 2},
 			{"Neutron_Star", 3},
 			{"AT_AI_Walker_Company", 3},
 			{"Scorpenek_Utility_Company", 3},
@@ -86,7 +86,7 @@ return {
 		{
 	   		{"Imperial_Stormtrooper_Company", 5},
 			{"CEC_Light_Cruiser", 5},
-			{"Nebulon_B_Tender, 2},
+			{"Nebulon_B_Tender", 2},
 			{"Neutron_Star", 3},
 			{"AT_AI_Walker_Company", 3},
 			{"Scorpenek_Utility_Company", 3},
@@ -111,7 +111,7 @@ return {
 		{
 	   		{"Imperial_Stormtrooper_Company", 5},
 			{"CEC_Light_Cruiser", 5},
-			{"Nebulon_B_Tender, 2},
+			{"Nebulon_B_Tender", 2},
 			{"Neutron_Star", 3},
 			{"AT_AI_Walker_Company", 3},
 			{"Scorpenek_Utility_Company", 3},
@@ -136,7 +136,7 @@ return {
 		{
 	   		{"Imperial_Stormtrooper_Company", 5},
 			{"CEC_Light_Cruiser", 5},
-			{"Nebulon_B_Tender, 2},
+			{"Nebulon_B_Tender", 2},
 			{"Neutron_Star", 3},
 			{"AT_AI_Walker_Company", 3},
 			{"Scorpenek_Utility_Company", 3},
@@ -161,7 +161,7 @@ return {
 		{
 	   		{"Imperial_Stormtrooper_Company", 5},
 			{"CEC_Light_Cruiser", 5},
-			{"Nebulon_B_Tender, 2},
+			{"Nebulon_B_Tender", 2},
 			{"Neutron_Star", 3},
 			{"AT_AI_Walker_Company", 3},
 			{"Scorpenek_Utility_Company", 3},
@@ -186,7 +186,7 @@ return {
 		{
 	   		{"Imperial_Stormtrooper_Company", 5},
 			{"CEC_Light_Cruiser", 5},
-			{"Nebulon_B_Tender, 2},
+			{"Nebulon_B_Tender", 2},
 			{"Neutron_Star", 3},
 			{"AT_AI_Walker_Company", 3},
 			{"Scorpenek_Utility_Company", 3},
@@ -211,7 +211,7 @@ return {
 		{
 	   		{"Imperial_Stormtrooper_Company", 5},
 			{"CEC_Light_Cruiser", 5},
-			{"Nebulon_B_Tender, 2},
+			{"Nebulon_B_Tender", 2},
 			{"Neutron_Star", 3},
 			{"AT_AI_Walker_Company", 3},
 			{"Scorpenek_Utility_Company", 3},
@@ -236,7 +236,7 @@ return {
 		{
 	   		{"Imperial_Stormtrooper_Company", 5},
 			{"CEC_Light_Cruiser", 5},
-			{"Nebulon_B_Tender, 2},
+			{"Nebulon_B_Tender", 2},
 			{"Neutron_Star", 3},
 			{"AT_AI_Walker_Company", 3},
 			{"Scorpenek_Utility_Company", 3},
@@ -261,7 +261,7 @@ return {
 		{
 	   		{"Imperial_Stormtrooper_Company", 5},
 			{"CEC_Light_Cruiser", 5},
-			{"Nebulon_B_Tender, 2},
+			{"Nebulon_B_Tender", 2},
 			{"Neutron_Star", 3},
 			{"AT_AI_Walker_Company", 3},
 			{"Scorpenek_Utility_Company", 3},

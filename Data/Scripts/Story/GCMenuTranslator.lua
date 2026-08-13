@@ -72,6 +72,8 @@ return {
 	["ALLIED_TION"] ="faction_70",
 	["RENDILI"] ="faction_71",
 	["X1"] ="faction_72",
+	["CENTRALITY"] ="faction_73",
+	["ANAXES"] ="faction_74",
 	["SECRET"] ="faction_75",
 	
 
@@ -151,6 +153,8 @@ return {
 		"THARKUS",
 		"LANOX",
 		"STORM_COMMANDOS",
+		"CENTRALITY",
+		"ANAXES",
 		"SECRET",
 	},
 
