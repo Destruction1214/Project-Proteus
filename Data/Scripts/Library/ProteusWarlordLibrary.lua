@@ -1097,7 +1097,7 @@ return {
 				"Imperial_AT_PT_Company", "Scorpenek_Company", "AT_MP_Company", "AT_DP_Company",
 				"Nemesis_Gunship_Company", "TIE_Crawler_Company", "SPMAT_Company", "Imperial_AT_AP_Walker_Company",
 				"Imperial_A5_Juggernaut_Company", "A9_Floating_Fortress_Company", "C10_Siege_Tower_Company", "Lancet_Air_Artillery_Company", "Heavy_Recovery_Vehicle_Company",
-
+				"Kiez_Whelm_Dummy",
 
 			},
 			FactionOverride2 = "Independent_Forces",
