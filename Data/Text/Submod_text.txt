@@ -1,11 +1,4 @@
-﻿TEXT_CONQUEST_PROTEUS_ANAXES,TODO for (Supernova? Nick?)
-TEXT_PROTEUS_DESCRIPTION_ANAXES,TODO for (Supernova? Nick?)
-TEXT_EVENT_WARLORD_CHOICE_ANAXES,TODO for (Supernova? Nick?)
-TEXT_TOOLTIP_COMMAND_BULWARK,Imperial-II Star Destroyer, Bulwark
-TEXT_CONQUEST_PROTEUS_CENTRALITY,TODO for (Supernova? Nick?)
-TEXT_PROTEUS_DESCRIPTION_CENTRALITY,TODO For (Supernova? Nick?)
-TEXT_EVENT_WARLORD_CHOICE_CENTRALITY,The Centrality
-D_TEXT_TOOLTIP_DRAGON_TROOPER,Primitive reptiloid warriors fiercely loyal to Delurin and equipped with ornate metal armor and flamethrowers to more closely resemble the Dragons of ancient myth. Unacquainted with blaster weaponry and other advanced technology, they are nonetheless resilient and quick on their feet.
+﻿D_TEXT_TOOLTIP_DRAGON_TROOPER,Primitive reptiloid warriors fiercely loyal to Delurin and equipped with ornate metal armor and flamethrowers to more closely resemble the Dragons of ancient myth. Unacquainted with blaster weaponry and other advanced technology, they are nonetheless resilient and quick on their feet.
 D_TEXT_TOOLTIP_DRAGON_TROOPER_COMPANY,Company: 36x Dragon Trooper
 D_TEXT_TOOLTIP_DRAGON_TROOPER_COMPANY_WEAP1,24x Blaster Carbine: 3 / 1.25s / 220m
 D_TEXT_TOOLTIP_DRAGON_TROOPER_SQUAD,Squad: 9x Dragon Trooper
@@ -52,7 +45,9 @@ TEXT_COMPANY_TIERFON_CAPITAL,Tierfon Sector Fleet HQ
 TEXT_COMPANY_TIERFON_DESCRIPTION,The main base of the Tierfon Sector Fleet, with extensive command centers and dockyard facilities. Functions as a dreadnaught-level shipyard and the faction's capital, but can be relocated much cheaper and faster than other capital buildings.
 TEXT_COMPANY_UBIQTORATE_BASE,Ubiqtorate Base
 TEXT_COMPANY_UBIQTORATE_BASE_DESCRIPTION,One of multiple large bases of the Imperial Ubiqtorate, an organization overseeing all aspects of various Imperial Intelligence Agencies. Their archives and surveillance facilities provide intel on nearby planets in a large radius.
+TEXT_CONQUEST_PROTEUS_ANAXES,TODO for (Supernova? Nick?)
 TEXT_CONQUEST_PROTEUS_BALMORRA,Hinch Beltane: There has never been a better moment to finally seize our freedom than now. The Emperor is dead, and his lackeys in disarray. It is time for a new course, Commander. Rally our forces and make sure that all the other galactic powers are put on notice: they can buy our products, but they cannot have us as their subjects again. As of this hour, Balmorra is once again independent and open for business - and you are free to use whatever force you deem necessary to ensure it stays that way.
+TEXT_CONQUEST_PROTEUS_CENTRALITY,TODO for (Supernova? Nick?)
 TEXT_CONQUEST_PROTEUS_GRUNGER,Josef Grunger: Word has reached me of the Emperor’s death, and I do not intend to pass up such an opportunity. This region of space is ripe with lesser men to join my armada. They will not be difficult to "convince".
 TEXT_CONQUEST_PROTEUS_PRAJI,Nahdonnis Praji: It was the right decision to retire to Kaikielius instead of following the Emperor to his final demise. Now we must build on our work, Commander, and secure our holdings against all the vultures descending.
 TEXT_CONQUEST_PROTEUS_REBORN,Admiral Fyyar: Our final preparations are complete, Commander! My flagship is ready and loaded with the new Reborn Shadowtroopers! All my work, my ingenious designs, will finally bring about the end of the rebels and the Jedi! Lord Hethrir is correct, the Empire will be reborn - but not as he imagines it...
@@ -113,7 +108,9 @@ TEXT_EVENT_TOOLTIP_KUAT_BC_CHOICE_COMMS_BC,Choose the Communications Battlecruis
 TEXT_EVENT_TOOLTIP_KUAT_BC_CHOICE_PRAETOR,Choose the Praetor II (Locks Praetor II Carrier, Comms Battlecruiser, Sorannan Star Destroyer)
 TEXT_EVENT_TOOLTIP_KUAT_BC_CHOICE_PRAETOR_CARRIER,Choose the Praetor Carrier (Locks Praetor II, Comms Battlecruiser, Sorannan Star Destroyer)
 TEXT_EVENT_TOOLTIP_KUAT_BC_CHOICE_SORANNAN,Choose the Sorannan Star Destroyer (Locks Praetor II, Praetor II Carrier, Comms Battlecruiser)
+TEXT_EVENT_WARLORD_CHOICE_ANAXES,TODO for (Supernova? Nick?)
 TEXT_EVENT_WARLORD_CHOICE_BALMORRA,Independent Balmorra
+TEXT_EVENT_WARLORD_CHOICE_CENTRALITY,The Centrality
 TEXT_EVENT_WARLORD_CHOICE_GRUNGER,Grunger's Empire
 TEXT_EVENT_WARLORD_CHOICE_LANOX,Imperial Loyalist
 TEXT_EVENT_WARLORD_CHOICE_PRAJI,Imperial Kaikielius
@@ -208,7 +205,9 @@ TEXT_NOTE,Put text changes for submods here
 TEXT_NTB_630_SQUADRON,NTB-630 Squadron
 TEXT_NTB_630_SQUADRON_HALF,NTB-630 Squadron 1/2
 TEXT_NTB_630_SQUADRON2,NTB-630 Squadron x2
+TEXT_PROTEUS_DESCRIPTION_ANAXES,TODO for (Supernova? Nick?)
 TEXT_PROTEUS_DESCRIPTION_BALMORRA,The Planet Balmorra was occupied by the Empire and forced to produce war walkers despite the natives desire for independence. Hinch Beltane, the ruthless Imperial governor, also subscribed to that goal, leading Balmorra into mercantilist independence while maintaining full personal control as an autocrat for a time, until the armies of the Reborn Emperor forced him back into the fold. Under Beltane, the Balmorrans rebelled once more and successfully drove off the Empire for good.
+TEXT_PROTEUS_DESCRIPTION_CENTRALITY,TODO For (Supernova? Nick?)
 TEXT_PROTEUS_DESCRIPTION_GRUNGER,One of the original twelve Grand Admirals, Grunger wasted no time consolidating his powerbase and making a play for control of the Imperial Remnant once he learned of Palpatine's death. Aggressive and capable, he was one of the main contenders for the Imperial Throne, and his growing strength worried the Central Committee of Grand Moffs and other Imperial warlords.
 TEXT_PROTEUS_DESCRIPTION_PRAJI,After conquering his ancient family home world of Kaikielius, Nahdonnis Praji met with the reborn Emperor Palpatine in person for the first time, and upon experiencing the Emperor's apparent madness first hand, decided to retire to governorship of the planet. This saved him from the immolation of the Dark Empire shortly thereafter, but left him and his new fiefdom isolated as a resurgent New Republic and vengeful Imperial warlords all laid claim to the core and deep core regions.
 TEXT_PROTEUS_DESCRIPTION_REBORN,The Imperial Procurator of Justice, Lord Hethrir, went underground following the Imperial defeat at Endor, building a network of support in the shadows. After Palpatine's final death, he rechristened his faction 'Empire Reborn' and worked with the Dark Jedi Desann and Admiral Galak Fyyar in creating a new army of force-using soldiers to unleash upon the galaxy.
@@ -715,6 +714,7 @@ TEXT_TOOLTIP_COMMAND_AMBITION,Executor Star Dreadnought, Ambition
 TEXT_TOOLTIP_COMMAND_BADMOTORFINGER,Communications Battlecruiser, Badmotorfinger
 TEXT_TOOLTIP_COMMAND_BLACKHOLESUN,Communications Battlecruiser, Black Hole Sun
 TEXT_TOOLTIP_COMMAND_BLITZ,Modified Victory-II Star Destroyer, Blitz
+TEXT_TOOLTIP_COMMAND_BULWARK,Imperial-II Star Destroyer, Bulwark
 TEXT_TOOLTIP_COMMAND_DREAM_OF_A_QUIET_LIFE,Bou'Halec Star Dreadnought, Dream of a Quiet Life
 TEXT_TOOLTIP_COMMAND_FROSTFIRE,Modified Ascendancy Star Destroyer, Frostfire
 TEXT_TOOLTIP_COMMAND_GREED,Imperial-II Star Destroyer, Greed
@@ -1307,6 +1307,7 @@ TEXT_TOOLTIP_TAXEVADER,fxXTaxEvaderXx was the director of Project Proteus. Follo
 TEXT_TOOLTIP_TAXEVADER_UPGRADE,Upgrade: Modified Bou'Halec
 TEXT_TOOLTIP_TEZRIN,Dongal Tezrin was the captain of the light cruiser Rintonne's Flame. He was assigned to patrol the Elrood sector during the Galactic Civil War. He was known to be a very irritable person.
 TEXT_TOOLTIP_THARKUS,Once a highly respected Imperial High Admiral, Tharkus remained fiercely loyal to the Empire after Endor. Disgusted by politicians seeking peace with the New Republic, he abandoned the Imperial government and became a Warlord determined to continue the war himself. Shrewd and calculating, Tharkus relied on a select few, including the shape-shifting Dioskouroi, Pollux and Kastor, while seeking the legendary Heart of the Jedi to seize control of the Empire.
+TEXT_TOOLTIP_THARKUS_MISSILETIE_RESEARCH,Equips TIE Fighters with missile launchers, significantly improving their firepower against enemy targets without sacrificing existing performance.
 TEXT_TOOLTIP_THETA_SQUADRON,TIE Bombers of the Theta Squadron, known for its effectiveness of well timed bombing runs both in space and land engagement. It was under command of Lumiya, Dark Lady of the Sith, following the decimation of her fleet in the Nagai–Tof War and assigned to EF76 Nebulon-B escort frigate "Revenant". Theta Squadron participated in the assault led by Lumiya on the Communications Research space station Epsilon Nine.
 TEXT_TOOLTIP_THORN_HEALTH,Health: 200 [2%/5s] (Hero)
 TEXT_TOOLTIP_THORN_MOVE,Speed: 1.5
@@ -1610,6 +1611,7 @@ TEXT_UNIT_STARWING_FIGHTER,Xg-1 Star Wing Fighter
 TEXT_UNIT_STORMTROOPER_HWT_COMPANY,Stormtrooper Weapons Specialist Platoon
 TEXT_UNIT_STRIKE_CRUISER_ZETA,Strike Cruiser Zeta Two Refit
 TEXT_UNIT_TAPANI_ASSAULT_FRIGATE,Tapani Assault Frigate
+TEXT_UNIT_THARKUS_MISSILETIE,Missile TIE Research
 TEXT_UNIT_THETA_ASSAULT_SHUTTLE,Theta Assault Shuttle
 TEXT_UNIT_TIE_AVENGER_ASSAULT,Assault TIE Avenger
 TEXT_UNIT_TIE_AVENGER_BOMBER,TIE Avenger Bomber

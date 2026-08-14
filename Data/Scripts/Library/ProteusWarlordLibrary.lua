@@ -1420,7 +1420,7 @@ return {
 
 
 				-- Dummies
-				"Tharkus_Ambition_Dummy"
+				"Tharkus_Ambition_Dummy", "Tharkus_Research_MissileTie",
 			},
 			LastYear = 4,
 			FactionOverride = "Empire",
