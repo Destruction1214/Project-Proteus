@@ -1371,9 +1371,9 @@ TEXT_TOOLTIP_VCX820,The VCX-820 was a heavy yet fast flying-guns platform that w
 TEXT_TOOLTIP_VECTOR,A rare variant of the Victory-Class Star Destroyer that modifies the design in a similar way the Tector-Class modified the Imperator hull; with increased armor, no fighter launch bay, and a mission loadout much more focused on direct-ship-to-ship combat than the broad assignment profile of most Imperial capital ships. However, unlike the Tector modifying the Imperial I hull, the Vector uses the Victory II's hull as its base, inheriting the model's speed and focus on energy weapons instead of munitions. Although developed shortly after the Clone Wars, the design remained obscure, languishing in deep core reserve fleets until the campaigns of the Reborn Emperor. Very strong at engaging most types of capital ships, and boasts a sizable anti-fighter defense grid, but lacks the offensive versatility of the other variants.
 TEXT_TOOLTIP_VECTOR_HULL,Hull: 4000 (Heavy Frigate)
 TEXT_TOOLTIP_VECTOR_SHIELD,Shields: 4000 / [50/R] (Heavy Frigate)
-TEXT_TOOLTIP_VECTOR_WEAPON1,4x Medium Quad Turbolaser 2 / 2.0s /6.2km
-TEXT_TOOLTIP_VECTOR_WEAPON2,4x Medium Turbolaser 2 / 1.0s / 6.2km
-TEXT_TOOLTIP_VECTOR_WEAPON3,3x Heavy Quad Laser Cannon 2 / 1.0s / 4.7km
+TEXT_TOOLTIP_VECTOR_WEAPON1,4x Medium Quad Turbolasers 2 / 2.0s /6.2km
+TEXT_TOOLTIP_VECTOR_WEAPON2,4x Medium Turbolasers 2 / 1.0s / 6.2km
+TEXT_TOOLTIP_VECTOR_WEAPON3,3x Heavy Quad Laser Cannons 2 / 1.0s / 4.7km
 TEXT_TOOLTIP_VENATOR_8X,A refit of the iconic Venator Star Destroyer. This variant sacrifices the original's large fighter wing for more abundant and heavier weaponry, making it more effective in ship to ship combat.
 TEXT_TOOLTIP_VENATOR_8X_MOVE,Speed: 4.0 | Accel: 0.2 | Turn: 0.4
 TEXT_TOOLTIP_VENATOR_8X_SHIELD,Shields: 2600 / [26/R] (Heavy Frigate)

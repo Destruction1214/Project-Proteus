@@ -1413,6 +1413,11 @@ return {
 				"Imperial_I_Star_Destroyer", "Imperial_II_Star_Destroyer", "Interdictor_Star_Destroyer",
 				"Allegiance_Battlecruiser", "Bellator_Star_Dreadnought",
 				-- Ground
+				"Imperial_Navy_Trooper_Company", "Army_Special_Missions_Company", "64_Y_Swift_Repulsorlift_Sled_Company",
+				"Imperial_ULAV_Company", "RTT_Company", "Imperial_ISP_Company", 
+				"Swift_Assault_5_Company", "Imperial_Missile_Artillery_Company", "Imperial_UT_AA_Company", "Imperial_LAAT_Company",
+				"Imperial_A5_Juggernaut_Company", "PX4_Company",
+
 
 				-- Dummies
 				"Tharkus_Ambition_Dummy"
