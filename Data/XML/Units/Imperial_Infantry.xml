@@ -11692,7 +11692,7 @@
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_FAUX_STORMTROOPER
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		TEXT_TOOLTIP_FAUX_STORMTROOPER_HEALTH
+		TEXT_TOOLTIP_STORMTROOPER_HEALTH
 		TEXT_TOOLTIP_NAVYTROOPER_MOVE
 		TEXT_TOOLTIP_NAVYTROOPER_WEAP1
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
@@ -11731,7 +11731,7 @@
 		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
 
 		<Armor_Type> ArmourG_Infantry </Armor_Type>
-		<Tactical_Health>18</Tactical_Health>
+		<Tactical_Health>20</Tactical_Health>
 		<Surface_Type_Cover_Damage_Shield>.5</Surface_Type_Cover_Damage_Shield>
 
 		<Damage>0.6</Damage>
@@ -11925,7 +11925,7 @@
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_FAUX_STORMTROOPER
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		TEXT_TOOLTIP_FAUX_STORMTROOPER_HEALTH
+		TEXT_TOOLTIP_STORMTROOPER_HEALTH
 		TEXT_TOOLTIP_NAVYTROOPER_MOVE
 		TEXT_TOOLTIP_NAVYTROOPER_WEAP1
 		TEXT_TOOLTIP_NAVYTROOPER_WEAP2
@@ -11959,13 +11959,13 @@
 		<Variant_Of_Existing_Type>Faux_Stormtrooper</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_FAUX_STORMTROOPER_SERGEANT</Text_ID>
 
-		<Tactical_Health>20</Tactical_Health>
+		<Tactical_Health>25</Tactical_Health>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_FAUX_STORMTROOPER
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
 		TEXT_TOOLTIP_FAUX_STORMTROOPER_SERGEANT_HEALTH
 		TEXT_TOOLTIP_NAVYTROOPER_MOVE
-		TEXT_TOOLTIP_NAVYTROOPER_WEAP1
+		TEXT_TOOLTIP_ARMYTROOPER_WEAP5
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
@@ -11982,5 +11982,77 @@
 		</Land_Terrain_Model_Mapping>
 
        	<Highlight_Blob_Material_Name>Highlight_Infantry_SGT</Highlight_Blob_Material_Name>
+
+		<HardPoints>HP_Equalizer_Ion</HardPoints>
+		<Targeting_Max_Attack_Distance>375.0</Targeting_Max_Attack_Distance>
+
+		<CategoryMask>Infantry | AntiVehicle</CategoryMask>
+
+        <Highlight_Blob_Material_Name>Highlight_Infantry_Rocket</Highlight_Blob_Material_Name>
+		
+		<Targeting_Priority_Set> AntiVehicle </Targeting_Priority_Set>
+	</GroundInfantry>
+
+	<GroundInfantry Name="Faux_Stormtrooper_Gunner_Light">
+		<Variant_Of_Existing_Type>Faux_Stormtrooper</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_FAUX_STORMTROOPER_GUNNER_LIGHT</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_FAUX_STORMTROOPER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_STORMTROOPER_HEALTH
+		TEXT_TOOLTIP_STORMTROOPER_MOVE
+		TEXT_TOOLTIP_ARMYTROOPER_WEAP2
+		TEXT_TOOLTIP_ARMYTROOPER_WEAP2A
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+
+		<Land_Model_Name>Stormtrooper_Weap.ALO</Land_Model_Name>
+		<Land_Terrain_Model_Mapping>
+			Temperate, 			Stormtrooper_Weap.ALO,
+			Urban, 				Stormtrooper_Weap.ALO,
+			Arctic, 			Snowtrooper_Weap.ALO,
+			Volcanic, 			Radtrooper_Weap.ALO,
+			Desert, 			Sandtrooper_Weap.ALO,
+			Forest, 			CamoStormtrooper_Weap.ALO,
+			Swamp, 				CamoSwampStormtrooper_Weap.ALO
+		</Land_Terrain_Model_Mapping>
+		<Land_Model_Anim_Override_Name>TrainedInfantry.alo</Land_Model_Anim_Override_Name>
+
+		<HardPoints> HP_Imperial_Heavy_Repeater_LMG, HP_ImpHeavyRep_Concussion </HardPoints>
+
+        <Highlight_Blob_Material_Name>Highlight_Infantry_Gunner</Highlight_Blob_Material_Name>
+	</GroundInfantry>
+
+	<GroundInfantry Name="Faux_Stormtrooper_Gunner_Flechette">
+		<Variant_Of_Existing_Type>Faux_Stormtrooper</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_FAUX_STORMTROOPER_GUNNER_LIGHT</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_FAUX_STORMTROOPER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_STORMTROOPER_HEALTH
+		TEXT_TOOLTIP_STORMTROOPER_MOVE
+		TEXT_TOOLTIP_ARMYTROOPER_WEAP3
+		TEXT_TOOLTIP_ARMYTROOPER_WEAP3A
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+
+		<Land_Model_Name>Stormtrooper_Weap.ALO</Land_Model_Name>
+		<Land_Terrain_Model_Mapping>
+			Temperate, 			Stormtrooper_Weap.ALO,
+			Urban, 				Stormtrooper_Weap.ALO,
+			Arctic, 			Snowtrooper_Weap.ALO,
+			Volcanic, 			Radtrooper_Weap.ALO,
+			Desert, 			Sandtrooper_Weap.ALO,
+			Forest, 			CamoStormtrooper_Weap.ALO,
+			Swamp, 				CamoSwampStormtrooper_Weap.ALO
+		</Land_Terrain_Model_Mapping>
+		<Land_Model_Anim_Override_Name>TrainedInfantry.alo</Land_Model_Anim_Override_Name>
+
+		<HardPoints>HP_FC1, HP_FC1_Extra</HardPoints>
+		<Targeting_Max_Attack_Distance>400.0</Targeting_Max_Attack_Distance>
+
+        <Highlight_Blob_Material_Name>Highlight_Infantry_Rocket</Highlight_Blob_Material_Name>
 	</GroundInfantry>
 </Imperial_Infantry_Collective>

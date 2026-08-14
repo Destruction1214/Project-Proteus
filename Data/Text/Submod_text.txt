@@ -821,17 +821,25 @@ TEXT_TOOLTIP_ETA2_DEFENSIVE,Variant of the Eta-2 introduced at some point after 
 TEXT_TOOLTIP_ETA2_MANEUVER,The first variant of the Eta-2, introduced just a few months after the stock model. The High Maneuver variant is equipped with a stripped down hull to allow for the already impressive maneuverability to be greatly improved. Due to the nature of the modifications, this variant is less durable than other Eta-2 models. 
 TEXT_TOOLTIP_ETA2_MISSILE,Uncommon variant of the Eta-2 that replaces the ion cannons with anti-fighter concussion missile launchers. Fighters of this type could be seen being flown by Clone Pilots during the Clone Wars throughout the end of the war, notably at Mygeeto, Kashyyyk and Felucia.
 TEXT_TOOLTIP_FAUX_STORMTROOPER,Mercenaries or soldiers from other branches of the Imperial military wearing salvaged or stolen Stormtrooper armor for intimidation or legitimacy. While the armor itself has its benefits, wearing it without undergoing the grueling training and conditioning of the Stormtrooper program does not make a soldier a real Stormtrooper. As a result, these troopers are merely expensive line infantry, often used for ceremonial, enforcement or bodyguard duties and propaganda rather than open warfare.
-TEXT_TOOLTIP_FAUX_STORMTROOPER_COMPANY,Company: 1x Stormtrooper Sergeant, 44x Faux Stormtrooper
-TEXT_TOOLTIP_FAUX_STORMTROOPER_COMPANY_WEAP1,44x Blaster Carbine: 3 / 1.25s / 220m
-TEXT_TOOLTIP_FAUX_STORMTROOPER_COMPANY_WEAP2,1x T-21 Repeating Blaster: 5 / 1.0s / 240m
-TEXT_TOOLTIP_FAUX_STORMTROOPER_COMPANY_WEAP3,8x Concussion Grenade: 1 / 15.0s / 200m
-TEXT_TOOLTIP_FAUX_STORMTROOPER_HEALTH,Health: 18 (Infantry)
-TEXT_TOOLTIP_FAUX_STORMTROOPER_SERGEANT_HEALTH,Health: 20 (Infantry)
-TEXT_TOOLTIP_FAUX_STORMTROOPER_SQUAD_1,Squad: 1x Stormtrooper Sergeant, 11x Faux Stormtrooper
-TEXT_TOOLTIP_FAUX_STORMTROOPER_SQUAD_2,Squad: 11x Faux Stormtrooper
-TEXT_TOOLTIP_FAUX_STORMTROOPER_SQUAD_WEAP1_1A,11x Blaster Carbine: 3 / 1.25s / 220m
-TEXT_TOOLTIP_FAUX_STORMTROOPER_SQUAD_WEAP1_1B,1x T-21 Repeating Blaster: 5 / 1.0s / 240m
-TEXT_TOOLTIP_FAUX_STORMTROOPER_SQUAD_WEAP1_2,11x Blaster Carbine: 3 / 1.25s / 220m
+TEXT_TOOLTIP_FAUX_STORMTROOPER_AV_SQUAD_WEAP1,7x Blaster Carbine: 3 / 1.25s / 220m
+TEXT_TOOLTIP_FAUX_STORMTROOPER_AV_SQUAD_WEAP2,2x Proton Grenade Launcher (AV): 1 / 10.0s / 240m
+TEXT_TOOLTIP_FAUX_STORMTROOPER_AV_SQUAD_WEAP3,2x Concussion Grenade Launcher (AI): 1 / 10.0s / 240m
+TEXT_TOOLTIP_FAUX_STORMTROOPER_AV_SQUAD_WEAP4,1x Concussion Grenade: 1 / 15.0s / 200m
+TEXT_TOOLTIP_FAUX_STORMTROOPER_COMPANY,Company: 1x Faux Stormtrooper Sergeant, 35x Faux Stormtrooper
+TEXT_TOOLTIP_FAUX_STORMTROOPER_COMPANY_WEAP1,31x Blaster Carbine: 3 / 1.25s / 220m
+TEXT_TOOLTIP_FAUX_STORMTROOPER_COMPANY_WEAP2,1x Portable Ion Cannon: 4 / 10.0s / 320m
+TEXT_TOOLTIP_FAUX_STORMTROOPER_COMPANY_WEAP3,2x Light Repeating Slugthrower: 5 / 1.0s / 240m
+TEXT_TOOLTIP_FAUX_STORMTROOPER_COMPANY_WEAP4,2x Underslung Concussion Rifle: 1 / 3.0s / 240m
+TEXT_TOOLTIP_FAUX_STORMTROOPER_COMPANY_WEAP5,2x Proton Grenade Launcher (AV): 1 / 10.0s / 240m
+TEXT_TOOLTIP_FAUX_STORMTROOPER_COMPANY_WEAP6,2x Concussion Grenade Launcher (AI): 1 / 10.0s / 240m
+TEXT_TOOLTIP_FAUX_STORMTROOPER_COMPANY_WEAP7,7x Concussion Grenade: 1 / 15.0s / 200m
+TEXT_TOOLTIP_FAUX_STORMTROOPER_SERGEANT_HEALTH,Health: 25 (Infantry)
+TEXT_TOOLTIP_FAUX_STORMTROOPER_SQUAD_1,Squad: 1x Faux Stormtrooper Sergeant, 8x Faux Stormtrooper
+TEXT_TOOLTIP_FAUX_STORMTROOPER_SQUAD_2,Squad: 9x Faux Stormtrooper
+TEXT_TOOLTIP_FAUX_STORMTROOPER_SQUAD_WEAP1,8x Blaster Carbine: 3 / 1.25s / 220m
+TEXT_TOOLTIP_FAUX_STORMTROOPER_SQUAD_WEAP1_1B,1x Portable Ion Cannon: 4 / 10.0s / 320m
+TEXT_TOOLTIP_FAUX_STORMTROOPER_SQUAD_WEAP2,1x Light Repeating Slugthrower: 5 / 1.0s / 240m
+TEXT_TOOLTIP_FAUX_STORMTROOPER_SQUAD_WEAP3,1x Underslung Concussion Rifle: 1 / 3.0s / 240m
 TEXT_TOOLTIP_FIELD_BASE_COMMANDO_PROTEUS_ARMY_COMMANDO_DROIDEKA1,Army Commando Squad: 2 / 10
 TEXT_TOOLTIP_FIELD_BASE_COMMANDO_PROTEUS_ARMY_COMMANDO_DROIDEKA2,Q-Series Destroyer Droid: 5 / 25
 TEXT_TOOLTIP_FIELD_BASE_COMMANDO_PROTEUS_ARMY_COMMANDO_FLEET_COMMANDO1,Army Commando Squad: 2 / 10
@@ -1464,6 +1472,8 @@ TEXT_UNIT_ETA2_FIGHTER_DEFENSIVE,Heavy Defense Eta-2 Actis Interceptor
 TEXT_UNIT_ETA2_FIGHTER_MANEUVER,High Maneuver Eta-2 Actis Interceptor
 TEXT_UNIT_ETA2_FIGHTER_MISSILE,Missile Eta-2 Actis Interceptor
 TEXT_UNIT_FAUX_STORMTROOPER,Faux Stormtrooper
+TEXT_UNIT_FAUX_STORMTROOPER_AI_SQUAD,Faux Stormtrooper Anti Infantry Squad
+TEXT_UNIT_FAUX_STORMTROOPER_AV_SQUAD,Faux Stormtrooper Anti Vehicle Squad
 TEXT_UNIT_FAUX_STORMTROOPER_GRENADIER,Faux Stormtrooper Grenadier
 TEXT_UNIT_FAUX_STORMTROOPER_PLATOON,Faux Stormtrooper Platoon
 TEXT_UNIT_FAUX_STORMTROOPER_SERGEANT,Faux Stormtrooper Sergeant
