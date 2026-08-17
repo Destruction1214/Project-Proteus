@@ -1189,7 +1189,7 @@ return {
 
 
 				-- Research
-				
+				"Dummy_Research_C_MDHC", "Dummy_Research_C_Hutt",
 			},
 			FactionOverride = "Independent_Forces",
 			StartYear = 4,
@@ -1458,7 +1458,7 @@ return {
 			HeroList = {"Veers_AT_AT_Team","Nyrox_Team","Grath_Stormtrooper_Team"},
 			UnlockList = {
 				-- Space 
-				"Gamma_ATR_6_Group", "Crusader_Gunship", "Lancer_Frigate", "CC7700", "Strike_Cruiser_Light", "Carrack_Cruiser", "Star_Galleon",
+				"Gamma_ATR_6_Group", "Crusader_Gunship", "CC7700", "Strike_Cruiser_Light", "Carrack_Cruiser", "Star_Galleon",
 				"Rep_DHC", "Gladiator_II","Broadside_Cruiser", "Vindicator_Cruiser", "Victory_II_Star_Destroyer", "Proficient_Tender",
 				"Imperial_I_Star_Destroyer", "Imperial_I_Star_Destroyer_Command", "Interdictor_Star_Destroyer",
 				"Sorannan_Star_Destroyer", "Executor_Star_Dreadnought",

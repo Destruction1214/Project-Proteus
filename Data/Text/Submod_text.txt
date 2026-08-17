@@ -55,6 +55,7 @@ TEXT_CONQUEST_PROTEUS_RENDILI,Comeg: I'm glad you could make it, Commander. Thin
 TEXT_CONQUEST_PROTEUS_SHADOW_ACADEMY,Great Leader: You did not think I would be gone, did you? I will always return! Now, there is no time for hesitation! Pledge yourself to me once more, and together we shall crush the rebellion once and for all! You shall lead my armies and my new Dark Knights into battle! Return to your station, my loyal guards will relay further orders soon.
 TEXT_CONQUEST_PROTEUS_THORN,Daymon Thorn: The Emperor is dead, and I shall pick up his crown and place it upon my own head.  With the power of the Korrendum crystals, we shall build a weapon that will surpass even the Death Stars, and with it, we shall overthrow and scatter all that oppose our march. The men who laugh at the Empire's distress, and inwardly rejoice at the triumph of our enemies, will soon be confounded and trembling, for the War Dog of the Empire is on the march. There still remains much to do!
 TEXT_CONQUEST_PROTEUS_VEERS,Veers: Delvardus has been driven out from Eriadu, and while I shed no tears for him, our situation remains bleak. The rebels are still in control of much of the core, and most Imperial holdouts are either unwilling or unworthy of my assistance. For now, we will strike out on our own, Commander. We might be all that is left of the Empire we once served, but I will not surrender it to the rebels without a fight!
+TEXT_CONQUEST_SCREED,WIP
 TEXT_CONQUEST_STORM_COMMANDOS,Victor Strang: The Emperor tasked us with destroying the Rebel scum. His death does nothing to change this directive, but it does require a change in strategy. On this day and planet, a new counter-rebellion will be born.
 TEXT_COYOTE_BOMBER_SQUADRON,Coyote Advanced Droid Bomber Squadron
 TEXT_COYOTE_BOMBER_SQUADRON_HALF,Coyote Advanced Droid Bomber Squadron 1/2
@@ -116,6 +117,7 @@ TEXT_EVENT_WARLORD_CHOICE_LANOX,Imperial Loyalist
 TEXT_EVENT_WARLORD_CHOICE_PRAJI,Imperial Kaikielius
 TEXT_EVENT_WARLORD_CHOICE_REBORN,Empire Reborn
 TEXT_EVENT_WARLORD_CHOICE_RENDILI,Imperial Rendili
+TEXT_EVENT_WARLORD_CHOICE_SCREED,Screed's Empire
 TEXT_EVENT_WARLORD_CHOICE_SHADOW_ACADEMY,Second Imperium
 TEXT_EVENT_WARLORD_CHOICE_STORM_COMMANDOS,Storm Commandos
 TEXT_EVENT_WARLORD_CHOICE_THARKUS,Tharkus's Empire
@@ -212,6 +214,7 @@ TEXT_PROTEUS_DESCRIPTION_GRUNGER,One of the original twelve Grand Admirals, Grun
 TEXT_PROTEUS_DESCRIPTION_PRAJI,After conquering his ancient family home world of Kaikielius, Nahdonnis Praji met with the reborn Emperor Palpatine in person for the first time, and upon experiencing the Emperor's apparent madness first hand, decided to retire to governorship of the planet. This saved him from the immolation of the Dark Empire shortly thereafter, but left him and his new fiefdom isolated as a resurgent New Republic and vengeful Imperial warlords all laid claim to the core and deep core regions.
 TEXT_PROTEUS_DESCRIPTION_REBORN,The Imperial Procurator of Justice, Lord Hethrir, went underground following the Imperial defeat at Endor, building a network of support in the shadows. After Palpatine's final death, he rechristened his faction 'Empire Reborn' and worked with the Dark Jedi Desann and Admiral Galak Fyyar in creating a new army of force-using soldiers to unleash upon the galaxy.
 TEXT_PROTEUS_DESCRIPTION_RENDILI,The core world of Rendili, a center of shipbuilding and military industry, became an Imperial fortress world after the death of the Emperor, successfully holding out even as most of the core was liberated by the New Republic. Following the end of the Reborn Emperor's campaigns, the Imperial forces on Rendili left and the planet joined the New Republic.
+TEXT_PROTEUS_DESCRIPTION_SCREED,WIP
 TEXT_PROTEUS_DESCRIPTION_SHADOW_ACADEMY,The Second Imperium was a hardliner faction within the Imperial Remnant, forming alongside but unaffiliated with the Replacement Warlords of the Deep Core. Originally obscure and unimportant, they surged to momentary prominence after the Pellaeon-Gavrisom-Treaty, decrying the peace accords as surrender and urging the Imperial splinters to make war upon the New Republic. To rally support, four royal guards faked the return of Emperor Palpatine and started the Shadow Academy, a mobile cloaked facility for indoctrinating young force-sensitives into dark jedi, and embarked on a campaign of piracy and sabotage to build up forces to assault the Jedi Praxeum on Yavin IV.  
 TEXT_PROTEUS_DESCRIPTION_STORM_COMMANDOS,Prior to the Battle of Endor, General Weir of the Storm Commandos was placed in charge of an imperial outpost on Tralus which stockpiled weapons and vehicles and projected imperial power over the Corellia system. Amidst the chaos following the Rebellion's victory at Endor, this outpost would serve as a rallying point for the remaining Storm Commandos and as a staging area for terror attacks and insurgent operations against the New Republic and its sympathizers.
 TEXT_PROTEUS_DESCRIPTION_THARKUS,Led by the Imperial hardliner High Admiral Tharkus, this splinter faction emerged from his refusal to accept peace with the New Republic as the Empire fractured after Endor. Distrustful of politicians and civilian leadership, Tharkus gathered loyal military forces and a select group of operatives, including the shapeshifting Dioskouroi, with the goal of continuing the war and seizing control of the Empire for himself by claiming the legendary "Heart of the Jedi".
@@ -645,6 +648,8 @@ TEXT_TOOLTIP_BUILDLIMIT_RED_POLICE,Build Limit: 5 | Total: ∞
 TEXT_TOOLTIP_BUILDLIMIT_ROYAL_GUARD,Build Limit: 5 | Total: ∞
 TEXT_TOOLTIP_BUILDLIMIT_SHADOW_EVO,Build Limit: 5 | Total: ∞
 TEXT_TOOLTIP_BUILDLIMIT_SITH_KNIGHT,Build Limit: 5 | Total: ∞
+TEXT_TOOLTIP_C_HUTT_RESEARCH,By using our economic ties to the Hutt kajidics, we will acquire some of their blueprints to expand and supplement our forces which were significantly weakened by the collapse of central imperial command (Unlocks the Barabbula Frigate and the Tempest Cruiser)
+TEXT_TOOLTIP_C_MDHC_RESEARCH,Replaces the old DHC with a modernised version with a better armament
 TEXT_TOOLTIP_CAPABILITY_ORBITAL_SUPPORT_ELEIAN,Adds Eleian to the reinforcement pool when in orbit. If destroyed, he can be healed and redeployed.
 TEXT_TOOLTIP_CAPABILITY_ORBITAL_SUPPORT_TAX,Adds TaxEvader to the reinforcement pool when in orbit. If defeated, his MPTL can be rebuilt and redeployed.
 TEXT_TOOLTIP_CAPABILITY_X1_UPGRADE,Upgrade: Executor
@@ -1443,6 +1448,8 @@ TEXT_UNIT_BELBULLAB23,Belbullab-23
 TEXT_UNIT_BELBULLAB24,Belbullab-24
 TEXT_UNIT_BRAK_FIGHTERS_RESEARCH,Fighter Modernization Program
 TEXT_UNIT_BTLA2_Y_WING,BTL-A2 Y-wing
+TEXT_UNIT_C_HUTT_RESEARCH,Utilize Hutt Connections
+TEXT_UNIT_C_MDHC_RESEARCH,DHC Modernisation
 TEXT_UNIT_CARRACK_LASERS,Carrack Cruiser (Lasers)
 TEXT_UNIT_CARRACK_ZETA,Carrack Cruiser Zeta One Refit
 TEXT_UNIT_CLASS_C,Class-C Frigate
@@ -1683,6 +1690,3 @@ Z_TEXT_UNIT_GORATH_RESEARCH,Reverse-engineer the Gorath Strike Cruiser
 Z_TEXT_UNIT_MISSILE_BOAT_RESEARCH,Reverse-engineer the Missile Boat
 Z_TEXT_UNIT_MTC_RESEARCH,Reverse-engineer the Modular Taskforce Cruiser
 Z_TEXT_UNIT_SCIMITAR_RESEARCH,Reverse-engineer the Scimitar Assault Bomber
-TEXT_EVENT_WARLORD_CHOICE_SCREED,Screed's Empire
-TEXT_PROTEUS_DESCRIPTION_SCREED,WIP
-TEXT_CONQUEST_SCREED,WIP
