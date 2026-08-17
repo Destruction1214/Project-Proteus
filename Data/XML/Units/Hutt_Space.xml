@@ -688,11 +688,12 @@
 
 	<SpaceUnit Name="Barabbula_Frigate">
 		<Variant_Of_Existing_Type>Template_Barabbula_Frigate</Variant_Of_Existing_Type>
-		<Affiliation> Hutt_Cartels </Affiliation>
+		<Affiliation> Hutt_Cartels, Imperial_Proteus </Affiliation>
 		<Tech_Level>0</Tech_Level>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Special_Structures>
+		Imperial_Proteus_Shipyard_Level_One	| Imperial_Proteus_Shipyard_Level_Two | Imperial_Proteus_Shipyard_Level_Three | Imperial_Proteus_Shipyard_Level_Four |
 		Hutt_Shipyard_Level_One | Hutt_Shipyard_Level_Two | Hutt_Shipyard_Level_Three | Hutt_Shipyard_Level_Four,
 		AI_Category_Dummy | Non_Capital_Category_Dummy
 		</Required_Special_Structures>
@@ -1080,12 +1081,13 @@
 
 	<SpaceUnit Name="Tempest_Cruiser">
 		<Variant_Of_Existing_Type>Template_Tempest_Cruiser</Variant_Of_Existing_Type>
-		<Affiliation>Hutt_Cartels</Affiliation>
+		<Affiliation>Hutt_Cartels, Imperial_Proteus</Affiliation>
 		<Tech_Level>0</Tech_Level>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Special_Structures>
+		Imperial_Proteus_Shipyard_Level_Two | Imperial_Proteus_Shipyard_Level_Three |
 		Hutt_Shipyard_Level_Two | Hutt_Shipyard_Level_Three | Hutt_Shipyard_Level_Four,
 		AI_Category_Dummy | Non_Capital_Category_Dummy
 		</Required_Special_Structures>
