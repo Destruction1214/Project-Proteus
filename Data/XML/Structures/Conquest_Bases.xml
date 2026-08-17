@@ -2009,9 +2009,9 @@
 				UC_Hutt_Cartels_Field_Military_Base,
 				UC_Hutt_Cartels_Field_Support_Base,
 			Imperial_Proteus, 
-				UC_Proteus_Special_Missions_Field_Military_Base, 
-				UC_Imperial_Proteus_Field_Support_Base, 
-				UC_Imperial_Proteus_Field_Commando_Base,
+				UC_Proteus_Special_Missions_HalfnHalf_Field_Military_Base, 
+				UC_Proteus_Special_Missions_Engineer_Army_Medic_Field_Support_Base, 
+				UC_Proteus_Army_Commando_64Y_Field_Scout_Base,
 		</Tactical_Buildable_Objects_Campaign>
 
 	</Tactical_Capturable>
@@ -2223,9 +2223,9 @@
 				UC_Hutt_Cartels_Field_Military_Base,
 				UC_Hutt_Cartels_Field_Support_Base,
 			Imperial_Proteus, 
-				UC_Proteus_Special_Missions_Compforce_Field_Military_Base, 
+				UC_Proteus_Special_Missions_Stormtrooper_Carbine_Field_Military_Base, 
 				UC_Proteus_Special_Missions_Army_Medic_Field_Support_Base, 
-				UC_Proteus_ISB_Field_Commando_Base,
+				UC_Proteus_ISB_Sniper_Field_Commando_Base,
 		</Tactical_Buildable_Objects_Campaign>
 
 	</Tactical_Capturable>
@@ -2542,9 +2542,9 @@
 				UC_Hutt_Cartels_Field_Military_Base,
 				UC_Hutt_Cartels_Field_Support_Base,
 			Imperial_Proteus, 
-				UC_Proteus_Stormtrooper_Galactic_Marine_Field_Military_Base, 
-				UC_Proteus_Stormtrooper_Medium_Army_Medic_Field_Support_Base, 
-				UC_Imperial_Proteus_Field_Commando_Base,
+				UC_Proteus_Stormtrooper_HWT_Field_Military_Base, 
+				UC_Empire_Field_Support_Base, 
+				UC_Proteus_EVO_Field_Commando_Base,
 		</Tactical_Buildable_Objects_Campaign>
 
 	</Tactical_Capturable>
@@ -2595,9 +2595,9 @@
 				UC_Hutt_Cartels_Field_Military_Base,
 				UC_Hutt_Cartels_Field_Support_Base,
 			Imperial_Proteus, 
-				UC_Proteus_PDF_Tactical_Field_Commando_Base, 
-				UC_Proteus_Army_Medium_Corporate_Security_Field_Support_Base, 
-				UC_Proteus_Standard_Field_Mercenary_Base,
+				UC_Proteus_Local_Military_PDF_Heavy_Military_Base, 
+				UC_Proteus_Local_Military_SD6_Field_Support_Base, 
+				UC_Proteus_SD_10_Field_Commando_Base,
 		</Tactical_Buildable_Objects_Campaign>
 
 	</Tactical_Capturable>
@@ -2648,9 +2648,9 @@
 				UC_Hutt_Cartels_Field_Military_Base,
 				UC_Hutt_Cartels_Field_Support_Base,
 			Imperial_Proteus, 
-				UC_Proteus_Stormtrooper_Faux_Stormtrooper_Field_Military_Base, 
-				UC_Imperial_Proteus_Field_Support_Base, 
-				UC_Imperial_Proteus_Field_Commando_Base,
+				UC_Empire_Field_Military_Base, 
+				UC_Proteus_Navy_Medic_Stormtrooper_Field_Support_Base, 
+				UC_Proteus_Reborn_Dark_Jedi_Field_Commando_Base,
 		</Tactical_Buildable_Objects_Campaign>
 
 	</Tactical_Capturable>
@@ -2967,9 +2967,10 @@
 				UC_Hutt_Cartels_Field_Military_Base,
 				UC_Hutt_Cartels_Field_Support_Base,
 			Imperial_Proteus, 
-				UC_Proteus_Army_Guard_Field_Military_Base, 
-				UC_Proteus_Army_Guard_Field_Support_Base, 
-				UC_Proteus_Fleet_Commando_Field_Commando_Base,
+				UC_Proteus_Local_Military_Army_AV_Military_Base, 
+				UC_Imperial_Proteus_Field_Support_Base, 
+				UC_Proteus_PDF_Tactical_Army_Commando_Field_Commando_Base,
+				UC_Proteus_Scout_Sniper_64Y_Field_Scout_Base,
 		</Tactical_Buildable_Objects_Campaign>
 
 	</Tactical_Capturable>
@@ -5501,6 +5502,298 @@
         <Spawned_Squadron_Delay_Seconds>30.0</Spawned_Squadron_Delay_Seconds>
 	</Marker>
 
+	<!-- Proteus Army Special Missions 50/50 Military FB  -->
+	<GroundBuildable Name="UC_Proteus_Special_Missions_HalfnHalf_Field_Military_Base">
+		<Variant_Of_Existing_Type>UC_Imperial_Proteus_Field_Military_Base</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_FIELD_BASE_MILITARY</Text_ID>
+		<Encyclopedia_Text> 
+			TEXT_TOOLTIP_FIELD_BASE_MILITARY
+			TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+			TEXT_TOOLTIP_FIELD_BASE_HEALTH
+			TEXT_TOOLTIP_SEPARATOR_GARRISON_BLOCK
+			TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_ARMY_SPECIAL_MISSIONS_HALFNHALF1
+			TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_ARMY_SPECIAL_MISSIONS_HALFNHALF2
+		</Encyclopedia_Text>
+		<Tactical_Buildable_Constructed> Proteus_Special_Missions_HalfnHalf_Field_Military_Base </Tactical_Buildable_Constructed>
+
+		<Tactical_Build_Cost_Multiplayer> 300 </Tactical_Build_Cost_Multiplayer>
+		<Terrain_Texture_Modifier_Square>false</Terrain_Texture_Modifier_Square>
+
+		<Obstacle_Proxy_Type> Bunker_Pad </Obstacle_Proxy_Type>
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Icon_Name>I_BUTTON_EV_BUNKER.tga</Icon_Name>
+
+	</GroundBuildable>
+
+	<SpecialStructure Name="Proteus_Special_Missions_HalfnHalf_Field_Military_Base">
+		<Variant_Of_Existing_Type>Garrison_Bunker_Template</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_EV_BUNKER.tga</Icon_Name>
+		<Text_ID>TEXT_FIELD_BASE_MILITARY</Text_ID>
+		<Encyclopedia_Text> 
+			TEXT_TOOLTIP_FIELD_BASE_MILITARY
+			TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+			TEXT_TOOLTIP_FIELD_BASE_HEALTH
+			TEXT_TOOLTIP_SEPARATOR_GARRISON_BLOCK
+			TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_ARMY_SPECIAL_MISSIONS_HALFNHALF1
+			TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_ARMY_SPECIAL_MISSIONS_HALFNHALF2
+		</Encyclopedia_Text>
+		<Land_Model_Name>EB_TestBunker.alo</Land_Model_Name>
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Scale_Factor>1.0</Scale_Factor>
+        <Garrison_Radius>10</Garrison_Radius>
+		<Num_Garrison_Slots>0</Num_Garrison_Slots>
+		
+		<Tactical_Health>350</Tactical_Health>
+		
+		<LandBehavior> SPAWN_SQUADRON, REVEAL, SELECTABLE, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, EARTHQUAKE_TARGET, UNIT_AI</LandBehavior>
+
+		<Starting_Spawned_Units_Tech_0>Proteus_Special_Missions_HalfnHalf_Field_Military, 1</Starting_Spawned_Units_Tech_0>
+
+		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
+		<Spawned_Squadron_Location_Bones>B_GARRISON_03</Spawned_Squadron_Location_Bones>
+		<Spawned_Squadron_Location_Flyout_Distances>40.0</Spawned_Squadron_Location_Flyout_Distances>
+		<Spawn_Garrison_On_Load>True</Spawn_Garrison_On_Load>
+
+	</SpecialStructure>
+
+	<Marker Name="Proteus_Special_Missions_HalfnHalf_Field_Military">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Galactic_Model_Name/>
+		<Space_Model_Name>W_LASER_INVISIBLE.ALO</Space_Model_Name>
+		<Land_Model_Name>W_LASER_INVISIBLE.ALO</Land_Model_Name>
+		<Behavior></Behavior>
+		<LandBehavior>SPAWN_SQUADRON</LandBehavior>
+		<Lua_Script>FieldBaseSpawner</Lua_Script>
+		<Is_Discardable>false</Is_Discardable>
+		<Affiliation>Neutral</Affiliation>
+		<Scale_Factor>0.1</Scale_Factor>
+        
+		<Starting_Spawned_Units_Tech_0>Army_Special_Missions_Heavy_Squad, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Army_Special_Missions_Heavy_Squad, 10</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Army_Special_Missions_Weapons_Squad, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Army_Special_Missions_Weapons_Squad, 10</Reserve_Spawned_Units_Tech_0>
+        <Spawned_Squadron_Delay_Seconds>30.0</Spawned_Squadron_Delay_Seconds>
+	</Marker>
+
+	<!-- Proteus Army Special Missions / Stormtrooper Carabineer Military FB  -->
+	<GroundBuildable Name="UC_Proteus_Special_Missions_Stormtrooper_Carbine_Field_Military_Base">
+		<Variant_Of_Existing_Type>UC_Imperial_Proteus_Field_Military_Base</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_FIELD_BASE_MILITARY</Text_ID>
+		<Encyclopedia_Text> 
+			TEXT_TOOLTIP_FIELD_BASE_MILITARY
+			TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+			TEXT_TOOLTIP_FIELD_BASE_HEALTH
+			TEXT_TOOLTIP_SEPARATOR_GARRISON_BLOCK
+			TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_ARMY_SPECIAL_MISSIONS_STORMTROOPER_CARBINE1
+			TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_ARMY_SPECIAL_MISSIONS_STORMTROOPER_CARBINE2
+		</Encyclopedia_Text>
+		<Tactical_Buildable_Constructed> Proteus_Special_Missions_Stormtrooper_Carbine_Field_Military_Base </Tactical_Buildable_Constructed>
+
+		<Tactical_Build_Cost_Multiplayer> 300 </Tactical_Build_Cost_Multiplayer>
+		<Terrain_Texture_Modifier_Square>false</Terrain_Texture_Modifier_Square>
+
+		<Obstacle_Proxy_Type> Bunker_Pad </Obstacle_Proxy_Type>
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Icon_Name>I_BUTTON_EV_BUNKER.tga</Icon_Name>
+
+	</GroundBuildable>
+
+	<SpecialStructure Name="Proteus_Special_Missions_Stormtrooper_Carbine_Field_Military_Base">
+		<Variant_Of_Existing_Type>Garrison_Bunker_Template</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_EV_BUNKER.tga</Icon_Name>
+		<Text_ID>TEXT_FIELD_BASE_MILITARY</Text_ID>
+		<Encyclopedia_Text> 
+			TEXT_TOOLTIP_FIELD_BASE_MILITARY
+			TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+			TEXT_TOOLTIP_FIELD_BASE_HEALTH
+			TEXT_TOOLTIP_SEPARATOR_GARRISON_BLOCK
+			TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_ARMY_SPECIAL_MISSIONS_STORMTROOPER_CARBINE1
+			TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_ARMY_SPECIAL_MISSIONS_STORMTROOPER_CARBINE2
+		</Encyclopedia_Text>
+		<Land_Model_Name>EB_TestBunker.alo</Land_Model_Name>
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Scale_Factor>1.0</Scale_Factor>
+        <Garrison_Radius>10</Garrison_Radius>
+		<Num_Garrison_Slots>0</Num_Garrison_Slots>
+		
+		<Tactical_Health>350</Tactical_Health>
+		
+		<LandBehavior> SPAWN_SQUADRON, REVEAL, SELECTABLE, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, EARTHQUAKE_TARGET, UNIT_AI</LandBehavior>
+
+		<Starting_Spawned_Units_Tech_0>Proteus_Special_Missions_Stormtrooper_Carbine_Field_Military, 1</Starting_Spawned_Units_Tech_0>
+
+		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
+		<Spawned_Squadron_Location_Bones>B_GARRISON_03</Spawned_Squadron_Location_Bones>
+		<Spawned_Squadron_Location_Flyout_Distances>40.0</Spawned_Squadron_Location_Flyout_Distances>
+		<Spawn_Garrison_On_Load>True</Spawn_Garrison_On_Load>
+
+	</SpecialStructure>
+
+	<Marker Name="Proteus_Special_Missions_Stormtrooper_Carbine_Field_Military">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Galactic_Model_Name/>
+		<Space_Model_Name>W_LASER_INVISIBLE.ALO</Space_Model_Name>
+		<Land_Model_Name>W_LASER_INVISIBLE.ALO</Land_Model_Name>
+		<Behavior></Behavior>
+		<LandBehavior>SPAWN_SQUADRON</LandBehavior>
+		<Lua_Script>FieldBaseSpawner</Lua_Script>
+		<Is_Discardable>false</Is_Discardable>
+		<Affiliation>Neutral</Affiliation>
+		<Scale_Factor>0.1</Scale_Factor>
+        
+		<Starting_Spawned_Units_Tech_0>Army_Special_Missions_Heavy_Squad, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Army_Special_Missions_Heavy_Squad, 10</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Imperial_Stormtrooper_Assault_Squad, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Imperial_Stormtrooper_Assault_Squad, 10</Reserve_Spawned_Units_Tech_0>
+        <Spawned_Squadron_Delay_Seconds>30.0</Spawned_Squadron_Delay_Seconds>
+	</Marker>
+
+	<!-- Proteus Stormtrooper HWT Military FB  -->
+	<GroundBuildable Name="UC_Proteus_Stormtrooper_HWT_Field_Military_Base">
+		<Variant_Of_Existing_Type>UC_Imperial_Proteus_Field_Military_Base</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_FIELD_BASE_MILITARY</Text_ID>
+		<Encyclopedia_Text> 
+			TEXT_TOOLTIP_FIELD_BASE_MILITARY
+			TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+			TEXT_TOOLTIP_FIELD_BASE_HEALTH
+			TEXT_TOOLTIP_SEPARATOR_GARRISON_BLOCK
+			TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_STORMTROOPER_HWT1
+			TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_STORMTROOPER_HWT2
+		</Encyclopedia_Text>
+		<Tactical_Buildable_Constructed> Proteus_Stormtrooper_HWT_Field_Military_Base </Tactical_Buildable_Constructed>
+
+		<Tactical_Build_Cost_Multiplayer> 300 </Tactical_Build_Cost_Multiplayer>
+		<Terrain_Texture_Modifier_Square>false</Terrain_Texture_Modifier_Square>
+
+		<Obstacle_Proxy_Type> Bunker_Pad </Obstacle_Proxy_Type>
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Icon_Name>I_BUTTON_EV_BUNKER.tga</Icon_Name>
+
+	</GroundBuildable>
+
+	<SpecialStructure Name="Proteus_Stormtrooper_HWT_Field_Military_Base">
+		<Variant_Of_Existing_Type>Garrison_Bunker_Template</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_EV_BUNKER.tga</Icon_Name>
+		<Text_ID>TEXT_FIELD_BASE_MILITARY</Text_ID>
+		<Encyclopedia_Text> 
+			TEXT_TOOLTIP_FIELD_BASE_MILITARY
+			TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+			TEXT_TOOLTIP_FIELD_BASE_HEALTH
+			TEXT_TOOLTIP_SEPARATOR_GARRISON_BLOCK
+			TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_STORMTROOPER_HWT1
+			TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_STORMTROOPER_HWT2
+		</Encyclopedia_Text>
+		<Land_Model_Name>EB_TestBunker.alo</Land_Model_Name>
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Scale_Factor>1.0</Scale_Factor>
+        <Garrison_Radius>10</Garrison_Radius>
+		<Num_Garrison_Slots>0</Num_Garrison_Slots>
+		
+		<Tactical_Health>350</Tactical_Health>
+		
+		<LandBehavior> SPAWN_SQUADRON, REVEAL, SELECTABLE, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, EARTHQUAKE_TARGET, UNIT_AI</LandBehavior>
+
+		<Starting_Spawned_Units_Tech_0>Proteus_Stormtrooper_HWT_Field_Military, 1</Starting_Spawned_Units_Tech_0>
+
+		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
+		<Spawned_Squadron_Location_Bones>B_GARRISON_03</Spawned_Squadron_Location_Bones>
+		<Spawned_Squadron_Location_Flyout_Distances>40.0</Spawned_Squadron_Location_Flyout_Distances>
+		<Spawn_Garrison_On_Load>True</Spawn_Garrison_On_Load>
+
+	</SpecialStructure>
+
+	<Marker Name="Proteus_Stormtrooper_HWT_Field_Military">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Galactic_Model_Name/>
+		<Space_Model_Name>W_LASER_INVISIBLE.ALO</Space_Model_Name>
+		<Land_Model_Name>W_LASER_INVISIBLE.ALO</Land_Model_Name>
+		<Behavior></Behavior>
+		<LandBehavior>SPAWN_SQUADRON</LandBehavior>
+		<Lua_Script>FieldBaseSpawner</Lua_Script>
+		<Is_Discardable>false</Is_Discardable>
+		<Affiliation>Neutral</Affiliation>
+		<Scale_Factor>0.1</Scale_Factor>
+        
+		<Starting_Spawned_Units_Tech_0>Imperial_Stormtrooper_Medium_Squad, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Imperial_Stormtrooper_Medium_Squad, 10</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Imperial_Stormtrooper_HWT_Squad, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Imperial_Stormtrooper_HWT_Squad, 10</Reserve_Spawned_Units_Tech_0>
+        <Spawned_Squadron_Delay_Seconds>30.0</Spawned_Squadron_Delay_Seconds>
+	</Marker>
+
+	<!-- Proteus Local Military / Army Trooper AV Military FB  -->
+	<GroundBuildable Name="UC_Proteus_Local_Military_Army_AV_Military_Base">
+		<Variant_Of_Existing_Type>UC_Imperial_Proteus_Field_Military_Base</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_FIELD_BASE_MILITARY</Text_ID>
+		<Encyclopedia_Text> 
+			TEXT_TOOLTIP_FIELD_BASE_MILITARY
+			TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+			TEXT_TOOLTIP_FIELD_BASE_HEALTH
+			TEXT_TOOLTIP_SEPARATOR_GARRISON_BLOCK
+			TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_LOCAL_MILITARY_ARMY_AV1
+			TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_LOCAL_MILITARY_ARMY_AV2
+		</Encyclopedia_Text>
+		<Tactical_Buildable_Constructed> Proteus_Local_Military_Army_AV_Military_Base </Tactical_Buildable_Constructed>
+
+		<Tactical_Build_Cost_Multiplayer> 300 </Tactical_Build_Cost_Multiplayer>
+		<Terrain_Texture_Modifier_Square>false</Terrain_Texture_Modifier_Square>
+
+		<Obstacle_Proxy_Type> Bunker_Pad </Obstacle_Proxy_Type>
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Icon_Name>I_BUTTON_EV_BUNKER.tga</Icon_Name>
+
+	</GroundBuildable>
+
+	<SpecialStructure Name="Proteus_Local_Military_Army_AV_Military_Base">
+		<Variant_Of_Existing_Type>Garrison_Bunker_Template</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_EV_BUNKER.tga</Icon_Name>
+		<Text_ID>TEXT_FIELD_BASE_MILITARY</Text_ID>
+		<Encyclopedia_Text> 
+			TEXT_TOOLTIP_FIELD_BASE_MILITARY
+			TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+			TEXT_TOOLTIP_FIELD_BASE_HEALTH
+			TEXT_TOOLTIP_SEPARATOR_GARRISON_BLOCK
+			TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_LOCAL_MILITARY_ARMY_AV1
+			TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_LOCAL_MILITARY_ARMY_AV2
+		</Encyclopedia_Text>
+		<Land_Model_Name>EB_TestBunker.alo</Land_Model_Name>
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Scale_Factor>1.0</Scale_Factor>
+        <Garrison_Radius>10</Garrison_Radius>
+		<Num_Garrison_Slots>0</Num_Garrison_Slots>
+		
+		<Tactical_Health>350</Tactical_Health>
+		
+		<LandBehavior> SPAWN_SQUADRON, REVEAL, SELECTABLE, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, EARTHQUAKE_TARGET, UNIT_AI</LandBehavior>
+
+		<Starting_Spawned_Units_Tech_0>Proteus_Local_Military_Army_AV_Military, 1</Starting_Spawned_Units_Tech_0>
+
+		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
+		<Spawned_Squadron_Location_Bones>B_GARRISON_03</Spawned_Squadron_Location_Bones>
+		<Spawned_Squadron_Location_Flyout_Distances>40.0</Spawned_Squadron_Location_Flyout_Distances>
+		<Spawn_Garrison_On_Load>True</Spawn_Garrison_On_Load>
+
+	</SpecialStructure>
+
+	<Marker Name="Proteus_Local_Military_Army_AV_Military">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Galactic_Model_Name/>
+		<Space_Model_Name>W_LASER_INVISIBLE.ALO</Space_Model_Name>
+		<Land_Model_Name>W_LASER_INVISIBLE.ALO</Land_Model_Name>
+		<Behavior></Behavior>
+		<LandBehavior>SPAWN_SQUADRON</LandBehavior>
+		<Lua_Script>FieldBaseSpawner</Lua_Script>
+		<Is_Discardable>false</Is_Discardable>
+		<Affiliation>Neutral</Affiliation>
+		<Scale_Factor>0.1</Scale_Factor>
+        
+		<Starting_Spawned_Units_Tech_0>Military_Soldier_Squad, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Military_Soldier_Squad, 10</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Imperial_Army_Trooper_Heavy_Squad, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Imperial_Army_Trooper_Heavy_Squad, 10</Reserve_Spawned_Units_Tech_0>
+        <Spawned_Squadron_Delay_Seconds>30.0</Spawned_Squadron_Delay_Seconds>
+	</Marker>
+
 <!--===========================================================================-->
 <!--                         Proteus Military End                              -->
 <!--===========================================================================-->
@@ -6855,6 +7148,225 @@
 		<Reserve_Spawned_Units_Tech_0>Military_Soldier_Squad, 10</Reserve_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Military_Soldier_Medic_Squad, 10</Reserve_Spawned_Units_Tech_0>
         <Spawned_Squadron_Delay_Seconds>30.0</Spawned_Squadron_Delay_Seconds>
+	</Marker>
+
+	<!-- Proteus Special Missions Engineer/Army Medic Support FB  -->
+	<GroundBuildable Name="UC_Proteus_Special_Missions_Engineer_Army_Medic_Field_Support_Base">
+		<Variant_Of_Existing_Type>UC_Imperial_Proteus_Field_Military_Base</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_FIELD_BASE_SUPPORT</Text_ID>
+		<Encyclopedia_Text> 
+			TEXT_TOOLTIP_FIELD_BASE_SUPPORT
+			TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+			TEXT_TOOLTIP_FIELD_BASE_HEALTH
+			TEXT_TOOLTIP_SEPARATOR_GARRISON_BLOCK
+			TEXT_TOOLTIP_FIELD_BASE_SUPPORT_PROTEUS_SPECIAL_MISSIONS_ENGINEER_ARMY_MEDIC1
+			TEXT_TOOLTIP_FIELD_BASE_SUPPORT_PROTEUS_SPECIAL_MISSIONS_ENGINEER_ARMY_MEDIC2
+		</Encyclopedia_Text>
+		<Tactical_Buildable_Constructed> Proteus_Special_Missions_Engineer_Army_Medic_Field_Support_Base </Tactical_Buildable_Constructed>
+
+		<Tactical_Build_Cost_Multiplayer> 300 </Tactical_Build_Cost_Multiplayer>
+		<Terrain_Texture_Modifier_Square>false</Terrain_Texture_Modifier_Square>
+
+		<Obstacle_Proxy_Type> Bunker_Pad </Obstacle_Proxy_Type>
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Icon_Name>I_BUTTON_EV_BUNKER.tga</Icon_Name>
+
+	</GroundBuildable>
+
+	<SpecialStructure Name="Proteus_Special_Missions_Engineer_Army_Medic_Field_Support_Base">
+		<Variant_Of_Existing_Type>Garrison_Bunker_Template</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_EV_BUNKER.tga</Icon_Name>
+		<Text_ID>TEXT_FIELD_BASE_SUPPORT</Text_ID>
+		<Encyclopedia_Text> 
+			TEXT_TOOLTIP_FIELD_BASE_SUPPORT
+			TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+			TEXT_TOOLTIP_FIELD_BASE_HEALTH
+			TEXT_TOOLTIP_SEPARATOR_GARRISON_BLOCK
+			TEXT_TOOLTIP_FIELD_BASE_SUPPORT_PROTEUS_SPECIAL_MISSIONS_ENGINEER_ARMY_MEDIC1
+			TEXT_TOOLTIP_FIELD_BASE_SUPPORT_PROTEUS_SPECIAL_MISSIONS_ENGINEER_ARMY_MEDIC2
+		</Encyclopedia_Text>
+		<Land_Model_Name>EB_TestBunker.alo</Land_Model_Name>
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Scale_Factor>1.0</Scale_Factor>
+        <Garrison_Radius>10</Garrison_Radius>
+		<Num_Garrison_Slots>0</Num_Garrison_Slots>
+		
+		<Tactical_Health>350</Tactical_Health>
+		
+		<LandBehavior> SPAWN_SQUADRON, REVEAL, SELECTABLE, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, EARTHQUAKE_TARGET, UNIT_AI</LandBehavior>
+
+		<Starting_Spawned_Units_Tech_0>Proteus_Special_Missions_Engineer_Army_Medic_Field_Support, 1</Starting_Spawned_Units_Tech_0>
+
+		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
+		<Spawned_Squadron_Location_Bones>B_GARRISON_03</Spawned_Squadron_Location_Bones>
+		<Spawned_Squadron_Location_Flyout_Distances>40.0</Spawned_Squadron_Location_Flyout_Distances>
+		<Spawn_Garrison_On_Load>True</Spawn_Garrison_On_Load>
+
+	</SpecialStructure>
+
+	<Marker Name="Proteus_Special_Missions_Engineer_Army_Medic_Field_Support">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Galactic_Model_Name/>
+		<Space_Model_Name>W_LASER_INVISIBLE.ALO</Space_Model_Name>
+		<Land_Model_Name>W_LASER_INVISIBLE.ALO</Land_Model_Name>
+		<Behavior></Behavior>
+		<LandBehavior>SPAWN_SQUADRON</LandBehavior>
+		<Lua_Script>FieldBaseSpawner</Lua_Script>
+		<Is_Discardable>false</Is_Discardable>
+		<Affiliation>Neutral</Affiliation>
+		<Scale_Factor>0.1</Scale_Factor>
+        
+        <Starting_Spawned_Units_Tech_0>Army_Special_Missions_Main_Squad, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Imperial_Army_Trooper_Medic_Squad, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Army_Special_Missions_Main_Squad, 10</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Imperial_Army_Trooper_Medic_Squad, 10</Reserve_Spawned_Units_Tech_0>
+        <Spawned_Squadron_Delay_Seconds>30.0</Spawned_Squadron_Delay_Seconds>
+	</Marker>
+
+	<!-- Proteus Local Military / SD-6 Support FB  -->
+	<GroundBuildable Name="UC_Proteus_Local_Military_SD6_Field_Support_Base">
+		<Variant_Of_Existing_Type>UC_Imperial_Proteus_Field_Military_Base</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_FIELD_BASE_SUPPORT</Text_ID>
+		<Encyclopedia_Text> 
+			TEXT_TOOLTIP_FIELD_BASE_SUPPORT
+			TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+			TEXT_TOOLTIP_FIELD_BASE_HEALTH
+			TEXT_TOOLTIP_SEPARATOR_GARRISON_BLOCK
+			TEXT_TOOLTIP_FIELD_BASE_SUPPORT_LOCAL_MILITARY_SD61
+			TEXT_TOOLTIP_FIELD_BASE_SUPPORT_LOCAL_MILITARY_SD62
+		</Encyclopedia_Text>
+		<Tactical_Buildable_Constructed> Proteus_Local_Military_SD6_Field_Support_Base </Tactical_Buildable_Constructed>
+
+		<Tactical_Build_Cost_Multiplayer> 300 </Tactical_Build_Cost_Multiplayer>
+		<Terrain_Texture_Modifier_Square>false</Terrain_Texture_Modifier_Square>
+
+		<Obstacle_Proxy_Type> Bunker_Pad </Obstacle_Proxy_Type>
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Icon_Name>I_BUTTON_EV_BUNKER.tga</Icon_Name>
+
+	</GroundBuildable>
+
+	<SpecialStructure Name="Proteus_Local_Military_SD6_Field_Support_Base">
+		<Variant_Of_Existing_Type>Garrison_Bunker_Template</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_EV_BUNKER.tga</Icon_Name>
+		<Text_ID>TEXT_FIELD_BASE_SUPPORT</Text_ID>
+		<Encyclopedia_Text> 
+			TEXT_TOOLTIP_FIELD_BASE_SUPPORT
+			TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+			TEXT_TOOLTIP_FIELD_BASE_HEALTH
+			TEXT_TOOLTIP_SEPARATOR_GARRISON_BLOCK
+			TEXT_TOOLTIP_FIELD_BASE_SUPPORT_LOCAL_MILITARY_SD61
+			TEXT_TOOLTIP_FIELD_BASE_SUPPORT_LOCAL_MILITARY_SD62
+		</Encyclopedia_Text>
+		<Land_Model_Name>EB_TestBunker.alo</Land_Model_Name>
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Scale_Factor>1.0</Scale_Factor>
+        <Garrison_Radius>10</Garrison_Radius>
+		<Num_Garrison_Slots>0</Num_Garrison_Slots>
+		
+		<Tactical_Health>350</Tactical_Health>
+		
+		<LandBehavior> SPAWN_SQUADRON, REVEAL, SELECTABLE, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, EARTHQUAKE_TARGET, UNIT_AI</LandBehavior>
+
+		<Starting_Spawned_Units_Tech_0>Proteus_Local_Military_SD6_Field_Support, 1</Starting_Spawned_Units_Tech_0>
+
+		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
+		<Spawned_Squadron_Location_Bones>B_GARRISON_03</Spawned_Squadron_Location_Bones>
+		<Spawned_Squadron_Location_Flyout_Distances>40.0</Spawned_Squadron_Location_Flyout_Distances>
+		<Spawn_Garrison_On_Load>True</Spawn_Garrison_On_Load>
+
+	</SpecialStructure>
+
+	<Marker Name="Proteus_Local_Military_SD6_Field_Support">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Galactic_Model_Name/>
+		<Space_Model_Name>W_LASER_INVISIBLE.ALO</Space_Model_Name>
+		<Land_Model_Name>W_LASER_INVISIBLE.ALO</Land_Model_Name>
+		<Behavior></Behavior>
+		<LandBehavior>SPAWN_SQUADRON</LandBehavior>
+		<Lua_Script>FieldBaseSpawner</Lua_Script>
+		<Is_Discardable>false</Is_Discardable>
+		<Affiliation>Neutral</Affiliation>
+		<Scale_Factor>0.1</Scale_Factor>
+        
+		<Starting_Spawned_Units_Tech_0>SD_6_Hulk_Infantry_Droid, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>SD_6_Hulk_Infantry_Droid, 10</Reserve_Spawned_Units_Tech_0>
+ 		<Starting_Spawned_Units_Tech_0>Military_Soldier_Medic_Squad, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Military_Soldier_Medic_Squad, 10</Reserve_Spawned_Units_Tech_0>
+       <Spawned_Squadron_Delay_Seconds>30.0</Spawned_Squadron_Delay_Seconds>
+	</Marker>
+
+	<!-- Proteus Navy Medic / Stormtrooper Medium Support FB  -->
+	<GroundBuildable Name="UC_Proteus_Navy_Medic_Stormtrooper_Field_Support_Base">
+		<Variant_Of_Existing_Type>UC_Imperial_Proteus_Field_Military_Base</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_FIELD_BASE_SUPPORT</Text_ID>
+		<Encyclopedia_Text> 
+			TEXT_TOOLTIP_FIELD_BASE_SUPPORT
+			TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+			TEXT_TOOLTIP_FIELD_BASE_HEALTH
+			TEXT_TOOLTIP_SEPARATOR_GARRISON_BLOCK
+			TEXT_TOOLTIP_FIELD_BASE_SUPPORT_NAVY_MEDIC_STORMTROOPER_MEDIUM1
+			TEXT_TOOLTIP_FIELD_BASE_SUPPORT_NAVY_MEDIC_STORMTROOPER_MEDIUM2
+		</Encyclopedia_Text>
+		<Tactical_Buildable_Constructed> Proteus_Navy_Medic_Stormtrooper_Field_Support_Base </Tactical_Buildable_Constructed>
+
+		<Tactical_Build_Cost_Multiplayer> 300 </Tactical_Build_Cost_Multiplayer>
+		<Terrain_Texture_Modifier_Square>false</Terrain_Texture_Modifier_Square>
+
+		<Obstacle_Proxy_Type> Bunker_Pad </Obstacle_Proxy_Type>
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Icon_Name>I_BUTTON_EV_BUNKER.tga</Icon_Name>
+
+	</GroundBuildable>
+
+	<SpecialStructure Name="Proteus_Navy_Medic_Stormtrooper_Field_Support_Base">
+		<Variant_Of_Existing_Type>Garrison_Bunker_Template</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_EV_BUNKER.tga</Icon_Name>
+		<Text_ID>TEXT_FIELD_BASE_SUPPORT</Text_ID>
+		<Encyclopedia_Text> 
+			TEXT_TOOLTIP_FIELD_BASE_SUPPORT
+			TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+			TEXT_TOOLTIP_FIELD_BASE_HEALTH
+			TEXT_TOOLTIP_SEPARATOR_GARRISON_BLOCK
+			TEXT_TOOLTIP_FIELD_BASE_SUPPORT_NAVY_MEDIC_STORMTROOPER_MEDIUM1
+			TEXT_TOOLTIP_FIELD_BASE_SUPPORT_NAVY_MEDIC_STORMTROOPER_MEDIUM2
+		</Encyclopedia_Text>
+		<Land_Model_Name>EB_TestBunker.alo</Land_Model_Name>
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Scale_Factor>1.0</Scale_Factor>
+        <Garrison_Radius>10</Garrison_Radius>
+		<Num_Garrison_Slots>0</Num_Garrison_Slots>
+		
+		<Tactical_Health>350</Tactical_Health>
+		
+		<LandBehavior> SPAWN_SQUADRON, REVEAL, SELECTABLE, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, EARTHQUAKE_TARGET, UNIT_AI</LandBehavior>
+
+		<Starting_Spawned_Units_Tech_0>Proteus_Navy_Medic_Stormtrooper_Field_Support, 1</Starting_Spawned_Units_Tech_0>
+
+		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
+		<Spawned_Squadron_Location_Bones>B_GARRISON_03</Spawned_Squadron_Location_Bones>
+		<Spawned_Squadron_Location_Flyout_Distances>40.0</Spawned_Squadron_Location_Flyout_Distances>
+		<Spawn_Garrison_On_Load>True</Spawn_Garrison_On_Load>
+
+	</SpecialStructure>
+
+	<Marker Name="Proteus_Navy_Medic_Stormtrooper_Field_Support">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Galactic_Model_Name/>
+		<Space_Model_Name>W_LASER_INVISIBLE.ALO</Space_Model_Name>
+		<Land_Model_Name>W_LASER_INVISIBLE.ALO</Land_Model_Name>
+		<Behavior></Behavior>
+		<LandBehavior>SPAWN_SQUADRON</LandBehavior>
+		<Lua_Script>FieldBaseSpawner</Lua_Script>
+		<Is_Discardable>false</Is_Discardable>
+		<Affiliation>Neutral</Affiliation>
+		<Scale_Factor>0.1</Scale_Factor>
+        
+		<Starting_Spawned_Units_Tech_0>Imperial_Stormtrooper_Medium_Squad, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Imperial_Stormtrooper_Medium_Squad, 10</Reserve_Spawned_Units_Tech_0>
+ 		<Starting_Spawned_Units_Tech_0>Imperial_Navy_Trooper_Medic_Squad, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Imperial_Navy_Trooper_Medic_Squad, 10</Reserve_Spawned_Units_Tech_0>
+       <Spawned_Squadron_Delay_Seconds>30.0</Spawned_Squadron_Delay_Seconds>
 	</Marker>
 
 <!--===========================================================================-->
@@ -8375,6 +8887,286 @@
         <Spawned_Squadron_Delay_Seconds>30.0</Spawned_Squadron_Delay_Seconds>
 	</Marker>
 
+	<!-- Proteus ISB Sniper Commando FB  -->
+	<GroundBuildable Name="UC_Proteus_ISB_Sniper_Field_Commando_Base">
+		<Variant_Of_Existing_Type>UC_Imperial_Proteus_Field_Military_Base</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_FIELD_BASE_COMMANDO</Text_ID>
+		<Encyclopedia_Text>
+			TEXT_TOOLTIP_FIELD_BASE_COMMANDO
+			TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+			TEXT_TOOLTIP_FIELD_BASE_HEALTH
+			TEXT_TOOLTIP_SEPARATOR_GARRISON_BLOCK
+			TEXT_TOOLTIP_FIELD_BASE_COMMANDO_PROTEUS_ISB_SNIPER1
+			TEXT_TOOLTIP_FIELD_BASE_COMMANDO_PROTEUS_ISB_SNIPER2
+		</Encyclopedia_Text>
+		<Tactical_Buildable_Constructed> Proteus_ISB_Sniper_Field_Commando_Base </Tactical_Buildable_Constructed>
+
+		<Tactical_Build_Cost_Multiplayer> 350 </Tactical_Build_Cost_Multiplayer>
+		<Terrain_Texture_Modifier_Square>false</Terrain_Texture_Modifier_Square>
+
+		<Obstacle_Proxy_Type> Bunker_Pad </Obstacle_Proxy_Type>
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Icon_Name>I_BUTTON_EV_BUNKER.tga</Icon_Name>
+	</GroundBuildable>
+
+	<SpecialStructure Name="Proteus_ISB_Sniper_Field_Commando_Base">
+		<Variant_Of_Existing_Type>Garrison_Bunker_Template</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_EV_BUNKER.tga</Icon_Name>
+		<Text_ID>TEXT_FIELD_BASE_COMMANDO</Text_ID>
+		<Encyclopedia_Text>
+			TEXT_TOOLTIP_FIELD_BASE_COMMANDO
+			TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+			TEXT_TOOLTIP_FIELD_BASE_HEALTH
+			TEXT_TOOLTIP_SEPARATOR_GARRISON_BLOCK
+			TEXT_TOOLTIP_FIELD_BASE_COMMANDO_PROTEUS_ISB_SNIPER1
+			TEXT_TOOLTIP_FIELD_BASE_COMMANDO_PROTEUS_ISB_SNIPER2
+		</Encyclopedia_Text>
+		<Land_Model_Name>EB_TestBunker.alo</Land_Model_Name>
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Land_FOW_Reveal_Range>600.0</Land_FOW_Reveal_Range>
+		<Scale_Factor>1.0</Scale_Factor>
+        <Garrison_Radius>10</Garrison_Radius>
+		<Num_Garrison_Slots>0</Num_Garrison_Slots>
+		
+		<Tactical_Health>350</Tactical_Health>
+		
+		<LandBehavior> SPAWN_SQUADRON, REVEAL, SELECTABLE, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, EARTHQUAKE_TARGET, UNIT_AI</LandBehavior>
+
+		<Starting_Spawned_Units_Tech_0>Proteus_ISB_Sniper_Field_Commando, 1</Starting_Spawned_Units_Tech_0>
+
+		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
+		<Spawned_Squadron_Location_Bones>B_GARRISON_03</Spawned_Squadron_Location_Bones>
+		<Spawned_Squadron_Location_Flyout_Distances>40.0</Spawned_Squadron_Location_Flyout_Distances>
+		<Spawn_Garrison_On_Load>True</Spawn_Garrison_On_Load>
+	</SpecialStructure>
+
+	<Marker Name="Proteus_ISB_Sniper_Field_Commando">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Galactic_Model_Name/>
+		<Space_Model_Name>W_LASER_INVISIBLE.ALO</Space_Model_Name>
+		<Land_Model_Name>W_LASER_INVISIBLE.ALO</Land_Model_Name>
+		<Behavior></Behavior>
+		<LandBehavior>SPAWN_SQUADRON</LandBehavior>
+		<Lua_Script>FieldBaseSpawner</Lua_Script>
+		<Is_Discardable>false</Is_Discardable>
+		<Affiliation>Neutral</Affiliation>
+		<Scale_Factor>0.1</Scale_Factor>
+		
+		<Starting_Spawned_Units_Tech_0>ISB_Infiltrator_Assault_Squad, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>ISB_Infiltrator_Assault_Squad, 10</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Isb_Infiltrator_Sniper_Squad, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Isb_Infiltrator_Sniper_Squad, 10</Reserve_Spawned_Units_Tech_0>
+        <Spawned_Squadron_Delay_Seconds>30.0</Spawned_Squadron_Delay_Seconds>
+	</Marker>
+
+	<!-- Proteus SD-10 Commando FB  -->
+	<GroundBuildable Name="UC_Proteus_SD_10_Field_Commando_Base">
+		<Variant_Of_Existing_Type>UC_Imperial_Proteus_Field_Military_Base</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_FIELD_BASE_COMMANDO</Text_ID>
+		<Encyclopedia_Text>
+			TEXT_TOOLTIP_FIELD_BASE_COMMANDO
+			TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+			TEXT_TOOLTIP_FIELD_BASE_HEALTH
+			TEXT_TOOLTIP_SEPARATOR_GARRISON_BLOCK
+			TEXT_TOOLTIP_FIELD_BASE_COMMANDO_PROTEUS_SD101
+		</Encyclopedia_Text>
+		<Tactical_Buildable_Constructed> Proteus_SD_10_Field_Commando_Base </Tactical_Buildable_Constructed>
+
+		<Tactical_Build_Cost_Multiplayer> 350 </Tactical_Build_Cost_Multiplayer>
+		<Terrain_Texture_Modifier_Square>false</Terrain_Texture_Modifier_Square>
+
+		<Obstacle_Proxy_Type> Bunker_Pad </Obstacle_Proxy_Type>
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Icon_Name>I_BUTTON_EV_BUNKER.tga</Icon_Name>
+	</GroundBuildable>
+
+	<SpecialStructure Name="Proteus_SD_10_Field_Commando_Base">
+		<Variant_Of_Existing_Type>Garrison_Bunker_Template</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_EV_BUNKER.tga</Icon_Name>
+		<Text_ID>TEXT_FIELD_BASE_COMMANDO</Text_ID>
+		<Encyclopedia_Text>
+			TEXT_TOOLTIP_FIELD_BASE_COMMANDO
+			TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+			TEXT_TOOLTIP_FIELD_BASE_HEALTH
+			TEXT_TOOLTIP_SEPARATOR_GARRISON_BLOCK
+			TEXT_TOOLTIP_FIELD_BASE_COMMANDO_PROTEUS_SD101
+		</Encyclopedia_Text>
+		<Land_Model_Name>EB_TestBunker.alo</Land_Model_Name>
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Land_FOW_Reveal_Range>600.0</Land_FOW_Reveal_Range>
+		<Scale_Factor>1.0</Scale_Factor>
+        <Garrison_Radius>10</Garrison_Radius>
+		<Num_Garrison_Slots>0</Num_Garrison_Slots>
+		
+		<Tactical_Health>350</Tactical_Health>
+		
+		<LandBehavior> SPAWN_SQUADRON, REVEAL, SELECTABLE, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, EARTHQUAKE_TARGET, UNIT_AI</LandBehavior>
+
+		<Starting_Spawned_Units_Tech_0>Proteus_SD_10_Field_Commando, 1</Starting_Spawned_Units_Tech_0>
+
+		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
+		<Spawned_Squadron_Location_Bones>B_GARRISON_03</Spawned_Squadron_Location_Bones>
+		<Spawned_Squadron_Location_Flyout_Distances>40.0</Spawned_Squadron_Location_Flyout_Distances>
+		<Spawn_Garrison_On_Load>True</Spawn_Garrison_On_Load>
+	</SpecialStructure>
+
+	<Marker Name="Proteus_SD_10_Field_Commando">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Galactic_Model_Name/>
+		<Space_Model_Name>W_LASER_INVISIBLE.ALO</Space_Model_Name>
+		<Land_Model_Name>W_LASER_INVISIBLE.ALO</Land_Model_Name>
+		<Behavior></Behavior>
+		<LandBehavior>SPAWN_SQUADRON</LandBehavior>
+		<Lua_Script>FieldBaseSpawner</Lua_Script>
+		<Is_Discardable>false</Is_Discardable>
+		<Affiliation>Neutral</Affiliation>
+		<Scale_Factor>0.1</Scale_Factor>
+		
+		<Starting_Spawned_Units_Tech_0>SD_10_Battle_Droid, 4</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>SD_10_Battle_Droid, 20</Reserve_Spawned_Units_Tech_0>
+        <Spawned_Squadron_Delay_Seconds>30.0</Spawned_Squadron_Delay_Seconds>
+	</Marker>
+
+	<!-- Proteus Reborn Dark Jedi Commando FB  -->
+	<GroundBuildable Name="UC_Proteus_Reborn_Dark_Jedi_Field_Commando_Base">
+		<Variant_Of_Existing_Type>UC_Imperial_Proteus_Field_Military_Base</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_FIELD_BASE_COMMANDO</Text_ID>
+		<Encyclopedia_Text>
+			TEXT_TOOLTIP_FIELD_BASE_COMMANDO
+			TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+			TEXT_TOOLTIP_FIELD_BASE_HEALTH
+			TEXT_TOOLTIP_SEPARATOR_GARRISON_BLOCK
+			TEXT_TOOLTIP_FIELD_BASE_COMMANDO_PROTEUS_REBORN_DARK_JEDI1
+		</Encyclopedia_Text>
+		<Tactical_Buildable_Constructed> Proteus_Reborn_Dark_Jedi_Field_Commando_Base </Tactical_Buildable_Constructed>
+
+		<Tactical_Build_Cost_Multiplayer> 400 </Tactical_Build_Cost_Multiplayer>
+		<Terrain_Texture_Modifier_Square>false</Terrain_Texture_Modifier_Square>
+
+		<Obstacle_Proxy_Type> Bunker_Pad </Obstacle_Proxy_Type>
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Icon_Name>I_BUTTON_EV_BUNKER.tga</Icon_Name>
+	</GroundBuildable>
+
+	<SpecialStructure Name="Proteus_Reborn_Dark_Jedi_Field_Commando_Base">
+		<Variant_Of_Existing_Type>Garrison_Bunker_Template</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_EV_BUNKER.tga</Icon_Name>
+		<Text_ID>TEXT_FIELD_BASE_COMMANDO</Text_ID>
+		<Encyclopedia_Text>
+			TEXT_TOOLTIP_FIELD_BASE_COMMANDO
+			TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+			TEXT_TOOLTIP_FIELD_BASE_HEALTH
+			TEXT_TOOLTIP_SEPARATOR_GARRISON_BLOCK
+			TEXT_TOOLTIP_FIELD_BASE_COMMANDO_PROTEUS_REBORN_DARK_JEDI1
+		</Encyclopedia_Text>
+		<Land_Model_Name>EB_TestBunker.alo</Land_Model_Name>
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Land_FOW_Reveal_Range>600.0</Land_FOW_Reveal_Range>
+		<Scale_Factor>1.0</Scale_Factor>
+        <Garrison_Radius>10</Garrison_Radius>
+		<Num_Garrison_Slots>0</Num_Garrison_Slots>
+		
+		<Tactical_Health>350</Tactical_Health>
+		
+		<LandBehavior> SPAWN_SQUADRON, REVEAL, SELECTABLE, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, EARTHQUAKE_TARGET, UNIT_AI</LandBehavior>
+
+		<Starting_Spawned_Units_Tech_0>Proteus_Reborn_Dark_Jedi_Field_Commando, 1</Starting_Spawned_Units_Tech_0>
+
+		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
+		<Spawned_Squadron_Location_Bones>B_GARRISON_03</Spawned_Squadron_Location_Bones>
+		<Spawned_Squadron_Location_Flyout_Distances>40.0</Spawned_Squadron_Location_Flyout_Distances>
+		<Spawn_Garrison_On_Load>True</Spawn_Garrison_On_Load>
+	</SpecialStructure>
+
+	<Marker Name="Proteus_Reborn_Dark_Jedi_Field_Commando">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Galactic_Model_Name/>
+		<Space_Model_Name>W_LASER_INVISIBLE.ALO</Space_Model_Name>
+		<Land_Model_Name>W_LASER_INVISIBLE.ALO</Land_Model_Name>
+		<Behavior></Behavior>
+		<LandBehavior>SPAWN_SQUADRON</LandBehavior>
+		<Lua_Script>FieldBaseSpawner</Lua_Script>
+		<Is_Discardable>false</Is_Discardable>
+		<Affiliation>Neutral</Affiliation>
+		<Scale_Factor>0.1</Scale_Factor>
+		
+		<Starting_Spawned_Units_Tech_0>Reborn_Dark_Jedi, 4</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Reborn_Dark_Jedi, 20</Reserve_Spawned_Units_Tech_0>
+        <Spawned_Squadron_Delay_Seconds>30.0</Spawned_Squadron_Delay_Seconds>
+	</Marker>
+
+	<!-- Proteus PDF Tactical / Army Commando Commando FB  -->
+	<GroundBuildable Name="UC_Proteus_PDF_Tactical_Army_Commando_Field_Commando_Base">
+		<Variant_Of_Existing_Type>UC_Imperial_Proteus_Field_Military_Base</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_FIELD_BASE_COMMANDO</Text_ID>
+		<Encyclopedia_Text>
+			TEXT_TOOLTIP_FIELD_BASE_COMMANDO
+			TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+			TEXT_TOOLTIP_FIELD_BASE_HEALTH
+			TEXT_TOOLTIP_SEPARATOR_GARRISON_BLOCK
+			TEXT_TOOLTIP_FIELD_BASE_COMMANDO_PROTEUS_PDF_TACTICAL_ARMY_COMMANDO1
+			TEXT_TOOLTIP_FIELD_BASE_COMMANDO_PROTEUS_PDF_TACTICAL_ARMY_COMMANDO2
+		</Encyclopedia_Text>
+		<Tactical_Buildable_Constructed> Proteus_PDF_Tactical_Army_Commando_Field_Commando_Base </Tactical_Buildable_Constructed>
+
+		<Tactical_Build_Cost_Multiplayer> 350 </Tactical_Build_Cost_Multiplayer>
+		<Terrain_Texture_Modifier_Square>false</Terrain_Texture_Modifier_Square>
+
+		<Obstacle_Proxy_Type> Bunker_Pad </Obstacle_Proxy_Type>
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Icon_Name>I_BUTTON_EV_BUNKER.tga</Icon_Name>
+	</GroundBuildable>
+
+	<SpecialStructure Name="Proteus_PDF_Tactical_Army_Commando_Field_Commando_Base">
+		<Variant_Of_Existing_Type>Garrison_Bunker_Template</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_EV_BUNKER.tga</Icon_Name>
+		<Text_ID>TEXT_FIELD_BASE_COMMANDO</Text_ID>
+		<Encyclopedia_Text>
+			TEXT_TOOLTIP_FIELD_BASE_COMMANDO
+			TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+			TEXT_TOOLTIP_FIELD_BASE_HEALTH
+			TEXT_TOOLTIP_SEPARATOR_GARRISON_BLOCK
+			TEXT_TOOLTIP_FIELD_BASE_COMMANDO_PROTEUS_PDF_TACTICAL_ARMY_COMMANDO1
+			TEXT_TOOLTIP_FIELD_BASE_COMMANDO_PROTEUS_PDF_TACTICAL_ARMY_COMMANDO2
+		</Encyclopedia_Text>
+		<Land_Model_Name>EB_TestBunker.alo</Land_Model_Name>
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Land_FOW_Reveal_Range>600.0</Land_FOW_Reveal_Range>
+		<Scale_Factor>1.0</Scale_Factor>
+        <Garrison_Radius>10</Garrison_Radius>
+		<Num_Garrison_Slots>0</Num_Garrison_Slots>
+		
+		<Tactical_Health>350</Tactical_Health>
+		
+		<LandBehavior> SPAWN_SQUADRON, REVEAL, SELECTABLE, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, EARTHQUAKE_TARGET, UNIT_AI</LandBehavior>
+
+		<Starting_Spawned_Units_Tech_0>Proteus_PDF_Tactical_Army_Commando_Field_Commando, 1</Starting_Spawned_Units_Tech_0>
+
+		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
+		<Spawned_Squadron_Location_Bones>B_GARRISON_03</Spawned_Squadron_Location_Bones>
+		<Spawned_Squadron_Location_Flyout_Distances>40.0</Spawned_Squadron_Location_Flyout_Distances>
+		<Spawn_Garrison_On_Load>True</Spawn_Garrison_On_Load>
+	</SpecialStructure>
+
+	<Marker Name="Proteus_PDF_Tactical_Army_Commando_Field_Commando">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Galactic_Model_Name/>
+		<Space_Model_Name>W_LASER_INVISIBLE.ALO</Space_Model_Name>
+		<Land_Model_Name>W_LASER_INVISIBLE.ALO</Land_Model_Name>
+		<Behavior></Behavior>
+		<LandBehavior>SPAWN_SQUADRON</LandBehavior>
+		<Lua_Script>FieldBaseSpawner</Lua_Script>
+		<Is_Discardable>false</Is_Discardable>
+		<Affiliation>Neutral</Affiliation>
+		<Scale_Factor>0.1</Scale_Factor>
+		
+		<Starting_Spawned_Units_Tech_0>PDF_Tactical_Unit_Squad, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>PDF_Tactical_Unit_Squad, 10</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Imperial_Army_Commando_Squad, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Imperial_Army_Commando_Squad, 10</Reserve_Spawned_Units_Tech_0>
+        <Spawned_Squadron_Delay_Seconds>30.0</Spawned_Squadron_Delay_Seconds>
+	</Marker>
+
 <!--===========================================================================-->
 <!--                        Proteus Commando End                               -->
 <!--===========================================================================-->
@@ -8763,6 +9555,160 @@
 		<Starting_Spawned_Units_Tech_0>64_Y_Swift_Repulsorlift_Sled, 4</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>64_Y_Swift_Repulsorlift_Sled, 20</Reserve_Spawned_Units_Tech_0>
         <Spawned_Squadron_Delay_Seconds>30.0</Spawned_Squadron_Delay_Seconds>
+
+	</Marker>
+
+	<!-- Proteus Army Commando / 64-Y Scouting FB  -->
+	<GroundBuildable Name="UC_Proteus_Army_Commando_64Y_Field_Scout_Base">
+		<Variant_Of_Existing_Type>UC_Empire_Field_Military_Base</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_FIELD_BASE_SCOUT</Text_ID>
+		<Encyclopedia_Text>
+			TEXT_TOOLTIP_FIELD_BASE_SCOUT
+			TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+			TEXT_TOOLTIP_FIELD_BASE_HEALTH
+			TEXT_TOOLTIP_SEPARATOR_GARRISON_BLOCK
+			TEXT_TOOLTIP_FIELD_BASE_SCOUT_PROTEUS_ARMY_COMMANDO_64Y1
+			TEXT_TOOLTIP_FIELD_BASE_SCOUT_PROTEUS_ARMY_COMMANDO_64Y2
+		</Encyclopedia_Text>
+		<Tactical_Buildable_Constructed> Proteus_Army_Commando_64Y_Field_Scout_Base </Tactical_Buildable_Constructed>
+
+		<Tactical_Build_Cost_Multiplayer> 350 </Tactical_Build_Cost_Multiplayer>
+		<Terrain_Texture_Modifier_Square>false</Terrain_Texture_Modifier_Square>
+
+		<Obstacle_Proxy_Type> Bunker_Pad </Obstacle_Proxy_Type>
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Icon_Name>I_BUTTON_EV_BUNKER.tga</Icon_Name>
+
+	</GroundBuildable>
+
+	<SpecialStructure Name="Proteus_Army_Commando_64Y_Field_Scout_Base">
+		<Variant_Of_Existing_Type>Garrison_Bunker_Template</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_EV_BUNKER.tga</Icon_Name>
+		<Text_ID>TEXT_FIELD_BASE_SCOUT</Text_ID>
+		<Encyclopedia_Text>
+			TEXT_TOOLTIP_FIELD_BASE_SCOUT
+			TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+			TEXT_TOOLTIP_FIELD_BASE_HEALTH
+			TEXT_TOOLTIP_SEPARATOR_GARRISON_BLOCK
+			TEXT_TOOLTIP_FIELD_BASE_SCOUT_PROTEUS_ARMY_COMMANDO_64Y1
+			TEXT_TOOLTIP_FIELD_BASE_SCOUT_PROTEUS_ARMY_COMMANDO_64Y2
+		</Encyclopedia_Text>
+		<Land_Model_Name>EB_TestBunker.alo</Land_Model_Name>
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Land_FOW_Reveal_Range>600.0</Land_FOW_Reveal_Range>
+		<Scale_Factor>1.0</Scale_Factor>
+        <Garrison_Radius>10</Garrison_Radius>
+		
+		<Tactical_Health>350</Tactical_Health>
+
+		<LandBehavior> SPAWN_SQUADRON, REVEAL, SELECTABLE, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, EARTHQUAKE_TARGET, UNIT_AI</LandBehavior>
+		<Num_Garrison_Slots>0</Num_Garrison_Slots>
+		<Property_Flags>TacticalStructure </Property_Flags>
+		<Garrison_Category/>
+
+		<Starting_Spawned_Units_Tech_0>Proteus_Army_Commando_64Y_Field_Scout, 1</Starting_Spawned_Units_Tech_0>
+
+		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
+		<Spawned_Squadron_Location_Bones>B_GARRISON_03</Spawned_Squadron_Location_Bones>
+		<Spawned_Squadron_Location_Flyout_Distances>40.0</Spawned_Squadron_Location_Flyout_Distances>
+		<Spawn_Garrison_On_Load>True</Spawn_Garrison_On_Load>
+
+	</SpecialStructure>
+
+	<Marker Name="Proteus_Army_Commando_64Y_Field_Scout">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Galactic_Model_Name/>
+		<Space_Model_Name>W_LASER_INVISIBLE.ALO</Space_Model_Name>
+		<Land_Model_Name>W_LASER_INVISIBLE.ALO</Land_Model_Name>
+		<Behavior></Behavior>
+		<LandBehavior>SPAWN_SQUADRON</LandBehavior>
+		<Lua_Script>FieldBaseSpawner</Lua_Script>
+		<Is_Discardable>false</Is_Discardable>
+		<Affiliation>Neutral</Affiliation>
+		<Scale_Factor>0.1</Scale_Factor>
+
+		<Starting_Spawned_Units_Tech_0>Imperial_Army_Commando_Squad, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Imperial_Army_Commando_Squad, 10</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>64_Y_Swift_Repulsorlift_Sled, 4</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>64_Y_Swift_Repulsorlift_Sled, 20</Reserve_Spawned_Units_Tech_0>
+        <Spawned_Squadron_Delay_Seconds>30.0</Spawned_Squadron_Delay_Seconds>
+
+	</Marker>
+
+	<!-- Proteus Scout Trooper Sniper / 64-Y Scouting FB  -->
+	<GroundBuildable Name="UC_Proteus_Scout_Sniper_64Y_Field_Scout_Base">
+		<Variant_Of_Existing_Type>UC_Empire_Field_Military_Base</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_FIELD_BASE_SCOUT</Text_ID>
+		<Encyclopedia_Text>
+			TEXT_TOOLTIP_FIELD_BASE_SCOUT
+			TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+			TEXT_TOOLTIP_FIELD_BASE_HEALTH
+			TEXT_TOOLTIP_SEPARATOR_GARRISON_BLOCK
+			TEXT_TOOLTIP_FIELD_BASE_SCOUT_PROTEUS_SCOUT_SNIPER_64Y1
+			TEXT_TOOLTIP_FIELD_BASE_SCOUT_PROTEUS_SCOUT_SNIPER_64Y2
+		</Encyclopedia_Text>
+		<Tactical_Buildable_Constructed> Proteus_Scout_Sniper_64Y_Field_Scout_Base </Tactical_Buildable_Constructed>
+
+		<Tactical_Build_Cost_Multiplayer> 350 </Tactical_Build_Cost_Multiplayer>
+		<Terrain_Texture_Modifier_Square>false</Terrain_Texture_Modifier_Square>
+
+		<Obstacle_Proxy_Type> Bunker_Pad </Obstacle_Proxy_Type>
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Icon_Name>I_BUTTON_EV_BUNKER.tga</Icon_Name>
+
+	</GroundBuildable>
+
+	<SpecialStructure Name="Proteus_Scout_Sniper_64Y_Field_Scout_Base">
+		<Variant_Of_Existing_Type>Garrison_Bunker_Template</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_EV_BUNKER.tga</Icon_Name>
+		<Text_ID>TEXT_FIELD_BASE_SCOUT</Text_ID>
+		<Encyclopedia_Text>
+			TEXT_TOOLTIP_FIELD_BASE_SCOUT
+			TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+			TEXT_TOOLTIP_FIELD_BASE_HEALTH
+			TEXT_TOOLTIP_SEPARATOR_GARRISON_BLOCK
+			TEXT_TOOLTIP_FIELD_BASE_SCOUT_PROTEUS_SCOUT_SNIPER_64Y1
+			TEXT_TOOLTIP_FIELD_BASE_SCOUT_PROTEUS_SCOUT_SNIPER_64Y2
+		</Encyclopedia_Text>
+		<Land_Model_Name>EB_TestBunker.alo</Land_Model_Name>
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Land_FOW_Reveal_Range>600.0</Land_FOW_Reveal_Range>
+		<Scale_Factor>1.0</Scale_Factor>
+        <Garrison_Radius>10</Garrison_Radius>
+		
+		<Tactical_Health>350</Tactical_Health>
+
+		<LandBehavior> SPAWN_SQUADRON, REVEAL, SELECTABLE, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, EARTHQUAKE_TARGET, UNIT_AI</LandBehavior>
+		<Num_Garrison_Slots>0</Num_Garrison_Slots>
+		<Property_Flags>TacticalStructure </Property_Flags>
+		<Garrison_Category/>
+
+		<Starting_Spawned_Units_Tech_0>Proteus_Scout_Sniper_64Y_Field_Scout, 1</Starting_Spawned_Units_Tech_0>
+
+		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
+		<Spawned_Squadron_Location_Bones>B_GARRISON_03</Spawned_Squadron_Location_Bones>
+		<Spawned_Squadron_Location_Flyout_Distances>40.0</Spawned_Squadron_Location_Flyout_Distances>
+		<Spawn_Garrison_On_Load>True</Spawn_Garrison_On_Load>
+
+	</SpecialStructure>
+
+	<Marker Name="Proteus_Scout_Sniper_64Y_Field_Scout">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Galactic_Model_Name/>
+		<Space_Model_Name>W_LASER_INVISIBLE.ALO</Space_Model_Name>
+		<Land_Model_Name>W_LASER_INVISIBLE.ALO</Land_Model_Name>
+		<Behavior></Behavior>
+		<LandBehavior>SPAWN_SQUADRON</LandBehavior>
+		<Lua_Script>FieldBaseSpawner</Lua_Script>
+		<Is_Discardable>false</Is_Discardable>
+		<Affiliation>Neutral</Affiliation>
+		<Scale_Factor>0.1</Scale_Factor>
+
+		<Starting_Spawned_Units_Tech_0>Imperial_Scout_Trooper_Sniper_Squad, 3</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Imperial_Scout_Trooper_Sniper_Squad, 15</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>64_Y_Swift_Repulsorlift_Sled, 4</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>64_Y_Swift_Repulsorlift_Sled, 20</Reserve_Spawned_Units_Tech_0>
+        <Spawned_Squadron_Delay_Seconds>25.0</Spawned_Squadron_Delay_Seconds>
 
 	</Marker>
 
