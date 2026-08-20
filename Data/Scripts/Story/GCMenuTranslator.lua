@@ -76,6 +76,7 @@ return {
 	["ANAXES"] ="faction_74",
 	["SECRET"] ="faction_75",
 	["SCREED"] ="faction_76",
+	["BRANDEI"] ="faction_77",
 	
 
 	["AllFactions"] = {

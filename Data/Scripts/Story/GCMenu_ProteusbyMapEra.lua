@@ -1288,4 +1288,13 @@ return {
 			,["6ABY"] = true
 		}
 	},
+		["BRANDEI"] = {
+		["FullLarge"] = {
+			["10ABY"] = true
+			 ,["11ABY"] = true
+			 ,["11.5ABY"] = true
+			 ,["12ABY"] = true
+		},
+
+	},
 }
