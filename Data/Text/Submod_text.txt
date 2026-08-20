@@ -1716,3 +1716,14 @@ TEXT_TOOLTIP_FIELD_BASE_SCOUT_PROTEUS_SCOUT_SNIPER_64Y1,Scout Trooper Sniper Squ
 TEXT_TOOLTIP_FIELD_BASE_SCOUT_PROTEUS_SCOUT_SNIPER_64Y2,64-Y Swift 3 Repulsor Sled: 4 / 20
 TEXT_UNIT_GLADIATOR_DEMOLISHER,Gladiator-I Refit
 TEXT_TOOLTIP_GLADIATOR_DEMOLISHER,An uncommon variant of the Gladiator-I used most frequently against separatist holdouts during the Outer Rim Sieges before quickly falling out of favor. Specialized towards providing long-range fire support against larger vessels with heavy turbolasers and proton torpedo tubes.
+TEXT_TOOLTIP_VENATOR_PATROL,Following the Clone Wars, many of the once-common Venator Star Destroyers were decommissioned, reassigned to reserve fleets, or turned to special tasks. This variant, bearing a scaled-down main battery and adjusted close defense systems, was mainly used as a patrol and response vessel in quiet areas during the Galactic Civil War, as well as non-combat tasks such as VIP transports and diplomatic missions. Still carries a strong fighter wing, but lacks the heavy weapons to threaten larger vessels by itself and is thus reliant on escorts.
+TEXT_TOOLTIP_VENATOR_PATROL_HULL,Hull: 3240 (Heavy Frigate)
+TEXT_TOOLTIP_VENATOR_PATROL_MOVE,Speed: 4.55 | Accel: 0.2 | Turn: 0.4
+TEXT_TOOLTIP_VENATOR_PATROL_SHIELD,Shields: 3000 / [30/R] (Heavy Frigate)
+TEXT_TOOLTIP_VENATOR_PATROL_SQUADRON,Fighters: 2 / 8 | Bombers: 2 / 6
+TEXT_TOOLTIP_VENATOR_PATROL_WEAP1,4x Medium Dual Turbolasers: 2 / 5.0s / 6.2km
+TEXT_TOOLTIP_VENATOR_PATROL_WEAP2,2x Light Turbolasers: 2 / 3.33s / 5.2km
+TEXT_TOOLTIP_VENATOR_PATROL_WEAP3,2x Medium Dual Ion Cannons: 1 / 5.0s / 6.2km
+TEXT_TOOLTIP_VENATOR_PATROL_WEAP4,2x Light Dual Laser Cannons: 2 / 1.0s / 3.7km
+TEXT_TOOLTIP_VENATOR_PATROL_WEAP5,2x Light Concussion Missiles: 4 / 10.0s / 4.2km
+TEXT_UNIT_VENATOR_PATROL,Venator Patrol Destroyer
