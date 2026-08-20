@@ -1478,6 +1478,33 @@ return {
 			IntroHolo = "Veers_Loop"
 
 		},
+
+		["BRANDEI"] = {
+			FriendlyName = "Thrawn Remnants",
+			Planets = {"JARDEEN"},
+			LeaderTable = {["Brandei_Judicator"]},
+			LeaderEndingNames = {"Grand Admiral Brandei"},
+			HeroList = {"Brandei_Judicator", "Dezon_Constrainer", "Harbid_Deaths_Head",}, ---add aban as a hero for stats see dev doc
+			UnlockList = {
+				-- Space 
+				"Citadel_Cruiser_Group", "Imperial_CR90", "Class_C_Frigate", "Pelta_Support", "Strike_Cruiser_Light", "Carrack_Cruiser", "Star_Galleon", "Quasar", "Imperial_Boarding_Shuttle",
+				"Acclamator_I_Carrier", "Acclamator_I_Support", "Immobilizer_Twin_Well", "Vindicator_Cruiser," "Victory_I_Fleet_Star_Destroyer", "Venator_8X",
+				"Imperial_I_Star_Destroyer", "Tector_Star_Destroyer", "Acclamator_Battleship",
+				"Allegiance_Battlecruiser", "Impellor_Carrier", "Praetor_II_Battlecruiser",
+				-- Ground
+				"Imperial_Navy_Trooper_Company", "Navy_Commando_Company", "Imperial_Fleet_Commando_Company", "Republic_BARC_Company",
+				"PX7_Company", "Imperial_AT_PT_Company", "AT_DP_Company", 
+				"Imperial_TX130T_Company", "AT_AA_Walker_Company", "SPMAG_Walker_Company", "Imperial_Modified_LAAT_Company", "MZ8_Tank_Company", "Deathhawk_Company",
+				"Imperial_AT_ACT_Walker_Company", "Imperial_AT_AT_Walker_Turbolaser_Refit_Company",
+				-- Research
+				"Gorath_Research_Proteus",
+			},
+			FactionOverride = "Rebel",
+			StartYear = 10,
+			IntroText = "",
+			IntroHolo = "Imperial_Naval_Officer_Loop",
+
+		},
 		["X1"] = {
 			FriendlyName = "X1's Empire",
 			Planets = {"MUSTAFAR"},
