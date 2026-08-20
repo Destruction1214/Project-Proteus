@@ -1,6 +1,6 @@
 return {
 	Fighters = {
-		["FIGHTER_SQUADRON"] = {
+		["FIGHTER"] = {
 			DEFAULT = {Initial = 1, Reserve = 1}
 		}
 	},

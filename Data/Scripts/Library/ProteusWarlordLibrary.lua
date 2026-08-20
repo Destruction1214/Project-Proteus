@@ -312,7 +312,7 @@ return {
 			UnlockList = {
 				-- Space
 				"Gozanti_Cruiser_Group", "Action_VI_Refit", "Consular_Refit", "Galleon", "Carrack_Cruiser_Laser",
-				"Rep_DHC", "Vindicator_Cruiser", "Acclamator_Patrol_Refit", "DHC_Interdictor", "Victory_I_Star_Destroyer_Patrol", "Venator_Star_Destroyer", --Replace with patrol venator
+				"Rep_DHC", "Vindicator_Cruiser", "Acclamator_Patrol_Refit", "DHC_Interdictor", "Victory_I_Star_Destroyer_Patrol", "Venator_Star_Destroyer_Patrol", 
 				"Imperial_I_Star_Destroyer_Patrol", "Imperial_II_Star_Destroyer_Sentry", "Triumph_Star_Destroyer",
 				"Praetor_II_Battlecruiser", "Bellator_Star_Dreadnought", -- Replace praetor with SSD Variant
 				-- Ground

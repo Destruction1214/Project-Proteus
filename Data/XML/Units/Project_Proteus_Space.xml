@@ -4413,6 +4413,87 @@
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 
 	</SpaceUnit>
+	
+	<SpaceUnit Name="Venator_Star_Destroyer_Patrol">
+		<Variant_Of_Existing_Type>Template_Venator_Star_Destroyer</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_VENATOR_PATROL</Text_ID>
+
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_VENATOR_PATROL
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
+		TEXT_TOOLTIP_VENATOR_PATROL_HULL
+		TEXT_TOOLTIP_VENATOR_PATROL_SHIELD
+		TEXT_TOOLTIP_VENATOR_PATROL_MOVE 
+		TEXT_TOOLTIP_VENATOR_PATROL_SQUADRON 
+		TEXT_TOOLTIP_VENATOR_PATROL_WEAP1 
+		TEXT_TOOLTIP_VENATOR_PATROL_WEAP2 
+		TEXT_TOOLTIP_VENATOR_PATROL_WEAP3 
+		TEXT_TOOLTIP_VENATOR_PATROL_WEAP4 
+		TEXT_TOOLTIP_VENATOR_PATROL_WEAP5 
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK 
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT 
+		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN 
+		TEXT_TOOLTIP_CAPABILITY_BOARDABLE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_VENATOR_PATROL.TGA</Icon_Name>
+
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures>
+		Imperial_Proteus_Shipyard_Level_Two | Imperial_Proteus_Shipyard_Level_Three | Imperial_Proteus_Shipyard_Level_Four,
+		AI_Category_Dummy | Heavy_Frigate_Category_Dummy
+		</Required_Special_Structures>
+		<Required_Planets></Required_Planets>
+		<GUI_Row> 0 </GUI_Row>
+		
+		<AI_Combat_Power>854</AI_Combat_Power>
+		<Build_Cost_Credits>3550</Build_Cost_Credits>
+		<Build_Time_Seconds>65</Build_Time_Seconds>		
+		<Population_Value>17</Population_Value>
+
+		<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>V38_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Starwing_Squadron, 1</Starting_Spawned_Units_Tech_0>
+
+		<Reserve_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 4</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>V38_Squadron, 4</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 3</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Starwing_Squadron, 3</Reserve_Spawned_Units_Tech_0>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+
+		<Death_Clone>Damage_Normal, Venator_Death_Clone</Death_Clone>
+
+		<!-- SURVIVAL -->
+		<Tactical_Build_Cost_Multiplayer>2435</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>15</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Space_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+
+		<HardPoints>
+		Venator_Patrol_Bay, Venator_Patrol_Engines, 
+		HP_Venator_Patrol_01, HP_Venator_Patrol_02, HP_Venator_Patrol_03, HP_Venator_Patrol_04, 
+		HP_Venator_Patrol_05, HP_Venator_Patrol_06, HP_Venator_Patrol_07, HP_Venator_Patrol_08, 
+		HP_Venator_Patrol_Turret_01, HP_Venator_Patrol_Turret_02, HP_Venator_Patrol_Turret_03, HP_Venator_Patrol_Turret_04
+		</HardPoints>
+
+		<Tactical_Health>3240</Tactical_Health>
+		<Armor_Type>ArmourS_HeavyFrigate</Armor_Type>
+		<Shield_Points>3000</Shield_Points>
+		<Shield_Refresh_Rate>30</Shield_Refresh_Rate>
+		<Shield_Armor_Type>ShieldS_HeavyFrigate</Shield_Armor_Type>
+
+		<Max_Speed>4.55</Max_Speed>
+		<Max_Rate_Of_Turn>0.4</Max_Rate_Of_Turn>
+		<OverrideAcceleration>0.2</OverrideAcceleration>
+
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+
+	</SpaceUnit>
 
 	<SpaceUnit Name="Refit_Venator_Star_Destroyer_Proteus"> <!-- Not needed for IA -->
 		<Variant_Of_Existing_Type>Template_Refit_Venator_Star_Destroyer</Variant_Of_Existing_Type>
