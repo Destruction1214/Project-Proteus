@@ -1032,7 +1032,7 @@
 		<DummyStructure Name="Warlord_Choice_Brandei">
 		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
 
-		<Text_ID>TEXT_EVENT_WARLORD_CHOICE_BRANDEI</TEXT_ID>
+		<Text_ID>TEXT_EVENT_WARLORD_CHOICE_BRANDEI</Text_ID>
 		<Encyclopedia_Text>
 			TEXT_EVENT_TOOLTIP_WARLORD_CHOICE
 			TEXT_PLANET_SEPARATOR

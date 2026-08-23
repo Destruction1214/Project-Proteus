@@ -1314,7 +1314,7 @@ return {
 				"Triumph_Star_Destroyer", "Invincible_Cruiser", "Assertor_Star_Dreadnought",
 				-- Ground
 				"Imperial_Army_Guard_Company", "Army_Special_Missions_Company", "Imperial_Fleet_Commando_Company", "64_Y_Swift_Repulsorlift_Sled_Company",
-				"AT_PT_Company", "ULAV_Early_Company", "Imperial_Gaba18_Company", 
+				"Imperial_AT_PT_Company", "ULAV_Early_Company", "Imperial_Gaba18_Company", 
 				"008_Speeder_Company", "Imperial_VAAT_Company", "Imperial_Missile_Artillery_Company", "AV_7_Company", "Imperial_UT_AA_Company", 
 				"Teklos_Company", "Imperial_A5_Juggernaut_Company",
 				-- Research
@@ -1482,13 +1482,13 @@ return {
 		["BRANDEI"] = {
 			FriendlyName = "Thrawn Remnants",
 			Planets = {"JARDEEN"},
-			LeaderTable = {["Brandei_Judicator"]},
+			LeaderTable = {"Brandei_Judicator"},
 			LeaderEndingNames = {"Grand Admiral Brandei"},
 			HeroList = {"Brandei_Judicator", "Dezon_Constrainer", "Harbid_Deaths_Head",}, ---add aban as a hero for stats see dev doc
 			UnlockList = {
 				-- Space 
 				"Citadel_Cruiser_Group", "Imperial_CR90", "Class_C_Frigate", "Pelta_Support", "Strike_Cruiser_Light", "Carrack_Cruiser", "Star_Galleon", "Quasar", "Imperial_Boarding_Shuttle",
-				"Acclamator_I_Carrier", "Acclamator_I_Support", "Immobilizer_Twin_Well", "Vindicator_Cruiser," "Victory_I_Fleet_Star_Destroyer", "Venator_8X",
+				"Acclamator_I_Carrier", "Acclamator_I_Support", "Immobilizer_Twin_Well", "Vindicator_Cruiser", "Victory_I_Fleet_Star_Destroyer", "Venator_8X",
 				"Imperial_I_Star_Destroyer", "Tector_Star_Destroyer", "Acclamator_Battleship",
 				"Allegiance_Battlecruiser", "Impellor_Carrier", "Praetor_II_Battlecruiser",
 				-- Ground
@@ -1503,8 +1503,8 @@ return {
 			StartYear = 10,
 			IntroText = "",
 			IntroHolo = "Imperial_Naval_Officer_Loop",
-
 		},
+
 		["X1"] = {
 			FriendlyName = "X1's Empire",
 			Planets = {"MUSTAFAR"},

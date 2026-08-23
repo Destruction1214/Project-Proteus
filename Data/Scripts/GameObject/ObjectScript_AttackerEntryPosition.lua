@@ -18,8 +18,14 @@ function State_Init(message)
 	end
 
 	if Get_Game_Mode() ~= "Land" then
-		ScriptExit()
+		if Get_Game_Mode() == "Space" then
+			GlobalValue.Set("GARRISON_UNITS", nil)----Resets the table of units set as garrisons at the start of every battle
+			ScriptExit()
+		else
+			ScriptExit()
+		end
 	end
+
 
 	if message == OnEnter then
 		if not ModContentLoader then
@@ -44,57 +50,65 @@ function State_Init(message)
 			}
 		
 		local proteustypes = {--{"Alternate field base pad for the group", "false or fighter research to switch to alternate pad", "Alternate field base pad"}
-			LAMBDA = {"Field_Base_Pad_Lambda", "IMPERIAL_NABOO", "Field_Base_Pad_Regional_LambdaSector"},--using the research for the lambda Sector GC, so no research for the groups present there without doing some specific setup below (and making a bunch of new field base pads)
-			ZERO_COMMAND = {"Field_Base_Pad_Zero_Command", false},
-			ELROOD = {"Field_Base_Pad_Elrood", false},
 			ANTEMERIDIAS = {"Field_Base_Pad_Antemeridias", false},
-			WILD_SPACE = {"Field_Base_Pad_Wild_Space", false},
-			PRENTIOCH = {"Field_Base_Pad_Prentioch", false},
-			SECTOR_5 = {"Field_Base_Pad_Sector_5", "V38", "Field_Base_Pad_Regional_DeepCoreConflict"},--using the research for the Deep Core Conflict GC, so no research for the groups present there without doing some specific setup below (and making a bunch of new field base pads)
-			PRAKITH = {"Field_Base_Pad_Prakith", false},
-			JARDEEN = {"Field_Base_Pad_Jardeen", false},
-			CIUTRIC_HEGEMONY = {"Field_Base_Pad_Ciutric", false},
-			ZSINJ_REMNANTS = {"Field_Base_Pad_Zsinj_Remnants", false},
-			KAMINO = {"Field_Base_Pad_Kamino", false},
-			NABOO = {"Field_Base_Pad_Naboo", false},
-			RADAMA = {"Field_Base_Pad_Radama", false},
-			TAPANI = {"Field_Base_Pad_Tapani", false},
-			GAROS = {"Field_Base_Pad_Garos", false},
-			MAELSTROM = {"Field_Base_Pad_Maelstrom", false},
-			SHADOWSPAWN = {"Field_Base_Pad_Shadowspawn", false},
-			PROPHETS = {"Field_Base_Pad_Prophets", false},
-			TAGGE = {"Field_Base_Pad_Tagge", false},
-			TIERFON = {"Field_Base_Pad_Tierfon", false},
+			ARDA = {"Field_Base_Pad_Arda", false},
 			BAKURA = {"Field_Base_Pad_Bakura", false},
 			BRAK = {"Field_Base_Pad_Brak", false},
-			TAMARIN = {"Field_Base_Pad_Tamarin", false},
-			ISECTOR = {"Field_Base_Pad_Isector", false},
-			IMPERIAL_LIANNA = {"Field_Base_Pad_Imperial_Lianna", false},
-			QUINTAD = {"Field_Base_Pad_Quintad", false},
+			CATO_NEIMOIDIA = {"Field_Base_Pad_Neimoidia", false},
+			CIUTRIC_HEGEMONY = {"Field_Base_Pad_Ciutric", false},
 			DASTA = {"Field_Base_Pad_Dasta", false},
+			ELROOD = {"Field_Base_Pad_Elrood", false},
+			GAROS = {"Field_Base_Pad_Garos", false},
 			HAMMERS = {"Field_Base_Pad_Hammers", false},
+			IMPERIAL_LIANNA = {"Field_Base_Pad_Imperial_Lianna", false},
+			ISECTOR = {"Field_Base_Pad_Isector", false},
+			JARDEEN = {"Field_Base_Pad_Jardeen", false},
+			KAARENTH_DISSENSION = {"Field_Base_Pad_Kaarenth", false},
+			KAMINO = {"Field_Base_Pad_Kamino", false},
 			KASHYYYK = {"Field_Base_Pad_Kashyyyk", false},
+			KUAT = {"Field_Base_Pad_Kuat", false},
+			LAMBDA = {"Field_Base_Pad_Lambda", "IMPERIAL_NABOO", "Field_Base_Pad_Regional_LambdaSector"},--using the research for the lambda Sector GC, so no research for the groups present there without doing some specific setup below (and making a bunch of new field base pads)
 			LUMIYA = {"Field_Base_Pad_Lumiya", false},
-			ARDA = {"Field_Base_Pad_Arda", false},
-			SELLASAS = {"Field_Base_Pad_Sellasas", false},
+			MAELSTROM = {"Field_Base_Pad_Maelstrom", false},
+			NABOO = {"Field_Base_Pad_Naboo", false},
+			PRAKITH = {"Field_Base_Pad_Prakith", false},
+			PRENTIOCH = {"Field_Base_Pad_Prentioch", false},
+			PROPHETS = {"Field_Base_Pad_Prophets", false},
 			PROTECTORATE = {"Field_Base_Pad_Protectorate", false},
-			ZAARIN_REMNANTS = {"Field_Base_Pad_Zaarin", false},
+			QUINTAD = {"Field_Base_Pad_Quintad", false},
+			RADAMA = {"Field_Base_Pad_Radama", false},
 			RAYTER = {"Field_Base_Pad_Rayter", false},
+			RESTORED_EMPIRE = {"Field_Base_Pad_Restored_Empire", false},
+			SECTOR_5 = {"Field_Base_Pad_Sector_5", "V38", "Field_Base_Pad_Regional_DeepCoreConflict"},--using the research for the Deep Core Conflict GC, so no research for the groups present there without doing some specific setup below (and making a bunch of new field base pads)
+			SELLASAS = {"Field_Base_Pad_Sellasas", false},
+			SHADOWSPAWN = {"Field_Base_Pad_Shadowspawn", false},
+			TAGGE = {"Field_Base_Pad_Tagge", false},
+			TAMARIN = {"Field_Base_Pad_Tamarin", false},
+			TAPANI = {"Field_Base_Pad_Tapani", false},
+			TIERFON = {"Field_Base_Pad_Tierfon", false},
 			VOGEL = {"Field_Base_Pad_Vogel", false},
 			WESSEX = {"Field_Base_Pad_Wessex", false},
-			CATO_NEIMOIDIA = {"Field_Base_Pad_Neimoidia", false},
-			KUAT = {"Field_Base_Pad_Kuat", false},
-			KAARENTH_DISSENSION = {"Field_Base_Pad_Kaarenth", false},
-			RESTORED_EMPIRE = {"Field_Base_Pad_Restored_Empire", false},
-			PRAJI = {"Field_Base_Pad_Praji", false},
-			BALMORRA = {"Field_Base_Pad_Balmorra", false},
-			EMPIRE_REBORN = {"Field_Base_Pad_Empire_Reborn", false},
-			SECOND_IMPERIUM = {"Field_Base_Pad_Second_Imperium", false},
-			VEERS = {"Field_Base_Pad_Veers", false},
-			GRUNGER = {"Field_Base_Pad_Grunger", false},
-			THORN = {"Field_Base_Pad_Thorn", false},
+			WILD_SPACE = {"Field_Base_Pad_Wild_Space", false},
+			ZAARIN_REMNANTS = {"Field_Base_Pad_Zaarin", false},
+			ZERO_COMMAND = {"Field_Base_Pad_Zero_Command", false},
+			ZSINJ_REMNANTS = {"Field_Base_Pad_Zsinj_Remnants", false},
+		--	ANAXES = {"Field_Base_Pad_Anaxes", false},--TODO
 			ALLIED_TION = {"Field_Base_Pad_Allied_Tion", false},
+			BALMORRA = {"Field_Base_Pad_Balmorra", false},
+		--	CARIDA = {"Field_Base_Pad_Carida", false},--TODO
+		--	CENTRALITY = {"Field_Base_Pad_Centrality", false},--TODO
+			EMPIRE_REBORN = {"Field_Base_Pad_Empire_Reborn", false},
+			GRUNGER = {"Field_Base_Pad_Grunger", false},
+		--	LANOX = {"Field_Base_Pad_Lanox", false},--TODO
+			PRAJI = {"Field_Base_Pad_Praji", false},
 			RENDILI = {"Field_Base_Pad_Rendili", false},
+		--	SCREED = {"Field_Base_Pad_Screed", false},--TODO
+			SECOND_IMPERIUM = {"Field_Base_Pad_Second_Imperium", false},
+		--	STORM_COMMANDOS = {"Field_Base_Pad_Storm_Commandos", false},--TODO
+			THORN = {"Field_Base_Pad_Thorn", false},
+		--	THARKUS = {"Field_Base_Pad_Tharkus", false},--TODO
+			VEERS = {"Field_Base_Pad_Veers", false},
+		--	BRANDEI = {"Field_Base_Pad_Brandei", false},--TODO
 			X1 = {"Field_Base_Pad_X1", false},
 			SECRET = {"Field_Base_Pad_Secret", false},
 			}
