@@ -1872,7 +1872,7 @@
 
 		<Required_Special_Structures>Imperial_Proteus_Shipyard_Level_Four, AI_Category_Dummy | Story_Category_Dummy</Required_Special_Structures>
 
-		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
 		
 		<Population_Value>217</Population_Value>
 
@@ -1990,7 +1990,7 @@
 
 		<Required_Special_Structures>Imperial_Proteus_Shipyard_Level_Four, AI_Category_Dummy | Story_Category_Dummy</Required_Special_Structures>
 
-		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
 		
 		<Population_Value>217</Population_Value>
 
