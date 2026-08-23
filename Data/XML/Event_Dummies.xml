@@ -1029,7 +1029,7 @@
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 	</DummyStructure>
 
-		<DummyStructure Name="Warlord_Choice_Brandei">
+	<DummyStructure Name="Warlord_Choice_Brandei">
 		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
 
 		<Text_ID>TEXT_EVENT_WARLORD_CHOICE_BRANDEI</Text_ID>
@@ -1041,6 +1041,36 @@
 		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
 
 		<Icon_Name>I_BUTTON_BRANDEI.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
+
+	<DummyStructure Name="Warlord_Choice_Carida">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_EVENT_WARLORD_CHOICE_CARIDA</Text_ID>
+		<Encyclopedia_Text>
+			TEXT_EVENT_TOOLTIP_WARLORD_CHOICE
+			TEXT_PLANET_SEPARATOR
+			TEXT_PROTEUS_DESCRIPTION_CARIDA
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>I_BUTTON_BALAN.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
+
+	<DummyStructure Name="Warlord_Choice_Allied_Tion">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_EVENT_WARLORD_CHOICE_ALLIED_TION</Text_ID>
+		<Encyclopedia_Text>
+			TEXT_EVENT_TOOLTIP_WARLORD_CHOICE
+			TEXT_PLANET_SEPARATOR
+			TEXT_PROTEUS_DESCRIPTION_ALLIED_TION
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>I_BUTTON_GRONN.tga</Icon_Name>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 	</DummyStructure>
 
