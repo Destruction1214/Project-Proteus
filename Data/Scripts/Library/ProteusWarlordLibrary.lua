@@ -1468,8 +1468,9 @@ return {
 			},
 			LastYear = 4,
 			FactionOverride = "Empire",
-			IntroText = "",
+			IntroText = "TEXT_CONQUEST_PROTEUS_THARKUS",
 			IntroHolo = "Imperial_Naval_Officer_Loop",
+			CustomRewardTable = true,
 		},
 		["VEERS"] = {
 			FriendlyName = "Blizzard Force",
