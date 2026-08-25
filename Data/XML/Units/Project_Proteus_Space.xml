@@ -2660,7 +2660,7 @@
 
 <!-- Heavy Frigate -->
 
-<SpaceUnit Name="Gladiator_Demolisher">
+    <SpaceUnit Name="Gladiator_Demolisher">
 		<Variant_Of_Existing_Type>Template_Gladiator</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_GLADIATOR_DEMOLISHER</Text_ID>
 		<Encyclopedia_Text>
