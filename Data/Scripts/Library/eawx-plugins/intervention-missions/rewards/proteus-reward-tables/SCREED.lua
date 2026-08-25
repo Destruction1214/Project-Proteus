@@ -2,7 +2,7 @@ return {
 	Era_1 = {
 		{
 			{"Imperial_Army_Guard_Company", 5},
-			{"Imperial_Navy_Trooper_Company", 5},
+			{"Imperial_Army_Trooper_Company", 5},
 			{"Surveyor_Frigate", 4},
 			{"ULAV_Company", 4},
 			{"Repulsor_Scout_Company", 4},
@@ -26,7 +26,7 @@ return {
 	Era_2 = {
 		{
 			{"Imperial_Army_Guard_Company", 5},
-			{"Imperial_Navy_Trooper_Company", 5},
+			{"Imperial_Army_Trooper_Company", 5},
 			{"Surveyor_Frigate", 4},
 			{"ULAV_Company", 4},
 			{"Repulsor_Scout_Company", 4},
@@ -50,7 +50,7 @@ return {
 	Era_3 = {
 		{
 			{"Imperial_Army_Guard_Company", 5},
-			{"Imperial_Navy_Trooper_Company", 5},
+			{"Imperial_Army_Trooper_Company", 5},
 			{"Surveyor_Frigate", 4},
 			{"ULAV_Company", 4},
 			{"Repulsor_Scout_Company", 4},
@@ -74,7 +74,7 @@ return {
 	Era_4 = {
 		{
 			{"Imperial_Army_Guard_Company", 5},
-			{"Imperial_Navy_Trooper_Company", 5},
+			{"Imperial_Army_Trooper_Company", 5},
 			{"Surveyor_Frigate", 4},
 			{"ULAV_Company", 4},
 			{"Repulsor_Scout_Company", 4},
@@ -98,7 +98,7 @@ return {
 	Era_5 = {
 		{
 			{"Imperial_Army_Guard_Company", 5},
-			{"Imperial_Navy_Trooper_Company", 5},
+			{"Imperial_Army_Trooper_Company", 5},
 			{"Surveyor_Frigate", 4},
 			{"ULAV_Company", 4},
 			{"Repulsor_Scout_Company", 4},
@@ -122,7 +122,7 @@ return {
 	Era_6 = {
 		{
 			{"Imperial_Army_Guard_Company", 5},
-			{"Imperial_Navy_Trooper_Company", 5},
+			{"Imperial_Army_Trooper_Company", 5},
 			{"Surveyor_Frigate", 4},
 			{"ULAV_Company", 4},
 			{"Repulsor_Scout_Company", 4},
@@ -146,7 +146,7 @@ return {
 	Era_7 = {
 		{
 			{"Imperial_Army_Guard_Company", 5},
-			{"Imperial_Navy_Trooper_Company", 5},
+			{"Imperial_Army_Trooper_Company", 5},
 			{"Surveyor_Frigate", 4},
 			{"ULAV_Company", 4},
 			{"Repulsor_Scout_Company", 4},
@@ -170,7 +170,7 @@ return {
 	Era_8 = {
 		{
 			{"Imperial_Army_Guard_Company", 5},
-			{"Imperial_Navy_Trooper_Company", 5},
+			{"Imperial_Army_Trooper_Company", 5},
 			{"Surveyor_Frigate", 4},
 			{"ULAV_Company", 4},
 			{"Repulsor_Scout_Company", 4},
@@ -194,7 +194,7 @@ return {
 	Era_9 = {
 		{
 			{"Imperial_Army_Guard_Company", 5},
-			{"Imperial_Navy_Trooper_Company", 5},
+			{"Imperial_Army_Trooper_Company", 5},
 			{"Surveyor_Frigate", 4},
 			{"ULAV_Company", 4},
 			{"Repulsor_Scout_Company", 4},
@@ -218,7 +218,7 @@ return {
 	Era_10 = {
 		{
 			{"Imperial_Army_Guard_Company", 5},
-			{"Imperial_Navy_Trooper_Company", 5},
+			{"Imperial_Army_Trooper_Company", 5},
 			{"Surveyor_Frigate", 4},
 			{"ULAV_Company", 4},
 			{"Repulsor_Scout_Company", 4},
@@ -242,7 +242,7 @@ return {
 	Era_11 = {
 		{
 			{"Imperial_Army_Guard_Company", 5},
-			{"Imperial_Navy_Trooper_Company", 5},
+			{"Imperial_Army_Trooper_Company", 5},
 			{"Surveyor_Frigate", 4},
 			{"ULAV_Company", 4},
 			{"Repulsor_Scout_Company", 4},
