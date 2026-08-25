@@ -1162,7 +1162,7 @@ return {
 				"Imperial_Navy_Trooper_Company", "Navy_Commando_Company", "Imperial_Fleet_Commando_Company", "Republic_BARC_Company",
 				"PX7_Company", "Imperial_AT_PT_Company", "AT_DP_Company", 
 				"Imperial_TX130T_Company", "AT_AA_Walker_Company", "SPMAG_Walker_Company", "Imperial_Modified_LAAT_Company", "MZ8_Tank_Company", "Deathhawk_Company",
-				"Imperial_AT_ACT_Walker_Company", "Imperial_AT_AT_Walker_Turbolaser_Refit_Company",
+				"Canderous_Assault_Tank_Lasers_Company", "Imperial_AT_AT_Walker_Turbolaser_Refit_Company", "Imperial_A5_Juggernaut_Company",
 				-- Research
 				"Gorath_Research_Proteus",
 			},
