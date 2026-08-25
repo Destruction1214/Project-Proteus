@@ -1364,14 +1364,14 @@ return {
 				-- Ground
 				"Imperial_Navy_Trooper_Company", "ISB_Infiltrator_Company", "Imperial_Dwarf_Spider_Droid_Company",
 				"Imperial_AT_PT_Company", "AT_XT_Company", "Imperial_Bantha_II_Skiff_Company", "AA70_Company", "Skyhopper_Company",
-				"008_Speeder_Company", "HAET_Company", "AV_7_Company",
-				-- "AT_OT_Support_Walker_Company", 
-				"Imperial_A5_Juggernaut_Company"
+				"008_Speeder_Company", "HAET_Company", "AV_7_Company", 
+				"A9_Floating_Fortress_Company", "Imperial_A5_Juggernaut_Company"
 			},
 			LastYear = 6,
 			FactionOverride = "Zsinj_Empire",
 			IntroText = "TEXT_CONQUEST_SCREED",
 			IntroHolo = "Imperial_Naval_Officer_Loop",
+			CustomRewardTable = true,
 		},
 		["SECOND_IMPERIUM"] = {
 			FriendlyName = "Second Imperium",
