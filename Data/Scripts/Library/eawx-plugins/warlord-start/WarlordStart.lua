@@ -155,12 +155,13 @@ function WarlordStart:Populate_Chosen_Faction(choice, cosmetic)
 	if year == nil then
 		year = 1.0
 	end
+	local FriendlyName = get_value_per_era(entry.FriendlyName, year, true)
 
 	GlobalValue.Set("PROTEUS_GROUP_NAME",choice)
-	GlobalValue.Set("PROTEUS_INITIAL_DISPLAY_NAME",entry.FriendlyName)
-	GlobalValue.Set("PROTEUS_CURRENT_DISPLAY_NAME",entry.FriendlyName)
+	GlobalValue.Set("PROTEUS_INITIAL_DISPLAY_NAME",FriendlyName)	--GlobalValue.Set("PROTEUS_INITIAL_DISPLAY_NAME",entry.FriendlyName)
+	GlobalValue.Set("PROTEUS_CURRENT_DISPLAY_NAME",FriendlyName)	--GlobalValue.Set("PROTEUS_CURRENT_DISPLAY_NAME",entry.FriendlyName)
 
-	crossplot:publish("FACTION_DISPLAY_NAME_CHANGE", string.upper(self.warlord_name), entry.FriendlyName, entry.PlanetParticle)
+	crossplot:publish("FACTION_DISPLAY_NAME_CHANGE", string.upper(self.warlord_name), FriendlyName, entry.PlanetParticle)	--crossplot:publish("FACTION_DISPLAY_NAME_CHANGE", string.upper(self.warlord_name), entry.FriendlyName, entry.PlanetParticle)
 
 	if choice == "KUAT" then
 		crossplot:publish("PROTEUS_MARKET")
@@ -273,6 +274,10 @@ function WarlordStart:Populate_Chosen_Faction(choice, cosmetic)
 		end
 	end
 
+	if entry.CustomRewardTable then
+		GlobalValue.Set("CUSTOM_PROTEUS_REWARDS",true)
+	end
+
 	crossplot:publish("INITIALIZE_PROTEUS_LEGITIMACY", entry.LeaderTable)
 	crossplot:publish("INITIALIZE_AI", "empty")
 	self.warlordlist = nil
@@ -316,7 +321,7 @@ function WarlordStart:ZsinjRemnantHandler(year)
 	if table.getn(Find_All_Objects_Of_Type(self.p_zsinj)) > 0 then
 		local warlordlist = require("ProteusWarlordLibrary")
 		local zsinjdata = warlordlist["ZSINJ_REMNANTS"]
-		crossplot:publish("FACTION_DISPLAY_NAME_CHANGE", "ZSINJ_EMPIRE", zsinjdata.FriendlyName)
+		crossplot:publish("FACTION_DISPLAY_NAME_CHANGE", "ZSINJ_EMPIRE", get_value_per_era(zsinjdata.FriendlyName, year, true))	--crossplot:publish("FACTION_DISPLAY_NAME_CHANGE", "ZSINJ_EMPIRE", zsinjdata.FriendlyName)
 		if self.p_zsinj.Is_Human() then
 			StoryUtil.Multimedia(zsinjdata.IntroText, 15, nil, zsinjdata.IntroHolo, 0)
 		end
