@@ -1,10 +1,10 @@
 function Get_RewardTable()
-	local ProteusLibrary = require("ProteusWarlordLibrary")
-	local ProteusGroup = GlobalValue.Get("PROTEUS_GROUP_NAME")
 	local Proteus_RewardTables = require("eawx-plugins/intervention-missions/rewards/proteus-reward-tables/IMPERIAL_PROTEUS")
-	if ProteusLibrary[ProteusGroup].CustomRewardTable then
+	if GlobalValue.Get("CUSTOM_PROTEUS_REWARDS") ~= nil then
+		local ProteusGroup = GlobalValue.Get("PROTEUS_GROUP_NAME")
 		Proteus_RewardTables = require("eawx-plugins/intervention-missions/rewards/proteus-reward-tables/"..ProteusGroup)
 	end
+
 	return Proteus_RewardTables
 end
 
