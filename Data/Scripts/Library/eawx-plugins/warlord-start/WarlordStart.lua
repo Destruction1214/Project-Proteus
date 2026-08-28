@@ -176,10 +176,8 @@ function WarlordStart:Populate_Chosen_Faction(choice, cosmetic)
 		local unlock = get_value_per_era(entry.UnlockList, year)
 		if entry.UnlockList["TimeGate"] then
 			local gated = entry.UnlockList["TimeGate"]
-			StoryUtil.ShowScreenText("Debug: TimeGate found", 15, nil, {r = 244, g = 244, b = 0})
 			for _, data in pairs(gated) do
 				if year >= data[2] then
-					StoryUtil.ShowScreenText("Debug: Unlock - "..data[1].." for "..data[2], 15, nil, {r = 244, g = 244, b = 0})
 					table.insert(unlock, data[1])
 				end
 				if data[3] then
