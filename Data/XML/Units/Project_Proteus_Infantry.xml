@@ -3538,7 +3538,7 @@
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 	</GroundCompany>
 
-	<GroundCompany Name="SD_6_Droid_Company_Sellasas">
+	<GroundCompany Name="SD_6_Droid_Company_Generic">
 		<Variant_Of_Existing_Type>SD_6_Hulk_Infantry_Droid_Company</Variant_Of_Existing_Type>
 		<Tech_Level>0</Tech_Level>
 		<Affiliation>Imperial_Proteus</Affiliation>

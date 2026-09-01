@@ -51,7 +51,7 @@ return {
 		"Mandator_III_Dreadnought",
 		"1L_Tank_Company","Imperial_Gaba18_Company","2M_Repulsor_Tank_Company","Imperial_VAAT_Company","Freerunner_AA_Company","Hutt_Pod_Walker_Company","A9_Floating_Fortress_Company","Canderous_Assault_Tank_Lasers_Company",
         --D'Asta Sector added units
-		"Consular_Refit","Strike_Interdictor","SD_6_Droid_Company_Sellasas","Neutron_Star_Mercenary","Proficient_Tender","Super_Transport_XI","Broadside_Cruiser","Bellator_Star_Dreadnought", "Captor",
+		"Consular_Refit","Strike_Interdictor","SD_6_Droid_Company_Generic","Neutron_Star_Mercenary","Proficient_Tender","Super_Transport_XI","Broadside_Cruiser","Bellator_Star_Dreadnought", "Captor",
         "Army_Special_Missions_Company","Elite_Mercenary_Company","T2A_Company","1H_Tank_Company","Imperial_Light_Mobile_Artillery_Company","Heavy_Recovery_Vehicle_Company", "Yutrane_Trackata_HQ",
 		--Zaarin Remnants Added Units
 		"Beta_ETR_3_Group", "CR90", "Tartan_Patrol_Cruiser", "CR92A", "Imperial_Nebulon_B", "Ton_Falk_Escort_Carrier", "Strike_Cruiser", "Immobilizer_418", "Pursuit_Light_Cruiser", "Imperial_II_Frigate", "Procursator_Star_Destroyer", "Venator_Star_Destroyer", "Imperial_I_Star_Destroyer_Carrier", "Imperial_II_Star_Destroyer", "Secutor_Star_Destroyer", "Praetor_Carrier_Battlecruiser", "Mandator_III_Dreadnought", 
@@ -140,6 +140,7 @@ return {
 		"Raptor_Commando_Company",
 	    --Balmorra and Rendili added units
 	    "Marauder_Missile_Cruiser", "AAC_I_Company", "Freerunner_Assault_Company", "CC7700_E", "Aratech_Battle_Platform_Company", "MAL_Rocket_Vehicle_Company", "Modernized_DHC", "Picket_DHC", "Overracer_Speeder_Bike_Company",
+		"SD_9_Droid_Company_Generic", "SD_10_Droid_Company_Generic", "X1_Viper_Droid_Company_Generic", 
 		--Imperial Hutt Space added units
 		"Victory_I_Star_Destroyer_Patrol",
 		--Secret added units

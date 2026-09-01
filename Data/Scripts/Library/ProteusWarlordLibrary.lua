@@ -788,7 +788,7 @@ return {
 				"Sorannan_Star_Destroyer", "Bellator_Star_Dreadnought",
 				-- Ground
 				"Army_Special_Missions_Company", "Elite_Mercenary_Company", "64_Y_Swift_Repulsorlift_Sled_Company",
-				"Imperial_AT_PT_Company", "T2A_Company", "SD_6_Droid_Company_Sellasas",
+				"Imperial_AT_PT_Company", "T2A_Company", "SD_6_Droid_Company_Generic",
 				"1H_Tank_Company", "Imperial_Dropship_Transport_Company", "Imperial_Light_Mobile_Artillery_Company", "Imperial_AT_AP_Walker_Company",
 				"Heavy_Recovery_Vehicle_Company", "A9_Floating_Fortress_Company", 
 				-- Structure
