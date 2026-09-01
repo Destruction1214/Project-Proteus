@@ -3144,7 +3144,7 @@
 		<Text_ID>TEXT_COMPANY_PRAJI_ESTATES</Text_ID>
 
 		<Land_Model_Name>NB_Bothan_building.alo</Land_Model_Name>
-		<Scale_Factor>1.5</Scale_Factor>
+		<Scale_Factor>2.0</Scale_Factor>
 
 		<Affiliation>Imperial_Proteus</Affiliation>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
@@ -3201,7 +3201,7 @@
 		<Text_ID>TEXT_COMPANY_BANKOFTHECORE</Text_ID>
 
 		<Land_Model_Name>W_Urban_CorBuild_A.alo</Land_Model_Name>
-		<Scale_Factor>1.5</Scale_Factor>
+		<Scale_Factor>2.0</Scale_Factor>
 
 		<Affiliation>Imperial_Proteus</Affiliation>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
