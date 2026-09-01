@@ -113,7 +113,7 @@ return {
 			Planets = {"BACRANA"},
 			LeaderTable = {["RAMIER_TEAM"] = {"RAMIER"}},
 			LeaderEndingNames = {"Emperor Ramier"},
-			HeroList = {"Ramier_Team","Trier_Secutor","Lacmar_Team","Maston_Team"},
+			HeroList = {"Ramier_Team","Trier_Secutor","Lacmar_Team","Maston_Team","Tilas_Magore_Team"},
 			UnlockList = {
 				-- Space
 				"VT49_Decimator_Group", "Imperial_CR90", "Tartan_Patrol_Cruiser", "Marauder_Picket_Cruiser", "Victory_I_Frigate", "Galleon_Minelayer",
@@ -188,12 +188,13 @@ return {
 			Planets = {"NEZ_PERON","AXXILA","SERENNO","ORD_CESTUS","CELANON","VALAHARI"},
 			LeaderTable = {"RAGEZ_DASTA_MARAUDER"},
 			LeaderEndingNames = {"Emperor D'Asta"},
-			HeroList = {"Ragez_DAsta_Marauder", "MNista_Quasar", "Feena_DAsta_Team"},
+			HeroList = {{"Ragez_DAsta_Marauder", "MNista_Quasar", "Feena_DAsta_Team"}, [9] = {"Ragez_DAsta_Marauder", "MNista_Quasar", "Feena_DAsta_Clone_Team"}, [11] = {"Ragez_DAsta_Marauder", "MNista_Quasar",  "Feena_DAsta_Team", "Feena_DAsta_Clone_Team", "Tav_Kennede_Team"}}
+			FighterHero = {{"YARNAR_SQUADRON","RAGEZ_DASTA_MARAUDER"}},
 			UnlockList = {
 				-- Space	
 				"Guardian_Cruiser_Group", "Imperial_CR90", "Action_VI_Support", "Marauder_Cruiser", "Quasar", "Star_Galleon", "Super_Transport_VI", "Super_Transport_VII_Missile",
 				 "DHC_Interdictor", "PDF_DHC", "Neutron_Star", "Captor", "Super_Transport_XI_Modified", "Victory_I_Star_Destroyer",
-				"Imperial_I_Star_Destroyer_Command", "Imperial_II_Star_Destroyer", "Invincible_Cruiser", 
+				"Imperial_I_Star_Destroyer_Command", "Imperial_II_Star_Destroyer_Sentry", "Invincible_Cruiser", 
 				"Communications_Battlecruiser", "Mandator_III_Dreadnought",
 				-- Ground
 				"Imperial_Army_Guard_Company", "Military_Soldier_Company", "Imperial_Army_74Z_Bike_Company", 
@@ -311,7 +312,7 @@ return {
 			HeroList = {"Shargael_Team"},
 			UnlockList = {
 				-- Space
-				"Gozanti_Cruiser_Group", "Action_VI_Refit", "Consular_Refit", "Galleon", "Carrack_Cruiser_Laser",
+				"Gozanti_Cruiser_Group", "Action_VI_Refit", "Consular_Refit", "Galleon", "Tartan_Patrol_Cruiser", "Carrack_Cruiser_Laser",
 				"Rep_DHC", "Vindicator_Cruiser", "Acclamator_Patrol_Refit", "DHC_Interdictor", "Victory_I_Star_Destroyer_Patrol", "Venator_Star_Destroyer_Patrol", 
 				"Imperial_I_Star_Destroyer_Patrol", "Imperial_II_Star_Destroyer_Sentry", "Triumph_Star_Destroyer",
 				"Praetor_II_Battlecruiser", "Bellator_Star_Dreadnought", -- Replace praetor with SSD Variant
@@ -832,8 +833,8 @@ return {
 			HeroList = {{"Ulric_Tagge", "Domina_Tagge_Team", "Dimone_Irrv_Team", "Shara_Or_Team"}, [6] = {"Ulric_Tagge", "Dimone_Irrv_Team", "Shara_Or_Team"}},
 			UnlockList = {
 				-- Space
-				"Citadel_Cruiser_Group", "IPV1", "Nebulon_B_Tender", "Lancer_Frigate_PDF", "Marauder_Cruiser", "Surveyor_Frigate", "CEC_Light_Cruiser", 			
-				"Rep_DHC", "DHC_Interdictor", "Pursuit_Light_Cruiser", "MTC_Support", "MTC_Sensor", "MTC_Combat", "Super_Transport_XI_Missile", "Gladiator_I",
+				"Citadel_Cruiser_Group", "IPV1", "Nebulon_B_Tender", "Lancer_Frigate_PDF", "Marauder_Cruiser", "Surveyor_Frigate", "CEC_Light_Cruiser", "Super_Transport_VII_Interdictor", 			
+				"Picket_DHC", "Pursuit_Light_Cruiser", "Super_Transport_XI_Missile", "Gladiator_I", "MTC_Support", "MTC_Sensor", "MTC_Combat", 
 				"Imperial_I_Star_Destroyer_Patrol", "Imperial_I_Star_Destroyer_Command", "Triumph_Star_Destroyer", 
 				"CSA_Tagge_Battlecruiser", "Torpedo_Sphere", "Mandator_II_Dreadnought",
 				-- Ground
@@ -932,7 +933,7 @@ return {
 			Planets = {"MHAELI","AGUARL"},
 			LeaderTable = {["HAUSER_TEAM"] = {"HAUSER_A9"}},
 			LeaderEndingNames = {"Supreme Moff Hauser"},
-			HeroList = {"Hauser_Team", "Trommer_Ravagor"},
+			HeroList = {"Hauser_Team", "Trommer_Ravagor", "Jollie_Team"},
 			UnlockList = {
 				-- Space	
 				"Gamma_ATR_6_Group", "IPV1", "Tartan_Patrol_Cruiser", "Active_Frigate", "Arquitens_Refit",  
@@ -940,7 +941,7 @@ return {
 				"Imperial_I_Star_Destroyer_Assault", "Imperial_I_Star_Destroyer_Command",
 				"Allegiance_Battlecruiser", "Compellor_Battlecruiser", "Executor_Star_Dreadnought",
 				-- Ground
-				"Compforce_Assault_Company", "Imperial_Galactic_Marine_Company", "IntSec_Operator_Company", "Imperial_74Z_Bike_Company", 
+				"Faux_Stormtrooper_Company", "Imperial_Galactic_Marine_Company", "IntSec_Operator_Company", "Imperial_74Z_Bike_Company", 
 				"Repulsor_Scout_Company", "RTT_Company", "Chariot_LAV_Company", 
 				"S_1_Firehawke_Company", "Imperial_Heavy_Mobile_Artillery_Company", "MAAT_Company", "Imperial_UT_AA_Company", "Nemesis_Gunship_Company", 
 				"A9_Floating_Fortress_Company",
@@ -1271,7 +1272,7 @@ return {
 			IntroHolo = "Grunger_Loop",
 		},
 		["LANOX"] = {
-			FriendlyName = "Imperial Loyalist",
+			FriendlyName = "Imperial Loyalists",
 			Planets = {"MAKEM_TE", "OSSUS"},
 		    LeaderTable = {"LANOX_HAZARD"},
 			LeaderEndingNames = {"Imperial Regent Lanox"},
@@ -1300,12 +1301,12 @@ return {
 			Planets = {"KAIKIELIUS", "AARGAU"},
 			LeaderTable = {"PRAJI_SECUTOR"},
 			LeaderEndingNames = {"Emperor Praji"},
-			HeroList = {"Praji_Secutor"}, 
+			HeroList = {"Praji_Secutor", "Tannon_Praji_Team", "Collin_Praji_Team"}, 
 			UnlockList = {
 				-- Space 
-				"Guardian_Cruiser_Group", "Customs_Corvette", "Corellian_Buccaneer", "Lancer_Frigate", "Strike_Cruiser", "Ton_Falk_Escort_Carrier", "Trenchant",
+				"Guardian_Cruiser_Group", "Customs_Corvette", "Corellian_Buccaneer", "Strike_Cruiser", "Ton_Falk_Escort_Carrier", "Trenchant",
 				"DHC_Carrier", "Immobilizer_Twin_Well", "Gladiator_II", "Proteus_Cargo_Ship", "Vindicator_Carrier", "MTC_Sensor", "Victory_II_Carrier", "Vector_Star_Destroyer", 
-				"Imperial_I_Star_Destroyer_Hero_Refit_Proteus", "Imperial_II_Star_Destroyer", "Secutor_Star_Destroyer", "Imperial_II_Star_Destroyer_Sentry",
+				"Imperial_I_Star_Destroyer_Hero_Refit_Proteus", "Imperial_II_Star_Destroyer", "Secutor_Star_Destroyer",
 				"Sorannan_Star_Destroyer", "Praetor_Carrier_Battlecruiser", "Mandator_III_Dreadnought",
 				-- Ground
 				"Imperial_Galactic_Marine_Company", "Imperial_Scout_Trooper_Company", "EVO_Trooper_Company", "Imperial_74Z_Bike_Company", 
@@ -1336,8 +1337,8 @@ return {
 				"Assertor_Star_Dreadnought",
 				-- Ground
 				"Imperial_Army_Guard_Company", "Army_Special_Missions_Company", "Imperial_Fleet_Commando_Company", "64_Y_Swift_Repulsorlift_Sled_Company",
-				"Imperial_AT_PT_Company", "ULAV_Early_Company", "Imperial_Gaba18_Company", 
-				"008_Speeder_Company", "Imperial_VAAT_Company", "Imperial_Missile_Artillery_Company", "AV_7_Company", "Imperial_UT_AA_Company", 
+				"PX10_Company", "ULAV_Early_Company", "Imperial_Gaba18_Company", "Arrow_23_Company",
+				"008_Speeder_Company", "Imperial_VAAT_Company", "AV_7_Company", "AT_AA_Flak_Walker_Company", 
 				"Teklos_Company", "Imperial_A5_Juggernaut_Company",
 				-- Research
 				"Dummy_RepublicSD_Rendili", "Dummy_Random_Unit_Rendili_VSD", "Dummy_Random_Unit_Rendili_DHC", "Dummy_Random_Unit_Rendili_NSBC", "Dummy_Random_Unit_Rendili_GSD",

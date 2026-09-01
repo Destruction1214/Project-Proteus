@@ -43,6 +43,6 @@ return {
 		"Gladiator_I",
         "Gladiator_II",
         --"Gladiator_Carrier",
-		--"Gladiator_Siege_Refit",
+		"Gladiator_Demolisher",
 	},
 }
