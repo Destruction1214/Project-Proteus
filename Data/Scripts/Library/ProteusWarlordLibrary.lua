@@ -188,7 +188,7 @@ return {
 			Planets = {"NEZ_PERON","AXXILA","SERENNO","ORD_CESTUS","CELANON","VALAHARI"},
 			LeaderTable = {"RAGEZ_DASTA_MARAUDER"},
 			LeaderEndingNames = {"Emperor D'Asta"},
-			HeroList = {{"Ragez_DAsta_Marauder", "MNista_Quasar", "Feena_DAsta_Team"}, [9] = {"Ragez_DAsta_Marauder", "MNista_Quasar", "Feena_DAsta_Clone_Team"}, [11] = {"Ragez_DAsta_Marauder", "MNista_Quasar",  "Feena_DAsta_Team", "Feena_DAsta_Clone_Team", "Tav_Kennede_Team"}}
+			HeroList = {{"Ragez_DAsta_Marauder", "MNista_Quasar", "Feena_DAsta_Team"}, [9] = {"Ragez_DAsta_Marauder", "MNista_Quasar", "Feena_DAsta_Clone_Team"}, [11] = {"Ragez_DAsta_Marauder", "MNista_Quasar",  "Feena_DAsta_Team", "Feena_DAsta_Clone_Team", "Tav_Kennede_Team"}},
 			FighterHero = {{"YARNAR_SQUADRON","RAGEZ_DASTA_MARAUDER"}},
 			UnlockList = {
 				-- Space	
