@@ -151,7 +151,6 @@ return {
     ,CRONAL_SINGULARITY = {nil, true}
 	,SHADOWSPAWN_TEAM = {nil, false}
     ,KLICK_TEAM = {nil, false}
-    ,RBANN_TEAM = {nil, false}
 	,FABLE_ASTIN_TEAM = {nil, false}
 	,JAALIB_BRANDL_PROTECTORATE_I = {nil, true}
 	,ADALRIC_BRANDL_TEAM = {nil, false}
@@ -589,7 +588,7 @@ return {
     ,YEORG_CAPTISON_TEAM = {"Is_Production_Planet", false}
     ,REE_SHALA_TEAM = {"Is_Production_Planet", false}
     ,RBANN_TEAM = {nil, false}
-    ,MALLAT_TEAM = {"Is_Production_Planet", false}
+    ,MALLAT_TEAM = {nil, false}
     ,SHARA_OR_TEAM = {nil, false}
     ,TYIONSIS_CEX_TEAM = {nil, false}
     ,GRUNGER_MAHLER = {nil, true}
@@ -603,5 +602,30 @@ return {
     ,GRONN_ACROPORA = {nil, true}
     ,THORN_TEAM = {nil, false}
     ,LEZNER_TEAM = {nil, false}
+    ,FYYAR_DOOMGIVER = {nil, true}
+    ,ANTON_KALE = {nil, true}
+    ,ANTON_KALE_MODERNIZED = {nil, true}
+    ,COMEG_OSTRANDER = {nil, true}
+    ,KIEZ_EMPIRE = {nil, true}
+    ,THARKUS_GREED = {nil, true}
+    ,THARKUS_AMBITION = {nil, true}
+    ,DAKOVA_PREFECT = {nil, true}
+    ,VASKOR_BLITZ = {nil, true}
+    ,GHEK_PATROLLER = {nil, true}
+    ,Hethrir_Team = {nil, false}
+    ,Kile_Hannad_Team = {nil, false}
+    ,Collin_Praji_Team = {nil, false}
+    ,Tav_Kennede_Team = {nil, false}
+    ,Kantos_Team = {nil, false}
+    ,Voss_Team = {nil, false}
+    ,RBANN_TEAM = {nil, false}
+    ,Pollux_Team = {nil, false}
+    ,Kastor_Team = {nil, false}
+    ,Nobles_Team = {"Is_Production_Planet", false}
+    ,Seti_Ashgad_Team = {"Is_Production_Planet", false}
+    ,Feena_DAsta_Clone_Team = {"Is_Production_Planet", false}
+    ,Tannon_Praji_Team = {"Is_Production_Planet", false}
+    ,Jollie_Team = {"Is_Production_Planet", false}
+    ,Tilas_Magore_Team = {"Is_Production_Planet", false}
     
 }

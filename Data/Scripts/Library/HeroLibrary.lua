@@ -134,6 +134,12 @@ return {
 ["GURNST_TEAM   "] = {Type = "HeroCompany", Text_ID = "Gurnst", Icon_Name = "I_BUTTON_GURNST.TGA", Company_Units = {["GURNST"] = {CategoryMask = {"INFANTRYHERO", "ANTIINFANTRY"}}}},
 ["TYIONSIS_CEX_TEAM"] = {Type = "HeroCompany", Text_ID = "Tyionsis Cex", Icon_Name = "I_BUTTON_CEX.TGA", Company_Units = {["TYIONSIS_CEX"] = {CategoryMask = {"INFANTRYHERO", "ANTIVEHICLE"}}}},
 ["NAMMAN_TEAM"] = {Type = "HeroCompany", Text_ID = "Namman Cha", Icon_Name = "I_BUTTON_NAMMAN.TGA", Company_Units = {["NAMMAN"] = {CategoryMask = {"INFANTRYHERO", "ANTIINFANTRY"}}}},
-["GK121_TEAM"] = {Type = "HeroCompany", Text_ID = "GK-121", Icon_Name = "I_BUTTON_GK-121.TGA", Company_Units = {["GK121"] = {CategoryMask = {"INFANTRYHERO", "ANTIINFANTRY"}}}},
 ["HAL_RAZOR_TEAM"] = {Type = "HeroCompany", Text_ID = "Hal Razor", Icon_Name = "I_BUTTON_HAL_RAZOR.TGA", Company_Units = {["HAL_RAZOR"] = {CategoryMask = {"INFANTRYHERO", "ANTIINFANTRY"}}}},
+["MICHAEL_TEAM"] = {Type = "HeroCompany", Text_ID = "Michael", Icon_Name = "I_BUTTON_MICHAEL.TGA", Company_Units = {["MICHAEL"] = {CategoryMask = {"INFANTRYHERO", "ANTIINFANTRY"}}}},
+["ARGOR_TEAM"] = {Type = "HeroCompany", Text_ID = "Argor", Icon_Name = "I_BUTTON_DEMOS.TGA", Company_Units = {["ARGOR"] = {CategoryMask = {"INFANTRYHERO", "ANTIINFANTRY"}}}},
+["HETHRIR_TEAM"] = {Type = "HeroCompany", Text_ID = "Hethrir", Icon_Name = "I_BUTTON_HETHRIR.TGA", Company_Units = {["HETHRIR^"] = {CategoryMask = {"INFANTRYHERO", "ANTIINFANTRY"}}}},
+["KILE_HANNAD_TEAM"] = {Type = "HeroCompany", Text_ID = "Kile Hannad", Icon_Name = "I_BUTTON_HANNAD.TGA", Company_Units = {["KILE_HANNAD"] = {CategoryMask = {"INFANTRYHERO", "ANTIINFANTRY"}}}},
+["TAV_KENNEDE_TEAM"] = {Type = "HeroCompany", Text_ID = "Tav Kennede", Icon_Name = "I_BUTTON_TAV_KENNEDE.TGA", Company_Units = {["TAV_KENNEDE"] = {CategoryMask = {"INFANTRYHERO", "ANTIINFANTRY"}}}},
+["VOSS_TEAM"] = {Type = "HeroCompany", Text_ID = "Voss", Icon_Name = "I_BUTTON_VOSS.TGA", Company_Units = {["VOSS"] = {CategoryMask = {"INFANTRYHERO", "ANTIINFANTRY"}}}},
+
 }
