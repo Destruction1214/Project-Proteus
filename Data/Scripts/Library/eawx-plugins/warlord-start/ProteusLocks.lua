@@ -147,4 +147,6 @@ return {
 		"Nebula_Star_Destroyer", "Vontor_Destroyer", "Mediator",
 		--Centrality added units
 		"Barabbula_Frigate", "Tempest_Cruiser",
+		--Screed added units
+		"Gladiator_Demolisher",
 }
