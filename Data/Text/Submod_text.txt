@@ -201,6 +201,10 @@ TEXT_IXIYEN_FIGHTER_SQUADRON2,Ixiyen Fighter Squadron x2
 TEXT_KIHRAXZ_SQUADRON,Kihraxz Fighter Squadron
 TEXT_KIHRAXZ_SQUADRON_HALF,Kihraxz Fighter Squadron 1/2
 TEXT_KIHRAXZ_SQUADRON2,Kihraxz Fighter Squadron x2
+TEXT_STATBLOCK_KIHRAXZ_BASE,Health: 10 | Shields: 2
+TEXT_STATBLOCK_KIHRAXZ_MOVE,Speed: 7.5 | Maneuverability: 5.0
+TEXT_STATBLOCK_KIHRAXZ_WEAP1,1x Heavy Fighter Laser Cannon: 4 / 2.0s / 1.0km
+TEXT_STATBLOCK_KIHRAXZ_WEAP2,1x Fighter Concussion Missile: 1 / 60.0s / 1.8km
 TEXT_MANTA_FIGHTER_SQUADRON,Manta Fighter Squadron
 TEXT_MANTA_FIGHTER_SQUADRON_HALF,Manta Fighter Squadron 1/2
 TEXT_MANTA_FIGHTER_SQUADRON2,Manta Fighter Squadron x2
@@ -280,7 +284,7 @@ TEXT_STATBLOCK_BELBULLAB23_ESCORT_BASE,Health: 140 | Shields: 80
 TEXT_STATBLOCK_BELBULLAB23_MOVE,Speed: 6.8 | Maneuverability: 3.75
 TEXT_STATBLOCK_BELBULLAB23_NWON_RAINES_BASE,Health: 280 | Shields: 160
 TEXT_STATBLOCK_BELBULLAB23_SQUADRON,Squadron: 12x Belbullab-23
-TEXT_STATBLOCK_BELBULLAB23_WEAP1,1x Fighter Laser Cannon: 6 / 2.0s / 1.0km
+TEXT_STATBLOCK_BELBULLAB23_WEAP1,2x Fighter Laser Cannon: 6 / 2.0s / 1.0km
 TEXT_STATBLOCK_BELBULLAB23_WEAP2,1x Fighter Concussion Missile: 1 / 37.5s / 1.8km
 TEXT_STATBLOCK_BELBULLAB24_BASE,Health: 16 | Shields: 6
 TEXT_STATBLOCK_BELBULLAB24_MOVE,Speed: 6.55 | Maneuverability: 3.55
@@ -358,6 +362,7 @@ TEXT_STATBLOCK_HSSISSK_Z95_WEAP1,1x Heavy Fighter Laser Cannon: 4 / 2.0s / 1.0km
 TEXT_STATBLOCK_HSSISSK_Z95_WEAP2,1x Fighter Flechette Slugthrower: 2 / 2.5s / 1.0km
 TEXT_STATBLOCK_IRAN_RYAD_TIE_DEFENDER_BASE,Health: 180 | Shields: 240
 TEXT_STATBLOCK_IXIYEN_FIGHTER_BASE,Health: 20 | Shields: 20
+TEXT_STATBLOCK_IXIYEN_FIGHTER_MOVE,Speed: 6.46 | Maneuverability: 5.5
 TEXT_STATBLOCK_IXIYEN_FIGHTER_SQUADRON_HALF,Squadron: 6x Ixiyen Fighter
 TEXT_STATBLOCK_IXIYEN_FIGHTER_WEAP1,2x Heavy Fighter Laser Cannon: 4 / 2.0s / 1.0km
 TEXT_STATBLOCK_IXIYEN_FIGHTER_WEAP2,1x Fighter Proton Torpedo: 1 / 60.0s / 1.4km
@@ -421,10 +426,10 @@ TEXT_STATBLOCK_THETA_ASSAULT_SHUTTLE_MOVE,Speed: 6.67 | Maneuverability: 3.9
 TEXT_STATBLOCK_THETA_ASSAULT_SHUTTLE_SQUADRON,Squadron: 12x Theta Assault Shuttles
 TEXT_STATBLOCK_THETA_ASSAULT_SHUTTLE_SQUADRON_DOUBLE,Squadron: 24x Theta Assault Shuttles
 TEXT_STATBLOCK_THETA_ASSAULT_SHUTTLE_SQUADRON_HALF,Squadron: 6x Theta Assault Shuttles
-TEXT_STATBLOCK_THETA_ASSAULT_SHUTTLE_WEAP1,2x Fighter Laser Cannons: 8 / 3.0s / 1.0km
-TEXT_STATBLOCK_THETA_ASSAULT_SHUTTLE_WEAP2,1x Heavy Fighter Laser Cannon: 2 / 3.0s / 1.0km
-TEXT_STATBLOCK_THETA_ASSAULT_SHUTTLE_WEAP3,1x Fighter Assault Concussion Missile: 1 / 37.5s / 1.8km
-TEXT_STATBLOCK_THETA_ASSAULT_SHUTTLE_WEAP4,1x Fighter Concussion Missile (AF): 2 / 12.5s / 1.8km 
+TEXT_STATBLOCK_THETA_ASSAULT_SHUTTLE_WEAP2,2x Fighter Laser Cannons: 8 / 3.0s / 1.0km
+TEXT_STATBLOCK_THETA_ASSAULT_SHUTTLE_WEAP1,1x Heavy Fighter Laser Cannon: 2 / 3.0s / 1.0km
+TEXT_STATBLOCK_THETA_ASSAULT_SHUTTLE_WEAP4,1x Fighter Assault Concussion Missile: 1 / 37.5s / 1.8km
+TEXT_STATBLOCK_THETA_ASSAULT_SHUTTLE_WEAP3,1x Fighter Concussion Missile (AF): 2 / 12.5s / 1.8km 
 TEXT_STATBLOCK_TIE_AVENGER_ASSAULT_SQUADRON,Squadron: 12x Assault TIE Avenger
 TEXT_STATBLOCK_TIE_AVENGER_ASSAULT_SQUADRON_DOUBLE,Squadron: 24x Assault TIE Avenger
 TEXT_STATBLOCK_TIE_AVENGER_ASSAULT_SQUADRON_HALF,Squadron: 6x Assault TIE Avenger
@@ -502,7 +507,7 @@ TEXT_STATBLOCK_YV929_SQUADRON_HALF,Squadron: 6x - YV-929
 TEXT_STATBLOCK_YV929_WEAP1,1x Fighter Turbolaser: 4 / 3.0s / 1.0km
 TEXT_STATBLOCK_YV929_WEAP2,1x Fighter Ion Cannon: 2 / 2.0s / 1.0km
 TEXT_STATBLOCK_YV929_WEAP3,1x Fighter Laser Cannon: 6 / 3.0s / 1.0km
-TEXT_STATBLOCK_YV929_WEAP4,1x Fighter Assault Missile: 2 / 25.0s / 1.8km
+TEXT_STATBLOCK_YV929_WEAP4,1x Fighter Assault Concussion Missile: 2 / 25.0s / 1.8km
 TEXT_THETA_ASSAULT_SHUTTLE_SQUADRON,Theta Assault Shuttle Squadron
 TEXT_THETA_ASSAULT_SHUTTLE_SQUADRON_HALF,Theta Assault Shuttle Squadron 1/2
 TEXT_THETA_ASSAULT_SHUTTLE_SQUADRON2,Theta Assault Shuttle Squadron x2
@@ -1500,6 +1505,7 @@ TEXT_UNIT_HAG,HAG-M
 TEXT_UNIT_HORNET,Hornet Carrier
 TEXT_UNIT_IXIYEN_FIGHTER,Ixiyen Fighter
 TEXT_UNIT_KIHRAXZ,Kihraxz Fighter
+TEXT_TOOLTIP_KIHRAXZ,--TODO COYOTE--
 TEXT_UNIT_KLUCREHULK_RESEARCH,Remilitarize Lucrehulks
 TEXT_UNIT_KPREYBIRD_PRODUCTION,Begin Illegal Preybird Production
 TEXT_UNIT_KSM_RESEARCH,Refit existing TIE/Ln and In fighters to match the specifications of those formerly used by Lord Vader's elite pilots. Adds shields, weapons and SLAM capabilities at the cost of base engine speed.
