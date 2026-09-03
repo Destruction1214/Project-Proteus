@@ -1981,7 +1981,7 @@
 		<Text_ID>TEXT_HERO_THARKUS</Text_ID>
 		<Encyclopedia_Text> 
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
-		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_07_SPACE
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_08_SPACE
 		TEXT_TOOLTIP_TRAIT_COMMAND_INTEL_FOCUS
 		TEXT_TOOLTIP_TRAIT_UTILITY_ANTI_PARTISAN
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
@@ -2030,22 +2030,22 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
-		<Abilities SubObjectList="Yes"> <!-- Command_Tier_07 -->
-			<Combat_Bonus_Ability Name="Command_Tier_07_Combat_Bonus">
+	<Abilities SubObjectList="Yes"> <!-- Command_Tier_08 + Intel Focus -->
+			<Combat_Bonus_Ability Name="Command_Tier_08_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
 				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
-				<Damage_Bonus_Percentage>0.18</Damage_Bonus_Percentage>
-				<Defense_Bonus_Percentage>0.21</Defense_Bonus_Percentage>
-				<Movement_Speed_Bonus_Percentage>0.27</Movement_Speed_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.21</Damage_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.24</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.30</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
 			</Combat_Bonus_Ability>
 
-			<Battlefield_Modifier_Ability Name="Command_Tier_07_FOW_Increase">
+			<Battlefield_Modifier_Ability Name="Command_Tier_08_FOW_Increase">
 				<Initially_Enabled>Yes</Initially_Enabled>
 				<Activation_Style>Space_Automatic</Activation_Style>
-				<FOW_Reveal_Range_Multiplier>1.39</FOW_Reveal_Range_Multiplier>
+				<FOW_Reveal_Range_Multiplier>1.42</FOW_Reveal_Range_Multiplier>
 				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
 				<Stacking_Category>0</Stacking_Category>
 			</Battlefield_Modifier_Ability>
