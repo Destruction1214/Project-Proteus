@@ -5468,7 +5468,7 @@
         <Unit_Abilities_Data SubObjectList="Yes">
             <Unit_Ability>
 				<Type>ROCKET_ATTACK</Type>
-				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_ARTILLERY<</Alternate_Name_Text>
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_ARTILLERY</Alternate_Name_Text>
 				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_ARTILLERY_MODE_DESCRIPTION</Alternate_Description_Text>
 				<Alternate_Icon_Name>I_SA_SWAP_WEAPONS.TGA</Alternate_Icon_Name>
 				<Targeting_Max_Attack_Distance>375</Targeting_Max_Attack_Distance>

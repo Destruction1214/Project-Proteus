@@ -165,7 +165,7 @@ return {
 					fighter = proteustypes[group_name][1]
 				end
                 if proteustypes[group_name][2] ~= false then
-                    if Check_Flags(flags, "PROTEUS_OVERRIDE") then
+                    if Check_Flags(flags, "PROTEUS_OVERRIDE_"..group_name) then
                         fighter = proteustypes[group_name][2]
                     end
                 end
@@ -175,7 +175,7 @@ return {
                         if Get_Fighter_Research(research) then
                             fighter = proteustypes[group_name][i][2]
                             if proteustypes[group_name][i][3] ~= false then
-                                if Check_Flags(flags, "PROTEUS_OVERRIDE") then
+                                if Check_Flags(flags, "PROTEUS_OVERRIDE_"..group_name) then
                                     fighter = proteustypes[group_name][i][3]
                                 end
                             end

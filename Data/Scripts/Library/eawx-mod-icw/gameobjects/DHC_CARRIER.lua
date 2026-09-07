@@ -15,6 +15,6 @@ return {
 		}
 	},
 	Native = "CORPORATE_SECTOR",
-	FighterFlags = {"PROTEUS_OVERRIDE"},
+	FighterFlags = {"PROTEUS_OVERRIDE_RENDILI"},
 	Scripts = {"multilayer", "single-unit-retreat", "fighter-spawn"}
 }
