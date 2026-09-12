@@ -295,7 +295,7 @@ return {
 			{"MAL_Rocket_Vehicle_Company", 2},
 			{"Acclamator_Battleship", 1},
 			{"Acclamator_Destroyer", 1},
-			{""Proteus_A6_Company", 1},
+			{"Proteus_A6_Company", 1},
 		}
 	}
 }

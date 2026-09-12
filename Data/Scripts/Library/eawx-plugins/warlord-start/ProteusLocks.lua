@@ -107,6 +107,7 @@ return {
 		"Vindicator_Carrier",
 		"Trenchant",
 		"Imperial_II_Star_Destroyer_Sentry",
+		"Dummy_Research_Brak_Fleet",
 		--Grunger's Empire
 		"Lictor",
 		--Imperial Ord Radama
