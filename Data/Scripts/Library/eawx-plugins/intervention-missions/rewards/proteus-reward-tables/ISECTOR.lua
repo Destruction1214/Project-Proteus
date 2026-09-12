@@ -276,7 +276,7 @@ return {
 	},
 	PDF = {
 		{
-			{"Marauder_Picket_Cruiser" 5},			
+			{"Marauder_Picket_Cruiser", 5},			
 			{"Destroyer_Droid_II_Hunter_Company", 4},
 			{"Super_Transport_VII_Interdictor", 2},
 			{"Mercenary_Company", 5},
