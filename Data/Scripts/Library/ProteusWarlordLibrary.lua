@@ -124,9 +124,9 @@ return {
 				"Imperial_Army_Trooper_Company", "Navy_Commando_Company", "ISB_Infiltrator_Company", "Imperial_Army_74Z_Bike_Company", 
 				"AT_ST_Company", "Chariot_LAV_Company", "PX7_Company", 
 				"1M_Tank_Company", "AT_AA_Missile_Walker_Company", "Imperial_Modified_LAAT_Company", "TIE_Crawler_Company", "Imperial_Missile_Artillery_Company", "SPMAG_Walker_Company", 
-				"B5_Juggernaut_Company", "Heavy_Recovery_Vehicle_Company", "Tracked_Mobile_Base_Company", 
+				"B5_Juggernaut_Company", "Tracked_Mobile_Base_Company", 
 				-- Research
-				"Dummy_Research_Brak_Fighters",
+				"Dummy_Research_Brak_Fighters", "Dummy_Research_Brak_Fleet",
 			},
 			FactionOverride = "Empire",
 			IntroText = "TEXT_CONQUEST_PROTEUS_BRAK",
@@ -321,11 +321,19 @@ return {
 				"PX10_Company", "Skyhopper_Antivehicle_Company", "Imperial_ULAV_Company", "Hailfire_Company", "Scorpenek_Utility_Company", "Hutt_AA_Skiff_Company",
 				"Swift_Assault_5_Company", "MZ8_Tank_Company", "Imperial_LAAT_Company", "TIE_Crawler_Company", "Freerunner_AA_Company",
 				"Imperial_A5_Juggernaut_Company", "Imperial_A5RX_Company",
+				-- Pirate Units
+				"Interceptor_III_Frigate_Pirate", "Space_ARC_Cruiser", "Munificent_C3", "Refit_Venator_Star_Destroyer", 
+				-- Structures
+				"Pirate_Base",
+				-- Research
+				
+				-- Fighter Heroes
+				"Ssurussk_Location_Set", "Stormtrooper_X_Location_Set", "Scarlet_Location_Set",
 			},
 			FactionOverride = "Empire",
 			FactionOverride2 = "Zsinj_Empire",
 			IntroText = "TEXT_CONQUEST_PROTEUS_ISECTOR",
-			IntroHolo = "Imperial_Naval_Officer_Loop",
+			IntroHolo = "Nigel_Nivers_Loop",
             CustomRewardTable = true,
 		},
 		["JARDEEN"] = {
@@ -1197,7 +1205,7 @@ return {
 			FriendlyName = "Imperial Centrality",
 			Planets = {"RINGNELDIA"},
 			LeaderTable = {"LEHHETT_VAINGLORIOUS"},
-			LeaderEndingNames = {"Emperor Lahhett"},
+			LeaderEndingNames = {"Emperor Lehhett"},
 			HeroList = {"Lehhett_Vainglorious"},
 			UnlockList = {
 				-- Space 
@@ -1335,10 +1343,10 @@ return {
 				"Triumph_Star_Destroyer", "Invincible_Cruiser",
 				"Assertor_Star_Dreadnought",
 				-- Ground
-				"Imperial_Army_Guard_Company", "Army_Special_Missions_Company", "Imperial_Fleet_Commando_Company", "64_Y_Swift_Repulsorlift_Sled_Company",
-				"PX10_Company", "ULAV_Early_Company", "Imperial_Gaba18_Company", "Arrow_23_Company",
+				"Imperial_Army_Guard_Company", "Imperial_Fleet_Commando_Company", "64_Y_Swift_Repulsorlift_Sled_Company", --Add PDF Heavy Troopers
+				"PX10_Company", "ULAV_Early_Company",
 				"008_Speeder_Company", "Imperial_VAAT_Company", "AV_7_Company", "AT_AA_Flak_Walker_Company", 
-				"Teklos_Company", "Imperial_A5_Juggernaut_Company",
+				"Teklos_Company",
 				-- Research
 				"Dummy_RepublicSD_Rendili", "Dummy_Random_Unit_Rendili_VSD", "Dummy_Random_Unit_Rendili_DHC", "Dummy_Random_Unit_Rendili_NSBC", "Dummy_Random_Unit_Rendili_GSD",
 			},

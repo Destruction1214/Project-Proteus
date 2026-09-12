@@ -107,6 +107,7 @@ return {
 		"Vindicator_Carrier",
 		"Trenchant",
 		"Imperial_II_Star_Destroyer_Sentry",
+		"Dummy_Research_Brak_Fleet",
 		--Grunger's Empire
 		"Lictor",
 		--Imperial Ord Radama
@@ -131,7 +132,7 @@ return {
 		--Sector 5 added units
 		"Acclamator_I_Supercruiser",
 		--I-Sector added units
-		"Hutt_Personnel_Skiff_IV_Company", "Canderous_Assault_Tank_Company_Proteus",
+		"Hutt_Personnel_Skiff_IV_Company", "Canderous_Assault_Tank_Company_Proteus", "Interceptor_III_Frigate_Pirate",
 		--Thorn added units
 		"Luxury_Barge_Company",
 		--Wessex added units

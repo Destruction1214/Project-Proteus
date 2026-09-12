@@ -514,6 +514,21 @@
 
 	</SpaceUnit>
 
+<SpaceUnit Name="Interceptor_III_Frigate_Pirate">
+		<Variant_Of_Existing_Type>Template_Interceptor_III_Frigate</Variant_Of_Existing_Type>
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures>
+		Pirate_Base,
+		AI_Category_Dummy | Non_Capital_Category_Dummy
+		</Required_Special_Structures>
+		<Lua_Script>GenericGameObject</Lua_Script>
+
+	</SpaceUnit>
+	
 	<SpaceUnit Name="Diamond_Frigate">
 
 		<Text_ID>TEXT_UNIT_DIAMOND</Text_ID>
