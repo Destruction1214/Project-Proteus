@@ -3,7 +3,7 @@ return {
 		{
 			{"Imperial_Army_Guard_Company", 5},
 			{"Imperial_AT_PT_Company", 5},
-			{"victory_I_Frigate", 4},
+			{"Victory_I_Frigate", 4},
 			{"Vigil", 4},
 			{"RTT_Company", 4},
 			{"Surveyor_Frigate", 4},
@@ -28,7 +28,7 @@ return {
 		{
 			{"Imperial_Army_Guard_Company", 5},
 			{"Imperial_AT_PT_Company", 5},
-			{"victory_I_Frigate", 4},
+			{"Victory_I_Frigate", 4},
 			{"Vigil", 4},
 			{"RTT_Company", 4},
 			{"Surveyor_Frigate", 4},
@@ -53,7 +53,7 @@ return {
 		{
 			{"Imperial_Army_Guard_Company", 5},
 			{"Imperial_AT_PT_Company", 5},
-			{"victory_I_Frigate", 4},
+			{"Victory_I_Frigate", 4},
 			{"Vigil", 4},
 			{"RTT_Company", 4},
 			{"Surveyor_Frigate", 4},
@@ -78,7 +78,7 @@ return {
 		{
 			{"Imperial_Army_Guard_Company", 5},
 			{"Imperial_AT_PT_Company", 5},
-			{"victory_I_Frigate", 4},
+			{"Victory_I_Frigate", 4},
 			{"Vigil", 4},
 			{"RTT_Company", 4},
 			{"Surveyor_Frigate", 4},
@@ -103,7 +103,7 @@ return {
 		{
 			{"Imperial_Army_Guard_Company", 5},
 			{"Imperial_AT_PT_Company", 5},
-			{"victory_I_Frigate", 4},
+			{"Victory_I_Frigate", 4},
 			{"Vigil", 4},
 			{"RTT_Company", 4},
 			{"Surveyor_Frigate", 4},
@@ -128,7 +128,7 @@ return {
 		{
 			{"Imperial_Army_Guard_Company", 5},
 			{"Imperial_AT_PT_Company", 5},
-			{"victory_I_Frigate", 4},
+			{"Victory_I_Frigate", 4},
 			{"Vigil", 4},
 			{"RTT_Company", 4},
 			{"Surveyor_Frigate", 4},
@@ -153,7 +153,7 @@ return {
 		{
 			{"Imperial_Army_Guard_Company", 5},
 			{"Imperial_AT_PT_Company", 5},
-			{"victory_I_Frigate", 4},
+			{"Victory_I_Frigate", 4},
 			{"Vigil", 4},
 			{"RTT_Company", 4},
 			{"Surveyor_Frigate", 4},
@@ -178,7 +178,7 @@ return {
 		{
 			{"Imperial_Army_Guard_Company", 5},
 			{"Imperial_AT_PT_Company", 5},
-			{"victory_I_Frigate", 4},
+			{"Victory_I_Frigate", 4},
 			{"Vigil", 4},
 			{"RTT_Company", 4},
 			{"Surveyor_Frigate", 4},
@@ -203,7 +203,7 @@ return {
 		{
 			{"Imperial_Army_Guard_Company", 5},
 			{"Imperial_AT_PT_Company", 5},
-			{"victory_I_Frigate", 4},
+			{"Victory_I_Frigate", 4},
 			{"Vigil", 4},
 			{"RTT_Company", 4},
 			{"Surveyor_Frigate", 4},
@@ -228,7 +228,7 @@ return {
 		{
 			{"Imperial_Army_Guard_Company", 5},
 			{"Imperial_AT_PT_Company", 5},
-			{"victory_I_Frigate", 4},
+			{"Victory_I_Frigate", 4},
 			{"Vigil", 4},
 			{"RTT_Company", 4},
 			{"Surveyor_Frigate", 4},
@@ -253,7 +253,7 @@ return {
 		{
 			{"Imperial_Army_Guard_Company", 5},
 			{"Imperial_AT_PT_Company", 5},
-			{"victory_I_Frigate", 4},
+			{"Victory_I_Frigate", 4},
 			{"Vigil", 4},
 			{"RTT_Company", 4},
 			{"Surveyor_Frigate", 4},
