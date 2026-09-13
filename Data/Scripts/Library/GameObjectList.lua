@@ -963,6 +963,8 @@ return {
 ["X1_EXECUTOR_DUMMY"] = true,
 ["GLADIATOR_DEMOLISHER"] = true,
 ["GLADIATOR_II_CARRIER"] = true,
+["COMMS_DHC"] = true,
+["PROTEUS_MISSILE_DHC"] = true,
 -- Project Proteus Dev Heroes
 ["TAXEVADER_SYNTAX_ERROR"] = true,
 ["TAXEVADER_DREAM_OF_A_QUIET_LIFE"] = true,

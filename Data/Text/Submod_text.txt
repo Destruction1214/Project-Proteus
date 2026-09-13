@@ -1775,3 +1775,24 @@ TEXT_TOOLTIP_GLADIATOR2_CARRIER_WEAP3,2x Medium Dual Laser Cannons: 2 / 1.0s / 4
 TEXT_UNIT_GLADIATOR2_CARRIER,Gladiator-II Carrier
 TEXT_TOOLTIP_ABILITY_ARTILLERY,
 TEXT_TOOLTIP_ABILITY_ARTILLERY_MODE_DESCRIPTION,
+TEXT_UNIT_DREADNAUGHT_MISSILE_PROTEUS,Dreadnaught Missile Cruiser
+TEXT_TOOLTIP_DREADNAUGHT_MISSILE_PROTEUS,A rare refit of the aging Dreadnaught Heavy Cruiser hull with the intention of making it more capable of engaging modern large capital ships. Features a changed layout of the main battery and multiple launch tube clusters for anti-capital-ship munitions while retaining most of the close-defense weaponry of the base configuration. The hull's large cargo capacity allows it to carry significant amounts of ordinance, enough for sustained barrages and bombardments, at the increased risk of internal detonations. Though a capable fire support vessel boasting much more firepower than most of its base design's many variants, it still falls short of modern ships in terms of efficiency.
+TEXT_TOOLTIP_DREADNAUGHT_MISSILE_PROTEUS_HULL,Hull: 2025 (Heavy Frigate)
+TEXT_TOOLTIP_DREADNAUGHT_MISSILE_PROTEUS_SHIELD,Shields: 2200 / [22/R] (Frigate)
+TEXT_TOOLTIP_DREADNAUGHT_MISSILE_PROTEUS_MOVE,Speed: 3.85 | Accel: 0.175 | Turn: 0.375
+TEXT_TOOLTIP_DREADNAUGHT_MISSILE_PROTEUS_SQUADRON,Fighters: 0.5 / 0.5
+TEXT_TOOLTIP_DREADNAUGHT_MISSILE_PROTEUS_WEAP1,2x Heavy Turbolasers: 2 / 2.0s / 7.1km
+TEXT_TOOLTIP_DREADNAUGHT_MISSILE_PROTEUS_WEAP2,2x Light Quad Laser Cannons: 2 / 0.5s / 3.6km
+TEXT_TOOLTIP_DREADNAUGHT_MISSILE_PROTEUS_WEAP3,3x Assault Concussion Missiles: 2 / 6.0s / 7.1km
+TEXT_UNIT_COMMS_DHC,Dreadnaught Communications Cruiser
+TEXT_TOOLTIP_COMMS_DHC,Another refit of the ubiquitous Dreadnaught Heavy Cruiser hull, this version is geared towards being a fleet support vessel with extensive communication equipment, sensor capacity and electronic warfare suites. While the armament is reduced to free up power for these additional systems, the added capabilities make it a potent support ship in most fleets and are a testament to the versatility of the hull. Although not as powerful as the original configuration, it can still defend itself and nearby allies from smaller vessels.
+TEXT_TOOLTIP_COMMS_DHC_HULL,Hull: 2100 (Heavy Frigate)
+TEXT_TOOLTIP_COMMS_DHC_SHIELD,Shields: 2000 / [20/R] (Frigate)
+TEXT_TOOLTIP_COMMS_DHC_MOVE,Speed: 3.85 | Accel: 0.175 | Turn: 0.375
+TEXT_TOOLTIP_COMMS_DHC_SQUADRON,Fighters: 0.5 / 0.5
+TEXT_TOOLTIP_COMMS_DHC_WEAP1,2x Medium Dual Turbolasers: 2 / 4.0s / 6.1km
+TEXT_TOOLTIP_COMMS_DHC_WEAP2,2x Light Anti-Fighter Ion Cannons: 2 / 2.0s / 3.1km
+TEXT_TOOLTIP_COMMS_DHC_WEAP3,2x Heavy Laser Cannons: 2 / 1.0s / 4.6km
+TEXT_TOOLTIP_COMMS_DHC_WEAP4,2x Light Quad Laser Cannons: 2 / 0.5s / 3.6km
+TEXT_TOOLTIP_BONUS_COMMS_DHC_FIGHTER,Communications Ship: 6% Combat bonus for all fighters
+TEXT_TOOLTIP_COMMS_DHC_TENDER,Fighter Tender: 2 / 1.0s / 3.4km

@@ -2498,6 +2498,8 @@
 		Gladiator_II_Carrier,							Data\ShipNames\Gladiator_II.txt,
 		Modernized_DHC,									Data\ShipNames\Dreadnaught_Imperial.txt,
 		Picket_DHC,										Data\ShipNames\Dreadnaught_Imperial.txt,
+		Comms_DHC,										Data\ShipNames\Dreadnaught_Imperial.txt,
+		Proteus_Missile_DHC,							Data\ShipNames\Dreadnaught_Imperial.txt,
 		Venator_Star_Destroyer_Patrol,					Data\ShipNames\Venator.txt,
 		Imperial_Republic_Star_Destroyer,				Data\ShipNames\Star_Destroyer.txt,
 	</ShipNameTextFiles>
