@@ -70,7 +70,7 @@
 	<GroundVehicle Name="Republic_BARC_Speeder_Company_Dummy">
 		<Variant_Of_Existing_Type> Vehicle_Dummy_Template </Variant_Of_Existing_Type>
 
-		<Land_Model_Name>rep_barc_speeder_legions.ALO</Land_Model_Name>
+		<Land_Model_Name>ev_barc_speeder.ALO</Land_Model_Name>
 		<Icon_Name>i_button_barc_speeder.tga</Icon_Name>
 		<AI_Combat_Power>188.25</AI_Combat_Power>
 		<Affiliation>Imperial_Proteus</Affiliation>

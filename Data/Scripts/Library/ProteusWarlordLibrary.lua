@@ -1453,7 +1453,6 @@ return {
 			IntroText = "TEXT_CONQUEST_PROTEUS_THORN",
 			IntroHolo = "Generic_Sith_Loop",
 		},
-
 		["THARKUS"] = {
 			FriendlyName = "Tharkus's Empire",
 			Planets = {"CHANDRILA"},
