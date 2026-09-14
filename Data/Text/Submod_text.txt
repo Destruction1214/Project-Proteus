@@ -1544,8 +1544,6 @@ TEXT_UNIT_NEIMOIDIAN_GUARD_SQUAD,Neimoidian Guard Squad
 TEXT_UNIT_NTB_630,NTB-630 Naval Bomber
 TEXT_UNIT_OG9_COMPANY,OG-9 Homing Spider Droid Company
 TEXT_UNIT_OG9HOMINGSPIDERDROID,OG-9 Homing Spider Droid
-TEXT_UNIT_PHASE_ONE_RIFLEMAN,Clone Trooper Rifleman (Phase I)
-TEXT_UNIT_PHASE_ONE_RIFLEMAN_GRENADIER,Clone Trooper Rifleman Grenadier (Phase I)
 TEXT_UNIT_PHASE_TWO_AT_HEAVY,Republic Surplus Trooper Heavy AT 
 TEXT_UNIT_PHASE_TWO_AT_LIGHT,Republic Surplus Trooper Light AT 
 TEXT_UNIT_PHASE_TWO_CARBINER,Republic Surplus Trooper Carbineer 

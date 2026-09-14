@@ -2,7 +2,7 @@
 <Project_Proteus_Infantry>
 
 	<GroundInfantry Name="Clone_Phase_One">
-		<Text_ID>TEXT_UNIT_PHASE_ONE_RIFLEMAN</Text_ID>
+		<Text_ID>TEXT_UNIT_PHASE_TWO_RIFLEMAN</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_CLONETROOPER
@@ -15,16 +15,16 @@
 		</Encyclopedia_Text>
 		<Icon_Name>I_BUTTON_CLONE_P1.tga</Icon_Name>
 
-		<Land_Model_Name>clone_phase1_legions.ALO</Land_Model_Name>
+		<Land_Model_Name>clone_phase1.ALO</Land_Model_Name>
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 		<Land_Terrain_Model_Mapping>
-			Temperate, 			clone_phase1_legions.ALO,
-			Urban, 				clone_phase1_legions.ALO,
-			Arctic, 			clone_phase1_snow_legions.ALO,
-			Volcanic, 			clone_phase1_legions.ALO,
-			Desert, 			clone_phase1_legions.ALO,
-			Forest, 			clone_phase1_legions.ALO,
-			Swamp, 				clone_phase1_swamp_legions.ALO
+			Temperate, 			clone_phase1.ALO,
+			Urban, 				clone_phase1.ALO,
+			Arctic, 			clone_phase1_snow.ALO,
+			Volcanic, 			clone_phase1.ALO,
+			Desert, 			clone_phase1.ALO,
+			Forest, 			clone_phase1.ALO,
+			Swamp, 				clone_phase1_swamp.ALO
 		</Land_Terrain_Model_Mapping>
 		<Land_Model_Anim_Override_Name>TrainedInfantry.alo</Land_Model_Anim_Override_Name>
 		<Scale_Factor>1.1</Scale_Factor>
@@ -240,7 +240,7 @@
 	<GroundInfantry Name="Clone_Phase_Two">
 		<Variant_Of_Existing_Type>Clone_Phase_One</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_PHASE_TWO_RIFLEMAN</Text_ID>
-		<Land_Model_Name>clone_phase2_legions.ALO</Land_Model_Name>
+		<Land_Model_Name>clone_phase2.ALO</Land_Model_Name>
 		<Tactical_Health>20</Tactical_Health>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_CLONETROOPER_PHASETWO
@@ -284,16 +284,16 @@
 
 	<GroundInfantry Name="Clone_Phase_Two_RPS">
 		<Variant_Of_Existing_Type>Clone_Phase_Two</Variant_Of_Existing_Type>
-		<Land_Model_Name>heavy_clone_phase2_legions.ALO</Land_Model_Name>
+		<Land_Model_Name>heavy_clone_phase2.ALO</Land_Model_Name>
 		<Land_Model_Anim_Override_Name>RocketInfantry.alo</Land_Model_Anim_Override_Name>
 		<Land_Terrain_Model_Mapping>
-			Temperate, 			heavy_clone_phase2_legions.ALO,
-			Urban, 				heavy_clone_phase2_legions.ALO,
-			Arctic, 			heavy_clone_phase2_legions.ALO,
-			Volcanic, 			heavy_clone_phase2_legions.ALO,
-			Desert, 			heavy_clone_phase2_legions.ALO,
-			Forest, 			heavy_clone_phase2_legions.ALO,
-			Swamp, 				heavy_clone_phase2_legions.ALO
+			Temperate, 			heavy_clone_phase2.ALO,
+			Urban, 				heavy_clone_phase2.ALO,
+			Arctic, 			heavy_clone_phase2.ALO,
+			Volcanic, 			heavy_clone_phase2.ALO,
+			Desert, 			heavy_clone_phase2.ALO,
+			Forest, 			heavy_clone_phase2.ALO,
+			Swamp, 				heavy_clone_phase2.ALO
 		</Land_Terrain_Model_Mapping>
 		<HardPoints>HP_RPS_Hand</HardPoints>
 		<Text_ID>TEXT_UNIT_PHASE_TWO_AT_LIGHT</Text_ID>
@@ -319,15 +319,15 @@
 
 	<GroundInfantry Name="Clone_Phase_Two_Plex">
 		<Variant_Of_Existing_Type>Clone_Phase_Two</Variant_Of_Existing_Type>
-		<Land_Model_Name>heavy_clone_phase2_weap_legions.ALO</Land_Model_Name>
+		<Land_Model_Name>heavy_clone_phase2_weap.ALO</Land_Model_Name>
 		<Land_Terrain_Model_Mapping>
-			Temperate, 			heavy_clone_phase2_weap_legions.ALO,
-			Urban, 				heavy_clone_phase2_weap_legions.ALO,
-			Arctic, 			heavy_clone_phase2_weap_legions.ALO,
-			Volcanic, 			heavy_clone_phase2_weap_legions.ALO,
-			Desert, 			heavy_clone_phase2_weap_legions.ALO,
-			Forest, 			heavy_clone_phase2_weap_legions.ALO,
-			Swamp, 				heavy_clone_phase2_weap_legions.ALO
+			Temperate, 			heavy_clone_phase2_weap.ALO,
+			Urban, 				heavy_clone_phase2_weap.ALO,
+			Arctic, 			heavy_clone_phase2_weap.ALO,
+			Volcanic, 			heavy_clone_phase2_weap.ALO,
+			Desert, 			heavy_clone_phase2_weap.ALO,
+			Forest, 			heavy_clone_phase2_weap.ALO,
+			Swamp, 				heavy_clone_phase2_weap.ALO
 		</Land_Terrain_Model_Mapping>
 		<Text_ID>TEXT_UNIT_PHASE_TWO_AT_HEAVY</Text_ID>
 
@@ -369,15 +369,15 @@
 
 		<HardPoints> HP_Clone_Carbine</HardPoints>
 
-		<Land_Model_Name>clone_phase2_grenadier_legions.ALO</Land_Model_Name>
+		<Land_Model_Name>clone_phase2_grenadier.ALO</Land_Model_Name>
 		<Land_Terrain_Model_Mapping>
-			Temperate, 			clone_phase2_grenadier_legions.ALO,
-			Urban, 				clone_phase2_grenadier_legions.ALO,
-			Arctic, 			clone_phase2_grenadier_legions.ALO,
-			Volcanic, 			clone_phase2_grenadier_legions.ALO,
-			Desert, 			clone_phase2_grenadier_legions.ALO,
-			Forest, 			clone_phase2_grenadier_legions.ALO,
-			Swamp, 				clone_phase2_grenadier_legions.ALO
+			Temperate, 			clone_phase2_grenadier.ALO,
+			Urban, 				clone_phase2_grenadier.ALO,
+			Arctic, 			clone_phase2_grenadier.ALO,
+			Volcanic, 			clone_phase2_grenadier.ALO,
+			Desert, 			clone_phase2_grenadier.ALO,
+			Forest, 			clone_phase2_grenadier.ALO,
+			Swamp, 				clone_phase2_grenadier.ALO
 		</Land_Terrain_Model_Mapping>
 		<Land_Model_Anim_Override_Name>TrainedInfantry.alo</Land_Model_Anim_Override_Name>
 
@@ -408,15 +408,15 @@
 
 		<HardPoints> HP_Clone_Rifle</HardPoints>
 		
-		<Land_Model_Name>clone_phase2_grenadier_legions.ALO</Land_Model_Name>
+		<Land_Model_Name>clone_phase2_grenadier.ALO</Land_Model_Name>
 		<Land_Terrain_Model_Mapping>
-			Temperate, 			clone_phase2_grenadier_legions.ALO,
-			Urban, 				clone_phase2_grenadier_legions.ALO,
-			Arctic, 			clone_phase2_grenadier_legions.ALO,
-			Volcanic, 			clone_phase2_grenadier_legions.ALO,
-			Desert, 			clone_phase2_grenadier_legions.ALO,
-			Forest, 			clone_phase2_grenadier_legions.ALO,
-			Swamp, 				clone_phase2_grenadier_legions.ALO
+			Temperate, 			clone_phase2_grenadier.ALO,
+			Urban, 				clone_phase2_grenadier.ALO,
+			Arctic, 			clone_phase2_grenadier.ALO,
+			Volcanic, 			clone_phase2_grenadier.ALO,
+			Desert, 			clone_phase2_grenadier.ALO,
+			Forest, 			clone_phase2_grenadier.ALO,
+			Swamp, 				clone_phase2_grenadier.ALO
 		</Land_Terrain_Model_Mapping>
 		<Land_Model_Anim_Override_Name>TrainedInfantry.alo</Land_Model_Anim_Override_Name>
 
@@ -484,15 +484,15 @@
 		<HardPoints> HP_Clone_HMG</HardPoints>
 
 		<!-- Only Heavy Z6 Gets the satchel power packs -->
-		<Land_Model_Name>clone_phase2_weap_legions.ALO</Land_Model_Name>
+		<Land_Model_Name>clone_phase2_weap.ALO</Land_Model_Name>
 		<Land_Terrain_Model_Mapping>
-			Temperate, 			clone_phase2_weap_legions.ALO,
-			Urban, 				clone_phase2_weap_legions.ALO,
-			Arctic, 			clone_phase2_weap_legions.ALO,
-			Volcanic, 			clone_phase2_weap_legions.ALO,
-			Desert, 			clone_phase2_weap_legions.ALO,
-			Forest, 			clone_phase2_weap_legions.ALO,
-			Swamp, 				clone_phase2_weap_legions.ALO
+			Temperate, 			clone_phase2_weap.ALO,
+			Urban, 				clone_phase2_weap.ALO,
+			Arctic, 			clone_phase2_weap.ALO,
+			Volcanic, 			clone_phase2_weap.ALO,
+			Desert, 			clone_phase2_weap.ALO,
+			Forest, 			clone_phase2_weap.ALO,
+			Swamp, 				clone_phase2_weap.ALO
 		</Land_Terrain_Model_Mapping>
 		<Land_Model_Anim_Override_Name>Underslung.alo</Land_Model_Anim_Override_Name>
 
@@ -514,15 +514,15 @@
 		</Encyclopedia_Text>
 		<HardPoints> HP_T21_LMG_Rep </HardPoints>
 
-		<Land_Model_Name>clone_phase2_sergeant_legions.ALO</Land_Model_Name>
+		<Land_Model_Name>clone_phase2_sergeant.ALO</Land_Model_Name>
 		<Land_Terrain_Model_Mapping>
-			Temperate, 			clone_phase2_sergeant_legions.ALO,
-			Urban, 				clone_phase2_sergeant_legions.ALO,
-			Arctic, 			clone_phase2_sergeant_legions.ALO,
-			Volcanic, 			clone_phase2_sergeant_legions.ALO,
-			Desert, 			clone_phase2_sergeant_legions.ALO,
-			Forest, 			clone_phase2_sergeant_legions.ALO,
-			Swamp, 				clone_phase2_sergeant_legions.ALO
+			Temperate, 			clone_phase2_sergeant.ALO,
+			Urban, 				clone_phase2_sergeant.ALO,
+			Arctic, 			clone_phase2_sergeant.ALO,
+			Volcanic, 			clone_phase2_sergeant.ALO,
+			Desert, 			clone_phase2_sergeant.ALO,
+			Forest, 			clone_phase2_sergeant.ALO,
+			Swamp, 				clone_phase2_sergeant.ALO
 		</Land_Terrain_Model_Mapping>
 		<Land_Model_Anim_Override_Name>TrainedInfantry.alo</Land_Model_Anim_Override_Name>
 
@@ -548,17 +548,17 @@
 		<Icon_Name>I_BUTTON_CLONE_P2_SUPPORT.tga</Icon_Name>
 		<No_Colorization_Color> 255, 153, 0, 255 </No_Colorization_Color>
 
-		<Land_Model_Name>clone_phase2_medic_legions.ALO</Land_Model_Name>
+		<Land_Model_Name>clone_phase2_medic.ALO</Land_Model_Name>
 
 		<!-- Medics may lose model for variant terrain -->
 		<Land_Terrain_Model_Mapping>
-			Temperate, 			clone_phase2_medic_legions.ALO,
-			Urban, 				clone_phase2_medic_legions.ALO,
-			Arctic, 			clone_phase2_medic_legions.ALO,
-			Volcanic, 			clone_phase2_medic_legions.ALO,
-			Desert, 			clone_phase2_medic_legions.ALO,
-			Forest, 			clone_phase2_medic_legions.ALO,
-			Swamp, 				clone_phase2_medic_legions.ALO
+			Temperate, 			clone_phase2_medic.ALO,
+			Urban, 				clone_phase2_medic.ALO,
+			Arctic, 			clone_phase2_medic.ALO,
+			Volcanic, 			clone_phase2_medic.ALO,
+			Desert, 			clone_phase2_medic.ALO,
+			Forest, 			clone_phase2_medic.ALO,
+			Swamp, 				clone_phase2_medic.ALO
 		</Land_Terrain_Model_Mapping>
 		<Land_Model_Anim_Override_Name>TrainedInfantry.alo</Land_Model_Anim_Override_Name>
 
@@ -613,15 +613,15 @@
 
 		<HardPoints> HP_Clone_Rifle </HardPoints>
 
-		<Land_Model_Name>clone_phase2_lieutenant_legions.ALO</Land_Model_Name>
+		<Land_Model_Name>clone_phase2_lieutenant.ALO</Land_Model_Name>
 		<Land_Terrain_Model_Mapping>
-			Temperate, 			clone_phase2_lieutenant_legions.ALO,
-			Urban, 				clone_phase2_lieutenant_legions.ALO,
-			Arctic, 			clone_phase2_lieutenant_legions.ALO,
-			Volcanic, 			clone_phase2_lieutenant_legions.ALO,
-			Desert, 			clone_phase2_lieutenant_legions.ALO,
-			Forest, 			clone_phase2_lieutenant_legions.ALO,
-			Swamp, 				clone_phase2_lieutenant_legions.ALO
+			Temperate, 			clone_phase2_lieutenant.ALO,
+			Urban, 				clone_phase2_lieutenant.ALO,
+			Arctic, 			clone_phase2_lieutenant.ALO,
+			Volcanic, 			clone_phase2_lieutenant.ALO,
+			Desert, 			clone_phase2_lieutenant.ALO,
+			Forest, 			clone_phase2_lieutenant.ALO,
+			Swamp, 				clone_phase2_lieutenant.ALO
 		</Land_Terrain_Model_Mapping>
 		<Land_Model_Anim_Override_Name>TrainedInfantry.alo</Land_Model_Anim_Override_Name>
 
@@ -631,7 +631,7 @@
 	<GroundInfantry Name="Clonetrooper_Phase_Two_Company_Dummy">
 		<Variant_Of_Existing_Type> Infantry_Dummy_Template </Variant_Of_Existing_Type>
 
-		<Land_Model_Name>clone_phase2_legions.ALO</Land_Model_Name>
+		<Land_Model_Name>clone_phase2.ALO</Land_Model_Name>
 		<Land_Model_Anim_Override_Name>TrainedInfantry.alo</Land_Model_Anim_Override_Name>
 		<Icon_Name>I_BUTTON_CLONE_P2.tga</Icon_Name>
 		<AI_Combat_Power>156.20</AI_Combat_Power>
@@ -742,13 +742,13 @@
 
 		<Create_Team_Type> Clonetrooper_Phase_Two_Heavy_Container </Create_Team_Type>
 		<Max_Squad_Size> 9 </Max_Squad_Size>
-		<Company_Units> Clone_Phase_Two_Sergeant, Clone_Phase_Two_Grenadier_Rifle, Clone_Phase_Two_Gunner_Heavy, Clone_Phase_Two, Clone_Phase_Two_Grenadier_Rifle, Clone_Phase_Two, Clone_Phase_Two_Plex, Clone_Phase_Two_Plex,  Clone_Phase_Two_Lt </Company_Units>
+		<Company_Units> Clone_Phase_Two_Sergeant, Clone_Phase_Two_Grenadier_Rifle, Clone_Phase_Two_Gunner_Heavy, Clone_Phase_One, Clone_Phase_Two_Grenadier_Rifle, Clone_Phase_One, Clone_Phase_Two_Plex, Clone_Phase_Two_Plex,  Clone_Phase_Two_Lt </Company_Units>
 	</GroundCompany>
 
 	<GroundCompany Name="Clonetrooper_Phase_Two_Heavy_Squad">
 		<Variant_Of_Existing_Type>Clonetrooper_Phase_Two_Main_Squad</Variant_Of_Existing_Type>
 
-		<Company_Units> Clone_Phase_Two_Sergeant, Clone_Phase_Two_Grenadier_Rifle, Clone_Phase_Two, Clone_Phase_Two_Gunner_Heavy, Clone_Phase_Two, Clone_Phase_Two_Grenadier_Rifle, Clone_Phase_Two, Clone_Phase_Two_Plex, Clone_Phase_Two_Plex</Company_Units>
+		<Company_Units> Clone_Phase_Two_Sergeant, Clone_Phase_Two_Grenadier_Rifle, Clone_Phase_One, Clone_Phase_Two_Gunner_Heavy, Clone_Phase_One, Clone_Phase_Two_Grenadier_Rifle, Clone_Phase_One, Clone_Phase_Two_Plex, Clone_Phase_Two_Plex</Company_Units>
 	</GroundCompany>
 
 	<GroundCompany Name="Clonetrooper_Phase_Two_Squad">
@@ -767,7 +767,7 @@
 		<Icon_Name>I_BUTTON_CLONE_P2.tga</Icon_Name>
 
 		<Create_Team_Type> Clonetrooper_Phase_Two_Container </Create_Team_Type>
-		<Company_Units> Clone_Phase_Two, Clone_Phase_Two, Clone_Phase_Two, Clone_Phase_Two, Clone_Phase_Two, Clone_Phase_Two, Clone_Phase_Two, Clone_Phase_Two, Clone_Phase_Two </Company_Units>
+		<Company_Units> Clone_Phase_One, Clone_Phase_One, Clone_Phase_One, Clone_Phase_One, Clone_Phase_One, Clone_Phase_One, Clone_Phase_One, Clone_Phase_One, Clone_Phase_One </Company_Units>
 	</GroundCompany>
 
 	<GroundCompany Name="Clonetrooper_Phase_Two_Assault_Squad">
