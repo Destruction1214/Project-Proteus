@@ -130,7 +130,7 @@ return {
 			LANOX = {"NIMBUS_V_WING_SQUADRON", false,
 					{"LFU", "NIMBUS_V_WING_ESK_SQUADRON", false}}, --research 1
 			STORM_COMMANDOS = {"TIE_HUNTER_SQUADRON", false},
-			THARKUS = {"HOWLRUNNER_SQUADRON", false},
+			THARKUS = {"TIE_V1_SQUADRON", false},
 			CENTRALITY = {"R41_STARCHASER_SQUADRON", false},
 			ANAXES = {"Z95XT_HEADHUNTER_SQUADRON", false},
 			SECRET = {"X_WING_SQUADRON", false},
