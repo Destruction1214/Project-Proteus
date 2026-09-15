@@ -14456,5 +14456,869 @@
 		<Fire_Inaccuracy_Distance> SuperCapital, 1.1 </Fire_Inaccuracy_Distance>
 
 	</HardPoint>
+
+
+		<!-- Assault Concussion Sphere -->
+
+		<HardPoint Name="HP_Torpedo_SphereA_Torp_01">
+		<Type> HARD_POINT_WEAPON_TORPEDO </Type>
+		<Is_Targetable>Yes</Is_Targetable>
+		<Is_Destroyable>Yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_A_CONCUSSIONMISSILEMAG</Tooltip_Text>
+		<Health>390.0</Health>
+
+		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+
+
+		<Model_To_Attach />
+		<Attachment_Bone>Weap_Torp_Magazine_01</Attachment_Bone>
+		<Collision_Mesh>Weap_Torp_Magazine_01</Collision_Mesh>
+		<Damage_Particles>Weap_Torp_Magazine_01</Damage_Particles>
+
+
+		<Fire_Bone_A>Torp_FP_05_160</Fire_Bone_A>
+		<Fire_Bone_B>Torp_FP_03_160</Fire_Bone_B>
+		<Fire_Cone_Width>160.0</Fire_Cone_Width>
+		<Fire_Cone_Height>180.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Ship_Assault_Concussion_Missile</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>4</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+
+		<!-- Magazine range stats are different -->
+		<!-- Magazine accuracy stats use ion heavy template x2 instead of normal homing -->
+
+		<Fire_Range_Distance>3700.0</Fire_Range_Distance>
+
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+
+		<Fire_Inaccuracy_Distance> SpaceHero, 96.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Gunship, 72.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 72.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 45.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 18.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> SuperCapital, 9.0 </Fire_Inaccuracy_Distance>
+
+	</HardPoint>
+
+	<HardPoint Name="HP_Torpedo_SphereA_Torp_02">
+		<Type> HARD_POINT_WEAPON_TORPEDO </Type>
+		<Is_Targetable>Yes</Is_Targetable>
+		<Is_Destroyable>Yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_A_CONCUSSIONMISSILEMAG</Tooltip_Text>
+		<Health>390.0</Health>
+
+		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+
+
+		<Model_To_Attach />
+		<Attachment_Bone>Weap_Torp_Magazine_02</Attachment_Bone>
+		<Collision_Mesh>Weap_Torp_Magazine_02</Collision_Mesh>
+		<Damage_Particles>Weap_Torp_Magazine_02</Damage_Particles>
+
+
+		<Fire_Bone_A>Torp_FP_05_160</Fire_Bone_A>
+		<Fire_Bone_B>Torp_FP_04_160</Fire_Bone_B>
+		<Fire_Cone_Width>160.0</Fire_Cone_Width>
+		<Fire_Cone_Height>180.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Ship_Assault_Concussion_Missile</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>4</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+
+		<!-- Magazine range stats are different -->
+		<!-- Magazine accuracy stats use ion heavy template x2 instead of normal homing -->
+
+		<Fire_Range_Distance>3700.0</Fire_Range_Distance>
+
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+
+		<Fire_Inaccuracy_Distance> SpaceHero, 96.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Gunship, 72.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 72.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 45.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 18.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> SuperCapital, 9.0 </Fire_Inaccuracy_Distance>
+
+	</HardPoint>
+
+	<HardPoint Name="HP_Torpedo_SphereA_Torp_03">
+		<Type> HARD_POINT_WEAPON_TORPEDO </Type>
+		<Is_Targetable>Yes</Is_Targetable>
+		<Is_Destroyable>Yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_A_CONCUSSIONMISSILEMAG</Tooltip_Text>
+		<Health>390.0</Health>
+
+		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+
+
+		<Model_To_Attach />
+		<Attachment_Bone>Weap_Torp_Magazine_03</Attachment_Bone>
+		<Collision_Mesh>Weap_Torp_Magazine_03</Collision_Mesh>
+		<Damage_Particles>Weap_Torp_Magazine_03</Damage_Particles>
+
+
+		<Fire_Bone_A>Torp_FP_03_160</Fire_Bone_A>
+		<Fire_Bone_B>Torp_FP_04_160</Fire_Bone_B>
+		<Fire_Cone_Width>160.0</Fire_Cone_Width>
+		<Fire_Cone_Height>180.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Ship_Assault_Concussion_Missile</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>4</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+
+		<!-- Magazine range stats are different -->
+		<!-- Magazine accuracy stats use ion heavy template x2 instead of normal homing -->
+
+		<Fire_Range_Distance>3700.0</Fire_Range_Distance>
+
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+
+		<Fire_Inaccuracy_Distance> SpaceHero, 96.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Gunship, 72.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 72.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 45.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 18.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> SuperCapital, 9.0 </Fire_Inaccuracy_Distance>
+
+	</HardPoint>
+
+	<HardPoint Name="HP_Torpedo_SphereA_Torp_04">
+		<Type> HARD_POINT_WEAPON_TORPEDO </Type>
+		<Is_Targetable>Yes</Is_Targetable>
+		<Is_Destroyable>Yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_A_CONCUSSIONMISSILEMAG</Tooltip_Text>
+		<Health>390.0</Health>
+
+		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+
+
+		<Model_To_Attach />
+		<Attachment_Bone>Weap_Torp_Magazine_04</Attachment_Bone>
+		<Collision_Mesh>Weap_Torp_Magazine_04</Collision_Mesh>
+		<Damage_Particles>Weap_Torp_Magazine_04</Damage_Particles>
+
+
+		<Fire_Bone_A>Torp_FP_03_160</Fire_Bone_A>
+		<Fire_Bone_B>Torp_FP_01_160</Fire_Bone_B>
+		<Fire_Cone_Width>160.0</Fire_Cone_Width>
+		<Fire_Cone_Height>180.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Ship_Assault_Concussion_Missile</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>4</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+
+		<!-- Magazine range stats are different -->
+		<!-- Magazine accuracy stats use ion heavy template x2 instead of normal homing -->
+
+		<Fire_Range_Distance>3700.0</Fire_Range_Distance>
+
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+
+		<Fire_Inaccuracy_Distance> SpaceHero, 96.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Gunship, 72.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 72.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 45.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 18.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> SuperCapital, 9.0 </Fire_Inaccuracy_Distance>
+
+	</HardPoint>
+
+	<HardPoint Name="HP_Torpedo_SphereA_Torp_05">
+		<Type> HARD_POINT_WEAPON_TORPEDO </Type>
+		<Is_Targetable>Yes</Is_Targetable>
+		<Is_Destroyable>Yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_A_CONCUSSIONMISSILEMAG</Tooltip_Text>
+		<Health>390.0</Health>
+
+		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+
+
+		<Model_To_Attach />
+		<Attachment_Bone>Weap_Torp_Magazine_05</Attachment_Bone>
+		<Collision_Mesh>Weap_Torp_Magazine_05</Collision_Mesh>
+		<Damage_Particles>Weap_Torp_Magazine_05</Damage_Particles>
+
+
+		<Fire_Bone_A>Torp_FP_03_160</Fire_Bone_A>
+		<Fire_Bone_B>Torp_FP_02_160</Fire_Bone_B>
+		<Fire_Cone_Width>160.0</Fire_Cone_Width>
+		<Fire_Cone_Height>180.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Ship_Assault_Concussion_Missile</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>4</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+
+		<!-- Magazine range stats are different -->
+		<!-- Magazine accuracy stats use ion heavy template x2 instead of normal homing -->
+
+		<Fire_Range_Distance>3700.0</Fire_Range_Distance>
+
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+
+		<Fire_Inaccuracy_Distance> SpaceHero, 96.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Gunship, 72.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 72.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 45.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 18.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> SuperCapital, 9.0 </Fire_Inaccuracy_Distance>
+
+	</HardPoint>
+
+	<HardPoint Name="HP_Torpedo_SphereA_Torp_06">
+		<Type> HARD_POINT_WEAPON_TORPEDO </Type>
+		<Is_Targetable>Yes</Is_Targetable>
+		<Is_Destroyable>Yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_A_CONCUSSIONMISSILEMAG</Tooltip_Text>
+		<Health>390.0</Health>
+
+		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+
+
+		<Model_To_Attach />
+		<Attachment_Bone>Weap_Torp_Magazine_06</Attachment_Bone>
+		<Collision_Mesh>Weap_Torp_Magazine_06</Collision_Mesh>
+		<Damage_Particles>Weap_Torp_Magazine_06</Damage_Particles>
+
+
+		<Fire_Bone_A>Torp_FP_04_160</Fire_Bone_A>
+		<Fire_Bone_B>Torp_FP_01_160</Fire_Bone_B>
+		<Fire_Cone_Width>160.0</Fire_Cone_Width>
+		<Fire_Cone_Height>180.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Ship_Assault_Concussion_Missile</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>4</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+
+		<!-- Magazine range stats are different -->
+		<!-- Magazine accuracy stats use ion heavy template x2 instead of normal homing -->
+
+		<Fire_Range_Distance>3700.0</Fire_Range_Distance>
+
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+
+		<Fire_Inaccuracy_Distance> SpaceHero, 96.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Gunship, 72.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 72.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 45.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 18.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> SuperCapital, 9.0 </Fire_Inaccuracy_Distance>
+
+	</HardPoint>
+
+	<HardPoint Name="HP_Torpedo_SphereA_Torp_07">
+		<Type> HARD_POINT_WEAPON_TORPEDO </Type>
+		<Is_Targetable>Yes</Is_Targetable>
+		<Is_Destroyable>Yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_A_CONCUSSIONMISSILEMAG</Tooltip_Text>
+		<Health>390.0</Health>
+
+		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+
+
+		<Model_To_Attach />
+		<Attachment_Bone>Weap_Torp_Magazine_07</Attachment_Bone>
+		<Collision_Mesh>Weap_Torp_Magazine_07</Collision_Mesh>
+		<Damage_Particles>Weap_Torp_Magazine_07</Damage_Particles>
+
+
+		<Fire_Bone_A>Torp_FP_04_160</Fire_Bone_A>
+		<Fire_Bone_B>Torp_FP_02_160</Fire_Bone_B>
+		<Fire_Cone_Width>160.0</Fire_Cone_Width>
+		<Fire_Cone_Height>180.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Ship_Assault_Concussion_Missile</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>4</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+
+		<!-- Magazine range stats are different -->
+		<!-- Magazine accuracy stats use ion heavy template x2 instead of normal homing -->
+
+		<Fire_Range_Distance>3700.0</Fire_Range_Distance>
+
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+
+		<Fire_Inaccuracy_Distance> SpaceHero, 96.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Gunship, 72.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 72.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 45.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 18.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> SuperCapital, 9.0 </Fire_Inaccuracy_Distance>
+
+	</HardPoint>
+
+	<HardPoint Name="HP_Torpedo_SphereA_Torp_08">
+		<Type> HARD_POINT_WEAPON_TORPEDO </Type>
+		<Is_Targetable>Yes</Is_Targetable>
+		<Is_Destroyable>Yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_A_CONCUSSIONMISSILEMAG</Tooltip_Text>
+		<Health>390.0</Health>
+
+		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+
+
+		<Model_To_Attach />
+		<Attachment_Bone>Weap_Torp_Magazine_08</Attachment_Bone>
+		<Collision_Mesh>Weap_Torp_Magazine_08</Collision_Mesh>
+		<Damage_Particles>Weap_Torp_Magazine_08</Damage_Particles>
+
+
+		<Fire_Bone_A>Torp_FP_01_160</Fire_Bone_A>
+		<Fire_Bone_B>Torp_FP_02_160</Fire_Bone_B>
+		<Fire_Cone_Width>160.0</Fire_Cone_Width>
+		<Fire_Cone_Height>180.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Ship_Assault_Concussion_Missile</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>4</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+
+		<!-- Magazine range stats are different -->
+		<!-- Magazine accuracy stats use ion heavy template x2 instead of normal homing -->
+
+		<Fire_Range_Distance>3700.0</Fire_Range_Distance>
+
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+
+		<Fire_Inaccuracy_Distance> SpaceHero, 96.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Gunship, 72.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 72.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 45.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 18.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> SuperCapital, 9.0 </Fire_Inaccuracy_Distance>
+
+	</HardPoint>
+
+	<HardPoint Name="HP_Torpedo_SphereA_Torp_09">
+		<Type> HARD_POINT_WEAPON_TORPEDO </Type>
+		<Is_Targetable>Yes</Is_Targetable>
+		<Is_Destroyable>Yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_A_CONCUSSIONMISSILEMAG</Tooltip_Text>
+		<Health>390.0</Health>
+
+		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+
+
+		<Model_To_Attach />
+		<Attachment_Bone>Weap_Torp_Magazine_09</Attachment_Bone>
+		<Collision_Mesh>Weap_Torp_Magazine_09</Collision_Mesh>
+		<Damage_Particles>Weap_Torp_Magazine_09</Damage_Particles>
+
+
+		<Fire_Bone_A>Torp_FP_01_160</Fire_Bone_A>
+		<Fire_Bone_B>Torp_FP_06_160</Fire_Bone_B>
+		<Fire_Cone_Width>160.0</Fire_Cone_Width>
+		<Fire_Cone_Height>180.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Ship_Assault_Concussion_Missile</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>4</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+
+		<!-- Magazine range stats are different -->
+		<!-- Magazine accuracy stats use ion heavy template x2 instead of normal homing -->
+
+		<Fire_Range_Distance>3700.0</Fire_Range_Distance>
+
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+
+		<Fire_Inaccuracy_Distance> SpaceHero, 96.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Gunship, 72.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 72.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 45.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 18.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> SuperCapital, 9.0 </Fire_Inaccuracy_Distance>
+
+	</HardPoint>
+
+	<HardPoint Name="HP_Torpedo_SphereA_Torp_10">
+		<Type> HARD_POINT_WEAPON_TORPEDO </Type>
+		<Is_Targetable>Yes</Is_Targetable>
+		<Is_Destroyable>Yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_A_CONCUSSIONMISSILEMAG</Tooltip_Text>
+		<Health>390.0</Health>
+
+		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+
+
+		<Model_To_Attach />
+		<Attachment_Bone>Weap_Torp_Magazine_10</Attachment_Bone>
+		<Collision_Mesh>Weap_Torp_Magazine_10</Collision_Mesh>
+		<Damage_Particles>Weap_Torp_Magazine_10</Damage_Particles>
+
+
+		<Fire_Bone_A>Torp_FP_02_160</Fire_Bone_A>
+		<Fire_Bone_B>Torp_FP_06_160</Fire_Bone_B>
+		<Fire_Cone_Width>160.0</Fire_Cone_Width>
+		<Fire_Cone_Height>180.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Ship_Assault_Concussion_Missile</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>4</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+
+		<!-- Magazine range stats are different -->
+		<!-- Magazine accuracy stats use ion heavy template x2 instead of normal homing -->
+
+		<Fire_Range_Distance>3700.0</Fire_Range_Distance>
+
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+
+		<Fire_Inaccuracy_Distance> SpaceHero, 96.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Gunship, 72.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 72.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 45.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 18.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> SuperCapital, 9.0 </Fire_Inaccuracy_Distance>
+
+	</HardPoint>
+
+	<HardPoint Name="HP_Torpedo_SphereA_Torp_11">
+		<Type> HARD_POINT_WEAPON_TORPEDO </Type>
+		<Is_Targetable>Yes</Is_Targetable>
+		<Is_Destroyable>Yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_A_CONCUSSIONMISSILEMAG</Tooltip_Text>
+		<Health>390.0</Health>
+
+		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+
+
+		<Model_To_Attach />
+		<Attachment_Bone>Weap_Torp_Magazine_11</Attachment_Bone>
+		<Collision_Mesh>Weap_Torp_Magazine_11</Collision_Mesh>
+		<Damage_Particles>Weap_Torp_Magazine_11</Damage_Particles>
+
+
+		<Fire_Bone_A>Torp_FP_05_160</Fire_Bone_A>
+		<Fire_Bone_B>Torp_FP_03_160</Fire_Bone_B>
+		<Fire_Cone_Width>160.0</Fire_Cone_Width>
+		<Fire_Cone_Height>180.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Ship_Assault_Concussion_Missile</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>4</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+
+		<!-- Magazine range stats are different -->
+		<!-- Magazine accuracy stats use ion heavy template x2 instead of normal homing -->
+
+		<Fire_Range_Distance>3700.0</Fire_Range_Distance>
+
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+
+		<Fire_Inaccuracy_Distance> SpaceHero, 96.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Gunship, 72.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 72.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 45.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 18.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> SuperCapital, 9.0 </Fire_Inaccuracy_Distance>
+
+	</HardPoint>
+
+	<HardPoint Name="HP_Torpedo_SphereA_Torp_12">
+		<Type> HARD_POINT_WEAPON_TORPEDO </Type>
+		<Is_Targetable>Yes</Is_Targetable>
+		<Is_Destroyable>Yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_A_CONCUSSIONMISSILEMAG</Tooltip_Text>
+		<Health>390.0</Health>
+
+		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+
+
+		<Model_To_Attach />
+		<Attachment_Bone>Weap_Torp_Magazine_12</Attachment_Bone>
+		<Collision_Mesh>Weap_Torp_Magazine_12</Collision_Mesh>
+		<Damage_Particles>Weap_Torp_Magazine_12</Damage_Particles>
+
+
+		<Fire_Bone_A>Torp_FP_05_160</Fire_Bone_A>
+		<Fire_Bone_B>Torp_FP_04_160</Fire_Bone_B>
+		<Fire_Cone_Width>160.0</Fire_Cone_Width>
+		<Fire_Cone_Height>180.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Ship_Assault_Concussion_Missile</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>4</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+
+		<!-- Magazine range stats are different -->
+		<!-- Magazine accuracy stats use ion heavy template x2 instead of normal homing -->
+
+		<Fire_Range_Distance>3700.0</Fire_Range_Distance>
+
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+
+		<Fire_Inaccuracy_Distance> SpaceHero, 96.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Gunship, 72.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 72.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 45.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 18.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> SuperCapital, 9.0 </Fire_Inaccuracy_Distance>
+
+	</HardPoint>
+
+	<HardPoint Name="HP_Torpedo_SphereA_Torp_13">
+		<Type> HARD_POINT_WEAPON_TORPEDO </Type>
+		<Is_Targetable>Yes</Is_Targetable>
+		<Is_Destroyable>Yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_A_CONCUSSIONMISSILEMAG</Tooltip_Text>
+		<Health>390.0</Health>
+
+		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+
+
+		<Model_To_Attach />
+		<Attachment_Bone>Weap_Torp_Magazine_13</Attachment_Bone>
+		<Collision_Mesh>Weap_Torp_Magazine_13</Collision_Mesh>
+		<Damage_Particles>Weap_Torp_Magazine_13</Damage_Particles>
+
+
+		<Fire_Bone_A>Torp_FP_03_160</Fire_Bone_A>
+		<Fire_Bone_B>Torp_FP_04_160</Fire_Bone_B>
+		<Fire_Cone_Width>160.0</Fire_Cone_Width>
+		<Fire_Cone_Height>180.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Ship_Assault_Concussion_Missile</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>4</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+
+		<!-- Magazine range stats are different -->
+		<!-- Magazine accuracy stats use ion heavy template x2 instead of normal homing -->
+
+		<Fire_Range_Distance>3700.0</Fire_Range_Distance>
+
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+
+		<Fire_Inaccuracy_Distance> SpaceHero, 96.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Gunship, 72.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 72.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 45.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 18.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> SuperCapital, 9.0 </Fire_Inaccuracy_Distance>
+
+	</HardPoint>
+
+	<HardPoint Name="HP_Torpedo_SphereA_Torp_14">
+		<Type> HARD_POINT_WEAPON_TORPEDO </Type>
+		<Is_Targetable>Yes</Is_Targetable>
+		<Is_Destroyable>Yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_A_CONCUSSIONMISSILEMAG</Tooltip_Text>
+		<Health>390.0</Health>
+
+		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+
+
+		<Model_To_Attach />
+		<Attachment_Bone>Weap_Torp_Magazine_14</Attachment_Bone>
+		<Collision_Mesh>Weap_Torp_Magazine_14</Collision_Mesh>
+		<Damage_Particles>Weap_Torp_Magazine_14</Damage_Particles>
+
+
+		<Fire_Bone_A>Torp_FP_03_160</Fire_Bone_A>
+		<Fire_Bone_B>Torp_FP_01_160</Fire_Bone_B>
+		<Fire_Cone_Width>160.0</Fire_Cone_Width>
+		<Fire_Cone_Height>180.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Ship_Assault_Concussion_Missile</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>4</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+
+		<!-- Magazine range stats are different -->
+		<!-- Magazine accuracy stats use ion heavy template x2 instead of normal homing -->
+
+		<Fire_Range_Distance>3700.0</Fire_Range_Distance>
+
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+
+		<Fire_Inaccuracy_Distance> SpaceHero, 96.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Gunship, 72.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 72.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 45.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 18.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> SuperCapital, 9.0 </Fire_Inaccuracy_Distance>
+
+	</HardPoint>
+
+	<HardPoint Name="HP_Torpedo_SphereA_Torp_15">
+		<Type> HARD_POINT_WEAPON_TORPEDO </Type>
+		<Is_Targetable>Yes</Is_Targetable>
+		<Is_Destroyable>Yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_A_CONCUSSIONMISSILEMAG</Tooltip_Text>
+		<Health>390.0</Health>
+
+		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+
+
+		<Model_To_Attach />
+		<Attachment_Bone>Weap_Torp_Magazine_15</Attachment_Bone>
+		<Collision_Mesh>Weap_Torp_Magazine_15</Collision_Mesh>
+		<Damage_Particles>Weap_Torp_Magazine_15</Damage_Particles>
+
+
+		<Fire_Bone_A>Torp_FP_03_160</Fire_Bone_A>
+		<Fire_Bone_B>Torp_FP_02_160</Fire_Bone_B>
+		<Fire_Cone_Width>160.0</Fire_Cone_Width>
+		<Fire_Cone_Height>180.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Ship_Assault_Concussion_Missile</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>4</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+
+		<!-- Magazine range stats are different -->
+		<!-- Magazine accuracy stats use ion heavy template x2 instead of normal homing -->
+
+		<Fire_Range_Distance>3700.0</Fire_Range_Distance>
+
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+
+		<Fire_Inaccuracy_Distance> SpaceHero, 96.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Gunship, 72.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 72.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 45.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 18.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> SuperCapital, 9.0 </Fire_Inaccuracy_Distance>
+
+	</HardPoint>
+
+	<HardPoint Name="HP_Torpedo_SphereA_Torp_16">
+		<Type> HARD_POINT_WEAPON_TORPEDO </Type>
+		<Is_Targetable>Yes</Is_Targetable>
+		<Is_Destroyable>Yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_A_CONCUSSIONMISSILEMAG</Tooltip_Text>
+		<Health>390.0</Health>
+
+		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+
+
+		<Model_To_Attach />
+		<Attachment_Bone>Weap_Torp_Magazine_16</Attachment_Bone>
+		<Collision_Mesh>Weap_Torp_Magazine_16</Collision_Mesh>
+		<Damage_Particles>Weap_Torp_Magazine_16</Damage_Particles>
+
+
+		<Fire_Bone_A>Torp_FP_04_160</Fire_Bone_A>
+		<Fire_Bone_B>Torp_FP_01_160</Fire_Bone_B>
+		<Fire_Cone_Width>160.0</Fire_Cone_Width>
+		<Fire_Cone_Height>180.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Ship_Assault_Concussion_Missile</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>4</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+
+		<!-- Magazine range stats are different -->
+		<!-- Magazine accuracy stats use ion heavy template x2 instead of normal homing -->
+
+		<Fire_Range_Distance>3700.0</Fire_Range_Distance>
+
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+
+		<Fire_Inaccuracy_Distance> SpaceHero, 96.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Gunship, 72.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 72.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 45.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 18.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> SuperCapital, 9.0 </Fire_Inaccuracy_Distance>
+
+	</HardPoint>
+
+	<HardPoint Name="HP_Torpedo_SphereA_Torp_17">
+		<Type> HARD_POINT_WEAPON_TORPEDO </Type>
+		<Is_Targetable>Yes</Is_Targetable>
+		<Is_Destroyable>Yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_A_CONCUSSIONMISSILEMAG</Tooltip_Text>
+		<Health>390.0</Health>
+
+		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+
+
+		<Model_To_Attach />
+		<Attachment_Bone>Weap_Torp_Magazine_17</Attachment_Bone>
+		<Collision_Mesh>Weap_Torp_Magazine_17</Collision_Mesh>
+		<Damage_Particles>Weap_Torp_Magazine_17</Damage_Particles>
+
+
+		<Fire_Bone_A>Torp_FP_04_160</Fire_Bone_A>
+		<Fire_Bone_B>Torp_FP_02_160</Fire_Bone_B>
+		<Fire_Cone_Width>160.0</Fire_Cone_Width>
+		<Fire_Cone_Height>180.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Ship_Assault_Concussion_Missile</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>4</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+
+		<!-- Magazine range stats are different -->
+		<!-- Magazine accuracy stats use ion heavy template x2 instead of normal homing -->
+
+		<Fire_Range_Distance>3700.0</Fire_Range_Distance>
+
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+
+		<Fire_Inaccuracy_Distance> SpaceHero, 96.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Gunship, 72.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 72.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 45.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 18.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> SuperCapital, 9.0 </Fire_Inaccuracy_Distance>
+
+	</HardPoint>
+
+	<HardPoint Name="HP_Torpedo_SphereA_Torp_18">
+		<Type> HARD_POINT_WEAPON_TORPEDO </Type>
+		<Is_Targetable>Yes</Is_Targetable>
+		<Is_Destroyable>Yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_A_CONCUSSIONMISSILEMAG</Tooltip_Text>
+		<Health>390.0</Health>
+
+		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+
+
+		<Model_To_Attach />
+		<Attachment_Bone>Weap_Torp_Magazine_18</Attachment_Bone>
+		<Collision_Mesh>Weap_Torp_Magazine_18</Collision_Mesh>
+		<Damage_Particles>Weap_Torp_Magazine_18</Damage_Particles>
+
+
+		<Fire_Bone_A>Torp_FP_01_160</Fire_Bone_A>
+		<Fire_Bone_B>Torp_FP_02_160</Fire_Bone_B>
+		<Fire_Cone_Width>160.0</Fire_Cone_Width>
+		<Fire_Cone_Height>180.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Ship_Assault_Concussion_Missile</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>4</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+
+		<!-- Magazine range stats are different -->
+		<!-- Magazine accuracy stats use ion heavy template x2 instead of normal homing -->
+
+		<Fire_Range_Distance>3700.0</Fire_Range_Distance>
+
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+
+		<Fire_Inaccuracy_Distance> SpaceHero, 96.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Gunship, 72.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 72.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 45.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 18.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> SuperCapital, 9.0 </Fire_Inaccuracy_Distance>
+
+	</HardPoint>
+
+	<HardPoint Name="HP_Torpedo_SphereA_Torp_19">
+		<Type> HARD_POINT_WEAPON_TORPEDO </Type>
+		<Is_Targetable>Yes</Is_Targetable>
+		<Is_Destroyable>Yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_A_CONCUSSIONMISSILEMAG</Tooltip_Text>
+		<Health>390.0</Health>
+
+		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+
+
+		<Model_To_Attach />
+		<Attachment_Bone>Weap_Torp_Magazine_19</Attachment_Bone>
+		<Collision_Mesh>Weap_Torp_Magazine_19</Collision_Mesh>
+		<Damage_Particles>Weap_Torp_Magazine_19</Damage_Particles>
+
+
+		<Fire_Bone_A>Torp_FP_01_160</Fire_Bone_A>
+		<Fire_Bone_B>Torp_FP_06_160</Fire_Bone_B>
+		<Fire_Cone_Width>160.0</Fire_Cone_Width>
+		<Fire_Cone_Height>180.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Ship_Assault_Concussion_Missile</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>4</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+
+		<!-- Magazine range stats are different -->
+		<!-- Magazine accuracy stats use ion heavy template x2 instead of normal homing -->
+
+		<Fire_Range_Distance>3700.0</Fire_Range_Distance>
+
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+
+		<Fire_Inaccuracy_Distance> SpaceHero, 96.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Gunship, 72.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 72.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 45.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 18.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> SuperCapital, 9.0 </Fire_Inaccuracy_Distance>
+
+	</HardPoint>
+
+	<HardPoint Name="HP_Torpedo_SphereA_Torp_20">
+		<Type> HARD_POINT_WEAPON_TORPEDO </Type>
+		<Is_Targetable>Yes</Is_Targetable>
+		<Is_Destroyable>Yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_A_CONCUSSIONMISSILEMAG</Tooltip_Text>
+		<Health>390.0</Health>
+
+		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+
+
+		<Model_To_Attach />
+		<Attachment_Bone>Weap_Torp_Magazine_20</Attachment_Bone>
+		<Collision_Mesh>Weap_Torp_Magazine_20</Collision_Mesh>
+		<Damage_Particles>Weap_Torp_Magazine_20</Damage_Particles>
+
+
+		<Fire_Bone_A>Torp_FP_02_160</Fire_Bone_A>
+		<Fire_Bone_B>Torp_FP_06_160</Fire_Bone_B>
+		<Fire_Cone_Width>160.0</Fire_Cone_Width>
+		<Fire_Cone_Height>180.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Ship_Assault_Concussion_Missile</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>4</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+
+		<!-- Magazine range stats are different -->
+		<!-- Magazine accuracy stats use ion heavy template x2 instead of normal homing -->
+
+		<Fire_Range_Distance>3700.0</Fire_Range_Distance>
+
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+
+		<Fire_Inaccuracy_Distance> SpaceHero, 96.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Gunship, 72.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 72.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 45.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 18.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> SuperCapital, 9.0 </Fire_Inaccuracy_Distance>
+
+	</HardPoint>
+
 	
 </HardPoints>

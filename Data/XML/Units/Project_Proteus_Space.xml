@@ -3508,7 +3508,7 @@
 
 		<Shield_Points>1900</Shield_Points>
 		<Shield_Refresh_Rate>28.5</Shield_Refresh_Rate>
-		<Tactical_Health>1960</Tactical_Health>
+		<Tactical_Health>1944</Tactical_Health>
 		<Build_Cost_Credits>3300</Build_Cost_Credits>
 		<AI_Combat_Power>1221</AI_Combat_Power>
 
@@ -7345,6 +7345,88 @@
 		<Tactical_Build_Time_Seconds>28</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+	</SpaceUnit>
+
+		<SpaceUnit Name="Assault_Sphere">
+		<Variant_Of_Existing_Type>Torpedo_Sphere</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_ASSAULT_SPHERE</Text_ID>
+		
+
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_ASSAULT_SPHERE
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_TORPEDO_SPHERE_HULL
+		TEXT_TOOLTIP_TORPEDO_SPHERE_SHIELD
+		TEXT_TOOLTIP_TORPEDO_SPHERE_MOVE
+		TEXT_TOOLTIP_TORPEDO_SPHERE_SQUADRON
+		TEXT_TOOLTIP_TORPEDO_SPHERE_WEAP1
+		TEXT_TOOLTIP_ASSAULT_SPHERE_WEAP2 
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_ASSCSPHERE.TGA</Icon_Name>
+		<Tech_Level>0</Tech_Level>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Affiliation>Imperial_Proteus</Affiliation>
+
+
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+
+		<Required_Special_Structures>
+		Empire_Shipyard_Level_Four |
+		Zsinj_Shipyard_Level_Four | Rancor_Base |	
+		Pentastar_Shipyard_Level_Four |
+		Eriadu_Shipyard_Level_Four |
+		Greater_Maldrood_Shipyard_Level_Four |
+		Imperial_Proteus_Shipyard_Level_Four,
+		AI_Category_Dummy | Dreadnought_Category_Dummy
+		</Required_Special_Structures>
+
+		<HardPoints>
+			HP_Torpedo_Sphere_Hangar_01,
+			HP_Torpedo_Sphere_Hangar_02,
+			HP_Torpedo_Sphere_Engines_01,
+			HP_Torpedo_Sphere_Engines_02,
+			HP_Torpedo_Sphere_Engines_03,
+			HP_Torpedo_Sphere_Turbo_01,
+			HP_Torpedo_Sphere_Turbo_02,
+			HP_Torpedo_Sphere_Turbo_03,
+			HP_Torpedo_Sphere_Turbo_04,
+			HP_Torpedo_Sphere_Turbo_05,
+			HP_Torpedo_Sphere_Turbo_06,
+			HP_Torpedo_Sphere_Turbo_07,
+			HP_Torpedo_Sphere_Turbo_08,
+			HP_Torpedo_Sphere_Turbo_09,
+			HP_Torpedo_Sphere_Turbo_10,
+			HP_Torpedo_SphereA_Torp_01,
+			HP_Torpedo_SphereA_Torp_02,
+			HP_Torpedo_SphereA_Torp_03,
+			HP_Torpedo_SphereA_Torp_04,
+			HP_Torpedo_SphereA_Torp_05,
+			HP_Torpedo_SphereA_Torp_06,
+			HP_Torpedo_SphereA_Torp_07,
+			HP_Torpedo_SphereA_Torp_08,
+			HP_Torpedo_SphereA_Torp_09,
+			HP_Torpedo_SphereA_Torp_10,
+			HP_Torpedo_SphereA_Torp_11,
+			HP_Torpedo_SphereA_Torp_12,
+			HP_Torpedo_SphereA_Torp_13,
+			HP_Torpedo_SphereA_Torp_14,
+			HP_Torpedo_SphereA_Torp_15,
+			HP_Torpedo_SphereA_Torp_16,
+			HP_Torpedo_SphereA_Torp_17,
+			HP_Torpedo_SphereA_Torp_18,
+			HP_Torpedo_SphereA_Torp_19,
+			HP_Torpedo_SphereA_Torp_20
+		</HardPoints>
+
+		<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron_Double, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
+		<Reserve_Spawned_Units_Tech_0>TIE_Fighter_Squadron_Double, 2</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 1</Reserve_Spawned_Units_Tech_0>
 	</SpaceUnit>
 
 	<SpaceUnit Name="Shadow_Vengeance_Star_Dreadnought">
