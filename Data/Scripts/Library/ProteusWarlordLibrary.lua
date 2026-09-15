@@ -1490,7 +1490,7 @@ return {
 				"Gamma_ATR_6_Group", "Crusader_Gunship", "CC7700", "Strike_Cruiser_Light", "Carrack_Cruiser", "Star_Galleon",
 				"Rep_DHC", "Gladiator_II","Broadside_Cruiser", "Vindicator_Cruiser", "Victory_I_Fleet_Star_Destroyer", "Proficient_Tender",
 				"Imperial_I_Star_Destroyer", "Imperial_I_Star_Destroyer_Command", "Interdictor_Star_Destroyer",
-				"Sorannan_Star_Destroyer", "Executor_Star_Dreadnought",
+				"Sorannan_Star_Destroyer", "Assault_Sphere", "Executor_Star_Dreadnought",
 				-- Ground
 				"Army_Special_Missions_Company", "Imperial_Army_Commando_Company", "Imperial_Army_74Z_Bike_Company",
 				"AT_ST_A_Company", "Imperial_AT_PT_Company", "AT_DP_Company", 

@@ -2502,6 +2502,7 @@
 		Proteus_Missile_DHC,							Data\ShipNames\Dreadnaught_Imperial.txt,
 		Venator_Star_Destroyer_Patrol,					Data\ShipNames\Venator.txt,
 		Imperial_Republic_Star_Destroyer,				Data\ShipNames\Star_Destroyer.txt,
+		Assault_Sphere,									Data\ShipNames\Torpedo_Sphere.txt,
 	</ShipNameTextFiles>
 
 	<!-- Main menu in-game demo/attract playback -->
