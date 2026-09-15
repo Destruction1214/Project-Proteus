@@ -1296,5 +1296,42 @@ return {
 			 ,["12ABY"] = true
 		},
 
+	["EMPIRE_REBORN"] = {
+		
+		["FullSmall"] = {
+			["11ABY"] = true
+			,["11.5ABY"] = true
+		}
+		,["FullMedium"] = {
+			["11ABY"] = true
+			,["12ABY"] = true
+		}
+		,["FullLarge"] = {
+			["11ABY"] = true
+			,["11.5ABY"] = true
+			,["12ABY"] = true
+		}
+		,["KnownSmall"] = {
+			["11ABY"] = true
+			,["11.5ABY"] = true
+		}
+		,["KnownMedium"] = {
+			["11ABY"] = true
+			,["11.5ABY"] = true
+			,["12ABY"] = true
+		}
+		,["KnownLarge"] = {
+			["11ABY"] = true
+			,["11.5ABY"] = true
+			,["12ABY"] = true
+		}
+		,["Borderlands"] = { 
+			["11ABY"] = true
+			,["11.5ABY"] = true
+			,["12ABY"] = true
+		}
+
+	},
+
 	},
 }
