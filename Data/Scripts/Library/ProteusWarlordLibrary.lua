@@ -1161,17 +1161,17 @@ return {
 			Planets = {"JARDEEN"},
 			LeaderTable = {"BRANDEI_JUDICATOR"},
 			LeaderEndingNames = {"Grand Admiral Brandei"},
-			HeroList = {"Brandei_Judicator", "Dezon_Constrainer", "Harbid_Deaths_Head",}, ---add aban as a hero for stats see dev doc
+			HeroList = {"Brandei_Judicator", "Dezon_Constrainer", "Harbid_Deaths_Head", "Aban_Bellicose"}, 
 			UnlockList = {
 				-- Space 
-				"Citadel_Cruiser_Group", "Imperial_CR90", "Class_C_Frigate", "Pelta_Support", "Strike_Cruiser_Light", "Carrack_Cruiser", "Star_Galleon", "Quasar", "Imperial_Boarding_Shuttle",
-				"Acclamator_I_Carrier", "Acclamator_I_Support", "Immobilizer_Twin_Well", "Vindicator_Cruiser", "Victory_I_Fleet_Star_Destroyer", "Venator_8X",
+				"Citadel_Cruiser_Group", "Imperial_CR90", "Lancer_Frigate", "Class_C_Frigate", "Quasar", "Strike_Cruiser", "Carrack_Cruiser", "Imperial_Boarding_Shuttle",
+				"Acclamator_I_Carrier", "Acclamator_I_Support", "Immobilizer_Twin_Well", "Vindicator_Cruiser", "Victory_I_Fleet_Star_Destroyer", "Refit_Venator_Star_Destroyer_Proteus",
 				"Imperial_I_Star_Destroyer", "Tector_Star_Destroyer", "Acclamator_Battleship",
 				"Allegiance_Battlecruiser", "Impellor_Carrier", "Praetor_II_Battlecruiser",
 				-- Ground
 				"Imperial_Navy_Trooper_Company", "Navy_Commando_Company", "Imperial_Fleet_Commando_Company", "Republic_BARC_Company",
 				"PX7_Company", "Imperial_AT_PT_Company", "AT_DP_Company", 
-				"Imperial_TX130T_Company", "AT_AA_Walker_Company", "SPMAG_Walker_Company", "Imperial_Modified_LAAT_Company", "MZ8_Tank_Company", "Deathhawk_Company",
+				"Imperial_TX130T_Company", "AT_AA_Walker_Company", "SPMAG_Walker_Company", "Imperial_LAAT_Company", "MZ8_Tank_Company", "Deathhawk_Company",
 				"Canderous_Assault_Tank_Lasers_Company", "Imperial_AT_AT_Walker_Turbolaser_Refit_Company", "Imperial_A5_Juggernaut_Company",
 				-- Research
 				"Gorath_Research_Proteus",
@@ -1416,7 +1416,7 @@ return {
 			UnlockList = {
 				-- Space
 		    	"X4_Gunship_Group", "Imperial_CR90", "Imperial_DP20", "CR92A", "CC7700", "Active_Frigate", "Imperial_Escort_Carrier",
-		    	"Proficient", "Proficient_Tender", "Broadside_Cruiser", "Gladiator_II", "Victory_I_Fleet_Star_Destroyer", 
+		    	"Proficient", "Proficient_Tender", "Vindicator_Carrier", "Gladiator_II", "Victory_I_Fleet_Star_Destroyer", 
 				"Imperial_I_Star_Destroyer_Command", "Imperial_I_Star_Destroyer_Assault", 
 				"Altor_Replenishment_Ship", "Communications_Battlecruiser",
 				-- Ground

@@ -347,6 +347,7 @@
 			Gladiator_II_Carrier,
 			Comms_DHC, 
 			Proteus_Missile_DHC, 
+			Assault_Sphere,
 		</Bombardment_Required_Orbital_Ships>
 		<Bombardment_Projectile> Proj_Bombardment_Turbolaser_Red </Bombardment_Projectile>
 		<Bombardment_Particle> Bombard_Particle_Effect </Bombardment_Particle>
