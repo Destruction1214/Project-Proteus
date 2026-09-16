@@ -151,6 +151,7 @@ TEXT_H60_SQUADRON,H-60 Tempest Squadron
 TEXT_H60_SQUADRON_HALF,H-60 Tempest Squadron 1/2
 TEXT_H60_SQUADRON2,H-60 Tempest Squadron x2
 TEXT_HERO_1214,Destruction1214
+TEXT_HERO_ABAN,Aban
 TEXT_HERO_BENJO,Benjo
 TEXT_HERO_BRELLAR,Alecs Brellar
 TEXT_HERO_CEX,Tyionsis Cex
@@ -578,6 +579,7 @@ TEXT_TOOLTIP_A6_PROTOTYPE_WEAP1,1x Heavy AV Blaster Cannon: 3 / 2.0s / 480m
 TEXT_TOOLTIP_A6_PROTOTYPE_WEAP2,1x Heavy AI Blaster Cannon: 8 / 2.0s / 480m
 TEXT_TOOLTIP_A6_PROTOTYPE_WEAP3,2x AI Blaster Cannons (AOE): 2 / 1.0s / 320m
 TEXT_TOOLTIP_A6_PROTOTYPE_WEAP4,2x Proton Missiles: 3 / 20.0s / 480m
+TEXT_TOOLTIP_ABAN,TODO FOR KOTORI
 TEXT_TOOLTIP_ABILITY_ARTILLERY,
 TEXT_TOOLTIP_ABILITY_ARTILLERY_MODE_DESCRIPTION,
 TEXT_TOOLTIP_ACCLAMATOR_BATTLESHIP,Larger of the designs which were concieved as a bigger and individually better form of the successful Acclamator-class Assault Ships. This borderline battleship form remains well armed and is notably more durable than other classes in its lineage, but lacks the flexibility and ruggedness of designs pushed out by parent company Kuat Drive Yards, resulting in significantly lower production and popularity.
@@ -746,6 +748,7 @@ TEXT_TOOLTIP_COMMAND_ACROPORA,Tector Star Destroyer, Acropora
 TEXT_TOOLTIP_COMMAND_ALPHA_SQUADRON,TIE Fighter, Alpha Squadron
 TEXT_TOOLTIP_COMMAND_AMBITION,Executor Star Dreadnought, Ambition
 TEXT_TOOLTIP_COMMAND_BADMOTORFINGER,Communications Battlecruiser, Badmotorfinger
+TEXT_TOOLTIP_COMMAND_BELLICOSE,Imperial-I Star Destroyer, Bellicose
 TEXT_TOOLTIP_COMMAND_BLACKHOLESUN,Communications Battlecruiser, Black Hole Sun
 TEXT_TOOLTIP_COMMAND_BLITZ,Modified Victory-II Star Destroyer, Blitz
 TEXT_TOOLTIP_COMMAND_BULWARK,Imperial-II Star Destroyer, Bulwark

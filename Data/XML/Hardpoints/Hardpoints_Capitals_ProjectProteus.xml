@@ -14458,10 +14458,10 @@
 	</HardPoint>
 
 
-		<!-- Assault Concussion Sphere -->
+		<!-- ACM Ball -->
 
 		<HardPoint Name="HP_Torpedo_SphereA_Torp_01">
-		<Type> HARD_POINT_WEAPON_TORPEDO </Type>
+		<Type> HARD_POINT_WEAPON_MISSILE </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Tooltip_Text>TEXT_WEAPON_A_CONCUSSIONMISSILEMAG</Tooltip_Text>
@@ -14504,7 +14504,7 @@
 	</HardPoint>
 
 	<HardPoint Name="HP_Torpedo_SphereA_Torp_02">
-		<Type> HARD_POINT_WEAPON_TORPEDO </Type>
+		<Type> HARD_POINT_WEAPON_MISSILE </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Tooltip_Text>TEXT_WEAPON_A_CONCUSSIONMISSILEMAG</Tooltip_Text>
@@ -14547,7 +14547,7 @@
 	</HardPoint>
 
 	<HardPoint Name="HP_Torpedo_SphereA_Torp_03">
-		<Type> HARD_POINT_WEAPON_TORPEDO </Type>
+		<Type> HARD_POINT_WEAPON_MISSILE </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Tooltip_Text>TEXT_WEAPON_A_CONCUSSIONMISSILEMAG</Tooltip_Text>
@@ -14590,7 +14590,7 @@
 	</HardPoint>
 
 	<HardPoint Name="HP_Torpedo_SphereA_Torp_04">
-		<Type> HARD_POINT_WEAPON_TORPEDO </Type>
+		<Type> HARD_POINT_WEAPON_MISSILE </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Tooltip_Text>TEXT_WEAPON_A_CONCUSSIONMISSILEMAG</Tooltip_Text>
@@ -14633,7 +14633,7 @@
 	</HardPoint>
 
 	<HardPoint Name="HP_Torpedo_SphereA_Torp_05">
-		<Type> HARD_POINT_WEAPON_TORPEDO </Type>
+		<Type> HARD_POINT_WEAPON_MISSILE </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Tooltip_Text>TEXT_WEAPON_A_CONCUSSIONMISSILEMAG</Tooltip_Text>
@@ -14676,7 +14676,7 @@
 	</HardPoint>
 
 	<HardPoint Name="HP_Torpedo_SphereA_Torp_06">
-		<Type> HARD_POINT_WEAPON_TORPEDO </Type>
+		<Type> HARD_POINT_WEAPON_MISSILE </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Tooltip_Text>TEXT_WEAPON_A_CONCUSSIONMISSILEMAG</Tooltip_Text>
@@ -14719,7 +14719,7 @@
 	</HardPoint>
 
 	<HardPoint Name="HP_Torpedo_SphereA_Torp_07">
-		<Type> HARD_POINT_WEAPON_TORPEDO </Type>
+		<Type> HARD_POINT_WEAPON_MISSILE </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Tooltip_Text>TEXT_WEAPON_A_CONCUSSIONMISSILEMAG</Tooltip_Text>
@@ -14762,7 +14762,7 @@
 	</HardPoint>
 
 	<HardPoint Name="HP_Torpedo_SphereA_Torp_08">
-		<Type> HARD_POINT_WEAPON_TORPEDO </Type>
+		<Type> HARD_POINT_WEAPON_MISSILE </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Tooltip_Text>TEXT_WEAPON_A_CONCUSSIONMISSILEMAG</Tooltip_Text>
@@ -14805,7 +14805,7 @@
 	</HardPoint>
 
 	<HardPoint Name="HP_Torpedo_SphereA_Torp_09">
-		<Type> HARD_POINT_WEAPON_TORPEDO </Type>
+		<Type> HARD_POINT_WEAPON_MISSILE </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Tooltip_Text>TEXT_WEAPON_A_CONCUSSIONMISSILEMAG</Tooltip_Text>
@@ -14848,7 +14848,7 @@
 	</HardPoint>
 
 	<HardPoint Name="HP_Torpedo_SphereA_Torp_10">
-		<Type> HARD_POINT_WEAPON_TORPEDO </Type>
+		<Type> HARD_POINT_WEAPON_MISSILE </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Tooltip_Text>TEXT_WEAPON_A_CONCUSSIONMISSILEMAG</Tooltip_Text>
@@ -14891,7 +14891,7 @@
 	</HardPoint>
 
 	<HardPoint Name="HP_Torpedo_SphereA_Torp_11">
-		<Type> HARD_POINT_WEAPON_TORPEDO </Type>
+		<Type> HARD_POINT_WEAPON_MISSILE </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Tooltip_Text>TEXT_WEAPON_A_CONCUSSIONMISSILEMAG</Tooltip_Text>
@@ -14934,7 +14934,7 @@
 	</HardPoint>
 
 	<HardPoint Name="HP_Torpedo_SphereA_Torp_12">
-		<Type> HARD_POINT_WEAPON_TORPEDO </Type>
+		<Type> HARD_POINT_WEAPON_MISSILE </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Tooltip_Text>TEXT_WEAPON_A_CONCUSSIONMISSILEMAG</Tooltip_Text>
@@ -14977,7 +14977,7 @@
 	</HardPoint>
 
 	<HardPoint Name="HP_Torpedo_SphereA_Torp_13">
-		<Type> HARD_POINT_WEAPON_TORPEDO </Type>
+		<Type> HARD_POINT_WEAPON_MISSILE </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Tooltip_Text>TEXT_WEAPON_A_CONCUSSIONMISSILEMAG</Tooltip_Text>
@@ -15020,7 +15020,7 @@
 	</HardPoint>
 
 	<HardPoint Name="HP_Torpedo_SphereA_Torp_14">
-		<Type> HARD_POINT_WEAPON_TORPEDO </Type>
+		<Type> HARD_POINT_WEAPON_MISSILE </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Tooltip_Text>TEXT_WEAPON_A_CONCUSSIONMISSILEMAG</Tooltip_Text>
@@ -15063,7 +15063,7 @@
 	</HardPoint>
 
 	<HardPoint Name="HP_Torpedo_SphereA_Torp_15">
-		<Type> HARD_POINT_WEAPON_TORPEDO </Type>
+		<Type> HARD_POINT_WEAPON_MISSILE </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Tooltip_Text>TEXT_WEAPON_A_CONCUSSIONMISSILEMAG</Tooltip_Text>
@@ -15106,7 +15106,7 @@
 	</HardPoint>
 
 	<HardPoint Name="HP_Torpedo_SphereA_Torp_16">
-		<Type> HARD_POINT_WEAPON_TORPEDO </Type>
+		<Type> HARD_POINT_WEAPON_MISSILE </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Tooltip_Text>TEXT_WEAPON_A_CONCUSSIONMISSILEMAG</Tooltip_Text>
@@ -15149,7 +15149,7 @@
 	</HardPoint>
 
 	<HardPoint Name="HP_Torpedo_SphereA_Torp_17">
-		<Type> HARD_POINT_WEAPON_TORPEDO </Type>
+		<Type> HARD_POINT_WEAPON_MISSILE </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Tooltip_Text>TEXT_WEAPON_A_CONCUSSIONMISSILEMAG</Tooltip_Text>
@@ -15192,7 +15192,7 @@
 	</HardPoint>
 
 	<HardPoint Name="HP_Torpedo_SphereA_Torp_18">
-		<Type> HARD_POINT_WEAPON_TORPEDO </Type>
+		<Type> HARD_POINT_WEAPON_MISSILE </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Tooltip_Text>TEXT_WEAPON_A_CONCUSSIONMISSILEMAG</Tooltip_Text>
@@ -15235,7 +15235,7 @@
 	</HardPoint>
 
 	<HardPoint Name="HP_Torpedo_SphereA_Torp_19">
-		<Type> HARD_POINT_WEAPON_TORPEDO </Type>
+		<Type> HARD_POINT_WEAPON_MISSILE </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Tooltip_Text>TEXT_WEAPON_A_CONCUSSIONMISSILEMAG</Tooltip_Text>
@@ -15278,7 +15278,7 @@
 	</HardPoint>
 
 	<HardPoint Name="HP_Torpedo_SphereA_Torp_20">
-		<Type> HARD_POINT_WEAPON_TORPEDO </Type>
+		<Type> HARD_POINT_WEAPON_MISSILE </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Tooltip_Text>TEXT_WEAPON_A_CONCUSSIONMISSILEMAG</Tooltip_Text>

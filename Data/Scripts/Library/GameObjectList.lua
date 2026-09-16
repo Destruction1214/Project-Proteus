@@ -966,6 +966,7 @@ return {
 ["COMMS_DHC"] = true,
 ["PROTEUS_MISSILE_DHC"] = true,
 ["ASSAULT_SPHERE"] = true,
+["ABAN_BELLICOSE"] = true,
 -- Project Proteus Dev Heroes
 ["TAXEVADER_SYNTAX_ERROR"] = true,
 ["TAXEVADER_DREAM_OF_A_QUIET_LIFE"] = true,
