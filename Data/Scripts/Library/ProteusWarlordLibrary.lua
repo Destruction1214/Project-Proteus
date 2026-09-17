@@ -1410,13 +1410,13 @@ return {
 		["STORM_COMMANDOS"] = {
 			FriendlyName = "Storm Commandos",
 			Planets = {"TALUS_TRALUS"},
-			LeaderTable= {["STRANG_TEAM"] = {"VICTOR_STRANG"}},
+			LeaderTable= {["STRANG_TEAM"] = {"VICTOR_STRANG"}, "STRANG_IEC"},
 			LeaderEndingNames = {"Emperor Strang"},
 			HeroList = {"Strang_Team", "Weir_Team", "Irlyn_Team"},
 			UnlockList = {
 				-- Space
 		    	"X4_Gunship_Group", "Imperial_CR90", "Imperial_DP20", "CR92A", "CC7700", "Active_Frigate", "Imperial_Escort_Carrier",
-		    	"Proficient", "Proficient_Tender", "Vindicator_Carrier", "Gladiator_II", "Victory_I_Fleet_Star_Destroyer", 
+		    	"Proficient", "Proficient_Tender", "Vindicator_Carrier", "Gladiator_II", "Victory_II_Star_Destroyer", 
 				"Imperial_I_Star_Destroyer_Command", "Imperial_I_Star_Destroyer_Assault", 
 				"Altor_Replenishment_Ship", "Communications_Battlecruiser",
 				-- Ground

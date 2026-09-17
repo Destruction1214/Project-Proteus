@@ -1154,4 +1154,8 @@
 	<TransportUnit Name="Shuttle_Tyderium_Michael">
 		<Variant_Of_Existing_Type>Shuttle_Tyderium</Variant_Of_Existing_Type>
 	</TransportUnit>
+
+	<TransportUnit Name="Shuttle_Tyderium_Strang">
+		<Variant_Of_Existing_Type>Shuttle_Tyderium</Variant_Of_Existing_Type>
+	</TransportUnit>
 </TransportUnits>
