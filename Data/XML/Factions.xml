@@ -9872,6 +9872,9 @@
 			Anton_Kale,
 			Fyyar_Doomgiver,
 			Michael_Terror,
+			Strang_IEC,
+			Aban_Bellicose,
+			Harbid_Deaths_Head,
 		</Bombardment_Required_Orbital_Ships>
 		<Bombardment_Projectile> Proj_Bombardment_Turbolaser_Green </Bombardment_Projectile>
 		<Bombardment_Particle> Bombard_Particle_Effect </Bombardment_Particle>
