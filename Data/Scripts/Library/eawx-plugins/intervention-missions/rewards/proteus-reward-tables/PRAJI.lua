@@ -311,7 +311,7 @@ return {
 		},
 		{
 			{"Elite_Mercenary_Company", 3},
-			{"Proteus_A6_Company", 1},
+			{"Imperial_A6_Juggernaut_Company", 1},
 			{"Maelstrom_Battlecruiser", 1},
 			{"Acclamator_Battleship", 1},
 		}

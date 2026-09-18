@@ -262,6 +262,12 @@ function GovernmentEmpire:new(gc, absorb, dark_empire_available, id)
 
     self.Events = {}
     self.Events.FactionIntegrated = Observable()
+
+    self.gamble_table = require("GambleLibrary")
+    self.market_updates = {
+        ["DUMMY_RECRUIT_GROUP_DELURIN"] = "DRAGON",
+        ["DUMMY_RECRUIT_GROUP_WESSEX"] = "WESSEX",
+    }
 end
 
 
@@ -734,42 +740,13 @@ function GovernmentEmpire:on_production_finished(planet, game_object_type_name)
         self:tagge_handler(planet, game_object_type_name)
     end
 
-    local market_updates = {
-        ["DUMMY_RECRUIT_GROUP_DELURIN"] = "DRAGON",
-        ["DUMMY_RECRUIT_GROUP_WESSEX"] = "WESSEX",
-    }
-    for group, event in pairs(market_updates) do
-        if game_object_type_name == group then
-            crossplot:publish("UPDATE_MARKET",event)
-        end
-    end
-
-    if game_object_type_name == "SELLASAS_LOADOUT_SWAP1" then
-        --locks first loadout
-        UnitUtil.SetLockList("IMPERIAL_PROTEUS", {
-            "Sellasas_Loadout_Swap1", "Imperial_DHC", "Neutron_Star_Mercenary", "Carrack_Cruiser", "Victory_I_Fleet_Star_Destroyer", "Victory_II_Star_Destroyer", "Imperial_I_Star_Destroyer"
-        }, false)
-        --unlocks second
-        UnitUtil.SetLockList("IMPERIAL_PROTEUS", {
-            "Sellasas_Loadout_Swap2", "Rep_DHC", "Neutron_Star", "Carrack_Cruiser_Laser", "Victory_I_Star_Destroyer", "Victory_II_Carrier", "Imperial_I_Star_Destroyer_Patrol"
-        })
-    elseif game_object_type_name == "SELLASAS_LOADOUT_SWAP2" then
-        --locks second loadout
-        UnitUtil.SetLockList("IMPERIAL_PROTEUS", {
-            "Sellasas_Loadout_Swap2", "Rep_DHC", "Carrack_Cruiser_Laser", "Victory_I_Star_Destroyer", "Victory_II_Carrier", "Imperial_I_Star_Destroyer_Patrol"
-        }, false)
-        --unlocks first
-        UnitUtil.SetLockList("IMPERIAL_PROTEUS", {
-            "Sellasas_Loadout_Swap1", "Imperial_DHC", "Carrack_Cruiser", "Victory_I_Fleet_Star_Destroyer", "Victory_II_Star_Destroyer", "Imperial_I_Star_Destroyer"
-        })
-    end
-
-    if string.find(game_object_type_name, "DUMMY_RANDOM_UNIT_") then
+    local event = self.market_updates[game_object_type_name]
+    if event ~= nil then
+        crossplot:publish("UPDATE_MARKET",event)
+    elseif string.find(game_object_type_name, "DUMMY_RANDOM_UNIT_") then
         local location = Find_First_Object(game_object_type_name).Get_Planet_Location().Get_Type().Get_Name()
         self:gamble_manager(game_object_type_name, location)
-    end
-
-    if game_object_type_name == "DASTA_PROCURE_FIGHTERS" then
+    elseif game_object_type_name == "DASTA_PROCURE_FIGHTERS" then
         GenericPopup("DASTA_FIGHTER_CHOICE", {"IMPERIAL", "REBEL"}, "DASTA_FIGHTER_CHOICE_OPTION")
     elseif game_object_type_name == "KUAT_CHOOSE_BC" then
         GenericPopup("KUAT_BC_CHOICE", {"PRAETOR_II_BATTLECRUISER", "PRAETOR_CARRIER_BATTLECRUISER", "COMMUNICATIONS_BATTLECRUISER", "SORANNAN_STAR_DESTROYER"}, "KUAT_BC_CHOICE_OPTION")
@@ -793,18 +770,13 @@ end
 
 function GovernmentEmpire:gamble_manager(unit_type, location)
     --Logger:trace("entering GovernmentEmpire:gamble_manager")
-    local gamble_table = require("GambleLibrary")
-    local src_obj = Find_First_Object(unit_type)
-        
-    for dummyobj, optionsdata in pairs(gamble_table) do
-        if dummyobj == unit_type then
-            local posnr = GameRandom.Free_Random(1,table.getn(optionsdata))
-            for pos, unit in pairs(optionsdata) do
-                if pos == posnr then
-                    local spawn = StoryUtil.SpawnAtSafePlanet(location, Find_Player("Imperial_Proteus"), StoryUtil.GetSafePlanetTable(), {unit}, true, false)
-                    src_obj.Despawn()
-                end
-            end
+    local src_data = self.gamble_table[unit_type]
+    local posnr = GameRandom.Free_Random(1,table.getn(src_data))
+    
+    for pos, unit in pairs(src_data) do
+        if pos == posnr then
+            local spawn = StoryUtil.SpawnAtSafePlanet(location, Find_Player("Imperial_Proteus"), StoryUtil.GetSafePlanetTable(), {unit}, true, false)
+            Find_First_Object(unit_type).Despawn()
         end
     end
 end

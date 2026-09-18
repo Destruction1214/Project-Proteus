@@ -1094,7 +1094,7 @@
 
 		<Text_ID>TEXT_TOOLTIP_COMMAND_STELLARHALO_MODERNIZED</Text_ID>
 		<Affiliation>Imperial_Proteus</Affiliation>
-		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Icon_Name>i_button_kale.tga</Icon_Name>
 
 		<Encyclopedia_Unit_Class></Encyclopedia_Unit_Class>
@@ -2412,6 +2412,46 @@
 			</Battlefield_Modifier_Ability>
 		</Abilities>
 	</UniqueUnit>
+
+	<DummyStructure Name="Strang_IEC_Dummy">
+		<Variant_Of_Existing_Type>Template_Flagship_Swap_NoSelfDelete</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_TOOLTIP_COMMAND_MARATHON</Text_ID>
+		<Encyclopedia_Unit_Class>Ship Crews Cost: 58</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_UPGRADE_FLAG
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_06_SPACE
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_IEC_HULL 
+		TEXT_TOOLTIP_IEC_SHIELD
+		TEXT_TOOLTIP_IEC_MOVE 
+		TEXT_TOOLTIP_IEC_SQUADRON
+		TEXT_TOOLTIP_IEC_WEAP1 
+		TEXT_TOOLTIP_IEC_WEAP2 
+		TEXT_TOOLTIP_IEC_WEAP3
+		TEXT_TOOLTIP_IEC_WEAP4
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_strang.tga</Icon_Name>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+
+		<Affiliation>Imperial_Proteus</Affiliation>
+
+		<Build_Cost_Credits>1000</Build_Cost_Credits>
+		<Build_Time_Seconds>10</Build_Time_Seconds>
+
+		<Required_Special_Structures>
+		Imperial_Proteus_Shipyard_Level_One | Imperial_Proteus_Shipyard_Level_Two | Imperial_Proteus_Shipyard_Level_Three | Imperial_Proteus_Shipyard_Level_Four,
+		AI_Category_Dummy | Story_Category_Dummy
+		</Required_Special_Structures>
+		
+		<Population_Value>8</Population_Value>
+
+		<Required_Orbiting_Units>Shuttle_Tyderium_Strang</Required_Orbiting_Units>
+	</DummyStructure>
 
 <!-- ============================ Ground ============================= -->
 	
@@ -3811,7 +3851,7 @@
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DARK_SIDE_ADEPT </Encyclopedia_Unit_Class>
-		<Icon_Name>I_BUTTON_X1_SITH.TGA</Icon_Name>
+		<Icon_Name>I_BUTTON_X1.TGA</Icon_Name>
 
 		<Land_Model_Name>x1.alo</Land_Model_Name>
 		<Land_Model_Anim_Override_Name> EI_Palpatine.alo </Land_Model_Anim_Override_Name>
@@ -4040,7 +4080,7 @@
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DARK_SIDE_ADEPT </Encyclopedia_Unit_Class>
-		<Icon_Name>I_BUTTON_X1_SITH.TGA</Icon_Name>
+		<Icon_Name>I_BUTTON_X1.TGA</Icon_Name>
 		
 		<Company_Transport_Unit>Shuttle_Tyderium_X1</Company_Transport_Unit>
 		<Company_Units>X1</Company_Units>
@@ -4078,7 +4118,7 @@
 		<Variant_Of_Existing_Type>TIE_Avenger</Variant_Of_Existing_Type>
 		<Land_Model_Name>EV_TIEADVANCED.ALO</Land_Model_Name>
 		<Space_Model_Name>EV_TIEADVANCED.ALO</Space_Model_Name>
-		<Icon_Name>i_button_x1_sith.tga</Icon_Name>
+		<Icon_Name>i_button_x1.tga</Icon_Name>
 		
 		<Tactical_Health>220</Tactical_Health>
 		<Shield_Points>120</Shield_Points>
@@ -8643,10 +8683,6 @@
 		<Tech_Level>99</Tech_Level>
 		
 		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
-
-		<Destruction_Survivors> 
-			Destruction_Survivor_Michael_Lambda_Shuttle, 1
-		</Destruction_Survivors>
 
 		<SFXEvent_Select>Unit_Select_Dark_Jedi</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Dark_Jedi</SFXEvent_Move>

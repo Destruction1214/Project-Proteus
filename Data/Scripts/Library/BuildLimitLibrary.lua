@@ -41,8 +41,4 @@ return {
 	["REBORN_SHADOWTROOPER_COMPANY"] = {
 		current_limit = 5,
 	},
-	["PROTEUS_A6_COMPANY"] = {
-        current_limit = 2,
-        alt_name = "A6_JUGGERNAUT",
-    },
 }
