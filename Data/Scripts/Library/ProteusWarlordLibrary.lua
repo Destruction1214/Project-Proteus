@@ -427,7 +427,7 @@ return {
 				"Imperial_Army_Trooper_Company", "Imperial_AT_AP_Walker_Company", "Trandoshan_Hunter_Company", "Imperial_Scout_Trooper_Company", "Republic_BARC_Company", 
 				"Imperial_AT_PT_Company", "Imperial_AT_RT_Company", "AT_KT_Company", "Arrow_23_Company", "Skyhopper_Antivehicle_Company",
 				"Imperial_Light_Mobile_Artillery_Company", "Imperial_TX130T_Company", "Imperial_Dropship_Transport_Company", "AT_AA_Missile_Walker_Company", 
-				"Imperial_AT_AT_Walker_Company", "Proteus_A6_Company", "Camo_AT_TE_Walker_Company",
+				"Imperial_AT_AT_Walker_Company", "Camo_AT_TE_Walker_Company",
 				-- Structures
 				"Pirate_Base",
 				-- Fighter Hero
@@ -459,7 +459,7 @@ return {
 				"AT_AA_Walker_Company", "2M_Repulsor_Tank_Company", "SPMAG_Walker_Company", "Imperial_Dropship_Transport_Company",
 				"B5_Juggernaut_Company", "Imperial_AT_AT_Walker_Company",
 				-- Research/Dummies
-				"KUAT_Dummy_Research_Corona", "Rogriss_Aurora_Dummy", "Kale_Modernized_Dummy", "Procurator_Upgrade_Dummy", "Kuat_Choose_BC",
+				"KUAT_Dummy_Research_Corona", "Rogriss_Aurora_Dummy", "Procurator_Upgrade_Dummy", "Kuat_Choose_BC",
 			},
 			FactionOverride = "Empire",
 			IntroText = "TEXT_CONQUEST_PROTEUS_KUAT",

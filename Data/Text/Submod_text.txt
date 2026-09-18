@@ -29,6 +29,8 @@ TEXT_BELBULLAB22_SQUADRON,Belbullab-22 Squadron
 TEXT_BELBULLAB22_SQUADRON_HALF,Belbullab-22 Squadron 1/2
 TEXT_BELBULLAB22_SQUADRON2,Belbullab-22 Squadron x2
 TEXT_BELBULLAB23_SQUADRON,Belbullab-23 Squadron
+TEXT_BELBULLAB23_SQUADRON_HALF,Belbullab-23 Squadron 1/2
+TEXT_BELBULLAB23_SQUADRON2,Belbullab-23 Squadron x2
 TEXT_BELBULLAB24_SQUADRON,Belbullab-24 Squadron
 TEXT_BELBULLAB24_SQUADRON_HALF,Belbullab-24 Squadron 1/2
 TEXT_BELBULLAB24_SQUADRON2,Belbullab-24 Squadron x2
@@ -290,6 +292,8 @@ TEXT_STATBLOCK_BELBULLAB23_ESCORT_BASE,Health: 140 | Shields: 80
 TEXT_STATBLOCK_BELBULLAB23_MOVE,Speed: 6.8 | Maneuverability: 3.75
 TEXT_STATBLOCK_BELBULLAB23_NWON_RAINES_BASE,Health: 280 | Shields: 160
 TEXT_STATBLOCK_BELBULLAB23_SQUADRON,Squadron: 12x Belbullab-23
+TEXT_STATBLOCK_BELBULLAB23_SQUADRON_DOUBLE,Squadron: 24x Belbullab-23
+TEXT_STATBLOCK_BELBULLAB23_SQUADRON_HALF,Squadron: 6x Belbullab-23
 TEXT_STATBLOCK_BELBULLAB23_WEAP1,2x Fighter Laser Cannon: 6 / 2.0s / 1.0km
 TEXT_STATBLOCK_BELBULLAB23_WEAP2,1x Fighter Concussion Missile: 1 / 37.5s / 1.8km
 TEXT_STATBLOCK_BELBULLAB24_BASE,Health: 16 | Shields: 6
@@ -569,6 +573,7 @@ TEXT_TOOLTIP_1214_WEAP5,4x Proton Torpedoes: 5 / 10.0s / 10.8km
 TEXT_TOOLTIP_1214_WEAP6,2x Assault Concussion Missiles: 7 / 17.5s / 14.8km
 TEXT_TOOLTIP_1214_WEAP7,2x Assault Concoussion Missiles: 2 / 2.5s / 14.8km
 TEXT_TOOLTIP_1HB_TANK,A variant of the more common Imperial-class 1-H Heavy Repuslortank that offered the same protection and speed with an alternative weapons loadout. This model excelled against other vehicles but was vulnerable to infantry attacks.
+TEXT_TOOLTIP_1HB_TANK_COMPANY,Company: 2x 1-HB Repulsortank
 TEXT_TOOLTIP_1HB_TANK_WEAP1,1x AV Beam Cannon: 12 / 3.5s / 320m
 TEXT_TOOLTIP_1HB_TANK_WEAP2,2x AV Blaster Cannons: 2 / 2.0s / 400m
 TEXT_TOOLTIP_1HB_TANK_WEAP3,1x Concussion Grenade: 2 / 2.5s / 320m
@@ -697,7 +702,7 @@ TEXT_TOOLTIP_CAPITAL_TF7,Raider-II Corvette: 4 / 0
 TEXT_TOOLTIP_CAPITAL_TF8,Procursator Star Destroyer: 2 / 0
 TEXT_TOOLTIP_CAPITAL_TF9,Tector Star Destroyer: 2 / 0
 TEXT_TOOLTIP_CARRACK_ZETA,A variant of the common Carrack-Class Frigate utilized by the Kaarenth Dissension. It features an advanced Ion cannon in addition to its stock turbolaser armament and is an excellent raiding and ambush vessel.
-TEXT_TOOLTIP_CARRACK_ZETA_WEAP1,1x Ultraheavy Ion Cannon: 1 / 5.0s / 8.4km
+TEXT_TOOLTIP_CARRACK_ZETA_WEAP1,1x Ultraheavy Ion Cannon: 1 / 5.0s / 8.1km
 TEXT_TOOLTIP_CEX,A Srrors'tok male who lived as a merchant with his family on Sellasas during the Galactic Civil War. His family was killed shortly after the Battle of Yavin, when the Rebel Alliance initiated a brutal siege of the planet's Imperial garrison, igniting a deep hatred for the Rebellion in him. Cex' life was saved by Amara Jedselk, daughter of the Imperial Governor of Sellasas, and he swore a life debt to her in return. Following the end of the siege, Tyionsis Cex became a bounty hunter under the patronage of Governor Jedselk, intent on repaying his debt to his new family.
 TEXT_TOOLTIP_CLASS_C,An unremarkable military escort vessel produced prior to the Clone Wars, carrying design lineages of both blocky escorts and sleeker triangular warships that would make up the Kuati product line in the decades to come. Predecessor to the Pelta and Nebulon series of vessels, it fills a similar tactical purpose to both as a multirole escort effective against a variety of target types.
 TEXT_TOOLTIP_CLASS_C_HULL,Hull: 1100 (Frigate)
@@ -759,6 +764,7 @@ TEXT_TOOLTIP_COMMAND_GURNST,Commands: Elite Mercenary Platoon Taskforce Bravo
 TEXT_TOOLTIP_COMMAND_HSSISSK_SQUADRON,Zssisk Strike Squadron
 TEXT_TOOLTIP_COMMAND_MAHKKAR,Interceptor I-class Frigate
 TEXT_TOOLTIP_COMMAND_MAHLER,Imperial-II Star Destroyer, Mahler
+TEXT_TOOLTIP_COMMAND_MARATHON,Imperial Escort Carrier, Marathon
 TEXT_TOOLTIP_COMMAND_ONSLAUGHT,Imperial-I Star Destroyer, Onslaught
 TEXT_TOOLTIP_COMMAND_OSTRANDER,Imperial-I Star Destroyer Command Refit, Ostrander
 TEXT_TOOLTIP_COMMAND_PATROLLER,Carrack Cruiser, Patroller
@@ -797,8 +803,8 @@ TEXT_TOOLTIP_CONSULAR_SHIELD,Shields: 400 / [8/R] (Corvette)
 TEXT_TOOLTIP_CORONA_RESEARCH_KUAT,Research the Corona Frigate. Replaces the Nebulon B and Nebulon B Tender with the Corona Frigate and Tender.
 TEXT_TOOLTIP_CORONA_TENDER,Fleet Tender: 50 / 1.0s / 1.4km
 TEXT_TOOLTIP_CORONA_TENDER_DESC,A support-focused variant of the Corona-class frigate equipped with advanced repair and resupply systems. Trading much of the ships hangar capacity and firepower for fleet tending capabilities, it serves as an effective logistical support vessel during prolonged engagements.
-TEXT_TOOLTIP_CORONA_TENDER_PD,Point-Defense: 1 / 0.35 / 1.4km
-TEXT_TOOLTIP_CORONA_TENDER_SHIELD,Shields: 700 / [16/R] (Frigate)
+TEXT_TOOLTIP_CORONA_TENDER_PD,Point-Defense: 1 / 0.54 / 1.64km
+TEXT_TOOLTIP_CORONA_TENDER_SHIELD,Shields: 700 / [14/R] (Frigate)
 TEXT_TOOLTIP_CORONA_TENDER_WEAP2,1x Light Turbolaser: 2 / 5.0s / 5.1km
 TEXT_TOOLTIP_CORONA_TENDER_WEAP3,1x Light Ion Cannon: 2 / 5.0s / 5.1km
 TEXT_TOOLTIP_CORONA_TENDER_WEAP4,1x Medium Rapid Laser Cannon: 6 / 1.67s / 3.6km
@@ -1123,7 +1129,7 @@ TEXT_TOOLTIP_MALLAT,An ISB agent still in active service to the Empire by 16ABY.
 TEXT_TOOLTIP_MANSK,A small starship manufactured by Tallaani Shipyards in the Tapani Sector. These ships would often serve in the fleets of the Tapani Noble Houses such as that of House Melantha.
 TEXT_TOOLTIP_MANSK_HULL,Hull: 600 (Corvette)
 TEXT_TOOLTIP_MANSK_MOVE,Speed: 5.6 | Accel: 0.06 | Turn: 0.65
-TEXT_TOOLTIP_MANSK_PD,Point-Defense: 1 / 0.45s / 1.25km
+TEXT_TOOLTIP_MANSK_PD,Point-Defense: 1 / 0.47s / 1.25km
 TEXT_TOOLTIP_MANSK_SHIELD,Shields: 720 / [16.2/R] (Corvette)
 TEXT_TOOLTIP_MANSK_WEAP1,1x Light Ion Cannon: 1 / 5.0s / 5.0km
 TEXT_TOOLTIP_MANSK_WEAP2,6x Light Dual Rapid Laser Cannons: 6 / 5.0s / 3.0km
@@ -1800,5 +1806,3 @@ Z_TEXT_UNIT_GORATH_RESEARCH,Reverse-engineer the Gorath Strike Cruiser
 Z_TEXT_UNIT_MISSILE_BOAT_RESEARCH,Reverse-engineer the Missile Boat
 Z_TEXT_UNIT_MTC_RESEARCH,Reverse-engineer the Modular Taskforce Cruiser
 Z_TEXT_UNIT_SCIMITAR_RESEARCH,Reverse-engineer the Scimitar Assault Bomber
-TEXT_TOOLTIP_COMMAND_MARATHON,Imperial Escort Carrier, Marathon
-TEXT_TOOLTIP_1HB_TANK_COMPANY,Company: 2x 1-HB Repulsortank

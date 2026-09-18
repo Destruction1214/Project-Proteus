@@ -121,7 +121,7 @@ return {
 		--Imperial Garos added units
 		"Imperial_AT_ACT_Walker_Company", "GAT_Company", "Imperial_I_Star_Destroyer_Stealth", "JX30_Company", "Hutt_AA_Skiff_Company",
 		--Kashyyyk
-		"Trandoshan_Hunter_Company", "Camo_AT_TE_Walker_Company", "Ipv1_Gunboat_Proteus", "Proteus_A6_Company", "Proteus_Kaloth", "Pirate_Base", "CC7700", "Space_Arc_Cruiser", "Super_Transport_XI_Modified_Pirate",
+		"Trandoshan_Hunter_Company", "Camo_AT_TE_Walker_Company", "Ipv1_Gunboat_Proteus", "Proteus_Kaloth", "Pirate_Base", "CC7700", "Space_Arc_Cruiser", "Super_Transport_XI_Modified_Pirate",
 		--Imperial Neimoidia added units
 		"Munifex", "SP9_Group", "CSA_Destroyer_Droid_Company", "Neimoidian_Guard_Company", "Lucrehulk_Battleship", "Lucrehulk_Auxiliary_Proteus", "Lucrehulk_CSA", "Lucrehulk_Core_Destroyer", "Neimoidia_Lucrehulk_Research_Proteus",
 		--Tamarin Sector added units
