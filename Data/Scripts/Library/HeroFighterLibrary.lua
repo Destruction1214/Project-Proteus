@@ -921,6 +921,14 @@ function Get_Hero_Entries(upgrade_object)
 			NoSpawnFlag = "TAXEVADER_MPTL_DEAD",
 			DeathMessage = "xXTaxEvaderXx's MPTL has been destroyed and must be replaced."
 		},
+		["VICTOR_STRANG_GROUND_NOREBUILD"] = {
+			NoInit = true,
+			GroundReinforcementPerception = "Strang_In_Orbit",
+			GroundCompany = "STRANG_TEAM_PRO",
+			Factions = {"Imperial_Proteus"},
+			NoSpawnFlag = "DEPLOYED_VICTOR_STRANG_DEAD",
+			DeathMessage = "Victor Strang has been wounded and can no longer fight on land."
+		},
 	}
 
 	if upgrade_object ~= nil then
