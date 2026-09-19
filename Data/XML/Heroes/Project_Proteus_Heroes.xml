@@ -2454,6 +2454,168 @@
 	</DummyStructure>
 
 <!-- ============================ Ground ============================= -->
+
+	<HeroUnit Name="Victor_Strang_Pro">
+		<Variant_Of_Existing_Type>Hero_Commando_Template</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_HERO_STRANG</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_06_LAND
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_STRANG 
+		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
+		TEXT_TOOLTIP_ESCORT_STRANG
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_STRANG_HEALTH
+		TEXT_TOOLTIP_STRANG_MOVE
+		TEXT_TOOLTIP_STRANG_WEAP1
+		TEXT_TOOLTIP_STRANG_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_INFANTRY_REFLEC
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADMIRAL </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_strang.tga</Icon_Name>
+		
+		<Land_Model_Name>EI_STRANG.ALO</Land_Model_Name>
+		<Land_Model_Anim_Override_Name>RegularHero.alo</Land_Model_Anim_Override_Name>
+		
+		<Ranking_In_Category>6</Ranking_In_Category>
+		
+		<Tactical_Health>150</Tactical_Health>
+
+		<Max_Speed>1.1</Max_Speed>
+		<OverrideAcceleration> 1.1 </OverrideAcceleration>
+		<OverrideDeceleration> 1.1 </OverrideDeceleration>
+		
+		<Affiliation>Imperial_Proteus</Affiliation>
+
+		<Targeting_Max_Attack_Distance>275.0</Targeting_Max_Attack_Distance>
+
+		<HardPoints>HP_Hero_E11_Carbine_Hand</HardPoints>
+
+		<!-- Grenade throw -->
+		<Projectile_Types>HeroProj_Thrown_Concussion_Grenade</Projectile_Types>
+		<Projectile_Fire_Recharge_Seconds>15.0</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Appearance_Delay_Frames> 8 </Projectile_Appearance_Delay_Frames>
+		<SFXEvent_Fire>Unit_Grenade_Throw</SFXEvent_Fire>
+
+		<Highlight_Blob_Material_Name>Highlight_Empire_Hero</Highlight_Blob_Material_Name>
+
+		<AI_Combat_Power>39</AI_Combat_Power>
+		
+		<Starting_Spawned_Units_Tech_0>Storm_Commando_Squad, 1</Starting_Spawned_Units_Tech_0>
+
+		<SFXEvent_Select>Unit_Select_Storm_Commando</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Storm_Commando</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Storm_Commando</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Storm_Commando</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Storm_Commando</SFXEvent_Guard>
+		<SFXEvent_Assist_Move>Unit_Assist_Move_Storm_Commando</SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack>Unit_Assist_Attack_Storm_Commando</SFXEvent_Assist_Attack>
+		<Death_SFXEvent_Start_Die>Unit_Storm_Commando_Death</Death_SFXEvent_Start_Die>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>POWER_TO_WEAPONS</Type>
+				<Mod_Multiplier>SPEED_MULTIPLIER, 0.25f</Mod_Multiplier>
+				<Recharge_Seconds>50</Recharge_Seconds>
+				<!-- Effects handled on hardpoint end with hero weapons-->
+				<Expiration_Seconds>7</Expiration_Seconds>
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_OVERCHARGE_BLASTER_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_OVERCHARGE_BLASTER_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>i_sa_assault.tga</Alternate_Icon_Name>
+			</Unit_Ability>
+			
+			<Unit_Ability>
+				<Type>UNTARGETED_STICKY_BOMB</Type>
+				<Recharge_Seconds>60</Recharge_Seconds>
+				<Spawned_Object_Type>Proj_Speeder_Bomb_Proton_Hero</Spawned_Object_Type>
+				<Bomb_Countdown_Seconds>2</Bomb_Countdown_Seconds>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Detonate_Storm_Commando</SFXEvent_GUI_Unit_Ability_Activated>
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_UNTARGETED_STICKY_BOMBP_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_UNTARGETED_STICKY_BOMBP_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>I_SA_DROP_BOMB1.tga</Alternate_Icon_Name>
+				<Supports_Autofire>True</Supports_Autofire>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes"> <!-- Command_Tier_06 -->
+			<Combat_Bonus_Ability Name="Command_Tier_06_Combat_Bonus">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Damage_Bonus_Percentage>0.18</Damage_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.18</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.18</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Battlefield_Modifier_Ability Name="Command_Tier_06_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<FOW_Reveal_Range_Multiplier>1.18</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+
+			<!-- 20% infantry locked for reflec coating -->
+			<Redirect_Blaster_Ability Name="Strang_Reflec_Deflect_Blaster">
+				<Activation_Style>Take_Damage</Activation_Style>
+				<!-- Redirection chance is rolled first. If failed, we roll block chance. If failed, we take the damage. -->
+				<Redirect_Chance>0.0</Redirect_Chance>
+				<Block_Chance>0.20</Block_Chance>
+				<Reaction_Arc_In_Degrees>360.0</Reaction_Arc_In_Degrees>
+				<Max_Projectile_Redirection_Angle_In_Degrees> 135.0 </Max_Projectile_Redirection_Angle_In_Degrees>
+				<Turn_To_Face_Unblockable_Shots>No</Turn_To_Face_Unblockable_Shots>
+				<!-- We can block/redirect shots from the following units types: -->
+				<Applicable_Unit_Categories> Infantry | InfantryHero </Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<SFXEvent_Activate>Unit_Lightsaber_Projectile_Block</SFXEvent_Activate>
+			</Redirect_Blaster_Ability>
+		</Abilities>
+	</HeroUnit>
+	<HeroCompany Name="Strang_Team_Pro">
+		<Variant_Of_Existing_Type>Template_Hero_Team</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_HERO_STRANG</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_06_LAND
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_STRANG
+		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
+		TEXT_TOOLTIP_ESCORT_STRANG
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_STRANG_HEALTH
+		TEXT_TOOLTIP_STRANG_MOVE
+		TEXT_TOOLTIP_STRANG_WEAP1
+		TEXT_TOOLTIP_STRANG_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_INFANTRY_REFLEC
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADMIRAL </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_strang.tga</Icon_Name>
+		
+		<Company_Transport_Unit>Shuttle_Tyderium_Strang</Company_Transport_Unit>
+		<Company_Units>Victor_Strang_Pro</Company_Units>
+		
+		<Affiliation>Imperial_Proteus</Affiliation>
+
+		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete></SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Storm_Commando</SFXEvent_Fleet_Move>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->  
+		<Tactical_Build_Cost_Multiplayer>4155</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>7</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Ground_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
+	</HeroCompany>
 	
 	<HeroUnit Name="Argor">
 		<Variant_Of_Existing_Type>Hero_Commando_Template</Variant_Of_Existing_Type>
