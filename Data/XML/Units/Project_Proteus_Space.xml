@@ -7000,7 +7000,7 @@
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 	</SpaceUnit>
 
-		<SpaceUnit Name="Assault_Sphere">
+	<SpaceUnit Name="Assault_Sphere">
 		<Variant_Of_Existing_Type>Torpedo_Sphere</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_ASSAULT_SPHERE</Text_ID>
 		
@@ -7125,6 +7125,229 @@
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<Build_Limit_Lifetime_Per_Player>2</Build_Limit_Lifetime_Per_Player>
 
+	</SpaceUnit>
+
+	<SpaceUnit Name="KDY_Demonstration_Dreadnought">
+		<Text_ID>TEXT_UNIT_KDY_DEMO_SHIP</Text_ID>
+		<Encyclopedia_Unit_Class>Ship Crews Cost: 5,400</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_KDY_DEMO_SHIP
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
+		TEXT_TOOLTIP_LEGATOR_HULL
+		TEXT_TOOLTIP_LEGATOR_SHIELD 
+		TEXT_TOOLTIP_LEGATOR_MOVE 
+		TEXT_TOOLTIP_KDY_DEMO_SHIP_SQUADRON
+		TEXT_TOOLTIP_KDY_DEMO_SHIP_WEAP1
+		TEXT_TOOLTIP_KDY_DEMO_SHIP_WEAP2
+		TEXT_TOOLTIP_KDY_DEMO_SHIP_WEAP3
+		TEXT_TOOLTIP_KDY_DEMO_SHIP_WEAP4
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
+		TEXT_TOOLTIP_SEPARATOR_LIMITS_BLOCK
+		TEXT_TOOLTIP_BUILDLIMIT_LEGATOR
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_KDY_DEMO_SHIP.tga</Icon_Name>
+
+		<Space_Model_Name>FS_Legator.ALO</Space_Model_Name>
+		<No_Colorization_Color/>
+		<Scale_Factor>0.5</Scale_Factor>
+		<Select_Box_Scale>190</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
+		<Size_Value>8</Size_Value>
+
+		<Custom_Hard_XExtent> 1.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 1.0 </Custom_Hard_YExtent>
+		<Galactic_Fleet_Override_Model_Name>Fleet_SSD_Generic.alo</Galactic_Fleet_Override_Model_Name>
+		<Galactic_Fleet_Override_Icon_Index> 10 </Galactic_Fleet_Override_Icon_Index>
+
+		<Mass>0.999</Mass>
+		<Max_Speed>1.4</Max_Speed>
+		<Max_Thrust>0.1</Max_Thrust>
+		<OverrideAcceleration>0.1</OverrideAcceleration>
+		<OverrideDeceleration>0.2</OverrideDeceleration>
+		<Max_Rate_Of_Turn>0.1</Max_Rate_Of_Turn>
+		<Stopped_Rate_Of_Turn>0.2</Stopped_Rate_Of_Turn>
+		<Min_Speed_Fraction_For_Turn>0.0</Min_Speed_Fraction_For_Turn>
+		<Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>5</Bank_Turn_Angle>
+		<Hyperspace>Yes</Hyperspace>
+		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+
+		<Shield_Armor_Type>ShieldS_SuperCapital</Shield_Armor_Type>
+		<Shield_Points>43000</Shield_Points>
+		<Shield_Refresh_Rate>107.5</Shield_Refresh_Rate>
+		<Armor_Type> ArmourS_SuperCapital </Armor_Type>
+		<Tactical_Health>57600</Tactical_Health>
+
+		<Energy_Capacity>8000</Energy_Capacity>
+		<Energy_Refresh_Rate>800</Energy_Refresh_Rate>
+
+		<AI_Combat_Power>15467</AI_Combat_Power>
+		<Damage>70</Damage>
+
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Political_Control/>
+		<Override_Bounty_SP>500</Override_Bounty_SP>
+		<Maintenance_Cost>240</Maintenance_Cost>
+
+		<Ship_Class>capital</Ship_Class>
+		<CategoryMask> SuperCapital | AntiCapital </CategoryMask>
+		<Ranking_In_Category/>
+		<Property_Flags>  </Property_Flags>
+		<Formation_Priority>1</Formation_Priority>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Is_Escort>no</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+		<Surface_Bombardment_Capable>yes</Surface_Bombardment_Capable>
+		<Squadron_Capacity>40</Squadron_Capacity>
+
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Planets/>
+
+		<GUI_Row> 0 </GUI_Row>
+		<Build_Cost_Credits>32000</Build_Cost_Credits>
+		<Build_Time_Seconds>400</Build_Time_Seconds>
+		<Slice_Cost_Credits/>
+		<Required_Special_Structures>
+		Imperial_Proteus_Shipyard_Level_Four, 
+		AI_Category_Dummy | Dreadnought_Category_Dummy
+		</Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories>yes</Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Tactical_Build_Cost_Multiplayer></Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds></Tactical_Build_Time_Seconds>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Bribe_Cost>1</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>1</Piracy_Value_Credits>
+		<Score_Cost_Credits> 45000</Score_Cost_Credits>
+		<Population_Value>162</Population_Value>
+		<Space_Override_Population_Value/>
+
+		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
+
+		<HardPoints>
+			HP_Legator_Hangar_01, HP_Legator_Hangar_02,
+			HP_Legator_Engines_01, HP_Legator_Engines_02, HP_Legator_Engines_03, HP_Legator_Engines_04,
+			HP_KDY_DD_HQIC_01, HP_KDY_DD_HQIC_02, HP_KDY_DD_HQIC_03, HP_KDY_DD_HQIC_04, HP_KDY_DD_HQIC_05, HP_KDY_DD_HQIC_06, HP_KDY_DD_HQIC_07, HP_KDY_DD_HQIC_08, HP_KDY_DD_HQIC_09, HP_KDY_DD_HQIC_10,
+			HP_KDY_DD_LTIC_01, HP_KDY_DD_LTIC_02, HP_KDY_DD_LTIC_03, HP_KDY_DD_LTIC_04, HP_KDY_DD_LTIC_05, HP_KDY_DD_LTIC_06, HP_KDY_DD_LTIC_07, HP_KDY_DD_LTIC_08, HP_KDY_DD_LTIC_09, HP_KDY_DD_LTIC_10,
+			HP_KDY_DD_LTIC_11, HP_KDY_DD_LTIC_12,
+			HP_KDY_DD_UHTL_01, HP_KDY_DD_UHTL_02, HP_KDY_DD_UHTL_03, HP_KDY_DD_UHTL_04, HP_KDY_DD_UHTL_05, HP_KDY_DD_UHTL_06, HP_KDY_DD_UHTL_07, HP_KDY_DD_UHTL_08,
+			HP_KDY_DD_UHTL_09, HP_KDY_DD_UHTL_10, HP_KDY_DD_UHTL_11, HP_KDY_DD_UHTL_12, HP_KDY_DD_UHTL_13, HP_KDY_DD_UHTL_14, HP_KDY_DD_UHTL_15, HP_KDY_DD_UHTL_16,
+			HP_KDY_DD_HDTL_01, HP_KDY_DD_HDTL_02, HP_KDY_DD_HDTL_03, HP_KDY_DD_HDTL_04, HP_KDY_DD_HDTL_05, HP_KDY_DD_HDTL_06, HP_KDY_DD_HDTL_07, HP_KDY_DD_HDTL_08, HP_KDY_DD_HDTL_09, HP_KDY_DD_HDTL_10,
+			HP_KDY_DD_HDTL_11, HP_KDY_DD_HDTL_12, HP_KDY_DD_HDTL_13, HP_KDY_DD_HDTL_14, HP_KDY_DD_HDTL_15, HP_KDY_DD_HDTL_16, HP_KDY_DD_HDTL_17, HP_KDY_DD_HDTL_18, HP_KDY_DD_HDTL_19, HP_KDY_DD_HDTL_20,
+			HP_KDY_DD_HDTL_21, HP_KDY_DD_HDTL_22, HP_KDY_DD_HDTL_23, HP_KDY_DD_HDTL_24, HP_KDY_DD_HDTL_25, HP_KDY_DD_HDTL_26, HP_KDY_DD_HDTL_27, HP_KDY_DD_HDTL_28, HP_KDY_DD_HDTL_29, HP_KDY_DD_HDTL_30,
+			HP_KDY_DD_HDTL_31, HP_KDY_DD_HDTL_32, HP_KDY_DD_HDTL_33, HP_KDY_DD_HDTL_34, HP_KDY_DD_HDTL_35, HP_KDY_DD_HDTL_36, HP_KDY_DD_HDTL_37, HP_KDY_DD_HDTL_38, HP_KDY_DD_HDTL_39, HP_KDY_DD_HDTL_40,
+			HP_KDY_DD_HDTL_41, HP_KDY_DD_HDTL_42, HP_KDY_DD_HDTL_43, HP_KDY_DD_HDTL_44, HP_KDY_DD_HDTL_45, HP_KDY_DD_HDTL_46, HP_KDY_DD_HDTL_47, HP_KDY_DD_HDTL_48, HP_KDY_DD_HDTL_49, HP_KDY_DD_HDTL_50,
+			HP_KDY_DD_HDTL_51, HP_KDY_DD_HDTL_52, HP_KDY_DD_HDTL_53, HP_KDY_DD_HDTL_54, HP_KDY_DD_HDTL_55, HP_KDY_DD_HDTL_56, HP_KDY_DD_HDTL_57, HP_KDY_DD_HDTL_58, HP_KDY_DD_HDTL_59, HP_KDY_DD_HDTL_60,
+			HP_KDY_DD_HDTL_61, HP_KDY_DD_HDTL_62, HP_KDY_DD_HDTL_63, HP_KDY_DD_HDTL_64, HP_KDY_DD_HDTL_65, HP_KDY_DD_HDTL_66, HP_KDY_DD_HDTL_67, HP_KDY_DD_HDTL_68, HP_KDY_DD_HDTL_69, HP_KDY_DD_HDTL_70,
+			HP_KDY_DD_HDTL_71, HP_KDY_DD_HDTL_72, HP_KDY_DD_HDTL_73, HP_KDY_DD_HDTL_74, HP_KDY_DD_HDTL_75, HP_KDY_DD_HDTL_76, HP_KDY_DD_HDTL_77, HP_KDY_DD_HDTL_78, HP_KDY_DD_HDTL_79, HP_KDY_DD_HDTL_80,
+			HP_KDY_DD_HDTL_81, HP_KDY_DD_HDTL_82, HP_KDY_DD_HDTL_83, HP_KDY_DD_HDTL_84, HP_KDY_DD_HDTL_85, HP_KDY_DD_HDTL_86, HP_KDY_DD_HDTL_87, HP_KDY_DD_HDTL_88, HP_KDY_DD_HDTL_89, HP_KDY_DD_HDTL_90,
+			HP_KDY_DD_HDTL_91, HP_KDY_DD_HDTL_92, HP_KDY_DD_HDTL_93, HP_KDY_DD_HDTL_94, HP_KDY_DD_HDTL_95, HP_KDY_DD_HDTL_96, HP_KDY_DD_HDTL_97, HP_KDY_DD_HDTL_98, HP_KDY_DD_HDTL_99, HP_KDY_DD_HDTL_100,
+		</HardPoints>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+
+		<Target_Bones>Target_00</Target_Bones>
+		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Ground_Vehicle_Turret_Target>yes</Ground_Vehicle_Turret_Target>
+		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
+		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+		<Starting_Spawned_Units_Tech_0>V38_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>TIE_Defender_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>TIE_Heavy_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_0>
+
+		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
+
+		<Reserve_Spawned_Units_Tech_0>V38_Squadron, 3</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>TIE_Defender_Squadron, 3</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>TIE_Heavy_Bomber_Squadron, 2</Reserve_Spawned_Units_Tech_0>
+
+		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Star_Destroyer</SFXEvent_Build_Complete>
+		<SFXEvent_Bombard_Select_Target>EHD_Bombard_Select_Target</SFXEvent_Bombard_Select_Target>
+		<SFXEvent_Bombard_Incoming>EHD_Bombard_Incoming</SFXEvent_Bombard_Incoming>
+
+		<SFXEvent_Select>Unit_Select_Star_Destroyer</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Star_Destroyer</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Star_Destroyer</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Star_Destroyer</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Star_Destroyer</SFXEvent_Guard>
+		<SFXEvent_Move_Into_Nebula> Unit_Nebula_Star_Destroyer </SFXEvent_Move_Into_Nebula>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_Star_Destroyer </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Health_Low_Warning/>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_Laser_Star_Destroyer </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_Missile_Star_Destroyer </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_Torp_Star_Destroyer </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_Ion_Star_Destroyer </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_Shields_Star_Destroyer </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_Engines_Star_Destroyer </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_HP_Grav_Star_Destroyer </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_FIGHTER_BAY, Unit_HP_Bay_Star_Destroyer </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_TRACTOR_BEAM, Unit_Attack_Star_Destroyer </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MASS_DRIVER, Unit_Attack_Star_Destroyer </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_SPECIAL, Unit_Attack_Star_Destroyer </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_Attack_Star_Destroyer </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_DUMMY_ART, Unit_Attack_Star_Destroyer </SFXEvent_Attack_Hardpoint>
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Star_Destroyer </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, Unit_Lost_Ion_Star_Destroyer </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Star_Destroyer </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, Unit_Lost_Engines_Star_Destroyer </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, Unit_Lost_Bay_Star_Destroyer </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MASS_DRIVER, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_SPECIAL, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_DUMMY_ART, null </SFXEvent_Hardpoint_Destroyed>
+
+		<SFXEvent_Engine_Idle_Loop> Unit_Star_Destroyer_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_Star_Destroyer_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Star_Destroyer_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+		<SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
+		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>i_radar_mandator.tga</Radar_Icon_Name>
+		<Radar_Icon_Size>0.3  0.3</Radar_Icon_Size>
+
+		<Space_FOW_Reveal_Range>40000.0</Space_FOW_Reveal_Range>
+		<Dense_FOW_Reveal_Range_Multiplier>1.00</Dense_FOW_Reveal_Range_Multiplier>
+
+		<Minimum_Follow_Distance>1000.0</Minimum_Follow_Distance>
+		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+		<Idle_Chase_Range>0.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>1000.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Targeting_Max_Attack_Distance>3800.0</Targeting_Max_Attack_Distance>
+		<Targeting_Priority_Set>AntiCapital</Targeting_Priority_Set>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+
+		<MovementClass> Space </MovementClass>
+		<Space_Layer> SuperCapital </Space_Layer>
+		<Layer_Z_Adjust>-400.0</Layer_Z_Adjust>
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+
+		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
+		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
+		<Death_Clone>Damage_Normal, Large_Explosion_Space</Death_Clone>
+		
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>4</Build_Limit_Lifetime_Per_Player>
 	</SpaceUnit>
 
 </Project_Proteus_Space>
