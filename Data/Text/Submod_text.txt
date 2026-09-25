@@ -1079,6 +1079,12 @@ TEXT_TOOLTIP_JUGGERNAUT_A4_COMPANY,Company: 1x A4 Juggernaut
 TEXT_TOOLTIP_KALE,An Imperial officer stationed on Kuat, Anton Kale firmly believed the Empire was the galaxy's best hope for lasting order. Fascinated by starship engineering and naval design, he personally lobbied for assignment to Kuat so he could oversee the construction and testing of the Empire's most advanced warships. Following Endor, Kale remained committed to defending Imperial rule from the Kuat Sector.
 TEXT_TOOLTIP_KANTOS,General Kantos was a senior Imperial Army officer and close subordinate of High Admiral Tharkus. Though initially reluctant to defy the Imperial Senate, Kantos became an enthusiastic supporter of Tharkus's pursuit of the Heart of the Jedi, encouraging the High Admiral to seize its power for himself and ultimately helping foster his ambitions to become the new Emperor.
 TEXT_TOOLTIP_KASTOR,Kastor was one half of the Dioskouroi, a pair of elite shapeshifting operatives serving High Admiral Tharkus. Alongside Pollux, Kastor used his ability to assume other identities to infiltrate Tharkus's enemies and manipulate events from within, making the pair invaluable agents in the High Admiral's schemes.
+TEXT_TOOLTIP_KDY_DEMO_SHIP,It's a Demonstration Dreadnought, It demonstrates a Dreadnought.
+TEXT_TOOLTIP_KDY_DEMO_SHIP_SQUADRON,Fighters: 2 / 6 | Bombers: 1 / 2
+TEXT_TOOLTIP_KDY_DEMO_SHIP_WEAP1,16x Ultraheavy Turbolaser 2 / 5.0s / 9.6km
+TEXT_TOOLTIP_KDY_DEMO_SHIP_WEAP2,100x Heavy Dual Turbolaser 2 / 5.0s / 8.6km
+TEXT_TOOLTIP_KDY_DEMO_SHIP_WEAP3,10x Heavy Quad Ion Cannon 2 / 5.0s / 8.6km
+TEXT_TOOLTIP_KDY_DEMO_SHIP_WEAP4,12x Light Triple Ion Cannon 2 / 5.0s / 6.6km
 TEXT_TOOLTIP_KIEZ_UPGRADE,Upgrade: Executor
 TEXT_TOOLTIP_KIHRAXZ,--TODO COYOTE--
 TEXT_TOOLTIP_KILE_HANNAD,Kile Hannad was a Imperial Royal Guardsmen who served under the Empire. Like other Royal Guards, Kile was trained at the Imperial Royal Guard Academy on Yinchorr where he partook in extensive training in the deadly arts. Trained in the use of many common and exotic weapons and martial arts, Kile found he preferred to use his concealed heavy blaster pistol in a pinch. During Kile's service, he found himself working alongside the likes of Kir Kanos.
@@ -1616,6 +1622,7 @@ TEXT_UNIT_HAET,HAET-221
 TEXT_UNIT_HAG,HAG-M
 TEXT_UNIT_HORNET,Hornet Carrier
 TEXT_UNIT_IXIYEN_FIGHTER,Ixiyen Fighter
+TEXT_UNIT_KDY_DEMO_SHIP,KDY Demonstration Dreadnought
 TEXT_UNIT_KIHRAXZ,Kihraxz Fighter
 TEXT_UNIT_KLUCREHULK_RESEARCH,Remilitarize Lucrehulks
 TEXT_UNIT_KPREYBIRD_PRODUCTION,Begin Illegal Preybird Production
