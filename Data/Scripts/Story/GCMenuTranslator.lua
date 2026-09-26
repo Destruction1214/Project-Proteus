@@ -78,6 +78,7 @@ return {
 	["THORN"] ="faction_75",
 	["THARKUS"] ="faction_76",
 	["X1"] ="faction_77",
+	["FEL"] ="faction_78",
 	["SECRET"] ="faction_94",
 	
 
@@ -162,7 +163,8 @@ return {
 		"THORN",
 		"THARKUS",
 		"VEERS",
-		"X1",		
+		"X1",
+		"FEL",
 		"SECRET",
 	},
 
