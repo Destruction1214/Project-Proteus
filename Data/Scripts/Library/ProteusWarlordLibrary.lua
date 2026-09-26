@@ -1513,7 +1513,7 @@ return {
 			Planets = {"MUSTAFAR", "VJUN"},
 			LeaderTable = {["X1_TEAM"] = {"X1"}},
 			LeaderEndingNames = {"High Emperor X1"},
-			HeroList = {"X1_Team", "Meng_La_Team", "Rebus_Team", "Hal_Razor_Team", "GK121_Team"},
+			HeroList = {"X1_Team", "Meng_La_Team", "Hal_Razor_Team", "GK121_Team"},
 			UnlockList = {
 				-- Space
 			"Gamma_ATR_6_Group", "IPV1", "Lancer_Frigate", "Adz_Patrol_Destroyer", "Carrack_Cruiser", "Ton_Falk_Escort_Carrier", "Star_Galleon", "Victory_I_Frigate", 
@@ -1521,7 +1521,7 @@ return {
 			"Interdictor_Star_Destroyer", "Imperial_I_Star_Destroyer_Carrier", "Imperial_II_Star_Destroyer",
 			"Allegiance_Battlecruiser", "Executor_Star_Dreadnought",
 				-- Ground
-			"Imperial_Army_Trooper_Company", "X1_B2_Droid_Company", "Imperial_Army_74Z_Bike_Company",
+			"Imperial_Army_Trooper_Company", "B2_Droid_Company", "Imperial_Army_74Z_Bike_Company",
 			"Imperial_AT_PT_Company", "Chariot_LAV_Company", "AT_ST_Company",
 			"AT_AA_Walker_Company", "Imperial_TX130T_Company", "SPMAG_Walker_Company", "Deathhawk_Company", "Imperial_Dropship_Transport_Company",
 			"Imperial_A5_Juggernaut_Company", "Imperial_AT_AT_Walker_Company", "Imperial_AT_TE_Walker_Company",
