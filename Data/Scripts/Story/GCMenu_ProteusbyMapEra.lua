@@ -1295,7 +1295,7 @@ return {
 			 ,["11.5ABY"] = true
 			 ,["12ABY"] = true
 		},
-
+	},
 	["EMPIRE_REBORN"] = {
 		
 		["FullSmall"] = {
