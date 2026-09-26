@@ -3246,7 +3246,7 @@
 
 		<Icon_Name>i_button_b2.tga</Icon_Name>
 		<AI_Combat_Power>153.31</AI_Combat_Power>
-		<Affiliation>Mandalorians, Independent_Forces</Affiliation>
+		<Affiliation>Mandalorians, Independent_Forces, Imperial_Proteus,</Affiliation>
 	</GroundInfantry>
 
 	<GroundCompany Name="B2_Droid_Company">
@@ -3281,7 +3281,7 @@
 		<Build_Cost_Credits>300</Build_Cost_Credits>
 		<Build_Time_Seconds>10</Build_Time_Seconds>
 		<Slice_Cost_Credits/>
-		<Required_Special_Structures/>
+		<Required_Special_Structures>I_Ground_Barracks</Required_Special_Structures>
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
@@ -3292,7 +3292,7 @@
 		<Tech_Level>99</Tech_Level>
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 
-		<Affiliation>Mandalorians, Independent_Forces</Affiliation>
+		<Affiliation>Mandalorians, Independent_Forces, Imperial_Proteus</Affiliation>
 		<Political_Control/>
 
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>

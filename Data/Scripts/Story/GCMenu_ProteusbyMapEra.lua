@@ -1332,6 +1332,17 @@ return {
 		}
 
 	},
-
+		["X1"] = {
+		["KnownLarge"] = {
+			["4ABY"] = true
+			,["6ABY"] = true
+			,["9ABY"] = true
+		}
+	},
+	
+	["FEL"] = {
+		["KnownLarge"] = {
+			["4ABY"] = true
+		}
 	},
 }

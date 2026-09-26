@@ -736,7 +736,7 @@
 		</Abilities>
 	</SpecialStructure>
 	
-	<SpecialStructure Name="Cloning_HQ">
+		<SpecialStructure Name="Cloning_HQ">
 		<Variant_Of_Existing_Type>Template_Galactic_Company</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_COMPANY_CLONING_FACILITY</Text_ID>
 
@@ -751,8 +751,8 @@
 
 		<Required_Planets>
 		<!-- Cloning Start -->
-		Arkania,Byss,Cartao,Columus,Kamino,Khomm,Lur,Rennek,Roche,Saleucami,Wayland,Xuaquarres
-		<!-- Cloning End -->
+		Arkania,Byss,Cartao,Columus,Kamino,Khomm,Lur,Mustafar,Rennek,Roche,Saleucami,Wayland,Xuaquarres
+<!-- Cloning End -->
 		</Required_Planets>
 
 
@@ -777,12 +777,14 @@
 		TEXT_OBJECT_STAR_SYSTEM_KAMINO
 		TEXT_OBJECT_STAR_SYSTEM_KHOMM
 		TEXT_OBJECT_STAR_SYSTEM_LUR
+		TEXT_OBJECT_STAR_SYSTEM_MUSTAFAR
 		TEXT_OBJECT_STAR_SYSTEM_RENNEK
 		TEXT_OBJECT_STAR_SYSTEM_ROCHE
 		TEXT_OBJECT_STAR_SYSTEM_SALEUCAMI
 		TEXT_OBJECT_STAR_SYSTEM_WAYLAND
 		TEXT_OBJECT_STAR_SYSTEM_XUAQUARRES
 		</Encyclopedia_Text>
+
 
 		<Abilities SubObjectList="Yes">
 			<Reduce_Production_Price_Ability Name="Cloning_Reduce_Production_Price">

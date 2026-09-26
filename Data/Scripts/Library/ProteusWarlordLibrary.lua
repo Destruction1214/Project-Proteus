@@ -1137,9 +1137,9 @@ return {
 			UnlockList = {
 				-- Space 
 				"Beta_ETR_3_Group", "IPV1", "Lancer_Frigate", "Marauder_Missile_Cruiser", "Class_C_Frigate", "CC7700_E", 
-				"Imperial_DHC", "Gladiator_II", "Proficient_Tender", "Broadside_Cruiser", "Captor", "Procursator_Star_Destroyer",
+				"Proteus_Missile_DHC", "Gladiator_II", "Proficient_Tender", "Broadside_Cruiser", "Captor", "Procursator_Star_Destroyer",
 				"Imperial_I_Star_Destroyer_Assault", "Triumph_Star_Destroyer", "Invincible_Cruiser", "Maelstrom_Battlecruiser",  
-				"Bulwark_III", "Mandator_II_Dreadnought",
+				"Bulwark_III", "Mandator_II_Dreadnought", "KDY_Demonstration_Dreadnought", 
 				-- Ground
 				"PDF_Tactical_Unit_Company", "Imperial_Dwarf_Spider_Droid_Company", "Overracer_Speeder_Bike_Company",
 				"AT_ST_Company", "AAC_1_Company", "SD_6_Droid_Company_Generic", "SD_9_Droid_Company_Generic", "SD_10_Droid_Company_Generic",
@@ -1510,19 +1510,44 @@ return {
 		},
 		["X1"] = {
 			FriendlyName = "X1's Empire",
-			Planets = {"MUSTAFAR"},
+			Planets = {"MUSTAFAR", "VJUN"},
 			LeaderTable = {["X1_TEAM"] = {"X1"}},
 			LeaderEndingNames = {"High Emperor X1"},
-			HeroList = {"X1_Team", "Rebus_Team", "Hal_Razor_Team", "GK121_Team"},
+			HeroList = {"X1_Team", "Meng_La_Team", "Hal_Razor_Team", "GK121_Team"},
 			UnlockList = {
 				-- Space
-
+			"Gamma_ATR_6_Group", "IPV1", "Lancer_Frigate", "Adz_Patrol_Destroyer", "Carrack_Cruiser", "Ton_Falk_Escort_Carrier", "Star_Galleon", "Victory_I_Frigate", 
+			"Imperial_DHC", "Vindicator_Cruiser", "Acclamator_II", "Immobilizer_418", "Victory_I_Star_Destroyer", "Victory_II_Star_Destroyer", "Providence_Carrier_Destroyer", 
+			"Interdictor_Star_Destroyer", "Imperial_I_Star_Destroyer_Carrier", "Imperial_II_Star_Destroyer",
+			"Allegiance_Battlecruiser", "Executor_Star_Dreadnought",
 				-- Ground
-
+			"Imperial_Army_Trooper_Company", "B2_Droid_Company", "Imperial_Army_74Z_Bike_Company",
+			"Imperial_AT_PT_Company", "Chariot_LAV_Company", "AT_ST_Company",
+			"AT_AA_Walker_Company", "Imperial_TX130T_Company", "SPMAG_Walker_Company", "Deathhawk_Company", "Imperial_Dropship_Transport_Company",
+			"Imperial_A5_Juggernaut_Company", "Imperial_AT_AT_Walker_Company", "Imperial_AT_TE_Walker_Company",
 			},
-			IntroText = "",
-			IntroHolo = "",
+			FactionOverride = "Empire",
+			FactionOverride2 = "Zsinj_Empire",
+			--StartYear = 11, (implement later once the map situation is clear)
+			IntroText = "TEXT_CONQUEST_PROTEUS_X1_FACTION",
+			IntroHolo = "X1_Loop",
+		
 		},
+		["FEL"] = {
+			FriendlyName = "Brentaal Houses",
+			Planets = {"BRENTAAL"},
+			LeaderTable = {"FEL_EVISCERATOR"},
+			LeaderEndingNames = {"Emperor Fel"},
+			HeroList = {"FEL_EVISCERATOR"},
+			FighterHero = {{"PHENNIR_BETA_SQUADRON","FEL_EVISCERATOR"}},
+			UnlockList = {"CR92A", "PHENNIR_BETA_SQUADRON_LOCATION_SET"},
+			--LockList = {"IPV1"},
+			FactionOverride = "Empire",
+			LastYear = 4,
+			IntroText = "TEXT_CONQUEST_PROTEUS_BRENTAAL",
+			IntroHolo = "Soontir_Fel_Loop",
+		},
+	
 		-- Secret Dev Faction
 		--["SECRET"] = {
 		--	FriendlyName = "The Coruscant Proteus you were asking for",

@@ -46,6 +46,8 @@ return {
 	["TAXEVADER_DREAM_OF_A_QUIET_LIFE_DUMMY"] = {"TaxEvader_SynTax_Error", "TaxEvader_Dream_of_a_Quiet_Life"},
 	["MICHAEL_TERROR_DUMMY"] = {"Michael", "Michael_Terror"},
 	["STRANG_IEC_DUMMY"] = {"Victor_Strang", "Strang_IEC"},
+	["X1_SABER_DUMMY"] = {"X1","X1_Executor"},
+
 
 	-- CSA Corporate Hire
 	["DUMMY_RECRUIT_GROUP_SIIN_SUUB_CSA"] = {nil,{"Siin_Suub_Proclamation"}},

@@ -913,6 +913,25 @@ function Get_Hero_Entries(upgrade_object)
 				{"SLAGORTH", Locations = {"SLAGORTH_ARC"}},
 			}
 		},
+		["PHENNIR_BETA_SQUADRON_LOCATION_SET"] = {
+			Hero_Squadron = "PHENNIR_BETA_SQUADRON",
+			PopupBody = "PHENNIR_BETA_SQUADRON_SELECTOR_BODY",
+			Options = {
+				{"FEL", Locations = {"FEL_EVISCERATOR"}},
+				--Isard + CCOGM regime
+				{"ROGRISS", Locations = {"ROGRISS_AGONIZER","ROGRISS_AURORA","ROGRISS_DOMINION"}},
+				--Thrawn regime
+				{"BRANDEI", Locations = {"BRANDEI_JUDICATOR"}},
+				{"DORJA", Locations = {"DORJA_RELENTLESS"}},
+				--Palpatine, Jax, Daala, & Pellaeon regime assignments shared w/ Fel
+				{"PELLAEON", Locations = {"PELLAEON_CHIMAERA_CAPTAIN","PELLAEON_CHIMAERA_GRAND","PELLAEON_REAPER","PELLAEON_MEGADOR"}},
+				{"KLEV", Locations = {"KLEV_SILENCER_7_FRIGATE","KLEV_SILENCER_7_DESTROYER","KLEV_SILENCER_7_BATTLECRUISER"}},
+				{"WESSEL", Locations = {"WESSEL_EMPERORS_REVENGE"}},
+				{"ARDAX", Locations = {"ARDAX_VENDETTA"}},
+				{"EXECUTOR", Locations = {"EXECUTOR_STAR_DREADNOUGHT"}}
+			}
+		},
+		
 		["REBUILD_TAX"] = {
 			NoInit = true,
 			GroundReinforcementPerception = "Tax_In_Orbit",

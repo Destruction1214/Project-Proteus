@@ -308,6 +308,7 @@ return {
 ["EXECUTOR_STAR_DREADNOUGHT"] = true,
 ["EX_F"] = true,
 ["FAARL_DP20"] = true,
+["FEL_EVISCERATOR"] = true,
 ["FEROB_IRON_FIST"] = true,
 ["FLARE_CORVETTE"] = true,
 ["FLIM_TIERCE_IRONHAND"] = true,
