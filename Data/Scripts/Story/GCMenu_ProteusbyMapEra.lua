@@ -1341,7 +1341,16 @@ return {
 	},
 	
 	["FEL"] = {
-		["KnownLarge"] = {
+		["Empires_At_War"] = {
+			["4ABY"] = true
+		}
+		,["FullLarge"] = {
+			["4ABY"] = true
+		}
+		,["KnownLarge"] = {
+			["4ABY"] = true
+		}
+		,["KnownMedium"] = {
 			["4ABY"] = true
 		}
 	},

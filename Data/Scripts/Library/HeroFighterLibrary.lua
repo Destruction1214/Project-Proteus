@@ -931,7 +931,6 @@ function Get_Hero_Entries(upgrade_object)
 				{"EXECUTOR", Locations = {"EXECUTOR_STAR_DREADNOUGHT"}}
 			}
 		},
-		
 		["REBUILD_TAX"] = {
 			NoInit = true,
 			GroundReinforcementPerception = "Tax_In_Orbit",
@@ -943,7 +942,7 @@ function Get_Hero_Entries(upgrade_object)
 		["VICTOR_STRANG_GROUND_NOREBUILD"] = {
 			NoInit = true,
 			GroundReinforcementPerception = "Strang_In_Orbit",
-			GroundCompany = "STRANG_TEAM_PRO",
+			GroundCompany = "STRANG_TEAM_DEPLOYED",
 			Factions = {"Imperial_Proteus"},
 			NoSpawnFlag = "DEPLOYED_VICTOR_STRANG_DEAD",
 			DeathMessage = "Victor Strang has been wounded and can no longer fight on land."

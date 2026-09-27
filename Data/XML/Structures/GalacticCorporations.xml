@@ -736,7 +736,7 @@
 		</Abilities>
 	</SpecialStructure>
 	
-		<SpecialStructure Name="Cloning_HQ">
+	<SpecialStructure Name="Cloning_HQ">
 		<Variant_Of_Existing_Type>Template_Galactic_Company</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_COMPANY_CLONING_FACILITY</Text_ID>
 
@@ -752,9 +752,8 @@
 		<Required_Planets>
 		<!-- Cloning Start -->
 		Arkania,Byss,Cartao,Columus,Kamino,Khomm,Lur,Mustafar,Rennek,Roche,Saleucami,Wayland,Xuaquarres
-<!-- Cloning End -->
+		<!-- Cloning End -->
 		</Required_Planets>
-
 
 		<Icon_Name>i_button_cloning_facility.TGA</Icon_Name>
 
@@ -784,7 +783,6 @@
 		TEXT_OBJECT_STAR_SYSTEM_WAYLAND
 		TEXT_OBJECT_STAR_SYSTEM_XUAQUARRES
 		</Encyclopedia_Text>
-
 
 		<Abilities SubObjectList="Yes">
 			<Reduce_Production_Price_Ability Name="Cloning_Reduce_Production_Price">

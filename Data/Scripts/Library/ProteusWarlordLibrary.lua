@@ -325,8 +325,6 @@ return {
 				"Interceptor_III_Frigate_Pirate", "Space_ARC_Cruiser", "Munificent_C3", "Refit_Venator_Star_Destroyer", 
 				-- Structures
 				"Pirate_Base",
-				-- Research
-				
 				-- Fighter Heroes
 				"Ssurussk_Location_Set", "Stormtrooper_X_Location_Set", "Scarlet_Location_Set",
 			},
@@ -1252,6 +1250,20 @@ return {
 			IntroText = "TEXT_CONQUEST_PROTEUS_REBORN",
 			IntroHolo = "Galak_Fyyar_Loop"
 		},
+		["FEL"] = {
+			FriendlyName = "Brentaal Houses",
+			Planets = {"BRENTAAL"},
+			LeaderTable = {"FEL_EVISCERATOR"},
+			LeaderEndingNames = {"Emperor Fel"},
+			HeroList = {"FEL_EVISCERATOR"},
+			FighterHero = {{"PHENNIR_BETA_SQUADRON","FEL_EVISCERATOR"}},
+			UnlockList = {"CR92A", "Phennir_Beta_Squadron_Location_Set"},
+			--LockList = {"IPV1"},
+			FactionOverride = "Empire",
+			LastYear = 4,
+			IntroText = "TEXT_CONQUEST_PROTEUS_BRENTAAL",
+			IntroHolo = "",
+		},
 		["GRUNGER"] = {
 			FriendlyName = "Grunger's Empire",
 			Planets = {"GARGON", "ORDO"},
@@ -1516,36 +1528,22 @@ return {
 			HeroList = {"X1_Team", "Meng_La_Team", "Hal_Razor_Team", "GK121_Team"},
 			UnlockList = {
 				-- Space
-			"Gamma_ATR_6_Group", "IPV1", "Lancer_Frigate", "Adz_Patrol_Destroyer", "Carrack_Cruiser", "Ton_Falk_Escort_Carrier", "Star_Galleon", "Victory_I_Frigate", 
-			"Imperial_DHC", "Vindicator_Cruiser", "Acclamator_II", "Immobilizer_418", "Victory_I_Star_Destroyer", "Victory_II_Star_Destroyer", "Providence_Carrier_Destroyer", 
-			"Interdictor_Star_Destroyer", "Imperial_I_Star_Destroyer_Carrier", "Imperial_II_Star_Destroyer",
-			"Allegiance_Battlecruiser", "Executor_Star_Dreadnought",
+				"Gamma_ATR_6_Group", "IPV1", "Lancer_Frigate", "Adz_Patrol_Destroyer", "Carrack_Cruiser", "Ton_Falk_Escort_Carrier", "Star_Galleon", "Victory_I_Frigate", 
+				"Imperial_DHC", "Vindicator_Cruiser", "Acclamator_II", "Immobilizer_418", "Victory_I_Star_Destroyer", "Victory_II_Star_Destroyer", "Providence_Carrier_Destroyer", 
+				"Interdictor_Star_Destroyer", "Imperial_I_Star_Destroyer_Carrier", "Imperial_II_Star_Destroyer",
+				"Allegiance_Battlecruiser", "Executor_Star_Dreadnought",
 				-- Ground
-			"Imperial_Army_Trooper_Company", "B2_Droid_Company", "Imperial_Army_74Z_Bike_Company",
-			"Imperial_AT_PT_Company", "Chariot_LAV_Company", "AT_ST_Company",
-			"AT_AA_Walker_Company", "Imperial_TX130T_Company", "SPMAG_Walker_Company", "Deathhawk_Company", "Imperial_Dropship_Transport_Company",
-			"Imperial_A5_Juggernaut_Company", "Imperial_AT_AT_Walker_Company", "Imperial_AT_TE_Walker_Company",
+				"Imperial_Army_Trooper_Company", "B2_Droid_Company", "Imperial_Army_74Z_Bike_Company",
+				"Imperial_AT_PT_Company", "Chariot_LAV_Company", "AT_ST_Company",
+				"AT_AA_Walker_Company", "Imperial_TX130T_Company", "SPMAG_Walker_Company", "Deathhawk_Company", "Imperial_Dropship_Transport_Company",
+				"Imperial_A5_Juggernaut_Company", "Imperial_AT_AT_Walker_Company", "Imperial_AT_TE_Walker_Company",
 			},
 			FactionOverride = "Empire",
 			FactionOverride2 = "Zsinj_Empire",
 			--StartYear = 11, (implement later once the map situation is clear)
 			IntroText = "TEXT_CONQUEST_PROTEUS_X1_FACTION",
-			IntroHolo = "X1_Loop",
+			IntroHolo = "",
 		
-		},
-		["FEL"] = {
-			FriendlyName = "Brentaal Houses",
-			Planets = {"BRENTAAL"},
-			LeaderTable = {"FEL_EVISCERATOR"},
-			LeaderEndingNames = {"Emperor Fel"},
-			HeroList = {"FEL_EVISCERATOR"},
-			FighterHero = {{"PHENNIR_BETA_SQUADRON","FEL_EVISCERATOR"}},
-			UnlockList = {"CR92A", "PHENNIR_BETA_SQUADRON_LOCATION_SET"},
-			--LockList = {"IPV1"},
-			FactionOverride = "Empire",
-			LastYear = 4,
-			IntroText = "TEXT_CONQUEST_PROTEUS_BRENTAAL",
-			IntroHolo = "Soontir_Fel_Loop",
 		},
 	
 		-- Secret Dev Faction
