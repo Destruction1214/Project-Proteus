@@ -269,6 +269,7 @@ function GovernmentEmpire:new(gc, absorb, dark_empire_available, id)
         ["DUMMY_RECRUIT_GROUP_DELURIN"] = "DRAGON",
         ["DUMMY_RECRUIT_GROUP_WESSEX"] = "WESSEX",
     }
+    self.proteus_markets = {"KUAT"}
 end
 
 
@@ -739,7 +740,9 @@ function GovernmentEmpire:on_production_finished(planet, game_object_type_name)
     --Logger:trace("entering GovernmentEmpire:on_production_finished")
 	local event = self.market_updates[game_object_type_name]
     if event ~= nil then
-        crossplot:publish("UPDATE_MARKET", event)
+        if self.proteus_markets[GlobalValue.Get("PROTEUS_GROUP_NAME")] then
+            crossplot:publish("UPDATE_MARKET", event)
+        end
     elseif string.find(game_object_type_name, "DUMMY_RANDOM_UNIT_") then
         self:gamble_manager(game_object_type_name)
 	elseif game_object_type_name == "KUAT_CHOOSE_BC" then
