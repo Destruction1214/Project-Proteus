@@ -1526,6 +1526,7 @@ return {
 			LeaderTable = {["X1_TEAM"] = {"X1"}},
 			LeaderEndingNames = {"High Emperor X1"},
 			HeroList = {"X1_Team", "Meng_La_Team", "Hal_Razor_Team", "GK121_Team"},
+			RemoveList = {"X1_Executor"},
 			UnlockList = {
 				-- Space
 				"Gamma_ATR_6_Group", "IPV1", "Lancer_Frigate", "Adz_Patrol_Destroyer", "Carrack_Cruiser", "Ton_Falk_Escort_Carrier", "Star_Galleon", "Victory_I_Frigate", 
