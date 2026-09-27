@@ -49,6 +49,7 @@ TEXT_COMPANY_UBIQTORATE_BASE,Ubiqtorate Base
 TEXT_COMPANY_UBIQTORATE_BASE_DESCRIPTION,One of multiple large bases of the Imperial Ubiqtorate, an organization overseeing all aspects of various Imperial Intelligence Agencies. Their archives and surveillance facilities provide intel on nearby planets in a large radius.
 TEXT_CONQUEST_PROTEUS_ANAXES,Feyet Kiez: Greetings Commander, the Empire has fallen into chaos and disarray ever since our catastrophic defeat at Endor. It is our task to bring stability and security back to the galactic center before we set out to punish the insidious traitors that call themselves rebels. Our enemies will soon learn the lesson that Anaxes isn't called the Defender of the Core for nothing.
 TEXT_CONQUEST_PROTEUS_BALMORRA,Hinch Beltane: There has never been a better moment to finally seize our freedom than now. The Emperor is dead, and his lackeys in disarray. It is time for a new course, Commander. Rally our forces and make sure that all the other galactic powers are put on notice: they can buy our products, but they cannot have us as their subjects again. As of this hour, Balmorra is once again independent and open for business - and you are free to use whatever force you deem necessary to ensure it stays that way.
+TEXT_CONQUEST_PROTEUS_BRENTAAL,Soontir Fel: I have wrestled with it these past few days, but I cannot deny that Phennir is right. Isard is leading what's left of the Empire to an ignoble end, and I refuse to let myself and my men be dragged down with her. I can do more for the Empire as a warlord than Isard's pawn. We will show the galaxy what the Empire is still capable of.
 TEXT_CONQUEST_PROTEUS_CENTRALITY,Sris Lehhett: Hello Commander, the galaxy has fallen into chaos ever since the Emperor died above Endor. It is our duty to preserve stability within the Centrality. For this reason we need to rebuild our fleet to fulfill the ardous task of restarting our economy. I trust you commander to complete this task.
 TEXT_CONQUEST_PROTEUS_GRUNGER,Josef Grunger: Word has reached me of the Emperor’s death, and I do not intend to pass up such an opportunity. This region of space is ripe with lesser men to join my armada. They will not be difficult to "convince".
 TEXT_CONQUEST_PROTEUS_PRAJI,Nahdonnis Praji: It was the right decision to retire to Kaikielius instead of following the Emperor to his final demise. Now we must build on our work, Commander, and secure our holdings against all the vultures descending.
@@ -57,6 +58,7 @@ TEXT_CONQUEST_PROTEUS_RENDILI,Comeg: I'm glad you could make it, Commander. Thin
 TEXT_CONQUEST_PROTEUS_SHADOW_ACADEMY,Great Leader: You did not think I would be gone, did you? I will always return! Now, there is no time for hesitation! Pledge yourself to me once more, and together we shall crush the rebellion once and for all! You shall lead my armies and my new Dark Knights into battle! Return to your station, my loyal guards will relay further orders soon.
 TEXT_CONQUEST_PROTEUS_THORN,Daymon Thorn: The Emperor is dead, and I shall pick up his crown and place it upon my own head.  With the power of the Korrendum crystals, we shall build a weapon that will surpass even the Death Stars, and with it, we shall overthrow and scatter all that oppose our march. The men who laugh at the Empire's distress, and inwardly rejoice at the triumph of our enemies, will soon be confounded and trembling, for the War Dog of the Empire is on the march. There still remains much to do!
 TEXT_CONQUEST_PROTEUS_VEERS,Veers: Delvardus has been driven out from Eriadu, and while I shed no tears for him, our situation remains bleak. The rebels are still in control of much of the core, and most Imperial holdouts are either unwilling or unworthy of my assistance. For now, we will strike out on our own, Commander. We might be all that is left of the Empire we once served, but I will not surrender it to the rebels without a fight!
+TEXT_CONQUEST_PROTEUS_X1_FACTION,X1: The death of Vader and the Emperor has finally given me the opportunity to take the power that is rightfully mine. Prepare yourself for chaos, Commander.
 TEXT_CONQUEST_SCREED,Terrinald Screed: It does not surprise me that the one enemy worth fighting is the one enemy that my so-called "superiors" cannot defeat! The Empire has no use for weak warlords and simpering bureaucrats! If they will not realize the Empire's destiny, then I will. All shall fear and revere Admiral Screed once again!
 TEXT_CONQUEST_STORM_COMMANDOS,Victor Strang: The Emperor tasked us with destroying the Rebel scum. His death does nothing to change this directive, but it does require a change in strategy. On this day and planet, a new counter-rebellion will be born.
 TEXT_COYOTE_BOMBER_SQUADRON,Coyote Advanced Droid Bomber Squadron
@@ -120,6 +122,7 @@ TEXT_EVENT_WARLORD_CHOICE_BALMORRA,Independent Balmorra
 TEXT_EVENT_WARLORD_CHOICE_BRANDEI,Thrawn Remnants
 TEXT_EVENT_WARLORD_CHOICE_CARIDA,Imperial Carida
 TEXT_EVENT_WARLORD_CHOICE_CENTRALITY,The Centrality
+TEXT_EVENT_WARLORD_CHOICE_FEL,Brentaal Houses
 TEXT_EVENT_WARLORD_CHOICE_GRUNGER,Grunger's Empire
 TEXT_EVENT_WARLORD_CHOICE_LANOX,Imperial Loyalist
 TEXT_EVENT_WARLORD_CHOICE_PRAJI,Imperial Kaikielius
@@ -149,6 +152,8 @@ TEXT_GOVERNMENT_EMPIRE_SSD_HERO_THARKUS,(commands Executor Star Dreadnought, Amb
 TEXT_GOVERNMENT_PROTEUS_MARKET_KUAT,KDY Market:
 TEXT_GOVERNMENT_PROTEUS_MARKET_OVERVIEW_KUAT,Every galactic cycle, new ships or ground vehicles may appear on the KDY market. These are units not typically available to the faction. You can see all units currently available and the amounts they're available in listed below.
 TEXT_GROUND_BISCUIT_BARON,Biscuit Baron
+TEXT_GROUND_SLAVE_BARRACKS,Slave Soldier Firebase
+TEXT_GROUND_SLAVE_MARKET,Slave Market
 TEXT_H60_SQUADRON,H-60 Tempest Squadron
 TEXT_H60_SQUADRON_HALF,H-60 Tempest Squadron 1/2
 TEXT_H60_SQUADRON2,H-60 Tempest Squadron x2
@@ -226,9 +231,12 @@ TEXT_NTB_630_SQUADRON2,NTB-630 Squadron x2
 TEXT_PROTEUS_DESCRIPTION_ALLIED_TION,--TODO TEXT_PROTEUS_DESCRIPTION_ALLIED_TION--
 TEXT_PROTEUS_DESCRIPTION_ANAXES,Azure Hammer Command was the name given to the First Army which was tasked with the defence of the Coruscant Sector since the Clone Wars. It's headquarter was the planet Anaxes. After the battle of Endor it became an imperial holdout in the core, lead by Admiral Feyet Kiez aboard his Executor Super Star Destroyer "Whelm". However, in 8 ABY, Kiez and his SSD vanished from the system under mysterious circumstances which lead the remaining Imperial forces to capitulate to the advancing New Republic.
 TEXT_PROTEUS_DESCRIPTION_BALMORRA,The Planet Balmorra was occupied by the Empire and forced to produce war walkers despite the natives desire for independence. Hinch Beltane, the ruthless Imperial governor, also subscribed to that goal, leading Balmorra into mercantilist independence while maintaining full personal control as an autocrat for a time, until the armies of the Reborn Emperor forced him back into the fold. Under Beltane, the Balmorrans rebelled once more and successfully drove off the Empire for good.
+TEXT_PROTEUS_DESCRIPTION_BRANDEI,--TODO TEXT_PROTEUS_DESCRIPTION_BRANDEI--
 TEXT_PROTEUS_DESCRIPTION_CARIDA,--TODO TEXT_PROTEUS_DESCRIPTION_CARIDA--
 TEXT_PROTEUS_DESCRIPTION_CENTRALITY,The Centrality is a remote Sector in the Outer Rim which bordered Hutt space. The sector was part of the Empire but largely left alone due to it's extreme remoteness. It was ruled over by the Sorcerer of Tund until he was killed by Lando Calrissian. After the Empire was defeated at Endor, the Centrality regained it's independence but otherwise had little to no influence on the galaxy. They were sceptical of the New Republic but nonetheless signed a treaty of goodwill with them.
+TEXT_PROTEUS_DESCRIPTION_FEL,--TODO TEXT_PROTEUS_DESCRIPTION_FEL--
 TEXT_PROTEUS_DESCRIPTION_GRUNGER,One of the original twelve Grand Admirals, Grunger wasted no time consolidating his powerbase and making a play for control of the Imperial Remnant once he learned of Palpatine's death. Aggressive and capable, he was one of the main contenders for the Imperial Throne, and his growing strength worried the Central Committee of Grand Moffs and other Imperial warlords.
+TEXT_PROTEUS_DESCRIPTION_LANOX,--TODO TEXT_PROTEUS_DESCRIPTION_LANOX--
 TEXT_PROTEUS_DESCRIPTION_PRAJI,After conquering his ancient family home world of Kaikielius, Nahdonnis Praji met with the reborn Emperor Palpatine in person for the first time, and upon experiencing the Emperor's apparent madness first hand, decided to retire to governorship of the planet. This saved him from the immolation of the Dark Empire shortly thereafter, but left him and his new fiefdom isolated as a resurgent New Republic and vengeful Imperial warlords all laid claim to the core and deep core regions.
 TEXT_PROTEUS_DESCRIPTION_REBORN,The Imperial Procurator of Justice, Lord Hethrir, went underground following the Imperial defeat at Endor, building a network of support in the shadows. After Palpatine's final death, he rechristened his faction 'Empire Reborn' and worked with the Dark Jedi Desann and Admiral Galak Fyyar in creating a new army of force-using soldiers to unleash upon the galaxy.
 TEXT_PROTEUS_DESCRIPTION_RENDILI,The core world of Rendili, a center of shipbuilding and military industry, became an Imperial fortress world after the death of the Emperor, successfully holding out even as most of the core was liberated by the New Republic. Following the end of the Reborn Emperor's campaigns, the Imperial forces on Rendili left and the planet joined the New Republic.
@@ -238,6 +246,7 @@ TEXT_PROTEUS_DESCRIPTION_STORM_COMMANDOS,Prior to the Battle of Endor, General W
 TEXT_PROTEUS_DESCRIPTION_THARKUS,Led by the Imperial hardliner High Admiral Tharkus, this splinter faction emerged from his refusal to accept peace with the New Republic as the Empire fractured after Endor. Distrustful of politicians and civilian leadership, Tharkus gathered loyal military forces and a select group of operatives, including the shapeshifting Dioskouroi, with the goal of continuing the war and seizing control of the Empire for himself by claiming the legendary "Heart of the Jedi".
 TEXT_PROTEUS_DESCRIPTION_THORN,A secretive dark jedi who pledged his allegiance to the Emperor while serving his own agenda, Daymon Thorn, also known as the Wardog of the Empire, has returned from his sujourn at the news of the Emperor's death. With a small army of followers and the power of a set of ancient crystals at his disposal, he seeks to claim the Imperial Throne for himself, and himself alone.
 TEXT_PROTEUS_DESCRIPTION_VEERS,After Veers broke with Sander Delvardus over the latter's mismanagement of the Seswenna campaign, he went north on his own in the wake of the New Republic sweeping through the core worlds and consolidating their power. Many other warlords distrusted Veers due to his past as Vader's favored ground commander, and so he and his loyal men drifted for a while without a power base of their own until he was contacted by a person calling themselves the Omnipotent Battle Leader.
+TEXT_PROTEUS_DESCRIPTION_X1,--TODO TEXT_PROTEUS_DESCRIPTION_X1--
 TEXT_PROTEUS_ROSTER_LAMBDA,Moff Lankin's forces are versatile and unspecialized, with a significant ISB contingent among their ranks to help keep the restive population in line. In space, a roster of efficient vessels can react to any situation and provide support to the massive battlecruisers that serve as anchors of the fleet. On the ground, their armies are adaptable, with a noticeable focus on mechanized assaults.
 TEXT_REPUBLIC_HEADHUNTER_SQUADRON,Republic Z-95 Squadron
 TEXT_REPUBLIC_HEADHUNTER_SQUADRON_DOUBLE,Republic Z-95 Squadron x2
@@ -444,6 +453,7 @@ TEXT_STATBLOCK_THETA_ASSAULT_SHUTTLE_WEAP1,1x Heavy Fighter Laser Cannon: 2 / 3.
 TEXT_STATBLOCK_THETA_ASSAULT_SHUTTLE_WEAP2,2x Fighter Laser Cannons: 8 / 3.0s / 1.0km
 TEXT_STATBLOCK_THETA_ASSAULT_SHUTTLE_WEAP3,1x Fighter Concussion Missile (AF): 2 / 12.5s / 1.8km 
 TEXT_STATBLOCK_THETA_ASSAULT_SHUTTLE_WEAP4,1x Fighter Assault Concussion Missile: 1 / 37.5s / 1.8km
+TEXT_STATBLOCK_TIE_ADVANCED_X1_BASE,Health: 220 | Shields: 120
 TEXT_STATBLOCK_TIE_AVENGER_ASSAULT_SQUADRON,Squadron: 12x Assault TIE Avenger
 TEXT_STATBLOCK_TIE_AVENGER_ASSAULT_SQUADRON_DOUBLE,Squadron: 24x Assault TIE Avenger
 TEXT_STATBLOCK_TIE_AVENGER_ASSAULT_SQUADRON_HALF,Squadron: 6x Assault TIE Avenger
@@ -749,6 +759,7 @@ TEXT_TOOLTIP_CLONETROOPER_PHASETWO,Imperial hardliners that have joined Devian's
 TEXT_TOOLTIP_COLLIN_PRAJI,Collin Praji was one of the members of House Praji who embarked on a military career rather than business or politics. A Colonel with a stellar service record, the Kalandar installation on Talus was renamed 'Fort Praji' in his honor. During the Clone Wars, he became one of the first Moffs, taking command over the 4th Sector Army. After the rise of the Empire, Moff Praji retained the title and influence but had no known military assignments. 
 TEXT_TOOLTIP_COMEG_UPGRADE,Upgrade: Bellator
 TEXT_TOOLTIP_COMMAND_1214,Modified Maelstrom Battlecruiser, Rain of Destruction
+TEXT_TOOLTIP_COMMAND_181ST_BETA,TIE Interceptor, 181st Wing, Beta Squadron
 TEXT_TOOLTIP_COMMAND_ACROPORA,Tector Star Destroyer, Acropora
 TEXT_TOOLTIP_COMMAND_ALPHA_SQUADRON,TIE Fighter, Alpha Squadron
 TEXT_TOOLTIP_COMMAND_AMBITION,Executor Star Dreadnought, Ambition
@@ -758,6 +769,7 @@ TEXT_TOOLTIP_COMMAND_BLACKHOLESUN,Communications Battlecruiser, Black Hole Sun
 TEXT_TOOLTIP_COMMAND_BLITZ,Modified Victory-II Star Destroyer, Blitz
 TEXT_TOOLTIP_COMMAND_BULWARK,Imperial-II Star Destroyer, Bulwark
 TEXT_TOOLTIP_COMMAND_DREAM_OF_A_QUIET_LIFE,Bou'Halec Star Dreadnought, Dream of a Quiet Life
+TEXT_TOOLTIP_COMMAND_EVISCERATOR_FEL,Imperial-II Star Destroyer, Eviscerator
 TEXT_TOOLTIP_COMMAND_FROSTFIRE,Modified Ascendancy Star Destroyer, Frostfire
 TEXT_TOOLTIP_COMMAND_GREED,Imperial-II Star Destroyer, Greed
 TEXT_TOOLTIP_COMMAND_GURNST,Commands: Elite Mercenary Platoon Taskforce Bravo
@@ -903,6 +915,7 @@ TEXT_TOOLTIP_FAUX_STORMTROOPER_SQUAD_WEAP1_1B,1x Portable Ion Cannon: 4 / 10.0s 
 TEXT_TOOLTIP_FAUX_STORMTROOPER_SQUAD_WEAP2,1x Light Repeating Slugthrower: 5 / 1.0s / 240m
 TEXT_TOOLTIP_FAUX_STORMTROOPER_SQUAD_WEAP3,1x Underslung Concussion Rifle: 1 / 3.0s / 240m
 TEXT_TOOLTIP_FEENA_DASTA_CLONE,In 7 ABY, Feena D'Asta was abducted by the Black Sun crime syndicate, who replaced her with a clone on the Imperial Ruling Council and held her captive. The Clone continued in her stead, reporting on the activities of the Imperial Ruling Council to the Black Sun and eventually supporting Carnor Jax' plan to poison the clone bodies of the Reborn Emperor. Kir Kanos, in his quest for revenge against Jax, uncovered the cloning plot and freed the real Feena D'Asta, revealing the imposter to Baron Ragez D'Asta. However, the clone of Feena pleaded that she was only following along with the Black Sun due to being threatened, and the Baron adopted her instead of having her killed.
+TEXT_TOOLTIP_FEL_SPECIAL,Special: 181st Imperial Fighter Group
 TEXT_TOOLTIP_FIELD_BASE_COMMANDO_PROTEUS_ARMY_COMMANDO_DROIDEKA1,Army Commando Squad: 2 / 10
 TEXT_TOOLTIP_FIELD_BASE_COMMANDO_PROTEUS_ARMY_COMMANDO_DROIDEKA2,Q-Series Destroyer Droid: 5 / 25
 TEXT_TOOLTIP_FIELD_BASE_COMMANDO_PROTEUS_ARMY_COMMANDO_FLEET_COMMANDO1,Army Commando Squad: 2 / 10
@@ -1217,6 +1230,15 @@ TEXT_TOOLTIP_PROCURATOR_MOVE,Speed: 2.45 | Accel: 0.05 | Turn: 0.15
 TEXT_TOOLTIP_PROCURATOR_SHIELD,Shields: 9000 / [22.5/R] (Capital)
 TEXT_TOOLTIP_PROCURATOR_SQUADRON,Fighters: 2 / 4
 TEXT_TOOLTIP_PROTEUS_A9_RESEARCH,Acquire Kuat's new A-9 Interceptors. Replace the older Interceptors.
+TEXT_TOOLTIP_PROTEUS_FIGHTER_HEROES_BENJO,Benjo (Alpha Squadron)
+TEXT_TOOLTIP_PROTEUS_FIGHTER_HEROES_HANNAD,Kile Hannad (Praetorian Squadron) [ Locked in Era 5+ ]
+TEXT_TOOLTIP_PROTEUS_FIGHTER_HEROES_HSSISSK,Hssissk (Zssisk Strike Squadron)
+TEXT_TOOLTIP_PROTEUS_FIGHTER_HEROES_Phennir,Turr Phennir (181st Wing, Beta Squadron)
+TEXT_TOOLTIP_PROTEUS_FIGHTER_HEROES_RED_STAR,Iran Ryad (Red Star Squadron)
+TEXT_TOOLTIP_PROTEUS_FIGHTER_HEROES_SCARLET,Kath Scarlet (Modified Firespray-31 Patrol Craft, Marauder)
+TEXT_TOOLTIP_PROTEUS_FIGHTER_HEROES_SSURUSSK,Ssurussk (Nebula Raiders)
+TEXT_TOOLTIP_PROTEUS_FIGHTER_HEROES_STORMTROOPER_X,Stormtrooper X (Rogue Imperial Squadron)
+TEXT_TOOLTIP_PROTEUS_FIGHTER_HEROES_YARNAR,Yarnar (Celanon Garrison Squadron)
 TEXT_TOOLTIP_PROVIDENCE_PIRATE_SQUADRON,Fighters: 1 / 3 | Bombers: 2 / 6  
 TEXT_TOOLTIP_RBANN,Rbann was a Kubaz Imperial spy who worked directly for Blackhole, the shadowy Director of Imperial Intelligence. In 1 ABY, Blackhole dispatched Rbann to the "Gambler's World" of Vorzyd V, ordering the Kubaz to track prominent Rebel leaders Luke Skywalker and Leia Organa, who Blackhole had learned had been sent to Vorzyd V to disrupt Imperial operations there. Rbann quickly managed to track them to the Casino Royale in the capital city of Efavan, and his stormtroopers overpowered the Rebels and imprisoned them aboard Rbann's ship.
 TEXT_TOOLTIP_REBORN_DARKJEDI,The strongest of Desann's dark side followers, empowered by the Valley of the Jedi and wearing Shadow Armor made from cortosis. While originally few in number, Desann and Hethrir threatened to use the Valley's power to create an entire army of them to unleash upon the Galaxy, prompting intervention by the New Republic Agent and Jedi Kyle Katarn. These Reborn are fearsome duelists, able to cut through most enemies with ease and challenge even trained Jedi. In addition to their lightsabers and force powers, they possess personal cloaking fields for ambushes and infiltration. Extremely hard to put down, but not invincible.
@@ -1369,6 +1391,14 @@ TEXT_TOOLTIP_SITHSPAWN_WEAP1,1x Fighter Laser Cannon: 6 / 1.2s / 1.0km
 TEXT_TOOLTIP_SKIPRAYK,A variant of Skipray Blastboat configured as a heavy bomber. The design saw limited popularity with the Empire compared to Sienar's other heavy bomber options, but became infamous for its use by criminal organizations - especially the Zann Consortium. Best utilized against enemy capital ships. 
 TEXT_TOOLTIP_SKIPRAYM,A later model of the venerable GAT-12 Skipray line. This variant sacrificed warhead capacity to allow for more powerful engines and was used by Imperial forces and other authorities as an interceptor. This unit can be used against a variety of targets.
 TEXT_TOOLTIP_SKIPRAYZ,An experimental Skipray Blastboat used exclusively by the Kaarenth Dissension. This design was based on the GAT-12G variant and incorporated downscaled version of the Zeta One Ion Cannon into its arsenal. Specialized against capital ships.
+TEXT_TOOLTIP_SLAVE_BARRACKS,A fortfied encampment where enslaved individuals that are deemed fit for combat are given rudimentary combat training, outfitted with captured and surplus gear, and assigned to supplement the local planetary garrison.
+TEXT_TOOLTIP_SLAVE_BARRACKS_SE1,Scavenger Squad: 2 / 6
+TEXT_TOOLTIP_SLAVE_BARRACKS_SE2,Heavy Scavenger Squad: 2 / 6
+TEXT_TOOLTIP_SLAVE_BARRACKS_SE3,Desert Sail 20: 4 / 8
+TEXT_TOOLTIP_SLAVE_BARRACKS_SE4,WLO-5 Speeder Tank: 2 / 4
+TEXT_TOOLTIP_SLAVE_BARRACKS_SE5,AT-AP Walker: 1 / 3
+TEXT_TOOLTIP_SLAVE_MARKET,This facility acts as a local hub for the Imperial slave trade. Humans and non-humans who dare to stand up to the Empire are put in chains and shipped here to await purchase by any number of unsavory clients, netting the Empire a tidy profit.
+TEXT_TOOLTIP_SOONTIR_FEL_WARLORD,
 TEXT_TOOLTIP_SP9,The mobile version of Golan Arms' iconic DF.9 Anti-Infantry Battery. Like its stationary counterpart, the SP.9 saw service under multiple governments over the decades. Most prominently, it was used by the Empire, Rebellion and their various successor states. Best used against infantry formations. 
 TEXT_TOOLTIP_SP9_COMPANY,Company: 4x SP9 Anti Infantry Artillery Platform
 TEXT_TOOLTIP_SP9_HEALTH,Health: 125 (Speeder)
@@ -1540,6 +1570,9 @@ TEXT_TOOLTIP_VINDICATOR_CARRIER_WEAP4,1x Medium Laser Cannon: 2 / 0.5s / 3.6km
 TEXT_TOOLTIP_VOSS,Lieutenant Voss was a young Imperial officer and trusted aide to High Admiral Tharkus. Frequently entrusted with carrying out the High Admiral's orders, Voss commanded Imperial troops during Tharkus's operations and assisted in his efforts to track Luke Skywalker and uncover the location of the Heart of the Jedi.
 TEXT_TOOLTIP_VSHIELDED_RESEARCH,Refit Imperial walkers with shield generators inspired by the AT-XT, exchanging some hull integrity for renewable defensive protection against sustained enemy fire. (Replaces AT-ST/A, AT-AP, and AT-AT/AT-AT Turbolaser Refit)
 TEXT_TOOLTIP_VULTURE_DROID,A small droid fighter that relies on numbers and maneuverability to win dogfights. While modular enough to carry munitions, they are often replaced with extra fuel slugs to increase flight time from being minutes long. They are best used to swarm enemy fighters and bombers.
+TEXT_TOOLTIP_X1_HEALTH,Health: 190 [2%/5s] (Hero)
+TEXT_TOOLTIP_X1_MOVE,Speed: 1.1
+TEXT_TOOLTIP_X1_WEAP1,1x Lightsaber: 1 / 0.1s / 1m
 TEXT_TOOLTIP_YARNAR,A TIE Fighter pilot stationed on Celanon in the D'Asta Sector during the later phases of Galactic Civil War.
 TEXT_TOOLTIP_YEORG_CAPTISON,Yeorg Captison was a member of the notable Bakuran Captison family of politicians and was married to Tiree Captison. Yeorg was elected to the Bakuran Senate as Prime Minister around four years before the beginning of the Clone Wars. After the Empire took control over Bakura they allowed him to remain as Prime Minister, though the post held little authority, as it was now subservient to the Imperial governor, Wilek Nereus.
 TEXT_TOOLTIP_YV929,A heavily armed corellian freighter that became popular with the pirates and rebels which it was designed to ward off. This "flying brick" as it is often called also made its way to the Corporate Sector Authority. The heavy armor and armament make it well suited to engaging hard targets like cruisers.
@@ -1820,12 +1853,3 @@ Z_TEXT_UNIT_GORATH_RESEARCH,Reverse-engineer the Gorath Strike Cruiser
 Z_TEXT_UNIT_MISSILE_BOAT_RESEARCH,Reverse-engineer the Missile Boat
 Z_TEXT_UNIT_MTC_RESEARCH,Reverse-engineer the Modular Taskforce Cruiser
 Z_TEXT_UNIT_SCIMITAR_RESEARCH,Reverse-engineer the Scimitar Assault Bomber
-TEXT_GROUND_SLAVE_MARKET,Slave Market
-TEXT_TOOLTIP_SLAVE_MARKET,This facility acts as a local hub for the Imperial slave trade. Humans and non-humans who dare to stand up to the Empire are put in chains and shipped here to await purchase by any number of unsavory clients, netting the Empire a tidy profit.
-TEXT_GROUND_SLAVE_BARRACKS,Slave Soldier Firebase
-TEXT_TOOLTIP_SLAVE_BARRACKS,A fortfied encampment where enslaved individuals that are deemed fit for combat are given rudimentary combat training, outfitted with captured and surplus gear, and assigned to supplement the local planetary garrison.
-TEXT_TOOLTIP_SLAVE_BARRACKS_SE1,Scavenger Squad: 2 / 6
-TEXT_TOOLTIP_SLAVE_BARRACKS_SE2,Heavy Scavenger Squad: 2 / 6
-TEXT_TOOLTIP_SLAVE_BARRACKS_SE3,Desert Sail 20: 4 / 8
-TEXT_TOOLTIP_SLAVE_BARRACKS_SE4,WLO-5 Speeder Tank: 2 / 4
-TEXT_TOOLTIP_SLAVE_BARRACKS_SE5,AT-AP Walker: 1 / 3

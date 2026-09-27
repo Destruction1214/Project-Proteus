@@ -149,11 +149,14 @@ return {
         UnitUtil.SetLockList("EMPIRE", {
             "Turr_Phennir_TIE_Interceptor_Location_Set"
         }, false)
-        Upgrade_Fighter_Hero("TURR_PHENNIR_TIE_INTERCEPTOR_181ST_SQUADRON","TURR_PHENNIR_TIE_DEFENDER_181ST_SQUADRON")
-        Set_To_First_Extant_Host("TURR_PHENNIR_TIE_DEFENDER_LOCATION_SET", self.p_empire, true)
-        UnitUtil.SetLockList("EMPIRE", {
-            "Turr_Phennir_TIE_Defender_Location_Set"
-        })
+
+        if GlobalValue.Get("PROTEUS_GROUP_NAME") ~= "FEL" then
+            Upgrade_Fighter_Hero("TURR_PHENNIR_TIE_INTERCEPTOR_181ST_SQUADRON","TURR_PHENNIR_TIE_DEFENDER_181ST_SQUADRON")
+            Set_To_First_Extant_Host("TURR_PHENNIR_TIE_DEFENDER_LOCATION_SET", self.p_empire, true)
+            UnitUtil.SetLockList("EMPIRE", {
+                "Turr_Phennir_TIE_Defender_Location_Set"
+            })
+        end
 
         local starting_era = false
         if self.entry_time <= 5 then
