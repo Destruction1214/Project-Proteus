@@ -450,7 +450,7 @@ return {
 				"VT49_Decimator_Group", "Raider_I_Corvette", "Lancer_Frigate", "Arquitens", "Ton_Falk_Escort_Carrier", "Nebulon_B_Tender", "Eidolon", "Imperial_Nebulon_B",
 				"Super_Transport_VII_Interdictor", "Pursuit_Light_Cruiser", "Acclamator_II", "Victory_I_Star_Destroyer",
 				"Imperial_II_Star_Destroyer", "Imperial_I_Star_Destroyer_Assault",
-				"Allegiance_Battlecruiser", "Mandator_III_Dreadnought",
+				"Allegiance_Battlecruiser", "Mandator_III_Dreadnought", "KDY_Demonstration_Dreadnought",
 				-- Ground
 				"Imperial_Army_Trooper_Company", "Compforce_Assault_Company", "Imperial_74Z_Bike_Company",
 				"Imperial_AT_PT_Company", "Chariot_LAV_Company", "AT_ST_Company",
