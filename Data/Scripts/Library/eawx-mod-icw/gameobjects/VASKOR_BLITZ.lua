@@ -1,4 +1,10 @@
 return {
-	Scripts = {"multilayer", "fighter-spawn", "single-unit-retreat"},
-	Flags = {FIGHTERINHERIT = "VICTORY_II_STAR_DESTROYER"}
+	Ship_Crew_Requirement = 200,
+	Fighters = {
+		["FIGHTER"] = {
+			DEFAULT = {Initial = 2, Reserve = 2}
+		},
+	},
+	Native = "IMPERIAL",
+	Scripts = {"multilayer", "fighter-spawn", "single-unit-retreat"}
 }
