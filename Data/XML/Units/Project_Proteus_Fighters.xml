@@ -13207,4 +13207,178 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</Container>
+	
+	<!-- Modernized Z-95 Headhunter -->
+
+	<SpaceUnit Name="Modernized_Z95_Headhunter">
+		<Variant_Of_Existing_Type>Z95_Headhunter</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_Z95_HEADHUNTER_MODERNIZED</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_Z95_HEADHUNTER_MODERNIZED
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_Z95_MODERNIZED_BASE
+		TEXT_STATBLOCK_Z95_MODERNIZED_MOVE
+		TEXT_STATBLOCK_Z95_MODERNIZED_WEAP1
+		TEXT_STATBLOCK_Z95_MODERNIZED_WEAP2
+		TEXT_STATBLOCK_Z95_MODERNIZED_WEAP3
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_Z95_HEADHUNTER_MODERNIZED.TGA</Icon_Name>
+
+		<Space_Model_Name>Z95_Missile.ALO</Space_Model_Name>
+
+		<Max_Speed>7.0</Max_Speed>
+		<Min_Speed>1.87</Min_Speed>
+		<Max_Thrust>4.9</Max_Thrust>
+		<OverrideAcceleration>4.9</OverrideAcceleration>
+		<OverrideDeceleration>2.45</OverrideDeceleration>
+		<Max_Lift>4.9</Max_Lift>
+		<Max_Rate_Of_Turn>4.4</Max_Rate_Of_Turn>
+		<Max_Rate_Of_Roll>4.4</Max_Rate_Of_Roll>
+
+		<AI_Combat_Power>3.15</AI_Combat_Power>
+
+		<Shield_Armor_Type>ShieldS_Fighter</Shield_Armor_Type>
+		<Shield_Points>4</Shield_Points>
+		<Shield_Refresh_Rate>0.2</Shield_Refresh_Rate>
+
+		<HardPoints>HP_Z95_Laser, HP_Z95_Modernized_Flechette, HP_Z95_Modernized_Torp</HardPoints>
+	</SpaceUnit>
+
+	<Squadron Name="Modernized_Z95_Headhunter_Squadron">
+		<Variant_Of_Existing_Type>Z95_Headhunter_Squadron</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_HEADHUNTER_MODERNIZED_SQUADRON</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_Z95_HEADHUNTER_MODERNIZED
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_Z95_MODERNIZED_SQUADRON
+		TEXT_STATBLOCK_Z95_MODERNIZED_BASE 
+		TEXT_STATBLOCK_Z95_MODERNIZED_MOVE
+		TEXT_STATBLOCK_Z95_MODERNIZED_WEAP1
+		TEXT_STATBLOCK_Z95_MODERNIZED_WEAP2
+		TEXT_STATBLOCK_Z95_MODERNIZED_WEAP3
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_Z95_HEADHUNTER_MODERNIZED_ONE.TGA</Icon_Name>
+
+		<Max_Squad_Size> 12 </Max_Squad_Size>
+		<Create_Team_Type>Modernized_Z95_Headhunter_Squadron_Container</Create_Team_Type>
+		<Squadron_Units>Modernized_Z95_Headhunter, Modernized_Z95_Headhunter, Modernized_Z95_Headhunter</Squadron_Units>
+		<Squadron_Units>Modernized_Z95_Headhunter, Modernized_Z95_Headhunter, Modernized_Z95_Headhunter</Squadron_Units>
+		<Squadron_Units>Modernized_Z95_Headhunter, Modernized_Z95_Headhunter, Modernized_Z95_Headhunter</Squadron_Units>
+		<Squadron_Units>Modernized_Z95_Headhunter, Modernized_Z95_Headhunter, Modernized_Z95_Headhunter</Squadron_Units>
+	</Squadron>
+
+	<Container Name="Modernized_Z95_Headhunter_Squadron_Container">
+		<Variant_Of_Existing_Type>Z95_Headhunter_Squadron_Container</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_HEADHUNTER_MODERNIZED_SQUADRON</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_FIGHTER</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_Z95_HEADHUNTER_MODERNIZED
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_Z95_MODERNIZED_SQUADRON
+		TEXT_STATBLOCK_Z95_MODERNIZED_BASE 
+		TEXT_STATBLOCK_Z95_MODERNIZED_MOVE 
+		TEXT_STATBLOCK_Z95_MODERNIZED_WEAP1
+		TEXT_STATBLOCK_Z95_MODERNIZED_WEAP2
+		TEXT_STATBLOCK_Z95_MODERNIZED_WEAP3
+		</Encyclopedia_Text>
+
+		<Icon_Name>I_BUTTON_Z95_HEADHUNTER_MODERNIZED_ONE.TGA</Icon_Name>
+		<Max_Speed>7.0</Max_Speed>
+		<Min_Speed>1.87</Min_Speed>
+
+	</Container>
+
+	<Squadron Name="Modernized_Z95_Headhunter_Squadron_Double">
+		<Variant_Of_Existing_Type>Z95_Headhunter_Squadron_Double</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_HEADHUNTER_MODERNIZED_SQUADRON2</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_Z95_HEADHUNTER_MODERNIZED
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
+		TEXT_STATBLOCK_Z95_MODERNIZED_SQUADRON_DOUBLE
+		TEXT_STATBLOCK_Z95_MODERNIZED_BASE
+		TEXT_STATBLOCK_Z95_MODERNIZED_MOVE
+		TEXT_STATBLOCK_Z95_MODERNIZED_WEAP1
+		TEXT_STATBLOCK_Z95_MODERNIZED_WEAP2
+		TEXT_STATBLOCK_Z95_MODERNIZED_WEAP3
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_Z95_HEADHUNTER_MODERNIZED_TWO.TGA</Icon_Name>
+
+		<Max_Squad_Size> 24 </Max_Squad_Size>
+		<Create_Team_Type>Modernized_Z95_Headhunter_Squadron_Double_Container</Create_Team_Type>
+		<Squadron_Units>Modernized_Z95_Headhunter, Modernized_Z95_Headhunter, Modernized_Z95_Headhunter</Squadron_Units>
+		<Squadron_Units>Modernized_Z95_Headhunter, Modernized_Z95_Headhunter, Modernized_Z95_Headhunter</Squadron_Units>
+		<Squadron_Units>Modernized_Z95_Headhunter, Modernized_Z95_Headhunter, Modernized_Z95_Headhunter</Squadron_Units>
+		<Squadron_Units>Modernized_Z95_Headhunter, Modernized_Z95_Headhunter, Modernized_Z95_Headhunter</Squadron_Units>
+		<Squadron_Units>Modernized_Z95_Headhunter, Modernized_Z95_Headhunter, Modernized_Z95_Headhunter</Squadron_Units>
+		<Squadron_Units>Modernized_Z95_Headhunter, Modernized_Z95_Headhunter, Modernized_Z95_Headhunter</Squadron_Units>
+		<Squadron_Units>Modernized_Z95_Headhunter, Modernized_Z95_Headhunter, Modernized_Z95_Headhunter</Squadron_Units>
+		<Squadron_Units>Modernized_Z95_Headhunter, Modernized_Z95_Headhunter, Modernized_Z95_Headhunter</Squadron_Units>
+	</Squadron>
+
+	<Container Name="Modernized_Z95_Headhunter_Squadron_Double_Container">
+		<Variant_Of_Existing_Type>Z95_Headhunter_Squadron_Double_Container</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_HEADHUNTER_MODERNIZED_SQUADRON2</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_FIGHTER</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_Z95_HEADHUNTER_MODERNIZED
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
+		TEXT_STATBLOCK_Z95_MODERNIZED_SQUADRON_DOUBLE
+		TEXT_STATBLOCK_Z95_MODERNIZED_BASE
+		TEXT_STATBLOCK_Z95_MODERNIZED_MOVE
+		TEXT_STATBLOCK_Z95_MODERNIZED_WEAP1
+		TEXT_STATBLOCK_Z95_MODERNIZED_WEAP2
+		TEXT_STATBLOCK_Z95_MODERNIZED_WEAP3
+		</Encyclopedia_Text>
+
+		<Icon_Name>I_BUTTON_Z95_HEADHUNTER_MODERNIZED_TWO.TGA</Icon_Name>
+
+		<Max_Speed>7.0</Max_Speed>
+		<Min_Speed>1.87</Min_Speed>
+	</Container>
+
+	<Squadron Name="Modernized_Z95_Headhunter_Squadron_Half">
+		<Variant_Of_Existing_Type>Z95_Headhunter_Squadron_Half</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_HEADHUNTER_MODERNIZED_SQUADRON_HALF</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_Z95_HEADHUNTER_MODERNIZED
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_Z95_MODERNIZED_SQUADRON_HALF
+		TEXT_STATBLOCK_Z95_MODERNIZED_BASE
+		TEXT_STATBLOCK_Z95_MODERNIZED_MOVE
+		TEXT_STATBLOCK_Z95_MODERNIZED_WEAP1
+		TEXT_STATBLOCK_Z95_MODERNIZED_WEAP2
+		TEXT_STATBLOCK_Z95_MODERNIZED_WEAP3
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_Z95_HEADHUNTER_MODERNIZED_HALF.TGA</Icon_Name>
+
+		<Max_Squad_Size> 6 </Max_Squad_Size>
+		<Create_Team_Type>Modernized_Z95_Headhunter_Squadron_Half_Container</Create_Team_Type>
+		<Squadron_Units>Modernized_Z95_Headhunter, Modernized_Z95_Headhunter, Modernized_Z95_Headhunter</Squadron_Units>
+		<Squadron_Units>Modernized_Z95_Headhunter, Modernized_Z95_Headhunter, Modernized_Z95_Headhunter</Squadron_Units>
+	</Squadron>
+
+	<Container Name="Modernized_Z95_Headhunter_Squadron_Half_Container">
+		<Variant_Of_Existing_Type>Z95_Headhunter_Squadron_Half_Container</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_HEADHUNTER_MODERNIZED_SQUADRON_HALF</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_FIGHTER</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_Z95_HEADHUNTER_MODERNIZED
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_Z95_MODERNIZED_SQUADRON_HALF
+		TEXT_STATBLOCK_Z95_MODERNIZED_BASE
+		TEXT_STATBLOCK_Z95_MODERNIZED_MOVE
+		TEXT_STATBLOCK_Z95_MODERNIZED_WEAP1
+		TEXT_STATBLOCK_Z95_MODERNIZED_WEAP2
+		TEXT_STATBLOCK_Z95_MODERNIZED_WEAP3
+		</Encyclopedia_Text>
+
+		<Icon_Name>I_BUTTON_Z95_HEADHUNTER_MODERNIZED_HALF.TGA</Icon_Name>
+
+		<Max_Speed>7.0</Max_Speed>
+		<Min_Speed>1.87</Min_Speed>
+	</Container>
+	
 </Project_Proteus_Fighters>
