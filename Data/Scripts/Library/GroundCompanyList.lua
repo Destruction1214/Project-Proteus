@@ -128,4 +128,5 @@ return {
 ["REBORN_SHADOWTROOPER_COMPANY_DUMMY"] = true,
 ["DARK_TROOPER_PHASE_II_SQUAD_DUMMY"] = true,--Dark Troopers need spawn dummy for the field base to actually work
 ["IMPERIAL_STORMTROOPER_HWT_COMPANY_DUMMY"] = true,
+["HEAVY_PDF_COMPANY_DUMMY"] = true,
 }
