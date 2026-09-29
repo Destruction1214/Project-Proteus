@@ -5,7 +5,7 @@ return {
 			{"Imperial_Stormtrooper_Company", 5},
 			{"Tartan_Patrol_Cruiser", 5},
 			{"Imperial_DP20", 5},
-			{"Gian_Company", 4},
+			{"Chariot_LAV_Company", 4},
 			{"1L_Tank_Company", 4},
 		},
 		{
@@ -21,7 +21,7 @@ return {
 			{"Nova_Stormtrooper_Company", 5},
 			{"Lancet_Air_Artillery_Company", 2},
 			{"Victory_II_Carrier", 2},
-			{"Venator_Star_Destroyer", 2},
+			{"Vector_Star_Destroyer", 2},
 			{"Triumph_Star_Destroyer", 1},
 		}
 	},
@@ -31,7 +31,7 @@ return {
 			{"Imperial_Stormtrooper_Company", 5},
 			{"Tartan_Patrol_Cruiser", 5},
 			{"Imperial_DP20", 5},
-			{"Gian_Company", 4},
+			{"Chariot_LAV_Company", 4},
 			{"1L_Tank_Company", 4},
 		},
 		{
@@ -47,7 +47,7 @@ return {
 			{"Nova_Stormtrooper_Company", 3},
 			{"Lancet_Air_Artillery_Company", 2},
 			{"Victory_II_Carrier", 2},
-			{"Venator_Star_Destroyer", 2},
+			{"Vector_Star_Destroyer", 2},
 			{"Triumph_Star_Destroyer", 1},			
 		}
 	},
@@ -57,7 +57,7 @@ return {
 			{"Imperial_Stormtrooper_Company", 5},
 			{"Tartan_Patrol_Cruiser", 5},
 			{"Imperial_DP20", 5},
-			{"Gian_Company", 4},
+			{"Chariot_LAV_Company", 4},
 			{"1L_Tank_Company", 4},
 		},
 		{
@@ -73,7 +73,7 @@ return {
 			{"Nova_Stormtrooper_Company", 3},
 			{"Lancet_Air_Artillery_Company", 2},
 			{"Victory_II_Carrier", 2},
-			{"Venator_Star_Destroyer", 2},
+			{"Vector_Star_Destroyer", 2},
 			{"Triumph_Star_Destroyer", 1},		
 		}
 	},
@@ -83,7 +83,7 @@ return {
 			{"Imperial_Stormtrooper_Company", 5},
 			{"Tartan_Patrol_Cruiser", 5},
 			{"Imperial_DP20", 5},
-			{"Gian_Company", 4},
+			{"Chariot_LAV_Company", 4},
 			{"1L_Tank_Company", 4},
 		},
 		{
@@ -99,7 +99,7 @@ return {
 			{"Nova_Stormtrooper_Company", 3},
 			{"Lancet_Air_Artillery_Company", 2},
 			{"Victory_II_Carrier", 2},
-			{"Venator_Star_Destroyer", 2},
+			{"Vector_Star_Destroyer", 2},
 			{"Triumph_Star_Destroyer", 1},
 		}
 	},
@@ -109,7 +109,7 @@ return {
 			{"Imperial_Stormtrooper_Company", 5},
 			{"Tartan_Patrol_Cruiser", 5},
 			{"Imperial_DP20", 5},
-			{"Gian_Company", 4},
+			{"Chariot_LAV_Company", 4},
 			{"1L_Tank_Company", 4},
 		},
 		{
@@ -125,7 +125,7 @@ return {
 			{"Nova_Stormtrooper_Company", 3},
 			{"Lancet_Air_Artillery_Company", 2},
 			{"Victory_II_Carrier", 2},
-			{"Venator_Star_Destroyer", 2},
+			{"Vector_Star_Destroyer", 2},
 			{"Triumph_Star_Destroyer", 1},
 		}
 	},
@@ -135,7 +135,7 @@ return {
 			{"Imperial_Stormtrooper_Company", 5},
 			{"Tartan_Patrol_Cruiser", 5},
 			{"Imperial_DP20", 5},
-			{"Gian_Company", 4},
+			{"Chariot_LAV_Company", 4},
 			{"1L_Tank_Company", 4},
 		},
 		{
@@ -151,7 +151,7 @@ return {
 			{"Nova_Stormtrooper_Company", 3},
 			{"Lancet_Air_Artillery_Company", 2},
 			{"Victory_II_Carrier", 2},
-			{"Venator_Star_Destroyer", 2},
+			{"Vector_Star_Destroyer", 2},
 			{"Triumph_Star_Destroyer", 1},
 		}
 	},
@@ -161,7 +161,7 @@ return {
 			{"Imperial_Stormtrooper_Company", 5},
 			{"Tartan_Patrol_Cruiser", 5},
 			{"Imperial_DP20", 5},
-			{"Gian_Company", 4},
+			{"Chariot_LAV_Company", 4},
 			{"1L_Tank_Company", 4},
 		},
 		{
@@ -177,7 +177,7 @@ return {
 			{"Nova_Stormtrooper_Company", 3},
 			{"Lancet_Air_Artillery_Company", 2},
 			{"Victory_II_Carrier", 2},
-			{"Venator_Star_Destroyer", 2},
+			{"Vector_Star_Destroyer", 2},
 			{"Triumph_Star_Destroyer", 1},
 		}
 	},
@@ -187,7 +187,7 @@ return {
 			{"Imperial_Stormtrooper_Company", 5},
 			{"Tartan_Patrol_Cruiser", 5},
 			{"Imperial_DP20", 5},
-			{"Gian_Company", 4},
+			{"Chariot_LAV_Company", 4},
 			{"1L_Tank_Company", 4},
 		},
 		{
@@ -203,7 +203,7 @@ return {
 			{"Nova_Stormtrooper_Company", 3},
 			{"Lancet_Air_Artillery_Company", 2},
 			{"Victory_II_Carrier", 2},
-			{"Venator_Star_Destroyer", 2},
+			{"Vector_Star_Destroyer", 2},
 			{"Triumph_Star_Destroyer", 1},
 		}
 	},
@@ -213,7 +213,7 @@ return {
 			{"Imperial_Stormtrooper_Company", 5},
 			{"Tartan_Patrol_Cruiser", 5},
 			{"Imperial_DP20", 5},
-			{"Gian_Company", 4},
+			{"Chariot_LAV_Company", 4},
 			{"1L_Tank_Company", 4},
 		},
 		{
@@ -229,7 +229,7 @@ return {
 			{"Nova_Stormtrooper_Company", 3},
 			{"Lancet_Air_Artillery_Company", 2},
 			{"Victory_II_Carrier", 2},
-			{"Venator_Star_Destroyer", 2},
+			{"Vector_Star_Destroyer", 2},
 			{"Triumph_Star_Destroyer", 1},
 		}
 	},
@@ -239,7 +239,7 @@ return {
 			{"Imperial_Stormtrooper_Company", 5},
 			{"Tartan_Patrol_Cruiser", 5},
 			{"Imperial_DP20", 5},
-			{"Gian_Company", 4},
+			{"Chariot_LAV_Company", 4},
 			{"1L_Tank_Company", 4},
 		},
 		{
@@ -255,7 +255,7 @@ return {
 			{"Nova_Stormtrooper_Company", 3},
 			{"Lancet_Air_Artillery_Company", 2},
 			{"Victory_II_Carrier", 2},
-			{"Venator_Star_Destroyer", 2},
+			{"Vector_Star_Destroyer", 2},
 			{"Triumph_Star_Destroyer", 1},
 		}
 	},
@@ -265,7 +265,7 @@ return {
 			{"Imperial_Stormtrooper_Company", 5},
 			{"Tartan_Patrol_Cruiser", 5},
 			{"Imperial_DP20", 5},
-			{"Gian_Company", 4},
+			{"Chariot_LAV_Company", 4},
 			{"1L_Tank_Company", 4},
 		},
 		{
@@ -281,7 +281,7 @@ return {
 			{"Nova_Stormtrooper_Company", 3},
 			{"Lancet_Air_Artillery_Company", 2},
 			{"Victory_II_Carrier", 2},
-			{"Venator_Star_Destroyer", 2},
+			{"Vector_Star_Destroyer", 2},
 			{"Triumph_Star_Destroyer", 1},
 		}
 	},

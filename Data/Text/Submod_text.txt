@@ -158,6 +158,9 @@ TEXT_GROUND_SLAVE_MARKET,Slave Market
 TEXT_H60_SQUADRON,H-60 Tempest Squadron
 TEXT_H60_SQUADRON_HALF,H-60 Tempest Squadron 1/2
 TEXT_H60_SQUADRON2,H-60 Tempest Squadron x2
+TEXT_HEADHUNTER_MODERNIZED_SQUADRON,Modernized Z-95 Headhunter Squadron
+TEXT_HEADHUNTER_MODERNIZED_SQUADRON_HALF,Modernized Z-95 Headhunter Squadron 1/2
+TEXT_HEADHUNTER_MODERNIZED_SQUADRON2,Modernized Z-95 Headhunter Squadron x2
 TEXT_HERO_1214,Destruction1214
 TEXT_HERO_ABAN,Aban
 TEXT_HERO_BENJO,Benjo
@@ -533,6 +536,14 @@ TEXT_STATBLOCK_YV929_WEAP1,1x Fighter Turbolaser: 4 / 3.0s / 1.0km
 TEXT_STATBLOCK_YV929_WEAP2,1x Fighter Ion Cannon: 2 / 2.0s / 1.0km
 TEXT_STATBLOCK_YV929_WEAP3,1x Fighter Laser Cannon: 6 / 3.0s / 1.0km
 TEXT_STATBLOCK_YV929_WEAP4,1x Fighter Assault Concussion Missile: 2 / 25.0s / 1.8km
+TEXT_STATBLOCK_Z95_MODERNIZED_BASE,Health: 10 | Shields: 4
+TEXT_STATBLOCK_Z95_MODERNIZED_MOVE,Speed: 7.0 | Maneuverability: 4.4
+TEXT_STATBLOCK_Z95_MODERNIZED_SQUADRON,Squadron: 12x Modernized Z-95 Headhunter
+TEXT_STATBLOCK_Z95_MODERNIZED_SQUADRON_DOUBLE,Squadron: 24x Modernized Z-95 Headhunter
+TEXT_STATBLOCK_Z95_MODERNIZED_SQUADRON_HALF,Squadron: 6x Modernized Z-95 Headhunter
+TEXT_STATBLOCK_Z95_MODERNIZED_WEAP1,1x Fighter Laser Cannon: 4 / 2.0s / 1.0km
+TEXT_STATBLOCK_Z95_MODERNIZED_WEAP2,1x Fighter Flechette Missile (AF): 1 / 50.0s / 1.8km
+TEXT_STATBLOCK_Z95_MODERNIZED_WEAP3,1x Fighter Proton Torpedo (AC): 1 / 50.0s / 1.8km
 TEXT_THETA_ASSAULT_SHUTTLE_SQUADRON,Theta Assault Shuttle Squadron
 TEXT_THETA_ASSAULT_SHUTTLE_SQUADRON_HALF,Theta Assault Shuttle Squadron 1/2
 TEXT_THETA_ASSAULT_SHUTTLE_SQUADRON2,Theta Assault Shuttle Squadron x2
@@ -1068,6 +1079,31 @@ TEXT_TOOLTIP_HAG_MOVE,Speed: 1.0 | Turn: 2.0
 TEXT_TOOLTIP_HAG_WEAP1,1x Artillery Cannon: 1 / 8.333s / 1440m
 TEXT_TOOLTIP_HAG_WEAP2,2x AI Blaster Cannons: 2 / 3.0s / 240m
 TEXT_TOOLTIP_HARRSK_UPGRADE2,Upgrade: Mandator-III
+TEXT_TOOLTIP_HEAVY_PDF,Heavy fire support infantry belonging to planetary governments and private organizations affiliated with rather than directly part of galactic powers. Often formed on wealthy worlds with strong military industrial bases, these formations are well-trained and equipped with locally-produced heavy weapons to repulse armored offensives and provide fire support where heavy vehicles are not available. While the firepower each squad can bring to bear is large, their heavy gear weighs them down and makes them reliant on transports to reach destinations quickly. Vulnerable to lighter infantry and best deployed in fortifications or otherwise shielded from return fire.
+TEXT_TOOLTIP_HEAVY_PDF_COMPANY_WEAP1,4x Light Repeating Blaster: 5 / 1.0s / 240m
+TEXT_TOOLTIP_HEAVY_PDF_COMPANY_WEAP2,4x Heavy Repeating Slugthrower: 5 / 1.0s / 280m
+TEXT_TOOLTIP_HEAVY_PDF_COMPANY_WEAP3,8x Portable Ion Cannon: 4 / 10.0s / 320m
+TEXT_TOOLTIP_HEAVY_PDF_COMPANY_WEAP4,8x Proton Grenade Launcher (AV): 1 / 10.0s / 240m
+TEXT_TOOLTIP_HEAVY_PDF_COMPANY_WEAP5,8x Concussion Grenade Launcher (AI): 1 / 10.0s / 240m
+TEXT_TOOLTIP_HEAVY_PDF_COMPANY_WEAP6,8x Heavy AV Missile: 1 / 9.0s / 320m
+TEXT_TOOLTIP_HEAVY_PDF_COMPANY_WEAP7,8x Heavy Flak Missile (AA): 1 / 9.0s / 320m
+TEXT_TOOLTIP_HEAVY_PDF_HEALTH,Health: 16 (Infantry)
+TEXT_TOOLTIP_HEAVY_PDF_MOVE,Speed: 0.75
+TEXT_TOOLTIP_HEAVY_PDF_OFFICER_HEALTH,Health: 21 (Infantry)
+TEXT_TOOLTIP_HEAVY_PDF_SQUAD_WEAP1,1x Light Repeating Blaster 5 / 1.0s / 240m
+TEXT_TOOLTIP_HEAVY_PDF_SQUAD_WEAP2,1x Heavy Repeating Slugthrower: 5 / 1.0s / 280m
+TEXT_TOOLTIP_HEAVY_PDF_SQUAD_WEAP3,2x Portable Ion Cannon: 4 / 10.0s / 320m
+TEXT_TOOLTIP_HEAVY_PDF_SQUAD_WEAP4,2x Proton Grenade Launcher (AV): 1 / 10.0s / 240m
+TEXT_TOOLTIP_HEAVY_PDF_SQUAD_WEAP5,2x Concussion Grenade Launcher (AI): 1 / 10.0s / 240m
+TEXT_TOOLTIP_HEAVY_PDF_SQUAD_WEAP6,2x Heavy AV Missile: 1 / 9.0s / 320m
+TEXT_TOOLTIP_HEAVY_PDF_SQUAD_WEAP7,2x Heavy Flak Missile (AA): 1 / 9.0s / 320m
+TEXT_TOOLTIP_HEAVY_PDF_WEAP1,1x Heavy Repeating Slugthrower: 5 / 1.0s / 280m
+TEXT_TOOLTIP_HEAVY_PDF_WEAP2,1x Proton Grenade Launcher (AV): 1 / 10.0s / 240m
+TEXT_TOOLTIP_HEAVY_PDF_WEAP2B,1x Concussion Grenade Launcher (AI): 1 / 10.0s / 240m
+TEXT_TOOLTIP_HEAVY_PDF_WEAP3,1x Portable Ion Cannon: 4 / 10.0s / 320m
+TEXT_TOOLTIP_HEAVY_PDF_WEAP4,1x Heavy AV Missile: 1 / 9.0s / 320m
+TEXT_TOOLTIP_HEAVY_PDF_WEAP5,1x Heavy Flak Missile (AA): 1 / 9.0s / 320m
+TEXT_TOOLTIP_HEAVY_PDF_WEAP6,1x Light Repeating Blaster: 5 / 1.0s / 240m
 TEXT_TOOLTIP_HETHRIR,A force sensitive Firrerreo who served the Empire as Darth Vader's apprentice and Procurator of Justice, even going so far so to commit genocide against his own species to please his masters. Power-hungry and fanatical, Lord Hethrir founded the Empire Youth insurgency after the Battle of Emperor, building up a secret power base with the aid of Imperial nobles. After the final death of Palpatine in 10 ABY, Hethrir renamed his organization to Empire Reborn and joined forces with the Dark Jedi Desann and Admiral Galak Fyyar to create an army of force-empowered soldiers to unleash upon the galaxy
 TEXT_TOOLTIP_HETHRIR_HEALTH,Health: 210 [2%/5s] (Hero)
 TEXT_TOOLTIP_HETHRIR_MOVE,Speed: 1.3
@@ -1579,6 +1615,7 @@ TEXT_TOOLTIP_X1_WEAP1,1x Lightsaber: 1 / 0.1s / 1m
 TEXT_TOOLTIP_YARNAR,A TIE Fighter pilot stationed on Celanon in the D'Asta Sector during the later phases of Galactic Civil War.
 TEXT_TOOLTIP_YEORG_CAPTISON,Yeorg Captison was a member of the notable Bakuran Captison family of politicians and was married to Tiree Captison. Yeorg was elected to the Bakuran Senate as Prime Minister around four years before the beginning of the Clone Wars. After the Empire took control over Bakura they allowed him to remain as Prime Minister, though the post held little authority, as it was now subservient to the Imperial governor, Wilek Nereus.
 TEXT_TOOLTIP_YV929,A heavily armed corellian freighter that became popular with the pirates and rebels which it was designed to ward off. This "flying brick" as it is often called also made its way to the Corporate Sector Authority. The heavy armor and armament make it well suited to engaging hard targets like cruisers.
+TEXT_TOOLTIP_Z95_HEADHUNTER_MODERNIZED,Over its many decades of service across the galaxy the Z-95 Headhunter has spawned countless variations and refits. This version takes the base hullform and installs modern engines and shield generators, along with an internal proton torpedo launcher and lightweight flechette missiles under the wings in an attempt to compete with more modern fighters at a lower cost. While not as capable as the T-65 X-Wing line, it is still a significant improvement on the base hull.
 TEXT_UNIT_008_SPEEDER,008 Heavy Landspeeder
 TEXT_UNIT_008_SPEEDER_COMPANY,008 Heavy Landspeeder Company
 TEXT_UNIT_1HB_TANK,1-H Repulsortank, Model B
@@ -1656,6 +1693,12 @@ TEXT_UNIT_GPA_RESEARCH,General Purpose Attack Fighter Research
 TEXT_UNIT_H60,H-60 Tempest
 TEXT_UNIT_HAET,HAET-221
 TEXT_UNIT_HAG,HAG-M
+TEXT_UNIT_HEAVY_PDF_AA,Heavy PDF AA Trooper
+TEXT_UNIT_HEAVY_PDF_OFFICER,Heavy PDF Officer
+TEXT_UNIT_HEAVY_PDF_PLATOON,Heavy PDF Platoon
+TEXT_UNIT_HEAVY_PDF_ROCKET,Heavy PDF Rocket Trooper
+TEXT_UNIT_HEAVY_PDF_SQUAD,Heavy PDF Squad
+TEXT_UNIT_HEAVY_PDF_TROOPER,Heavy PDF Trooper
 TEXT_UNIT_HORNET,Hornet Carrier
 TEXT_UNIT_IXIYEN_FIGHTER,Ixiyen Fighter
 TEXT_UNIT_KDY_DEMO_SHIP,KDY Demonstration Dreadnought
@@ -1829,6 +1872,7 @@ TEXT_UNIT_VINDICATOR_CARRIER,Vindicator Heavy Carrier
 TEXT_UNIT_VSHIELDED_RESEARCH,Shielded Walker Research
 TEXT_UNIT_VULTURE_DROID,Vulture Droid Mark 1
 TEXT_UNIT_YV929,YV-929 Armed Freighter
+TEXT_UNIT_Z95_HEADHUNTER_MODERNIZED,Modernized Z-95 Headhunter
 TEXT_V_WING_ESK_SQUADRON,V-wing "Esk" Squadron
 TEXT_V_WING_ESK_SQUADRON_HALF,V-wing "Esk" Squadron 1/2
 TEXT_V_WING_ESK_SQUADRON2,V-wing "Esk" Squadron x2
@@ -1856,16 +1900,3 @@ Z_TEXT_UNIT_GORATH_RESEARCH,Reverse-engineer the Gorath Strike Cruiser
 Z_TEXT_UNIT_MISSILE_BOAT_RESEARCH,Reverse-engineer the Missile Boat
 Z_TEXT_UNIT_MTC_RESEARCH,Reverse-engineer the Modular Taskforce Cruiser
 Z_TEXT_UNIT_SCIMITAR_RESEARCH,Reverse-engineer the Scimitar Assault Bomber
-TEXT_TOOLTIP_Z95_HEADHUNTER_MODERNIZED,Over its many decades of service across the galaxy the Z-95 Headhunter has spawned countless variations and refits. This version takes the base hullform and installs modern engines and shield generators, along with an internal proton torpedo launcher and lightweight flechette missiles under the wings in an attempt to compete with more modern fighters at a lower cost. While not as capable as the T-65 X-Wing line, it is still a significant improvement on the base hull.
-TEXT_UNIT_Z95_HEADHUNTER_MODERNIZED,Modernized Z-95 Headhunter
-TEXT_HEADHUNTER_MODERNIZED_SQUADRON,Modernized Z-95 Headhunter Squadron
-TEXT_HEADHUNTER_MODERNIZED_SQUADRON_HALF,Modernized Z-95 Headhunter Squadron 1/2
-TEXT_HEADHUNTER_MODERNIZED_SQUADRON2,Modernized Z-95 Headhunter Squadron x2
-TEXT_STATBLOCK_Z95_MODERNIZED_BASE,Health: 10 | Shields: 4
-TEXT_STATBLOCK_Z95_MODERNIZED_MOVE,Speed: 7.0 | Maneuverability: 4.4
-TEXT_STATBLOCK_Z95_MODERNIZED_SQUADRON,Squadron: 12x Modernized Z-95 Headhunter
-TEXT_STATBLOCK_Z95_MODERNIZED_SQUADRON_DOUBLE,Squadron: 24x Modernized Z-95 Headhunter
-TEXT_STATBLOCK_Z95_MODERNIZED_SQUADRON_HALF,Squadron: 6x Modernized Z-95 Headhunter
-TEXT_STATBLOCK_Z95_MODERNIZED_WEAP1,1x Fighter Laser Cannon: 4 / 2.0s / 1.0km
-TEXT_STATBLOCK_Z95_MODERNIZED_WEAP2,1x Fighter Flechette Missile (AF): 1 / 50.0s / 1.8km
-TEXT_STATBLOCK_Z95_MODERNIZED_WEAP3,1x Fighter Proton Torpedo (AC): 1 / 50.0s / 1.8km

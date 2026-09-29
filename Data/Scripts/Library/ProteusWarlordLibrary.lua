@@ -1212,7 +1212,7 @@ return {
 				"Imperial_I_Star_Destroyer_Patrol", "Invincible_Cruiser", "Procurator_Battlecruiser",
 				"Praetor_I_Battlecruiser", "Mandator_II_Dreadnought",
 				-- Ground
-				"Mercenary_Company", "Imperial_Army_Trooper_Company",
+				"Mercenary_Company", "Imperial_Army_Trooper_Company", "Heavy_PDF_Company",
 				"SP9_Group", "Imperial_ULAV_Company", "Espo_Walker_91_Company", 
 				"AV_7_Company", "Imperial_VAAT_Company", "T4A_Company", "Imperial_UT_AA_Company", "SPMAT_Company",
 				"Imperial_A5_Juggernaut_Company", "Tracked_Mobile_Base_Company",
@@ -1475,7 +1475,7 @@ return {
 			HeroList = {"Tharkus_Greed", "Vaskor_Blitz", "Ghek_Patroller", "Dakova_Prefect", "Pollux_Team", "Kastor_Team", "Kantos_Team", "Voss_Team"},
 			UnlockList = {
 				-- Space
-				"YZ_775_Freighter_Group", "Customs_Corvette","CR92A", "Carrack_Cruiser","Star_Galleon","Surveyor_Frigate", "Patrol_Nebulon_B", "Quasar", "Strike_Cruiser", 
+				"YZ_775_Freighter_Group", "Customs_Corvette","CR92A", "Carrack_Cruiser","Nebulon_B_Tender","Surveyor_Frigate", "Patrol_Nebulon_B", "Quasar", "Strike_Cruiser", 
 				"Pursuit_Light_Cruiser", "Modernized_DHC", "Immobilizer_418", "Imperial_II_Frigate", "Victory_II_Star_Destroyer",
 				"Imperial_I_Star_Destroyer", "Imperial_II_Star_Destroyer", "Interdictor_Star_Destroyer",
 				"Allegiance_Battlecruiser", "Bellator_Star_Dreadnought",
