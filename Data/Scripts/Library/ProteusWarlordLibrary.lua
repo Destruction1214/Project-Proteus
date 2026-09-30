@@ -116,10 +116,10 @@ return {
 			HeroList = {"Ramier_Team","Trier_Secutor","Lacmar_Team","Maston_Team","Tilas_Magore_Team"},
 			UnlockList = {
 				-- Space
-				"VT49_Decimator_Group", "Imperial_CR90", "Tartan_Patrol_Cruiser", "Marauder_Picket_Cruiser", "Victory_I_Frigate", "Galleon_Minelayer",
+				"VT49_Decimator_Group", "Imperial_CR90", "Tartan_Patrol_Cruiser", "Marauder_Picket_Cruiser", "Victory_I_Frigate", "Galleon_Minelayer", "Eidolon", 
 				"Rep_DHC", "Gladiator_I", "Acclamator_I_Supercruiser", "Neutron_Star_Tender", "Victory_I_Star_Destroyer", "Victory_II_Carrier", 
 				"Imperial_I_Star_Destroyer", "Tector_Star_Destroyer", "Secutor_Star_Destroyer", "Acclamator_Destroyer", 
-				"Impellor_Carrier", "Praetor_I_Battlecruiser", "Bellator_Star_Dreadnought",
+				"Praetor_I_Battlecruiser", "Bellator_Star_Dreadnought",
 				-- Ground 
 				"Imperial_Army_Trooper_Company", "Navy_Commando_Company", "ISB_Infiltrator_Company", "Imperial_Army_74Z_Bike_Company", 
 				"AT_ST_Company", "Chariot_LAV_Company", "PX7_Company", 
@@ -193,7 +193,7 @@ return {
 			UnlockList = {
 				-- Space	
 				"Guardian_Cruiser_Group", "Imperial_CR90", "Action_VI_Support", "Marauder_Cruiser", "Quasar", "Star_Galleon", "Super_Transport_VI", "Super_Transport_VII_Missile",
-				 "DHC_Interdictor", "PDF_DHC", "Neutron_Star", "Captor", "Super_Transport_XI_Modified", "Victory_I_Star_Destroyer",
+				"DHC_Interdictor", "PDF_DHC", "Neutron_Star", "Captor", "Super_Transport_XI_Modified", "Victory_I_Star_Destroyer",
 				"Imperial_I_Star_Destroyer_Command", "Imperial_II_Star_Destroyer_Sentry", "Invincible_Cruiser", 
 				"Communications_Battlecruiser", "Mandator_III_Dreadnought",
 				-- Ground
@@ -926,7 +926,7 @@ return {
 				"Imperial_Fleet_Commando_Company", "EVO_Trooper_Company", "64_Y_Swift_Repulsorlift_Sled_Company",
 				"Imperial_AT_RT_Company", "Imperial_ULAV_Company", 
 				"Imperial_TX130T_Company", "Deathhawk_Company", "Imperial_Shadow_LAAT_Company", "AT_AA_Missile_Walker_Company", "SPMAG_Walker_Company", "SPMAT_Company",
-				"Imperial_A5_Juggernaut_Company", "Lancet_Air_Artillery_Company", 
+				"A6_Prototype_Company", "Lancet_Air_Artillery_Company", 
 			},
 			FactionOverride = "Empire",
 			FactionOverride2 = "Zsinj_Empire",
@@ -945,7 +945,7 @@ return {
 				"Gamma_ATR_6_Group", "IPV1", "Tartan_Patrol_Cruiser", "Active_Frigate", "Arquitens_Refit",  
 				"DHC_Gunboat", "Immobilizer_Twin_Well", "Acclamator_II", "Imperial_I_Frigate", "Proteus_Cargo_Ship", "Victory_II_Star_Destroyer", "Procursator_Star_Destroyer", 
 				"Imperial_I_Star_Destroyer_Assault", "Imperial_I_Star_Destroyer_Command",
-				"Allegiance_Battlecruiser", "Compellor_Battlecruiser", "Executor_Star_Dreadnought",
+				"Allegiance_Battlecruiser", "Executor_Star_Dreadnought",
 				-- Ground
 				"Faux_Stormtrooper_Company", "Imperial_Galactic_Marine_Company", "IntSec_Operator_Company", "Imperial_74Z_Bike_Company", 
 				"Repulsor_Scout_Company", "RTT_Company", "Chariot_LAV_Company", 
@@ -1136,11 +1136,11 @@ return {
 				-- Space 
 				"Beta_ETR_3_Group", "IPV1", "Lancer_Frigate", "Marauder_Missile_Cruiser", "Class_C_Frigate", "CC7700_E", 
 				"Proteus_Missile_DHC", "Gladiator_II", "Proficient_Tender", "Broadside_Cruiser", "Captor", "Procursator_Star_Destroyer",
-				"Imperial_I_Star_Destroyer_Assault", "Triumph_Star_Destroyer", "Invincible_Cruiser", "Maelstrom_Battlecruiser",  
-				"Bulwark_III", "Mandator_II_Dreadnought", "KDY_Demonstration_Dreadnought", 
+				"Imperial_I_Star_Destroyer_Assault", "Triumph_Star_Destroyer", "Maelstrom_Battlecruiser",  
+				"Bulwark_III", "Assault_Sphere", "KDY_Demonstration_Dreadnought", 
 				-- Ground
 				"PDF_Tactical_Unit_Company", "Imperial_Dwarf_Spider_Droid_Company", "Overracer_Speeder_Bike_Company",
-				"AT_ST_Company", "AAC_1_Company", "SD_6_Droid_Company_Generic", "SD_9_Droid_Company_Generic", "SD_10_Droid_Company_Generic",
+				"AT_ST_Company", "AAC_1_Company", "RTT_Company", "SD_9_Droid_Company_Generic", "SD_10_Droid_Company_Generic",
 				"Freerunner_Assault_Company", "MAL_Rocket_Vehicle_Company", "AT_AA_Missile_Walker_Company", "X1_Viper_Droid_Company_Generic", 
 				"Tracked_Mobile_Base_Company", "Imperial_AT_TE_Walker_Company",
 				-- Research
@@ -1355,8 +1355,8 @@ return {
 				"Triumph_Star_Destroyer", "Invincible_Cruiser",
 				"Assertor_Star_Dreadnought",
 				-- Ground
-				"Imperial_Army_Guard_Company", "Imperial_Fleet_Commando_Company", "64_Y_Swift_Repulsorlift_Sled_Company", --Add PDF Heavy Troopers
-				"PX10_Company", "ULAV_Early_Company",
+				"Imperial_Army_Guard_Company", "Heavy_PDF_Company", "Imperial_Fleet_Commando_Company", "64_Y_Swift_Repulsorlift_Sled_Company", 
+				"SP9_Company", "ULAV_Early_Company",
 				"008_Speeder_Company", "Imperial_VAAT_Company", "AV_7_Company", "AT_AA_Flak_Walker_Company", 
 				"Teklos_Company",
 				-- Research
