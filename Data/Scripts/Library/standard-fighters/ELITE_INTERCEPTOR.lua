@@ -176,6 +176,10 @@ return {
 			end
 		end
 		
+		if double then
+			suffix = Double_Suffix(suffix)
+		end
+		
 		if suffix then
 			fighter = fighter .. suffix
 		end
