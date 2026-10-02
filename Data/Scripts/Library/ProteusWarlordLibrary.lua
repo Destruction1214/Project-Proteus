@@ -1179,6 +1179,33 @@ return {
 			IntroText = "",
 			IntroHolo = "Imperial_Naval_Officer_Loop",
 		},
+		["BORMEA"] = {
+			FriendlyName = "Bormea Sector Command",
+			Planets = {"BRENTAAL","CHANDRILA","CORULAG"},
+			LeaderTable = {["CAGLIO"] = {"JAMSON_CAGLIO"}},
+			LeaderEndingNames = {"Grand Moff Caglio"},
+			HeroList = {"Jamson_Caglio", "Fouc_Impounder", "Dalia_Tovin_Team", "Lon_Isoto_Eviscerator"}, 
+			UnlockList = {
+				-- Space 
+				"Guardian_Cruiser_Group", "Customs_Corvette", "Action_VI_Refit", "Vigil", "Carrack_Cruiser", "Starbolt", "Nebulon_B_Tender", "Surveyor_Frigate", 
+				"Acclamator_I_Support", "Acclamator_Patrol_Refit", "Super_Transport_XI_Modified", "Victory_I_Star_Destroyer_Patrol", "Immobilizer_418_Refit", "Procursator_Star_Destroyer",
+				"Imperial_I_Star_Destroyer_Patrol", "Interdictor_Star_Destroyer", "Procurator_Battlecruiser", 
+				"Communications_Battlecruiser", "Bellator_Star_Dreadnought", 
+				-- Ground
+				"Imperial_Navy_Trooper_Company", "Customs_Patrol_Company", "Combat_Probot_Company",
+				"TIE_Mauler_Company", "RTT_Company", "Chariot_LAV_Company",
+				"TIE_Crawler_Company", "Imperial_A5RX_Company", "Imperial_LAAT_Company", "Imperial_Missile_Artillery_Company", 
+				"B5_Juggernaut_Company", "Teklos_Company",
+				-- Research
+				"Bormea_Modernization", "Fouc_Naval_Transfer",
+			},
+			FactionOverride = "Empire",
+			FactionOverride2 = "Rebel",
+			StartYear = 4,
+			IntroText = "TEXT_CONQUEST_PROTEUS_BORMEA",
+			IntroHolo = "Imperial_Naval_Officer_Loop",
+			CustomRewardTable = true,
+		},
 		["CARIDA"] = {
 			FriendlyName = "Imperial Carida",
 			Planets = {"CARIDA"},
