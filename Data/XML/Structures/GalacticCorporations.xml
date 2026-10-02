@@ -665,7 +665,7 @@
 				<Applicable_Unit_Categories/>
 				<Applicable_Unit_Types> 
 				CR90, DP20, Corellian_Buccaneer, CEC_Light_Cruiser, Starbolt, Proficient, Proficient_Tender, <!-- Strident -->, CC7700, CC7700_E, Imperial_CR90, CR92A, Interceptor_IV_Frigate, Action_VI_Support, Gozanti_Cruiser_Group, YZ_775_Freighter_Group, Charger_C70, Consular_Refit,
-				Action_VI_Support, Action_VI_Refit, LAC, Consular, Interceptor_I_Frigate, Interceptor_II_Frigate, Interceptor_III_Frigate, 
+				Action_VI_Support, Action_VI_Refit, LAC, Consular, Interceptor_I_Frigate, Interceptor_II_Frigate, Interceptor_III_Frigate, Imperial_DP20, 
 				</Applicable_Unit_Types>	 
 				<Price_Reduction_Percentage>0.30</Price_Reduction_Percentage>
 				<Stacking_Category>50</Stacking_Category>
@@ -675,7 +675,7 @@
 				<Applicable_Unit_Categories/>
 				<Applicable_Unit_Types> 
 				CR90, DP20, Corellian_Buccaneer, CEC_Light_Cruiser, Starbolt, Proficient, Proficient_Tender, <!-- Strident -->, CC7700, CC7700_E, Imperial_CR90, CR92A, Interceptor_IV_Frigate, Action_VI_Support, Gozanti_Cruiser_Group, YZ_775_Freighter_Group, Charger_C70, Consular_Refit,
-				Action_VI_Support, Action_VI_Refit, LAC, Consular, Interceptor_I_Frigate, Interceptor_II_Frigate, Interceptor_III_Frigate
+				Action_VI_Support, Action_VI_Refit, LAC, Consular, Interceptor_I_Frigate, Interceptor_II_Frigate, Interceptor_III_Frigate, Imperial_DP20, 
 				</Applicable_Unit_Types>	
 				<Time_Reduction_Percentage>0.30</Time_Reduction_Percentage>
 				<Stacking_Category>50</Stacking_Category>
