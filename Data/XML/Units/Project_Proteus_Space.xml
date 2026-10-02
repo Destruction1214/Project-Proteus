@@ -2992,22 +2992,22 @@
 
 		<Shield_Points>2200</Shield_Points>
 		<Shield_Refresh_Rate>22</Shield_Refresh_Rate>
-		<Tactical_Health>2205</Tactical_Health>
+		<Tactical_Health>2200</Tactical_Health>
 		
 		<CategoryMask>Frigate | AntiCapital | AntiFrigate</CategoryMask>
 
-		<AI_Combat_Power>733</AI_Combat_Power>
-		<Build_Cost_Credits>1400</Build_Cost_Credits>
+		<AI_Combat_Power>727</AI_Combat_Power>
+		<Build_Cost_Credits>1575</Build_Cost_Credits>
 		<Build_Time_Seconds>14</Build_Time_Seconds>
 		<Override_Bounty_SP>20</Override_Bounty_SP>
 		<Maintenance_Cost>8</Maintenance_Cost>
-		<Population_Value>8</Population_Value>
+		<Population_Value>7</Population_Value>
 
 		<Affiliation>Independent_Forces,Imperial_Proteus</Affiliation>
 
 		<No_Colorization_Color/>
-		<Starting_Spawned_Units_Tech_0>TIE_GT_Squadron_Half, 1</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>TIE_GT_Squadron_Half, 1</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Howlrunner_Squadron_Half, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Howlrunner_Squadron_Half, 1</Reserve_Spawned_Units_Tech_0>
 		<Tech_Level>0</Tech_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Special_Structures>
