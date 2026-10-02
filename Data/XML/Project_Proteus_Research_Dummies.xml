@@ -949,7 +949,7 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_TECHUPGRADE </Encyclopedia_Unit_Class>
 		<Encyclopedia_Text> TEXT_TOOLTIP_DASTA_PROCURE_FIGHTERS </Encyclopedia_Text>
 
-		<Icon_Name>I_BUTTON_DASTA_FIGHTER_RESEARCH.TGA.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_DASTA_FIGHTER_RESEARCH.TGA</Icon_Name>
 		<GUI_Row>1</GUI_Row>
 
 		<Affiliation>Imperial_Proteus</Affiliation>
