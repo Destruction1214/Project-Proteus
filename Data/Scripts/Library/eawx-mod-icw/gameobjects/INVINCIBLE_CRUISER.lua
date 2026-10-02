@@ -1,7 +1,7 @@
 return {
 	Ship_Crew_Requirement = 680,
 	Fighters = {
-		["FIGHTER"] = {
+		["FIGHTER_DOUBLE"] = {
 			DEFAULT = {Initial = 1, Reserve = 2, HeroOverride = {{"KRIN_INVINCIBLE"}, {"SHIELDED_IRDA_SQUADRON_DOUBLE"}}}
 		},
 		["LIGHT_FIGHTERBOMBER"] = {
