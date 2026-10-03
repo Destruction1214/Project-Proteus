@@ -1549,7 +1549,7 @@ return {
 		},
 		["X1"] = {
 			FriendlyName = "X1's Empire",
-			Planets = {"MUSTAFAR", "VJUN"},
+			Planets = {{"MUSTAFAR", "VJUN"}, [9] = {"MUSTAFAR", "VJUN", "DATHOMIR"}},
 			LeaderTable = {["X1_TEAM"] = {"X1"}},
 			LeaderEndingNames = {"High Emperor X1"},
 			HeroList = {"X1_Team", "Meng_La_Team", "Hal_Razor_Team", "GK121_Team"},
@@ -1568,6 +1568,7 @@ return {
 			},
 			FactionOverride = "Empire",
 			FactionOverride2 = "Zsinj_Empire",
+			FactionOverride3 = "Rebel",
 			--StartYear = 11, (implement later once the map situation is clear)
 			IntroText = "TEXT_CONQUEST_PROTEUS_X1_FACTION",
 			IntroHolo = "",
