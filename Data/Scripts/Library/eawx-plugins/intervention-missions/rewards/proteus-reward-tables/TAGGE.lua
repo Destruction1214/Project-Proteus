@@ -8,7 +8,7 @@ return {
             {"AA70_Command_Truck_Company", 3},
         },
         {
-	    {"Imperial_Stormtrooper_Company", 5},
+	        {"Imperial_Stormtrooper_Company", 5},
             {"Army_Special_Missions_Company", 5},
             {"DHC_Interdictor", 2},
             {"DHC_Carrier", 3},
@@ -31,7 +31,7 @@ return {
             {"AA70_Command_Truck_Company", 3},
         },
         {
-	    {"Imperial_Stormtrooper_Company", 5},
+	        {"Imperial_Stormtrooper_Company", 5},
             {"Army_Special_Missions_Company", 5},
             {"DHC_Interdictor", 2},
             {"DHC_Carrier", 3},
@@ -54,7 +54,7 @@ return {
             {"AA70_Command_Truck_Company", 3},
         },
         {
-	    {"Imperial_Stormtrooper_Company", 5},
+	        {"Imperial_Stormtrooper_Company", 5},
             {"Army_Special_Missions_Company", 5},
             {"DHC_Interdictor", 2},
             {"DHC_Carrier", 3},
@@ -77,7 +77,7 @@ return {
             {"AA70_Command_Truck_Company", 3},
         },
         {
-	    {"Imperial_Stormtrooper_Company", 5},
+	        {"Imperial_Stormtrooper_Company", 5},
             {"Army_Special_Missions_Company", 5},
             {"DHC_Interdictor", 2},
             {"DHC_Carrier", 3},
@@ -100,7 +100,7 @@ return {
             {"AA70_Command_Truck_Company", 3},
         },
         {
-	    {"Imperial_Stormtrooper_Company", 5},
+	        {"Imperial_Stormtrooper_Company", 5},
             {"Army_Special_Missions_Company", 5},
             {"DHC_Interdictor", 2},
             {"DHC_Carrier", 3},
@@ -123,7 +123,7 @@ return {
             {"AA70_Command_Truck_Company", 3},
         },
         {
-	    {"Imperial_Stormtrooper_Company", 5},
+	        {"Imperial_Stormtrooper_Company", 5},
             {"Army_Special_Missions_Company", 5},
             {"DHC_Interdictor", 2},
             {"DHC_Carrier", 3},
@@ -146,7 +146,7 @@ return {
             {"AA70_Command_Truck_Company", 3},
         },
         {
-	    {"Imperial_Stormtrooper_Company", 5},
+	        {"Imperial_Stormtrooper_Company", 5},
             {"Army_Special_Missions_Company", 5},
             {"DHC_Interdictor", 2},
             {"DHC_Carrier", 3},
@@ -170,7 +170,7 @@ return {
             {"AA70_Command_Truck_Company", 3},
         },
         {
-	    {"Imperial_Stormtrooper_Company", 5},
+	        {"Imperial_Stormtrooper_Company", 5},
             {"Army_Special_Missions_Company", 5},
             {"DHC_Interdictor", 2},
             {"DHC_Carrier", 3},
@@ -193,7 +193,7 @@ return {
             {"AA70_Command_Truck_Company", 3},
         },
         {
-	    {"Imperial_Stormtrooper_Company", 5},
+	        {"Imperial_Stormtrooper_Company", 5},
             {"Army_Special_Missions_Company", 5},
             {"DHC_Interdictor", 2},
             {"DHC_Carrier", 3},
@@ -216,7 +216,7 @@ return {
             {"AA70_Command_Truck_Company", 3},
         },
         {
-	    {"Imperial_Stormtrooper_Company", 5},
+	        {"Imperial_Stormtrooper_Company", 5},
             {"Army_Special_Missions_Company", 5},
             {"DHC_Interdictor", 2},
             {"DHC_Carrier", 3},
@@ -239,7 +239,7 @@ return {
             {"AA70_Command_Truck_Company", 3},
         },
         {
-	    {"Imperial_Stormtrooper_Company", 5},
+	        {"Imperial_Stormtrooper_Company", 5},
             {"Army_Special_Missions_Company", 5},
             {"DHC_Interdictor", 2},
             {"DHC_Carrier", 3},
@@ -255,17 +255,17 @@ return {
 	},
 	PDF = {
 		{			
-            		{"Destroyer_Droid_I_Q_Company", 4},	
-           		{"Imperial_CR90", 5},
-           		{"Ipv1_Gunboat_Proteus", 5},
+            {"Destroyer_Droid_I_Q_Company", 4},	
+           	{"Imperial_CR90", 5},
+           	{"Ipv1_Gunboat_Proteus", 5},
 			{"Vengeance_Frigate", 4},
 			{"Carrack_Cruiser", 4},
 		},
 		{
-           		{"Imperial_TNT_Company", 3},
-           		{"Captor_Cruiser", 2},
-            		{"Persuader_Company", 3},
-            		{"CA_Artillery_Company", 3},
+           	{"Imperial_TNT_Company", 3},
+           	{"Captor_Cruiser", 2},
+            {"Persuader_Company", 3},
+            {"CA_Artillery_Company", 3},
 		},
 		{
 			{"Imperial_AT_AP_Walker_Company", 2},

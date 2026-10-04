@@ -11,7 +11,7 @@ return {
 		{
 			{"Imperial_Stormtrooper_Company", 5},
 			{"Imperial_Army_Commando_Company", 5},
-			{"AT_PT_Sniper_Company", 4},	
+			--{"AT_PT_Sniper_Company", 4},	
 			{"Imperial_I_Frigate", 3},
 			{"Pursuit_Light_Cruiser", 3},
 		},
@@ -36,7 +36,7 @@ return {
 		{
 			{"Imperial_Stormtrooper_Company", 5},
 			{"Imperial_Army_Commando_Company", 5},
-			{"AT_PT_Sniper_Company", 4},	
+			--{"AT_PT_Sniper_Company", 4},	
 			{"Imperial_I_Frigate", 3},
 			{"Pursuit_Light_Cruiser", 3},
 		},
@@ -61,7 +61,7 @@ return {
 		{
 			{"Imperial_Stormtrooper_Company", 5},
 			{"Imperial_Army_Commando_Company", 5},
-			{"AT_PT_Sniper_Company", 4},	
+			--{"AT_PT_Sniper_Company", 4},	
 			{"Imperial_I_Frigate", 3},
 			{"Pursuit_Light_Cruiser", 3},
 		},
@@ -86,7 +86,7 @@ return {
 		{
 			{"Imperial_Stormtrooper_Company", 5},
 			{"Imperial_Army_Commando_Company", 5},
-			{"AT_PT_Sniper_Company", 4},	
+			--{"AT_PT_Sniper_Company", 4},	
 			{"Imperial_I_Frigate", 3},
 			{"Pursuit_Light_Cruiser", 3},
 		},
@@ -111,7 +111,7 @@ return {
 		{
 			{"Imperial_Stormtrooper_Company", 5},
 			{"Imperial_Army_Commando_Company", 5},
-			{"AT_PT_Sniper_Company", 4},	
+			--{"AT_PT_Sniper_Company", 4},	
 			{"Imperial_I_Frigate", 3},
 			{"Pursuit_Light_Cruiser", 3},
 		},
@@ -136,7 +136,7 @@ return {
 		{
 			{"Imperial_Stormtrooper_Company", 5},
 			{"Imperial_Army_Commando_Company", 5},
-			{"AT_PT_Sniper_Company", 4},	
+			--{"AT_PT_Sniper_Company", 4},	
 			{"Imperial_I_Frigate", 3},
 			{"Pursuit_Light_Cruiser", 3},
 		},
@@ -161,7 +161,7 @@ return {
 		{
 			{"Imperial_Stormtrooper_Company", 5},
 			{"Imperial_Army_Commando_Company", 5},
-			{"AT_PT_Sniper_Company", 4},	
+			--{"AT_PT_Sniper_Company", 4},	
 			{"Imperial_I_Frigate", 3},
 			{"Pursuit_Light_Cruiser", 3},
 		},
@@ -186,7 +186,7 @@ return {
 		{
 			{"Imperial_Stormtrooper_Company", 5},
 			{"Imperial_Army_Commando_Company", 5},
-			{"AT_PT_Sniper_Company", 4},	
+			--{"AT_PT_Sniper_Company", 4},	
 			{"Imperial_I_Frigate", 3},
 			{"Pursuit_Light_Cruiser", 3},
 		},
@@ -211,7 +211,7 @@ return {
 		{
 			{"Imperial_Stormtrooper_Company", 5},
 			{"Imperial_Army_Commando_Company", 5},
-			{"AT_PT_Sniper_Company", 4},	
+			--{"AT_PT_Sniper_Company", 4},	
 			{"Imperial_I_Frigate", 3},
 			{"Pursuit_Light_Cruiser", 3},
 		},
@@ -236,7 +236,7 @@ return {
 		{
 			{"Imperial_Stormtrooper_Company", 5},
 			{"Imperial_Army_Commando_Company", 5},
-			{"AT_PT_Sniper_Company", 4},	
+			--{"AT_PT_Sniper_Company", 4},	
 			{"Imperial_I_Frigate", 3},
 			{"Pursuit_Light_Cruiser", 3},
 		},
@@ -261,7 +261,7 @@ return {
 		{
 			{"Imperial_Stormtrooper_Company", 5},
 			{"Imperial_Army_Commando_Company", 5},
-			{"AT_PT_Sniper_Company", 4},	
+			--{"AT_PT_Sniper_Company", 4},	
 			{"Imperial_I_Frigate", 3},
 			{"Pursuit_Light_Cruiser", 3},
 		},

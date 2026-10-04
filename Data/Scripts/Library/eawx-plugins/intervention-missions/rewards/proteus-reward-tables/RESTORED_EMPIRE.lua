@@ -20,7 +20,7 @@ return {
             {"XR85_Company", 2},
             {"AT_AI_Walker_Company", 3},
             {"Tracked_Shield_Disabler_Company", 2},
-            {"A6_Juggernaut_Company", 1},
+            {"Imperial_A6_Juggernaut_Company", 1},
             {"Liberator_Cruiser", 2},
             {"Imperial_II_Star_Destroyer_Ion", 1},
         }
@@ -46,7 +46,7 @@ return {
             {"XR85_Company", 2},
             {"AT_AI_Walker_Company", 3},
             {"Tracked_Shield_Disabler_Company", 2},
-            {"A6_Juggernaut_Company", 1},
+            {"Imperial_A6_Juggernaut_Company", 1},
             {"Liberator_Cruiser", 2},
             {"Imperial_II_Star_Destroyer_Ion", 1},
         }
@@ -72,7 +72,7 @@ return {
             {"XR85_Company", 2},
             {"AT_AI_Walker_Company", 3},
             {"Tracked_Shield_Disabler_Company", 2},
-            {"A6_Juggernaut_Company", 1},
+            {"Imperial_A6_Juggernaut_Company", 1},
             {"Liberator_Cruiser", 2},
             {"Imperial_II_Star_Destroyer_Ion", 1},
         }
@@ -98,7 +98,7 @@ return {
             {"XR85_Company", 2},
             {"AT_AI_Walker_Company", 3},
             {"Tracked_Shield_Disabler_Company", 2},
-            {"A6_Juggernaut_Company", 1},
+            {"Imperial_A6_Juggernaut_Company", 1},
             {"Liberator_Cruiser", 2},
             {"Imperial_II_Star_Destroyer_Ion", 1},
         }
@@ -124,7 +124,7 @@ return {
             {"XR85_Company", 2},
             {"AT_AI_Walker_Company", 3},
             {"Tracked_Shield_Disabler_Company", 2},
-            {"A6_Juggernaut_Company", 1},
+            {"Imperial_A6_Juggernaut_Company", 1},
             {"Liberator_Cruiser", 2},
             {"Imperial_II_Star_Destroyer_Ion", 1},
         }
@@ -150,7 +150,7 @@ return {
             {"XR85_Company", 2},
             {"AT_AI_Walker_Company", 3},
             {"Tracked_Shield_Disabler_Company", 2},
-            {"A6_Juggernaut_Company", 1},
+            {"Imperial_A6_Juggernaut_Company", 1},
             {"Liberator_Cruiser", 2},
             {"Imperial_II_Star_Destroyer_Ion", 1},
         }
@@ -176,7 +176,7 @@ return {
             {"XR85_Company", 2},
             {"AT_AI_Walker_Company", 3},
             {"Tracked_Shield_Disabler_Company", 2},
-            {"A6_Juggernaut_Company", 1},
+            {"Imperial_A6_Juggernaut_Company", 1},
             {"Liberator_Cruiser", 2},
             {"Imperial_II_Star_Destroyer_Ion", 1},
         }
@@ -202,7 +202,7 @@ return {
             {"XR85_Company", 2},
             {"AT_AI_Walker_Company", 3},
             {"Tracked_Shield_Disabler_Company", 2},
-            {"A6_Juggernaut_Company", 1},
+            {"Imperial_A6_Juggernaut_Company", 1},
             {"Liberator_Cruiser", 2},
             {"Imperial_II_Star_Destroyer_Ion", 1},
         }
@@ -228,7 +228,7 @@ return {
             {"XR85_Company", 2},
             {"AT_AI_Walker_Company", 3},
             {"Tracked_Shield_Disabler_Company", 2},
-            {"A6_Juggernaut_Company", 1},
+            {"Imperial_A6_Juggernaut_Company", 1},
             {"Liberator_Cruiser", 2},
             {"Imperial_II_Star_Destroyer_Ion", 1},
         }
@@ -254,7 +254,7 @@ return {
             {"XR85_Company", 2},
             {"AT_AI_Walker_Company", 3},
             {"Tracked_Shield_Disabler_Company", 2},
-            {"A6_Juggernaut_Company", 1},
+            {"Imperial_A6_Juggernaut_Company", 1},
             {"Liberator_Cruiser", 2},
             {"Imperial_II_Star_Destroyer_Ion", 1},
         }
@@ -280,7 +280,7 @@ return {
             {"XR85_Company", 2},
             {"AT_AI_Walker_Company", 3},
             {"Tracked_Shield_Disabler_Company", 2},
-            {"A6_Juggernaut_Company", 1},
+            {"Imperial_A6_Juggernaut_Company", 1},
             {"Liberator_Cruiser", 2},
             {"Imperial_II_Star_Destroyer_Ion", 1},
         }
