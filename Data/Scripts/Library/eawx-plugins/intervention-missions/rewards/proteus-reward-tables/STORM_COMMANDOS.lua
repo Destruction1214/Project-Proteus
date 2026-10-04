@@ -5,7 +5,7 @@ return {
 			{"Imperial_Navy_Trooper_Company", 5},
 			{"Compforce_Assault_Company", 5},			
 			{"Tartan_Patrol_Cruiser", 5},
-			{"AT_PT_Sniper_Company", 4},
+			--{"AT_PT_Sniper_Company", 4},
 			{"PX7_Company", 4},
 		},
 		{
@@ -30,7 +30,7 @@ return {
 			{"Imperial_Navy_Trooper_Company", 5},
 			{"Compforce_Assault_Company", 5},			
 			{"Tartan_Patrol_Cruiser", 5},
-			{"AT_PT_Sniper_Company", 4},
+			--{"AT_PT_Sniper_Company", 4},
 			{"PX7_Company", 4},
 		},
 		{
@@ -55,7 +55,7 @@ return {
 			{"Imperial_Navy_Trooper_Company", 5},
 			{"Compforce_Assault_Company", 5},			
 			{"Tartan_Patrol_Cruiser", 5},
-			{"AT_PT_Sniper_Company", 4},
+			--{"AT_PT_Sniper_Company", 4},
 			{"PX7_Company", 4},
 		},
 		{
@@ -80,7 +80,7 @@ return {
 			{"Imperial_Navy_Trooper_Company", 5},
 			{"Compforce_Assault_Company", 5},			
 			{"Tartan_Patrol_Cruiser", 5},
-			{"AT_PT_Sniper_Company", 4},
+			--{"AT_PT_Sniper_Company", 4},
 			{"PX7_Company", 4},
 		},
 		{
@@ -105,7 +105,7 @@ return {
 			{"Imperial_Navy_Trooper_Company", 5},
 			{"Compforce_Assault_Company", 5},			
 			{"Tartan_Patrol_Cruiser", 5},
-			{"AT_PT_Sniper_Company", 4},
+			--{"AT_PT_Sniper_Company", 4},
 			{"PX7_Company", 4},
 		},
 		{
@@ -130,7 +130,7 @@ return {
 			{"Imperial_Navy_Trooper_Company", 5},
 			{"Compforce_Assault_Company", 5},			
 			{"Tartan_Patrol_Cruiser", 5},
-			{"AT_PT_Sniper_Company", 4},
+			--{"AT_PT_Sniper_Company", 4},
 			{"PX7_Company", 4},
 		},
 		{
@@ -155,7 +155,7 @@ return {
 			{"Imperial_Navy_Trooper_Company", 5},
 			{"Compforce_Assault_Company", 5},			
 			{"Tartan_Patrol_Cruiser", 5},
-			{"AT_PT_Sniper_Company", 4},
+			--{"AT_PT_Sniper_Company", 4},
 			{"PX7_Company", 4},
 		},
 		{
@@ -180,7 +180,7 @@ return {
 			{"Imperial_Navy_Trooper_Company", 5},
 			{"Compforce_Assault_Company", 5},			
 			{"Tartan_Patrol_Cruiser", 5},
-			{"AT_PT_Sniper_Company", 4},
+			--{"AT_PT_Sniper_Company", 4},
 			{"PX7_Company", 4},
 		},
 		{
@@ -205,7 +205,7 @@ return {
 			{"Imperial_Navy_Trooper_Company", 5},
 			{"Compforce_Assault_Company", 5},			
 			{"Tartan_Patrol_Cruiser", 5},
-			{"AT_PT_Sniper_Company", 4},
+			--{"AT_PT_Sniper_Company", 4},
 			{"PX7_Company", 4},
 		},
 		{
@@ -230,7 +230,7 @@ return {
 			{"Imperial_Navy_Trooper_Company", 5},
 			{"Compforce_Assault_Company", 5},			
 			{"Tartan_Patrol_Cruiser", 5},
-			{"AT_PT_Sniper_Company", 4},
+			--{"AT_PT_Sniper_Company", 4},
 			{"PX7_Company", 4},
 		},
 		{
@@ -255,7 +255,7 @@ return {
 			{"Imperial_Navy_Trooper_Company", 5},
 			{"Compforce_Assault_Company", 5},			
 			{"Tartan_Patrol_Cruiser", 5},
-			{"AT_PT_Sniper_Company", 4},
+			--{"AT_PT_Sniper_Company", 4},
 			{"PX7_Company", 4},
 		},
 		{
