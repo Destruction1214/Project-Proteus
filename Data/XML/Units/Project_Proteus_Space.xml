@@ -3727,6 +3727,17 @@
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 	</SpaceUnit> -->
 
+	<SpaceUnit Name="Proteus_Cargo_Ship">
+		<Variant_Of_Existing_Type>Imperial_Cargo_Ship</Variant_Of_Existing_Type>
+		<Space_Model_Name>EV_Proteus_Cargo_Ship.ALO</Space_Model_Name>
+
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Required_Special_Structures>
+		Imperial_Proteus_Shipyard_Level_Two | Imperial_Proteus_Shipyard_Level_Three | Imperial_Proteus_Shipyard_Level_Four,
+		AI_Category_Dummy | Heavy_Frigate_Category_Dummy
+		</Required_Special_Structures>
+	</SpaceUnit>
+	
 	<SpaceUnit Name="Acclamator_I_Support">
 	    <Variant_Of_Existing_Type>Template_Acclamator_I_Carrier</Variant_Of_Existing_Type>
 		
