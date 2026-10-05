@@ -980,4 +980,5 @@ return {
 ["MICHAEL_TERROR"] = true,
 ["MICHAEL_TERROR_DUMMY"] = true,
 ["KDY_DEMONSTRATION_DREADNOUGHT"] = true,
+["ALTOR_CARRIER"] = true,
 }
