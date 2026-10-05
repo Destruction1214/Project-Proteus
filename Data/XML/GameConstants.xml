@@ -2504,6 +2504,7 @@
 		Imperial_Republic_Star_Destroyer,				Data\ShipNames\Star_Destroyer.txt,
 		Assault_Sphere,									Data\ShipNames\Torpedo_Sphere.txt,
 		KDY_Demonstration_Dreadnought, 					Data\ShipNames\KDY_Demo_Ship.txt,
+		Altor_Carrier,									Data\ShipNames\Altor.txt,
 	</ShipNameTextFiles>
 
 	<!-- Main menu in-game demo/attract playback -->

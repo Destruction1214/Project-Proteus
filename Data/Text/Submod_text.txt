@@ -630,6 +630,13 @@ TEXT_TOOLTIP_ACCLAMATOR_DESTROYER_WEAP3,8x Assault Concussion Missiles: 8 / 20.0
 TEXT_TOOLTIP_ACCLAMATOR_DESTROYER_WEAP4,2x Proton Torpedoes: 2 / 7.5s / 5.3km
 TEXT_TOOLTIP_ACCLAMATOR_I_SUPPORT,The end of the Clone Wars saw an explosion in demand for cargo ships and freighters, alongside a post-war surplus of previously mass-produced Acclamators that were no longer needed in peacetime. Thus the remaining military Acclamators were widely converted into cargo ships to meet this new demand, repurposing the vehicle bay into a large cargo bay.
 TEXT_TOOLTIP_ACCLAMATOR_I_SUPPORT_HULL,Hull: 1925 (Frigate)
+TEXT_TOOLTIP_ALTOR_CARRIER,As various warlords began to dig in inside their military fiefdoms, the large Altor-Class Fleet Replenishment Ships, whose purpose was to enable wide-ranging and long-lasting fleet maneuvers and campaigns, saw themselves repurposed for local military operations. In the small scale but fierce fighting of most warlord rivalries, their large configurable volume and imposing size made them adequate mobile defensive stations to deter raids, upgunned with heavy weaponry and modified to house more strikecraft rather than supplies. While still an ad-hoc conversion and less powerful than any other battlecruiser of similar size, this refurbished variant can act as a flagship for a task force or anchor in a defensive battle in the absence of larger enemy vessels. 
+TEXT_TOOLTIP_ALTOR_CARRIER_SHIELD,Shields: 30000 / [75/R] (Capital)
+TEXT_TOOLTIP_ALTOR_CARRIER_SQUADRON,Fighters: 8 / 32 | Bombers: 3 / 9
+TEXT_TOOLTIP_ALTOR_CARRIER_TENDER,Huge Fighter Tender: 1 / 1.0s / 18.2km
+TEXT_TOOLTIP_ALTOR_CARRIER_WEAP1,22x Heavy Dual Turbolasers: 1 / 5.0s / 7.9km
+TEXT_TOOLTIP_ALTOR_CARRIER_WEAP2,2x Heavy Turbolasers: 2 / 5.0s / 7.9km
+TEXT_TOOLTIP_ALTOR_CARRIER_WEAP3,5x Medium Quad Laser Cannons: 2 / 2.5s / 4.9km
 TEXT_TOOLTIP_ARMORED_INTERCEPTOR_RESEARCH_ELROOD,Configure Elroods TIE Interceptors with additional hull plating, granting them improved survivability.
 TEXT_TOOLTIP_ARMYGUARD_SQUAD_MEDIUM_WEAP1,9x Blaster Rifle: 1 / 1.0s / 240m
 TEXT_TOOLTIP_AS_INTERCEPTOR_ELITE,A very rare and expensive modification of the already obscure Shielded Armored TIE Interceptor variant, utilizing its more robust frame to install some torpedo launchers and upgraded laser cannons with power systems to match. The increased power supply and propulsion systems allow the craft to compensate for its increased mass from all the added systems. The result is a heavy fighter with enormous firepower that retains a stunning nimbleness, at the cost of being expensive and requiring a lot of maintenance. These adaptations represent the apex of what the TIE Interceptor hull can achieve even with extensive modifications, only the purpose-build Royal Guard Interceptors surpass them.
@@ -1624,6 +1631,7 @@ TEXT_UNIT_A6_PROTOTYPE,A6 Juggernaut Prototype
 TEXT_UNIT_ACCLAMATOR_BATTLESHIP,Acclamator Battleship
 TEXT_UNIT_ACCLAMATOR_DESTROYER,Acclamator Destroyer
 TEXT_UNIT_ACCLAMATOR_I_SUPPORT,Acclamator Cargo Ship
+TEXT_UNIT_ALTOR_CARRIER,Altor Carrier
 TEXT_UNIT_ARMYGUARD_MEDIC,Army Guard Medic
 TEXT_UNIT_ARMYGUARD_MEDIC_SQUAD,Army Guard Medic Squad
 TEXT_UNIT_ARMYGUARD_MEDIUM_SQUAD,Army Guard Fireteam

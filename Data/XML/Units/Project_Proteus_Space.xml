@@ -7011,6 +7011,122 @@
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 	</SpaceUnit>
 
+	<SpaceUnit Name="Altor_Carrier">
+		<Variant_Of_Existing_Type>Template_Altor_Replenishment_Ship</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_ALTOR_CARRIER</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_ALTOR_CARRIER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_ALTOR_HULL
+		TEXT_TOOLTIP_ALTOR_CARRIER_SHIELD
+		TEXT_TOOLTIP_ALTOR_MOVE
+		TEXT_TOOLTIP_ALTOR_CARRIER_SQUADRON
+		TEXT_TOOLTIP_ALTOR_CARRIER_WEAP1
+		TEXT_TOOLTIP_ALTOR_CARRIER_WEAP2
+		TEXT_TOOLTIP_ALTOR_CARRIER_WEAP3
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_ALTOR_CARRIER_TENDER
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_ALTOR_CARRIER.tga</Icon_Name>
+
+		<Shield_Points>30000</Shield_Points>
+		<Shield_Refresh_Rate>75</Shield_Refresh_Rate>
+
+		<AI_Combat_Power>4803</AI_Combat_Power>
+
+		<Affiliation>Imperial_Proteus</Affiliation>
+
+		<Maintenance_Cost>145</Maintenance_Cost>
+
+		<Property_Flags> HealsVehicles </Property_Flags>
+
+		<Tech_Level>0</Tech_Level>
+
+		<Build_Cost_Credits>13800</Build_Cost_Credits>
+		<Build_Time_Seconds>240</Build_Time_Seconds>
+
+		<Required_Special_Structures>
+		Imperial_Proteus_Shipyard_Level_Four | Tierfon_Shipyard_Capital,
+		AI_Category_Dummy | Dreadnought_Category_Dummy
+		</Required_Special_Structures>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Population_Value>69</Population_Value>
+
+		<HardPoints>
+			HP_Altor_HSTL_01, HP_Altor_HSTL_02,
+			HP_Altor_HDTL_01, HP_Altor_HDTL_02, HP_Altor_HDTL_03, HP_Altor_HDTL_04, HP_Altor_HDTL_05, HP_Altor_HDTL_06, HP_Altor_HDTL_07, HP_Altor_HDTL_08,
+			HP_Altor_HDTL_09, HP_Altor_HDTL_10, HP_Altor_HDTL_11,HP_Altor_HDTL_12, HP_Altor_HDTL_13, HP_Altor_HDTL_14, HP_Altor_HDTL_15, HP_Altor_HDTL_16,
+			HP_Altor_HDTL_17, HP_Altor_HDTL_18, HP_Altor_HDTL_19, HP_Altor_HDTL_20, HP_Altor_HDTL_21, HP_Altor_HDTL_22,
+			HP_Altor_MQLC_01, HP_Altor_MQLC_02,HP_Altor_MQLC_03, HP_Altor_MQLC_04, HP_Altor_MQLC_05, 
+			HP_Altor_Hangar01, HP_Altor_Hangar02,
+			HP_Altor_Engine01, HP_Altor_Engine02, HP_Altor_Engine03, HP_Altor_Engine04, HP_Altor_Engine05, HP_Altor_Engine06, HP_Altor_Engine07
+		</HardPoints>
+
+		<Targeting_Max_Attack_Distance>3850.0</Targeting_Max_Attack_Distance>
+
+		<Starting_Spawned_Units_Tech_0>Howlrunner_Squadron_Double, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>TIE_Avenger_Squadron_Double, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>TIE_gt_Squadron_Double, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Skipray_Squadron_Double, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Starwing_Squadron_Double, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>TIE_Heavy_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		
+		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
+		
+		<Reserve_Spawned_Units_Tech_0>Howlrunner_Squadron_Double, 4</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>TIE_Avenger_Squadron_Double, 4</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>TIE_gt_Squadron_Double, 4</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Skipray_Squadron_Double, 4</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Starwing_Squadron_Double, 3</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>TIE_Heavy_Bomber_Squadron, 3</Reserve_Spawned_Units_Tech_0>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+		  	<Unit_Ability>
+				<Type>HARMONIC_BOMB</Type>
+				<Recharge_Seconds>60</Recharge_Seconds>
+				<Spawned_Object_Type>Proj_Fleet_Tender_Fighter_Heal</Spawned_Object_Type>
+				<Bomb_Countdown_Seconds>0.0</Bomb_Countdown_Seconds>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Force_Area_Heal</SFXEvent_GUI_Unit_Ability_Activated>
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_FLEET_TENDER_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_FLEET_TENDER_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>i_sa_repair_vehicle.tga</Alternate_Icon_Name>
+				<Supports_Autofire>True</Supports_Autofire>
+		  	</Unit_Ability>
+		</Unit_Abilities_Data>
+
+	   <Abilities SubObjectList="Yes">
+			<Force_Healing_Ability Name="Altor_Huge_Fighter_Tender">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Heal_Range>9100.0</Heal_Range>
+				<Heal_Amount> 1.0 </Heal_Amount>
+				<Heal_Interval_In_Secs>1.0</Heal_Interval_In_Secs>
+				<Single_Target_Heal>No</Single_Target_Heal> <!-- Huge Tender -->
+				<Heal_Range_Blob_Material>Space_Repair_Fighter_Radius_Overlay</Heal_Range_Blob_Material>
+				<!-- We can heal the following unit types: -->
+				<Applicable_Unit_Categories>Fighter, Bomber</Applicable_Unit_Categories>
+				<Applicable_Unit_Types/>
+				<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
+				<Target_Particle_Effect>Shield_Sparks_Medium</Target_Particle_Effect>
+				<Target_Particle_Bone_Name>B_TURRET, TURRET_00, B_TURRET_BASE</Target_Particle_Bone_Name>
+				<Target_Light_Effect_Type>Color_Flash</Target_Light_Effect_Type>
+				<Target_Light_Effect_Color>1.2, 1.2, 2.0</Target_Light_Effect_Color>
+				<Target_Light_Effect_Color2/>
+				<Target_Light_Effect_Duration>0.6</Target_Light_Effect_Duration>
+				<Target_Light_Effect_Pulse_Count>1</Target_Light_Effect_Pulse_Count>
+				<Owner_Particle_Bone_Name>ROOT</Owner_Particle_Bone_Name>
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>1.2, 1.2, 2.0</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2/>
+				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+				<!--<Lightning_Effect_Name>Repair_Facility_Effect</Lightning_Effect_Name>-->
+			</Force_Healing_Ability>
+		</Abilities>
+	</SpaceUnit>
+
 	<SpaceUnit Name="Assault_Sphere">
 		<Variant_Of_Existing_Type>Torpedo_Sphere</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_ASSAULT_SPHERE</Text_ID>
