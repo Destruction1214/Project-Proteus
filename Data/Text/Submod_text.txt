@@ -1211,8 +1211,8 @@ TEXT_TOOLTIP_LICTOR_HULL,Hull: 4550 (Heavy Frigate)
 TEXT_TOOLTIP_LICTOR_MOVE,Speed: 3.85 | Accel: 0.5 | Turn: 0.4
 TEXT_TOOLTIP_LICTOR_SHIELD,Shields: 3900 / [29.25/R] (Heavy Frigate)
 TEXT_TOOLTIP_LICTOR_SQUADRON,Fighters: 1 / 3 
-TEXT_TOOLTIP_LICTOR_TENDER,Fleet Tender: 100 / 1.0s / 2.6km
-TEXT_TOOLTIP_LICTOR_WEAP1,10x Light Quad Turbolasers: 2 / 2.5s / 2.6km
+TEXT_TOOLTIP_LICTOR_TENDER,Fleet Tender: 100 / 1.0s / 2.8km
+TEXT_TOOLTIP_LICTOR_WEAP1,10x Light Quad Turbolasers: 2 / 2.5s / 5.4km
 TEXT_TOOLTIP_LUCREHULKBATTLESHIP,Lucrehulk conversion that uses interior space normally reserved for complements/cargo for extra reactors, shield generators and bracing. Mounts a significant amount of turbolasers as a result, while maintaining a dangerous defensive laser grid. Compared to battle carriers it is much better at ship to ship combat but loses out in sheer fighter presence.
 TEXT_TOOLTIP_LUCREHULKBATTLESHIP_HULL,Hull: 26000 (Capital)
 TEXT_TOOLTIP_LUCREHULKBATTLESHIP_MOVE,Speed: 2.1 | Accel: 0.05 | Turn: 0.15
