@@ -831,7 +831,7 @@ TEXT_TOOLTIP_COMMAND_STELLARHALO,Procurator Battlecruiser, Stellar Halo
 TEXT_TOOLTIP_COMMAND_STELLARHALO_MODERNIZED,Modernized Procurator Battlecruiser, Stellar Halo
 TEXT_TOOLTIP_COMMAND_SUPERNOVA,Modernized DHC, Act on Vibes
 TEXT_TOOLTIP_COMMAND_SYNTAX_ERROR,Modified Glory Star Destroyer, SynTax Error
-TEXT_TOOLTIP_COMMAND_T11,Super Transport VII Garbage Scowl
+TEXT_TOOLTIP_COMMAND_T11,Super Transport VII, Garbage Scowl
 TEXT_TOOLTIP_COMMAND_THETA_SQUADRON,TIE Bomber, Theta Squadron
 TEXT_TOOLTIP_COMMAND_VOSS,Sentinel Company
 TEXT_TOOLTIP_COMMAND_YARNAR_SQUADRON,Missile TIE Fighter, Celanon Garrison Squadron
@@ -862,6 +862,14 @@ TEXT_TOOLTIP_CORONA_TENDER_WEAP4,1x Medium Rapid Laser Cannon: 6 / 1.67s / 3.6km
 TEXT_TOOLTIP_CORONA_TENDER_WEAP5,1x Light Rapid Laser Cannon: 6 / 2.5s / 3.1km
 TEXT_TOOLTIP_COYOTE,TODO
 TEXT_TOOLTIP_COYOTE_BOMBER,This wartime direct upgrade to an older Droid Bomber design spun off from the Vulture series. Employed by the Trade Federation in the subjugation of its corporate interests, and would fly under CIS colors when the Trade Federation pledged its military to the Separatists. It is similar to its peer the Hyena Bomber in role and power, swarming enemy capital ships to cripple or eliminate them while pushing through Republic fighter forces. Unusually for the size and design it is equipped with a weak shield, though it does make other performance sacrifices in comparison.
+TEXT_TOOLTIP_CR90B,The CR90B, sometimes refered to as the CR90 "Battleship" was a heavily modified CR90 Corvette outfitted with heavier armor, stronger shields, and an array of light anti-ship weaponry for drastically firepower. The additional weight of the armor, combined with the power draw of the extra weapons and improved shields, reduces the ship's speed compared to the base CR90 or even purpose-built gunboat designs with similar armament.
+TEXT_TOOLTIP_CR90B_HULL,Hull: 720 (Corvette)
+TEXT_TOOLTIP_CR90B_MOVE,Speed: 6.0 | Accel: 0.06 | Turn: 0.8
+TEXT_TOOLTIP_CR90B_SHIELD,Shields: 720 / [14.4/R] (Corvette)
+TEXT_TOOLTIP_CR90B_WEAP1,6x Light Dual Turbolasers: 1 / 5.0s / 5.0km
+TEXT_TOOLTIP_CR90B_WEAP2,2x Light Ion Cannons: 1 / 5.0s / 5.0km
+TEXT_TOOLTIP_CUSTOMS_CORVETTE_GUNBOAT,A configuration of the Rendili Light Corvette trading the stock model's laser turrets for a set of powerful turbolasers, granting the ship the ability to threaten larger ships at the cost of close defense against smaller targets. Less suited for customs and patrol duties, this variant saw some usage among pirates and warlord forces as a fast gunship.
+TEXT_TOOLTIP_CUSTOMS_CORVETTE_GUNBOAT_WEAP1,2x Medium Dual Turbolasers: 2 / 5.0s / 3.0km
 TEXT_TOOLTIP_DAKOVA,Admiral Dakova was an Imperial naval officer present during the chaos following the Battle of Endor. Cautious and pragmatic, Dakova was concerned by High Admiral Tharkus's determination to defy the Imperial Senate and continue the war against the New Republic, warning that doing so would make them rebels themselves. Despite his reservations, Dakova would ultimately serve among the forces gathered under Tharkus's command.
 TEXT_TOOLTIP_DARK_JEDI_REBORN_COMPANY,Company: 5x Reborn Dark Jedi
 TEXT_TOOLTIP_DARK_JEDI_REBORN_HEALTH,Health: 70 [2%/5s] (Hero)
@@ -1148,6 +1156,11 @@ TEXT_TOOLTIP_HORNET_WEAP5,2x Concussion Missiles: 6 / 15.0s / 4.0km
 TEXT_TOOLTIP_HSSISSK,Hssissk is a member of the "Zssik Clan", a small Trandoshan family relegated to minor slaving duties by the ruling clan of Kashyyyk, the Blackscales. Stationed originally outside of the city of Kachirho of Kashyyyk, Hssissk would arrange the transfer of captured Wookiee slaves to the Blackscale Avatar Platform. For a while, Hsssissk has had his eyes set on overthrowing the Blackscale clan and taking over the planet of Kashyyyk for his own family.
 TEXT_TOOLTIP_INCOME_BANKOFTHECORE,Credit Income: +600
 TEXT_TOOLTIP_INCOME_BISCUIT_BARON,Credit Income: +10%
+TEXT_TOOLTIP_ION_VIGIL,Sometimes referred to as 'Customs Destroyers,' these Vigil-Class Star Destroyers were equipped with a weapon loadout more suited for patrol, interdiction and anti-piracy operations, sporting prominent ion cannons and more varied anti-fighter defenses. Taking advantage of the base design's good sensor and targeting packages, these Customs Refits can screen against attacking forces and accurately disable hostile starships. While less capable at fighting off larger ships than the main variant, they can confidently deal with gunships and fighters and use their main guns to support friendly vessels. 
+TEXT_TOOLTIP_ION_VIGIL_WEAP1,3x Medium Dual Ion Cannons: 1 / 5.0s / 6.1km
+TEXT_TOOLTIP_ION_VIGIL_WEAP2,2x Light Ion Cannons: 2 / 5.0s / 5.1km
+TEXT_TOOLTIP_ION_VIGIL_WEAP3,3x Heavy Quad Laser Cannons: 2 / 5.0s / 4.6km
+TEXT_TOOLTIP_ION_VIGIL_WEAP4,2x Concussion Missiles: 1 / 15.0s / 4.1km
 TEXT_TOOLTIP_IRAN_RYAD,Countess Iran Ryad was a human politician who used her wealth and influence to indulge her interest in starfighters and eventually used her connections to take up pilot training. Following the events at Endor, Ryad would requisition a TIE Defender to serve as her personal starfighter 'Red Star 1' and modify its capabilities and appearance. In time, Ryad became a starfighter ace and would form her own squadron, known as Red Star Squadron, which went on to hunt any starships that entered Imperial space without permission; her actions led to her being accused of treason and eventually defeated by Soontir Fel.
 TEXT_TOOLTIP_IRRV,Dimone Irrv was the ranking TaggeCo representative on Goroth Prime. A competent manager and administrator by all accounts, she was also more than capable of engaging in corporate maneuvering, making her one of the most noteworthy managers in the employ of the Tagge Family.
 TEXT_TOOLTIP_IXIYEN_FIGHTER,The latest entry in TransGalMeg's infamous fighter catalog, the Ixiyen is a modular multirole fighter utilized primarily by illegal interests and local defense forces. This configuration of the Ixiyen has an armament comparable to Sienar's TIE Defender but is otherwise inferior in most respects. Able to engage any target type effectively.
@@ -1198,8 +1211,8 @@ TEXT_TOOLTIP_LICTOR_HULL,Hull: 4550 (Heavy Frigate)
 TEXT_TOOLTIP_LICTOR_MOVE,Speed: 3.85 | Accel: 0.5 | Turn: 0.4
 TEXT_TOOLTIP_LICTOR_SHIELD,Shields: 3900 / [29.25/R] (Heavy Frigate)
 TEXT_TOOLTIP_LICTOR_SQUADRON,Fighters: 1 / 3 
-TEXT_TOOLTIP_LICTOR_TENDER,Fleet Tender: 100 / 1.0s / 2.6km
-TEXT_TOOLTIP_LICTOR_WEAP1,10x Light Quad Turbolasers: 2 / 2.5s / 2.6km
+TEXT_TOOLTIP_LICTOR_TENDER,Fleet Tender: 100 / 1.0s / 2.8km
+TEXT_TOOLTIP_LICTOR_WEAP1,10x Light Quad Turbolasers: 2 / 2.5s / 5.4km
 TEXT_TOOLTIP_LUCREHULKBATTLESHIP,Lucrehulk conversion that uses interior space normally reserved for complements/cargo for extra reactors, shield generators and bracing. Mounts a significant amount of turbolasers as a result, while maintaining a dangerous defensive laser grid. Compared to battle carriers it is much better at ship to ship combat but loses out in sheer fighter presence.
 TEXT_TOOLTIP_LUCREHULKBATTLESHIP_HULL,Hull: 26000 (Capital)
 TEXT_TOOLTIP_LUCREHULKBATTLESHIP_MOVE,Speed: 2.1 | Accel: 0.05 | Turn: 0.15
@@ -1305,6 +1318,9 @@ TEXT_TOOLTIP_PROTEUS_FIGHTER_HEROES_SSURUSSK,Ssurussk (Nebula Raiders)
 TEXT_TOOLTIP_PROTEUS_FIGHTER_HEROES_STORMTROOPER_X,Stormtrooper X (Rogue Imperial Squadron)
 TEXT_TOOLTIP_PROTEUS_FIGHTER_HEROES_YARNAR,Yarnar (Celanon Garrison Squadron)
 TEXT_TOOLTIP_PROVIDENCE_PIRATE_SQUADRON,Fighters: 1 / 3 | Bombers: 2 / 6  
+TEXT_TOOLTIP_QUASAR_TENDER,While most well known as an improvised carrier due to its open space-facing cargo hold, the Quasar Fire continued to mainly be used in its intended role as a freighter and supply ship by many galactic governments and entities. Their ubiquity and versatility made them excellent fleet support vessels and tenders when carrying repair teams and spare parts.
+TEXT_TOOLTIP_QUASAR_TENDER_SQUADRON,Fighters: 0.5 / 0.5
+TEXT_TOOLTIP_QUASAR_TENDER_TENDER,Fleet Tender: 50 / 2.0s / 1.7km
 TEXT_TOOLTIP_RBANN,Rbann was a Kubaz Imperial spy who worked directly for Blackhole, the shadowy Director of Imperial Intelligence. In 1 ABY, Blackhole dispatched Rbann to the "Gambler's World" of Vorzyd V, ordering the Kubaz to track prominent Rebel leaders Luke Skywalker and Leia Organa, who Blackhole had learned had been sent to Vorzyd V to disrupt Imperial operations there. Rbann quickly managed to track them to the Casino Royale in the capital city of Efavan, and his stormtroopers overpowered the Rebels and imprisoned them aboard Rbann's ship.
 TEXT_TOOLTIP_REBORN_DARKJEDI,The strongest of Desann's dark side followers, empowered by the Valley of the Jedi and wearing Shadow Armor made from cortosis. While originally few in number, Desann and Hethrir threatened to use the Valley's power to create an entire army of them to unleash upon the Galaxy, prompting intervention by the New Republic Agent and Jedi Kyle Katarn. These Reborn are fearsome duelists, able to cut through most enemies with ease and challenge even trained Jedi. In addition to their lightsabers and force powers, they possess personal cloaking fields for ambushes and infiltration. Extremely hard to put down, but not invincible.
 TEXT_TOOLTIP_REBORN_SHADOWTROOPER,The strongest of Desann's dark side followers, empowered by the Valley of the Jedi and wearing Shadow Armor made from cortosis. While originally few in number, Desann and Hethrir threatened to use the Valley's power to create an entire army of them to unleash upon the Galaxy, prompting intervention by the New Republic Agent and Jedi Kyle Katarn. These Reborn forgo lightsabers in favor of heavy weaponry for sabotage missions and to deal with threats that their lightsaber-wielding brethren struggle against. Extremely hard to put down, but not invincible.
@@ -1484,6 +1500,8 @@ TEXT_TOOLTIP_STAR_DESTROYER_TWO_SENTRY_WEAP4,6x Medium Dual Laser Cannons: 2 / 1
 TEXT_TOOLTIP_STAR_DESTROYER_X,A variant of the venerable Imperial-I Star Destroyer that replaces its rear turbolasers with more powerful batteries found on the Imperial-II. Due to its more expensive armament it is mostly used by higher ranking officers.
 TEXT_TOOLTIP_STAR_DESTROYER_X_HULL,Hull: 8194 (Capital)
 TEXT_TOOLTIP_STAR_DESTROYER_X_SHIELD,Shields: 7850 / [39.25/R] (Capital)
+TEXT_TOOLTIP_STARBOLT_TENDER,An aging Corellian design that in its heyday was popular with planetary militaries and corporate security forces. While never as widespread as the many smaller Corellian Corvette models, it still saw niche use during the Galactic Civil War and beyond thanks to the large and modular internal space common of many CEC designs. This variant carries supplies and repair crews rather than fighter craft and acts as a decently well-armed fleet supply ship.
+TEXT_TOOLTIP_STARBOLT_TENDER_TENDER,Fleet Tender: 50 / 2.0s / 1.9km
 TEXT_TOOLTIP_STARWING_ASSAULT,An alternate loadout of the XG-1 StarWing equipped with assault concussion missiles. This configuration is well suited to engage clustered groups of enemy fighters or assist bombers in actions against frigates and capital ships.
 TEXT_TOOLTIP_STARWING_FIGHTER,An alternate loadout of the XG-1 StarWing equipped with proton torpedoes and anti-fighter concussion missiles. This configuration is well suited to engage nearly any target.
 TEXT_TOOLTIP_STORMTROOPER_HWT_COMPANY,Company: 27x Stormtrooper Weapons Specialist
@@ -1509,7 +1527,7 @@ TEXT_TOOLTIP_SUPERNOVA_SQUADRON,Fighters: 1 / 0
 TEXT_TOOLTIP_SYNTAX_ERROR_WEAP3,2x Light Quad Turbolasers: 2 / 5.0s / 5.3km
 TEXT_TOOLTIP_SYNTAX_ERROR_WEAP6,3x Missiles Trouts: 5 / 12.5s / 7.2km
 TEXT_TOOLTIP_T11,T-11 was an JV-Z1/S DataBank Droid, the Republic counterpart to the Separatist's Tactical Droid line. Following the end of the Clone Wars, T-11 was reassigned to command a garbage scowl and became the subject of a failed reprogramming. T-11's programming started to behave in a manner similar to organics afflicted with psychosis, flashing between his older personality and a slough of new ones.  
-TEXT_TOOLTIP_T11_SQAUDRON, 0.5 / 0 Fighters
+TEXT_TOOLTIP_T11_SQUADRON,Fighters: 0.5 / 0
 TEXT_TOOLTIP_TANNON_PRAJI,The elderly patriarch of House Praji, Tannon Praji was a shrewd businessman and consummate patron of the arts who served as Coruscant's Minister of Ingress during the Separatist Crisis and the Clone Wars. Under his stewardship the Prajii continued to be a staple fixture in political, financial and military affairs in the Republic. Managing to ingratiate himself with Palpatine and his inner circle, Tannon Praji would continue his bureaucratic career under the Empire, though he faded from public view with the years. 
 TEXT_TOOLTIP_TAPANI_ASSAULT_FRIGATE,The Tapani-class Assault Frigate is the primary capital ship utilized in the Tapani Sector and can be found in the fleets of the Tapani Noble Families as well as the Freeworlds. Although they are slow, these heavily armored frigates are equipped with enough firepower to challenge heavier military warships.
 TEXT_TOOLTIP_TAPANI_ASSAULT_FRIGATE_HULL,Hull: 2275 (Heavy Frigate)
@@ -1697,6 +1715,8 @@ TEXT_UNIT_CORONA_TENDER,Corona Tender
 TEXT_UNIT_COYOTE_BOMBER,Coyote Advanced Droid Bomber
 TEXT_UNIT_CR20,CR20 Transport
 TEXT_UNIT_CR25,CR25 Transport
+TEXT_UNIT_CR90B,CR90B Gunboat
+TEXT_UNIT_CUSTOMS_CORVETTE_GUNBOAT,Customs Corvette Gunboat
 TEXT_UNIT_DASTA_PROCURE_FIGHTERS,Fighter Procurement Deal
 TEXT_UNIT_DIAMOND,Diamond Cruiser
 TEXT_UNIT_DREADNAUGHT_I,Dreadnaught Heavy Cruiser Interdictor
@@ -1731,6 +1751,7 @@ TEXT_UNIT_HEAVY_PDF_ROCKET,Heavy PDF Rocket Trooper
 TEXT_UNIT_HEAVY_PDF_SQUAD,Heavy PDF Squad
 TEXT_UNIT_HEAVY_PDF_TROOPER,Heavy PDF Trooper
 TEXT_UNIT_HORNET,Hornet Carrier
+TEXT_UNIT_ION_VIGIL,Customs Refit Vigil Corvette
 TEXT_UNIT_IXIYEN_FIGHTER,Ixiyen Fighter
 TEXT_UNIT_KDY_DEMO_SHIP,KDY Demonstration Dreadnought
 TEXT_UNIT_KIHRAXZ,Kihraxz Fighter
@@ -1784,6 +1805,7 @@ TEXT_UNIT_PRAETOR_I,Praetor-I Battlecruiser
 TEXT_UNIT_PROCURATOR,Procurator Battlecruiser
 TEXT_UNIT_PROCURATOR_UPGRADE,Modernize Procurator
 TEXT_UNIT_PROTEUS_A9_RESEARCH,Acquire A-9 Interceptors.
+TEXT_UNIT_QUASAR_TENDER,Quasar Fire Fleet Tender
 TEXT_UNIT_REBORN_DARKJEDI,Reborn Dark Jedi
 TEXT_UNIT_REBORN_DARKJEDI_COMPANY,Reborn Dark Jedi Squad
 TEXT_UNIT_REBORN_SHADOWTROOPER,Reborn Shadowtrooper
@@ -1861,6 +1883,7 @@ TEXT_UNIT_STAR_DESTROYER_STEALTH,Stealth Imperial-I Star Destroyer
 TEXT_UNIT_STAR_DESTROYER_TWO_ION,Imperial-II Star Destroyer Ion Refit
 TEXT_UNIT_STAR_DESTROYER_TWO_SENTRY,Imperial-II Star Destroyer Garrison Refit
 TEXT_UNIT_STAR_DESTROYER_X,Upgunned Imperial-I Star Destroyer
+TEXT_UNIT_STARBOLT_TENDER,Starbolt Fleet Tender
 TEXT_UNIT_STARWING_ASSAULT,Xg-1 Star Wing Assault
 TEXT_UNIT_STARWING_FIGHTER,Xg-1 Star Wing Fighter
 TEXT_UNIT_STORMTROOPER_HWT_COMPANY,Stormtrooper Weapons Specialist Platoon
@@ -1931,26 +1954,3 @@ Z_TEXT_UNIT_GORATH_RESEARCH,Reverse-engineer the Gorath Strike Cruiser
 Z_TEXT_UNIT_MISSILE_BOAT_RESEARCH,Reverse-engineer the Missile Boat
 Z_TEXT_UNIT_MTC_RESEARCH,Reverse-engineer the Modular Taskforce Cruiser
 Z_TEXT_UNIT_SCIMITAR_RESEARCH,Reverse-engineer the Scimitar Assault Bomber
-TEXT_UNIT_CUSTOMS_CORVETTE_GUNBOAT,Customs Corvette Gunboat
-TEXT_TOOLTIP_CUSTOMS_CORVETTE_GUNBOAT,A configuration of the Rendili Light Corvette trading the stock model's laser turrets for a set of powerful turbolasers, granting the ship the ability to threaten larger ships at the cost of close defense against smaller targets. Less suited for customs and patrol duties, this variant saw some usage among pirates and warlord forces as a fast gunship.
-TEXT_TOOLTIP_CUSTOMS_CORVETTE_GUNBOAT_WEAP1,2x Medium Dual Turbolasers: 2 / 5.0s / 3.0km
-TEXT_UNIT_CR90B,CR90B Gunboat
-TEXT_TOOLTIP_CR90B,The CR90B, sometimes refered to as the CR90 "Battleship" was a heavily modified CR90 Corvette outfitted with heavier armor, stronger shields, and an array of light anti-ship weaponry for drastically improved anti-ship performance. The additional weight of the armor, combined with the power draw of the extra weapons and improved shields, reduces the ship's speed compared to the base CR90 or even purpose-built gunboat designs with similar armament.
-TEXT_TOOLTIP_CR90B_HULL,Hull: 720 (Corvette)
-TEXT_TOOLTIP_CR90B_MOVE,Speed: 6.0 | Accel: 0.06 | Turn: 0.8
-TEXT_TOOLTIP_CR90B_SHIELD,Shields: 720 / [14.4/R] (Corvette)
-TEXT_TOOLTIP_CR90B_WEAP1,6x Light Dual Turbolasers: 1 / 5.0s / 5.0km
-TEXT_TOOLTIP_CR90B_WEAP2,2x Light Ion Cannons: 1 / 5.0s / 5.0km
-TEXT_UNIT_ION_VIGIL,Customs Refit Vigil Corvette
-TEXT_TOOLTIP_ION_VIGIL,A variant of the Vigil Corvette designed for use by customs and imperial security forces. This variant has a heavy focus on ion cannon armament to disable the ships of smugglers and pirates to seize cargo and prisoners.
-TEXT_TOOLTIP_ION_VIGIL_WEAP1,3x Medium Dual Ion Cannons: 1 / 5.0s / 6.1km
-TEXT_TOOLTIP_ION_VIGIL_WEAP2,2x Light Ion Cannons: 2 / 5.0s / 5.1km
-TEXT_TOOLTIP_ION_VIGIL_WEAP3,3x Heavy Quad Laser Cannons: 2 / 5.0s / 4.6km
-TEXT_TOOLTIP_ION_VIGIL_WEAP4,2x Concussion Missiles: 1 / 15.0s / 4.1km
-TEXT_UNIT_STARBOLT_TENDER,Starbolt Fleet Tender
-TEXT_TOOLTIP_STARBOLT_TENDER,A refit of the Starbolt Assault Carrier that fills the hangar bays of the base model with fleet support and logistics equipment, resulting in a capable light fleet tender.
-TEXT_TOOLTIP_STARBOLT_TENDER_TENDER,Fleet Tender: 50 / 2.0s / 1.9km
-TEXT_UNIT_QUASAR_TENDER,Quasar Fire Fleet Tender
-TEXT_TOOLTIP_QUASAR_TENDER,A refit of the common carrier conversion of the SoroSuub freighter design which fills much of its hangar space with supplies and repair equipment, allowing it to serve as a light fleet tender.
-TEXT_TOOLTIP_QUASAR_TENDER_SQUADRON,Fighters: 0.5 / 0.5
-TEXT_TOOLTIP_QUASAR_TENDER_TENDER,Fleet Tender: 50 / 2.0s / 1.7km
