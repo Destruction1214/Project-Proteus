@@ -731,6 +731,31 @@
 		<SFXEvent_Build_Complete>RHD_Research_Complete</SFXEvent_Build_Complete>
 	</DummyStructure>
 
+	<DummyStructure Name="Dummy_Recruit_Urlan_Rendili">
+		<Variant_Of_Existing_Type>Template_Flagship_Swap_NoSelfDelete</Variant_Of_Existing_Type>
+		<GUI_Row> 1 </GUI_Row>
+
+		<Text_ID>TEXT_RECRUIT_URLAN_NAME</Text_ID>
+		<Encyclopedia_Text>TEXT_RECRUIT_URLAN_DESCRIPTION</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STORYEVENT</Encyclopedia_Unit_Class>
+
+		<Icon_Name>I_BUTTON_BENGILA_URLAN.tga</Icon_Name>
+
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Tech_Level>0</Tech_Level>
+		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy, Rendili_HQ</Required_Special_Structures>
+		<Build_Cost_Credits>5000</Build_Cost_Credits>
+		<Build_Time_Seconds>30</Build_Time_Seconds>
+
+		<Population_Value>1</Population_Value>
+
+		<CategoryMask>Upgrade</CategoryMask>
+
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+	</DummyStructure>
+
 	<DummyStructure Name="Dummy_Random_Unit_Rendili_VSD">
 		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
 

@@ -165,6 +165,7 @@ TEXT_HEADHUNTER_MODERNIZED_SQUADRON2,Modernized Z-95 Headhunter Squadron x2
 TEXT_HERO_1214,Destruction1214
 TEXT_HERO_17786,17786
 TEXT_HERO_ABAN,Aban
+TEXT_HERO_BENGILA_URLAN,Bengila Urlan
 TEXT_HERO_BENJO,Benjo
 TEXT_HERO_BRELLAR,Alecs Brellar
 TEXT_HERO_CEX,Tyionsis Cex
@@ -254,6 +255,8 @@ TEXT_PROTEUS_DESCRIPTION_THORN,A secretive dark jedi who pledged his allegiance 
 TEXT_PROTEUS_DESCRIPTION_VEERS,After Veers broke with Sander Delvardus over the latter's mismanagement of the Seswenna campaign, he went north on his own in the wake of the New Republic sweeping through the core worlds and consolidating their power. Many other warlords distrusted Veers due to his past as Vader's favored ground commander, and so he and his loyal men drifted for a while without a power base of their own until he was contacted by a person calling themselves the Omnipotent Battle Leader.
 TEXT_PROTEUS_DESCRIPTION_X1,--TODO TEXT_PROTEUS_DESCRIPTION_X1--
 TEXT_PROTEUS_ROSTER_LAMBDA,Moff Lankin's forces are versatile and unspecialized, with a significant ISB contingent among their ranks to help keep the restive population in line. In space, a roster of efficient vessels can react to any situation and provide support to the massive battlecruisers that serve as anchors of the fleet. On the ground, their armies are adaptable, with a noticeable focus on mechanized assaults.
+TEXT_RECRUIT_URLAN_DESCRIPTION,TODO for Supernova
+TEXT_RECRUIT_URLAN_NAME,Recall Bengila Urlan from Retirement
 TEXT_REPUBLIC_HEADHUNTER_SQUADRON,Republic Z-95 Squadron
 TEXT_REPUBLIC_HEADHUNTER_SQUADRON_DOUBLE,Republic Z-95 Squadron x2
 TEXT_REPUBLIC_HEADHUNTER_SQUADRON_HALF,Republic Z-95 Squadron 1/2
@@ -609,6 +612,9 @@ TEXT_TOOLTIP_1HB_TANK_COMPANY,Company: 2x 1-HB Repulsortank
 TEXT_TOOLTIP_1HB_TANK_WEAP1,1x AV Beam Cannon: 12 / 3.5s / 320m
 TEXT_TOOLTIP_1HB_TANK_WEAP2,2x AV Blaster Cannons: 2 / 2.0s / 400m
 TEXT_TOOLTIP_1HB_TANK_WEAP3,1x Concussion Grenade: 2 / 2.5s / 320m
+TEXT_TOOLTIP_1L_TANK_AV,The original version of the light 1-Series of Imperial Hovertanks, sporting the same medium blaster cannon as the larger 1-M pattern tank. Less well-known than the anti-infantry field adaptation pioneered by Zel Johan's Imperial Hammers, it was less suited to open combat than heavier platforms and also an ill fit for garrison and patrol duties where its heavier gun was overkill. As a result, the stock variant was mostly sidelined in favor of its adaptations or alternative designs. Still very capable of engaging vehicles effectively, but do not stand up to return fire as well.
+TEXT_TOOLTIP_1L_TANK_AV_COMPANY,Company: 4x Imperial-class 1-L Assault Tank
+TEXT_TOOLTIP_1L_TANK_AV_WEAP1,1x AV Blaster Cannon: 1 / 1.0s / 400m
 TEXT_TOOLTIP_A6_PROTOTYPE,A prototype of the A6 Juggernaut, it is rather well armed and armored than its predecessor, the A5 Juggernaut. Though stripped down version of the final product, it is still capable of handling large enemies on it own.
 TEXT_TOOLTIP_A6_PROTOTYPE_HEALTH,Health: 1300 (Heavy Vehicle)
 TEXT_TOOLTIP_A6_PROTOTYPE_INFANTRY_HEAL,1x Infantry Healing: 3 / 1.0s / 160m
@@ -708,6 +714,7 @@ TEXT_TOOLTIP_BAYONET_WEAP2,1x Medium Laser Cannon: 2 / 0.85s / 4.1km
 TEXT_TOOLTIP_BELBULLAB22,Fighter created by the Techno Union in preparation for the Clone Wars to serve as a bulkier and hardier support and escort element within CIS fighter groups. Famously used in a modified form by General Grievous as his personal starfighter, the design had mild continuity among mercenary groups, Force users and resistance cells afterwards.
 TEXT_TOOLTIP_BELBULLAB23,Variant Belbullab design that acts as a heavy assault craft. Armed with heavier weaponry, it is well suited to engage Republic fighters such as the ARC-170, but is more rarely sighted compared to the more standard fighter and bomber Belbullab starfighters.
 TEXT_TOOLTIP_BELBULLAB24,Derivative of the Belbullab design spun into an average-performance bomber. Used as a more individually powerful asset compared to swarms of lighter droid bombers, and remained more popular with holdouts and small cells afterwards due to the pilotable nature. At least one instance was taken by Imperial forces for study.
+TEXT_TOOLTIP_BENGILA_URLAN,Bengila Urlan was the Arch-Provost of Rendili StarDrive during the Clone Wars. As Kuat Drive Yards eclipsed Rendili as the most important shipwright for the Republic, Urlan fought back as best he could, ordering spies and infochants to steal Kuati designs and secret, and poach and perhaps even eliminate key Kuat personnel.
 TEXT_TOOLTIP_BENJO,Benjo, also known as ST-1-2 is one of the original members of Alpha Squadron. Benjo previously flew under the command of Villian Dance as his right panelman and second-in-command. Dance later defected to the Rebel Alliance, at which time Benjo unofficially took command of Alpha Squadron due to his rank. Despite the betrayal of his previous squadron leader, Benjo kept his call sign and still admires Dance for their piloting skill witnessed during their mission in the Horuz system.
 TEXT_TOOLTIP_BONUS_COMMS_DHC_FIGHTER,Communications Ship: 6% Combat bonus for all fighters
 TEXT_TOOLTIP_BONUS_DISCOUNT_COMPANY_LOW2,Price: -10% | Time: -10%
@@ -1640,6 +1647,8 @@ TEXT_UNIT_008_SPEEDER,008 Heavy Landspeeder
 TEXT_UNIT_008_SPEEDER_COMPANY,008 Heavy Landspeeder Company
 TEXT_UNIT_1HB_TANK,1-H Repulsortank, Model B
 TEXT_UNIT_1HB_TANK_COMPANY,1-HB Repulsortank Company
+TEXT_UNIT_1L_TANK_AV,Imperial-class 1-L Assault Tank
+TEXT_UNIT_1L_TANK_AV_COMPANY,1-L Assault Tank Company
 TEXT_UNIT_A6_PROTOTYPE,A6 Juggernaut Prototype
 TEXT_UNIT_ACCLAMATOR_BATTLESHIP,Acclamator Battleship
 TEXT_UNIT_ACCLAMATOR_DESTROYER,Acclamator Destroyer
@@ -1922,8 +1931,3 @@ Z_TEXT_UNIT_GORATH_RESEARCH,Reverse-engineer the Gorath Strike Cruiser
 Z_TEXT_UNIT_MISSILE_BOAT_RESEARCH,Reverse-engineer the Missile Boat
 Z_TEXT_UNIT_MTC_RESEARCH,Reverse-engineer the Modular Taskforce Cruiser
 Z_TEXT_UNIT_SCIMITAR_RESEARCH,Reverse-engineer the Scimitar Assault Bomber
-TEXT_TOOLTIP_1L_TANK_AV,The original version of the light 1-Series of Imperial Hovertanks, sporting the same medium blaster cannon as the larger 1-M pattern tank. Less well-known than the anti-infantry field adaptation pioneered by Zel Johan's Imperial Hammers, it was less suited to open combat than heavier platforms and also an ill fit for garrison and patrol duties where its heavier gun was overkill. As a result, the stock variant was mostly sidelined in favor of its adaptations or alternative designs. Still very capable of engaging vehicles effectively, but do not stand up to return fire as well.
-TEXT_UNIT_1L_TANK_AV_COMPANY,1-L Assault Tank Company
-TEXT_UNIT_1L_TANK_AV,Imperial-class 1-L Assault Tank
-TEXT_TOOLTIP_1L_TANK_AV_COMPANY,Company: 4x Imperial-class 1-L Assault Tank
-TEXT_TOOLTIP_1L_TANK_AV_WEAP1,1x AV Blaster Cannon: 1 / 1.0s / 400m

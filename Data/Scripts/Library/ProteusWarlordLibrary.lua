@@ -1389,7 +1389,7 @@ return {
 				"008_Speeder_Company", "Imperial_VAAT_Company", "AV_7_Company", "AT_AA_Flak_Walker_Company", 
 				"Teklos_Company",
 				-- Research
-				"Dummy_RepublicSD_Rendili", "Dummy_Random_Unit_Rendili_VSD", "Dummy_Random_Unit_Rendili_DHC", "Dummy_Random_Unit_Rendili_NSBC", "Dummy_Random_Unit_Rendili_GSD",
+				"Dummy_Recruit_Urlan_Rendili", "Dummy_Random_Unit_Rendili_VSD", "Dummy_Random_Unit_Rendili_DHC", "Dummy_Random_Unit_Rendili_NSBC", "Dummy_Random_Unit_Rendili_GSD",
 			},
 			FactionOverride = "Empire",
 			StartYear = 4,
