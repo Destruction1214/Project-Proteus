@@ -1931,3 +1931,26 @@ Z_TEXT_UNIT_GORATH_RESEARCH,Reverse-engineer the Gorath Strike Cruiser
 Z_TEXT_UNIT_MISSILE_BOAT_RESEARCH,Reverse-engineer the Missile Boat
 Z_TEXT_UNIT_MTC_RESEARCH,Reverse-engineer the Modular Taskforce Cruiser
 Z_TEXT_UNIT_SCIMITAR_RESEARCH,Reverse-engineer the Scimitar Assault Bomber
+TEXT_UNIT_CUSTOMS_CORVETTE_GUNBOAT,Customs Corvette Gunboat
+TEXT_TOOLTIP_CUSTOMS_CORVETTE_GUNBOAT,A configuration of the Rendili Light Corvette trading the stock model's laser turrets for a set of powerful turbolasers, granting the ship the ability to threaten larger ships at the cost of close defense against smaller targets. Less suited for customs and patrol duties, this variant saw some usage among pirates and warlord forces as a fast gunship.
+TEXT_TOOLTIP_CUSTOMS_CORVETTE_GUNBOAT_WEAP1,2x Medium Dual Turbolasers: 2 / 5.0s / 3.0km
+TEXT_UNIT_CR90B,CR90B Gunboat
+TEXT_TOOLTIP_CR90B,The CR90B, sometimes refered to as the CR90 "Battleship" was a heavily modified CR90 Corvette outfitted with heavier armor, stronger shields, and an array of light anti-ship weaponry for drastically improved anti-ship performance. The additional weight of the armor, combined with the power draw of the extra weapons and improved shields, reduces the ship's speed compared to the base CR90 or even purpose-built gunboat designs with similar armament.
+TEXT_TOOLTIP_CR90B_HULL,Hull: 720 (Corvette)
+TEXT_TOOLTIP_CR90B_MOVE,Speed: 6.0 | Accel: 0.06 | Turn: 0.8
+TEXT_TOOLTIP_CR90B_SHIELD,Shields: 720 / [14.4/R] (Corvette)
+TEXT_TOOLTIP_CR90B_WEAP1,6x Light Dual Turbolasers: 1 / 5.0s / 5.0km
+TEXT_TOOLTIP_CR90B_WEAP2,2x Light Ion Cannons: 1 / 5.0s / 5.0km
+TEXT_UNIT_ION_VIGIL,Customs Refit Vigil Corvette
+TEXT_TOOLTIP_ION_VIGIL,A variant of the Vigil Corvette designed for use by customs and imperial security forces. This variant has a heavy focus on ion cannon armament to disable the ships of smugglers and pirates to seize cargo and prisoners.
+TEXT_TOOLTIP_ION_VIGIL_WEAP1,3x Medium Dual Ion Cannons: 1 / 5.0s / 6.1km
+TEXT_TOOLTIP_ION_VIGIL_WEAP2,2x Light Ion Cannons: 2 / 5.0s / 5.1km
+TEXT_TOOLTIP_ION_VIGIL_WEAP3,3x Heavy Quad Laser Cannons: 2 / 5.0s / 4.6km
+TEXT_TOOLTIP_ION_VIGIL_WEAP4,2x Concussion Missiles: 1 / 15.0s / 4.1km
+TEXT_UNIT_STARBOLT_TENDER,Starbolt Fleet Tender
+TEXT_TOOLTIP_STARBOLT_TENDER,A refit of the Starbolt Assault Carrier that fills the hangar bays of the base model with fleet support and logistics equipment, resulting in a capable light fleet tender.
+TEXT_TOOLTIP_STARBOLT_TENDER_TENDER,Fleet Tender: 50 / 2.0s / 1.9km
+TEXT_UNIT_QUASAR_TENDER,Quasar Fire Fleet Tender
+TEXT_TOOLTIP_QUASAR_TENDER,A refit of the common carrier conversion of the SoroSuub freighter design which fills much of its hangar space with supplies and repair equipment, allowing it to serve as a light fleet tender.
+TEXT_TOOLTIP_QUASAR_TENDER_SQUADRON,Fighters: 0.5 / 0.5
+TEXT_TOOLTIP_QUASAR_TENDER_TENDER,Fleet Tender: 50 / 2.0s / 1.7km
