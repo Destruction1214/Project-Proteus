@@ -862,7 +862,7 @@ TEXT_TOOLTIP_CORONA_TENDER_WEAP4,1x Medium Rapid Laser Cannon: 6 / 1.67s / 3.6km
 TEXT_TOOLTIP_CORONA_TENDER_WEAP5,1x Light Rapid Laser Cannon: 6 / 2.5s / 3.1km
 TEXT_TOOLTIP_COYOTE,TODO
 TEXT_TOOLTIP_COYOTE_BOMBER,This wartime direct upgrade to an older Droid Bomber design spun off from the Vulture series. Employed by the Trade Federation in the subjugation of its corporate interests, and would fly under CIS colors when the Trade Federation pledged its military to the Separatists. It is similar to its peer the Hyena Bomber in role and power, swarming enemy capital ships to cripple or eliminate them while pushing through Republic fighter forces. Unusually for the size and design it is equipped with a weak shield, though it does make other performance sacrifices in comparison.
-TEXT_TOOLTIP_CR90B,The CR90B, sometimes refered to as the CR90 "Battleship" was a heavily modified CR90 Corvette outfitted with heavier armor, stronger shields, and an array of light anti-ship weaponry for drastically improved anti-ship performance. The additional weight of the armor, combined with the power draw of the extra weapons and improved shields, reduces the ship's speed compared to the base CR90 or even purpose-built gunboat designs with similar armament.
+TEXT_TOOLTIP_CR90B,The CR90B, sometimes refered to as the CR90 "Battleship" was a heavily modified CR90 Corvette outfitted with heavier armor, stronger shields, and an array of light anti-ship weaponry for drastically firepower. The additional weight of the armor, combined with the power draw of the extra weapons and improved shields, reduces the ship's speed compared to the base CR90 or even purpose-built gunboat designs with similar armament.
 TEXT_TOOLTIP_CR90B_HULL,Hull: 720 (Corvette)
 TEXT_TOOLTIP_CR90B_MOVE,Speed: 6.0 | Accel: 0.06 | Turn: 0.8
 TEXT_TOOLTIP_CR90B_SHIELD,Shields: 720 / [14.4/R] (Corvette)
@@ -1156,7 +1156,7 @@ TEXT_TOOLTIP_HORNET_WEAP5,2x Concussion Missiles: 6 / 15.0s / 4.0km
 TEXT_TOOLTIP_HSSISSK,Hssissk is a member of the "Zssik Clan", a small Trandoshan family relegated to minor slaving duties by the ruling clan of Kashyyyk, the Blackscales. Stationed originally outside of the city of Kachirho of Kashyyyk, Hssissk would arrange the transfer of captured Wookiee slaves to the Blackscale Avatar Platform. For a while, Hsssissk has had his eyes set on overthrowing the Blackscale clan and taking over the planet of Kashyyyk for his own family.
 TEXT_TOOLTIP_INCOME_BANKOFTHECORE,Credit Income: +600
 TEXT_TOOLTIP_INCOME_BISCUIT_BARON,Credit Income: +10%
-TEXT_TOOLTIP_ION_VIGIL,A variant of the Vigil Corvette designed for use by customs and imperial security forces. This variant has a heavy focus on ion cannon armament to disable the ships of smugglers and pirates to seize cargo and prisoners.
+TEXT_TOOLTIP_ION_VIGIL,Sometimes referred to as 'Customs Destroyers,' these Vigil-Class Star Destroyers were equipped with a weapon loadout more suited for patrol, interdiction and anti-piracy operations, sporting prominent ion cannons and more varied anti-fighter defenses. Taking advantage of the base design's good sensor and targeting packages, these Customs Refits can screen against attacking forces and accurately disable hostile starships. While less capable at fighting off larger ships than the main variant, they can confidently deal with gunships and fighters and use their main guns to support friendly vessels. 
 TEXT_TOOLTIP_ION_VIGIL_WEAP1,3x Medium Dual Ion Cannons: 1 / 5.0s / 6.1km
 TEXT_TOOLTIP_ION_VIGIL_WEAP2,2x Light Ion Cannons: 2 / 5.0s / 5.1km
 TEXT_TOOLTIP_ION_VIGIL_WEAP3,3x Heavy Quad Laser Cannons: 2 / 5.0s / 4.6km
@@ -1318,7 +1318,7 @@ TEXT_TOOLTIP_PROTEUS_FIGHTER_HEROES_SSURUSSK,Ssurussk (Nebula Raiders)
 TEXT_TOOLTIP_PROTEUS_FIGHTER_HEROES_STORMTROOPER_X,Stormtrooper X (Rogue Imperial Squadron)
 TEXT_TOOLTIP_PROTEUS_FIGHTER_HEROES_YARNAR,Yarnar (Celanon Garrison Squadron)
 TEXT_TOOLTIP_PROVIDENCE_PIRATE_SQUADRON,Fighters: 1 / 3 | Bombers: 2 / 6  
-TEXT_TOOLTIP_QUASAR_TENDER,A refit of the common carrier conversion of the SoroSuub freighter design which fills much of its hangar space with supplies and repair equipment, allowing it to serve as a light fleet tender.
+TEXT_TOOLTIP_QUASAR_TENDER,While most well known as an improvised carrier due to its open space-facing cargo hold, the Quasar Fire continued to mainly be used in its intended role as a freighter and supply ship by many galactic governments and entities. Their ubiquity and versatility made them excellent fleet support vessels and tenders when carrying repair teams and spare parts.
 TEXT_TOOLTIP_QUASAR_TENDER_SQUADRON,Fighters: 0.5 / 0.5
 TEXT_TOOLTIP_QUASAR_TENDER_TENDER,Fleet Tender: 50 / 2.0s / 1.7km
 TEXT_TOOLTIP_RBANN,Rbann was a Kubaz Imperial spy who worked directly for Blackhole, the shadowy Director of Imperial Intelligence. In 1 ABY, Blackhole dispatched Rbann to the "Gambler's World" of Vorzyd V, ordering the Kubaz to track prominent Rebel leaders Luke Skywalker and Leia Organa, who Blackhole had learned had been sent to Vorzyd V to disrupt Imperial operations there. Rbann quickly managed to track them to the Casino Royale in the capital city of Efavan, and his stormtroopers overpowered the Rebels and imprisoned them aboard Rbann's ship.
@@ -1500,7 +1500,7 @@ TEXT_TOOLTIP_STAR_DESTROYER_TWO_SENTRY_WEAP4,6x Medium Dual Laser Cannons: 2 / 1
 TEXT_TOOLTIP_STAR_DESTROYER_X,A variant of the venerable Imperial-I Star Destroyer that replaces its rear turbolasers with more powerful batteries found on the Imperial-II. Due to its more expensive armament it is mostly used by higher ranking officers.
 TEXT_TOOLTIP_STAR_DESTROYER_X_HULL,Hull: 8194 (Capital)
 TEXT_TOOLTIP_STAR_DESTROYER_X_SHIELD,Shields: 7850 / [39.25/R] (Capital)
-TEXT_TOOLTIP_STARBOLT_TENDER,A refit of the Starbolt Assault Carrier that fills the hangar bays of the base model with fleet support and logistics equipment, resulting in a capable light fleet tender.
+TEXT_TOOLTIP_STARBOLT_TENDER,An aging Corellian design that in its heyday was popular with planetary militaries and corporate security forces. While never as widespread as the many smaller Corellian Corvette models, it still saw niche use during the Galactic Civil War and beyond thanks to the large and modular internal space common of many CEC designs. This variant carries supplies and repair crews rather than fighter craft and acts as a decently well-armed fleet supply ship.
 TEXT_TOOLTIP_STARBOLT_TENDER_TENDER,Fleet Tender: 50 / 2.0s / 1.9km
 TEXT_TOOLTIP_STARWING_ASSAULT,An alternate loadout of the XG-1 StarWing equipped with assault concussion missiles. This configuration is well suited to engage clustered groups of enemy fighters or assist bombers in actions against frigates and capital ships.
 TEXT_TOOLTIP_STARWING_FIGHTER,An alternate loadout of the XG-1 StarWing equipped with proton torpedoes and anti-fighter concussion missiles. This configuration is well suited to engage nearly any target.
