@@ -831,7 +831,7 @@ TEXT_TOOLTIP_COMMAND_STELLARHALO,Procurator Battlecruiser, Stellar Halo
 TEXT_TOOLTIP_COMMAND_STELLARHALO_MODERNIZED,Modernized Procurator Battlecruiser, Stellar Halo
 TEXT_TOOLTIP_COMMAND_SUPERNOVA,Modernized DHC, Act on Vibes
 TEXT_TOOLTIP_COMMAND_SYNTAX_ERROR,Modified Glory Star Destroyer, SynTax Error
-TEXT_TOOLTIP_COMMAND_T11,Super Transport VII Garbage Scowl
+TEXT_TOOLTIP_COMMAND_T11,Super Transport VII, Garbage Scowl
 TEXT_TOOLTIP_COMMAND_THETA_SQUADRON,TIE Bomber, Theta Squadron
 TEXT_TOOLTIP_COMMAND_VOSS,Sentinel Company
 TEXT_TOOLTIP_COMMAND_YARNAR_SQUADRON,Missile TIE Fighter, Celanon Garrison Squadron
