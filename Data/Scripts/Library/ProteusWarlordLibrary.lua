@@ -503,7 +503,7 @@ return {
 					-- Ground
 					"Royal_Guard_Stormtrooper_Company", "Darksider_Company", "Sith_Knight_Company", "Shadow_EVO_Trooper_Company", "Imperial_74Z_Bike_Company", "PDF_Force_Cultist_Company",
 					"Chariot_LAV_Company", "AT_ST_A_Company", "TIE_Mauler_Company", "INT4_Company", 
-					"AT_AA_Flak_Walker_Company", "Shadow_Imperial_TX130S_Company", "TIE_Crawler_Company", "Imperial_Missile_Artillery_Company", "Imperial_Dropship_Transport_Company", 
+					"AT_AA_Flak_Walker_Company", "Shadow_Imperial_TX130T_Company", "TIE_Crawler_Company", "Imperial_Missile_Artillery_Company", "Imperial_Dropship_Transport_Company", 
 					"Tracked_Mobile_Base_Company", "A9_Floating_Fortress_Company", "Shadow_Imperial_AT_AT_Walker_Company",
 					-- Fighter Hero
 					"Benjo_Alpha_Location_Set", "Kile_Hannad_Location_Set",
@@ -825,7 +825,7 @@ return {
 				-- Ground
 				"Shadow_Stormtrooper_Company", "Shadow_EVO_Trooper_Company", "Shadow_Imperial_Scout_Trooper_Company", "Imperial_Army_74Z_Bike_Company", "Imperial_Dwarf_Spider_Droid_Company",
 				"1L_Tank_Company", "AT_DP_Company", "Shadow_ULAV_Company",
-				"AT_AA_Flak_Walker_Company", "Shadow_Imperial_TX130S_Company", "SPMAG_Walker_Company", "Deathhawk_Company", "Imperial_Dropship_Transport_Company",
+				"AT_AA_Flak_Walker_Company", "Shadow_Imperial_TX130T_Company", "SPMAG_Walker_Company", "Deathhawk_Company", "Imperial_Dropship_Transport_Company",
 				"A9_Floating_Fortress_Company", "Shadow_Imperial_AT_AT_Walker_Company",
 			},
 			FactionOverride = "Empire",
@@ -1211,8 +1211,8 @@ return {
 		["CARIDA"] = {
 			FriendlyName = "Imperial Carida",
 			Planets = {"CARIDA"},
-			LeaderTable = {""},
-			LeaderEndingNames = {"Supreme Commander Balan"},
+			LeaderTable = {"Furgan"},
+			LeaderEndingNames = {"Emperor Furgan"},
 			HeroList = {""},
 			UnlockList = {
 				-- Space 
@@ -1226,7 +1226,7 @@ return {
 			StartYear = 4,
 			LastYear = 11,
 			IntroText = "TEXT_CONQUEST_PROTEUS_CARIDA",
-			IntroHolo = "Alix_Balan_Loop",
+			IntroHolo = "_Loop",
 		},
 		["CENTRALITY"] = {
 			FriendlyName = "Imperial Centrality",
@@ -1594,7 +1594,7 @@ return {
 		 		-- Ground
 		--		"Security_Trooper_Company", "Clonetrooper_Phase_Two_Company", "Nova_Stormtrooper_Company", "Reborn_Dark_Jedi_Company",
 		--		"PX7_Company", "AT_KT_Company", "Chariot_LAV_Company","INT4_Company",
-		--		"Imperial_TNT_Company", "MAL_Rocket_Vehicle_Company", "Swift_Assault_5_Company", "AT_AA_Missile_Walker_Company", "Shadow_Imperial_TX130S_Company", "Nemesis_Gunship_Company",
+		--		"Imperial_TNT_Company", "MAL_Rocket_Vehicle_Company", "Swift_Assault_5_Company", "AT_AA_Missile_Walker_Company", "Shadow_Imperial_TX130T_Company", "Nemesis_Gunship_Company",
 		--		"Shielded_Imperial_AT_AT_Walker_Company", "Sith_Slayer_Company", "Heavy_Recovery_Vehicle_Company", "XR85_Company",
 		-- 	},
 		-- 	FactionOverride = "Empire",
