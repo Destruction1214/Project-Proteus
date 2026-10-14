@@ -969,6 +969,11 @@ return {
 ["ASSAULT_SPHERE"] = true,
 ["ABAN_BELLICOSE"] = true,
 ["STRANG_IEC"] = true,
+["CUSTOMS_CORVETTE_GUNBOAT"] = true,
+["CR90B_GUNBOAT"] = true,
+["ION_VIGIL"] = true,
+["STARBOLT_TENDER"] = true,
+["QUASAR_TENDER"] = true,
 -- Project Proteus Dev Heroes
 ["TAXEVADER_SYNTAX_ERROR"] = true,
 ["TAXEVADER_DREAM_OF_A_QUIET_LIFE"] = true,

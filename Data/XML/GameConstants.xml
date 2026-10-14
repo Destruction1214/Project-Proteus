@@ -2505,6 +2505,11 @@
 		Assault_Sphere,									Data\ShipNames\Torpedo_Sphere.txt,
 		KDY_Demonstration_Dreadnought, 					Data\ShipNames\KDY_Demo_Ship.txt,
 		Altor_Carrier,									Data\ShipNames\Altor.txt,
+		CR90B_Gunboat,									Data\ShipNames\Corellian_Corvette.txt,
+		Customs_Corvette_Gunboat, 						Data\ShipNames\Customs_Corvette.txt,
+		Ion_Vigil, 										Data\ShipNames\Vigil.txt,
+		Quasar_Tender,									Data\ShipNames\Quasar.txt,
+		Starbolt_Tender, 								Data\ShipNames\Starbolt.txt,
 	</ShipNameTextFiles>
 
 	<!-- Main menu in-game demo/attract playback -->

@@ -638,6 +638,9 @@ return {
     ,TAXEVADER_TEAM = {nil, false}   
     ,ELEIAN_BLACKHOLESUN = {nil, true}
     ,SUPERNOVA_VIBES = {nil, true}
+    ,MICHAEL_TEAM = {nil, false}
     ,MICHAEL_TERROR = {nil, true}
+    ,COYOTETGT_TEAM = {nil, false}
     ,["17786_TEAM"] = {nil, false}
+    ,BENGILA_URLAN_TEAM = {"Is_Production_Planet", false}
 }
