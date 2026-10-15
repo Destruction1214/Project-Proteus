@@ -974,6 +974,10 @@ return {
 ["ION_VIGIL"] = true,
 ["STARBOLT_TENDER"] = true,
 ["QUASAR_TENDER"] = true,
+["KDY_DEMONSTRATION_DREADNOUGHT"] = true,
+["ALTOR_CARRIER"] = true,
+["INVINCIBLE_CRUISER_TENDER"] = true,
+["INVINCIBLE_CRUISER_MODERNIZED"] = true,
 -- Project Proteus Dev Heroes
 ["TAXEVADER_SYNTAX_ERROR"] = true,
 ["TAXEVADER_DREAM_OF_A_QUIET_LIFE"] = true,
@@ -984,6 +988,4 @@ return {
 ["SUPERNOVA_VIBES"] = true,
 ["MICHAEL_TERROR"] = true,
 ["MICHAEL_TERROR_DUMMY"] = true,
-["KDY_DEMONSTRATION_DREADNOUGHT"] = true,
-["ALTOR_CARRIER"] = true,
 }

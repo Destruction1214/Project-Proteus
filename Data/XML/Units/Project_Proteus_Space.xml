@@ -6164,6 +6164,200 @@
 		<Death_Clone>Damage_Normal</Death_Clone>
 	</SpaceUnit>
 
+	<SpaceUnit Name="Invincible_Cruiser_Tender">
+		<Variant_Of_Existing_Type>Template_Invincible_Cruiser</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_INVINCIBLE_TENDER</Text_ID>
+		<Encyclopedia_Unit_Class>Ship Crews Cost: 680</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_INVINCIBLE_TENDER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_INVINCIBLE_TENDER_HULL
+		TEXT_TOOLTIP_INVINCIBLE_TENDER_SHIELD
+		TEXT_TOOLTIP_INVINCIBLE_TENDER_MOVE
+		TEXT_TOOLTIP_INVINCIBLE_TENDER_SQUADRON
+		TEXT_TOOLTIP_INVINCIBLE_TENDER_WEAP1
+		TEXT_TOOLTIP_INVINCIBLE_TENDER_WEAP2
+		TEXT_TOOLTIP_INVINCIBLE_TENDER_WEAP3
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_INVINCIBLE_TENDER_FLEET_TENDER
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
+		TEXT_TOOLTIP_CAPABILITY_BOARDABLE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_INVINCIBLE_TENDER.TGA</Icon_Name>
+
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Tech_Level>0</Tech_Level>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Special_Structures>
+		Imperial_Proteus_Shipyard_Level_Three | Imperial_Proteus_Shipyard_Level_Four,
+		AI_Category_Dummy | Capital_Category_Dummy
+		</Required_Special_Structures>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+
+		<HardPoints>
+		HP_Invincible_Tender_Laser_01, HP_Invincible_Tender_Laser_02, HP_Invincible_Tender_Laser_03, HP_Invincible_Tender_Laser_04, 
+		HP_Invincible_Tender_Laser_05, HP_Invincible_Tender_Laser_06, HP_Invincible_Tender_Laser_07, HP_Invincible_Tender_Laser_08, 
+		HP_Invincible_Tender_Ion_01, HP_Invincible_Tender_Ion_02, 
+		HP_Invincible_Tender_Turbo_01, HP_Invincible_Tender_Turbo_02, HP_Invincible_Tender_Turbo_03, HP_Invincible_Tender_Turbo_04, 
+		HP_Invincible_Tender_Turbo_05, HP_Invincible_Tender_Turbo_06, HP_Invincible_Tender_Turbo_07, HP_Invincible_Tender_Turbo_08,
+		HP_Invincible_Tender_Turbo_09, HP_Invincible_Tender_Turbo_10, HP_Invincible_Tender_Turbo_11, HP_Invincible_Tender_Turbo_12, 
+		HP_Invincible_Hangar, HP_Invincible_Engines, Generic_Untargetable_Tractor_Beam
+		</HardPoints>
+
+		<Tactical_Health>7200</Tactical_Health>
+		<Armor_Type>ArmourS_Capital</Armor_Type>
+		<Shield_Points>5600</Shield_Points>
+		<Shield_Refresh_Rate>28</Shield_Refresh_Rate>
+		<Shield_Armor_Type>ShieldS_Capital</Shield_Armor_Type>
+
+		<Max_Speed>2.45</Max_Speed>
+		<Max_Rate_Of_Turn>0.15</Max_Rate_Of_Turn>
+		<OverrideAcceleration>0.05</OverrideAcceleration>
+
+		<AI_Combat_Power>2096</AI_Combat_Power>
+		<Property_Flags> HealsVehicles | Boardable </Property_Flags>
+		<Build_Cost_Credits>5000</Build_Cost_Credits>
+		<Build_Time_Seconds>88</Build_Time_Seconds>
+		<Maintenance_Cost>53</Maintenance_Cost>
+		<Population_Value>25</Population_Value>
+
+		<Targeting_Max_Attack_Distance>3100.0</Targeting_Max_Attack_Distance>
+		
+		<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Howlrunner_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		
+		<Reserve_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 2</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Howlrunner_Squadron, 2</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 1</Reserve_Spawned_Units_Tech_0>
+		
+		<Unit_Abilities_Data SubObjectList="Yes">
+			  <Unit_Ability>
+				<Type>HARMONIC_BOMB</Type>
+				<Recharge_Seconds>60</Recharge_Seconds>
+				<Spawned_Object_Type>Proj_Fleet_Tender_Fighter_Heal</Spawned_Object_Type>
+				<Bomb_Countdown_Seconds>0.0</Bomb_Countdown_Seconds>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Repair_Fighters_Coronal</SFXEvent_GUI_Unit_Ability_Activated>
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_FLEET_TENDER_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_FLEET_TENDER_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>i_sa_repair_vehicle.tga</Alternate_Icon_Name>
+				<Supports_Autofire>True</Supports_Autofire>
+			  </Unit_Ability>
+		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes">
+			<Force_Healing_Ability Name="Invincible_Fleet_Tender_Healing">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Heal_Range>2500.0</Heal_Range>
+				<Heal_Amount> 100.0 </Heal_Amount>
+				<Heal_Interval_In_Secs>1.0</Heal_Interval_In_Secs>
+				<Single_Target_Heal>Yes</Single_Target_Heal>
+				<Heal_Range_Blob_Material>Space_Repair_Radius_Overlay</Heal_Range_Blob_Material>
+				<!-- We can heal the following unit types: -->
+				<Applicable_Unit_Categories>Gunship, Corvette, Frigate, Capital, SuperCapital, SpaceHero, Transport</Applicable_Unit_Categories>
+				<Applicable_Unit_Types/>
+				<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
+				<Target_Particle_Effect>Shield_Sparks_Medium</Target_Particle_Effect>
+				<Target_Particle_Bone_Name>B_TURRET, TURRET_00, B_TURRET_BASE</Target_Particle_Bone_Name>
+				<Target_Light_Effect_Type>Color_Flash</Target_Light_Effect_Type>
+				<Target_Light_Effect_Color>1.2, 1.2, 2.0</Target_Light_Effect_Color>
+				<Target_Light_Effect_Color2/>
+				<Target_Light_Effect_Duration>0.6</Target_Light_Effect_Duration>
+				<Target_Light_Effect_Pulse_Count>1</Target_Light_Effect_Pulse_Count>
+				<Owner_Particle_Bone_Name>ROOT</Owner_Particle_Bone_Name>
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>1.2, 1.2, 2.0</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2/>
+				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+				<!--<Lightning_Effect_Name>Repair_Facility_Effect</Lightning_Effect_Name>-->
+			</Force_Healing_Ability>
+		</Abilities>
+	</SpaceUnit>
+
+	<SpaceUnit Name="Invincible_Cruiser_Modernized">
+		<Variant_Of_Existing_Type>Template_Invincible_Cruiser</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_INVINCIBLE_UPGUNNED</Text_ID>
+		<Encyclopedia_Unit_Class>Ship Crews Cost: 680</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_INVINCIBLE_UPGUNNED
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_INVINCIBLE_UPGUNNED_HULL
+		TEXT_TOOLTIP_INVINCIBLE_UPGUNNED_SHIELD
+		TEXT_TOOLTIP_INVINCIBLE_UPGUNNED_MOVE
+		TEXT_TOOLTIP_INVINCIBLE_UPGUNNED_SQUADRON
+		TEXT_TOOLTIP_INVINCIBLE_UPGUNNED_WEAP1
+		TEXT_TOOLTIP_INVINCIBLE_UPGUNNED_WEAP2
+		TEXT_TOOLTIP_INVINCIBLE_UPGUNNED_WEAP3
+		TEXT_TOOLTIP_INVINCIBLE_UPGUNNED_WEAP4
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
+		TEXT_TOOLTIP_CAPABILITY_BOARDABLE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_INVINCIBLE_UPGUNNED.TGA</Icon_Name>
+
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Tech_Level>0</Tech_Level>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Special_Structures>
+		Imperial_Proteus_Shipyard_Level_Three | Imperial_Proteus_Shipyard_Level_Four,
+		AI_Category_Dummy | Capital_Category_Dummy
+		</Required_Special_Structures>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+
+		<HardPoints>
+		HP_Invincible_Upgunned_LQT_01, HP_Invincible_Upgunned_LQT_02, HP_Invincible_Upgunned_LQT_03, HP_Invincible_Upgunned_LQT_04, 
+		HP_Invincible_Upgunned_MQT_01, HP_Invincible_Upgunned_MQT_02, HP_Invincible_Upgunned_MQT_03, HP_Invincible_Upgunned_MQT_04, 
+		HP_Invincible_Upgunned_UHT_01, HP_Invincible_Upgunned_UHT_02, HP_Invincible_Upgunned_UHT_03, HP_Invincible_Upgunned_UHT_04, 
+		HP_Invincible_Upgunned_UHT_05, HP_Invincible_Upgunned_UHT_06, HP_Invincible_Upgunned_UHT_07, HP_Invincible_Upgunned_UHT_08, 
+		HP_Invincible_Upgunned_UHT_09, HP_Invincible_Upgunned_UHT_10, HP_Invincible_Upgunned_UHT_11, HP_Invincible_Upgunned_UHT_12, 
+		HP_Invincible_Upgunned_HQI_01, HP_Invincible_Upgunned_HQI_02, 
+		HP_Invincible_Hangar, HP_Invincible_Engines, 
+		Generic_Untargetable_Tractor_Beam
+		</HardPoints>
+
+		<Tactical_Health>7200</Tactical_Health>
+		<Armor_Type>ArmourS_Capital</Armor_Type>
+		<Shield_Points>6700</Shield_Points>
+		<Shield_Refresh_Rate>33.5</Shield_Refresh_Rate>
+		<Shield_Armor_Type>ShieldS_Capital</Shield_Armor_Type>
+
+		<Max_Speed>2.7</Max_Speed>
+		<Max_Thrust>0.1</Max_Thrust>
+		<OverrideAcceleration>0.055</OverrideAcceleration>
+		<OverrideDeceleration>0.11</OverrideDeceleration>
+		<Max_Rate_Of_Turn>0.165</Max_Rate_Of_Turn>
+		<Stopped_Rate_Of_Turn>0.3</Stopped_Rate_Of_Turn>
+
+		<AI_Combat_Power>3307</AI_Combat_Power>
+		<Property_Flags> Boardable </Property_Flags>
+		<Build_Cost_Credits>7500</Build_Cost_Credits>
+		<Build_Time_Seconds>132</Build_Time_Seconds>
+		<Maintenance_Cost>79</Maintenance_Cost>
+		<Population_Value>37</Population_Value>
+
+		<Targeting_Max_Attack_Distance>2600.0</Targeting_Max_Attack_Distance>
+		<Targeting_Priority_Set>AntiFrigate</Targeting_Priority_Set>
+		
+		<Starting_Spawned_Units_Tech_0>Howlrunner_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 1</Starting_Spawned_Units_Tech_0>		
+		<Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		
+		<Reserve_Spawned_Units_Tech_0>Howlrunner_Squadron, 3</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 3</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 1</Reserve_Spawned_Units_Tech_0>
+		
+	</SpaceUnit>
+
 	<SpaceUnit Name="Modernized_Procurator">
 		<Text_ID>TEXT_UNIT_MODERNIZED_PROCURATOR</Text_ID>
 		<Encyclopedia_Unit_Class>Ship Crews Cost: 940</Encyclopedia_Unit_Class>
