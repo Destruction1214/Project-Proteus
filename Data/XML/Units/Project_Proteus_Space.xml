@@ -6189,7 +6189,7 @@
 
 		<Affiliation>Imperial_Proteus</Affiliation>
 		<Tech_Level>0</Tech_Level>
-		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Special_Structures>
@@ -6304,7 +6304,7 @@
 
 		<Affiliation>Imperial_Proteus</Affiliation>
 		<Tech_Level>0</Tech_Level>
-		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Special_Structures>
