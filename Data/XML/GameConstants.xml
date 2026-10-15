@@ -2510,6 +2510,8 @@
 		Ion_Vigil, 										Data\ShipNames\Vigil.txt,
 		Quasar_Tender,									Data\ShipNames\Quasar.txt,
 		Starbolt_Tender, 								Data\ShipNames\Starbolt.txt,
+		Invincible_Cruiser_Tender, 						Data\ShipNames\Invincible.txt,
+		Invincible_Cruiser_Modernized, 					Data\ShipNames\Invincible.txt,
 	</ShipNameTextFiles>
 
 	<!-- Main menu in-game demo/attract playback -->

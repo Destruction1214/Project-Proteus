@@ -5,5 +5,5 @@ return {
 		}
 	},
 	FighterFlags = {"PROTEUS_OVERRIDE_RENDILI"},
-	Scripts = {"multilayer", "fighter-spawn"}
+	Scripts = {"multilayer", "fighter-spawn", "single-unit-retreat"}
 }
