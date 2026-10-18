@@ -1,4 +1,4 @@
-﻿D_TEXT_TOOLTIP_DRAGON_TROOPER,Primitive reptiloid warriors fiercely loyal to Delurin and equipped with ornate metal armor and flamethrowers to more closely resemble the Dragons of ancient myth. Unacquainted with blaster weaponry and other advanced technology, they are nonetheless resilient and quick on their feet.
+D_TEXT_TOOLTIP_DRAGON_TROOPER,Primitive reptiloid warriors fiercely loyal to Delurin and equipped with ornate metal armor and flamethrowers to more closely resemble the Dragons of ancient myth. Unacquainted with blaster weaponry and other advanced technology, they are nonetheless resilient and quick on their feet.
 D_TEXT_TOOLTIP_DRAGON_TROOPER_COMPANY,Company: 36x Dragon Trooper
 D_TEXT_TOOLTIP_DRAGON_TROOPER_COMPANY_WEAP1,24x Blaster Carbine: 3 / 1.25s / 220m
 D_TEXT_TOOLTIP_DRAGON_TROOPER_SQUAD,Squad: 9x Dragon Trooper
@@ -683,8 +683,6 @@ TEXT_TOOLTIP_ATOT_WEAP2,2x Light AI Blaster Cannons: 5 / 2.5s / 320m
 TEXT_TOOLTIP_ATPT_SNIPER,Also known as the AT-PT Sniper, the AT-PT/A is an obscure assault modification of the common AT-PT Walker dating back to the Clone Wars. It features a more powerful main blaster intended to better defeat entrenched and armored soldiers and droids, but which also proved surprisingly effective against light vehicles. While mostly unneeded for garrison duties, the "Sniper" saw increased use after the Battle of Endor in Warlord and Pirate arsenals.
 TEXT_TOOLTIP_ATPT_SNIPER_COMPANY,Company: 6x AT-PT/A Walker
 TEXT_TOOLTIP_ATPT_SNIPER_WEAP1,1x Very Light AV Blaster Cannon: 4 / 1.0s / 320m
-TEXT_TOOLTIP_ATTE_COMMAND,
-TEXT_TOOLTIP_ATTE_COMMAND_WEAP,
 TEXT_TOOLTIP_ATXT,Light walker produced early in the Clone Wars as an AT-RT counterpart. Unlike most walkers has shielding for extra protection, but is also slowed down by the assorted systems and poor leg design compared to other light walkers. Quickly phased out in favour of other Republic light vehicles. Best used to engage enemy light vehicles.
 TEXT_TOOLTIP_ATXT_COMPANY,Company: 4x AT-XT Walker
 TEXT_TOOLTIP_ATXT_HEALTH,Health: 125 (Light Vehicle)
@@ -1954,6 +1952,18 @@ Z_TEXT_UNIT_GORATH_RESEARCH,Reverse-engineer the Gorath Strike Cruiser
 Z_TEXT_UNIT_MISSILE_BOAT_RESEARCH,Reverse-engineer the Missile Boat
 Z_TEXT_UNIT_MTC_RESEARCH,Reverse-engineer the Modular Taskforce Cruiser
 Z_TEXT_UNIT_SCIMITAR_RESEARCH,Reverse-engineer the Scimitar Assault Bomber
+TEXT_TOOLTIP_1L_TANK_AV,The original version of the light 1-Series of Imperial Hovertanks, sporting the same medium blaster cannon as the larger 1-M pattern tank. Less well-known than the anti-infantry field adaptation pioneered by Zel Johan's Imperial Hammers, it was less suited to open combat than heavier platforms and also an ill fit for garrison and patrol duties where its heavier gun was overkill. As a result, the stock variant was mostly sidelined in favor of its adaptations or alternative designs. Still very capable of engaging vehicles effectively, but do not stand up to return fire as well.
+TEXT_UNIT_1L_TANK_AV_COMPANY,1-L Assault Tank Company
+TEXT_UNIT_1L_TANK_AV,Imperial-class 1-L Assault Tank
+TEXT_TOOLTIP_1L_TANK_AV_COMPANY,Company: 4x Imperial-class 1-L Assault Tank
+TEXT_TOOLTIP_1L_TANK_AV_WEAP1,1x AV Blaster Cannon: 1 / 1.0s / 400m
+TEXT_UNIT_SHADOW_TX130T,Shadow TX-130T Fighter Tank
+TEXT_UNIT_SHADOW_TX130T_COMPANY,Shadow TX-130T Fighter Tank Company
+TEXT_TOOLTIP_SHADOW_TX130T,An endwar conversion of the TX-130 hull that managed to add space for a small onboard fireteam by heavily re-arranging internal components, at the cost of the base frame modularity and a different optimal munitions load. Performance otherwise comparable to the baseline TX-130S. Coated in black stygian-triprismatic polymer and fitted with a stygium cloaking device which allows it to hide from sensors of any kind.
+TEXT_TOOLTIP_ATTE_CANONNEER,
+TEXT_TOOLTIP_ATTE_CANONNEER_WEAP1,
+TEXT_TOOLTIP_ATTE_CANONNEER_WEAP2,
+TEXT_UNIT_AT_TE_WALKER_CANONNEER,Cannoneer AT-TE Walker
 TEXT_UNIT_INVINCIBLE_TENDER,Invincible Dreadnaught Fleet Tender
 TEXT_TOOLTIP_INVINCIBLE_TENDER,An ancient Rendili-designed Battlecruiser dating back to the final Alsakan Conflict. Despite its age, it has managed to stay in limited service with various local and corporate forces around the galaxy. This version is used as a corporate merchantman, heavily armed bulk cruiser or fleet logistics vessel, carrying supplies and specialist crews along dangerous routes thanks to its massive internal cargo capacity. Its armament is weaker than many contemporary refits of the same hull, with a stronger focus on anti-fighter defenses and the addition of some ion cannons to ward off raiders. Even when not fully militarized, it can still defend itself and other convoy members with its weapons and on-board escort fighter craft, but does not compare to modern cruisers.
 TEXT_TOOLTIP_INVINCIBLE_TENDER_FLEET_TENDER,Fleet Tender: 100 / 1.0s / 5.0km

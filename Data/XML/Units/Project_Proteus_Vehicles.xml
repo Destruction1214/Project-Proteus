@@ -1366,20 +1366,20 @@
 		<Presence_Range>200.0</Presence_Range>
 	</Death_Clone>
 
-	<GroundVehicle Name="Shadow_TX130S">
-		<Variant_Of_Existing_Type>TX130S</Variant_Of_Existing_Type>
-		<Text_ID>TEXT_UNIT_SHADOW_TX130S</Text_ID>
+	<GroundVehicle Name="Shadow_TX130T">
+		<Variant_Of_Existing_Type>TX130T</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_SHADOW_TX130T</Text_ID>
 		<Encyclopedia_Text>
-		TEXT_TOOLTIP_SHADOW_TX130S 
+		TEXT_TOOLTIP_SHADOW_TX130T
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
 		TEXT_TOOLTIP_TX130S_HEALTH 
 		TEXT_TOOLTIP_TX130S_SHIELD 
 		TEXT_TOOLTIP_TX130S_MOVE 
 		TEXT_TOOLTIP_TX130S_WEAP1 
 		TEXT_TOOLTIP_TX130S_WEAP2
-		TEXT_TOOLTIP_TX130S_WEAP3
+		TEXT_TOOLTIP_TX130T_WEAP3
 		</Encyclopedia_Text>
-		<Icon_Name> i_button_Shadow_TX130S.tga </Icon_Name>
+		<Icon_Name> i_button_Shadow_TX130T.tga </Icon_Name>
 
 		<Land_Model_Name>SHADOW_EV_IFTX.ALO</Land_Model_Name>
 
@@ -1388,7 +1388,7 @@
 		<HardPoints>
 			HP_Shadow_TX130_Top_Turret,
 			HP_TX130_Lasers,
-			HP_TX130S_Rockets
+			HP_TX130T_Rockets
 		</HardPoints>
 
 		<Death_Clone>Damage_Normal, Shadow_TX130_Death_Clone_00</Death_Clone>
@@ -1404,7 +1404,7 @@
 				<Expiration_Seconds>8.0</Expiration_Seconds>
 				<Recharge_Seconds>80.0</Recharge_Seconds>
 				<!-- <Active_By_Default>Yes</Active_By_Default> -->
-				<GUI_Activated_Ability_Name>Shadow_TX130S_Stealth</GUI_Activated_Ability_Name> 
+				<GUI_Activated_Ability_Name>Shadow_TX130T_Stealth</GUI_Activated_Ability_Name> 
 			</Unit_Ability>
 			
 			<Unit_Ability>
@@ -1426,7 +1426,7 @@
 		</Unit_Abilities_Data>
 
 		<Abilities SubObjectList="Yes">
-			<Stealth_Ability Name="Shadow_TX130S_Stealth">
+			<Stealth_Ability Name="Shadow_TX130T_Stealth">
 				<Activation_Style> User_Input </Activation_Style>
 				<Initially_Enabled>Yes</Initially_Enabled>
 				<Stealth_Color>255, 255, 255, 64</Stealth_Color>
@@ -1434,29 +1434,29 @@
 			</Stealth_Ability>
 		</Abilities>
 	</GroundVehicle>
-	<GroundCompany Name="Shadow_Imperial_TX130S_Company">
-		<Variant_Of_Existing_Type>Imperial_TX130S_Company</Variant_Of_Existing_Type>
-		<Text_ID>TEXT_UNIT_SHADOW_TX130S_COMPANY</Text_ID>
+	<GroundCompany Name="Shadow_Imperial_TX130T_Company">
+		<Variant_Of_Existing_Type>Imperial_TX130T_Company</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_SHADOW_TX130T_COMPANY</Text_ID>
 		<Encyclopedia_Text>
-		TEXT_TOOLTIP_SHADOW_TX130S
+		TEXT_TOOLTIP_SHADOW_TX130T
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		TEXT_TOOLTIP_SHADOW_TX130S_COMPANY 
+		TEXT_TOOLTIP_SHADOW_TX130T_COMPANY 
 		TEXT_TOOLTIP_TX130S_HEALTH
 		TEXT_TOOLTIP_TX130S_SHIELD
 		TEXT_TOOLTIP_TX130S_MOVE 
 		TEXT_TOOLTIP_TX130S_WEAP1 
 		TEXT_TOOLTIP_TX130S_WEAP2 
-		TEXT_TOOLTIP_TX130S_WEAP3
+		TEXT_TOOLTIP_TX130T_WEAP3
 		</Encyclopedia_Text>
-		<Icon_Name>i_button_shadow_TX130S.tga</Icon_Name>
+		<Icon_Name>i_button_shadow_TX130T.tga</Icon_Name>
 
 		<Affiliation>Imperial_Proteus</Affiliation>
 
-		<Company_Units>Shadow_TX130S, Shadow_TX130S, Shadow_TX130S</Company_Units>
+		<Company_Units>Shadow_TX130T, Shadow_TX130T, Shadow_TX130T</Company_Units>
 	</GroundCompany>
 		
 	<Death_Clone Name="Shadow_TX130_Death_Clone_00">
-		<Variant_Of_Existing_Type>Shadow_TX130S</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Shadow_TX130T</Variant_Of_Existing_Type>
 		<CategoryMask>None</CategoryMask>
 		<Death_Clone_Is_Obstacle>yes</Death_Clone_Is_Obstacle>
 		<LandBehavior>HIDE_WHEN_FOGGED,IMPOSING_PRESENCE</LandBehavior>
@@ -1473,7 +1473,7 @@
 		<Scale_Factor>1.2</Scale_Factor>
 	</Death_Clone>
 	<Death_Clone Name="Shadow_TX130_Death_Clone_01">
-		<Variant_Of_Existing_Type>Shadow_TX130S</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Shadow_TX130T</Variant_Of_Existing_Type>
 		<CategoryMask>None</CategoryMask>
 		<Death_Clone_Is_Obstacle>yes</Death_Clone_Is_Obstacle>
 		<LandBehavior>HIDE_WHEN_FOGGED,IMPOSING_PRESENCE</LandBehavior>
@@ -1490,7 +1490,7 @@
 		<Scale_Factor>1.2</Scale_Factor>
 	</Death_Clone>
 	<Death_Clone Name="Shadow_TX130_Death_Clone_02">
-		<Variant_Of_Existing_Type>Shadow_TX130S</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Shadow_TX130T</Variant_Of_Existing_Type>
 		<CategoryMask>None</CategoryMask>
 		<Death_Clone_Is_Obstacle>yes</Death_Clone_Is_Obstacle>
 		<LandBehavior>HIDE_WHEN_FOGGED,IMPOSING_PRESENCE</LandBehavior>
@@ -5150,29 +5150,29 @@
 		<Maintenance_Cost>0.0</Maintenance_Cost>
 	</GroundCompany>
 
-    <GroundVehicle Name="AT_TE_Walker_Command">
+    <GroundVehicle Name="AT_TE_Walker_Canonneer"> <!-- Artillery mode needs testing! -->
         <Variant_Of_Existing_Type>AT_TE_Walker</Variant_Of_Existing_Type>
-        <Text_ID>TEXT_UNIT_AT_TE_WALKER_COMMAND</Text_ID>
+        <Text_ID>TEXT_UNIT_AT_TE_WALKER_CANONNEER</Text_ID>
         <Encyclopedia_Text>
-            TEXT_TOOLTIP_ATTE_COMMAND
+            TEXT_TOOLTIP_ATTE_CANONNEER
     		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
     		TEXT_TOOLTIP_ATTE_HEALTH
     		TEXT_TOOLTIP_ATTE_MOVE
-    		TEXT_TOOLTIP_ATTE_WEAP1
+    		TEXT_TOOLTIP_ATTE_CANONNEER_WEAP1
     		TEXT_TOOLTIP_ATTE_WEAP2
             TEXT_TOOLTIP_SEPARATOR_ABILITY_BLOCK
-            TEXT_TOOLTIP_ATTE_WEAP_COMMAND
+            TEXT_TOOLTIP_ATTE_CANONNEER_WEAP2
     		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
-            TEXT_TOOLTIP_ATTE_INFANTRY_HEAL
     		TEXT_TOOLTIP_BONUS_AA_ACCURACY
     		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
     		TEXT_TOOLTIP_CAPABILITY_CRUSH
         </Encyclopedia_Text>
-        <Icon_Name>I_BUTTON_ATTE_COMMAND.TGA</Icon_Name>
+        <Icon_Name>I_BUTTON_ATTE_CANONNEER.TGA</Icon_Name>
 
+        <No_Colorization_Color></No_Colorization_Color>
         <HardPoints>
-            HP_ATTE_Main_Command,
-            HP_ATTE_Main_Command_Alt,
+            HP_ATTE_Main_Canonneer,
+            HP_ATTE_Main_Canonneer_Alt,
 			HP_ATTE_TurretFrontLeft,
 			HP_ATTE_TurretFrontRight,
 			HP_ATTE_TurretFrontBottomLeft,
@@ -5180,7 +5180,7 @@
 			HP_ATTE_TurretBackLeft,
 			HP_ATTE_TurretBackRight,
         </HardPoints>
-
+        
         <Num_Garrison_Slots>0</Num_Garrison_Slots>
 
         <Unit_Abilities_Data SubObjectList="Yes">
@@ -5192,18 +5192,9 @@
 				<Targeting_Max_Attack_Distance>375</Targeting_Max_Attack_Distance>
 				<Recharge_Seconds> 9.0 </Recharge_Seconds>
 			</Unit_Ability>
-
-            <Unit_Ability>
-				<Type>FOW_REVEAL_PING</Type>
-				<Recharge_Seconds> 30.0 </Recharge_Seconds>
-				<Spawned_Object_Type> Proj_Special_Land_FOW_Reveal_Ping_Blast </Spawned_Object_Type>
-				<Effective_Radius> 0.0 </Effective_Radius>
-				<!-- 0.0 means no distance factor, unlimited to entire map -->
-				<Area_Effect_Decal_Distance> 250.0 </Area_Effect_Decal_Distance>
-				<GUI_Activated_Ability_Name>
-				</GUI_Activated_Ability_Name>
-			</Unit_Ability>
         </Unit_Abilities_Data>
+
+        <Abilities/>
     </GroundVehicle>
 		
 	<GroundVehicle Name="GAT">
