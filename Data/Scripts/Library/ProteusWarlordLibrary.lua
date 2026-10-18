@@ -512,7 +512,7 @@ return {
 					{"Gorath_Research_Proteus", 11},
 				}
 			},
-			LockList = {[11] = "Kile_Hannad_Location_Set"},
+			LockList = {{},[11] = "Kile_Hannad_Location_Set"},
 			FactionOverride = "Empire",
 			StartYear = 7,
 			IntroText = "TEXT_CONQUEST_PROTEUS_LUMIYA",
