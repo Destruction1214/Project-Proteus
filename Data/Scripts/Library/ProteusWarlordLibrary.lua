@@ -775,7 +775,7 @@ return {
 				"Imperial_Army_Trooper_Company", "Citadel_Guardsman_Company", "Red_Police_Company", "64_Y_Swift_Repulsorlift_Sled_Company",
 				"Imperial_AT_PT_Company", "AT_DP_Company", "INT4_Company", "PX7_Company", 
 				"Imperial_TNT_Company", "Swift_Assault_5_Company", "MAAT_Company", "Imperial_Heavy_Mobile_Artillery_Company", "AT_AA_Walker_Company", 
-				"Imperial_AT_TE_Walker_Company", "AT_AT_Walker_IC_Company"
+				"Imperial_AT_TE_Walker_Cannoneer_Company", "AT_AT_Walker_IC_Company"
 			},
 			FactionOverride = "Empire",
 			LastYear = 11,
