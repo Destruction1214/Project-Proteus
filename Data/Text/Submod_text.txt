@@ -1964,3 +1964,23 @@ TEXT_TOOLTIP_ATTE_CANONNEER,
 TEXT_TOOLTIP_ATTE_CANONNEER_WEAP1,
 TEXT_TOOLTIP_ATTE_CANONNEER_WEAP2,
 TEXT_UNIT_AT_TE_WALKER_CANONNEER,Cannoneer AT-TE Walker
+TEXT_UNIT_INVINCIBLE_TENDER,Invincible Dreadnaught Fleet Tender
+TEXT_TOOLTIP_INVINCIBLE_TENDER,An ancient Rendili-designed Battlecruiser dating back to the final Alsakan Conflict. Despite its age, it has managed to stay in limited service with various local and corporate forces around the galaxy. This version is used as a corporate merchantman, heavily armed bulk cruiser or fleet logistics vessel, carrying supplies and specialist crews along dangerous routes thanks to its massive internal cargo capacity. Its armament is weaker than many contemporary refits of the same hull, with a stronger focus on anti-fighter defenses and the addition of some ion cannons to ward off raiders. Even when not fully militarized, it can still defend itself and other convoy members with its weapons and on-board escort fighter craft, but does not compare to modern cruisers.
+TEXT_TOOLTIP_INVINCIBLE_TENDER_FLEET_TENDER,Fleet Tender: 100 / 1.0s / 5.0km
+TEXT_TOOLTIP_INVINCIBLE_TENDER_HULL,Hull: 7200 (Capital)
+TEXT_TOOLTIP_INVINCIBLE_TENDER_MOVE,Speed: 2.45 | Accel: 0.05 | Turn: 0.15
+TEXT_TOOLTIP_INVINCIBLE_TENDER_SHIELD,Shields: 5600 / [28/R] (Capital)
+TEXT_TOOLTIP_INVINCIBLE_TENDER_SQUADRON,Fighters: 2 / 4 | Bombers: 1 / 1
+TEXT_TOOLTIP_INVINCIBLE_TENDER_WEAP1,12x Medium Dual Turbolasers: 1 / 5.0s / 6.4km
+TEXT_TOOLTIP_INVINCIBLE_TENDER_WEAP2,2x Heavy Ion Cannons: 2 / 3.33s / 7.4km
+TEXT_TOOLTIP_INVINCIBLE_TENDER_WEAP3,8x Heavy Quad Laser Cannons: 2 / 1.33s / 4.9km
+TEXT_UNIT_INVINCIBLE_UPGUNNED,Modernized Invincible Dreadnaught
+TEXT_TOOLTIP_INVINCIBLE_UPGUNNED,The Invincible is an ancient cruiser design based on the Alsakan Atgeir-class in use for millennia before the Galactic Civil War. This iteration is heavily modernized, using the latest technology to upgrade weapons, shielding, and engines in order to compete more directly with modern capital ships of similar scale.
+TEXT_TOOLTIP_INVINCIBLE_UPGUNNED_HULL,Hull: 7200 (Capital)
+TEXT_TOOLTIP_INVINCIBLE_UPGUNNED_MOVE,Speed: 2.7 | Accel: 0.055 | Turn: 0.165
+TEXT_TOOLTIP_INVINCIBLE_UPGUNNED_SHIELD,Shields: 6700 / [33.5/R] (Capital)
+TEXT_TOOLTIP_INVINCIBLE_UPGUNNED_SQUADRON,Fighters: 2 / 6 | Bombers: 1 / 1
+TEXT_TOOLTIP_INVINCIBLE_UPGUNNED_WEAP1,12x Ultraheavy Turbolasers: 1 / 5.0s / 8.4km
+TEXT_TOOLTIP_INVINCIBLE_UPGUNNED_WEAP2,4x Medium Quad Turbolasers: 2 / 2.0s / 6.4km
+TEXT_TOOLTIP_INVINCIBLE_UPGUNNED_WEAP3,4x Light Quad Turbolasers: 2 / 2.0s / 5.4km
+TEXT_TOOLTIP_INVINCIBLE_UPGUNNED_WEAP4,2x Heavy Quad Ion Cannons: 2 / 2.5s / 7.4km
