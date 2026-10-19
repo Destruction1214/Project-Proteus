@@ -1646,7 +1646,7 @@
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
 		TEXT_TOOLTIP_CORONA_HULL
 		TEXT_TOOLTIP_CORONA_TENDER_SHIELD
-		TEXT_TOOLTIP_CORONA_MOVE
+		TEXT_TOOLTIP_CORONA_TENDER_MOVE
 		TEXT_TOOLTIP_CORONA_WEAP1
 		TEXT_TOOLTIP_CORONA_TENDER_WEAP2
 		TEXT_TOOLTIP_CORONA_TENDER_WEAP3
@@ -1673,6 +1673,8 @@
 		<AI_Combat_Power>500</AI_Combat_Power>
 		<Population_Value>6</Population_Value>
 		<Maintenance_Cost>10</Maintenance_Cost>
+
+		<Max_Speed>4.2</Max_Speed>
 		
 		<Shield_Points>700</Shield_Points>
 		<Shield_Refresh_Rate>14</Shield_Refresh_Rate>

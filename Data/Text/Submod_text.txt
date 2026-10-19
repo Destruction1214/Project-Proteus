@@ -53,6 +53,7 @@ TEXT_CONQUEST_PROTEUS_BALMORRA,Hinch Beltane: There has never been a better mome
 TEXT_CONQUEST_PROTEUS_BRENTAAL,Soontir Fel: I have wrestled with it these past few days, but I cannot deny that Phennir is right. Isard is leading what's left of the Empire to an ignoble end, and I refuse to let myself and my men be dragged down with her. I can do more for the Empire as a warlord than Isard's pawn. We will show the galaxy what the Empire is still capable of.
 TEXT_CONQUEST_PROTEUS_CENTRALITY,Sris Lehhett: Hello Commander, the galaxy has fallen into chaos ever since the Emperor died above Endor. It is our duty to preserve stability within the Centrality. For this reason we need to rebuild our fleet to fulfill the ardous task of restarting our economy. I trust you commander to complete this task.
 TEXT_CONQUEST_PROTEUS_GRUNGER,Josef Grunger: Word has reached me of the Emperor’s death, and I do not intend to pass up such an opportunity. This region of space is ripe with lesser men to join my armada. They will not be difficult to "convince".
+TEXT_CONQUEST_PROTEUS_NIVERS,TODO
 TEXT_CONQUEST_PROTEUS_PRAJI,Nahdonnis Praji: It was the right decision to retire to Kaikielius instead of following the Emperor to his final demise. Now we must build on our work, Commander, and secure our holdings against all the vultures descending.
 TEXT_CONQUEST_PROTEUS_REBORN,Admiral Fyyar: Our final preparations are complete, Commander! My flagship is ready and loaded with the new Reborn Shadowtroopers! All my work, my ingenious designs, will finally bring about the end of the rebels and the Jedi! Lord Hethrir is correct, the Empire will be reborn - but not as he imagines it...
 TEXT_CONQUEST_PROTEUS_RENDILI,Comeg: I'm glad you could make it, Commander. Things are dire, and it is abundantly clear that we cannot hope on any external support. I have taken steps to consolidate our position, but the local political and corporate elites are not enthusiastic about our presence. Still, they obey for now, and the resources at our fingertips are quite immense. I believe that with deliberate application of force, we can carve out a little pocket of order amidst the chaos reigning around us. Our first step should be formalizing our cooperation with Rendili StarDrive.
@@ -85,6 +86,7 @@ TEXT_ENCYCLOPEDIA_CLASS_RESEARCH_DIRECTOR,Research Director
 TEXT_ENCYCLOPEDIA_CLASS_SECOND_LIEUTENANT,Second Lieutenant
 TEXT_ENCYCLOPEDIA_CLASS_SECURITY_OFFICER,Security Officer
 TEXT_ENCYCLOPEDIA_CLASS_STARBORN,Starborn of Legend
+TEXT_ENCYCLOPEDIA_CLASS_STORMTROOPER,Stormtrooper
 TEXT_ENCYCLOPEDIA_CLASS_SWIRBLIES,Lord Being of the Swirblies
 TEXT_ENCYCLOPEDIA_CLASS_TACTICAL_DROID,Tactical Droid
 TEXT_ETA2_ASSAULT_SQUADRON,Assault Eta-2 Actis Squadron
@@ -127,6 +129,8 @@ TEXT_EVENT_WARLORD_CHOICE_CENTRALITY,The Centrality
 TEXT_EVENT_WARLORD_CHOICE_FEL,Brentaal Houses
 TEXT_EVENT_WARLORD_CHOICE_GRUNGER,Grunger's Empire
 TEXT_EVENT_WARLORD_CHOICE_LANOX,Imperial Loyalist
+TEXT_EVENT_WARLORD_CHOICE_NIVERS,TODO
+TEXT_EVENT_WARLORD_CHOICE_NIVERS,Nivers' Empire
 TEXT_EVENT_WARLORD_CHOICE_PRAJI,Imperial Kaikielius
 TEXT_EVENT_WARLORD_CHOICE_REBORN,Empire Reborn
 TEXT_EVENT_WARLORD_CHOICE_RENDILI,Imperial Rendili
@@ -171,6 +175,7 @@ TEXT_HERO_BRELLAR,Alecs Brellar
 TEXT_HERO_CEX,Tyionsis Cex
 TEXT_HERO_COLLIN_PRAJI,Collin Praji
 TEXT_HERO_COYOTE,coyotetgt
+TEXT_HERO_CRUEYA_VANDRON,Crueya Vandron
 TEXT_HERO_DAKOVA,Dakova
 TEXT_HERO_DEMOS,Demos
 TEXT_HERO_DOMINA_TAGGE,Domina Tagge
@@ -182,6 +187,7 @@ TEXT_HERO_GHEK,Ghek
 TEXT_HERO_GURNST,Gurnst
 TEXT_HERO_HETHRIR,Hethrir
 TEXT_HERO_HSSISSK,Hssissk
+TEXT_HERO_IL_RAZ,Ishin-Il-Raz
 TEXT_HERO_IRRV,Dimone Irrv
 TEXT_HERO_JAEFFIS,Jaeffis
 TEXT_HERO_JOLLIE,Jollie
@@ -244,6 +250,7 @@ TEXT_PROTEUS_DESCRIPTION_CENTRALITY,The Centrality is a remote Sector in the Out
 TEXT_PROTEUS_DESCRIPTION_FEL,--TODO TEXT_PROTEUS_DESCRIPTION_FEL--
 TEXT_PROTEUS_DESCRIPTION_GRUNGER,One of the original twelve Grand Admirals, Grunger wasted no time consolidating his powerbase and making a play for control of the Imperial Remnant once he learned of Palpatine's death. Aggressive and capable, he was one of the main contenders for the Imperial Throne, and his growing strength worried the Central Committee of Grand Moffs and other Imperial warlords.
 TEXT_PROTEUS_DESCRIPTION_LANOX,--TODO TEXT_PROTEUS_DESCRIPTION_LANOX--
+TEXT_PROTEUS_DESCRIPTION_NIVERS,TODO
 TEXT_PROTEUS_DESCRIPTION_PRAJI,After conquering his ancient family home world of Kaikielius, Nahdonnis Praji met with the reborn Emperor Palpatine in person for the first time, and upon experiencing the Emperor's apparent madness first hand, decided to retire to governorship of the planet. This saved him from the immolation of the Dark Empire shortly thereafter, but left him and his new fiefdom isolated as a resurgent New Republic and vengeful Imperial warlords all laid claim to the core and deep core regions.
 TEXT_PROTEUS_DESCRIPTION_REBORN,The Imperial Procurator of Justice, Lord Hethrir, went underground following the Imperial defeat at Endor, building a network of support in the shadows. After Palpatine's final death, he rechristened his faction 'Empire Reborn' and worked with the Dark Jedi Desann and Admiral Galak Fyyar in creating a new army of force-using soldiers to unleash upon the galaxy.
 TEXT_PROTEUS_DESCRIPTION_RENDILI,The core world of Rendili, a center of shipbuilding and military industry, became an Imperial fortress world after the death of the Emperor, successfully holding out even as most of the core was liberated by the New Republic. Following the end of the Reborn Emperor's campaigns, the Imperial forces on Rendili left and the planet joined the New Republic.
@@ -736,6 +743,7 @@ TEXT_TOOLTIP_BUILDLIMIT_RED_POLICE,Build Limit: 5 | Total: ∞
 TEXT_TOOLTIP_BUILDLIMIT_ROYAL_GUARD,Build Limit: 5 | Total: ∞
 TEXT_TOOLTIP_BUILDLIMIT_SHADOW_EVO,Build Limit: 5 | Total: ∞
 TEXT_TOOLTIP_BUILDLIMIT_SITH_KNIGHT,Build Limit: 5 | Total: ∞
+TEXT_TOOLTIP_BUILDLIMIT_UBIQTORATE,Build Limit: 1 | Lifetime: ∞
 TEXT_TOOLTIP_C_HUTT_RESEARCH,By using our economic ties to the Hutt kajidics, we will acquire some of their blueprints to expand and supplement our forces which were significantly weakened by the collapse of central imperial command (Unlocks the Barabbula Frigate and the Tempest Cruiser)
 TEXT_TOOLTIP_C_MDHC_RESEARCH,Replaces the old DHC with a modernised version with a better armament
 TEXT_TOOLTIP_CAPABILITY_ORBITAL_SUPPORT_ELEIAN,Adds Eleian to the reinforcement pool when in orbit. If destroyed, he can be healed and redeployed.
@@ -858,6 +866,7 @@ TEXT_TOOLTIP_CONSULAR_SHIELD,Shields: 400 / [8/R] (Corvette)
 TEXT_TOOLTIP_CORONA_RESEARCH_KUAT,Research the Corona Frigate. Replaces the Nebulon B and Nebulon B Tender with the Corona Frigate and Tender.
 TEXT_TOOLTIP_CORONA_TENDER,Fleet Tender: 50 / 1.0s / 1.4km
 TEXT_TOOLTIP_CORONA_TENDER_DESC,A support-focused variant of the Corona-class frigate equipped with advanced repair and resupply systems. Trading much of the ships hangar capacity and firepower for fleet tending capabilities, it serves as an effective logistical support vessel during prolonged engagements.
+TEXT_TOOLTIP_CORONA_TENDER_MOVE,Speed: 4.2 | Accel: 0.175 | Turn: 0.35
 TEXT_TOOLTIP_CORONA_TENDER_PD,Point-Defense: 1 / 0.54 / 1.64km
 TEXT_TOOLTIP_CORONA_TENDER_SHIELD,Shields: 700 / [14/R] (Frigate)
 TEXT_TOOLTIP_CORONA_TENDER_WEAP2,1x Light Turbolaser: 2 / 5.0s / 5.1km
@@ -872,6 +881,7 @@ TEXT_TOOLTIP_CR90B_MOVE,Speed: 6.0 | Accel: 0.06 | Turn: 0.8
 TEXT_TOOLTIP_CR90B_SHIELD,Shields: 720 / [14.4/R] (Corvette)
 TEXT_TOOLTIP_CR90B_WEAP1,6x Light Dual Turbolasers: 1 / 5.0s / 5.0km
 TEXT_TOOLTIP_CR90B_WEAP2,2x Light Ion Cannons: 1 / 5.0s / 5.0km
+TEXT_TOOLTIP_CRUEYA_VANDRON,TODO
 TEXT_TOOLTIP_CUSTOMS_CORVETTE_GUNBOAT,A configuration of the Rendili Light Corvette trading the stock model's laser turrets for a set of powerful turbolasers, granting the ship the ability to threaten larger ships at the cost of close defense against smaller targets. Less suited for customs and patrol duties, this variant saw some usage among pirates and warlord forces as a fast gunship.
 TEXT_TOOLTIP_CUSTOMS_CORVETTE_GUNBOAT_WEAP1,2x Medium Dual Turbolasers: 2 / 5.0s / 3.0km
 TEXT_TOOLTIP_DAKOVA,Admiral Dakova was an Imperial naval officer present during the chaos following the Battle of Endor. Cautious and pragmatic, Dakova was concerned by High Admiral Tharkus's determination to defy the Imperial Senate and continue the war against the New Republic, warning that doing so would make them rebels themselves. Despite his reservations, Dakova would ultimately serve among the forces gathered under Tharkus's command.
@@ -1158,6 +1168,7 @@ TEXT_TOOLTIP_HORNET_WEAP3,1x Heavy Dual Laser Cannon: 2 / 2.5s / 4.5km
 TEXT_TOOLTIP_HORNET_WEAP4,2x Light Dual Laser Cannons: 2 / 1.0s / 3.5km
 TEXT_TOOLTIP_HORNET_WEAP5,2x Concussion Missiles: 6 / 15.0s / 4.0km
 TEXT_TOOLTIP_HSSISSK,Hssissk is a member of the "Zssik Clan", a small Trandoshan family relegated to minor slaving duties by the ruling clan of Kashyyyk, the Blackscales. Stationed originally outside of the city of Kachirho of Kashyyyk, Hssissk would arrange the transfer of captured Wookiee slaves to the Blackscale Avatar Platform. For a while, Hsssissk has had his eyes set on overthrowing the Blackscale clan and taking over the planet of Kashyyyk for his own family.
+TEXT_TOOLTIP_IL_RAZ,Ishin-Il-Raz was promoted by Emperor Palpatine to be one of the original twelve Grand Admirals in spite of having no military training and his appointment was met with much criticism. A fanatical supporter of the New Order and its core precepts, Il-Raz began to idolize Palpatine, and initiated a series of bloody massacres in an attempt to win favor with the Emperor. After Palpatine died at Endor, Il-Raz became increasingly deranged and depressed, attacking worlds at random.
 TEXT_TOOLTIP_INCOME_BANKOFTHECORE,Credit Income: +600
 TEXT_TOOLTIP_INCOME_BISCUIT_BARON,Credit Income: +10%
 TEXT_TOOLTIP_INVINCIBLE_TENDER,An ancient Rendili-designed Battlecruiser dating back to the final Alsakan Conflict. Despite its age, it has managed to stay in limited service with various local and corporate forces around the galaxy. This version is used as a corporate merchantman, heavily armed bulk cruiser or fleet logistics vessel, carrying supplies and specialist crews along dangerous routes thanks to its massive internal cargo capacity. Its armament is weaker than many contemporary refits of the same hull, with a stronger focus on anti-fighter defenses and the addition of some ion cannons to ward off raiders. Even when not fully militarized, it can still defend itself and other convoy members with its weapons and on-board escort fighter craft, but does not compare to modern cruisers.
@@ -1708,6 +1719,7 @@ TEXT_UNIT_AT_OT_WALKER,AT-OT Walker
 TEXT_UNIT_AT_OT_WALKER_COMPANY,AT-OT Walker Company
 TEXT_UNIT_AT_PT_SNIPER,AT-PT/A Walker
 TEXT_UNIT_AT_TE_WALKER_CANONNEER,Cannoneer AT-TE Walker
+TEXT_UNIT_AT_TE_WALKER_CANONNEER,
 TEXT_UNIT_AT_TE_WALKER_COMMAND,AT-TE Walker (Command Refit)
 TEXT_UNIT_AT_XT_WALKER,AT-XT Walker
 TEXT_UNIT_ATACT,AT-ACT Walker
@@ -1981,8 +1993,3 @@ Z_TEXT_UNIT_GORATH_RESEARCH,Reverse-engineer the Gorath Strike Cruiser
 Z_TEXT_UNIT_MISSILE_BOAT_RESEARCH,Reverse-engineer the Missile Boat
 Z_TEXT_UNIT_MTC_RESEARCH,Reverse-engineer the Modular Taskforce Cruiser
 Z_TEXT_UNIT_SCIMITAR_RESEARCH,Reverse-engineer the Scimitar Assault Bomber
-TEXT_UNIT_AT_TE_WALKER_CANONNEER,
-TEXT_EVENT_WARLORD_CHOICE_NIVERS,TODO
-TEXT_PROTEUS_DESCRIPTION_NIVERS,TODO
-TEXT_EVENT_WARLORD_CHOICE_NIVERS,Nivers' Empire
-TEXT_CONQUEST_PROTEUS_NIVERS,TODO
