@@ -1354,4 +1354,25 @@ return {
 			["4ABY"] = true
 		}
 	},
+	
+	["NIVERS"] = {
+		["FullSmall"] = {
+			["4ABY"] = true
+		}
+		,["FullMedium"] = {
+			["4ABY"] = true
+		}
+		,["FullLarge"] = {
+			["4ABY"] = true
+		}
+		,["KnownSmall"] = {
+			["4ABY"] = true
+		}
+		,["KnownMedium"] = {
+			["4ABY"] = true
+		}
+		,["KnownLarge"] = {
+			["4ABY"] = true
+		}
+	},
 }

@@ -1099,7 +1099,7 @@ return {
 				-- Space
 				"Delta_JV7_Group", "Bayonet_Cruiser", "Lancer_Frigate", "Surveyor_Frigate", "Victory_II_Frigate",
 				"Acclamator_I_Assault", "Acclamator_I_Carrier", "Imperial_DHC", "Acclamator_I_Support", "Victory_I_Star_Destroyer", "Procursator_Star_Destroyer",
-				"Imperial_II_Star_Destroyer", "Interdictor_Star_Destroyer", "Tector_Star_Destroyer",
+				"Imperial_II_Star_Destroyer", "Interdictor_Star_Destroyer", "Tector_Star_Destroyer", "Invincible_Cruiser_Modernized",
 				"Allegiance_Battlecruiser", "Lucrehulk_Auxiliary_Proteus", "Praetor_II_Battlecruiser", "Mandator_II_Dreadnought", "Assertor_Star_Dreadnought",
 				-- Ground
 				"Imperial_Navy_Trooper_Company", "Navy_Commando_Company", "Imperial_Fleet_Commando_Company",
@@ -1343,6 +1343,33 @@ return {
 			StartYear = 11,
 			IntroText = "",
 			IntroHolo = "Imperial_Naval_Officer_Loop"
+		},
+		["NIVERS"] = {
+			FriendlyName = "Nivers' Empire",
+		--	Planets = {"STENOS"},
+			Planets = {},
+		    LeaderTable = {["NIVERS_TEAM"] = {"NIVERS_AT_AT_WALKER"}},
+			LeaderEndingNames = {"Emperor Nivers"},
+			HeroList = {"Nivers_Team"}, 
+			UnlockList = {
+				-- Space
+				"YZ_775_Freighter_Group", "Raider_I_Corvette", "Tartan_Patrol_Cruiser", "Corellian_Buccaneer", "Ion_Vigil", "Strike_Cruiser_Light", "Strike_Interdictor", "Carrack_Cruiser_Laser", "Starbolt_Tender", "Ton_Falk_Escort_Carrier", 
+				"Neutron_Star_Mercenary", "Comms_DHC", "Broadside_Cruiser", "Gladiator_I", "Proficient_Tender", "Acclamator_I_Carrier", "Procursator_Star_Destroyer", 
+				"Interdictor_Star_Destroyer", "Imperial_II_Star_Destroyer",
+				"Mandator_II_Dreadnought",
+				-- Ground
+				"Army_Special_Missions_Company", "EVO_Trooper_Company",  "Republic_BARC_Company",
+				"Repulsor_Scout_Company", "RTT_Company", "1L_Tank_AV_Company", "Chariot_LAV_Company", 
+				"AT_AA_Flak_Walker_Company", "SPMAG_Walker_Company", "HAET_Company", 
+				"Imperial_AT_TE_Walker_Company", "Imperial_AT_AT_Walker_Company", 
+				-- Research
+			--	"Nivers_Aggressor_SD_Research", 
+			},
+			FactionOverride = "Zsinj_Empire",
+			LastYear = 4,
+			IntroText = "TODO",
+			IntroHolo = "Nigel_Nivers_Loop",
+			CustomRewardTable = true,
 		},
 		["PRAJI"] = {
 			FriendlyName = "Imperial Kaikielius",
