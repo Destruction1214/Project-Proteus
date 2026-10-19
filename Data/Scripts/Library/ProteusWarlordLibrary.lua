@@ -1367,7 +1367,7 @@ return {
 			},
 			FactionOverride = "Zsinj_Empire",
 			LastYear = 4,
-			IntroText = "TODO",
+			IntroText = "TEXT_CONQUEST_PROTEUS_NIVERS",--TODO
 			IntroHolo = "Nigel_Nivers_Loop",
 			CustomRewardTable = true,
 		},

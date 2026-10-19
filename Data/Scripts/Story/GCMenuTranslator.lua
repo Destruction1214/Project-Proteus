@@ -166,6 +166,7 @@ return {
 		"VEERS",
 		"X1",
 		"FEL",
+		"NIVERS",
 		"SECRET",
 	},
 

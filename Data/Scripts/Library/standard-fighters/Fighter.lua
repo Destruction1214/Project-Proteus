@@ -135,6 +135,7 @@ return {
 			ANAXES = {"Z95XT_HEADHUNTER_SQUADRON", false},
 			SECRET = {"X_WING_SQUADRON", false},
 			SCREED = {"ATL_INTERCEPTOR_SQUADRON", false},
+			NIVERS = {"MODERNIZED_Z95_HEADHUNTER_SQUADRON", false},
 		}
 		
 		if owner == "IMPERIAL_PROTEUS" then

@@ -114,7 +114,7 @@ return {
 			ANAXES = {"TIE_X7_SQUADRON", false},
 			SECRET = {"ELITE_SHIELDED_ARMORED_INTERCEPTOR_SQUADRON", false},
 			SCREED = {"ETA2_ACTIS_SQUADRON", false},
-
+			NIVERS = {"TIE_V1_SQUADRON", false},
 		}
 		
 		if owner == "REBEL" then
