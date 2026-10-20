@@ -200,14 +200,7 @@ return {
 
 			local proteus = GlobalValue.Get("PROTEUS_GROUP_NAME")
             if proteus ~= nil then
-                local warlord_lib = require("ProteusWarlordLibrary")
-                local unlocks = get_value_per_era(warlord_lib[proteus].UnlockList)
-                local indexed = {}
-                for _, unit in pairs(unlocks) do
-                    indexed[unit] = true
-                end
-                
-                if indexed["IPV1"] then
+                if not Find_Object_Type("IPV1").Is_Build_Locked(Find_Player("Imperial_Proteus")) then
                     UnitUtil.SetLockList("IMPERIAL_PROTEUS", {
 					   "IPV4"
 					})
