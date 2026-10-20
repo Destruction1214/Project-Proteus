@@ -183,24 +183,12 @@ function WarlordStart:Populate_Chosen_Faction(choice, cosmetic)
 				end
 			end
 		end
-		--check if IPV1 is on table, if so remove and replace with IPV4 for unlocking
-		local indexed = {}
-        for _, unit in pairs(unlock) do
-            indexed[unit] = true
-        end
-		if indexed["IPV1"] then
-			if (year >= 11 and GlobalValue.Get("GALACTIC_MONTH") >= 5) or year >= 12 then
-				for i, check in pairs(unlock) do
-					if check == "IPV1" then
-						table.remove(unlock, i)
-						table.insert(unlock, "IPV4")
-						break
-					end
-				end
-			end
-		end
-		--do the normal unlocking
 		UnitUtil.SetLockList(self.warlord_name, unlock)
+		--For groups that have the IPV1, automatically swap to IPV4 in later eras
+		if (year >= 12 or (year >= 11 and GlobalValue.Get("GALACTIC_MONTH") >= 5)) and not Find_Object_Type("IPV1").Is_Build_Locked(self.warlord_player) then
+			self.warlord_player.Lock_Tech(Find_Object_Type("IPV1"))
+			self.warlord_player.Unlock_Tech(Find_Object_Type("IPV4"))
+		end
 	end
 	if entry.LockList then
 		UnitUtil.SetLockList(self.warlord_name, get_value_per_era(entry.LockList, year), false)
