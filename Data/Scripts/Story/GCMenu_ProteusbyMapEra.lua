@@ -1375,4 +1375,42 @@ return {
 			["4ABY"] = true
 		}
 	},
+	["MINOS"] = {
+		
+		["WesternReaches"] = {
+			["4ABY"] = true
+		}
+		,["Empires_At_War"] = {
+			["4ABY"] = true
+		}
+	},
+	["TATOOINE"] = {
+		
+		["KnownLarge"] = {
+			["4ABY"] = true
+		}
+		,["FullLarge"] = {
+			["4ABY"] = true
+		}
+	},
+	["TRAX"] = {
+		["FullSmall"] = {
+			["6ABY"] = true
+		}
+		,["FullMedium"] = {
+			["6ABY"] = true
+		}
+		,["FullLarge"] = {
+			["6ABY"] = true
+		}
+		,["KnownSmall"] = {
+			["6ABY"] = true
+		}
+		,["KnownMedium"] = {
+			["6ABY"] = true
+		}
+		,["KnownLarge"] = {
+			["6ABY"] = true
+		}
+	},	
 }

@@ -52,14 +52,18 @@ TEXT_CONQUEST_PROTEUS_ANAXES,Feyet Kiez: Greetings Commander, the Empire has fal
 TEXT_CONQUEST_PROTEUS_BALMORRA,Hinch Beltane: There has never been a better moment to finally seize our freedom than now. The Emperor is dead, and his lackeys in disarray. It is time for a new course, Commander. Rally our forces and make sure that all the other galactic powers are put on notice: they can buy our products, but they cannot have us as their subjects again. As of this hour, Balmorra is once again independent and open for business - and you are free to use whatever force you deem necessary to ensure it stays that way.
 TEXT_CONQUEST_PROTEUS_BRENTAAL,Soontir Fel: I have wrestled with it these past few days, but I cannot deny that Phennir is right. Isard is leading what's left of the Empire to an ignoble end, and I refuse to let myself and my men be dragged down with her. I can do more for the Empire as a warlord than Isard's pawn. We will show the galaxy what the Empire is still capable of.
 TEXT_CONQUEST_PROTEUS_CENTRALITY,Sris Lehhett: Hello Commander, the galaxy has fallen into chaos ever since the Emperor died above Endor. It is our duty to preserve stability within the Centrality. For this reason we need to rebuild our fleet to fulfill the ardous task of restarting our economy. I trust you commander to complete this task.
+TEXT_CONQUEST_PROTEUS_COMPNOR,TODO
 TEXT_CONQUEST_PROTEUS_GRUNGER,Josef Grunger: Word has reached me of the Emperor’s death, and I do not intend to pass up such an opportunity. This region of space is ripe with lesser men to join my armada. They will not be difficult to "convince".
+TEXT_CONQUEST_PROTEUS_MINOS,TODO
 TEXT_CONQUEST_PROTEUS_NIVERS,TODO
 TEXT_CONQUEST_PROTEUS_PRAJI,Nahdonnis Praji: It was the right decision to retire to Kaikielius instead of following the Emperor to his final demise. Now we must build on our work, Commander, and secure our holdings against all the vultures descending.
 TEXT_CONQUEST_PROTEUS_REBORN,Admiral Fyyar: Our final preparations are complete, Commander! My flagship is ready and loaded with the new Reborn Shadowtroopers! All my work, my ingenious designs, will finally bring about the end of the rebels and the Jedi! Lord Hethrir is correct, the Empire will be reborn - but not as he imagines it...
 TEXT_CONQUEST_PROTEUS_RENDILI,Comeg: I'm glad you could make it, Commander. Things are dire, and it is abundantly clear that we cannot hope on any external support. I have taken steps to consolidate our position, but the local political and corporate elites are not enthusiastic about our presence. Still, they obey for now, and the resources at our fingertips are quite immense. I believe that with deliberate application of force, we can carve out a little pocket of order amidst the chaos reigning around us. Our first step should be formalizing our cooperation with Rendili StarDrive.
 TEXT_CONQUEST_PROTEUS_SHADOW_ACADEMY,Great Leader: You did not think I would be gone, did you? I will always return! Now, there is no time for hesitation! Pledge yourself to me once more, and together we shall crush the rebellion once and for all! You shall lead my armies and my new Dark Knights into battle! Return to your station, my loyal guards will relay further orders soon.
+TEXT_CONQUEST_PROTEUS_TATOOINE,TODO
 TEXT_CONQUEST_PROTEUS_THARKUS,We are the greatest military power the galaxy has ever seen, and we will not surrender to this terrorist rabble! The Emperor only held us back, once proper men of war and honor take charge, we will crush the rebellion and all the treacherous scum proclaiming to speak for us! The return of the Jedi will be a short-lived affair, for under my command the Empire shall strike back and destroy their new hope!
 TEXT_CONQUEST_PROTEUS_THORN,Daymon Thorn: The Emperor is dead, and I shall pick up his crown and place it upon my own head.  With the power of the Korrendum crystals, we shall build a weapon that will surpass even the Death Stars, and with it, we shall overthrow and scatter all that oppose our march. The men who laugh at the Empire's distress, and inwardly rejoice at the triumph of our enemies, will soon be confounded and trembling, for the War Dog of the Empire is on the march. There still remains much to do!
+TEXT_CONQUEST_PROTEUS_TRAX,TODO
 TEXT_CONQUEST_PROTEUS_VEERS,Veers: Delvardus has been driven out from Eriadu, and while I shed no tears for him, our situation remains bleak. The rebels are still in control of much of the core, and most Imperial holdouts are either unwilling or unworthy of my assistance. For now, we will strike out on our own, Commander. We might be all that is left of the Empire we once served, but I will not surrender it to the rebels without a fight!
 TEXT_CONQUEST_PROTEUS_X1_FACTION,X1: The death of Vader and the Emperor has finally given me the opportunity to take the power that is rightfully mine. Prepare yourself for chaos, Commander.
 TEXT_CONQUEST_SCREED,Terrinald Screed: It does not surprise me that the one enemy worth fighting is the one enemy that my so-called "superiors" cannot defeat! The Empire has no use for weak warlords and simpering bureaucrats! If they will not realize the Empire's destiny, then I will. All shall fear and revere Admiral Screed once again!
@@ -126,9 +130,11 @@ TEXT_EVENT_WARLORD_CHOICE_BALMORRA,Independent Balmorra
 TEXT_EVENT_WARLORD_CHOICE_BRANDEI,Thrawn Remnants
 TEXT_EVENT_WARLORD_CHOICE_CARIDA,Imperial Carida
 TEXT_EVENT_WARLORD_CHOICE_CENTRALITY,The Centrality
+TEXT_EVENT_WARLORD_CHOICE_COMPNOR,Compnor
 TEXT_EVENT_WARLORD_CHOICE_FEL,Brentaal Houses
 TEXT_EVENT_WARLORD_CHOICE_GRUNGER,Grunger's Empire
 TEXT_EVENT_WARLORD_CHOICE_LANOX,Imperial Loyalist
+TEXT_EVENT_WARLORD_CHOICE_MINOS,Minos Cluster
 TEXT_EVENT_WARLORD_CHOICE_NIVERS,TODO
 TEXT_EVENT_WARLORD_CHOICE_NIVERS,Nivers' Empire
 TEXT_EVENT_WARLORD_CHOICE_PRAJI,Imperial Kaikielius
@@ -137,8 +143,10 @@ TEXT_EVENT_WARLORD_CHOICE_RENDILI,Imperial Rendili
 TEXT_EVENT_WARLORD_CHOICE_SCREED,Screed's Empire
 TEXT_EVENT_WARLORD_CHOICE_SHADOW_ACADEMY,Second Imperium
 TEXT_EVENT_WARLORD_CHOICE_STORM_COMMANDOS,Storm Commandos
+TEXT_EVENT_WARLORD_CHOICE_TATOOINE,Imperial Tatooine
 TEXT_EVENT_WARLORD_CHOICE_THARKUS,Tharkus's Empire
 TEXT_EVENT_WARLORD_CHOICE_THORN,Daymon Thorn's Empire
+TEXT_EVENT_WARLORD_CHOICE_TRAX,Trax Sector
 TEXT_EVENT_WARLORD_CHOICE_VEERS,Blizzard Force
 TEXT_EVENT_WARLORD_CHOICE_X1,X1's Empire
 TEXT_FIELD_BASE_MERCENARY,Mercenary Field Base
@@ -169,6 +177,7 @@ TEXT_HEADHUNTER_MODERNIZED_SQUADRON2,Modernized Z-95 Headhunter Squadron x2
 TEXT_HERO_1214,Destruction1214
 TEXT_HERO_17786,17786
 TEXT_HERO_ABAN,Aban
+TEXT_HERO_ALEXANDER_JULSTAAN,Alexander Julstaan
 TEXT_HERO_BENGILA_URLAN,Bengila Urlan
 TEXT_HERO_BENJO,Benjo
 TEXT_HERO_BRELLAR,Alecs Brellar
@@ -247,9 +256,11 @@ TEXT_PROTEUS_DESCRIPTION_BALMORRA,The Planet Balmorra was occupied by the Empire
 TEXT_PROTEUS_DESCRIPTION_BRANDEI,--TODO TEXT_PROTEUS_DESCRIPTION_BRANDEI--
 TEXT_PROTEUS_DESCRIPTION_CARIDA,--TODO TEXT_PROTEUS_DESCRIPTION_CARIDA--
 TEXT_PROTEUS_DESCRIPTION_CENTRALITY,The Centrality is a remote Sector in the Outer Rim which bordered Hutt space. The sector was part of the Empire but largely left alone due to it's extreme remoteness. It was ruled over by the Sorcerer of Tund until he was killed by Lando Calrissian. After the Empire was defeated at Endor, the Centrality regained it's independence but otherwise had little to no influence on the galaxy. They were sceptical of the New Republic but nonetheless signed a treaty of goodwill with them.
+TEXT_PROTEUS_DESCRIPTION_COMPNOR,Made up of the Empire's finest youths, COMPNOR is the pillar of the Empire's Foundation, with the original Old Republic in mind, COMPOR Lord Crueya Vandron plans on regaining what was lost at Endor and reforging the Empire anew with the young men and women of the Empire to fight Rogue Imperials and Rebels alike to keep the New Order alive.
 TEXT_PROTEUS_DESCRIPTION_FEL,--TODO TEXT_PROTEUS_DESCRIPTION_FEL--
 TEXT_PROTEUS_DESCRIPTION_GRUNGER,One of the original twelve Grand Admirals, Grunger wasted no time consolidating his powerbase and making a play for control of the Imperial Remnant once he learned of Palpatine's death. Aggressive and capable, he was one of the main contenders for the Imperial Throne, and his growing strength worried the Central Committee of Grand Moffs and other Imperial warlords.
 TEXT_PROTEUS_DESCRIPTION_LANOX,--TODO TEXT_PROTEUS_DESCRIPTION_LANOX--
+TEXT_PROTEUS_DESCRIPTION_MINOS,TODO
 TEXT_PROTEUS_DESCRIPTION_NIVERS,TODO
 TEXT_PROTEUS_DESCRIPTION_PRAJI,After conquering his ancient family home world of Kaikielius, Nahdonnis Praji met with the reborn Emperor Palpatine in person for the first time, and upon experiencing the Emperor's apparent madness first hand, decided to retire to governorship of the planet. This saved him from the immolation of the Dark Empire shortly thereafter, but left him and his new fiefdom isolated as a resurgent New Republic and vengeful Imperial warlords all laid claim to the core and deep core regions.
 TEXT_PROTEUS_DESCRIPTION_REBORN,The Imperial Procurator of Justice, Lord Hethrir, went underground following the Imperial defeat at Endor, building a network of support in the shadows. After Palpatine's final death, he rechristened his faction 'Empire Reborn' and worked with the Dark Jedi Desann and Admiral Galak Fyyar in creating a new army of force-using soldiers to unleash upon the galaxy.
@@ -257,8 +268,10 @@ TEXT_PROTEUS_DESCRIPTION_RENDILI,The core world of Rendili, a center of shipbuil
 TEXT_PROTEUS_DESCRIPTION_SCREED,After his career peaked during the Outer Rim Sieges, Admiral Terrinald Screed would slowly fade into irrelevance over the course of Palpatine's reign and the Galactic Civil War, exacerbated by his failed schemes to seize new worlds and resources for the Empire to boost his own prestige. After retreating from the battle of Endor, Screed would desert Death Squadron and the Empire, carving out his own fiefdom.
 TEXT_PROTEUS_DESCRIPTION_SHADOW_ACADEMY,The Second Imperium was a hardliner faction within the Imperial Remnant, forming alongside but unaffiliated with the Replacement Warlords of the Deep Core. Originally obscure and unimportant, they surged to momentary prominence after the Pellaeon-Gavrisom-Treaty, decrying the peace accords as surrender and urging the Imperial splinters to make war upon the New Republic. To rally support, four royal guards faked the return of Emperor Palpatine and started the Shadow Academy, a mobile cloaked facility for indoctrinating young force-sensitives into dark jedi, and embarked on a campaign of piracy and sabotage to build up forces to assault the Jedi Praxeum on Yavin IV.  
 TEXT_PROTEUS_DESCRIPTION_STORM_COMMANDOS,Prior to the Battle of Endor, General Weir of the Storm Commandos was placed in charge of an imperial outpost on Tralus which stockpiled weapons and vehicles and projected imperial power over the Corellia system. Amidst the chaos following the Rebellion's victory at Endor, this outpost would serve as a rallying point for the remaining Storm Commandos and as a staging area for terror attacks and insurgent operations against the New Republic and its sympathizers.
+TEXT_PROTEUS_DESCRIPTION_TATOOINE,TODO
 TEXT_PROTEUS_DESCRIPTION_THARKUS,Led by the Imperial hardliner High Admiral Tharkus, this splinter faction emerged from his refusal to accept peace with the New Republic as the Empire fractured after Endor. Distrustful of politicians and civilian leadership, Tharkus gathered loyal military forces and a select group of operatives, including the shapeshifting Dioskouroi, with the goal of continuing the war and seizing control of the Empire for himself by claiming the legendary "Heart of the Jedi".
 TEXT_PROTEUS_DESCRIPTION_THORN,A secretive dark jedi who pledged his allegiance to the Emperor while serving his own agenda, Daymon Thorn, also known as the Wardog of the Empire, has returned from his sujourn at the news of the Emperor's death. With a small army of followers and the power of a set of ancient crystals at his disposal, he seeks to claim the Imperial Throne for himself, and himself alone.
+TEXT_PROTEUS_DESCRIPTION_TRAX,TODO
 TEXT_PROTEUS_DESCRIPTION_VEERS,After Veers broke with Sander Delvardus over the latter's mismanagement of the Seswenna campaign, he went north on his own in the wake of the New Republic sweeping through the core worlds and consolidating their power. Many other warlords distrusted Veers due to his past as Vader's favored ground commander, and so he and his loyal men drifted for a while without a power base of their own until he was contacted by a person calling themselves the Omnipotent Battle Leader.
 TEXT_PROTEUS_DESCRIPTION_X1,--TODO TEXT_PROTEUS_DESCRIPTION_X1--
 TEXT_PROTEUS_ROSTER_LAMBDA,Moff Lankin's forces are versatile and unspecialized, with a significant ISB contingent among their ranks to help keep the restive population in line. In space, a roster of efficient vessels can react to any situation and provide support to the massive battlecruisers that serve as anchors of the fleet. On the ground, their armies are adaptable, with a noticeable focus on mechanized assaults.
@@ -656,6 +669,7 @@ TEXT_TOOLTIP_ACCLAMATOR_DESTROYER_WEAP3,8x Assault Concussion Missiles: 8 / 20.0
 TEXT_TOOLTIP_ACCLAMATOR_DESTROYER_WEAP4,2x Proton Torpedoes: 2 / 7.5s / 5.3km
 TEXT_TOOLTIP_ACCLAMATOR_I_SUPPORT,The end of the Clone Wars saw an explosion in demand for cargo ships and freighters, alongside a post-war surplus of previously mass-produced Acclamators that were no longer needed in peacetime. Thus the remaining military Acclamators were widely converted into cargo ships to meet this new demand, repurposing the vehicle bay into a large cargo bay.
 TEXT_TOOLTIP_ACCLAMATOR_I_SUPPORT_HULL,Hull: 1925 (Frigate)
+TEXT_TOOLTIP_ALEXANDER_JULSTAAN,TODO
 TEXT_TOOLTIP_ALTOR_CARRIER,As various warlords began to dig in inside their military fiefdoms, the large Altor-Class Fleet Replenishment Ships, whose purpose was to enable wide-ranging and long-lasting fleet maneuvers and campaigns, saw themselves repurposed for local military operations. In the small scale but fierce fighting of most warlord rivalries, their large configurable volume and imposing size made them adequate mobile defensive stations to deter raids, upgunned with heavy weaponry and modified to house more strikecraft rather than supplies. While still an ad-hoc conversion and less powerful than any other battlecruiser of similar size, this refurbished variant can act as a flagship for a task force or anchor in a defensive battle in the absence of larger enemy vessels. 
 TEXT_TOOLTIP_ALTOR_CARRIER_SHIELD,Shields: 30000 / [75/R] (Capital)
 TEXT_TOOLTIP_ALTOR_CARRIER_SQUADRON,Fighters: 8 / 32 | Bombers: 3 / 9
@@ -1318,6 +1332,7 @@ TEXT_TOOLTIP_NEIMOIDIAN_GUARD_WEAP2,1x Neimoidian Blaster Stave: 1 / 1.0s / 240m
 TEXT_TOOLTIP_NEIMOIDIAN_GUARD_WEAP3,1x MiniMag PTL Launcher: 1 / 9.0s / 320m
 TEXT_TOOLTIP_NEIMOIDIAN_GUARD_WEAP4,1x Thermal Grenade: 1 / 15.0s / 200m
 TEXT_TOOLTIP_NEIMOIDIAN_GUARD_WEAP5,1x Neimoidian Sniper Rifle: 1 / 3.0s / 320m
+TEXT_TOOLTIP_NIVERS_AGGRESSOR_RESEARCH,Invest in production of the Aggressor Star Destroyer to replace the Imperial-II Star Destroyer.
 TEXT_TOOLTIP_NTB_630,A relatively popular joint Incom and Subpro design, the NTB-630 would be extensively used in the Clone Wars as a bomber craft focused on killing CIS capital ships. It was essentially a bomber version of the ubiquitous ARC-170 and a more agile and space capable PTB-625. The NTB-630 shares many of the same visual design elements of its sister designs.
 TEXT_TOOLTIP_OG9HOMINGSPIDERDROID,A Baktoid-developed droid meant to enforce Commerce Guild whims, its body is little more than a reactor with armor plating and legs. Both anti-infantry and anti-vehicle weapons make this walker a versatile combatant.
 TEXT_TOOLTIP_OG9HOMINGSPIDERDROID_COMPANY,Company: 4x OG-9 Homing Spider Droid
@@ -1827,6 +1842,7 @@ TEXT_UNIT_NEIMOIDIAN_GUARD_SNIPER,Neimoidian Guard Sniper
 TEXT_UNIT_NEIMOIDIAN_GUARD_SNIPER_OFFICER,Neimoidian Guard Sniper Officer
 TEXT_UNIT_NEIMOIDIAN_GUARD_SNIPER_SQUAD,Neimoidian Guard Sniper Squad
 TEXT_UNIT_NEIMOIDIAN_GUARD_SQUAD,Neimoidian Guard Squad
+TEXT_UNIT_NIVERS_AGGRESSOR_RESEARCH,Research: Aggressor Star Destroyer.
 TEXT_UNIT_NTB_630,NTB-630 Naval Bomber
 TEXT_UNIT_OG9_COMPANY,OG-9 Homing Spider Droid Company
 TEXT_UNIT_OG9HOMINGSPIDERDROID,OG-9 Homing Spider Droid
@@ -1993,5 +2009,3 @@ Z_TEXT_UNIT_GORATH_RESEARCH,Reverse-engineer the Gorath Strike Cruiser
 Z_TEXT_UNIT_MISSILE_BOAT_RESEARCH,Reverse-engineer the Missile Boat
 Z_TEXT_UNIT_MTC_RESEARCH,Reverse-engineer the Modular Taskforce Cruiser
 Z_TEXT_UNIT_SCIMITAR_RESEARCH,Reverse-engineer the Scimitar Assault Bomber
-TEXT_UNIT_NIVERS_AGGRESSOR_RESEARCH,Research: Aggressor Star Destroyer.
-TEXT_TOOLTIP_NIVERS_AGGRESSOR_RESEARCH,Invest in production of the Aggressor Star Destroyer to replace the Imperial-II Star Destroyer.

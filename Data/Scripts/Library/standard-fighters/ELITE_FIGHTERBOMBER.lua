@@ -95,6 +95,10 @@ return {
 			SECRET = {"TIE_DEFENDER_SQUADRON", false},
 			SCREED = {"ARC_170_SQUADRON", false},
 			NIVERS = {"TIE_AVENGER_ASSAULT_SQUADRON", false},
+			COMPNOR = {"", false},
+			MINOS = {"ARC_170_SQUADRON", false},
+			TATOOINE = {"", false},
+			TRAX = {"", false},														
 		}
 		
 		if owner == "IMPERIAL_PROTEUS" then
