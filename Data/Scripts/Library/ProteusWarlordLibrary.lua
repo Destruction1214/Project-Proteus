@@ -1253,6 +1253,26 @@ return {
 			IntroText = "TEXT_CONQUEST_PROTEUS_CENTRALITY",
 			IntroHolo = "Imperial_Naval_Officer_Loop",
 		},
+		["COMPNOR"] = {
+			FriendlyName = "COMPNOR",
+			Planets = {"BRENTAAL"},
+			LeaderTable = {["CRUEYA_VANDRON_TEAM"] = {"CRUEYA_VANDRON"}},
+			LeaderEndingNames = {"Emperor Vandron"},
+			HeroList = {{"Crueya_Vandron_Team", "Il_Raz_EmperorsDisciple"}, [6] = {"Crueya_Vandron_Team"}},
+			UnlockList = {
+				-- Space 
+				
+				-- Ground
+				
+				-- Research
+				
+			},
+			FactionOverride = "Empire",
+			StartYear = 4,
+			LastYear = 11,
+			IntroText = "TEXT_CONQUEST_PROTEUS_COMPNOR",
+			IntroHolo = "_Loop",
+		},
 		["EMPIRE_REBORN"] = {
 			FriendlyName = "Empire Reborn",
 			Planets = {"VJUN", "BESPIN", "ALZOC", "CHALCEDON", "RUUSAN"},
@@ -1343,6 +1363,36 @@ return {
 			StartYear = 11,
 			IntroText = "",
 			IntroHolo = "Imperial_Naval_Officer_Loop"
+		},
+		["MINOS"] = {
+			FriendlyName = "Minos Cluster",
+			Planets = {"UTAPAU"},
+			LeaderTable = {"TORSCH_APPROPRIATOR"},
+			LeaderEndingNames = {"Emperor Torsch"},
+			HeroList = {"Torsch_Appropriator", "Raas_Team"},
+			UnlockList = {
+				-- Space 
+				"Guardian_Cruiser_Group", "Customs_Corvette", "Surveyor_Frigate", "Munifex", "Quasar", "Marauder_Picket_Cruiser", "Victory_I_Frigate",
+				"Imperial_I_Frigate", "Neutron_Star", "Neutron_Star_Tender", "Imperial_DHC", "Victory_I_Star_Destroyer", "Immobilizer_418_Refit", "Acclamator_I_Assault",
+				"Imperial_II_Star_Destroyer_Sentry", "Triumph_Star_Destroyer", "Imperial_I_Star_Destroyer_Patrol",
+				"Communications_Battlecruiser", "Bellator_Star_Dreadnought",
+				-- Ground
+				"Imperial_Navy_Trooper_Company", "ISB_Infiltrator_Company", "Imperial_Army_Trooper_Company", "Imperial_74Z_Bike_Company",
+				"Imperial_ISP_Company", "Chariot_LAV_Company", "Imperial_ULAV_Company", "PX7_Company",
+				"008_Speeder_Company", "Imperial_Light_Mobile_Artillery_Company", "Imperial_Modified_LAAT_Company", "Imperial_UT_AA_Company", "HAET_Company", "Imperial_AT_AP_Walker_Company",
+				"Imperial_A5_Juggernaut_Company", "PX4_Company", "Heavy_Recovery_Vehicle_Company",
+
+
+
+
+				-- Research
+				
+			},
+			FactionOverride = "Empire",
+			FactionOverride2 = "Eriadu_Authority",
+			StartYear = 4,
+			IntroText = "TEXT_CONQUEST_PROTEUS_MINOS",
+			IntroHolo = "_Loop",
 		},
 		["NIVERS"] = {
 			FriendlyName = "Nivers' Empire",
@@ -1501,6 +1551,26 @@ return {
 			IntroHolo = "Stormtrooper_Officer_Loop",
 			CustomRewardTable = true,
 		},
+		["TATOOINE"] = {
+			FriendlyName = "Imperial Tatooine",
+			Planets = {"TATOOINE"},
+			LeaderTable = {["ALEXANDER_JULSTAAN_TEAM"] = {"ALEXANDER_JULSTAAN"}},
+			LeaderEndingNames = {"Emperor Julstaan"},
+			HeroList = {"Alexander_Julstaan_Team","Terro_Team", "Kosh_Team"},
+			UnlockList = {
+				-- Space 
+				
+				-- Ground
+				
+				-- Research
+				
+			},
+			FactionOverride = "Rebel",
+			StartYear = 4,
+			LastYear = 4,
+			IntroText = "TEXT_CONQUEST_PROTEUS_TATOOINE",
+			IntroHolo = "Imperial_Naval_Officer_Loop",
+		},
 		["THORN"] = {
 			FriendlyName = "Thorn's Empire",
 			Planets = {"GHORMAN"},
@@ -1548,6 +1618,26 @@ return {
 			IntroText = "TEXT_CONQUEST_PROTEUS_THARKUS",
 			IntroHolo = "Imperial_Naval_Officer_Loop",
 			CustomRewardTable = true,
+		},
+		["TRAX"] = {
+			FriendlyName = "Trax Sector",
+			Planets = {"RUUSAN"},
+			LeaderTable = {"HEGGEL_TABAL"},
+			LeaderEndingNames = {"Emperor Heggel"},
+			HeroList = {"Heggel_Tabal", "Resner_Folly"},
+			UnlockList = {
+				-- Space 
+				
+				-- Ground
+				
+				-- Research
+				
+			},
+			FactionOverride = "Neutral",
+			StartYear = 4,
+			LastYear = 10,
+			IntroText = "TEXT_CONQUEST_PROTEUS_TRAX",
+			IntroHolo = "Imperial_Naval_Officer_Loop",
 		},
 		["VEERS"] = {
 			FriendlyName = "Blizzard Force",

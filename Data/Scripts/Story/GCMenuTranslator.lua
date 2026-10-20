@@ -80,6 +80,10 @@ return {
 	["THARKUS"] ="faction_77",
 	["X1"] ="faction_78",
 	["NIVERS"] ="faction_79",
+	["COMPNOR"] ="faction_80",
+	["MINOS"] ="faction_81",
+	["TATOOINE"] ="faction_82",
+	["TRAX"] ="faction_83",
 	["SECRET"] ="faction_94",
 	
 
@@ -167,6 +171,10 @@ return {
 		"X1",
 		"FEL",
 		"NIVERS",
+		"COMPNOR",
+		"MINOS",
+		"TATOOINE",
+		"TRAX",
 		"SECRET",
 	},
 

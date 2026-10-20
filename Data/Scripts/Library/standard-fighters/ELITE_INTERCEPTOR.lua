@@ -115,6 +115,10 @@ return {
 			SECRET = {"ELITE_SHIELDED_ARMORED_INTERCEPTOR_SQUADRON", false},
 			SCREED = {"ETA2_ACTIS_SQUADRON", false},
 			NIVERS = {"TIE_V1_SQUADRON", false},
+			COMPNOR = {"", false},
+			MINOS = {"PREYBIRD_SQUADRON", false},
+			TATOOINE = {"", false},
+			TRAX = {"", false},														
 		}
 		
 		if owner == "REBEL" then

@@ -8314,6 +8314,71 @@
 		<Affiliation>Imperial_Proteus</Affiliation>
 	</HeroCompany>
 
+		<!-- TATOOINE -->
+
+	<HeroUnit Name="Alexander_Julstaan">
+		<Variant_Of_Existing_Type>Non_Combat_Hero_Template</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_HERO_ALEXANDER_JULSTAAN</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_ADMIN_TIER_MOFF
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_ALEXANDER_JULSTAAN
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_RESTRICTED_HYPERDRIVE
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_MOFF </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_julstaan_admin.tga</Icon_Name>
+		
+		<Ranking_In_Category>1</Ranking_In_Category>
+		<Affiliation>Independent_Forces</Affiliation>
+
+		<Abilities SubObjectList="Yes"> <!-- Admin_Tier_Moff -->
+			<Reduce_Production_Price_Ability Name="Admin_Tier_Moff_Reduce_Production_Price">
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Excluded_Unit_Categories>Upgrade | Wall</Excluded_Unit_Categories>
+				<Applicable_Unit_Types></Applicable_Unit_Types>
+				<Price_Reduction_Percentage>0.10</Price_Reduction_Percentage>
+				<Stacking_Category>50</Stacking_Category>
+			</Reduce_Production_Price_Ability>
+			<Reduce_Production_Time_Ability Name="Admin_Tier_Moff_Reduce_Production_Time">
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Excluded_Unit_Categories>Upgrade | Wall</Excluded_Unit_Categories>
+				<Applicable_Unit_Types></Applicable_Unit_Types>
+				<Time_Reduction_Percentage>0.10</Time_Reduction_Percentage>
+				<Stacking_Category>50</Stacking_Category>
+				<Galaxy_Wide> No </Galaxy_Wide>
+			</Reduce_Production_Time_Ability>
+			<Planet_Income_Bonus_Ability Name="Admin_Tier_Moff_Income_Bonus">
+				<Specific_Mod_Source_Text>TEXT_ECONOMY_MOFF</Specific_Mod_Source_Text>
+				<Percentage_Income_Modifier>0.1</Percentage_Income_Modifier> <!-- X percent of base planetary income -->
+				<Absolute_Income_Modifier>0</Absolute_Income_Modifier> <!-- plus flat Y credits -->
+				<Additional_Multiplier_On_Mining_Colonies>1.0</Additional_Multiplier_On_Mining_Colonies> <!-- multiply by Z on mining planets  -->
+				<!-- Total bonus credits per cycle = ((base * X) + Y) * Z -->
+			</Planet_Income_Bonus_Ability>
+		</Abilities>
+	</HeroUnit>
+
+	<HeroCompany Name="Alexander_Julstaan_Team">
+		<Variant_Of_Existing_Type>Non_Combat_Hero_Template_Team</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_HERO_ALEXANDER_JULSTAAN</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_ADMIN_TIER_MOFF
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_ALEXANDER_JULSTAAN
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_RESTRICTED_HYPERDRIVE
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_julstaan_admin.tga</Icon_Name>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_MOFF </Encyclopedia_Unit_Class>
+		
+		<Company_Transport_Unit>Shuttle_Tyderium_Admin</Company_Transport_Unit>
+		<Company_Units>Alexander_Julstaan</Company_Units>
+		
+		<Affiliation>Imperial_Proteus</Affiliation>
+	</HeroCompany>
+
 <!-- ============================ Fighter Heroes ============================ -->
 
 	<!-- Red Star Squadron -->
