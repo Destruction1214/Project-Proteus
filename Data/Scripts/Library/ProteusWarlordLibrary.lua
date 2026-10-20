@@ -1363,7 +1363,7 @@ return {
 				"AT_AA_Flak_Walker_Company", "SPMAG_Walker_Company", "HAET_Company", 
 				"Imperial_AT_TE_Walker_Company", "Imperial_AT_AT_Walker_Company", 
 				-- Research
-			--	"Nivers_Aggressor_SD_Research", 
+				"Dummy_Research_Nivers_Aggressor", 
 			},
 			FactionOverride = "Zsinj_Empire",
 			LastYear = 4,
