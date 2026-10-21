@@ -1386,7 +1386,7 @@ return {
 
 
 				-- Research
-				
+				"Dummy_Research_C_MDHC"
 			},
 			FactionOverride = "Empire",
 			FactionOverride2 = "Eriadu_Authority",
@@ -1613,8 +1613,9 @@ return {
 				-- Research
 				"Tharkus_Research_MissileTie",
 			},
-			LastYear = 4,
+			LastYear = 12,
 			FactionOverride = "Empire",
+			FactionOverride2 = "Rebel",
 			IntroText = "TEXT_CONQUEST_PROTEUS_THARKUS",
 			IntroHolo = "Imperial_Naval_Officer_Loop",
 			CustomRewardTable = true,

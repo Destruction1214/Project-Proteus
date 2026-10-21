@@ -859,7 +859,6 @@ TEXT_TOOLTIP_COMMAND_SUPERNOVA,Modernized DHC, Act on Vibes
 TEXT_TOOLTIP_COMMAND_SYNTAX_ERROR,Modified Glory Star Destroyer, SynTax Error
 TEXT_TOOLTIP_COMMAND_T11,Super Transport VII, Garbage Scowl
 TEXT_TOOLTIP_COMMAND_THETA_SQUADRON,TIE Bomber, Theta Squadron
-TEXT_TOOLTIP_COMMAND_VOSS,Sentinel Company
 TEXT_TOOLTIP_COMMAND_YARNAR_SQUADRON,Missile TIE Fighter, Celanon Garrison Squadron
 TEXT_TOOLTIP_COMMS_DHC,Another refit of the ubiquitous Dreadnaught Heavy Cruiser hull, this version is geared towards being a fleet support vessel with extensive communication equipment, sensor capacity and electronic warfare suites. While the armament is reduced to free up power for these additional systems, the added capabilities make it a potent support ship in most fleets and are a testament to the versatility of the hull. Although not as powerful as the original configuration, it can still defend itself and nearby allies from smaller vessels.
 TEXT_TOOLTIP_COMMS_DHC_HULL,Hull: 2100 (Heavy Frigate)
@@ -878,6 +877,7 @@ TEXT_TOOLTIP_CONSULAR_REFIT_WEAP1,4x Light Turbolasers: 1 / 5.0s / 5.0km
 TEXT_TOOLTIP_CONSULAR_REFIT_WEAP2,1x Assault Concussion Missile: 2 / 10.0s / 7.0km
 TEXT_TOOLTIP_CONSULAR_SHIELD,Shields: 400 / [8/R] (Corvette)
 TEXT_TOOLTIP_CORONA_RESEARCH_KUAT,Research the Corona Frigate. Replaces the Nebulon B and Nebulon B Tender with the Corona Frigate and Tender.
+TEXT_TOOLTIP_CORONA_RESEARCH_THARKUS,Replaces our Nebulon B Tender with the faster and more modern Corona Tender.
 TEXT_TOOLTIP_CORONA_TENDER,Fleet Tender: 50 / 1.0s / 1.4km
 TEXT_TOOLTIP_CORONA_TENDER_DESC,A support-focused variant of the Corona-class frigate equipped with advanced repair and resupply systems. Trading much of the ships hangar capacity and firepower for fleet tending capabilities, it serves as an effective logistical support vessel during prolonged engagements.
 TEXT_TOOLTIP_CORONA_TENDER_MOVE,Speed: 4.2 | Accel: 0.175 | Turn: 0.35
@@ -1733,8 +1733,8 @@ TEXT_UNIT_AT_KT_WALKER_COMPANY,AT-KT Walker Company
 TEXT_UNIT_AT_OT_WALKER,AT-OT Walker
 TEXT_UNIT_AT_OT_WALKER_COMPANY,AT-OT Walker Company
 TEXT_UNIT_AT_PT_SNIPER,AT-PT/A Walker
-TEXT_UNIT_AT_TE_WALKER_CANONNEER,Cannoneer AT-TE Walker
 TEXT_UNIT_AT_TE_WALKER_CANONNEER,
+TEXT_UNIT_AT_TE_WALKER_CANONNEER,Cannoneer AT-TE Walker
 TEXT_UNIT_AT_TE_WALKER_COMMAND,AT-TE Walker (Command Refit)
 TEXT_UNIT_AT_XT_WALKER,AT-XT Walker
 TEXT_UNIT_ATACT,AT-ACT Walker
@@ -1764,6 +1764,7 @@ TEXT_UNIT_COMMS_DHC,Dreadnaught Communications Cruiser
 TEXT_UNIT_CONSULAR,Consular Transport Cruiser
 TEXT_UNIT_CONSULAR_REFIT,Consular Armed Cruiser
 TEXT_UNIT_CORONA_TENDER,Corona Tender
+TEXT_UNIT_CORONA_TENDER_RESEARCH,Corona Tender Research
 TEXT_UNIT_COYOTE_BOMBER,Coyote Advanced Droid Bomber
 TEXT_UNIT_CR20,CR20 Transport
 TEXT_UNIT_CR25,CR25 Transport
