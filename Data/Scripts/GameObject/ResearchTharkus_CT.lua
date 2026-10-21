@@ -19,6 +19,8 @@ function State_Init(message)
         local owner = Object.Get_Owner()
         owner.Lock_Tech(Find_Object_Type("Nebulon_B_Tender"))
         owner.Unlock_Tech(Find_Object_Type("Corona_Tender"))
+
+        Story_Event("THARKUS_CORONA_RESEARCH_COMPLETED")
         
         Object.Despawn()
         ScriptExit()
