@@ -214,6 +214,10 @@ return {
                             "Imperial_AT_AT_Walker_Company"
                         }, false)
                     end                
+                elseif proteus == "THARKUS" then
+					    UnitUtil.SetLockList("IMPERIAL_PROTEUS", {
+						"Tharkus_Corona_Tender_Research"
+					})
                 end
             end
         end
