@@ -1613,9 +1613,8 @@ return {
 				-- Research
 				"Tharkus_Research_MissileTie",
 			},
-			LastYear = 12,
+			LastYear = 4,
 			FactionOverride = "Empire",
-			FactionOverride2 = "Rebel",
 			IntroText = "TEXT_CONQUEST_PROTEUS_THARKUS",
 			IntroHolo = "Imperial_Naval_Officer_Loop",
 			CustomRewardTable = true,

@@ -1,0 +1,1162 @@
+<?xml version="1.0" ?>
+<Story>
+<!-- ************************************* -->
+<!-- Imperial Regime Progression Holocrons -->
+<!-- ************************************* -->
+
+	<Event Name="Project_Ambition_Dialog">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>PROJECT_AMBITION_STARTED</Event_Param2>
+		<Story_Dialog>Dialog_ImperialRegimeAsks</Story_Dialog>
+		<Story_Chapter>0</Story_Chapter>
+		<Story_Tag>Isard_Tag</Story_Tag>
+	</Event>
+
+	<Event Name="Project_Ambition_Completed">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>PROJECT_AMBITION_COMPLETED</Event_Param2>
+		<Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
+		<Reward_Param1>Isard_Tag</Reward_Param1>
+	</Event>
+
+	<Event Name="Thrawn_Request_Dialog">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>THRAWN_REQUEST_STARTED</Event_Param2>
+		<Story_Dialog>Dialog_ImperialRegimeAsks</Story_Dialog>
+		<Story_Chapter>1</Story_Chapter>
+		<Story_Tag>Thrawn_Tag</Story_Tag>
+	</Event>
+
+	<Event Name="Thrawn_Request_Completed">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>THRAWN_REQUEST_COMPLETED</Event_Param2>
+		<Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
+		<Reward_Param1>Thrawn_Tag</Reward_Param1>
+	</Event>
+
+	<Event Name="Jax_Request_Dialog">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>JAX_REQUEST_STARTED</Event_Param2>
+		<Story_Dialog>Dialog_ImperialRegimeAsks</Story_Dialog>
+		<Story_Chapter>3</Story_Chapter>
+		<Story_Tag>Jax_Tag</Story_Tag>
+	</Event>
+
+	<Event Name="Jax_Request_Outside_Dialog">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>JAX_REQUEST_OUTSIDE_STARTED</Event_Param2>
+		<Story_Dialog>Dialog_ImperialRegimeAsks</Story_Dialog>
+		<Story_Chapter>32</Story_Chapter>
+		<Story_Tag>Jax_Tag</Story_Tag>
+	</Event>
+
+	<Event Name="Jax_Request_Completed">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>JAX_REQUEST_COMPLETED</Event_Param2>
+		<Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
+		<Reward_Param1>Jax_Tag</Reward_Param1>
+	</Event>
+
+	<Event Name="Daala_Request_Dialog">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>DAALA_REQUEST_STARTED</Event_Param2>
+		<Story_Dialog>Dialog_ImperialRegimeAsks</Story_Dialog>
+		<Story_Chapter>4</Story_Chapter>
+		<Story_Tag>Daala_Tag</Story_Tag>
+	</Event>
+
+	<Event Name="Daala_Request_Completed">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>DAALA_REQUEST_COMPLETED</Event_Param2>
+		<Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
+		<Reward_Param1>Daala_Tag</Reward_Param1>
+	</Event>
+
+	<Event Name="Pellaeon_Request_Dialog">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>PELLAEON_REQUEST_STARTED</Event_Param2>
+		<Story_Dialog>Dialog_ImperialRegimeAsks</Story_Dialog>
+		<Story_Chapter>5</Story_Chapter>
+		<Story_Tag>PELLAEON_Tag</Story_Tag>
+	</Event>
+
+	<Event Name="Pellaeon_Request_Completed">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>PELLAEON_REQUEST_COMPLETED</Event_Param2>
+		<Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
+		<Reward_Param1>PELLAEON_Tag</Reward_Param1>
+	</Event>
+
+
+<!-- ********************************* -->
+<!-- Dark Empire Progression Holocrons -->
+<!-- ********************************* -->
+
+	<Event Name="Begin_Dark_Empire_Choice">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>DARK_EMPIRE_CHOICE_BEGIN</Event_Param2>
+	</Event>
+
+	<Event Name="Dark_Empire_Choice_Palpatine_Speech_Approach">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_GOVERNMENT_DARK_EMPIRE_PALPATINE_SPEECH_APPROACH</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3 />
+		<Reward_Param4 />
+		<Reward_Param5 />
+		<Reward_Param6 />
+		<Reward_Param7 />
+		<Reward_Param8></Reward_Param8>
+		<Reward_Param9>Palpatine_Reborn_Loop</Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Begin_Dark_Empire_Choice</Prereq>
+	</Event>
+
+	<Event Name="Dark_Empire_Choice_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>15</Event_Param1>
+		<Story_Dialog>Dialog_ImperialRegimeAsks</Story_Dialog>
+		<Story_Chapter>2</Story_Chapter>
+		<Story_Tag>Dark_Empire_Choice</Story_Tag>
+		<Prereq>Dark_Empire_Choice_Palpatine_Speech_Approach</Prereq>
+	</Event>
+
+	<Event Name="Trigger_Choice_Dark_Empire">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Prereq>Dark_Empire_Choice_Dialog</Prereq>
+	</Event>
+
+	<Event Name="Dark_Empire_Choice_Completed">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
+		<Reward_Param1>Dark_Empire_Choice</Reward_Param1>
+		<Prereq>Dark_Empire_Choice_Palpatine_Speech_Accept</Prereq>
+		<Prereq>Dark_Empire_Choice_Palpatine_Speech_Refuse</Prereq>
+	</Event>
+
+	<Event Name="Dark_Empire_Choice_Palpatine_Speech_Accept">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>DARK_EMPIRE_ACCEPT</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_CONQUEST_REGIME_PALPATINE_ERA</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3 />
+		<Reward_Param4 />
+		<Reward_Param5 />
+		<Reward_Param6 />
+		<Reward_Param7 />
+		<Reward_Param8></Reward_Param8>
+		<Reward_Param9>Palpatine_Reborn_Loop</Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+	</Event>
+
+	<Event Name="Dark_Empire_Choice_Palpatine_Speech_Refuse">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>DARK_EMPIRE_REFUSE</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_GOVERNMENT_DARK_EMPIRE_PALPATINE_SPEECH_REFUSE</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3 />
+		<Reward_Param4 />
+		<Reward_Param5 />
+		<Reward_Param6 />
+		<Reward_Param7 />
+		<Reward_Param8></Reward_Param8>
+		<Reward_Param9>Palpatine_Reborn_Loop</Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+	</Event>
+
+	<Event Name="Dark_Empire_Choice_Palpatine_Speech_No_Contact">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>DARK_EMPIRE_NO_CONTACT</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_GOVERNMENT_DARK_EMPIRE_PALPATINE_SPEECH_NO_CONTACT</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3 />
+		<Reward_Param4 />
+		<Reward_Param5 />
+		<Reward_Param6 />
+		<Reward_Param7 />
+		<Reward_Param8></Reward_Param8>
+		<Reward_Param9>Palpatine_Reborn_Loop</Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+	</Event>
+
+
+<!-- **************** -->
+<!-- Empire Holocrons -->
+<!-- **************** -->
+
+	<Event Name="Pestage_Intro_Complete">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>PESTAGE_WELCOME</Event_Param2>
+	</Event>
+
+	<Event Name="Pestage_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>8</Event_Param1>
+		<Story_Dialog>Dialog_ProgressiveStarts_Empire</Story_Dialog>
+		<Story_Chapter>0</Story_Chapter>
+		<Story_Tag>Pestage_Tag</Story_Tag>
+		<Prereq>Pestage_Intro_Complete</Prereq>
+	</Event>
+
+	<Event Name="Isard_Intro_Complete">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>ISARD_WELCOME</Event_Param2>
+	</Event>
+
+	<Event Name="Isard_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>8</Event_Param1>
+		<Story_Dialog>Dialog_ProgressiveStarts_Empire</Story_Dialog>
+		<Story_Chapter>1</Story_Chapter>
+		<Story_Tag>Isard_Tag</Story_Tag>
+		<Prereq>Isard_Intro_Complete</Prereq>
+	</Event>
+
+	<Event Name="Hissa_Intro_Complete">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>HISSA_WELCOME</Event_Param2>
+	</Event>
+
+	<Event Name="Hissa_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>8</Event_Param1>
+		<Story_Dialog>Dialog_ProgressiveStarts_Empire</Story_Dialog>
+		<Story_Chapter>2</Story_Chapter>
+		<Story_Tag>Hissa_Tag</Story_Tag>
+		<Prereq>Hissa_Intro_Complete</Prereq>
+	</Event>
+
+	<Event Name="Thrawn_Intro_Complete">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>THRAWN_WELCOME</Event_Param2>
+	</Event>
+
+	<Event Name="Thrawn_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>8</Event_Param1>
+		<Story_Dialog>Dialog_ProgressiveStarts_Empire</Story_Dialog>
+		<Story_Chapter>3</Story_Chapter>
+		<Story_Tag>Thrawn_Tag</Story_Tag>
+		<Prereq>Thrawn_Intro_Complete</Prereq>
+	</Event>
+
+	<Event Name="Palpatine_Intro_Complete">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>PALPATINE_WELCOME</Event_Param2>
+	</Event>
+
+	<Event Name="Palpatine_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>8</Event_Param1>
+		<Story_Dialog>Dialog_ProgressiveStarts_Empire</Story_Dialog>
+		<Story_Chapter>4</Story_Chapter>
+		<Story_Tag>Palpatine_Tag</Story_Tag>
+		<Prereq>Palpatine_Intro_Complete</Prereq>
+	</Event>
+
+	<Event Name="Jax_Intro_Complete">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>JAX_WELCOME</Event_Param2>
+	</Event>
+
+	<Event Name="Jax_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>8</Event_Param1>
+		<Story_Dialog>Dialog_ProgressiveStarts_Empire</Story_Dialog>
+		<Story_Chapter>5</Story_Chapter>
+		<Story_Tag>Jax_Tag</Story_Tag>
+		<Prereq>Jax_Intro_Complete</Prereq>
+	</Event>
+
+	<Event Name="Daala_Intro_Complete">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>DAALA_WELCOME</Event_Param2>
+	</Event>
+
+	<Event Name="Daala_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>8</Event_Param1>
+		<Story_Dialog>Dialog_ProgressiveStarts_Empire</Story_Dialog>
+		<Story_Chapter>6</Story_Chapter>
+		<Story_Tag>Daala_Tag</Story_Tag>
+		<Prereq>Daala_Intro_Complete</Prereq>
+	</Event>
+
+	<Event Name="Pellaeon_Intro_Complete">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>PELLAEON_WELCOME</Event_Param2>
+	</Event>
+
+	<Event Name="Pellaeon_Welcome_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>8</Event_Param1>
+		<Story_Dialog>Dialog_ProgressiveStarts_Empire</Story_Dialog>
+		<Story_Chapter>7</Story_Chapter>
+		<Story_Tag>Pellaeon_Tag</Story_Tag>
+		<Prereq>Pellaeon_Intro_Complete</Prereq>
+	</Event>
+
+
+<!-- ********************* -->
+<!-- NewRepublic Holocrons -->
+<!-- ********************* -->
+
+	<Event Name="NewRep_Pestage_Intro_Complete">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>NEWREP_PESTAGE_STARTED</Event_Param2>
+	</Event>
+
+	<Event Name="NewRep_Pestage_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>8</Event_Param1>
+		<Story_Dialog>Dialog_ProgressiveStarts_NewRep</Story_Dialog>
+		<Story_Chapter>0</Story_Chapter>
+		<Story_Tag>Pestage_Tag</Story_Tag>
+		<Prereq>NewRep_Pestage_Intro_Complete</Prereq>
+	</Event>
+
+	<Event Name="NewRep_Isard_Dialog_Delay">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>NEWREP_ISARD_STARTED</Event_Param2>
+	</Event>
+
+	<Event Name="NewRep_Isard_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>8</Event_Param1>
+		<Story_Dialog>Dialog_ProgressiveStarts_NewRep</Story_Dialog>
+		<Story_Chapter>1</Story_Chapter>
+		<Story_Tag>Isard_Tag</Story_Tag>
+		<Prereq>NewRep_Isard_Dialog_Delay</Prereq>
+	</Event>
+
+	<Event Name="NewRep_Isard_Completed">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>PROJECT_AMBITION_COMPLETED</Event_Param2>
+		<Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
+		<Reward_Param1>Isard_Tag</Reward_Param1>
+	</Event>
+
+	<Event Name="NewRep_Thrawn_Dialog_Delay">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>NEWREP_THRAWN_STARTED</Event_Param2>
+	</Event>
+
+	<Event Name="NewRep_Thrawn_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>8</Event_Param1>
+		<Story_Dialog>Dialog_ProgressiveStarts_NewRep</Story_Dialog>
+		<Story_Chapter>2</Story_Chapter>
+		<Story_Tag>Thrawn_Tag</Story_Tag>
+		<Prereq>NewRep_Thrawn_Dialog_Delay</Prereq>
+	</Event>
+
+	<Event Name="NewRep_Thrawn_Completed">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>THRAWN_REQUEST_COMPLETED</Event_Param2>
+		<Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
+		<Reward_Param1>Thrawn_Tag</Reward_Param1>
+	</Event>
+
+	<Event Name="NewRep_Palpatine_Dialog_Delay">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>NEWREP_PALPATINE_STARTED</Event_Param2>
+	</Event>
+
+	<Event Name="NewRep_Palpatine_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>8</Event_Param1>
+		<Story_Dialog>Dialog_ProgressiveStarts_NewRep</Story_Dialog>
+		<Story_Chapter>3</Story_Chapter>
+		<Story_Tag>Palpatine_Tag</Story_Tag>
+		<Prereq>NewRep_Palpatine_Dialog_Delay</Prereq>
+	</Event>
+
+	<Event Name="NewRep_Palpatine_Completed">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>PALPATINE_REQUEST_COMPLETED</Event_Param2>
+		<Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
+		<Reward_Param1>Palpatine_Tag</Reward_Param1>
+	</Event>
+
+	<Event Name="NewRep_JaxDialog_Delay">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>NEWREP_JAX_STARTED</Event_Param2>
+	</Event>
+
+	<Event Name="NewRep_JaxDialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>8</Event_Param1>
+		<Story_Dialog>Dialog_ProgressiveStarts_NewRep</Story_Dialog>
+		<Story_Chapter>4</Story_Chapter>
+		<Story_Tag>Jax_Tag</Story_Tag>
+		<Prereq>NewRep_JaxDialog_Delay</Prereq>
+	</Event>
+
+	<Event Name="NewRep_Jax_Completed">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>JAX_REQUEST_COMPLETED</Event_Param2>
+		<Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
+		<Reward_Param1>Jax_Tag</Reward_Param1>
+	</Event>
+
+	<Event Name="NewRep_Daala_Dialog_Delay">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>NEWREP_DAALA_STARTED</Event_Param2>
+	</Event>
+
+	<Event Name="NewRep_Daala_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>8</Event_Param1>
+		<Story_Dialog>Dialog_ProgressiveStarts_NewRep</Story_Dialog>
+		<Story_Chapter>5</Story_Chapter>
+		<Story_Tag>Daala_Tag</Story_Tag>
+		<Prereq>NewRep_Daala_Dialog_Delay</Prereq>
+	</Event>
+
+	<Event Name="NewRep_Daala_Completed">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>DAALA_REQUEST_COMPLETED</Event_Param2>
+		<Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
+		<Reward_Param1>Daala_Tag</Reward_Param1>
+	</Event>
+
+	<Event Name="NewRep_PELLAEON_Dialog_Delay">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>NEWREP_PELLAEON_STARTED</Event_Param2>
+	</Event>
+
+	<Event Name="NewRep_PELLAEON_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>8</Event_Param1>
+		<Story_Dialog>Dialog_ProgressiveStarts_NewRep</Story_Dialog>
+		<Story_Chapter>6</Story_Chapter>
+		<Story_Tag>PELLAEON_Tag</Story_Tag>
+		<Prereq>NewRep_PELLAEON_Dialog_Delay</Prereq>
+	</Event>
+
+	<Event Name="NewRep_PELLAEON_Completed">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>PELLAEON_REQUEST_COMPLETED</Event_Param2>
+		<Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
+		<Reward_Param1>PELLAEON_Tag</Reward_Param1>
+	</Event>
+
+	<Event Name="NewRep_Venture_Dialog">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>ERRANT_VENTURE_STARTED</Event_Param2>
+		<Story_Dialog>Dialog_Research_NewRep_ErrantVentureUpgrade</Story_Dialog>
+		<Story_Chapter>0</Story_Chapter>
+		<Story_Tag>Venture_Tag</Story_Tag>
+	</Event>
+
+	<Event Name="NewRep_Venture_Completed">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>ERRANT_VENTURE_COMPLETED</Event_Param2>
+		<Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
+		<Reward_Param1>Venture_Tag</Reward_Param1>
+	</Event>
+
+	<Event Name="NewRep_Republic_Dialog">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>REPUBLIC_STAR_DESTROYER_RESEARCH_STARTED</Event_Param2>
+		<Story_Dialog>Dialog_Research_NewRep_RepublicSD</Story_Dialog>
+		<Story_Chapter>0</Story_Chapter>
+		<Story_Tag>Republic_Tag</Story_Tag>
+	</Event>
+
+	<Event Name="NewRep_Republic_Completed">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>REPUBLIC_STAR_DESTROYER_RESEARCH_COMPLETED</Event_Param2>
+		<Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
+		<Reward_Param1>Republic_Tag</Reward_Param1>
+	</Event>
+
+	<Event Name="NewRep_NCMP1_Dialog">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>NCMP1_RESEARCH_STARTED</Event_Param2>
+		<Story_Dialog>Dialog_Research_NewRep_NCMP1</Story_Dialog>
+		<Story_Chapter>0</Story_Chapter>
+		<Story_Tag>NCMP1_Tag</Story_Tag>
+	</Event>
+
+	<Event Name="NewRep_NCMP1_Completed">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>NCMP1_RESEARCH_COMPLETED</Event_Param2>
+		<Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
+		<Reward_Param1>NCMP1_Tag</Reward_Param1>
+	</Event>
+
+	<Event Name="NewRep_NCMP2_Dialog">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>NCMP2_RESEARCH_STARTED</Event_Param2>
+		<Story_Dialog>Dialog_Research_NewRep_NCMP2</Story_Dialog>
+		<Story_Chapter>0</Story_Chapter>
+		<Story_Tag>NCMP2_Tag</Story_Tag>
+	</Event>
+
+	<Event Name="NewRep_NCMP2_Completed">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>NCMP2_RESEARCH_COMPLETED</Event_Param2>
+		<Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
+		<Reward_Param1>NCMP2_Tag</Reward_Param1>
+	</Event>
+
+	<Event Name="NewRep_AAC3_Dialog">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>AAC3_RESEARCH_STARTED</Event_Param2>
+		<Story_Dialog>Dialog_Research_NewRep_AAC3</Story_Dialog>
+		<Story_Chapter>0</Story_Chapter>
+		<Story_Tag>AAC3_Tag</Story_Tag>
+	</Event>
+
+	<Event Name="NewRep_AAC3_Completed">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>AAC3_RESEARCH_COMPLETED</Event_Param2>
+		<Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
+		<Reward_Param1>AAC3_Tag</Reward_Param1>
+	</Event>
+
+	<Event Name="NewRep_Viscount_Dialog">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>VISCOUNT_RESEARCH_STARTED</Event_Param2>
+		<Story_Dialog>Dialog_Research_NewRep_Viscount</Story_Dialog>
+		<Story_Chapter>0</Story_Chapter>
+		<Story_Tag>Viscount_Tag</Story_Tag>
+	</Event>
+
+	<Event Name="NewRep_Viscount_Completed">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>VISCOUNT_RESEARCH_COMPLETED</Event_Param2>
+		<Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
+		<Reward_Param1>Viscount_Tag</Reward_Param1>
+	</Event>
+
+	<Event Name="NewRep_Mediator_Dialog">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>MEDIATOR_RESEARCH_STARTED</Event_Param2>
+		<Story_Dialog>Dialog_Research_NewRep_Mediator</Story_Dialog>
+		<Story_Chapter>0</Story_Chapter>
+		<Story_Tag>Mediator_Tag</Story_Tag>
+	</Event>
+
+	<Event Name="NewRep_Mediator_Completed">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>MEDIATOR_RESEARCH_COMPLETED</Event_Param2>
+		<Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
+		<Reward_Param1>Mediator_Tag</Reward_Param1>
+	</Event>
+
+	<Event Name="NewRep_MC_Heavy_Carrier_Dialog">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>MC_HEAVY_CARRIER_RESEARCH_STARTED</Event_Param2>
+		<Story_Dialog>Dialog_Research_NewRep_MC_Heavy_Carrier</Story_Dialog>
+		<Story_Chapter>0</Story_Chapter>
+		<Story_Tag>MC_Heavy_Carrier_Tag</Story_Tag>
+	</Event>
+
+	<Event Name="NewRep_MC_Heavy_Carrier_Completed">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>MC_HEAVY_CARRIER_RESEARCH_COMPLETED</Event_Param2>
+		<Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
+		<Reward_Param1>MC_Heavy_Carrier_Tag</Reward_Param1>
+	</Event>
+
+
+<!-- ******************* -->
+<!-- Pentastar Holocrons -->
+<!-- ******************* -->
+
+	<Event Name="Pentastar_Era1_Intro_Complete">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>PENTASTAR_ERAONE_STARTED</Event_Param2>
+	</Event>
+
+	<Event Name="Pentastar_Era1_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>8</Event_Param1>
+		<Story_Dialog>Dialog_ProgressiveStarts_Pentastar</Story_Dialog>
+		<Story_Chapter>0</Story_Chapter>
+		<Story_Tag>PA_Era1_Tag</Story_Tag>
+		<Prereq>Pentastar_Era1_Intro_Complete</Prereq>
+	</Event>
+
+	<Event Name="Pentastar_Era2_Intro_Complete">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>PENTASTAR_ERATWO_STARTED</Event_Param2>
+	</Event>
+
+	<Event Name="Pentastar_Era2_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>8</Event_Param1>
+		<Story_Dialog>Dialog_ProgressiveStarts_Pentastar</Story_Dialog>
+		<Story_Chapter>1</Story_Chapter>
+		<Story_Tag>PA_Era2_Tag</Story_Tag>
+		<Prereq>Pentastar_Era2_Intro_Complete</Prereq>
+	</Event>
+
+	<Event Name="Pentastar_Era3_Intro_Complete">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>PENTASTAR_ERATHREE_STARTED</Event_Param2>
+	</Event>
+
+	<Event Name="Pentastar_Era3_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>8</Event_Param1>
+		<Story_Dialog>Dialog_ProgressiveStarts_Pentastar</Story_Dialog>
+		<Story_Chapter>2</Story_Chapter>
+		<Story_Tag>PA_Era3_Tag</Story_Tag>
+		<Prereq>Pentastar_Era3_Intro_Complete</Prereq>
+	</Event>
+
+	<Event Name="Pentastar_Era4_Intro_Complete">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>PENTASTAR_ERAFOUR_STARTED</Event_Param2>
+	</Event>
+
+	<Event Name="Pentastar_Era4_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>8</Event_Param1>
+		<Story_Dialog>Dialog_ProgressiveStarts_Pentastar</Story_Dialog>
+		<Story_Chapter>3</Story_Chapter>
+		<Story_Tag>PA_Era4_Tag</Story_Tag>
+		<Prereq>Pentastar_Era4_Intro_Complete</Prereq>
+	</Event>
+
+	<Event Name="Pentastar_Era5_Intro_Complete">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>PENTASTAR_ERAFIVE_STARTED</Event_Param2>
+	</Event>
+
+	<Event Name="Pentastar_Era5_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>8</Event_Param1>
+		<Story_Dialog>Dialog_ProgressiveStarts_Pentastar</Story_Dialog>
+		<Story_Chapter>4</Story_Chapter>
+		<Story_Tag>PA_Era5_Tag</Story_Tag>
+		<Prereq>Pentastar_Era5_Intro_Complete</Prereq>
+	</Event>
+
+	<Event Name="Pentastar_Era6_Intro_Complete">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>PENTASTAR_ERASIX_STARTED</Event_Param2>
+	</Event>
+
+	<Event Name="Pentastar_Era6_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>8</Event_Param1>
+		<Story_Dialog>Dialog_ProgressiveStarts_Pentastar</Story_Dialog>
+		<Story_Chapter>5</Story_Chapter>
+		<Story_Tag>PA_Era6_Tag</Story_Tag>
+		<Prereq>Pentastar_Era6_Intro_Complete</Prereq>
+	</Event>
+
+
+<!-- **************** -->
+<!-- Eriadu Holocrons -->
+<!-- **************** -->
+
+	<Event Name="Eriadu_EraOne_Intro_Complete">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>ERIADU_ERAONE_STARTED</Event_Param2>
+	</Event>
+
+	<Event Name="Eriadu_EraOne_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>8</Event_Param1>
+		<Story_Dialog>Dialog_ProgressiveStarts_Eriadu</Story_Dialog>
+		<Story_Chapter>0</Story_Chapter>
+		<Story_Tag>EA_Era1_Tag</Story_Tag>
+		<Prereq>Eriadu_EraOne_Intro_Complete</Prereq>
+	</Event>
+
+	<Event Name="Eriadu_EraTwo_Intro_Complete">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>ERIADU_ERATWO_STARTED</Event_Param2>
+	</Event>
+
+	<Event Name="Eriadu_EraTwo_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>8</Event_Param1>
+		<Story_Dialog>Dialog_ProgressiveStarts_Eriadu</Story_Dialog>
+		<Story_Chapter>1</Story_Chapter>
+		<Story_Tag>EA_Era2_Tag</Story_Tag>
+		<Prereq>Eriadu_EraTwo_Intro_Complete</Prereq>
+	</Event>
+
+	<Event Name="Eriadu_EraThree_Intro_Complete">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>ERIADU_ERATHREE_STARTED</Event_Param2>
+	</Event>
+
+	<Event Name="Eriadu_EraThree_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>8</Event_Param1>
+		<Story_Dialog>Dialog_ProgressiveStarts_Eriadu</Story_Dialog>
+		<Story_Chapter>2</Story_Chapter>
+		<Story_Tag>EA_Era3_Tag</Story_Tag>
+		<Prereq>Eriadu_EraThree_Intro_Complete</Prereq>
+	</Event>
+
+	<Event Name="Eriadu_EraFour_Intro_Complete">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>ERIADU_ERAFOUR_STARTED</Event_Param2>
+	</Event>
+
+	<Event Name="Eriadu_EraFour_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>8</Event_Param1>
+		<Story_Dialog>Dialog_ProgressiveStarts_Eriadu</Story_Dialog>
+		<Story_Chapter>3</Story_Chapter>
+		<Story_Tag>EA_Era4_Tag</Story_Tag>
+		<Prereq>Eriadu_EraFour_Intro_Complete</Prereq>
+	</Event>
+
+	<Event Name="Eriadu_EraFive_Intro_Complete">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>ERIADU_ERAFIVE_STARTED</Event_Param2>
+	</Event>
+
+	<Event Name="Eriadu_EraFive_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>8</Event_Param1>
+		<Story_Dialog>Dialog_ProgressiveStarts_Eriadu</Story_Dialog>
+		<Story_Chapter>4</Story_Chapter>
+		<Story_Tag>EA_Era5_Tag</Story_Tag>
+		<Prereq>Eriadu_EraFive_Intro_Complete</Prereq>
+	</Event>
+
+	<Event Name="Eriadu_EraSix_Intro_Complete">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>ERIADU_ERASIX_STARTED</Event_Param2>
+	</Event>
+
+	<Event Name="Eriadu_EraSix_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>8</Event_Param1>
+		<Story_Dialog>Dialog_ProgressiveStarts_Eriadu</Story_Dialog>
+		<Story_Chapter>5</Story_Chapter>
+		<Story_Tag>EA_Era6_Tag</Story_Tag>
+		<Prereq>Eriadu_EraSix_Intro_Complete</Prereq>
+	</Event>
+
+
+<!-- ****************** -->
+<!-- Maldrood Holocrons -->
+<!-- ****************** -->
+
+	<Event Name="Maldrood_EraOne_Intro_Complete">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>MALDROOD_ERAONE_STARTED</Event_Param2>
+	</Event>
+
+	<Event Name="Maldrood_EraOne_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>8</Event_Param1>
+		<Story_Dialog>Dialog_ProgressiveStarts_Maldrood</Story_Dialog>
+		<Story_Chapter>0</Story_Chapter>
+		<Story_Tag>Teradoc_Tag</Story_Tag>
+		<Prereq>Maldrood_EraOne_Intro_Complete</Prereq>
+	</Event>
+
+	<Event Name="Maldrood_EraTwo_Intro_Complete">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>MALDROOD_ERATWO_STARTED</Event_Param2>
+	</Event>
+
+	<Event Name="Maldrood_EraTwo_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>8</Event_Param1>
+		<Story_Dialog>Dialog_ProgressiveStarts_Maldrood</Story_Dialog>
+		<Story_Chapter>1</Story_Chapter>
+		<Story_Tag>Teradoc_Era2_Tag</Story_Tag>
+		<Prereq>Maldrood_EraTwo_Intro_Complete</Prereq>
+	</Event>
+
+	<Event Name="Maldrood_EraThree_Intro_Complete">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>MALDROOD_ERATHREE_STARTED</Event_Param2>
+	</Event>
+
+	<Event Name="Maldrood_EraThree_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>8</Event_Param1>
+		<Story_Dialog>Dialog_ProgressiveStarts_Maldrood</Story_Dialog>
+		<Story_Chapter>2</Story_Chapter>
+		<Story_Tag>Teradoc_Era3_Tag</Story_Tag>
+		<Prereq>Maldrood_EraThree_Intro_Complete</Prereq>
+	</Event>
+
+	<Event Name="Maldrood_EraFour_Intro_Complete">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>MALDROOD_ERAFOUR_STARTED</Event_Param2>
+	</Event>
+
+	<Event Name="Maldrood_EraFour_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>8</Event_Param1>
+		<Story_Dialog>Dialog_ProgressiveStarts_Maldrood</Story_Dialog>
+		<Story_Chapter>3</Story_Chapter>
+		<Story_Tag>Teradoc_Era4_Tag</Story_Tag>
+		<Prereq>Maldrood_EraFour_Intro_Complete</Prereq>
+	</Event>
+
+	<Event Name="Maldrood_EraFive_Intro_Complete">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>MALDROOD_ERAFIVE_STARTED</Event_Param2>
+	</Event>
+
+	<Event Name="Maldrood_EraFive_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>8</Event_Param1>
+		<Story_Dialog>Dialog_ProgressiveStarts_Maldrood</Story_Dialog>
+		<Story_Chapter>4</Story_Chapter>
+		<Story_Tag>Teradoc_Era5_Tag</Story_Tag>
+		<Prereq>Maldrood_EraFive_Intro_Complete</Prereq>
+	</Event>
+
+	<Event Name="Maldrood_EraSix_Intro_Complete">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>MALDROOD_ERASIX_STARTED</Event_Param2>
+	</Event>
+
+	<Event Name="Maldrood_EraSix_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>8</Event_Param1>
+		<Story_Dialog>Dialog_ProgressiveStarts_Maldrood</Story_Dialog>
+		<Story_Chapter>5</Story_Chapter>
+		<Story_Tag>Teradoc_Era6_Tag</Story_Tag>
+		<Prereq>Maldrood_EraSix_Intro_Complete</Prereq>
+	</Event>
+
+	<Event Name="Maldrood_EraSeven_Intro_Complete">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>MALDROOD_ERASEVEN_STARTED</Event_Param2>
+	</Event>
+
+	<Event Name="Maldrood_EraSeven_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>8</Event_Param1>
+		<Story_Dialog>Dialog_ProgressiveStarts_Maldrood</Story_Dialog>
+		<Story_Chapter>6</Story_Chapter>
+		<Story_Tag>Punished_Teradoc_Era7_Tag</Story_Tag>
+		<Prereq>Maldrood_EraSeven_Intro_Complete</Prereq>
+	</Event>
+
+	<Event Name="Maldrood_Gorath_Dialog">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>GORATH_RESEARCH_STARTED</Event_Param2>
+		<Story_Dialog>Dialog_Research_Maldrood_Gorath</Story_Dialog>
+		<Story_Chapter>0</Story_Chapter>
+		<Story_Tag>Gorath_Tag</Story_Tag>
+	</Event>
+
+	<Event Name="Maldrood_Gorath_Completed">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>GORATH_RESEARCH_COMPLETED</Event_Param2>
+		<Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
+		<Reward_Param1>Gorath_Tag</Reward_Param1>
+	</Event>
+
+
+<!-- *************** -->
+<!-- Zsinj Holocrons -->
+<!-- *************** -->
+
+	<Event Name="Zsinj_EraOne_Intro_Complete">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>ZSINJ_ERAONE_STARTED</Event_Param2>
+	</Event>
+
+	<Event Name="Zsinj_EraOne_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>8</Event_Param1>
+		<Story_Dialog>Dialog_ProgressiveStarts_Zsinj</Story_Dialog>
+		<Story_Chapter>0</Story_Chapter>
+		<Story_Tag>Zsinj_Tag</Story_Tag>
+		<Prereq>Zsinj_EraOne_Intro_Complete</Prereq>
+	</Event>
+
+	<Event Name="Zsinj_EraTwo_Intro_Complete">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>ZSINJ_ERATWO_STARTED</Event_Param2>
+	</Event>
+
+	<Event Name="Zsinj_EraTwo_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>8</Event_Param1>
+		<Story_Dialog>Dialog_ProgressiveStarts_Zsinj</Story_Dialog>
+		<Story_Chapter>1</Story_Chapter>
+		<Story_Tag>Zsinj_Era2_Tag</Story_Tag>
+		<Prereq>Zsinj_EraTwo_Intro_Complete</Prereq>
+	</Event>
+
+	<Event Name="Zsinj_Corona_Dialog">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CORONA_RESEARCH_STARTED</Event_Param2>
+		<Story_Dialog>Dialog_Research_Zsinj_Corona</Story_Dialog>
+		<Story_Chapter>0</Story_Chapter>
+		<Story_Tag>Corona_Tag</Story_Tag>
+	</Event>
+
+	<Event Name="Zsinj_Corona_Completed">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CORONA_RESEARCH_COMPLETED</Event_Param2>
+		<Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
+		<Reward_Param1>Corona_Tag</Reward_Param1>
+	</Event>
+
+
+<!-- ************* -->
+<!-- CSA Holocrons -->
+<!-- ************* -->
+
+	<Event Name="CSA_Era1_Intro_Complete">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CSA_ERAONE_STARTED</Event_Param2>
+	</Event>
+
+	<Event Name="CSA_Era1_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>8</Event_Param1>
+		<Story_Dialog>Dialog_ProgressiveStarts_CSA</Story_Dialog>
+		<Story_Chapter>0</Story_Chapter>
+		<Story_Tag>CSA_Era1_Tag</Story_Tag>
+		<Prereq>CSA_Era1_Intro_Complete</Prereq>
+	</Event>
+
+	<Event Name="CSA_Era3_Intro_Complete">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CSA_ERATHREE_STARTED</Event_Param2>
+	</Event>
+
+	<Event Name="CSA_Era3_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>8</Event_Param1>
+		<Story_Dialog>Dialog_ProgressiveStarts_CSA</Story_Dialog>
+		<Story_Chapter>1</Story_Chapter>
+		<Story_Tag>CSA_Era3_Tag</Story_Tag>
+		<Prereq>CSA_Era3_Intro_Complete</Prereq>
+	</Event>
+
+
+<!-- ************** -->
+<!-- Hand Holocrons -->
+<!-- ************** -->
+
+	<Event Name="Hand_Era1_Intro_Complete">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>HAND_ERAONE_STARTED</Event_Param2>
+	</Event>
+
+	<Event Name="Hand_Era1_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>8</Event_Param1>
+		<Story_Dialog>Dialog_ProgressiveStarts_Hand</Story_Dialog>
+		<Story_Chapter>0</Story_Chapter>
+		<Story_Tag>Hand_Era1_Tag</Story_Tag>
+		<Prereq>Hand_Era1_Intro_Complete</Prereq>
+	</Event>
+
+	<Event Name="Hand_Era2_Intro_Complete">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>HAND_ERATWO_STARTED</Event_Param2>
+	</Event>
+
+	<Event Name="Hand_Era2_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>8</Event_Param1>
+		<Story_Dialog>Dialog_ProgressiveStarts_Hand</Story_Dialog>
+		<Story_Chapter>1</Story_Chapter>
+		<Story_Tag>Hand_Era2_Tag</Story_Tag>
+		<Prereq>Hand_Era2_Intro_Complete</Prereq>
+	</Event>
+
+	<Event Name="Hand_Era3_Intro_Complete">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>HAND_ERATHREE_STARTED</Event_Param2>
+	</Event>
+
+	<Event Name="Hand_Era3_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>8</Event_Param1>
+		<Story_Dialog>Dialog_ProgressiveStarts_Hand</Story_Dialog>
+		<Story_Chapter>2</Story_Chapter>
+		<Story_Tag>Hand_Era3_Tag</Story_Tag>
+		<Prereq>Hand_Era3_Intro_Complete</Prereq>
+	</Event>
+
+	<Event Name="Hand_Era4_Intro_Complete">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>HAND_ERAFOUR_STARTED</Event_Param2>
+	</Event>
+
+	<Event Name="Hand_Era4_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>8</Event_Param1>
+		<Story_Dialog>Dialog_ProgressiveStarts_Hand</Story_Dialog>
+		<Story_Chapter>3</Story_Chapter>
+		<Story_Tag>Hand_Era4_Tag</Story_Tag>
+		<Prereq>Hand_Era4_Intro_Complete</Prereq>
+	</Event>
+
+	<Event Name="Hand_Era5_Intro_Complete">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>HAND_ERAFIVE_STARTED</Event_Param2>
+	</Event>
+
+	<Event Name="Hand_Era5_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>8</Event_Param1>
+		<Story_Dialog>Dialog_ProgressiveStarts_Hand</Story_Dialog>
+		<Story_Chapter>4</Story_Chapter>
+		<Story_Tag>Hand_Era5_Tag</Story_Tag>
+		<Prereq>Hand_Era5_Intro_Complete</Prereq>
+	</Event>
+
+	<Event Name="Hand_Era6_Intro_Complete">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>HAND_ERASIX_STARTED</Event_Param2>
+	</Event>
+
+	<Event Name="Hand_Era6_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>8</Event_Param1>
+		<Story_Dialog>Dialog_ProgressiveStarts_Hand</Story_Dialog>
+		<Story_Chapter>5</Story_Chapter>
+		<Story_Tag>Hand_Era6_Tag</Story_Tag>
+		<Prereq>Hand_Era6_Intro_Complete</Prereq>
+	</Event>
+
+	<Event Name="Hand_Era7_Intro_Complete">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>HAND_ERASEVEN_STARTED</Event_Param2>
+	</Event>
+
+	<Event Name="Hand_Era7_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>8</Event_Param1>
+		<Story_Dialog>Dialog_ProgressiveStarts_Hand</Story_Dialog>
+		<Story_Chapter>6</Story_Chapter>
+		<Story_Tag>Hand_Era7_Tag</Story_Tag>
+		<Prereq>Hand_Era7_Intro_Complete</Prereq>
+	</Event>
+
+
+<!-- *************** -->
+<!-- Hapes Holocrons -->
+<!-- *************** -->
+
+	<Event Name="Hapes_Taa_Intro_Complete">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>HAPES_TAA_START</Event_Param2>
+	</Event>
+
+	<Event Name="Hapes_Taa_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>8</Event_Param1>
+		<Story_Dialog>Dialog_ProgressiveStarts_Hapes</Story_Dialog>
+		<Story_Chapter>0</Story_Chapter>
+		<Story_Tag>Hapes_Taa_Tag</Story_Tag>
+		<Prereq>Hapes_Taa_Intro_Complete</Prereq>
+	</Event>
+
+	<Event Name="Hapes_Teneniel_Intro_Complete">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>HAPES_TENENIEL_START</Event_Param2>
+	</Event>
+
+	<Event Name="Hapes_Teneniel_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>8</Event_Param1>
+		<Story_Dialog>Dialog_ProgressiveStarts_Hapes</Story_Dialog>
+		<Story_Chapter>1</Story_Chapter>
+		<Story_Tag>Hapes_Teneniel_Tag</Story_Tag>
+		<Prereq>Hapes_Teneniel_Intro_Complete</Prereq>
+	</Event>
+
+<!-- **************** -->
+<!-- Hutts Holocrons -->
+<!-- **************** -->
+
+	<Event Name="Hutts_Durga_Intro_Complete">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>HUTTS_DURGA_STARTED</Event_Param2>
+	</Event>
+
+	<Event Name="Hutts_Durga_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>8</Event_Param1>
+		<Story_Dialog>Dialog_ProgressiveStarts_Hutts</Story_Dialog>
+		<Story_Chapter>0</Story_Chapter>
+		<Story_Tag>Hutts_Durga_Tag</Story_Tag>
+		<Prereq>Hutts_Durga_Intro_Complete</Prereq>
+	</Event>
+
+	<Event Name="Hutts_Durga_DE_Intro_Complete">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>HUTTS_DURGA_DE_STARTED</Event_Param2>
+	</Event>
+
+	<Event Name="Hutts_Durga_DE_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>8</Event_Param1>
+		<Story_Dialog>Dialog_ProgressiveStarts_Hutts</Story_Dialog>
+		<Story_Chapter>1</Story_Chapter>
+		<Story_Tag>Hutts_Durga_Tag</Story_Tag>
+		<Prereq>Hutts_Durga_DE_Intro_Complete</Prereq>
+	</Event>
+
+	<Event Name="Hutts_Zorba_Intro_Complete">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>HUTTS_ZORBA_STARTED</Event_Param2>
+	</Event>
+
+	<Event Name="Hutts_Zorba_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>8</Event_Param1>
+		<Story_Dialog>Dialog_ProgressiveStarts_Hutts</Story_Dialog>
+		<Story_Chapter>2</Story_Chapter>
+		<Story_Tag>Hutts_Zorba_Tag</Story_Tag>
+		<Prereq>Hutts_Zorba_Intro_Complete</Prereq>
+	</Event>
+
+	<Event Name="Hutts_Borga_Intro_Complete">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>HUTTS_BORGA_STARTED</Event_Param2>
+	</Event>
+
+	<Event Name="Hutts_Borga_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>8</Event_Param1>
+		<Story_Dialog>Dialog_ProgressiveStarts_Hutts</Story_Dialog>
+		<Story_Chapter>3</Story_Chapter>
+		<Story_Tag>Hutts_Borga_Tag</Story_Tag>
+		<Prereq>Hutts_Borga_Intro_Complete</Prereq>
+	</Event>
+
+	
+<!-- ************* -->
+<!-- Project Proteus -->
+<!-- ************* -->
+
+
+	<Event Name="Tharkus_Corona_Dialog">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>THARKUS_CORONA_RESEARCH_STARTED</Event_Param2>
+		<Story_Dialog>Dialog_Research_Tharkus_Corona</Story_Dialog>
+		<Story_Chapter>0</Story_Chapter>
+		<Story_Tag>Tharkus_Corona_Tag</Story_Tag>
+	</Event>
+
+	<Event Name="Tharkus_Corona_Completed">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>THARKUS_CORONA_RESEARCH_COMPLETED</Event_Param2>
+		<Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
+		<Reward_Param1>Tharkus_Corona_Tag</Reward_Param1>
+	</Event>
+
+</Story>
