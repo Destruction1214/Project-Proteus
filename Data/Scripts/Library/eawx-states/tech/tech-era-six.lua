@@ -200,7 +200,7 @@ return {
 
 			local proteus = GlobalValue.Get("PROTEUS_GROUP_NAME")
             if proteus ~= nil then
-                if not Find_Object_Type("IPV1").Is_Build_Locked(Find_Player("Imperial_Proteus")) then
+                if not Find_Object_Type("IPV1").Is_Obsolete(Find_Player("Imperial_Proteus")) then
                     UnitUtil.SetLockList("IMPERIAL_PROTEUS", {
 					   "IPV4"
 					})

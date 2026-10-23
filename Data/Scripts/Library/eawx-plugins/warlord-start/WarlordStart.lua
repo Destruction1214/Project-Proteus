@@ -185,7 +185,7 @@ function WarlordStart:Populate_Chosen_Faction(choice, cosmetic)
 		end
 		UnitUtil.SetLockList(self.warlord_name, unlock)
 		--For groups that have the IPV1, automatically swap to IPV4 in later eras
-		if (year >= 12 or (year >= 11 and GlobalValue.Get("GALACTIC_MONTH") >= 5)) and not Find_Object_Type("IPV1").Is_Build_Locked(self.warlord_player) then
+		if (year >= 12 or (year >= 11 and GlobalValue.Get("GALACTIC_MONTH") >= 5)) and not Find_Object_Type("IPV1").Is_Obsolete(self.warlord_player) then
 			self.warlord_player.Lock_Tech(Find_Object_Type("IPV1"))
 			self.warlord_player.Unlock_Tech(Find_Object_Type("IPV4"))
 		end
