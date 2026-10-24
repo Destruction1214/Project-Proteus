@@ -111,7 +111,7 @@ return {
 			NIVERS = {"STARWING_SQUADRON", false},
 			COMPNOR = {"", false},
 			MINOS = {"TIE_LIGHT_BOMBER_SQUADRON", false},
-			TATOOINE = {"", false},
+			TATOOINE = {"TIE_BOMBER_SQUADRON", false},
 			TRAX = {"", false},											
 		}
 		

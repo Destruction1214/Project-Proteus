@@ -100,7 +100,7 @@ return {
 			NIVERS = {"TIE_GT_SQUADRON", false},
 			COMPNOR = {"", false},
 			MINOS = {"TIE_GT_SQUADRON", false},
-			TATOOINE = {"", false},
+			TATOOINE = {"SCYK_HEAVY_FIGHTER_SQUADRON", false},
 			TRAX = {"", false},														
 		}
 		

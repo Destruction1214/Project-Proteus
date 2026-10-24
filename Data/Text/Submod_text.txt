@@ -177,7 +177,7 @@ TEXT_HEADHUNTER_MODERNIZED_SQUADRON2,Modernized Z-95 Headhunter Squadron x2
 TEXT_HERO_1214,Destruction1214
 TEXT_HERO_17786,17786
 TEXT_HERO_ABAN,Aban
-TEXT_HERO_ALEXANDER_JULSTAAN,Alexander Julstaan
+TEXT_HERO_ALEXANDER_JULSTAAN,Alexander Julstaan IV
 TEXT_HERO_BENGILA_URLAN,Bengila Urlan
 TEXT_HERO_BENJO,Benjo
 TEXT_HERO_BRELLAR,Alecs Brellar
@@ -672,7 +672,7 @@ TEXT_TOOLTIP_ACCLAMATOR_DESTROYER_WEAP3,8x Assault Concussion Missiles: 8 / 20.0
 TEXT_TOOLTIP_ACCLAMATOR_DESTROYER_WEAP4,2x Proton Torpedoes: 2 / 7.5s / 5.3km
 TEXT_TOOLTIP_ACCLAMATOR_I_SUPPORT,The end of the Clone Wars saw an explosion in demand for cargo ships and freighters, alongside a post-war surplus of previously mass-produced Acclamators that were no longer needed in peacetime. Thus the remaining military Acclamators were widely converted into cargo ships to meet this new demand, repurposing the vehicle bay into a large cargo bay.
 TEXT_TOOLTIP_ACCLAMATOR_I_SUPPORT_HULL,Hull: 1925 (Frigate)
-TEXT_TOOLTIP_ALEXANDER_JULSTAAN,TODO
+TEXT_TOOLTIP_ALEXANDER_JULSTAN,Alexander Julstan IV came from a prestigious lineage when he became the Moff of the Arkanis sector. His familiarity with slavery and enjoyment of the female form led him to use primarily female agents of alien species in his dominion, with which his peers had less political and social objections to. He was known to employ Twi’lek dancing girls and commissioned the Ketton spy Derrida; likely both came from his domain’s proximity to Hutt Space.
 TEXT_TOOLTIP_ALTOR_CARRIER,As various warlords began to dig in inside their military fiefdoms, the large Altor-Class Fleet Replenishment Ships, whose purpose was to enable wide-ranging and long-lasting fleet maneuvers and campaigns, saw themselves repurposed for local military operations. In the small scale but fierce fighting of most warlord rivalries, their large configurable volume and imposing size made them adequate mobile defensive stations to deter raids, upgunned with heavy weaponry and modified to house more strikecraft rather than supplies. While still an ad-hoc conversion and less powerful than any other battlecruiser of similar size, this refurbished variant can act as a flagship for a task force or anchor in a defensive battle in the absence of larger enemy vessels. 
 TEXT_TOOLTIP_ALTOR_CARRIER_SHIELD,Shields: 30000 / [75/R] (Capital)
 TEXT_TOOLTIP_ALTOR_CARRIER_SQUADRON,Fighters: 8 / 32 | Bombers: 3 / 9

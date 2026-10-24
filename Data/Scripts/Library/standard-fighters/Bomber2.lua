@@ -110,7 +110,7 @@ return {
 			NIVERS = {"TIE_OPPRESSOR_SQUADRON", false},
 			COMPNOR = {"", false},
 			MINOS = {"TIE_OPPRESSOR_SQUADRON", false},
-			TATOOINE = {"", false},
+			TATOOINE = {"BTLS1_Y_WING_SQUADRON", false},
 			TRAX = {"", false},											
 		}
 

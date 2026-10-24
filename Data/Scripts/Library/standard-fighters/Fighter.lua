@@ -138,7 +138,7 @@ return {
 			NIVERS = {"MODERNIZED_Z95_HEADHUNTER_SQUADRON", false},
 			COMPNOR = {"", false},
 			MINOS = {"SHIELDED_MISSILE_TIE_FIGHTER_SQUADRON", false},
-			TATOOINE = {"", false},
+			TATOOINE = {"NIMBUS_V_WING_ESK_SQUADRON", false},
 			TRAX = {"", false},														
 		}
 		

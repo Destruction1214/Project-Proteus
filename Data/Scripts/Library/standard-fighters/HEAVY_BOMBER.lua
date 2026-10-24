@@ -116,7 +116,7 @@ return {
 			NIVERS = {"SKIPRAY_BOMBER_SQUADRON", false},
 			COMPNOR = {"", false},
 			MINOS = {"TIE_HEAVY_BOMBER_SQUADRON", false},
-			TATOOINE = {"", false},
+			TATOOINE = {"SKIPRAY_BOMBER_SQUADRON", false},
 			TRAX = {"", false},														
 		}
 		

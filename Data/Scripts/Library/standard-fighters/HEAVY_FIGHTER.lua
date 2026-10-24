@@ -113,7 +113,7 @@ return {
 			NIVERS = {"TIE_X2_SQUADRON", false},
 			COMPNOR = {"", false},
 			MINOS = {"TOSCAN_GUNSHIP_SQUADRON", false},
-			TATOOINE = {"", false},
+			TATOOINE = {"TIE_X1_SQUADRON", false},
 			TRAX = {"", false},														
 		}
 		
