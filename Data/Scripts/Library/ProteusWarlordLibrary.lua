@@ -1396,8 +1396,7 @@ return {
 		},
 		["NIVERS"] = {
 			FriendlyName = "Nivers' Empire",
-		--	Planets = {"STENOS"},
-			Planets = {},
+			Planets = {"STENOS"},
 		    LeaderTable = {["NIVERS_TEAM"] = {"NIVERS_AT_AT_WALKER"}},
 			LeaderEndingNames = {"Emperor Nivers"},
 			HeroList = {"Nivers_Team"}, 
