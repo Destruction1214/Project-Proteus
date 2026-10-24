@@ -150,4 +150,6 @@ return {
 		"Barabbula_Frigate", "Tempest_Cruiser",
 		--Screed added units
 		"Gladiator_Demolisher",
+		--Tatooine added units
+		"Ubrikkian_Frigate",
 }

@@ -1559,9 +1559,15 @@ return {
 			HeroList = {"Alexander_Julstaan_Team","Terro_Team", "Kosh_Team"},
 			UnlockList = {
 				-- Space 
-				
+				"YE_4_Group", "Customs_Corvette", "CR90B_Gunboat", "Marauder_Picket_Cruiser", "Ubrikkian_Frigate", "Victory_I_Frigate", "Ton_Falk_Escort_Carrier", "CC7700",
+				"Neutron_Star_Tender", "Liberator_Cruiser", "Ubrikkian_Cruiser_GCW", "Victory_I_Star_Destroyer", "Victory_I_Star_Destroyer_Patrol",
+				"Imperial_I_Star_Destroyer_Patrol", "Imperial_I_Star_Destroyer_Carrier", "Imperial_I_Star_Destroyer_Hero_Refit_Proteus",
+				"Torpedo_Sphere", "Praetor_I_Battlecruiser",
 				-- Ground
-				
+				"Imperial_Army_Guard_Company", "Faux_Stormtrooper_Company", "Incinerator_Stormtrooper_Company", 
+				"AT_ST_Company", "RTT_Company", "Imperial_Bantha_II_Skiff_Company",
+				"Imperial_Modified_LAAT_Company", "Imperial_TNT_Company", "MAL_Rocket_Vehicle_Company", "Skyhopper_Company",
+				"Luxury_Barge_Company",
 				-- Research
 				
 			},
@@ -1570,6 +1576,7 @@ return {
 			LastYear = 4,
 			IntroText = "TEXT_CONQUEST_PROTEUS_TATOOINE",
 			IntroHolo = "Imperial_Naval_Officer_Loop",
+			CustomRewardTable = true,
 		},
 		["THORN"] = {
 			FriendlyName = "Thorn's Empire",

@@ -96,7 +96,7 @@ return {
 			NIVERS = {"TIE_FIGHTER_SQUADRON", "NIMBUS_V_WING_SQUADRON"},
 			COMPNOR = {"", false},
 			MINOS = {"NIMBUS_V_WING_ESK_SQUADRON", false},
-			TATOOINE = {"", false},
+			TATOOINE = {"TIE_FIGHTER_SQUADRON", false},
 			TRAX = {"", false},														
 		}
 		
