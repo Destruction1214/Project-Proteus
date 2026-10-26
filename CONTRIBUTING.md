@@ -17,6 +17,7 @@ This guide covers safe workflows for proposing changes to the Project Proteus `D
 - Before editing a warlord group, check the
 [group ownership document](https://docs.google.com/document/d/1kTn2ChBXyPefAGgiAWkms-F-psZa9NI5PI5U2Ns8ftU)
 and coordinate changes with the group owner on Discord.
+- Vacant warlord groups that you can claim can be found [here](https://docs.google.com/document/d/1kTn2ChBXyPefAGgiAWkms-F-psZa9NI5PI5U2Ns8ftU/edit?tab=t.nok4xvbwulrm#heading=h.c3b5ztpu2p4) (please try to use the groups on the upper lists first)
 - Reference the separate [player roster document](https://docs.google.com/document/d/1kTn2ChBXyPefAGgiAWkms-F-psZa9NI5PI5U2Ns8ftU).
 
 ## Tools
