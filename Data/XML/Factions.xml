@@ -9937,6 +9937,7 @@
 			Supernova_Vibes,
 			Anton_Kale,
 			Fyyar_Doomgiver,
+			Fyyar_Doomgiver_Emperor,
 			Michael_Terror,
 			Strang_IEC,
 			Aban_Bellicose,
@@ -9964,6 +9965,7 @@
 			Altor_Carrier,
 			Il_Raz_EmperorsDisciple,
 			Isard_Clone_Lusankya,
+			Drommel_Wolfs_Claw,
 		</Bombardment_Required_Orbital_Ships>
 		<Bombardment_Projectile> Proj_Bombardment_Turbolaser_Green </Bombardment_Projectile>
 		<Bombardment_Particle> Bombard_Particle_Effect </Bombardment_Particle>

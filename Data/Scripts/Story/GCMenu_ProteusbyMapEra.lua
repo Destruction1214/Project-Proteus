@@ -1080,6 +1080,8 @@ return {
 		}
 	},
 	
+	--	Project Proteus
+
 	["GRUNGER"] = {
 		["KnownLarge"] = { 
 			["4ABY"] = true
@@ -1413,4 +1415,47 @@ return {
 			["6ABY"] = true
 		}
 	},	
+
+	["DROMMEL"] = {
+
+		["FullSmall"] = {
+			["4ABY"] = true
+			,["6ABY"] = true
+			,["9ABY"] = true
+			,["10ABY"] = true
+			,["11ABY"] = true
+			,["11.5ABY"] = true
+			,["12ABY"] = true
+		}
+		,["FullMedium"] = {
+			["12ABY"] = true
+		}
+		,["FullLarge"] = {
+			["9ABY"] = true
+			,["12ABY"] = true
+		}
+		,["KnownSmall"] = {
+			["12ABY"] = true
+		}
+		,["KnownMedium"] = {
+			["12ABY"] = true
+		}
+		,["KnownLarge"] = {
+			["9ABY"] = true
+			,["12ABY"] = true
+		}
+		,["Stars_Align"] = {
+			["4ABY"] = true
+			,["6ABY"] = true
+			,["9ABY"] = true
+			,["10ABY"] = true
+			,["11ABY"] = true
+			,["11.5ABY"] = true
+			,["12ABY"] = true
+		}
+		,["Empires_At_War"] = {
+			["9ABY"] = true
+		}
+
+	},
 }
