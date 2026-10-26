@@ -17,7 +17,7 @@ This guide covers safe workflows for proposing changes to the Project Proteus `D
 - Before editing a warlord group, check the
 [group ownership document](https://docs.google.com/document/d/1kTn2ChBXyPefAGgiAWkms-F-psZa9NI5PI5U2Ns8ftU)
 and coordinate changes with the group owner on Discord.
-- Reference the separate [player roster document](https://docs.google.com/document/d/1O1PfMpgP9tFhqAU0pVgCSG-4nkbRrLaLRFT-GzJGPs0).
+- Reference the separate [player roster document](https://docs.google.com/document/d/1kTn2ChBXyPefAGgiAWkms-F-psZa9NI5PI5U2Ns8ftU).
 
 ## Tools
 
