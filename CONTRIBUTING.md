@@ -106,6 +106,8 @@ Pushing uploads your branch to your fork, and a **pull request** asks the mainta
    Link any related issue with `#` followed by the issue number.
    For visible changes, add a screenshot when useful.
 
+**WARNING : Do not include changed/compiled binary archives commits in your PR (e.g .mtd file, .dat file).**
+
 ## Maintenance workflow
 
 ### Keep your fork current
