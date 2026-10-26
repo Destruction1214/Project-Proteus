@@ -19113,4 +19113,50 @@
 		</Samples>
 	</SFXEvent>
 
+	<!--***********************************************************-->
+	<!--***********************V-19 Torrent************************--> <!-- Clone Wars Adventures sounds -->
+	<!--***********************************************************-->
+
+	<SFXEvent Name="Unit_V19_Laser_Fire">
+		<Use_Preset>Preset_GUNV</Use_Preset>
+		<Samples>
+			Data\Audio\SFX\V19\V19_Laser.wav
+		</Samples>       
+	</SFXEvent>
+	<SFXEvent Name="Unit_V19_Fly_By">
+		<Use_Preset>Preset_EGB</Use_Preset>
+		<Samples>
+			Data\Audio\SFX\V19\V19_Engine1.wav
+			Data\Audio\SFX\V19\V19_Engine2.wav
+		</Samples>
+	</SFXEvent>
+	<SFXEvent Name="Unit_V19_Cinematic_Engine_Loop"> <!-- Used by cinematic camera focus -->
+		<Use_Preset>Preset_EGL_CIN</Use_Preset>
+		<Samples>Data\Audio\SFX\V19\V19_Engine_Loop.wav</Samples>
+	</SFXEvent>
+
+	<!--***********************************************************-->
+	<!--***********************Tri-Fighter*************************--> <!-- Fire SFX from CWA, engine sounds from 2017 BF -->
+	<!--***********************************************************-->
+
+	<SFXEvent Name="Unit_Tri_Fighter_Fire">
+		<Use_Preset>Preset_GUNV</Use_Preset>
+		<Samples>
+			Data\Audio\SFX\Tri_Fighter\TriFighter_Fire1.wav
+			Data\Audio\SFX\Tri_Fighter\TriFighter_Fire2.wav
+			Data\Audio\SFX\Tri_Fighter\TriFighter_Fire3.wav
+		</Samples>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Tri_Fighter_Fly_By">
+		<Use_Preset>Preset_EGB</Use_Preset>
+		<Samples>
+			Data\Audio\SFX\Tri_Fighter\TriFighter_Engine1.wav
+			Data\Audio\SFX\Tri_Fighter\TriFighter_Engine2.wav
+		</Samples>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Tri_Fighter_Cinematic_Engine_Loop"> <!-- Used by cinematic camera focus -->
+		<Use_Preset>Preset_EGL_CIN</Use_Preset>
+		<Samples>Data\Audio\SFX\Tri_Fighter\TriFighter_Engine_Loop.wav</Samples>
+	</SFXEvent>
+
 </SFXEvents>

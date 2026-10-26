@@ -2021,3 +2021,59 @@ TEXT_EVENT_NIVERS_SSD_CHOICE_HEADER,              Star Dreadnought Choice
 TEXT_EVENT_NIVERS_MANDATOR2_CHOICE_BODY,              Choose a desgin to acquire as successor to the failed Mandator-II Star Dreadnought.
 TEXT_EVENT_NIVERS_BELLATOR_CHOICE_BODY,               Choose a desgin to acquire as successor to the failed Bellator Star Dreadnought.
 TEXT_EVENT_NIVERS_MANDATOR3_CHOICE_BODY,              Choose a desgin to acquire as successor to the failed Mandator-III Star Dreadnought.
+TEXT_UNIT_V_WING_FIGHTER_MISSILE,Missile V-wing
+TEXT_TOOLTIP_V_WING_MISSILE,An extremely fast interceptor with a respectable armament. Developed by Walex Blissex during the Clone Wars to be launched in swarms by mainline Republic carriers, it would later be phased out after a few years of Imperial service in favour of the more cost-effective TIE series. It is best used to engage enemy fighters or respond to incoming bombers. This version is equipped with a limited supply of concussion missiles.
+TEXT_V_WING_MISSILE_SQUADRON,Missile V-wing Squadron
+TEXT_STATBLOCK_V_WING_MISSILE_SQUADRON,Squadron: 12x Missile V-wing
+TEXT_V_WING_MISSILE_SQUADRON2,Missile V-wing Squadron x2
+TEXT_STATBLOCK_V_WING_MISSILE_SQUADRON_DOUBLE,Squadron: 24x Missile V-wing
+TEXT_V_WING_MISSILE_SQUADRON_HALF,Missile V-wing Squadron 1/2
+TEXT_STATBLOCK_V_WING_MISSILE_SQUADRON_HALF,Squadron: 6x Missile V-wing
+TEXT_UNIT_V_WING_FIGHTER_ELITE_GUARD,Elite Guard V-wing
+TEXT_TOOLTIP_V_WING_ELITE_GUARD,A rare upgraded version of the Nimbus V-Wing featuring a hyperdrive, improved shielding, and concussion missiles used for escorting high value personnel.
+TEXT_STATBLOCK_V_WING_ELITE_GUARD_BASE,Health: 9 | Shields: 6
+TEXT_STATBLOCK_V_WING_ELITE_GUARD_WEAP2,1x Fighter Concussion Missile: 1 / 75.0s / 1.8km
+TEXT_STATBLOCK_V_WING_ELITE_GUARD_SQUADRON,Squadron: 12x Elite Guard V-wing
+TEXT_V_WING_ELITE_GUARD_SQUADRON,Elite Guard V-wing Squadron
+TEXT_STATBLOCK_V_WING_ELITE_GUARD_SQUADRON_DOUBLE,Squadron: 24x Elite Guard V-wing
+TEXT_V_WING_ELITE_GUARD_SQUADRON2,Elite Guard V-wing Squadron x2
+TEXT_STATBLOCK_V_WING_ELITE_GUARD_SQUADRON_HALF,Squadron: 6x Elite Guard V-wing
+TEXT_V_WING_ELITE_GUARD_SQUADRON_HALF,Elite Guard V-wing Squadron 1/2
+TEXT_UNIT_TORRENT,V-19 Torrent
+TEXT_TOOLTIP_TORRENT,A maneuverable mainline fighter, this craft was originally designed for the Clone Wars where it was one of the most common Republic fighter models. Imperial service saw it replaced by the TIE Series and relegated to the Outer Rim where it would begin to see use by other groups.
+TEXT_STATBLOCK_V19_BASE,Health: 12 | Unshielded
+TEXT_STATBLOCK_V19_MOVE,Speed: 7.5 | Maneuverability: 5.25
+TEXT_STATBLOCK_V19_WEAP1,1x Fighter Laser Cannon: 4 / 2.0s / 1.1km
+TEXT_STATBLOCK_V19_WEAP2,1x Fighter Concussion Missile: 1 / 50.0s / 1.8km
+TEXT_STATBLOCK_V19_SQUADRON,Squadron: 12x V-19 Torrent
+TEXT_STATBLOCK_V19_SQUADRON_DOUBLE,Squadron: 24x V-19 Torrent
+TEXT_STATBLOCK_V19_SQUADRON_HALF,Squadron: 6x V-19 Torrent
+TEXT_STATBLOCK_V19_SQUADRON_TRIPLE,Squadron: 36x V-19 Torrent
+TEXT_TORRENT_SQUADRON,V-19 Torrent Squadron
+TEXT_TORRENT_SQUADRON_HALF,V-19 Torrent Squadron 1/2
+TEXT_TORRENT_SQUADRON2,V-19 Torrent Squadron x2
+TEXT_TORRENT_SQUADRON3,V-19 Torrent Squadron x3
+TEXT_UNIT_TRIFIGHTER,Droid Tri-Fighter
+TEXT_TOOLTIP_TRIFIGHTER,A compact, Colicoid designed droid fighter built around a reactor and advanced droid brain. It is fast, powerful, and agile but costly enough to not be deployed in as great numbers as vultures and their derivatives. It is very well suited to dogfighting and intercepting bombers.
+TEXT_STATBLOCK_TRIFIGHTER_BASE,Health: 10 | Unshielded
+TEXT_STATBLOCK_TRIFIGHTER_MOVE,Speed: 7.4 | Maneuverability: 5.65
+TEXT_STATBLOCK_TRIFIGHTER_SQUADRON,Squadron: 12x Droid Tri-Fighter
+TEXT_STATBLOCK_TRIFIGHTER_SQUADRON_DOUBLE,Squadron: 24x Droid Tri-Fighter
+TEXT_STATBLOCK_TRIFIGHTER_SQUADRON_HALF,Squadron: 6x Droid Tri-Fighter
+TEXT_STATBLOCK_TRIFIGHTER_WEAP1,1x Fighter Laser Cannon: 8 / 3.0s / 1.0km
+TEXT_STATBLOCK_TRIFIGHTER_WEAP2,1x Fighter Concussion Missile: 1 / 50.0s / 1.8km
+TEXT_TRIFIGHTER_SQUADRON,Tri-fighter Squadron
+TEXT_TRIFIGHTER_SQUADRON_HALF,Tri-fighter Squadron 1/2
+TEXT_TRIFIGHTER_SQUADRON2,Tri-fighter Squadron x2
+TEXT_TOOLTIP_AUREK_STARFIGHTER,The last, latest models of the venerable Aurek-series of strike fighters, a product of Outer Rim engineers rather than now-defunct megacorps. Speedy and armed with modern weapons, but the light construction and poor handling show the age of the base design even with new components and constant tuning. 
+TEXT_STATBLOCK_AUREK_STARFIGHTER_BASE,Health: 7 | Shields: 3
+TEXT_STATBLOCK_AUREK_STARFIGHTER_MOVE,Speed: 9.07 | Maneuverability: 2.92
+TEXT_STATBLOCK_AUREK_STARFIGHTER_SQUADRON,Squadron: 12x Modernized Aurek Strikefighter
+TEXT_STATBLOCK_AUREK_STARFIGHTER_SQUADRON_DOUBLE,Squadron: 24x Modernized Aurek Strikefighter
+TEXT_STATBLOCK_AUREK_STARFIGHTER_SQUADRON_HALF,Squadron: 6x Modernized Aurek Strikefighter
+TEXT_STATBLOCK_AUREK_STARFIGHTER_WEAP1,1x Fighter Laser Cannon: 4 / 2.0s / 1.1km
+TEXT_STATBLOCK_AUREK_STARFIGHTER_WEAP2,1x Fighter Proton Torpedo: 1 / 50.0s / 1.8km
+TEXT_UNIT_AUREK_STARFIGHTER,Modernized Aurek Strikefighter
+TEXT_AUREK_STARFIGHTER_SQUADRON,Modernized Aurek Strikefighter Squadron
+TEXT_AUREK_STARFIGHTER_SQUADRON_HALF,Modernized Aurek Strikefighter Squadron 1/2
+TEXT_AUREK_STARFIGHTER_SQUADRON2,Modernized Aurek Strikefighter Squadron x2
