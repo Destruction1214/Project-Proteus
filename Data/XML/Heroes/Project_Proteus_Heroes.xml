@@ -3179,6 +3179,7 @@
 				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.01f</Mod_Multiplier>
 				<Supports_Autofire>False</Supports_Autofire>
 			</Unit_Ability>
+		</Unit_Abilities_Data>
 
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="Battle_Meditation_Combat_Bonus">
@@ -3201,8 +3202,6 @@
 			</Battlefield_Modifier_Ability>
 
 		</Abilities>
-
-		</Unit_Abilities_Data>
 
 	</TransportUnit>
 
@@ -4753,7 +4752,7 @@
 
 			<!-- Force Lightning must come after Force Whirlwind, otherwise Force Whirlwind would never activate. -->
 			<Force_Lightning_Ability Name="X1_Force_Lightning">
-				<Activation_Style>UserInput</Activation_Style>
+				<Activation_Style>User_Input</Activation_Style>
 				<Activation_Min_Range>0.0</Activation_Min_Range>
 				<Activation_Max_Range>175.0</Activation_Max_Range>
 				<Applicable_Unit_Categories>Infantry</Applicable_Unit_Categories>
@@ -5825,7 +5824,9 @@
 				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.75f</Mod_Multiplier>
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Move_Imp_Guard</SFXEvent_GUI_Unit_Ability_Activated>
 			</Unit_Ability>
+		</Unit_Abilities_Data>
 
+		<Abilities SubObjectList="Yes">
 			<Earthquake_Attack_Ability Name="Hethrir_Attack_Structures">
 				<Activation_Style>Special_Attack</Activation_Style>
 				<Terminate_Effect_On_Move_Command>Yes</Terminate_Effect_On_Move_Command>
@@ -5843,9 +5844,7 @@
 				<Target_Particle_Effect>Earthquake_Dust_Particles</Target_Particle_Effect>
 				<Target_Particle_Bone_Name />
 			</Earthquake_Attack_Ability>
-		</Unit_Abilities_Data>
 
-		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="Force_Sensitive_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
 				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
@@ -7297,7 +7296,7 @@
 		<Company_Transport_Unit>Shuttle_Tyderium</Company_Transport_Unit>
 		<Company_Units>Voss</Company_Units>
 		
-		<Affiliation>Imeprial_Proteus</Affiliation>
+		<Affiliation>Imperial_Proteus</Affiliation>
 
 		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
@@ -8080,7 +8079,7 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SCIENTIST </Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_MENG_LA.TGA</Icon_Name>
 		
-		<Affiliation>Independen_Forces</Affiliation>
+		<Affiliation>Independent_Forces</Affiliation>
 		<Ranking_In_Category> 9 </Ranking_In_Category>
 
 		<Abilities SubObjectList="Yes"> <!-- Admin_Tier_Admin_01 -->

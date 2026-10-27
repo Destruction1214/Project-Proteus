@@ -5340,7 +5340,7 @@
 		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
 		TEXT_TOOLTIP_CAPABILITY_BOARDABLE
 		</Encyclopedia_Text>
-		<Affiliation>Pentastar, Imperial_Proteus Corporate_Sector</Affiliation>
+		<Affiliation>Pentastar, Imperial_Proteus, Corporate_Sector</Affiliation>
 		<Tech_Level>0</Tech_Level>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>

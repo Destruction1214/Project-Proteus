@@ -4374,7 +4374,7 @@
 		TEXT_STATBLOCK_TIE_FIGHTER_WEAP1
 		TEXT_STATBLOCK_TIE_FIGHTER_WEAP3
 		</Encyclopedia_Text>
-		<Icon_Name>i_button_tie_fighter_missile_half.tga</Icon_Name>/
+		<Icon_Name>i_button_tie_fighter_missile_half.tga</Icon_Name>
 	</Container>
 
 	<SpaceUnit Name="Shielded_Missile_TIE_Fighter">
@@ -5399,7 +5399,7 @@
 		TEXT_STATBLOCK_ETA2_WEAP1
 		TEXT_STATBLOCK_ETA2_WEAP4
 		</Encyclopedia_Text>
-		<Icon_Name>i_button_eta2_assault_half.tga</Icon_Name>/
+		<Icon_Name>i_button_eta2_assault_half.tga</Icon_Name>
 	</Container>
 
 	<SpaceUnit Name="Defensive_Eta2_Actis">
@@ -5810,7 +5810,7 @@
 		TEXT_STATBLOCK_V_WING_WEAP1
 		TEXT_STATBLOCK_V_WING_WEAP3
 		</Encyclopedia_Text>
-		<Icon_Name>i_button_v_wing_esk_half.tga</Icon_Name>/
+		<Icon_Name>i_button_v_wing_esk_half.tga</Icon_Name>
 	</Container>
 
 	<SpaceUnit Name="TIE_Fighter_BF2">
@@ -7642,7 +7642,7 @@
 		<AI_Combat_Power>6.89</AI_Combat_Power>
 		
 		<Collision_Box_Modifier>1.0</Collision_Box_Modifier>
-		<Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
+		<Targeting_Priority_Set>AntiFighter</Targeting_Priority_Set>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 
 		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
@@ -8307,7 +8307,7 @@
 		<AI_Combat_Power>7.71</AI_Combat_Power>
 		
 		<Collision_Box_Modifier>1.0</Collision_Box_Modifier>
-		<Targeting_Priority_Set>Bomber</Targeting_Priority_Set>
+		<Targeting_Priority_Set>AntiBomber</Targeting_Priority_Set>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 
 		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
@@ -10463,7 +10463,7 @@
 
 		<Max_Squad_Size> 24 </Max_Squad_Size>
 		<Create_Team_Type>Vulture_Squadron_Container</Create_Team_Type>
-		<Squadron_Units>Vulture_Droid, Vulture_Droid, Vulture_Droid, Vulture_Droid</Squadron_Units>´
+		<Squadron_Units>Vulture_Droid, Vulture_Droid, Vulture_Droid, Vulture_Droid</Squadron_Units>
 		<Squadron_Units>Vulture_Droid, Vulture_Droid, Vulture_Droid, Vulture_Droid</Squadron_Units>
 		<Squadron_Units>Vulture_Droid, Vulture_Droid, Vulture_Droid, Vulture_Droid</Squadron_Units>
 		<Squadron_Units>Vulture_Droid, Vulture_Droid, Vulture_Droid, Vulture_Droid</Squadron_Units>
@@ -12038,7 +12038,7 @@
 		<AI_Combat_Power>6.89</AI_Combat_Power>
 		
 		<Collision_Box_Modifier>1.0</Collision_Box_Modifier>
-		<Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
+		<Targeting_Priority_Set>AntiFighter</Targeting_Priority_Set>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 
 		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
@@ -12687,7 +12687,7 @@
 		<Create_Team>Yes</Create_Team>
 		<AI_Combat_Power>6.89</AI_Combat_Power>
 		<Collision_Box_Modifier>1.0</Collision_Box_Modifier>
-		<Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
+		<Targeting_Priority_Set>AntiFighter</Targeting_Priority_Set>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 
 		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>

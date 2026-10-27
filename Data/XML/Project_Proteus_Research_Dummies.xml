@@ -526,7 +526,7 @@
 		<Build_Cost_Credits>20000</Build_Cost_Credits>
 		<Build_Time_Seconds>5</Build_Time_Seconds>
 
-		<Lua_Script>Lannox_FighterResearch</Lua_Script>
+		<Lua_Script>Lanox_FighterResearch</Lua_Script>
 
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
