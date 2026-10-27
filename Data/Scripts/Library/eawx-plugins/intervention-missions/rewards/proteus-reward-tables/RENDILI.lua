@@ -5,7 +5,7 @@ return {
 			{"Security_Trooper_Company", 5},
 			{"Imperial_Navy_Trooper_Company", 5},
 			{"Imperial_Scout_Trooper_Company", 3},
-			{"Ipv1_Gunboat_Proteus", 5}, --Replace with Turbolaser Customs Corvette
+			{"Customs_Corvette_Gunboat", 5},
 		},
 		{
 			{"Alliance_Assault_Frigate_II", 3},
@@ -28,7 +28,7 @@ return {
 			{"Security_Trooper_Company", 5},
 			{"Imperial_Navy_Trooper_Company", 5},
 			{"Imperial_Scout_Trooper_Company", 3},
-			{"Ipv1_Gunboat_Proteus", 5}, --Replace with Turbolaser Customs Corvette
+			{"Customs_Corvette_Gunboat", 5},
 		},
 		{
 			{"Alliance_Assault_Frigate_II", 3},
@@ -51,7 +51,7 @@ return {
 			{"Security_Trooper_Company", 5},
 			{"Imperial_Navy_Trooper_Company", 5},
 			{"Imperial_Scout_Trooper_Company", 3},
-			{"Ipv1_Gunboat_Proteus", 5}, --Replace with Turbolaser Customs Corvette
+			{"Customs_Corvette_Gunboat", 5},
 		},
 		{
 			{"Alliance_Assault_Frigate_II", 3},
@@ -74,7 +74,7 @@ return {
 			{"Security_Trooper_Company", 5},
 			{"Imperial_Navy_Trooper_Company", 5},
 			{"Imperial_Scout_Trooper_Company", 3},
-			{"Ipv1_Gunboat_Proteus", 5}, --Replace with Turbolaser Customs Corvette
+			{"Customs_Corvette_Gunboat", 5},
 		},
 		{
 			{"Alliance_Assault_Frigate_II", 3},
@@ -97,7 +97,7 @@ return {
 			{"Security_Trooper_Company", 5},
 			{"Imperial_Navy_Trooper_Company", 5},
 			{"Imperial_Scout_Trooper_Company", 3},
-			{"Ipv1_Gunboat_Proteus", 5}, --Replace with Turbolaser Customs Corvette
+			{"Customs_Corvette_Gunboat", 5},
 		},
 		{
 			{"Alliance_Assault_Frigate_II", 3},
@@ -120,7 +120,7 @@ return {
 			{"Security_Trooper_Company", 5},
 			{"Imperial_Navy_Trooper_Company", 5},
 			{"Imperial_Scout_Trooper_Company", 3},
-			{"Ipv1_Gunboat_Proteus", 5}, --Replace with Turbolaser Customs Corvette
+			{"Customs_Corvette_Gunboat", 5},
 		},
 		{
 			{"Alliance_Assault_Frigate_II", 3},
@@ -143,7 +143,7 @@ return {
 			{"Security_Trooper_Company", 5},
 			{"Imperial_Navy_Trooper_Company", 5},
 			{"Imperial_Scout_Trooper_Company", 3},
-			{"Ipv1_Gunboat_Proteus", 5}, --Replace with Turbolaser Customs Corvette
+			{"Customs_Corvette_Gunboat", 5},
 		},
 		{
 			{"Alliance_Assault_Frigate_II", 3},
@@ -166,7 +166,7 @@ return {
 			{"Security_Trooper_Company", 5},
 			{"Imperial_Navy_Trooper_Company", 5},
 			{"Imperial_Scout_Trooper_Company", 3},
-			{"Ipv1_Gunboat_Proteus", 5}, --Replace with Turbolaser Customs Corvette
+			{"Customs_Corvette_Gunboat", 5},
 		},
 		{
 			{"Alliance_Assault_Frigate_II", 3},
@@ -189,7 +189,7 @@ return {
 			{"Security_Trooper_Company", 5},
 			{"Imperial_Navy_Trooper_Company", 5},
 			{"Imperial_Scout_Trooper_Company", 3},
-			{"Ipv1_Gunboat_Proteus", 5}, --Replace with Turbolaser Customs Corvette
+			{"Customs_Corvette_Gunboat", 5},
 		},
 		{
 			{"Alliance_Assault_Frigate_II", 3},
@@ -212,7 +212,7 @@ return {
 			{"Security_Trooper_Company", 5},
 			{"Imperial_Navy_Trooper_Company", 5},
 			{"Imperial_Scout_Trooper_Company", 3},
-			{"Ipv1_Gunboat_Proteus", 5}, --Replace with Turbolaser Customs Corvette
+			{"Customs_Corvette_Gunboat", 5},
 		},
 		{
 			{"Alliance_Assault_Frigate_II", 3},
@@ -235,7 +235,7 @@ return {
 			{"Security_Trooper_Company", 5},
 			{"Imperial_Navy_Trooper_Company", 5},
 			{"Imperial_Scout_Trooper_Company", 3},
-			{"Ipv1_Gunboat_Proteus", 5}, --Replace with Turbolaser Customs Corvette
+			{"Customs_Corvette_Gunboat", 5},
 		},
 		{
 			{"Alliance_Assault_Frigate_II", 3},
