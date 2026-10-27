@@ -3179,6 +3179,7 @@
 				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.01f</Mod_Multiplier>
 				<Supports_Autofire>False</Supports_Autofire>
 			</Unit_Ability>
+		</Unit_Abilities_Data>
 
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="Battle_Meditation_Combat_Bonus">
@@ -3201,8 +3202,6 @@
 			</Battlefield_Modifier_Ability>
 
 		</Abilities>
-
-		</Unit_Abilities_Data>
 
 	</TransportUnit>
 
@@ -5825,7 +5824,9 @@
 				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.75f</Mod_Multiplier>
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Move_Imp_Guard</SFXEvent_GUI_Unit_Ability_Activated>
 			</Unit_Ability>
+		</Unit_Abilities_Data>
 
+		<Abilities SubObjectList="Yes">
 			<Earthquake_Attack_Ability Name="Hethrir_Attack_Structures">
 				<Activation_Style>Special_Attack</Activation_Style>
 				<Terminate_Effect_On_Move_Command>Yes</Terminate_Effect_On_Move_Command>
@@ -5843,9 +5844,7 @@
 				<Target_Particle_Effect>Earthquake_Dust_Particles</Target_Particle_Effect>
 				<Target_Particle_Bone_Name />
 			</Earthquake_Attack_Ability>
-		</Unit_Abilities_Data>
 
-		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="Force_Sensitive_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
 				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
