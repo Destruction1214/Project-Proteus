@@ -1054,7 +1054,7 @@
 		<Idle_Chase_Range>400.0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
-		<Targeting_Priority_Set>Corvette</Targeting_Priority_Set>
+		<Targeting_Priority_Set>AntiCorvette</Targeting_Priority_Set>
 		<Autonomous_Move_Extension_Vs_Attacker>200.0</Autonomous_Move_Extension_Vs_Attacker>
 
 		<Score_Cost_Credits> 1400</Score_Cost_Credits>
@@ -2253,7 +2253,7 @@
 
 		<SFXEvent_Build_Started>RHD_Build_Vehicle</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Unit_Canceled</SFXEvent_Build_Cancelled>
-		<SFXEvent_Build_Complete>Acclamator_Complete</SFXEvent_Build_Complete>
+		<SFXEvent_Build_Complete>Unit_Complete_Acclamator</SFXEvent_Build_Complete>
 		<SFXEvent_Bombard_Select_Target>RHD_Bombard_Select_Target</SFXEvent_Bombard_Select_Target>
 		<SFXEvent_Bombard_Incoming>RHD_Bombard_Incoming</SFXEvent_Bombard_Incoming>
 
@@ -4229,7 +4229,7 @@
 		<Autonomous_Move_Extension_Vs_Attacker>1000.0</Autonomous_Move_Extension_Vs_Attacker>
 
 		<Targeting_Max_Attack_Distance>3000.0</Targeting_Max_Attack_Distance>
-		<Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
+		<Targeting_Priority_Set>AntiFrigate</Targeting_Priority_Set>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 
 		<MovementClass> Space </MovementClass>

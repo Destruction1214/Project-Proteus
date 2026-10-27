@@ -7642,7 +7642,7 @@
 		<AI_Combat_Power>6.89</AI_Combat_Power>
 		
 		<Collision_Box_Modifier>1.0</Collision_Box_Modifier>
-		<Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
+		<Targeting_Priority_Set>AntiFighter</Targeting_Priority_Set>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 
 		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
@@ -8307,7 +8307,7 @@
 		<AI_Combat_Power>7.71</AI_Combat_Power>
 		
 		<Collision_Box_Modifier>1.0</Collision_Box_Modifier>
-		<Targeting_Priority_Set>Bomber</Targeting_Priority_Set>
+		<Targeting_Priority_Set>AntiBomber</Targeting_Priority_Set>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 
 		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
@@ -12038,7 +12038,7 @@
 		<AI_Combat_Power>6.89</AI_Combat_Power>
 		
 		<Collision_Box_Modifier>1.0</Collision_Box_Modifier>
-		<Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
+		<Targeting_Priority_Set>AntiFighter</Targeting_Priority_Set>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 
 		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
@@ -12687,7 +12687,7 @@
 		<Create_Team>Yes</Create_Team>
 		<AI_Combat_Power>6.89</AI_Combat_Power>
 		<Collision_Box_Modifier>1.0</Collision_Box_Modifier>
-		<Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
+		<Targeting_Priority_Set>AntiFighter</Targeting_Priority_Set>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 
 		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
