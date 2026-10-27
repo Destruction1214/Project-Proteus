@@ -1306,7 +1306,7 @@ return {
 			Planets = {"VJUN", "BESPIN", "ALZOC", "CHALCEDON", "RUUSAN"},
 			LeaderTable = {"FYYAR_DOOMGIVER_EMPEROR", ["HETHRIR_TEAM"] = {"HETHRIR"}},
 			LeaderEndingNames = {"Omnipotent Master Hethrir"},
-			HeroList = {"Hethrir_Team", "Fyyar_Doomgiver", "Desann_Team", "Antinnis_Tremayne_Team","Tavion_Axmis_Team", "Alora_Team", "Nobles_Team"}, 
+			HeroList = {"Hethrir_Team", "Fyyar_Doomgiver", "Desann_Team", "Antinnis_Tremayne_Team","Tavion_Axmis_Team", "Nobles_Team"}, 
 			UnlockList = {
 				-- Space 
 				"Gozanti_Cruiser_Group", "Imperial_CR90", "Trenchant", "Class_C_Frigate", "Strike_Cruiser_Gorath", "Ton_Falk_Escort_Carrier", "Corona_Tender", 
@@ -1319,7 +1319,6 @@ return {
 				"TIE_Crawler_Company", "AV_7_Company", "Imperial_Shadow_LAAT_Company", "AT_AA_Flak_Walker_Company",
 				"A9_Floating_Fortress_Company", "AT_AT_Walker_IC_Company", 
 				-- Dummies
-				"Fyyar_Regime_Dummy",
 			},
 			FactionOverride = "Empire",
 			FactionOverride2 = "Rebel",
