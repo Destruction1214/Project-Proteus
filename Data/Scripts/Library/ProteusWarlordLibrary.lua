@@ -1437,12 +1437,12 @@ return {
 				"Interdictor_Star_Destroyer", "Imperial_II_Star_Destroyer",
 				"Mandator_II_Dreadnought",
 				-- Ground
-				"Army_Special_Missions_Company", "EVO_Trooper_Company",  "Republic_BARC_Company",
+				"Army_Special_Missions_Company", "EVO_Trooper_Company", "Republic_BARC_Company", --Replace EVOs with Stromtrooper Commandos when proteus version is done
 				"Repulsor_Scout_Company", "RTT_Company", "1L_Tank_AV_Company", "Chariot_LAV_Company", 
 				"AT_AA_Flak_Walker_Company", "SPMAG_Walker_Company", "HAET_Company", 
 				"Imperial_AT_TE_Walker_Company", "Imperial_AT_AT_Walker_Company", 
 				-- Research
-				"Dummy_Research_Nivers_Aggressor", 
+				"Dummy_Research_Nivers_Missile_Fighters", "Dummy_Research_Nivers_Aggressor", 
 			},
 			FactionOverride = "Zsinj_Empire",
 			LastYear = 4,
