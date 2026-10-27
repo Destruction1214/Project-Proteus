@@ -2891,12 +2891,12 @@
 
 		<Icon_Name>I_BUTTON_TRANDOSHAN_SOLDIER.TGA</Icon_Name>
 		<Land_Terrain_Model_Mapping>
-			Temperate, 			Ni_Soldier_Trandoshan_M.Alo
-			Urban, 				Ni_Soldier_Trandoshan_M.Alo
-			Arctic, 			Ni_Soldier_Trandoshan_M.Alo
-			Volcanic, 			Ni_Soldier_Trandoshan_M.Alo
-			Desert, 			Ni_Soldier_Trandoshan_M.Alo
-			Forest, 			Ni_Soldier_Trandoshan_M.Alo
+			Temperate, 			Ni_Soldier_Trandoshan_M.Alo,
+			Urban, 				Ni_Soldier_Trandoshan_M.Alo,
+			Arctic, 			Ni_Soldier_Trandoshan_M.Alo,
+			Volcanic, 			Ni_Soldier_Trandoshan_M.Alo,
+			Desert, 			Ni_Soldier_Trandoshan_M.Alo,
+			Forest, 			Ni_Soldier_Trandoshan_M.Alo,
 			Swamp, 				Ni_Soldier_Trandoshan_M.Alo
 		</Land_Terrain_Model_Mapping>
 		<Land_Model_Anim_Override_Name>RegularInfantry.alo</Land_Model_Anim_Override_Name>
@@ -2959,12 +2959,12 @@
 
 		<Land_Model_Name>NI_Soldier_Trandoshan_M_Orange.alo</Land_Model_Name>
 		<Land_Terrain_Model_Mapping>
-			Temperate, 			NI_Soldier_Trandoshan_M_Orange.alo
-			Urban, 				NI_Soldier_Trandoshan_M_Orange.alo
-			Arctic, 			NI_Soldier_Trandoshan_M_Orange.alo
-			Volcanic, 			NI_Soldier_Trandoshan_M_Orange.alo
-			Desert, 			NI_Soldier_Trandoshan_M_Orange.alo
-			Forest, 			NI_Soldier_Trandoshan_M_Orange.alo
+			Temperate, 			NI_Soldier_Trandoshan_M_Orange.alo,
+			Urban, 				NI_Soldier_Trandoshan_M_Orange.alo,
+			Arctic, 			NI_Soldier_Trandoshan_M_Orange.alo,
+			Volcanic, 			NI_Soldier_Trandoshan_M_Orange.alo,
+			Desert, 			NI_Soldier_Trandoshan_M_Orange.alo,
+			Forest, 			NI_Soldier_Trandoshan_M_Orange.alo,
 			Swamp, 				NI_Soldier_Trandoshan_M_Orange.alo
 		</Land_Terrain_Model_Mapping>
 		
@@ -2998,12 +2998,12 @@
 
 		<Land_Model_Name>NI_Soldier_Trandoshan_M_Cyan.alo</Land_Model_Name>
 		<Land_Terrain_Model_Mapping>
-			Temperate, 			NI_Soldier_Trandoshan_M_Cyan.alo
-			Urban, 				NI_Soldier_Trandoshan_M_Cyan.alo
-			Arctic, 			NI_Soldier_Trandoshan_M_Cyan.alo
-			Volcanic, 			NI_Soldier_Trandoshan_M_Cyan.alo
-			Desert, 			NI_Soldier_Trandoshan_M_Cyan.alo
-			Forest, 			NI_Soldier_Trandoshan_M_Cyan.alo
+			Temperate, 			NI_Soldier_Trandoshan_M_Cyan.alo,
+			Urban, 				NI_Soldier_Trandoshan_M_Cyan.alo,
+			Arctic, 			NI_Soldier_Trandoshan_M_Cyan.alo,
+			Volcanic, 			NI_Soldier_Trandoshan_M_Cyan.alo,
+			Desert, 			NI_Soldier_Trandoshan_M_Cyan.alo,
+			Forest, 			NI_Soldier_Trandoshan_M_Cyan.alo,
 			Swamp, 				NI_Soldier_Trandoshan_M_Cyan.alo
 		</Land_Terrain_Model_Mapping>
 		
@@ -3035,12 +3035,12 @@
 
 		<Land_Model_Name>NI_Soldier_Trandoshan_M_Blue.alo</Land_Model_Name>
 		<Land_Terrain_Model_Mapping>
-			Temperate, 			NI_Soldier_Trandoshan_M_Blue.alo
-			Urban, 				NI_Soldier_Trandoshan_M_Blue.alo
-			Arctic, 			NI_Soldier_Trandoshan_M_Blue.alo
-			Volcanic, 			NI_Soldier_Trandoshan_M_Blue.alo
-			Desert, 			NI_Soldier_Trandoshan_M_Blue.alo
-			Forest, 			NI_Soldier_Trandoshan_M_Blue.alo
+			Temperate, 			NI_Soldier_Trandoshan_M_Blue.alo,
+			Urban, 				NI_Soldier_Trandoshan_M_Blue.alo,
+			Arctic, 			NI_Soldier_Trandoshan_M_Blue.alo,
+			Volcanic, 			NI_Soldier_Trandoshan_M_Blue.alo,
+			Desert, 			NI_Soldier_Trandoshan_M_Blue.alo,
+			Forest, 			NI_Soldier_Trandoshan_M_Blue.alo,
 			Swamp, 				NI_Soldier_Trandoshan_M_Blue.alo
 		</Land_Terrain_Model_Mapping>
 
@@ -3076,12 +3076,12 @@
 
 		<Land_Model_Name>NI_Soldier_Trandoshan_M_Red.alo</Land_Model_Name>
 		<Land_Terrain_Model_Mapping>
-			Temperate, 			NI_Soldier_Trandoshan_M_Red.alo
-			Urban, 				NI_Soldier_Trandoshan_M_Red.alo
-			Arctic, 			NI_Soldier_Trandoshan_M_Red.alo
-			Volcanic, 			NI_Soldier_Trandoshan_M_Red.alo
-			Desert, 			NI_Soldier_Trandoshan_M_Red.alo
-			Forest, 			NI_Soldier_Trandoshan_M_Red.alo
+			Temperate, 			NI_Soldier_Trandoshan_M_Red.alo,
+			Urban, 				NI_Soldier_Trandoshan_M_Red.alo,
+			Arctic, 			NI_Soldier_Trandoshan_M_Red.alo,
+			Volcanic, 			NI_Soldier_Trandoshan_M_Red.alo,
+			Desert, 			NI_Soldier_Trandoshan_M_Red.alo,
+			Forest, 			NI_Soldier_Trandoshan_M_Red.alo,
 			Swamp, 				NI_Soldier_Trandoshan_M_Red.alo
 		</Land_Terrain_Model_Mapping>
 		
@@ -3116,12 +3116,12 @@
 
 		<Land_Model_Name>NI_Soldier_Trandoshan_M_Green.alo</Land_Model_Name>
 		<Land_Terrain_Model_Mapping>
-			Temperate, 			NI_Soldier_Trandoshan_M_Green.alo
-			Urban, 				NI_Soldier_Trandoshan_M_Green.alo
-			Arctic, 			NI_Soldier_Trandoshan_M_Green.alo
-			Volcanic, 			NI_Soldier_Trandoshan_M_Green.alo
-			Desert, 			NI_Soldier_Trandoshan_M_Green.alo
-			Forest, 			NI_Soldier_Trandoshan_M_Green.alo
+			Temperate, 			NI_Soldier_Trandoshan_M_Green.alo,
+			Urban, 				NI_Soldier_Trandoshan_M_Green.alo,
+			Arctic, 			NI_Soldier_Trandoshan_M_Green.alo,
+			Volcanic, 			NI_Soldier_Trandoshan_M_Green.alo,
+			Desert, 			NI_Soldier_Trandoshan_M_Green.alo,
+			Forest, 			NI_Soldier_Trandoshan_M_Green.alo,
 			Swamp, 				NI_Soldier_Trandoshan_M_Green.alo
 		</Land_Terrain_Model_Mapping>
 		
