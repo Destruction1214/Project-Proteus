@@ -11,7 +11,7 @@ return {
 		{
 			{"Imperial_Stormtrooper_Company", 5},
 			{"Imperial_008_Company", 3},
-			{"XR37_Company", 3},
+			--	{"XR37_Company", 3},
 			{"Gladiator_Siege_Refit", 3},
 			{"Proteus_Cargo_Ship", 3},
 		},
@@ -35,7 +35,7 @@ return {
 		{
 			{"Imperial_Stormtrooper_Company", 5},
 			{"Imperial_008_Company", 3},
-			{"XR37_Company", 3},
+			--	{"XR37_Company", 3},
 			{"Gladiator_Siege_Refit", 3},
 			{"Proteus_Cargo_Ship", 3},
 		},
@@ -59,7 +59,7 @@ return {
 		{
 			{"Imperial_Stormtrooper_Company", 5},
 			{"Imperial_008_Company", 3},
-			{"XR37_Company", 3},
+			--	{"XR37_Company", 3},
 			{"Gladiator_Siege_Refit", 3},
 			{"Proteus_Cargo_Ship", 3},
 		},
@@ -83,7 +83,7 @@ return {
 		{
 			{"Imperial_Stormtrooper_Company", 5},
 			{"Imperial_008_Company", 3},
-			{"XR37_Company", 3},
+			--	{"XR37_Company", 3},
 			{"Gladiator_Siege_Refit", 3},
 			{"Proteus_Cargo_Ship", 3},
 		},
@@ -107,7 +107,7 @@ return {
 		{
 			{"Imperial_Stormtrooper_Company", 5},
 			{"Imperial_008_Company", 3},
-			{"XR37_Company", 3},
+			--	{"XR37_Company", 3},
 			{"Gladiator_Siege_Refit", 3},
 			{"Proteus_Cargo_Ship", 3},
 		},
@@ -131,7 +131,7 @@ return {
 		{
 			{"Imperial_Stormtrooper_Company", 5},
 			{"Imperial_008_Company", 3},
-			{"XR37_Company", 3},
+			--	{"XR37_Company", 3},
 			{"Gladiator_Siege_Refit", 3},
 			{"Proteus_Cargo_Ship", 3},
 		},
@@ -155,7 +155,7 @@ return {
 		{
 			{"Imperial_Stormtrooper_Company", 5},
 			{"Imperial_008_Company", 3},
-			{"XR37_Company", 3},
+			--	{"XR37_Company", 3},
 			{"Gladiator_Siege_Refit", 3},
 			{"Proteus_Cargo_Ship", 3},
 		},
@@ -179,7 +179,7 @@ return {
 		{
 			{"Imperial_Stormtrooper_Company", 5},
 			{"Imperial_008_Company", 3},
-			{"XR37_Company", 3},
+		--	--	{"XR37_Company", 3},
 			{"Gladiator_Siege_Refit", 3},
 			{"Proteus_Cargo_Ship", 3},
 		},
@@ -203,7 +203,7 @@ return {
 		{
 			{"Imperial_Stormtrooper_Company", 5},
 			{"Imperial_008_Company", 3},
-			{"XR37_Company", 3},
+			--	{"XR37_Company", 3},
 			{"Gladiator_Siege_Refit", 3},
 			{"Proteus_Cargo_Ship", 3},
 		},
@@ -227,7 +227,7 @@ return {
 		{
 			{"Imperial_Stormtrooper_Company", 5},
 			{"Imperial_008_Company", 3},
-			{"XR37_Company", 3},
+			--	{"XR37_Company", 3},
 			{"Gladiator_Siege_Refit", 3},
 			{"Proteus_Cargo_Ship", 3},
 		},
@@ -251,7 +251,7 @@ return {
 		{
 			{"Imperial_Stormtrooper_Company", 5},
 			{"Imperial_008_Company", 3},
-			{"XR37_Company", 3},
+			--	{"XR37_Company", 3},
 			{"Gladiator_Siege_Refit", 3},
 			{"Proteus_Cargo_Ship", 3},
 		},
