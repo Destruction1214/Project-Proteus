@@ -17,7 +17,7 @@ return {
 		},
 		{
 			{"XR85_Company", 2},  
-			{"Corellian_Light_Corvette_Company", 1},  
+			--	{"Corellian_Light_Corvette_Company", 1}, 
 			{"Imperial_AT_ACT_Walker_Company", 2},
 			{"Imperial_Fleet_Commando_Company", 5},  
 			{"Imperial_II_Star_Destroyer", 1},
@@ -41,7 +41,7 @@ return {
 		},
 		{
 			{"XR85_Company", 2},  
-			{"Corellian_Light_Corvette_Company", 1},  
+			--	{"Corellian_Light_Corvette_Company", 1}, 
 			{"Imperial_AT_ACT_Walker_Company", 2},
 			{"Imperial_Fleet_Commando_Company", 5},  
 			{"Imperial_II_Star_Destroyer", 1},
@@ -65,7 +65,7 @@ return {
 		},
 		{
 			{"XR85_Company", 2},  
-			{"Corellian_Light_Corvette_Company", 1},  
+			--	{"Corellian_Light_Corvette_Company", 1}, 
 			{"Imperial_AT_ACT_Walker_Company", 2},
 			{"Imperial_Fleet_Commando_Company", 5},  
 			{"Imperial_II_Star_Destroyer", 1},
@@ -89,7 +89,7 @@ return {
 		},
 		{
 			{"XR85_Company", 2},  
-			{"Corellian_Light_Corvette_Company", 1},  
+			--	{"Corellian_Light_Corvette_Company", 1}, 
 			{"Imperial_AT_ACT_Walker_Company", 2},
 			{"Imperial_Fleet_Commando_Company", 5},  
 			{"Imperial_II_Star_Destroyer", 1},
@@ -113,7 +113,7 @@ return {
 		},
 		{
 			{"XR85_Company", 2},  
-			{"Corellian_Light_Corvette_Company", 1},  
+			--	{"Corellian_Light_Corvette_Company", 1}, 
 			{"Imperial_AT_ACT_Walker_Company", 2},
 			{"Imperial_Fleet_Commando_Company", 5},  
 			{"Imperial_II_Star_Destroyer", 1},
@@ -137,7 +137,7 @@ return {
 		},
 		{
 			{"XR85_Company", 2},  
-			{"Corellian_Light_Corvette_Company", 1},  
+			--	{"Corellian_Light_Corvette_Company", 1}, 
 			{"Imperial_AT_ACT_Walker_Company", 2},
 			{"Imperial_Fleet_Commando_Company", 5},  
 			{"Imperial_II_Star_Destroyer", 1},
@@ -161,7 +161,7 @@ return {
 		},
 		{
 			{"XR85_Company", 2},  
-			{"Corellian_Light_Corvette_Company", 1},  
+			--	{"Corellian_Light_Corvette_Company", 1}, 
 			{"Imperial_AT_ACT_Walker_Company", 2},
 			{"Imperial_Fleet_Commando_Company", 5},  
 			{"Imperial_II_Star_Destroyer", 1},
@@ -185,7 +185,7 @@ return {
 		},
 		{
 			{"XR85_Company", 2},  
-			{"Corellian_Light_Corvette_Company", 1},  
+		--	--	{"Corellian_Light_Corvette_Company", 1}, 
 			{"Imperial_AT_ACT_Walker_Company", 2},
 			{"Imperial_Fleet_Commando_Company", 5},  
 			{"Imperial_II_Star_Destroyer", 1},
@@ -209,7 +209,7 @@ return {
 		},
 		{
 			{"XR85_Company", 2},  
-			{"Corellian_Light_Corvette_Company", 1},  
+			--	{"Corellian_Light_Corvette_Company", 1}, 
 			{"Imperial_AT_ACT_Walker_Company", 2},
 			{"Imperial_Fleet_Commando_Company", 5},  
 			{"Imperial_II_Star_Destroyer", 1},
@@ -233,7 +233,7 @@ return {
 		},
 		{
 			{"XR85_Company", 2},  
-			{"Corellian_Light_Corvette_Company", 1},  
+			--	{"Corellian_Light_Corvette_Company", 1}, 
 			{"Imperial_AT_ACT_Walker_Company", 2},
 			{"Imperial_Fleet_Commando_Company", 5},  
 			{"Imperial_II_Star_Destroyer", 1},
@@ -257,7 +257,7 @@ return {
 		},
 		{
 			{"XR85_Company", 2},  
-			{"Corellian_Light_Corvette_Company", 1},  
+			--	{"Corellian_Light_Corvette_Company", 1}, 
 			{"Imperial_AT_ACT_Walker_Company", 2},
 			{"Imperial_Fleet_Commando_Company", 5},  
 			{"Imperial_II_Star_Destroyer", 1},
