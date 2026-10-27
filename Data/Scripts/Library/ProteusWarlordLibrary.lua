@@ -1423,6 +1423,7 @@ return {
 			StartYear = 4,
 			IntroText = "TEXT_CONQUEST_PROTEUS_MINOS",
 			IntroHolo = "_Loop",
+			CustomRewardTable = true,
 		},
 		["NIVERS"] = {
 			FriendlyName = "Nivers' Empire",
