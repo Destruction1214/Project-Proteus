@@ -1587,4 +1587,25 @@
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 	</DummyStructure>
 
+	<!--Empire Reborn-->
+	<DummyStructure Name="Fyyar_Regime_Dummy">
+		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_EVENT_DUMMY_FYYAR_REGIME</Text_ID>
+		<Encyclopedia_Text>TEXT_REGICIDE_DESCRIPTION_FYYAR_REGIME</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_STORYEVENT </Encyclopedia_Unit_Class>
+
+		<Icon_Name>i_button_fyyar_regime.tga</Icon_Name>
+
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Tech_Level>1</Tech_Level>
+		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy</Required_Special_Structures>
+		<Build_Cost_Credits>5000</Build_Cost_Credits>
+		<Build_Time_Seconds>30</Build_Time_Seconds>
+
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+	</DummyStructure>
+
 </Proteus_Research_Dummies>

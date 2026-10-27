@@ -124,6 +124,7 @@ return {
 	["MICHAEL_TERROR_DUMMY"] = {"Michael", "Michael_Terror"},
 	["STRANG_IEC_DUMMY"] = {"Victor_Strang", "Strang_IEC"},
 	["ISARD_CLONE_LUSANKYA_DUMMY"] = {"Isard_Clone", "Isard_Clone_Lusankya"},
+	["DROMMEL_GUARDIAN_DUMMY"] = {"Drommel_Wolfs_Claw", "Drommel_Guardian"},
 	-- Proteus Unit upgrades for generics
 	["DHC_CARRIER_UPGRADE"] = {"PDF_DHC","DHC_CARRIER",["location_check"] = true},
 	["PROCURATOR_UPGRADE_DUMMY"] = {"Procurator_Battlecruiser","Modernized_Procurator",["location_check"] = true},

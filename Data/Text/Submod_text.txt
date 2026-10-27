@@ -26,6 +26,9 @@ TEXT_ARMORED_SHIELDED_INTERCEPTOR_UPGUNNED_SQUADRON_HALF,Upgunned Heavy TIE Inte
 TEXT_ARMORED_SHIELDED_INTERCEPTOR_UPGUNNED_SQUADRON2,Upgunned Heavy TIE Interceptor Squadron x2
 TEXT_ATPT_SNIPER_SQUAD,AT-PT/A Walker Company
 TEXT_ATXT_SQUAD,AT-XT Walker Company
+TEXT_AUREK_STARFIGHTER_SQUADRON,Modernized Aurek Strikefighter Squadron
+TEXT_AUREK_STARFIGHTER_SQUADRON_HALF,Modernized Aurek Strikefighter Squadron 1/2
+TEXT_AUREK_STARFIGHTER_SQUADRON2,Modernized Aurek Strikefighter Squadron x2
 TEXT_BELBULLAB22_SQUADRON,Belbullab-22 Squadron
 TEXT_BELBULLAB22_SQUADRON_HALF,Belbullab-22 Squadron 1/2
 TEXT_BELBULLAB22_SQUADRON2,Belbullab-22 Squadron x2
@@ -53,6 +56,7 @@ TEXT_CONQUEST_PROTEUS_BALMORRA,Hinch Beltane: There has never been a better mome
 TEXT_CONQUEST_PROTEUS_BRENTAAL,Soontir Fel: I have wrestled with it these past few days, but I cannot deny that Phennir is right. Isard is leading what's left of the Empire to an ignoble end, and I refuse to let myself and my men be dragged down with her. I can do more for the Empire as a warlord than Isard's pawn. We will show the galaxy what the Empire is still capable of.
 TEXT_CONQUEST_PROTEUS_CENTRALITY,Sris Lehhett: Hello Commander, the galaxy has fallen into chaos ever since the Emperor died above Endor. It is our duty to preserve stability within the Centrality. For this reason we need to rebuild our fleet to fulfill the ardous task of restarting our economy. I trust you commander to complete this task.
 TEXT_CONQUEST_PROTEUS_COMPNOR,TODO
+TEXT_CONQUEST_PROTEUS_DROMMEL,TODO
 TEXT_CONQUEST_PROTEUS_GRUNGER,Josef Grunger: Word has reached me of the Emperor’s death, and I do not intend to pass up such an opportunity. This region of space is ripe with lesser men to join my armada. They will not be difficult to "convince".
 TEXT_CONQUEST_PROTEUS_MINOS,TODO
 TEXT_CONQUEST_PROTEUS_NIVERS,TODO
@@ -112,12 +116,21 @@ TEXT_EVENT_DASTA_FIGHTER_CHOICE_BODY,Procure starfighters from either Imperial o
 TEXT_EVENT_DASTA_FIGHTER_CHOICE_HEADER,Procure Starfighters
 TEXT_EVENT_DASTA_FIGHTER_CHOICE_IMPERIAL,Imperial Starfighters
 TEXT_EVENT_DASTA_FIGHTER_CHOICE_REBEL,New Republic Starfighters
+TEXT_EVENT_DUMMY_FYYAR_REGIME,Support Admiral Fyyar's coup
 TEXT_EVENT_KUAT_BC_CHOICE_BODY,Choose one Battlecruiser to be made available permanently. The other options will be removed.
 TEXT_EVENT_KUAT_BC_CHOICE_COMMS_BC,Communications Battlecruiser
 TEXT_EVENT_KUAT_BC_CHOICE_HEADER,Battlecruiser Choice
 TEXT_EVENT_KUAT_BC_CHOICE_PRAETOR,Praetor-II Battlecruiser
 TEXT_EVENT_KUAT_BC_CHOICE_PRAETOR_CARRIER,Praetor Carrier Battlecruiser
 TEXT_EVENT_KUAT_BC_CHOICE_SORANNAN,Sorannan Star Destroyer
+TEXT_EVENT_NIVERS_BELLATOR_CHOICE_BODY,               Choose a desgin to acquire as successor to the failed Bellator Star Dreadnought.
+TEXT_EVENT_NIVERS_BELLATOR_CHOICE_BODY,               Choose a desgin to acquire as successor to the failed Bellator Star Dreadnought.
+TEXT_EVENT_NIVERS_MANDATOR2_CHOICE_BODY,              Choose a desgin to acquire as successor to the failed Mandator-II Star Dreadnought.
+TEXT_EVENT_NIVERS_MANDATOR2_CHOICE_BODY,              Choose a desgin to acquire as successor to the failed Mandator-II Star Dreadnought.
+TEXT_EVENT_NIVERS_MANDATOR3_CHOICE_BODY,              Choose a desgin to acquire as successor to the failed Mandator-III Star Dreadnought.
+TEXT_EVENT_NIVERS_MANDATOR3_CHOICE_BODY,              Choose a desgin to acquire as successor to the failed Mandator-III Star Dreadnought.
+TEXT_EVENT_NIVERS_SSD_CHOICE_HEADER,              Star Dreadnought Choice
+TEXT_EVENT_NIVERS_SSD_CHOICE_HEADER,              Star Dreadnought Choice
 TEXT_EVENT_TOOLTIP_DASTA_FIGHTER_CHOICE_IMPERIAL,Offer the Imperial Remnant logistical and financial support in return for some of their best starfighter models. 
 TEXT_EVENT_TOOLTIP_DASTA_FIGHTER_CHOICE_REBEL,Offer the New Republic a trade agreement and diplomatic recognition in exchange for some of their modern starfighter models.
 TEXT_EVENT_TOOLTIP_KUAT_BC_CHOICE_COMMS_BC,Choose the Communications Battlecruiser. (Locks Praetor II, Praetor II Carrier, Sorannan Star Destroyer)
@@ -131,12 +144,13 @@ TEXT_EVENT_WARLORD_CHOICE_BRANDEI,Thrawn Remnants
 TEXT_EVENT_WARLORD_CHOICE_CARIDA,Imperial Carida
 TEXT_EVENT_WARLORD_CHOICE_CENTRALITY,The Centrality
 TEXT_EVENT_WARLORD_CHOICE_COMPNOR,Compnor
+TEXT_EVENT_WARLORD_CHOICE_DROMMEL,Oplovis Sector
 TEXT_EVENT_WARLORD_CHOICE_FEL,Brentaal Houses
 TEXT_EVENT_WARLORD_CHOICE_GRUNGER,Grunger's Empire
 TEXT_EVENT_WARLORD_CHOICE_LANOX,Imperial Loyalist
 TEXT_EVENT_WARLORD_CHOICE_MINOS,Minos Cluster
-TEXT_EVENT_WARLORD_CHOICE_NIVERS,TODO
 TEXT_EVENT_WARLORD_CHOICE_NIVERS,Nivers' Empire
+TEXT_EVENT_WARLORD_CHOICE_NIVERS,TODO
 TEXT_EVENT_WARLORD_CHOICE_PRAJI,Imperial Kaikielius
 TEXT_EVENT_WARLORD_CHOICE_REBORN,Empire Reborn
 TEXT_EVENT_WARLORD_CHOICE_RENDILI,Imperial Rendili
@@ -257,6 +271,7 @@ TEXT_PROTEUS_DESCRIPTION_BRANDEI,--TODO TEXT_PROTEUS_DESCRIPTION_BRANDEI--
 TEXT_PROTEUS_DESCRIPTION_CARIDA,--TODO TEXT_PROTEUS_DESCRIPTION_CARIDA--
 TEXT_PROTEUS_DESCRIPTION_CENTRALITY,The Centrality is a remote Sector in the Outer Rim which bordered Hutt space. The sector was part of the Empire but largely left alone due to it's extreme remoteness. It was ruled over by the Sorcerer of Tund until he was killed by Lando Calrissian. After the Empire was defeated at Endor, the Centrality regained it's independence but otherwise had little to no influence on the galaxy. They were sceptical of the New Republic but nonetheless signed a treaty of goodwill with them.
 TEXT_PROTEUS_DESCRIPTION_COMPNOR,Made up of the Empire's finest youths, COMPNOR is the pillar of the Empire's Foundation, with the original Old Republic in mind, COMPOR Lord Crueya Vandron plans on regaining what was lost at Endor and reforging the Empire anew with the young men and women of the Empire to fight Rogue Imperials and Rebels alike to keep the New Order alive.
+TEXT_PROTEUS_DESCRIPTION_DROMMEL,TODO
 TEXT_PROTEUS_DESCRIPTION_FEL,--TODO TEXT_PROTEUS_DESCRIPTION_FEL--
 TEXT_PROTEUS_DESCRIPTION_GRUNGER,One of the original twelve Grand Admirals, Grunger wasted no time consolidating his powerbase and making a play for control of the Imperial Remnant once he learned of Palpatine's death. Aggressive and capable, he was one of the main contenders for the Imperial Throne, and his growing strength worried the Central Committee of Grand Moffs and other Imperial warlords.
 TEXT_PROTEUS_DESCRIPTION_LANOX,--TODO TEXT_PROTEUS_DESCRIPTION_LANOX--
@@ -277,6 +292,7 @@ TEXT_PROTEUS_DESCRIPTION_X1,--TODO TEXT_PROTEUS_DESCRIPTION_X1--
 TEXT_PROTEUS_ROSTER_LAMBDA,Moff Lankin's forces are versatile and unspecialized, with a significant ISB contingent among their ranks to help keep the restive population in line. In space, a roster of efficient vessels can react to any situation and provide support to the massive battlecruisers that serve as anchors of the fleet. On the ground, their armies are adaptable, with a noticeable focus on mechanized assaults.
 TEXT_RECRUIT_URLAN_DESCRIPTION,TODO for Supernova
 TEXT_RECRUIT_URLAN_NAME,Recall Bengila Urlan from Retirement
+TEXT_REGICIDE_DESCRIPTION_FYYAR_REGIME,TODO
 TEXT_REPUBLIC_HEADHUNTER_SQUADRON,Republic Z-95 Squadron
 TEXT_REPUBLIC_HEADHUNTER_SQUADRON_DOUBLE,Republic Z-95 Squadron x2
 TEXT_REPUBLIC_HEADHUNTER_SQUADRON_HALF,Republic Z-95 Squadron 1/2
@@ -323,6 +339,13 @@ TEXT_STATBLOCK_AS_TIE_INTERCEPTOR_UPGUNNED_SQUADRON,Squadron: 12x Upgunned Heavy
 TEXT_STATBLOCK_AS_TIE_INTERCEPTOR_UPGUNNED_SQUADRON_DOUBLE,Squadron: 24x Upgunned Heavy TIE Interceptor
 TEXT_STATBLOCK_AS_TIE_INTERCEPTOR_UPGUNNED_SQUADRON_HALF,Squadron: 6x Upgunned Heavy TIE Interceptor
 TEXT_STATBLOCK_AS_TIE_INTERCEPTOR_UPGUNNED_WEAP2,1x Fighter Laser Cannon: 4 / 2.0s / 1.0km
+TEXT_STATBLOCK_AUREK_STARFIGHTER_BASE,Health: 7 | Shields: 3
+TEXT_STATBLOCK_AUREK_STARFIGHTER_MOVE,Speed: 9.07 | Maneuverability: 2.92
+TEXT_STATBLOCK_AUREK_STARFIGHTER_SQUADRON,Squadron: 12x Modernized Aurek Strikefighter
+TEXT_STATBLOCK_AUREK_STARFIGHTER_SQUADRON_DOUBLE,Squadron: 24x Modernized Aurek Strikefighter
+TEXT_STATBLOCK_AUREK_STARFIGHTER_SQUADRON_HALF,Squadron: 6x Modernized Aurek Strikefighter
+TEXT_STATBLOCK_AUREK_STARFIGHTER_WEAP1,1x Fighter Laser Cannon: 4 / 2.0s / 1.1km
+TEXT_STATBLOCK_AUREK_STARFIGHTER_WEAP2,1x Fighter Proton Torpedo: 1 / 50.0s / 1.8km
 TEXT_STATBLOCK_BELBULLAB22_BASE,Health: 16 | Shields: 6
 TEXT_STATBLOCK_BELBULLAB22_GRIEVOUS_BASE,Health: 220 | Shields: 200
 TEXT_STATBLOCK_BELBULLAB22_MOVE,Speed: 7.05 | Maneuverability: 3.94
@@ -535,10 +558,33 @@ TEXT_STATBLOCK_TIE_LIGHT_BOMBER_SQUADRON_DOUBLE,Squadron: 24x TIE Light  Bomber
 TEXT_STATBLOCK_TIE_LIGHT_BOMBER_SQUADRON_HALF,Squadron: 6x TIE Light  Bomber
 TEXT_STATBLOCK_TIE_LIGHT_BOMBER_WEAP3,1x Proton Rocket (AC): 1 / 20.0s / 3.0km
 TEXT_STATBLOCK_TIE_LIGHT_BOMBER_WEAP4,1x Concussion Bomb (AC): 1 / 20.0s / 0.8km
+TEXT_STATBLOCK_TRIFIGHTER_BASE,Health: 10 | Unshielded
+TEXT_STATBLOCK_TRIFIGHTER_MOVE,Speed: 7.4 | Maneuverability: 5.65
+TEXT_STATBLOCK_TRIFIGHTER_SQUADRON,Squadron: 12x Droid Tri-Fighter
+TEXT_STATBLOCK_TRIFIGHTER_SQUADRON_DOUBLE,Squadron: 24x Droid Tri-Fighter
+TEXT_STATBLOCK_TRIFIGHTER_SQUADRON_HALF,Squadron: 6x Droid Tri-Fighter
+TEXT_STATBLOCK_TRIFIGHTER_WEAP1,1x Fighter Laser Cannon: 8 / 3.0s / 1.0km
+TEXT_STATBLOCK_TRIFIGHTER_WEAP2,1x Fighter Concussion Missile: 1 / 50.0s / 1.8km
+TEXT_STATBLOCK_V_WING_ELITE_GUARD_BASE,Health: 9 | Shields: 6
+TEXT_STATBLOCK_V_WING_ELITE_GUARD_SQUADRON,Squadron: 12x Elite Guard V-wing
+TEXT_STATBLOCK_V_WING_ELITE_GUARD_SQUADRON_DOUBLE,Squadron: 24x Elite Guard V-wing
+TEXT_STATBLOCK_V_WING_ELITE_GUARD_SQUADRON_HALF,Squadron: 6x Elite Guard V-wing
+TEXT_STATBLOCK_V_WING_ELITE_GUARD_WEAP2,1x Fighter Concussion Missile: 1 / 75.0s / 1.8km
 TEXT_STATBLOCK_V_WING_ESK_SQUADRON,Squadron: 12x V-Wing "Esk"
 TEXT_STATBLOCK_V_WING_ESK_SQUADRON_DOUBLE,Squadron: 24x V-Wing "Esk"
 TEXT_STATBLOCK_V_WING_ESK_SQUADRON_HALF,Squadron: 6x V-Wing "Esk"
+TEXT_STATBLOCK_V_WING_MISSILE_SQUADRON,Squadron: 12x Missile V-wing
+TEXT_STATBLOCK_V_WING_MISSILE_SQUADRON_DOUBLE,Squadron: 24x Missile V-wing
+TEXT_STATBLOCK_V_WING_MISSILE_SQUADRON_HALF,Squadron: 6x Missile V-wing
 TEXT_STATBLOCK_V_WING_WEAP3,1x Fighter Ion Cannon: 2 / 3.0s / 1.0km
+TEXT_STATBLOCK_V19_BASE,Health: 12 | Unshielded
+TEXT_STATBLOCK_V19_MOVE,Speed: 7.5 | Maneuverability: 5.25
+TEXT_STATBLOCK_V19_SQUADRON,Squadron: 12x V-19 Torrent
+TEXT_STATBLOCK_V19_SQUADRON_DOUBLE,Squadron: 24x V-19 Torrent
+TEXT_STATBLOCK_V19_SQUADRON_HALF,Squadron: 6x V-19 Torrent
+TEXT_STATBLOCK_V19_SQUADRON_TRIPLE,Squadron: 36x V-19 Torrent
+TEXT_STATBLOCK_V19_WEAP1,1x Fighter Laser Cannon: 4 / 2.0s / 1.1km
+TEXT_STATBLOCK_V19_WEAP2,1x Fighter Concussion Missile: 1 / 50.0s / 1.8km
 TEXT_STATBLOCK_VCX820_BASE,Health: 22 | Shields: 14
 TEXT_STATBLOCK_VCX820_MOVE,Speed: 6.67 | Maneuverability: 3.90
 TEXT_STATBLOCK_VCX820_SQUADRON,Squadron: 12x - VCX-820
@@ -720,6 +766,7 @@ TEXT_TOOLTIP_ATXT_MOVE,Speed: 0.75 | Turn: 4.0
 TEXT_TOOLTIP_ATXT_SHIELD,Shields: 50 / [5/R] (Light Vehicle)
 TEXT_TOOLTIP_ATXT_WEAP1,1x Light AV Blaster Cannon: 4 / 2.0s / 320m
 TEXT_TOOLTIP_ATXT_WEAP2,2x Proton Grenades: 1 / 6.0s / 400m
+TEXT_TOOLTIP_AUREK_STARFIGHTER,The last, latest models of the venerable Aurek-series of strike fighters, a product of Outer Rim engineers rather than now-defunct megacorps. Speedy and armed with modern weapons, but the light construction and poor handling show the age of the base design even with new components and constant tuning. 
 TEXT_TOOLTIP_AUXILIA,An antiquated but well-rounded cruiser. It was designed to run down pirate vessels by the Trade Defense Force several centuries before the Clone Wars, and commonly sees service alongside the Captor-class that shares its base design. Well suited to engaging medium capital ships and escort vessels.
 TEXT_TOOLTIP_AUXILIA_HULL,Hull: 2310 (Frigate)
 TEXT_TOOLTIP_AUXILIA_MOVE,Speed: 5.6 | Accel: 0.25 | Turn: 0.45
@@ -862,6 +909,7 @@ TEXT_TOOLTIP_COMMAND_SUPERNOVA,Modernized DHC, Act on Vibes
 TEXT_TOOLTIP_COMMAND_SYNTAX_ERROR,Modified Glory Star Destroyer, SynTax Error
 TEXT_TOOLTIP_COMMAND_T11,Super Transport VII, Garbage Scowl
 TEXT_TOOLTIP_COMMAND_THETA_SQUADRON,TIE Bomber, Theta Squadron
+TEXT_TOOLTIP_COMMAND_WOLFS_CLAW,Imperial-I Star Destroyer, Wolf's Claw
 TEXT_TOOLTIP_COMMAND_YARNAR_SQUADRON,Missile TIE Fighter, Celanon Garrison Squadron
 TEXT_TOOLTIP_COMMS_DHC,Another refit of the ubiquitous Dreadnaught Heavy Cruiser hull, this version is geared towards being a fleet support vessel with extensive communication equipment, sensor capacity and electronic warfare suites. While the armament is reduced to free up power for these additional systems, the added capabilities make it a potent support ship in most fleets and are a testament to the versatility of the hull. Although not as powerful as the original configuration, it can still defend itself and nearby allies from smaller vessels.
 TEXT_TOOLTIP_COMMS_DHC_HULL,Hull: 2100 (Heavy Frigate)
@@ -1039,6 +1087,10 @@ TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_ARMY_SPECIAL_MISSIONS_HALFNHALF1,Army S
 TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_ARMY_SPECIAL_MISSIONS_HALFNHALF2,Army Special Missions Weapons Squad: 2 / 10
 TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_ARMY_SPECIAL_MISSIONS_STORMTROOPER_CARBINE1,Army Special Missions Rifleman Squad: 2 / 10
 TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_ARMY_SPECIAL_MISSIONS_STORMTROOPER_CARBINE2,Stormtrooper Carabineer Squad: 2 / 10
+TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_ARMY_SPECIAL_MISSIONS_STORMTROOPER_RIFLE1,Army Special Missions Rifleman Squad: 2 / 10
+TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_ARMY_SPECIAL_MISSIONS_STORMTROOPER_RIFLE1,Army Special Missions Rifleman Squad: 2 / 10
+TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_ARMY_SPECIAL_MISSIONS_STORMTROOPER_RIFLE2,Stormtrooper Rifleman Squad: 2 / 10
+TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_ARMY_SPECIAL_MISSIONS_STORMTROOPER_RIFLE2,Stormtrooper Rifleman Squad: 2 / 10
 TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_ARMY_SPECIAL_MISSIONS1,Army Special Missions Rifleman Squad: 3 / 15
 TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_ARMY_SPECIAL_MISSIONS2,Army Special Missions Weapons Squad: 1 / 5
 TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_ARMY_TROOPER_DSD11,Army Trooper Anti-Personnel Squad: 2 / 10
@@ -1098,6 +1150,10 @@ TEXT_TOOLTIP_FIELD_BASE_SUPPORT_PROTEUS_NAVY_TROOPER1,Navy Trooper Squad: 1 / 10
 TEXT_TOOLTIP_FIELD_BASE_SUPPORT_PROTEUS_NAVY_TROOPER2,Navy Trooper Medic Squad: 2 / 10
 TEXT_TOOLTIP_FIELD_BASE_SUPPORT_PROTEUS_SPECIAL_MISSIONS_ENGINEER_ARMY_MEDIC1,Army Special Missions Engineer Squad: 1 / 10
 TEXT_TOOLTIP_FIELD_BASE_SUPPORT_PROTEUS_SPECIAL_MISSIONS_ENGINEER_ARMY_MEDIC2,Army Trooper Medic Squad: 2 / 10
+TEXT_TOOLTIP_FIELD_BASE_SUPPORT_PROTEUS_SPECIAL_MISSIONS_ENGINEER1,Army Special Missions Rifleman Squad: 1 / 10
+TEXT_TOOLTIP_FIELD_BASE_SUPPORT_PROTEUS_SPECIAL_MISSIONS_ENGINEER1,Army Special Missions Rifleman Squad: 1 / 10
+TEXT_TOOLTIP_FIELD_BASE_SUPPORT_PROTEUS_SPECIAL_MISSIONS_ENGINEER2,Army Special Missions Engineer Squad: 2 / 10
+TEXT_TOOLTIP_FIELD_BASE_SUPPORT_PROTEUS_SPECIAL_MISSIONS_ENGINEER2,Army Special Missions Engineer Squad: 2 / 10
 TEXT_TOOLTIP_FIELD_BASE_SUPPORT_STORMTROOPER_MEDIUM_ARMY_MEDIC1,Stormtrooper Fireteam: 1 / 10
 TEXT_TOOLTIP_FIELD_BASE_SUPPORT_STORMTROOPER_MEDIUM_ARMY_MEDIC2,Army Trooper Medic Squad: 2 / 10
 TEXT_TOOLTIP_FROSTFIRE_SHIELD,Shields: 5,000 / [75/R] (Capital)
@@ -1106,6 +1162,7 @@ TEXT_TOOLTIP_FROSTFIRE_WEAP1,4x Medium Quad Turbolasers: 1 / 4.0s / 6.3km
 TEXT_TOOLTIP_FROSTFIRE_WEAP2,4x Medium Turbolasers: 2 / 0.75s / 6.3km
 TEXT_TOOLTIP_FROSTFIRE_WEAP3,2x Medium Dual Ion Cannons: 2 / 4.0s / 6.3km
 TEXT_TOOLTIP_FYYAR,An Imperial Admiral mainly known for his research projects rather than military campaigns. Fyyar worked on armor and shield technologies, including the Shadow Armor that the Reborn Dark Jedi would wear, empowered by Artusian crystals, as well as a mechanized battle suit for himself. Sometime after the Battle of Endor, Fyyar joined forces with Hethrir and Desann, lending his technological expertise and gaining command of the faction's advanced siege warship, the Doomgiver. However, Fyyar had little respect for the force-obsessed Hethrir and Desann and planned to take the throne for himself once the Jedi were out of the way.   
+TEXT_TOOLTIP_FYYAR_EMPEROR,TODO
 TEXT_TOOLTIP_GAT,The Ground Armored Tank served as a shielded fast attack platform early in the war, often in opposition to the comparable Saber tanks. Due to losses and poor direct performance against loyalist assets, the design ceased production relatively quickly into the war in favour of Techno Union alternatives.
 TEXT_TOOLTIP_GAT_COMPANY,Company: 4x GAT
 TEXT_TOOLTIP_GAT_HEALTH,Health: 100 (Medium Vehicle)
@@ -1613,6 +1670,7 @@ TEXT_TOOLTIP_TIE_INTERCEPTOR_BF2,A rare modification of the TIE Interceptor made
 TEXT_TOOLTIP_TIE_INTERCEPTOR_ION,A somewhat obscure modification of the TIE Interceptor, replacing the nose-mounted secondary lasers with fighter-grade ion cannons and upgrading the frame's power systems to compensate for the increased power draw. The end result is better at tackling shielded fighters and larger targets but otherwise retains the performance of the stock configuration. While undeniably an upgrade over the base model, the increased cost and maintenance load makes it a rare sight.
 TEXT_TOOLTIP_TIE_LIGHT_BOMBER,A post-Endor modification of the common TIE/sa with a tongue-in-cheek name. Originally an improvisation by garrisons and task forces with stressed or threatened supply lines; the flight mechanics removed the secondary launchers and support systems and reduced the primary payload to reduce mass and complexity, as well as tuning the power systems for speed. While less versatile or threatening as the base model, these stripped variants proved much easier to maintain and boasted a higher mission survival rate in certain scenarios due to their improved flight performance.
 TEXT_TOOLTIP_TILAS_MAGORE,A minor Imperial Advisor, Magore was in charge of Subjugating the Brak Sector. Moff Lesan Ramier reported to him, and Magore in turn to Palpatine. However, Ramier was ultimately running the Imperial affairs in the sector itself, simply reporting any good news to Magore so the latter could gain influence at the Imperial court.
+TEXT_TOOLTIP_TORRENT,A maneuverable mainline fighter, this craft was originally designed for the Clone Wars where it was one of the most common Republic fighter models. Imperial service saw it replaced by the TIE Series and relegated to the Outer Rim where it would begin to see use by other groups.
 TEXT_TOOLTIP_TRAIT_AGENT_TIER_AGENT_02_SPEC_REBORN,Agent II Spec (-20% cost to Reborn Shadowtroopers)
 TEXT_TOOLTIP_TRAIT_AGENT_TIER_AGENT_02_SPEC_SCHMONG,Agent Spec 02 (-20% price and time on all SoroSuub and Zeta Project products),  
 TEXT_TOOLTIP_TRAIT_AGENT_TIER_INDUSTRIALIST_TAGGE,Industrialist: TaggeCo (-20% cost, -20% time)
@@ -1628,6 +1686,7 @@ TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP4,Thermal Grenades: 1 / 15.0s / 200m
 TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP5,3x Oppressor Flamethrowers: 10 / 5.0s / 275m
 TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP6,3x Concussion Rifles: 3 / 3.0s / 300m
 TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP7,1x Underslung Concussion Grenade Launcher: 1 / 3.0s / 300m
+TEXT_TOOLTIP_TRIFIGHTER,A compact, Colicoid designed droid fighter built around a reactor and advanced droid brain. It is fast, powerful, and agile but costly enough to not be deployed in as great numbers as vultures and their derivatives. It is very well suited to dogfighting and intercepting bombers.
 TEXT_TOOLTIP_TRIUMPH,A rare capital ship that is technically part of the Imperial Star Destroyer lineage, with an obscure design and deployment history. It features elements of both Tector- and Victory-class hulls and reuses many of the weapons used in various Victory Star Destroyer loadouts, leading to rumors that these ships were assembled in Rendili yards from surplus Tector and Victory modules and components. Regardless of their true origin, their armament makes this class of Star Destroyer a dangerous frontline combatant, able to engage targets of any size at any range, but the lack of point defense cannons and an on-board starfighter complement makes them exceedingly vulnerable to small craft.
 TEXT_TOOLTIP_TRIUMPH_HERO_HULL,Hull: 8250 (Capital)
 TEXT_TOOLTIP_TRIUMPH_HERO_SHIELD,Shields: 8250 / [41.25/R] (Capital)
@@ -1655,7 +1714,9 @@ TEXT_TOOLTIP_UTAT_MOVE,Speed: 0.5 | Turn: 2.0
 TEXT_TOOLTIP_UTAT_WEAP1,1x Medium Mass Driver Cannon: 1 / 3.0s / 480m
 TEXT_TOOLTIP_UTAT_WEAP2,2x Super Heavy AV Blaster Cannons: 1 / 2.0s / 480m
 TEXT_TOOLTIP_UTAT_WEAP3,4x AI Blaster Cannons: 5 / 2.5s / 320m
+TEXT_TOOLTIP_V_WING_ELITE_GUARD,A rare upgraded version of the Nimbus V-Wing featuring a hyperdrive, improved shielding, and concussion missiles used for escorting high value personnel.
 TEXT_TOOLTIP_V_WING_ESK,V-Wing variant equipped with ion cannons to operate as a fast pursuit craft. Would often see use by groups in need of a fast interceptor with the ability to stun small ships attempting to escape.
+TEXT_TOOLTIP_V_WING_MISSILE,An extremely fast interceptor with a respectable armament. Developed by Walex Blissex during the Clone Wars to be launched in swarms by mainline Republic carriers, it would later be phased out after a few years of Imperial service in favour of the more cost-effective TIE series. It is best used to engage enemy fighters or respond to incoming bombers. This version is equipped with a limited supply of concussion missiles.
 TEXT_TOOLTIP_VASKOR,Captain Vaskor was an Imperial naval officer who commanded a modified Victory II-class Star Destroyer equipped with an improved hyperdrive during the fragmentation of the Empire after Endor. A trusted officer within High Admiral Tharkus's forces, Vaskor and his vessel served throughout the campaign to secure the Heart of the Jedi and restore Imperial dominance over the galaxy.
 TEXT_TOOLTIP_VASKOR_SQUADRON,Fighters: 2 / 2 
 TEXT_TOOLTIP_VCX820,The VCX-820 was a heavy yet fast flying-guns platform that was designed to military specifications. As such it could easily guard convoys of otherwise defenseless bulk freighters and commerce craft. Well suited to engaging any enemy target.
@@ -1712,6 +1773,13 @@ TEXT_TOOLTIP_YARNAR,A TIE Fighter pilot stationed on Celanon in the D'Asta Secto
 TEXT_TOOLTIP_YEORG_CAPTISON,Yeorg Captison was a member of the notable Bakuran Captison family of politicians and was married to Tiree Captison. Yeorg was elected to the Bakuran Senate as Prime Minister around four years before the beginning of the Clone Wars. After the Empire took control over Bakura they allowed him to remain as Prime Minister, though the post held little authority, as it was now subservient to the Imperial governor, Wilek Nereus.
 TEXT_TOOLTIP_YV929,A heavily armed corellian freighter that became popular with the pirates and rebels which it was designed to ward off. This "flying brick" as it is often called also made its way to the Corporate Sector Authority. The heavy armor and armament make it well suited to engaging hard targets like cruisers.
 TEXT_TOOLTIP_Z95_HEADHUNTER_MODERNIZED,Over its many decades of service across the galaxy the Z-95 Headhunter has spawned countless variations and refits. This version takes the base hullform and installs modern engines and shield generators, along with an internal proton torpedo launcher and lightweight flechette missiles under the wings in an attempt to compete with more modern fighters at a lower cost. While not as capable as the T-65 X-Wing line, it is still a significant improvement on the base hull.
+TEXT_TORRENT_SQUADRON,V-19 Torrent Squadron
+TEXT_TORRENT_SQUADRON_HALF,V-19 Torrent Squadron 1/2
+TEXT_TORRENT_SQUADRON2,V-19 Torrent Squadron x2
+TEXT_TORRENT_SQUADRON3,V-19 Torrent Squadron x3
+TEXT_TRIFIGHTER_SQUADRON,Tri-fighter Squadron
+TEXT_TRIFIGHTER_SQUADRON_HALF,Tri-fighter Squadron 1/2
+TEXT_TRIFIGHTER_SQUADRON2,Tri-fighter Squadron x2
 TEXT_UNIT_008_SPEEDER,008 Heavy Landspeeder
 TEXT_UNIT_008_SPEEDER_COMPANY,008 Heavy Landspeeder Company
 TEXT_UNIT_1HB_TANK,1-H Repulsortank, Model B
@@ -1736,11 +1804,12 @@ TEXT_UNIT_AT_KT_WALKER_COMPANY,AT-KT Walker Company
 TEXT_UNIT_AT_OT_WALKER,AT-OT Walker
 TEXT_UNIT_AT_OT_WALKER_COMPANY,AT-OT Walker Company
 TEXT_UNIT_AT_PT_SNIPER,AT-PT/A Walker
-TEXT_UNIT_AT_TE_WALKER_CANONNEER,
 TEXT_UNIT_AT_TE_WALKER_CANONNEER,Cannoneer AT-TE Walker
+TEXT_UNIT_AT_TE_WALKER_CANONNEER,
 TEXT_UNIT_AT_TE_WALKER_COMMAND,AT-TE Walker (Command Refit)
 TEXT_UNIT_AT_XT_WALKER,AT-XT Walker
 TEXT_UNIT_ATACT,AT-ACT Walker
+TEXT_UNIT_AUREK_STARFIGHTER,Modernized Aurek Strikefighter
 TEXT_UNIT_AUXILIA,Auxilia Pursuit Destroyer
 TEXT_UNIT_AV7,AV-7 Antivehicle Cannon
 TEXT_UNIT_BAYONET,Bayonet Light Cruiser
@@ -1963,6 +2032,7 @@ TEXT_UNIT_TIE_GT_TORPS,Torpedo TIE/gt Starfighter
 TEXT_UNIT_TIE_INTERCEPTOR_BF2,Special Mission Refit TIE Interceptor
 TEXT_UNIT_TIE_INTERCEPTOR_ION,Ion Refit TIE Interceptor
 TEXT_UNIT_TIE_LIGHT_BOMBER,Tie Light Bomber
+TEXT_UNIT_TORRENT,V-19 Torrent
 TEXT_UNIT_TRADESTATION_DASTA,D'Asta Family Trade Port
 TEXT_UNIT_TRANDOSHAN_ALPHA,Trandoshan Alpha
 TEXT_UNIT_TRANDOSHAN_COMMAND_SQUAD,Trandoshan Command Squad
@@ -1972,9 +2042,12 @@ TEXT_UNIT_TRANDOSHAN_GUNNER_HEAVY,Heavy Trandoshan Gunner
 TEXT_UNIT_TRANDOSHAN_GUNNER_LIGHT,Light Trandoshan Gunner
 TEXT_UNIT_TRANDOSHAN_HUNTING_PACK,Trandoshan Hunting Pack
 TEXT_UNIT_TRANDOSHAN_RIFLEMAN,Trandoshan Rifleman
+TEXT_UNIT_TRIFIGHTER,Droid Tri-Fighter
 TEXT_UNIT_TRIUMPH,Triumph Star Destroyer
 TEXT_UNIT_UT_AT,UT-AT
 TEXT_UNIT_V_WING_ESK,V-Wing "Esk"
+TEXT_UNIT_V_WING_FIGHTER_ELITE_GUARD,Elite Guard V-wing
+TEXT_UNIT_V_WING_FIGHTER_MISSILE,Missile V-wing
 TEXT_UNIT_VCX820,VCX-820 Escort Freighter
 TEXT_UNIT_VECTOR,Vector Star Destroyer
 TEXT_UNIT_VENATOR_8X,Venator Star Destroyer Refit
@@ -1986,9 +2059,15 @@ TEXT_UNIT_VSHIELDED_RESEARCH,Shielded Walker Research
 TEXT_UNIT_VULTURE_DROID,Vulture Droid Mark 1
 TEXT_UNIT_YV929,YV-929 Armed Freighter
 TEXT_UNIT_Z95_HEADHUNTER_MODERNIZED,Modernized Z-95 Headhunter
+TEXT_V_WING_ELITE_GUARD_SQUADRON,Elite Guard V-wing Squadron
+TEXT_V_WING_ELITE_GUARD_SQUADRON_HALF,Elite Guard V-wing Squadron 1/2
+TEXT_V_WING_ELITE_GUARD_SQUADRON2,Elite Guard V-wing Squadron x2
 TEXT_V_WING_ESK_SQUADRON,V-wing "Esk" Squadron
 TEXT_V_WING_ESK_SQUADRON_HALF,V-wing "Esk" Squadron 1/2
 TEXT_V_WING_ESK_SQUADRON2,V-wing "Esk" Squadron x2
+TEXT_V_WING_MISSILE_SQUADRON,Missile V-wing Squadron
+TEXT_V_WING_MISSILE_SQUADRON_HALF,Missile V-wing Squadron 1/2
+TEXT_V_WING_MISSILE_SQUADRON2,Missile V-wing Squadron x2
 TEXT_VCX820_SQUADRON,VCX-820 Squadron
 TEXT_VCX820_SQUADRON_HALF,VCX-820 Squadron 1/2
 TEXT_VCX820_SQUADRON2,VCX-820 Squadron x2
@@ -2013,67 +2092,3 @@ Z_TEXT_UNIT_GORATH_RESEARCH,Reverse-engineer the Gorath Strike Cruiser
 Z_TEXT_UNIT_MISSILE_BOAT_RESEARCH,Reverse-engineer the Missile Boat
 Z_TEXT_UNIT_MTC_RESEARCH,Reverse-engineer the Modular Taskforce Cruiser
 Z_TEXT_UNIT_SCIMITAR_RESEARCH,Reverse-engineer the Scimitar Assault Bomber
-TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_ARMY_SPECIAL_MISSIONS_STORMTROOPER_RIFLE1,Army Special Missions Rifleman Squad: 2 / 10
-TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_ARMY_SPECIAL_MISSIONS_STORMTROOPER_RIFLE2,Stormtrooper Rifleman Squad: 2 / 10
-TEXT_TOOLTIP_FIELD_BASE_SUPPORT_PROTEUS_SPECIAL_MISSIONS_ENGINEER1,Army Special Missions Rifleman Squad: 1 / 10
-TEXT_TOOLTIP_FIELD_BASE_SUPPORT_PROTEUS_SPECIAL_MISSIONS_ENGINEER2,Army Special Missions Engineer Squad: 2 / 10
-TEXT_EVENT_NIVERS_SSD_CHOICE_HEADER,              Star Dreadnought Choice
-TEXT_EVENT_NIVERS_MANDATOR2_CHOICE_BODY,              Choose a desgin to acquire as successor to the failed Mandator-II Star Dreadnought.
-TEXT_EVENT_NIVERS_BELLATOR_CHOICE_BODY,               Choose a desgin to acquire as successor to the failed Bellator Star Dreadnought.
-TEXT_EVENT_NIVERS_MANDATOR3_CHOICE_BODY,              Choose a desgin to acquire as successor to the failed Mandator-III Star Dreadnought.
-TEXT_UNIT_V_WING_FIGHTER_MISSILE,Missile V-wing
-TEXT_TOOLTIP_V_WING_MISSILE,An extremely fast interceptor with a respectable armament. Developed by Walex Blissex during the Clone Wars to be launched in swarms by mainline Republic carriers, it would later be phased out after a few years of Imperial service in favour of the more cost-effective TIE series. It is best used to engage enemy fighters or respond to incoming bombers. This version is equipped with a limited supply of concussion missiles.
-TEXT_V_WING_MISSILE_SQUADRON,Missile V-wing Squadron
-TEXT_STATBLOCK_V_WING_MISSILE_SQUADRON,Squadron: 12x Missile V-wing
-TEXT_V_WING_MISSILE_SQUADRON2,Missile V-wing Squadron x2
-TEXT_STATBLOCK_V_WING_MISSILE_SQUADRON_DOUBLE,Squadron: 24x Missile V-wing
-TEXT_V_WING_MISSILE_SQUADRON_HALF,Missile V-wing Squadron 1/2
-TEXT_STATBLOCK_V_WING_MISSILE_SQUADRON_HALF,Squadron: 6x Missile V-wing
-TEXT_UNIT_V_WING_FIGHTER_ELITE_GUARD,Elite Guard V-wing
-TEXT_TOOLTIP_V_WING_ELITE_GUARD,A rare upgraded version of the Nimbus V-Wing featuring a hyperdrive, improved shielding, and concussion missiles used for escorting high value personnel.
-TEXT_STATBLOCK_V_WING_ELITE_GUARD_BASE,Health: 9 | Shields: 6
-TEXT_STATBLOCK_V_WING_ELITE_GUARD_WEAP2,1x Fighter Concussion Missile: 1 / 75.0s / 1.8km
-TEXT_STATBLOCK_V_WING_ELITE_GUARD_SQUADRON,Squadron: 12x Elite Guard V-wing
-TEXT_V_WING_ELITE_GUARD_SQUADRON,Elite Guard V-wing Squadron
-TEXT_STATBLOCK_V_WING_ELITE_GUARD_SQUADRON_DOUBLE,Squadron: 24x Elite Guard V-wing
-TEXT_V_WING_ELITE_GUARD_SQUADRON2,Elite Guard V-wing Squadron x2
-TEXT_STATBLOCK_V_WING_ELITE_GUARD_SQUADRON_HALF,Squadron: 6x Elite Guard V-wing
-TEXT_V_WING_ELITE_GUARD_SQUADRON_HALF,Elite Guard V-wing Squadron 1/2
-TEXT_UNIT_TORRENT,V-19 Torrent
-TEXT_TOOLTIP_TORRENT,A maneuverable mainline fighter, this craft was originally designed for the Clone Wars where it was one of the most common Republic fighter models. Imperial service saw it replaced by the TIE Series and relegated to the Outer Rim where it would begin to see use by other groups.
-TEXT_STATBLOCK_V19_BASE,Health: 12 | Unshielded
-TEXT_STATBLOCK_V19_MOVE,Speed: 7.5 | Maneuverability: 5.25
-TEXT_STATBLOCK_V19_WEAP1,1x Fighter Laser Cannon: 4 / 2.0s / 1.1km
-TEXT_STATBLOCK_V19_WEAP2,1x Fighter Concussion Missile: 1 / 50.0s / 1.8km
-TEXT_STATBLOCK_V19_SQUADRON,Squadron: 12x V-19 Torrent
-TEXT_STATBLOCK_V19_SQUADRON_DOUBLE,Squadron: 24x V-19 Torrent
-TEXT_STATBLOCK_V19_SQUADRON_HALF,Squadron: 6x V-19 Torrent
-TEXT_STATBLOCK_V19_SQUADRON_TRIPLE,Squadron: 36x V-19 Torrent
-TEXT_TORRENT_SQUADRON,V-19 Torrent Squadron
-TEXT_TORRENT_SQUADRON_HALF,V-19 Torrent Squadron 1/2
-TEXT_TORRENT_SQUADRON2,V-19 Torrent Squadron x2
-TEXT_TORRENT_SQUADRON3,V-19 Torrent Squadron x3
-TEXT_UNIT_TRIFIGHTER,Droid Tri-Fighter
-TEXT_TOOLTIP_TRIFIGHTER,A compact, Colicoid designed droid fighter built around a reactor and advanced droid brain. It is fast, powerful, and agile but costly enough to not be deployed in as great numbers as vultures and their derivatives. It is very well suited to dogfighting and intercepting bombers.
-TEXT_STATBLOCK_TRIFIGHTER_BASE,Health: 10 | Unshielded
-TEXT_STATBLOCK_TRIFIGHTER_MOVE,Speed: 7.4 | Maneuverability: 5.65
-TEXT_STATBLOCK_TRIFIGHTER_SQUADRON,Squadron: 12x Droid Tri-Fighter
-TEXT_STATBLOCK_TRIFIGHTER_SQUADRON_DOUBLE,Squadron: 24x Droid Tri-Fighter
-TEXT_STATBLOCK_TRIFIGHTER_SQUADRON_HALF,Squadron: 6x Droid Tri-Fighter
-TEXT_STATBLOCK_TRIFIGHTER_WEAP1,1x Fighter Laser Cannon: 8 / 3.0s / 1.0km
-TEXT_STATBLOCK_TRIFIGHTER_WEAP2,1x Fighter Concussion Missile: 1 / 50.0s / 1.8km
-TEXT_TRIFIGHTER_SQUADRON,Tri-fighter Squadron
-TEXT_TRIFIGHTER_SQUADRON_HALF,Tri-fighter Squadron 1/2
-TEXT_TRIFIGHTER_SQUADRON2,Tri-fighter Squadron x2
-TEXT_TOOLTIP_AUREK_STARFIGHTER,The last, latest models of the venerable Aurek-series of strike fighters, a product of Outer Rim engineers rather than now-defunct megacorps. Speedy and armed with modern weapons, but the light construction and poor handling show the age of the base design even with new components and constant tuning. 
-TEXT_STATBLOCK_AUREK_STARFIGHTER_BASE,Health: 7 | Shields: 3
-TEXT_STATBLOCK_AUREK_STARFIGHTER_MOVE,Speed: 9.07 | Maneuverability: 2.92
-TEXT_STATBLOCK_AUREK_STARFIGHTER_SQUADRON,Squadron: 12x Modernized Aurek Strikefighter
-TEXT_STATBLOCK_AUREK_STARFIGHTER_SQUADRON_DOUBLE,Squadron: 24x Modernized Aurek Strikefighter
-TEXT_STATBLOCK_AUREK_STARFIGHTER_SQUADRON_HALF,Squadron: 6x Modernized Aurek Strikefighter
-TEXT_STATBLOCK_AUREK_STARFIGHTER_WEAP1,1x Fighter Laser Cannon: 4 / 2.0s / 1.1km
-TEXT_STATBLOCK_AUREK_STARFIGHTER_WEAP2,1x Fighter Proton Torpedo: 1 / 50.0s / 1.8km
-TEXT_UNIT_AUREK_STARFIGHTER,Modernized Aurek Strikefighter
-TEXT_AUREK_STARFIGHTER_SQUADRON,Modernized Aurek Strikefighter Squadron
-TEXT_AUREK_STARFIGHTER_SQUADRON_HALF,Modernized Aurek Strikefighter Squadron 1/2
-TEXT_AUREK_STARFIGHTER_SQUADRON2,Modernized Aurek Strikefighter Squadron x2

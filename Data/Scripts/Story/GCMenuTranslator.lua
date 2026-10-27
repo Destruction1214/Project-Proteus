@@ -84,6 +84,7 @@ return {
 	["MINOS"] ="faction_81",
 	["TATOOINE"] ="faction_82",
 	["TRAX"] ="faction_83",
+	["DROMMEL"] ="faction_84",
 	["SECRET"] ="faction_94",
 	
 
@@ -175,6 +176,7 @@ return {
 		"MINOS",
 		"TATOOINE",
 		"TRAX",
+		"DROMMEL",
 		"SECRET",
 	},
 

@@ -980,6 +980,8 @@ return {
 ["INVINCIBLE_CRUISER_MODERNIZED"] = true,
 ["ISARD_CLONE_LUSANKYA_DUMMY"] = true,
 ["KIARA_SCHMONG"] = true,
+["DROMMEL_WOLFS_CLAW"] = true,
+["DROMMEL_GUARDIAN_DUMMY"] = true,
 -- Project Proteus Dev Heroes
 ["TAXEVADER_SYNTAX_ERROR"] = true,
 ["TAXEVADER_DREAM_OF_A_QUIET_LIFE"] = true,
